@@ -1,0 +1,15 @@
+{
+  "captured_at": "2026-10-25T02:57:53.6466767+00:00",
+  "boot_id": "f9c2ef98-e1c7-4bfd-a9fe-9b861b2a0e1a",
+  "scoped_probe": "dev.androidlab.attestationprobe",
+  "original_scope_restored": true,
+  "synthetic_root_sha256": "b96c7a1fefd5ee20b9852cb3dccbbdd2869d1952da663d8bd59a8e163f4d249b",
+  "certificate_signatures_verified": true,
+  "external_nonce_binding_verified": true,
+  "manufacturer_trust": "not_established",
+  "failed_prerequisites": [
+    "root_certificate_in_external_snapshot",
+    "root_public_key_in_external_snapshot"
+  ],
+  "loaded_selinux_policy_sha256": "725322b8bb21c399e222db65bd9e0ee307a3b603d19d9a3d5f47a93cc8f369c0"
+}

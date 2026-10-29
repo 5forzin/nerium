@@ -1,0 +1,54 @@
+{
+  "verifier_repository": "https://github.com/android/keyattestation",
+  "verifier_commit": "621149c4ebaeeea844d6f43098687c73c4d370a3",
+  "cases": [
+    {
+      "label": "modified_candidate",
+      "pem_sha256": "54aae207250bd613c6cf1949473cab4f453949271cfc673ac71aa4af89570d16",
+      "exit_code": 0,
+      "verdict": "Verification Failed: PathValidationFailure(cause=java.security.cert.CertPathValidatorException: No matching trust anchor found)",
+      "log": "strict-v20-official-verifier-modified_candidate.txt",
+      "log_sha256": "cb608fa466b1269071c81fb267c367da426e6e04e215795d7a99bb1b75835de9"
+    },
+    {
+      "label": "stock_google_play_api35_emulator",
+      "pem_sha256": "3343b61f1004ff6f62e4e11abd838bd1c9ec4b3daf2517c754fda83a033a2902",
+      "exit_code": 0,
+      "verdict": "Verification Failed: PathValidationFailure(cause=java.security.cert.CertPathValidatorException: No matching trust anchor found)",
+      "log": "strict-v20-official-verifier-stock_google_play_api35_emulator.txt",
+      "log_sha256": "73fb8db5dd8c70044e95065ed8f1ffc0c29044434c81c576850bbd69eefa68cc"
+    },
+    {
+      "label": "physical_pixel9_api35_tee",
+      "pem_sha256": "257688607b4d880e4980f4e796dde657b158d4fe1ea123c16942a0a7ad68b4bc",
+      "exit_code": 0,
+      "verdict": "Verification Successful!",
+      "log": "strict-v20-official-verifier-physical_pixel9_api35_tee.txt",
+      "log_sha256": "7580d15bf12e93efc542d4ad3d22ab44fc04793785055ee215c586cb88a5e7fa"
+    },
+    {
+      "label": "physical_pixel9_api35_strongbox",
+      "pem_sha256": "c88a52de5143db88f5ec27b0ccc24077a960ea78d947e6052317aea49dee6bcf",
+      "exit_code": 0,
+      "verdict": "Verification Successful!",
+      "log": "strict-v20-official-verifier-physical_pixel9_api35_strongbox.txt",
+      "log_sha256": "421f8be97ca2de70195d220847bddc3edfd2a008ba09d03024705fcaf9550b1e"
+    },
+    {
+      "label": "physical_galaxys25ultra_api35_tee",
+      "pem_sha256": "3f0e5e228d0e0f5c5ac2a58f9d4c29f861caf49b4dc4ba4b2c7eb2c684b84cdd",
+      "exit_code": 0,
+      "verdict": "Verification Successful!",
+      "log": "strict-v20-official-verifier-physical_galaxys25ultra_api35_tee.txt",
+      "log_sha256": "0338cdc2136020b17d7d998b7e647b3384fad862bb2c92a47e2ed07ec54d2fa7"
+    },
+    {
+      "label": "physical_galaxys25ultra_api35_strongbox",
+      "pem_sha256": "f17a57a51b3eb7ffe5ee299e864a9995848d62d82ffdd8d692dc88aded817db9",
+      "exit_code": 0,
+      "verdict": "Verification Successful!",
+      "log": "strict-v20-official-verifier-physical_galaxys25ultra_api35_strongbox.txt",
+      "log_sha256": "5ef61eda392b3a3eccc58a1b4d8f52d84511a19a86fb4440aae8d7015c2986a7"
+    }
+  ]
+}

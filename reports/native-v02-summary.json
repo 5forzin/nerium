@@ -1,0 +1,56 @@
+{
+  "module_apk_sha256": "a65ac35e757e36700cfb02db1c181d887c3ae8ab925ba4b8f2c2568250108327",
+  "probe_apk_sha256": "11d96234e375e74b08537d102105060431d724cfd8ef089dc62cf3c6f835d860",
+  "measurements": [
+    {
+      "phase": "before",
+      "probe_detected": 23,
+      "probe_total": 31,
+      "unavailable": 0,
+      "detector_findings": 4,
+      "detector_apk_sha256": "9f064f3968e9a224612810ec2b6078872f479930ce4dd0fc1f7132b08c6b3f5b",
+      "io_controls_passed": true,
+      "syscall_control_still_detects_hypervisor": true
+    },
+    {
+      "phase": "enabled",
+      "probe_detected": 8,
+      "probe_total": 31,
+      "unavailable": 0,
+      "detector_findings": 0,
+      "detector_apk_sha256": "9f064f3968e9a224612810ec2b6078872f479930ce4dd0fc1f7132b08c6b3f5b",
+      "io_controls_passed": true,
+      "syscall_control_still_detects_hypervisor": true
+    },
+    {
+      "phase": "disabled-again",
+      "probe_detected": 23,
+      "probe_total": 31,
+      "unavailable": 0,
+      "detector_findings": 4,
+      "detector_apk_sha256": "9f064f3968e9a224612810ec2b6078872f479930ce4dd0fc1f7132b08c6b3f5b",
+      "io_controls_passed": true,
+      "syscall_control_still_detects_hypervisor": true
+    },
+    {
+      "phase": "enabled-again",
+      "probe_detected": 8,
+      "probe_total": 31,
+      "unavailable": 0,
+      "detector_findings": 0,
+      "detector_apk_sha256": "9f064f3968e9a224612810ec2b6078872f479930ce4dd0fc1f7132b08c6b3f5b",
+      "io_controls_passed": true,
+      "syscall_control_still_detects_hypervisor": true
+    },
+    {
+      "phase": "after-reboot",
+      "probe_detected": 8,
+      "probe_total": 31,
+      "unavailable": 0,
+      "detector_findings": 0,
+      "detector_apk_sha256": "9f064f3968e9a224612810ec2b6078872f479930ce4dd0fc1f7132b08c6b3f5b",
+      "io_controls_passed": true,
+      "syscall_control_still_detects_hypervisor": true
+    }
+  ]
+}

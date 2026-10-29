@@ -1,0 +1,174 @@
+{
+  "schema_version": 1,
+  "scope": "independent_host_public_evidence_controls_after_algorithm_fix",
+  "recorded_at": "2026-10-26T23:27:24.476334+00:00",
+  "device_operations_performed": false,
+  "private_key_material_used": false,
+  "source_files_modified_by_auditor": false,
+  "verifier_sha256": "4af3959d85c10805716acc09cd5e1e3267e32b614f525fd755b475f5bb91007d",
+  "asn1_helper_sha256": "f6d8220f590f33554fefe6393520e8263cedf646091e6c6b171a2924dea52e56",
+  "report_sha256": "5931475e864a0babf38293603b8d7768226bda53fc81fd1ddbd51e026c3fb2d6",
+  "external_challenge_sha256": "80df93ad5f6a8558417a81eae18cedb9c8380a6dc3c674bbf5c39077fbb883ee",
+  "external_root_snapshot_sha256": "b79beef96dd68073f1975bab90970ae85d1ae56d451a819ece6bff3d4e253ab4",
+  "apk_sha256": "5927efb39af0f7ab5c8959a1652680d8df73e4f211a46fbb18c19a7415d25747",
+  "apk_signature_independently_verified": true,
+  "apk_signing_certificate_sha256": "8da73e88327cb0e66192edff23cda9ab9010590b8f02e66881be7d1f528e14f6",
+  "apksigner_jar_sha256": "00ef9948f843fe395d2440ae3ef41405b8040a6d5d46493bd1902ac0ee6deae7",
+  "java_executable_sha256": "7272cc277abdafc7fa9fdfad2ca04639824a2d31338cd7010cbcb4006ee7fba8",
+  "public_root_sha256": "b1b39cca723d76936f18703d1a9fe3622998ea2d40594cdc18954f007640f5c7",
+  "prior_audit_report_sha256": "668ab7540e89e067080c21c8c0107676718d7dc5f0f77d6de6147db1fee570ba",
+  "passed": 25,
+  "failed": 0,
+  "controls": [
+    {
+      "name": "positive_actual_signed_evidence",
+      "passed": true,
+      "outcome": "accepted_software_only",
+      "error_class": null
+    },
+    {
+      "name": "wrong_external_nonce_rejected",
+      "passed": true,
+      "outcome": "rejected",
+      "error_class": "ValueError"
+    },
+    {
+      "name": "wrong_expected_package_rejected",
+      "passed": true,
+      "outcome": "rejected",
+      "error_class": "ValueError"
+    },
+    {
+      "name": "wrong_expected_apk_signing_certificate_rejected",
+      "passed": true,
+      "outcome": "rejected",
+      "error_class": "ValueError"
+    },
+    {
+      "name": "truncated_leaf_der_rejected",
+      "passed": true,
+      "outcome": "rejected",
+      "error_class": "ValueError"
+    },
+    {
+      "name": "truncated_root_der_rejected",
+      "passed": true,
+      "outcome": "rejected",
+      "error_class": "ValueError"
+    },
+    {
+      "name": "changed_leaf_signature_rejected",
+      "passed": true,
+      "outcome": "rejected",
+      "error_class": "InvalidSignature"
+    },
+    {
+      "name": "changed_root_signature_rejected",
+      "passed": true,
+      "outcome": "rejected",
+      "error_class": "InvalidSignature"
+    },
+    {
+      "name": "changed_signed_nonce_rejected",
+      "passed": true,
+      "outcome": "rejected",
+      "error_class": "InvalidSignature"
+    },
+    {
+      "name": "changed_signed_security_level_rejected",
+      "passed": true,
+      "outcome": "rejected",
+      "error_class": "InvalidSignature"
+    },
+    {
+      "name": "changed_possession_signature_rejected",
+      "passed": true,
+      "outcome": "rejected",
+      "error_class": "InvalidSignature"
+    },
+    {
+      "name": "changed_possession_payload_rejected",
+      "passed": true,
+      "outcome": "rejected",
+      "error_class": "ValueError"
+    },
+    {
+      "name": "truncated_possession_signature_rejected",
+      "passed": true,
+      "outcome": "rejected",
+      "error_class": "InvalidSignature"
+    },
+    {
+      "name": "rewritten_payload_for_wrong_nonce_rejected",
+      "passed": true,
+      "outcome": "rejected",
+      "error_class": "InvalidSignature"
+    },
+    {
+      "name": "unexpected_possession_scheme_rejected",
+      "passed": true,
+      "outcome": "rejected",
+      "error_class": "ValueError"
+    },
+    {
+      "name": "reordered_chain_rejected",
+      "passed": true,
+      "outcome": "rejected",
+      "error_class": "ValueError"
+    },
+    {
+      "name": "missing_root_certificate_rejected",
+      "passed": true,
+      "outcome": "rejected",
+      "error_class": "ValueError"
+    },
+    {
+      "name": "extra_root_certificate_rejected",
+      "passed": true,
+      "outcome": "rejected",
+      "error_class": "ValueError"
+    },
+    {
+      "name": "invalid_certificate_base64_rejected",
+      "passed": true,
+      "outcome": "rejected",
+      "error_class": "Error"
+    },
+    {
+      "name": "lab_root_injected_into_external_snapshot_rejected",
+      "passed": true,
+      "outcome": "rejected",
+      "error_class": "ValueError"
+    },
+    {
+      "name": "unsigned_apk_verdict_spoof_does_not_become_hardware_trust",
+      "passed": true,
+      "outcome": "accepted_software_only",
+      "error_class": null
+    },
+    {
+      "name": "leaf_outer_signature_oid_mismatch_rejected",
+      "passed": true,
+      "outcome": "rejected",
+      "error_class": "ValueError"
+    },
+    {
+      "name": "root_outer_signature_oid_mismatch_rejected",
+      "passed": true,
+      "outcome": "rejected",
+      "error_class": "ValueError"
+    },
+    {
+      "name": "leaf_outer_signature_parameters_mismatch_rejected",
+      "passed": true,
+      "outcome": "rejected",
+      "error_class": "ValueError"
+    },
+    {
+      "name": "root_outer_signature_parameters_mismatch_rejected",
+      "passed": true,
+      "outcome": "rejected",
+      "error_class": "ValueError"
+    }
+  ]
+}

@@ -1,0 +1,149 @@
+{
+  "captured_at": "2026-10-24T16:31:17.0373030+00:00",
+  "version": "0.4.0",
+  "goal_status": "not_achieved",
+  "total_checks": 54,
+  "baseline": {
+    "detected": 28,
+    "unavailable": 1,
+    "total": 54
+  },
+  "enabled": {
+    "detected": 4,
+    "unavailable": 1,
+    "total": 54
+  },
+  "verified_reboot": {
+    "detected": 4,
+    "unavailable": 1,
+    "total": 54
+  },
+  "probe_apk_sha256": "ab4dafd201527cf0f72a1c2ff4f9bd41fd4dbaa921d336d1983319ac611554ed",
+  "installed_abi": "arm64-v8a",
+  "original_checks_clear": 33,
+  "io_controls_passed": 7,
+  "cpu_read_views_identical": true,
+  "remaining": [
+    "kernel.subprocess.clean_env_uname",
+    "native.maps.translation",
+    "native.maps.instrumentation",
+    "native.mountinfo.profile"
+  ],
+  "unavailable": [
+    "native.auxv.platform"
+  ],
+  "independent": [
+    {
+      "id": "reveny-emulator",
+      "before_file": "strict-v04-paired-before-reveny.json",
+      "after_file": "strict-v04-paired-after-reveny.json",
+      "apk_sha256": "9f064f3968e9a224612810ec2b6078872f479930ce4dd0fc1f7132b08c6b3f5b",
+      "before_status": "complete",
+      "after_status": "complete",
+      "before_detected": true,
+      "after_detected": false,
+      "result": "4 findings -> 0 findings"
+    },
+    {
+      "id": "spotter",
+      "before_file": "strict-v04-before-spotter.json",
+      "after_file": "strict-v04-paired-after-spotter.json",
+      "apk_sha256": "2c5967348de302c87af03de3e42724ed5b29babdeb64ef0e878f03d71d8375a9",
+      "before_status": "complete",
+      "after_status": "complete",
+      "before_detected": false,
+      "after_detected": false,
+      "result": "Fresh result read from the unchanged detector APK."
+    },
+    {
+      "id": "framgia",
+      "before_file": "strict-v04-final-before-framgia.json",
+      "after_file": "strict-v04-paired-after-framgia.json",
+      "apk_sha256": "4f627a722df412fd12922c0043cd9c1f5b720e31010c9b8d3dd136a9a16e1382",
+      "before_status": "complete",
+      "after_status": "complete",
+      "before_detected": false,
+      "after_detected": false,
+      "result": "Fresh result read from the unchanged detector APK."
+    },
+    {
+      "id": "lsposed-native",
+      "before_file": "strict-v04-before-lsposed.json",
+      "after_file": "strict-v04-paired-after-lsposed.json",
+      "apk_sha256": "bccff3df297f9a9f03a9b4e5055a5d6dea1aa06aa33511e9210fbb25fd672b41",
+      "before_status": "visually_reviewed",
+      "after_status": "visually_reviewed",
+      "before_detected": false,
+      "after_detected": false,
+      "result": "Screenshot shows Zygisk not found. This is a Zygisk label, not an emulator or hardware-integrity verdict."
+    },
+    {
+      "id": "native-root",
+      "before_file": "strict-v04-before-native-root.json",
+      "after_file": "strict-v04-verified-after-native-root.json",
+      "apk_sha256": "1033d24102af2632fe5c379e28c9ea9a20bc1d570e171ac3e50f8afd35fc4bd6",
+      "before_status": "unavailable",
+      "after_status": "unavailable",
+      "before_detected": null,
+      "after_detected": null,
+      "result": "Detector exited or restarted during result collection."
+    },
+    {
+      "id": "native-test",
+      "before_file": "strict-v04-before-native-test.json",
+      "after_file": "strict-v04-paired-after-native-test.json",
+      "apk_sha256": "5b2cb3b3203cb0cb4e59235fca7d728dfeaba1467e045699625671bc1ede4f67",
+      "before_status": "unavailable",
+      "after_status": "unavailable",
+      "before_detected": null,
+      "after_detected": null,
+      "result": "Detector exited or restarted during result collection."
+    }
+  ],
+  "boundary": {
+    "captured_at": "2026-10-24T16:29:14.7262947Z",
+    "process_id": 2699,
+    "app_mount_namespace": "mnt:[4026532947]",
+    "zygote_mount_namespace": "mnt:[4026532925]",
+    "outside_has_hypervisor": true,
+    "app_namespace_has_hypervisor": false,
+    "outside_hardware": "ranchu",
+    "outside_qemu": "1",
+    "outside_properties": {
+      "ro.product.cpu.abilist": "x86_64,arm64-v8a",
+      "ro.dalvik.vm.native.bridge": "libndk_translation.so",
+      "ro.dalvik.vm.isa.arm64": "x86_64",
+      "ro.build.fingerprint": "google/sdk_gphone64_x86_64/emu64xa:14/UE1A.230829.050/12077443:userdebug/dev-keys"
+    },
+    "app_namespace_hardware": "shiba",
+    "selinux": "Enforcing",
+    "namespace_log": "--------- beginning of main\n10-24 13:29:02.825  2699  2699 I DeviceLabNamespace: profile mount status=0 pid=2699\n10-24 13:29:04.671  2699  2699 I DeviceLabNamespace: property remap status=0 pid=2699"
+  },
+  "build_and_lint": "passed",
+  "artifacts": [
+    {
+      "path": "probe/build/outputs/apk/debug/probe-debug.apk",
+      "sha256": "ab4dafd201527cf0f72a1c2ff4f9bd41fd4dbaa921d336d1983319ac611554ed"
+    },
+    {
+      "path": "module/build/outputs/apk/debug/module-debug.apk",
+      "sha256": "a2e3a1ad75d58123ed731e13753faddba4d706009a7bd6f4346275a87a3ea269"
+    },
+    {
+      "path": "module/build/namespace-module.zip",
+      "sha256": "9be9e7552a166a5590cb8bb82227de3f34ea4b3ba601a6f63d960683d3d3a6cf"
+    }
+  ],
+  "rejected_control": {
+    "file": "strict-v04-reboot-probe.json",
+    "reason": "Namespace scope reset by module reinstallation; excluded from the two-component persistence comparison."
+  },
+  "notes": [
+    "Independent APKs and detection functions were not patched.",
+    "Unavailable results are not counted as clear.",
+    "Spotter and Framgia were already negative in the disabled baseline.",
+    "The LSPosed label concerns Zygisk loading only.",
+    "The stock ARM64 AVD is rejected by Android Emulator 37.2.12 on this host.",
+    "Hardware attestation was not implemented or tested."
+  ]
+}

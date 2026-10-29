@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "branches": [
+    {
+      "branch": "googleapis-sdk",
+      "source_vendor_img": "C:\\Users\\antho\\AppData\\Local\\Android\\Sdk\\system-images\\android-34\\google_apis\\x86_64\\vendor.img",
+      "source_vendor_sha256": "9e4d323f98a35f5c61b24ab25c13908bee6fdc96fa12161d4beb69479e043dd6",
+      "partition_offset": 1048576,
+      "partition_length": 101711872,
+      "files": [
+        {
+          "path": "/bin/hw/android.hardware.security.keymint-service",
+          "sha256": "1fdcae411c1c3859c96633ebcb725e3fb57d616478070a59da69e782c3cd9fd3",
+          "bytes": 30072
+        },
+        {
+          "path": "/lib64/libpuresoftkeymasterdevice.so",
+          "sha256": "82653197ba002aaf5d2fef9e7df72871e50f418564b2742eaf869649d2f23af5",
+          "bytes": 101448
+        },
+        {
+          "path": "/etc/init/android.hardware.security.keymint-service.rc",
+          "sha256": "045cd6b62ddcadcc86eb0eac6b94c343eec1588ce45450d6aa592a45ddedd722",
+          "bytes": 124
+        },
+        {
+          "path": "/etc/vintf/manifest/android.hardware.security.keymint-service.xml",
+          "sha256": "a014eb27cc61a178062ea044fe640bbd52afbb1eb60d94c513cd50c3a485fe06",
+          "bytes": 400
+        }
+      ]
+    },
+    {
+      "branch": "platform-v25",
+      "source_vendor_img": "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v14\\system-images-platform\\vendor.img",
+      "source_vendor_sha256": "30b356018896249d981d4bd7e3648bf0f6cf6cab8abf5e2aa52b037f1aaa1d9d",
+      "partition_offset": 1048576,
+      "partition_length": 101711872,
+      "files": [
+        {
+          "path": "/bin/hw/android.hardware.security.keymint-service",
+          "sha256": "1fdcae411c1c3859c96633ebcb725e3fb57d616478070a59da69e782c3cd9fd3",
+          "bytes": 30072
+        },
+        {
+          "path": "/lib64/libpuresoftkeymasterdevice.so",
+          "sha256": "82653197ba002aaf5d2fef9e7df72871e50f418564b2742eaf869649d2f23af5",
+          "bytes": 101448
+        },
+        {
+          "path": "/etc/init/android.hardware.security.keymint-service.rc",
+          "sha256": "045cd6b62ddcadcc86eb0eac6b94c343eec1588ce45450d6aa592a45ddedd722",
+          "bytes": 124
+        },
+        {
+          "path": "/etc/vintf/manifest/android.hardware.security.keymint-service.xml",
+          "sha256": "24ec918774ede35aa77a983650f37397abb2392df765336fe31053a2ded19732",
+          "bytes": 400
+        }
+      ]
+    }
+  ],
+  "runtime_loaded_image_verified": false,
+  "avd_config_sysdir": "research-v14/system-images-platform",
+  "avd_registration": "device-lab-platform-v25.ini",
+  "no_boot_or_mutation": true
+}

@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "source_report": "play-integrity-physical-pixel8-api34.json",
+  "hardware_type": "physical",
+  "model": "Pixel 8",
+  "android_api": 34,
+  "verified_boot_state": "orange",
+  "bootloader_locked": false,
+  "vbmeta_device_state": "unlocked",
+  "nonce_matches": true,
+  "device_recognition_verdict": [],
+  "control_positive_for_device_integrity": false
+}

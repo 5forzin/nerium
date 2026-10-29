@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "run_id": "b4e42166fa3c45228bcc995ada3f1ce7",
+  "api": 34,
+  "started_at_ms": 1793056497335,
+  "challenge_source": "external",
+  "challenge_base64": "DZvL5DzWKH3SxXPWu+suSPEgL6VK7EZw5WJUG5M0wGg=",
+  "status": "failed",
+  "default_keystore": {
+    "status": "failed",
+    "started_at_ms": 1793056497335,
+    "challenge_base64": "DZvL5DzWKH3SxXPWu+suSPEgL6VK7EZw5WJUG5M0wGg=",
+    "payload_scheme": "RSA_PSS_SHA256_SALT32",
+    "manufacturer_trust": "not_established",
+    "google_attestation_verified": false,
+    "android_tee_verified": false,
+    "lab_root_trusted": false,
+    "error_stage": "key_generation",
+    "error_type": "ProviderException",
+    "cleanup": {
+      "owned_count": 1,
+      "removed_count": 1,
+      "verified": true
+    },
+    "completed_at_ms": 1793056507504
+  },
+  "completed_at_ms": 1793056507504,
+  "apk_sha256": "5927efb39af0f7ab5c8959a1652680d8df73e4f211a46fbb18c19a7415d25747",
+  "package": "dev.androidlab.cngattestationcontrol",
+  "expected_control_status": "failed"
+}

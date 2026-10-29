@@ -1,0 +1,13 @@
+{
+  "captured_at": "2026-10-24T14:45:30.0152980+00:00",
+  "package": "com.reveny.emulator.detection.sample",
+  "apk_sha256": "9f064f3968e9a224612810ec2b6078872f479930ce4dd0fc1f7132b08c6b3f5b",
+  "process_id": 4220,
+  "detected": true,
+  "finding_count": 1,
+  "findings": [
+    "- Detected Hypervisor in cpuinfo"
+  ],
+  "ui_result": "- Detected Hypervisor in cpuinfo\n",
+  "native_log": "--------- beginning of main\n10-24 11:45:23.982  4220  4220 I EmulatorDetection: isEmulator: true, result: - Detected Hypervisor in cpuinfo"
+}

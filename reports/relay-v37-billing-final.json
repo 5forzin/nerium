@@ -1,0 +1,6 @@
+{
+  "observed_at": "2026-10-26T18:21:45.5095240+00:00",
+  "project_id": "android-device-lab-bc008",
+  "billing_enabled": false,
+  "credential_source": "existing_gcloud_sdk_account"
+}

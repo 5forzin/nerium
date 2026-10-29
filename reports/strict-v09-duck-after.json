@@ -1,0 +1,165 @@
+{
+  "captured_at": "2026-10-24T20:19:40.0563078+00:00",
+  "detector": "duck",
+  "version": "2026.10.24-b5305070468a (1084)",
+  "package": "com.eltavine.duckdetector",
+  "release": "https://github.com/eltavine/Duck-Detector-Refactoring/releases/tag/nightly-2026-10-24-b5305070",
+  "apk_sha256": "9d0bbdab9c0b14334c9ec0d319758c5f9085260a09388486482b2ac497c81ffc",
+  "installed_abi": "x86_64",
+  "status": "complete",
+  "detected": true,
+  "reason": "Built-in report from the pinned APK corroborated by its current process and dashboard.",
+  "process_id": 8613,
+  "foreground": "topResumedActivity=ActivityRecord{e1a4765 u0 com.eltavine.duckdetector/.MainActivity t284}",
+  "final_foreground": "topResumedActivity=ActivityRecord{e1a4765 u0 com.eltavine.duckdetector/.MainActivity t284}",
+  "final_process_id": "8613",
+  "launch": "Capturing the explicitly identified scan after its built-in report export.",
+  "ui_result": "[✖ DANGER] Danger",
+  "visible_text": [
+    "Danger",
+    "Start with Bootloader and LSPosed.",
+    "2026.10.24-b5305070468a (1084)",
+    "Build (UTC) · 2026-10-24 12:53:38",
+    "Tap to export full report",
+    "Scanned at 2026-10-24 17:18:09 · Total time 125s",
+    "9",
+    "Danger",
+    "5",
+    "Warning",
+    "20",
+    "Ready",
+    "0",
+    "Pending",
+    "Bootloader",
+    "High",
+    "6 critical boot integrity signal(s)",
+    "Unlocked state, attestation contradictions, broken certificate trust, or verified-boot failures indicate reduced device trust.",
+    "LSPosed",
+    "High",
+    "1 high-risk LSPosed signal(s)",
+    "Binder bridge replies, loaded Xposed classes, XposedBridge fields, callback handlers, runtime artifacts, logcat leaks, zygote permission GID mismatches, dirty SELinux policy rules, stack trace signatures, or native LSPosed keywords point to active hook-framework presence rather than passive install residue.",
+    "Memory",
+    "High",
+    "9 high-risk memory signal(s)",
+    "High-risk findings point to hook-like code redirection, suspicious executable mappings, or loader-visible runtime artifacts.",
+    "Duck Detector",
+    "Home",
+    "Settings",
+    "ALPHA"
+  ],
+  "screenshot": "strict-v09-duck-after.png",
+  "log": "strict-v09-duck-after.log",
+  "duck": {
+    "scan_statistics": {
+      "Danger": 9,
+      "Warning": 5,
+      "Ready": 20,
+      "Pending": 0
+    },
+    "module_verdicts": [
+      {
+        "severity": "DANGER",
+        "detector": "Bootloader",
+        "verdict": "6 critical boot integrity signal(s)"
+      },
+      {
+        "severity": "DANGER",
+        "detector": "LSPosed",
+        "verdict": "1 high-risk LSPosed signal(s)"
+      },
+      {
+        "severity": "DANGER",
+        "detector": "Memory",
+        "verdict": "9 high-risk memory signal(s)"
+      },
+      {
+        "severity": "DANGER",
+        "detector": "Mount",
+        "verdict": "8 critical mount signal(s)"
+      },
+      {
+        "severity": "DANGER",
+        "detector": "Native Root",
+        "verdict": "1 runtime root signal(s)"
+      },
+      {
+        "severity": "DANGER",
+        "detector": "SU",
+        "verdict": "SU binary detected"
+      },
+      {
+        "severity": "DANGER",
+        "detector": "System Properties",
+        "verdict": "1 high-risk property or coherence signal(s)"
+      },
+      {
+        "severity": "DANGER",
+        "detector": "TEE",
+        "verdict": "Hardware-backed local verification was not established"
+      },
+      {
+        "severity": "DANGER",
+        "detector": "Virtualization",
+        "verdict": "8 direct virtualization signal(s)"
+      },
+      {
+        "severity": "WARNING",
+        "detector": "ADB Runtime",
+        "verdict": "ADB enabled"
+      },
+      {
+        "severity": "WARNING",
+        "detector": "Dangerous Apps",
+        "verdict": "Platform behavior mismatch observed"
+      },
+      {
+        "severity": "WARNING",
+        "detector": "Root Managers",
+        "verdict": "Root manager apps found"
+      },
+      {
+        "severity": "WARNING",
+        "detector": "SELinux",
+        "verdict": "Enforcing with recognized privileged contexts"
+      },
+      {
+        "severity": "WARNING",
+        "detector": "Zygisk",
+        "verdict": "One heuristic family needs review"
+      },
+      {
+        "severity": "INFO",
+        "detector": "Custom ROM",
+        "verdict": "Custom ROM scan has reduced coverage"
+      },
+      {
+        "severity": "INFO",
+        "detector": "Kernel Check",
+        "verdict": "CVE patch state is informational"
+      },
+      {
+        "severity": "INFO",
+        "detector": "Location Risk",
+        "verdict": "No local contract mismatch observed"
+      },
+      {
+        "severity": "INFO",
+        "detector": "Network Risk",
+        "verdict": "Network context collected"
+      },
+      {
+        "severity": "INFO",
+        "detector": "Zygote heap residue",
+        "verdict": "No target trace observed"
+      },
+      {
+        "severity": "CLEAR",
+        "detector": "Play Integrity Fix",
+        "verdict": "No Play Integrity residue surfaced"
+      }
+    ],
+    "export_report": "strict-v09-duck-after-export.txt",
+    "export_sha256": "5f0248b0905d5049e62289bf3fd68580fe96b99171f0a1765af5af735d139d95",
+    "exported_report_mtime": 1792873173
+  }
+}

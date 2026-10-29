@@ -1,0 +1,25 @@
+{
+  "captured_at": "2026-10-24T16:08:32.7064031+00:00",
+  "detector": "spotter",
+  "version": "1.3",
+  "package": "com.felhr.emulatordetector",
+  "release": "https://github.com/Emulator-Spotter/Android-Emulator-Detector/releases/tag/1.3",
+  "apk_sha256": "2c5967348de302c87af03de3e42724ed5b29babdeb64ef0e878f03d71d8375a9",
+  "installed_abi": "arm64-v8a",
+  "status": "complete",
+  "detected": false,
+  "reason": "Fresh result read from the unchanged detector APK.",
+  "process_id": 5213,
+  "foreground": "topResumedActivity=ActivityRecord{de41643 u0 com.felhr.emulatordetector/.MainActivity t112}",
+  "launch": "Starting: Intent { cmp=com.felhr.emulatordetector/.MainActivity }\nStatus: ok\nLaunchState: COLD\nActivity: com.felhr.emulatordetector/.MainActivity\nTotalTime: 577\nWaitTime: 580\nComplete",
+  "ui_result": "Is this an Emulator? NO\n",
+  "visible_text": [
+    "EmulatorDetector",
+    "Is this an Emulator? NO\n",
+    "Check",
+    "emulator_spotter@protonmail.com",
+    "https://github.com/felHR85/Android-Emulator-Detector"
+  ],
+  "screenshot": "strict-v04-before-spotter.png",
+  "log": "strict-v04-before-spotter.log"
+}

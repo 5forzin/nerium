@@ -1,0 +1,114 @@
+{
+  "trial": "TrickyStoreOSS x86_64 target-open transport in the isolated four-vCPU AVD",
+  "source_revision": "dda5277d10b948ba6bec362252ec41f8bbbd9f97",
+  "boot_id": "f9c2ef98-e1c7-4bfd-a9fe-9b861b2a0e1a",
+  "selinux_enforcing": true,
+  "loaded_selinux_policy_sha256": "725322b8bb21c399e222db65bd9e0ee307a3b603d19d9a3d5f47a93cc8f369c0",
+  "keystore_pid_unchanged": true,
+  "candidate_initialized": true,
+  "accepted_baseline_untouched": true,
+  "scope": [
+    "com.eltavine.duckdetector"
+  ],
+  "probes": {
+    "proc99": {
+      "before": {
+        "detected": 0,
+        "unavailable": 0,
+        "total": 99
+      },
+      "after": {
+        "detected": 0,
+        "unavailable": 0,
+        "total": 99
+      },
+      "apk_sha256": "99901e704d769e519741824d62f15286f68e0654f4223c0681083903ca98c9ab"
+    },
+    "raw79": {
+      "before": {
+        "detected": 0,
+        "unavailable": 0,
+        "total": 79
+      },
+      "after": {
+        "detected": 0,
+        "unavailable": 0,
+        "total": 79
+      },
+      "apk_sha256": "ee4e8cc35ef306e1626472ffb3d9d53fe0b45036a4a89dce31020ed489268f37"
+    },
+    "probe54": {
+      "before": {
+        "detected": 0,
+        "unavailable": 0,
+        "total": 54
+      },
+      "after": {
+        "detected": 0,
+        "unavailable": 0,
+        "total": 54
+      },
+      "apk_sha256": "ab4dafd201527cf0f72a1c2ff4f9bd41fd4dbaa921d336d1983319ac611554ed"
+    }
+  },
+  "reveny": {
+    "before": 0,
+    "after": 0,
+    "apk_sha256": "9f064f3968e9a224612810ec2b6078872f479930ce4dd0fc1f7132b08c6b3f5b"
+  },
+  "duck": {
+    "normal_before": {
+      "Danger": 2,
+      "Warning": 1,
+      "Ready": 20,
+      "Pending": 0
+    },
+    "normal_after": {
+      "Danger": 2,
+      "Warning": 1,
+      "Ready": 20,
+      "Pending": 0
+    },
+    "offline_after": {
+      "Danger": 2,
+      "Warning": 0,
+      "Ready": 20,
+      "Pending": 0
+    },
+    "offline_samples": 36,
+    "bootloader_before": "6 critical boot integrity signal(s)",
+    "bootloader_after": "2 critical boot integrity signal(s)",
+    "tee_before": "Hardware-backed local verification was not established",
+    "tee_after": "Policy-backed attestation evidence needs review",
+    "remaining": [
+      "AOSP test root",
+      "expired AOSP intermediate",
+      "Binder hook",
+      "unexpected Keystore2 reply",
+      "RSA-OAEP MGF enforcement mismatch"
+    ]
+  },
+  "independent_attestation": {
+    "targeted_by_candidate": false,
+    "failed_hardware_trust_prerequisites": [
+      "root_certificate_in_external_snapshot",
+      "root_public_key_in_external_snapshot",
+      "attestation_security_level_is_hardware",
+      "keymaster_security_level_is_hardware",
+      "root_of_trust_is_hardware_enforced",
+      "attested_device_is_locked",
+      "attested_boot_is_verified",
+      "attested_boot_key_is_nonzero",
+      "attested_boot_hash_is_nonzero"
+    ],
+    "manufacturer_trust": "not_established"
+  },
+  "hardware_trust_supplied": false,
+  "evidence": [
+    "strict-v17-tricky-direct.json",
+    "strict-v17-direct-before-duck.json",
+    "strict-v17-direct-after-duck.json",
+    "strict-v17-direct-after-offline-duck.json",
+    "strict-v17-direct-after-trust-audit.json"
+  ]
+}

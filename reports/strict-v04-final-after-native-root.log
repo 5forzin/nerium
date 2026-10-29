@@ -1,0 +1,788 @@
+--------- beginning of main
+10-24 13:16:44.009  1298  5707 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.ipa.base.IpaGcmTaskService started execution. cause:9 exec_start_elapsed_seconds: 452 [CONTEXT service_id=218 ]
+10-24 13:16:44.012  1298  5708 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.ipa.base.IpaGcmTaskService finished executing. cause:9 result: 1 elapsed_millis: 7 uptime_millis: 7 exec_start_elapsed_seconds: 452 [CONTEXT service_id=218 ]
+--------- beginning of kernel
+10-24 13:16:44.103     0     0 I logd    : logdr: UID=2000 GID=2000 PID=6204 n tail=0 logMask=99 pid=0 start=1792858597000000000ns deadline=0ns
+10-24 13:16:44.248  5971  5972 W ziparchive: Unable to open '/data/app/~~DEChv2viIEQSs2Ss3AjZSw==/com.reveny.nativecheck-10s4YfiP1C_6_-xfpSOSpw==/base.dm': No such file or directory
+10-24 13:16:44.248  5971  5972 W ziparchive: Unable to open '/data/app/~~DEChv2viIEQSs2Ss3AjZSw==/com.reveny.nativecheck-10s4YfiP1C_6_-xfpSOSpw==/base.dm': No such file or directory
+--------- beginning of system
+10-24 13:16:44.320   577   921 I ActivityManager: Force stopping com.reveny.nativecheck appid=10197 user=0: from pid 6222
+10-24 13:16:44.321   577   921 I AppsFilter: interaction: PackageSetting{b0de275 dev.androidlab.module/10194} -> PackageSetting{af1930b com.reveny.nativecheck/10197} BLOCKED
+10-24 13:16:44.321   577   921 I AppsFilter: interaction: PackageSetting{ac4f96a dev.androidlab.probe/10192} -> PackageSetting{af1930b com.reveny.nativecheck/10197} BLOCKED
+10-24 13:16:44.323   940   940 D CarrierSvcBindHelper: onHandleForceStop: [com.reveny.nativecheck]
+10-24 13:16:44.324   940   940 D CarrierSvcBindHelper: No carrier app for: 0
+10-24 13:16:44.363   577   921 W ActivityTaskManager: callingPackage for (uid=2000, pid=6227) has no WPC
+10-24 13:16:44.364   577   921 D CompatibilityChangeReporter: Compat change id reported: 265464455; UID 10197; state: DISABLED
+10-24 13:16:44.364   577   921 D CompatibilityChangeReporter: Compat change id reported: 265452344; UID 10197; state: DISABLED
+10-24 13:16:44.364   577   921 D CompatibilityChangeReporter: Compat change id reported: 266124927; UID 10197; state: DISABLED
+10-24 13:16:44.364   577   921 D CompatibilityChangeReporter: Compat change id reported: 265451093; UID 10197; state: DISABLED
+10-24 13:16:44.364   577   921 D CompatibilityChangeReporter: Compat change id reported: 265456536; UID 10197; state: DISABLED
+10-24 13:16:44.364   577   921 D CompatibilityChangeReporter: Compat change id reported: 255940284; UID 10197; state: DISABLED
+10-24 13:16:44.364   577   921 D CompatibilityChangeReporter: Compat change id reported: 236283604; UID 10197; state: DISABLED
+10-24 13:16:44.364   577   921 D CompatibilityChangeReporter: Compat change id reported: 263959004; UID 10197; state: DISABLED
+10-24 13:16:44.364   577   921 D CompatibilityChangeReporter: Compat change id reported: 264304459; UID 10197; state: DISABLED
+10-24 13:16:44.364   577   921 D CompatibilityChangeReporter: Compat change id reported: 264301586; UID 10197; state: DISABLED
+10-24 13:16:44.364   577   921 D CompatibilityChangeReporter: Compat change id reported: 254631730; UID 10197; state: DISABLED
+10-24 13:16:44.364   577   921 D CompatibilityChangeReporter: Compat change id reported: 273509367; UID 10197; state: DISABLED
+10-24 13:16:44.364   577   921 D CompatibilityChangeReporter: Compat change id reported: 263259275; UID 10197; state: DISABLED
+10-24 13:16:44.365   577   921 D CompatibilityChangeReporter: Compat change id reported: 174042980; UID 10197; state: DISABLED
+10-24 13:16:44.365   577   921 D CompatibilityChangeReporter: Compat change id reported: 174042936; UID 10197; state: DISABLED
+10-24 13:16:44.365   577   921 D CompatibilityChangeReporter: Compat change id reported: 181136395; UID 10197; state: DISABLED
+10-24 13:16:44.366   577   921 D CompatibilityChangeReporter: Compat change id reported: 194480991; UID 10197; state: ENABLED
+10-24 13:16:44.370   577   921 D CompatibilityChangeReporter: Compat change id reported: 184838306; UID 10197; state: DISABLED
+10-24 13:16:44.370   577   921 D CompatibilityChangeReporter: Compat change id reported: 185004937; UID 10197; state: DISABLED
+10-24 13:16:44.370   577   921 D CompatibilityChangeReporter: Compat change id reported: 197654537; UID 10197; state: ENABLED
+10-24 13:16:44.372   577   921 V SplashScreenExceptionList: SplashScreen checking exception for package com.reveny.nativecheck (target sdk:35) -> false
+10-24 13:16:44.372   577   921 D CompatibilityChangeReporter: Compat change id reported: 205907456; UID 10197; state: ENABLED
+10-24 13:16:44.375   800   964 D SplashScreenView: Build android.window.SplashScreenView{b6f61a V.E...... ......ID 0,0-0,0}
+10-24 13:16:44.375   800   964 D SplashScreenView: Icon: view: android.widget.ImageView{efee54b V.ED..... ......I. 0,0-0,0 #10204f0 android:id/splashscreen_icon_view} drawable: com.android.wm.shell.startingsurface.SplashscreenIconDrawableFactory$ImmobileIconDrawable@f66ab28 size: 504
+10-24 13:16:44.375   800   964 D SplashScreenView: Branding: view: android.view.View{fcd4041 G.ED..... ......I. 0,0-0,0 #10204ef android:id/splashscreen_branding_view} drawable: null size w: 0 h: 0
+10-24 13:16:44.377   577   921 I ActivityTaskManager: START u0 {flg=0x10000000 cmp=com.reveny.nativecheck/.ui.activity.MainActivity} with LAUNCH_MULTIPLE from uid 2000 (BAL_ALLOW_PERMISSION) result code=0
+10-24 13:16:44.378   577  4744 D CompatibilityChangeReporter: Compat change id reported: 168419799; UID 10197; state: DISABLED
+10-24 13:16:44.378   577  4744 D CompatibilityChangeReporter: Compat change id reported: 273564678; UID 10197; state: DISABLED
+10-24 13:16:44.380   577   614 D CompatibilityChangeReporter: Compat change id reported: 135634846; UID 10197; state: DISABLED
+10-24 13:16:44.380   577   614 D CompatibilityChangeReporter: Compat change id reported: 177438394; UID 10197; state: DISABLED
+10-24 13:16:44.380   577   614 D CompatibilityChangeReporter: Compat change id reported: 135772972; UID 10197; state: DISABLED
+10-24 13:16:44.380   577   614 D CompatibilityChangeReporter: Compat change id reported: 135754954; UID 10197; state: ENABLED
+10-24 13:16:44.380   577   623 D CompatibilityChangeReporter: Compat change id reported: 143937733; UID 10197; state: ENABLED
+10-24 13:16:44.382   800   868 V WindowManagerShell: Transition requested: android.os.BinderProxy@e0f51d4 TransitionRequestInfo { type = OPEN, triggerTask = TaskInfo{userId=0 taskId=130 displayId=0 isRunning=true baseIntent=Intent { flg=0x10000000 cmp=com.reveny.nativecheck/.ui.activity.MainActivity } baseActivity=ComponentInfo{com.reveny.nativecheck/com.reveny.nativecheck.ui.activity.MainActivity} topActivity=ComponentInfo{com.reveny.nativecheck/com.reveny.nativecheck.ui.activity.MainActivity} origActivity=null realActivity=ComponentInfo{com.reveny.nativecheck/com.reveny.nativecheck.ui.activity.MainActivity} numActivities=1 lastActiveTime=452375 supportsMultiWindow=true resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{android.window.IWindowContainerToken$Stub$Proxy@56c9f7d} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=Rect(0, 132 - 0, 0) topActivityInfo=ActivityInfo{f862e72 com.reveny.nativecheck.ui.activity.MainActivity} launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=false isVisible=false isVisibleRequested=false isSleeping=false topActivityInSizeCompat=false topActivityEligibleForLetterboxEducation= false topActivityLetterboxed= false isFromDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=-1 topActivityLetterboxHeight=-1 locusId=null displayAreaFeatureId=1 cameraCompatControlState=hidden}, remoteTransition = null, displayChange = null }
+10-24 13:16:44.384   356   356 D Zygote  : Forked child process 6230
+10-24 13:16:44.385   577   623 I ActivityManager: Start proc 6230:com.reveny.nativecheck/u0a197 for next-top-activity {com.reveny.nativecheck/com.reveny.nativecheck.ui.activity.MainActivity}
+10-24 13:16:44.393   577   666 D CompatibilityChangeReporter: Compat change id reported: 265195908; UID 10197; state: ENABLED
+10-24 13:16:44.398   577  2159 D CoreBackPreview: Window{acf9df u0 Splash Screen com.reveny.nativecheck}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@f1154fb, mPriority=0, mIsAnimationCallback=false}
+10-24 13:16:44.411   420   420 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+10-24 13:16:44.430   800   991 E OpenGLRenderer: Unable to match the desired swap behavior.
+10-24 13:16:44.433  6230  6230 I DeviceLabNamespace: profile mount status=0 pid=6230
+10-24 13:16:44.455  6230  6230 W main    : type=1400 audit(0.0:732): avc:  denied  { mounton } for  path=2F70726F632F637075696E666F202864656C6574656429 dev="dm-40" ino=336936 scontext=u:r:zygote:s0 tcontext=u:object_r:system_file:s0 tclass=file permissive=0
+10-24 13:16:44.458  6230  6230 W nativebridge: Failed to bind-mount /system/etc/cpuinfo.arm64.txt as /proc/cpuinfo: Permission denied
+10-24 13:16:44.458  6230  6230 W nativebridge: Failed to bind-mount /system/lib64/arm64/cpuinfo as /proc/cpuinfo: Permission denied
+10-24 13:16:44.455  6230  6230 W main    : type=1400 audit(0.0:733): avc:  denied  { mounton } for  path=2F70726F632F637075696E666F202864656C6574656429 dev="dm-40" ino=336936 scontext=u:r:zygote:s0 tcontext=u:object_r:system_file:s0 tclass=file permissive=0
+10-24 13:16:44.482   577   615 D CompatibilityChangeReporter: Compat change id reported: 197654537; UID 10200; state: DISABLED
+10-24 13:16:44.515  6230  6230 I eny.nativecheck: Using CollectorTypeCC GC.
+10-24 13:16:44.515  6230  6230 W eny.nativecheck: Unexpected CPU variant for x86: x86_64.
+10-24 13:16:44.515  6230  6230 W eny.nativecheck: Known variants: atom, sandybridge, silvermont, goldmont, goldmont-plus, tremont, kabylake, default
+10-24 13:16:44.535   577   611 V WindowManager: Sent Transition #23 createdAt=10-24 13:16:44.366 via request=TransitionRequestInfo { type = OPEN, triggerTask = TaskInfo{userId=0 taskId=130 displayId=0 isRunning=true baseIntent=Intent { flg=0x10000000 cmp=com.reveny.nativecheck/.ui.activity.MainActivity } baseActivity=ComponentInfo{com.reveny.nativecheck/com.reveny.nativecheck.ui.activity.MainActivity} topActivity=ComponentInfo{com.reveny.nativecheck/com.reveny.nativecheck.ui.activity.MainActivity} origActivity=null realActivity=ComponentInfo{com.reveny.nativecheck/com.reveny.nativecheck.ui.activity.MainActivity} numActivities=1 lastActiveTime=452375 supportsMultiWindow=true resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{RemoteToken{73c9156 Task{2faca00 #130 type=standard A=10197:com.reveny.nativecheck}}} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=Rect(0, 132 - 0, 0) topActivityInfo=ActivityInfo{79645d7 com.reveny.nativecheck.ui.activity.MainActivity} launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=false isVisible=false isVisibleRequested=false isSleeping=false topActivityInSizeCompat=false topActivityEligibleForLetterboxEducation= false topActivityLetterboxed= false isFromDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=-1 topActivityLetterboxHeight=-1 locusId=null displayAreaFeatureId=1 cameraCompatControlState=hidden}, remoteTransition = null, displayChange = null }
+10-24 13:16:44.535   577   611 V WindowManager:     startWCT=WindowContainerTransaction { changes = {} hops = [] errorCallbackToken=null taskFragmentOrganizer=null }
+10-24 13:16:44.535   577   611 V WindowManager:     info={id=23 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[{WCT{RemoteToken{73c9156 Task{2faca00 #130 type=standard A=10197:com.reveny.nativecheck}}} m=OPEN f=NONE leash=Surface(name=Task=130)/@0x767d918 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0},{WCT{RemoteToken{e9ef7d9 Task{8dcfc25 #129 type=standard A=10200:com.framgia.example.emulatordetector}}} m=TO_BACK f=NONE leash=Surface(name=Task=129)/@0x82f8add sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0}]}
+10-24 13:16:44.535   800   868 V WindowManagerShell: onTransitionReady android.os.BinderProxy@e0f51d4: {id=23 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[{WCT{android.window.IWindowContainerToken$Stub$Proxy@f37b73b} m=OPEN f=NONE leash=Surface(name=Task=130)/@0x563076c sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0},{WCT{android.window.IWindowContainerToken$Stub$Proxy@72f2e58} m=TO_BACK f=NONE leash=Surface(name=Task=129)/@0xf54135 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0}]}
+10-24 13:16:44.535   800   868 V WindowManagerShell: Playing animation for (#23)android.os.BinderProxy@e0f51d4@0
+10-24 13:16:44.536   800   868 V WindowManagerShell:  try handler com.android.wm.shell.transition.DefaultMixedHandler@3f85d22
+10-24 13:16:44.536   800   868 V WindowManagerShell:  try handler com.android.wm.shell.keyguard.KeyguardTransitionHandler@76c33b3
+10-24 13:16:44.536   800   868 V WindowManagerShell:  try handler com.android.wm.shell.activityembedding.ActivityEmbeddingController@44bd70
+10-24 13:16:44.536   800   868 V WindowManagerShell:  try handler com.android.wm.shell.recents.RecentsTransitionHandler@39cf8e9
+10-24 13:16:44.536   800   868 V ShellRecents: RecentsTransitionHandler.startAnimation: no controller found
+10-24 13:16:44.536   800   868 V WindowManagerShell:  try handler com.android.wm.shell.pip.PipTransition@ae3296e
+10-24 13:16:44.536   800   868 V WindowManagerShell:  try handler com.android.wm.shell.splitscreen.StageCoordinator@26c580f
+10-24 13:16:44.536   800   868 V WindowManagerShell:  try handler com.android.wm.shell.transition.RemoteTransitionHandler@590409c
+10-24 13:16:44.536   800   868 V WindowManagerShell: Transition doesn't have explicit remote, search filters for match for {id=23 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[{WCT{android.window.IWindowContainerToken$Stub$Proxy@f37b73b} m=OPEN f=NONE leash=Surface(name=Task=130)/@0x563076c sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0},{WCT{android.window.IWindowContainerToken$Stub$Proxy@72f2e58} m=TO_BACK f=NONE leash=Surface(name=Task=129)/@0xf54135 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0}]}
+10-24 13:16:44.536   800   868 V WindowManagerShell:  Checking filter Pair{{types=[] flags=0x0] notFlags=0x0 checks=[{atype=dream independent=true modes=[OPEN,TO_FRONT] flags=NONE mustBeTask=false order=ANY topActivity=null},{atype=home independent=true modes=[CLOSE,TO_BACK] flags=NONE mustBeTask=false order=ANY topActivity=null}]} RemoteTransition { remoteTransition = android.window.IRemoteTransition$Stub$Proxy@5398d72, appThread = android.app.IApplicationThread$Stub$Proxy@ac625c3, debugName = LauncherToDream }}
+10-24 13:16:44.536   800   868 V WindowManagerShell:  Checking filter Pair{{types=[] flags=0x0] notFlags=0x100 checks=[{atype=home independent=true modes=[OPEN,TO_FRONT] flags=NONE mustBeTask=false order=TOP topActivity=ComponentInfo{com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.NexusLauncherActivity}},{atype=standard independent=true modes=[CLOSE,TO_BACK] flags=NONE mustBeTask=false order=ANY topActivity=null}]} RemoteTransition { remoteTransition = android.window.IRemoteTransition$Stub$Proxy@db1ae40, appThread = android.app.IApplicationThread$Stub$Proxy@d3ee179, debugName = QuickstepLaunchHome }}
+10-24 13:16:44.536   800   868 V WindowManagerShell:  Delegate animation for #23 to null
+10-24 13:16:44.536   800   868 V WindowManagerShell:  try handler com.android.wm.shell.transition.DefaultTransitionHandler@951dc21
+10-24 13:16:44.536   800   868 V WindowManagerShell: start default transition animation, info = {id=23 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[{WCT{android.window.IWindowContainerToken$Stub$Proxy@f37b73b} m=OPEN f=NONE leash=Surface(name=Task=130)/@0x563076c sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0},{WCT{android.window.IWindowContainerToken$Stub$Proxy@72f2e58} m=TO_BACK f=NONE leash=Surface(name=Task=129)/@0xf54135 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0}]}
+10-24 13:16:44.537   800   868 V WindowManagerShell: loadAnimation: anim=android.view.animation.AnimationSet@f45bbb1 animAttr=0x9 type=OPEN isEntrance=false
+10-24 13:16:44.537   800   868 V WindowManagerShell: loadAnimation: anim=android.view.animation.AnimationSet@bc70896 animAttr=0x8 type=OPEN isEntrance=true
+10-24 13:16:44.538   800   868 V WindowManagerShell:  animated by com.android.wm.shell.transition.DefaultTransitionHandler@951dc21
+10-24 13:16:44.549  6230  6230 I ndk_translation: Initialized NDK translation (aarch64), version 0.2.3
+10-24 13:16:44.552   800   991 D EGL_emulation: app_time_stats: avg=664.82ms min=11.69ms max=5844.98ms count=9
+10-24 13:16:44.583  6230  6230 E eny.nativecheck: Not starting debugger since process cannot load the jdwp agent.
+10-24 13:16:44.584   577  2159 D VectorZygiskBridge: onTransact: action=GET_BINDER, callerUid=10197
+10-24 13:16:44.588  6230  6230 W eny.nativecheck: Core platform API violation: Ljava/lang/Class;->accessFlags:I from Lcom/android/internal/os/Zygote; using JNI
+10-24 13:16:44.588  6230  6230 W eny.nativecheck: Core platform API violation: Ljava/lang/reflect/Executable;->artMethod:J from Lcom/android/internal/os/Zygote; using JNI
+10-24 13:16:44.588  6230  6230 W eny.nativecheck: Core platform API violation: Ljava/lang/reflect/Executable;->accessFlags:I from Lcom/android/internal/os/Zygote; using JNI
+10-24 13:16:44.600  6230  6230 W eny.nativecheck: Core platform API violation: Ldalvik/system/BaseDexClassLoader;->pathList:Ldalvik/system/DexPathList; from Lcom/android/internal/os/Zygote; using JNI
+10-24 13:16:44.600  6230  6230 W eny.nativecheck: Core platform API violation: Ldalvik/system/DexPathList;->dexElements:[Ldalvik/system/DexPathList$Element; from Lcom/android/internal/os/Zygote; using JNI
+10-24 13:16:44.600  6230  6230 W eny.nativecheck: Core platform API violation: Ldalvik/system/DexPathList$Element;->dexFile:Ldalvik/system/DexFile; from Lcom/android/internal/os/Zygote; using JNI
+10-24 13:16:44.600  6230  6230 W eny.nativecheck: Core platform API violation: Ldalvik/system/DexFile;->mCookie:Ljava/lang/Object; from Lcom/android/internal/os/Zygote; using JNI
+10-24 13:16:44.604  6230  6230 W BpBinder: Linking to death on org.matrix.vector.ipc.IFrameworkService but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+10-24 13:16:44.605  6230  6230 V VectorDeopter: Skipping deopt for android.app.Instrumentation#newApplication: android.app.Instrumentation.newApplication [class java.lang.ClassLoader, class android.content.Context]
+10-24 13:16:44.605  6230  6230 V Vector  : Loading Vector/Xposed for com.reveny.nativecheck (UID: 10197)
+10-24 13:16:44.625  6230  6230 V VectorLegacyBridge: Loading legacy module dev.androidlab.module from /data/app/~~PfNA324qX7ENl2BkM7W-5g==/dev.androidlab.module-TJxN7r5QNOYXMRUHirpi0Q==/base.apk
+10-24 13:16:44.626  6230  6230 W eny.nativecheck: Unsupported class loader
+10-24 13:16:44.626  6230  6230 I VectorNative: Native API entries initialized and protected.
+10-24 13:16:44.635  6230  6230 V VectorLegacyBridge:   Loading class dev.androidlab.module.DeviceHooks
+10-24 13:16:44.638  6230  6230 I DeviceLabNamespace: property remap status=0 pid=6230
+10-24 13:16:44.657  6230  6230 D CompatibilityChangeReporter: Compat change id reported: 171979766; UID 10197; state: ENABLED
+10-24 13:16:44.657  6230  6230 D CompatibilityChangeReporter: Compat change id reported: 242716250; UID 10197; state: ENABLED
+10-24 13:16:44.658   577  2159 D CompatibilityChangeReporter: Compat change id reported: 170503758; UID 10197; state: ENABLED
+10-24 13:16:44.666  6230  6230 D ApplicationLoaders: Returning zygote-cached class loader: /system_ext/framework/androidx.window.extensions.jar
+10-24 13:16:44.666  6230  6230 D ApplicationLoaders: Returning zygote-cached class loader: /system_ext/framework/androidx.window.sidecar.jar
+10-24 13:16:44.666  6230  6230 W ziparchive: Unable to open '/data/app/~~DEChv2viIEQSs2Ss3AjZSw==/com.reveny.nativecheck-10s4YfiP1C_6_-xfpSOSpw==/base.dm': No such file or directory
+10-24 13:16:44.666  6230  6230 W ziparchive: Unable to open '/data/app/~~DEChv2viIEQSs2Ss3AjZSw==/com.reveny.nativecheck-10s4YfiP1C_6_-xfpSOSpw==/base.dm': No such file or directory
+10-24 13:16:44.692  6230  6230 D nativeloader: Configuring clns-6 for other apk /data/app/~~DEChv2viIEQSs2Ss3AjZSw==/com.reveny.nativecheck-10s4YfiP1C_6_-xfpSOSpw==/base.apk. target_sdk_version=35, uses_libraries=, library_path=/data/app/~~DEChv2viIEQSs2Ss3AjZSw==/com.reveny.nativecheck-10s4YfiP1C_6_-xfpSOSpw==/lib/arm64:/data/app/~~DEChv2viIEQSs2Ss3AjZSw==/com.reveny.nativecheck-10s4YfiP1C_6_-xfpSOSpw==/base.apk!/lib/arm64-v8a, permitted_path=/data:/mnt/expand:/data/user/0/com.reveny.nativecheck
+10-24 13:16:44.699  6230  6230 I VectorNative: Detected registered native module being loaded: '/data/app/~~PfNA324qX7ENl2BkM7W-5g==/dev.androidlab.module-TJxN7r5QNOYXMRUHirpi0Q==/base.apk!/lib/x86_64/libdevicelab.so'
+10-24 13:16:44.699  6230  6230 I DeviceLabNative: __system_property_get hook status: 0
+10-24 13:16:44.699  6230  6230 I DeviceLabNative: __system_property_read_callback hook status: 0
+10-24 13:16:44.699  6230  6230 I DeviceLabNative: fopen hook status: 0
+10-24 13:16:44.699  6230  6230 I DeviceLabNative: open hook status: 0
+10-24 13:16:44.699  6230  6230 I DeviceLabNative: openat hook status: 0
+10-24 13:16:44.699  6230  6230 I DeviceLabNative: __open_2 hook status: 0
+10-24 13:16:44.700  6230  6230 I DeviceLabNative: __openat_2 hook status: 0
+10-24 13:16:44.700  6230  6230 I DeviceLabNative: uname hook status: 0
+10-24 13:16:44.700  6230  6230 I DeviceLabNative: syscall hook status: 0
+10-24 13:16:44.700  6230  6230 I DeviceLabNative: getauxval hook status: 0
+10-24 13:16:44.700  6230  6230 I VectorNative: Initialized native module '/data/app/~~PfNA324qX7ENl2BkM7W-5g==/dev.androidlab.module-TJxN7r5QNOYXMRUHirpi0Q==/base.apk!/lib/x86_64/libdevicelab.so' and registered its callback.
+10-24 13:16:44.700  6230  6230 I DeviceLabNative: glGetString hook status: 0
+10-24 13:16:44.701  6230  6230 I DeviceLabNative: glGetString hook status: 0
+10-24 13:16:44.701  6230  6230 I VectorLegacyBridge: DeviceLab: native hooks for com.reveny.nativecheck: get=1 callback=1 fopen=1 open=1 openat=1 open_checked=1 openat_checked=1 uname=1 syscall=1 auxval=1 gl2=1 gl3=1 cpu_cache=1
+10-24 13:16:44.703  6230  6230 I VectorLegacyBridge: DeviceLab: Java identity hooks installed for com.reveny.nativecheck
+10-24 13:16:44.706  6230  6230 V GraphicsEnvironment: Currently set values for:
+10-24 13:16:44.706  6230  6230 V GraphicsEnvironment:   angle_gl_driver_selection_pkgs=[]
+10-24 13:16:44.706  6230  6230 V GraphicsEnvironment:   angle_gl_driver_selection_values=[]
+10-24 13:16:44.706  6230  6230 V GraphicsEnvironment: ANGLE GameManagerService for com.reveny.nativecheck: false
+10-24 13:16:44.706  6230  6230 V GraphicsEnvironment: com.reveny.nativecheck is not listed in per-application setting
+10-24 13:16:44.706  6230  6230 V GraphicsEnvironment: Neither updatable production driver nor prerelease driver is supported.
+10-24 13:16:44.723   577  2159 I ActivityManager: Flag disabled. Ignoring finishAttachApplication from uid: 10197. pid: 6230
+10-24 13:16:44.731   800   991 D EGL_emulation: app_time_stats: avg=268.34ms min=14.91ms max=4302.04ms count=18
+10-24 13:16:44.734  6230  6252 D libEGL  : loaded /vendor/lib64/egl/libEGL_emulation.so
+10-24 13:16:44.736  6230  6252 D libEGL  : loaded /vendor/lib64/egl/libGLESv1_CM_emulation.so
+10-24 13:16:44.738  6230  6252 D libEGL  : loaded /vendor/lib64/egl/libGLESv2_emulation.so
+10-24 13:16:44.755  6230  6230 D AppCompatDelegate: Checking for metadata for AppLocalesMetadataHolderService : Service not found
+10-24 13:16:44.807  6230  6230 D CompatibilityChangeReporter: Compat change id reported: 237531167; UID 10197; state: DISABLED
+10-24 13:16:44.807  6230  6230 W OpenGLRenderer: Unknown dataspace 0
+10-24 13:16:44.872   577  2159 D CoreBackPreview: Window{70c10f4 u0 com.reveny.nativecheck/com.reveny.nativecheck.ui.activity.MainActivity}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@5c34119, mPriority=0, mIsAnimationCallback=false}
+10-24 13:16:44.968  6230  6250 W OpenGLRenderer: Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+10-24 13:16:44.968  6230  6250 W OpenGLRenderer: Failed to initialize 101010-2 format, error = EGL_SUCCESS
+10-24 13:16:45.011   142   142 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+10-24 13:16:45.011  6230  6250 I Gralloc4: mapper 4.x is not supported
+10-24 13:16:44.991     0     0 I servicemanager: Could not find android.hardware.graphics.allocator.IAllocator/default in the VINTF manifest.
+10-24 13:16:45.053  6230  6250 E OpenGLRenderer: Unable to match the desired swap behavior.
+10-24 13:16:45.076   800   868 V WindowManagerShell: Transition animation finished (aborted=false), notifying core (#23)android.os.BinderProxy@e0f51d4@0
+10-24 13:16:45.078   800   868 V WindowManagerShell: Track 0 became idle
+10-24 13:16:45.078   577   611 V WindowManager: Finish Transition #23: created at 10-24 13:16:44.366 collect-started=0.017ms request-sent=9.415ms started=25.062ms ready=110.279ms sent=167.772ms finished=710.4ms
+10-24 13:16:45.078   800   868 V WindowManagerShell: All active transition animations finished
+10-24 13:16:45.185   577   611 W system_server: Failed to determine oat file name for dex location /data/app/~~DEChv2viIEQSs2Ss3AjZSw==/com.reveny.nativecheck-10s4YfiP1C_6_-xfpSOSpw==/base.apk: Dalvik cache directory does not exist
+10-24 13:16:45.185   577   611 W ziparchive: Unable to open '/data/app/~~DEChv2viIEQSs2Ss3AjZSw==/com.reveny.nativecheck-10s4YfiP1C_6_-xfpSOSpw==/base.dm': No such file or directory
+10-24 13:16:45.186   577   611 I ActivityTaskManager: Displayed com.reveny.nativecheck/.ui.activity.MainActivity for user 0: +822ms
+10-24 13:16:45.219   355  6267 I resolv  : GetAddrInfoHandler::run: {101 101 101 983141 10197 0}
+10-24 13:16:45.225   355  6269 I resolv  : res_nmkquery: (QUERY, IN, A)
+10-24 13:16:45.225   355  6269 I resolv  : resolv_cache_lookup: FOUND IN CACHE entry=0x749c919682b0
+10-24 13:16:45.225   355  6269 I resolv  : doQuery: rcode=0, ancount=4, return value=107
+10-24 13:16:45.227   355  6268 I resolv  : res_nmkquery: (QUERY, IN, AAAA)
+10-24 13:16:45.228   355  6268 I resolv  : resolv_cache_lookup: FOUND IN CACHE entry=0x749dd1967b90
+10-24 13:16:45.228   355  6268 I resolv  : doQuery: rcode=0, ancount=4, return value=155
+10-24 13:16:45.233  6230  6265 D TrafficStats: tagSocket(93) with statsTag=0xffffffff, statsUid=-1
+10-24 13:16:45.238   577   921 D CompatibilityChangeReporter: Compat change id reported: 214016041; UID 10197; state: ENABLED
+10-24 13:16:45.238   577   921 I ImeTracker: com.reveny.nativecheck:e937609a: onRequestHide at ORIGIN_SERVER_HIDE_INPUT reason HIDE_UNSPECIFIED_WINDOW
+10-24 13:16:45.238   577   921 I ImeTracker: com.reveny.nativecheck:e937609a: onCancelled at PHASE_SERVER_SHOULD_HIDE
+10-24 13:16:45.245  1359  1359 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3227 
+10-24 13:16:45.260  1359  1359 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2087 repeatCheckTimes = 0, unlocked = true
+10-24 13:16:45.261  1359  1359 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1877 onStartInput(EditorInfo{inputType=0x0(NULL) imeOptions=0x0 privateImeOptions=null actionName=UNSPECIFIED actionLabel=null actionId=0 initialSelStart=-1 initialSelEnd=-1 initialCapsMode=0x0 hintText=null label=null packageName=com.reveny.nativecheck fieldId=0 fieldName=null extras=null}, false)
+10-24 13:16:45.261  1359  1359 I GoogleInputMethodService: GoogleInputMethodService.shouldHideHeaderOnInitialState():4008 ShouldHideHeaderOnInitialState = false
+10-24 13:16:45.262  1359  1359 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2087 repeatCheckTimes = 2, unlocked = true
+10-24 13:16:45.269  6230  6271 D TrafficStats: tagSocket(105) with statsTag=0xffffffff, statsUid=-1
+10-24 13:16:45.274   577   603 I system_server: NativeAlloc concurrent copying GC freed 317233(12MB) AllocSpace objects, 42(1272KB) LOS objects, 47% free, 26MB/50MB, paused 1.112ms,33us total 131.389ms
+10-24 13:16:45.275   577   666 D CompatibilityChangeReporter: Compat change id reported: 265195908; UID 10200; state: ENABLED
+10-24 13:16:45.287  6230  6230 W WindowOnBackDispatcher: OnBackInvokedCallback is not enabled for the application.
+10-24 13:16:45.287  6230  6230 W WindowOnBackDispatcher: Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+10-24 13:16:45.316   577  4744 D CoreBackPreview: Window{b15aebc u0 com.reveny.nativecheck/com.reveny.nativecheck.ui.activity.MainActivity}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@627f566, mPriority=0, mIsAnimationCallback=false}
+10-24 13:16:45.351  6230  6250 E OpenGLRenderer: Unable to match the desired swap behavior.
+10-24 13:16:45.442   863  1130 D BtGatt.ScanManager: uid 10128 isForeground true scanMode -1
+10-24 13:16:45.443  1298  1313 I FontLog : Received query Noto Color Emoji Compat, URI content://com.google.android.gms.fonts [CONTEXT service_id=132 ]
+10-24 13:16:45.444  1298  1313 I FontLog : Query [emojicompat-emoji-font] resolved to {Noto Color Emoji Compat, wdth 100.0, wght 400, ital 0.0, bestEffort false} [CONTEXT service_id=132 ]
+10-24 13:16:45.447  1298  1313 I FontLog : Fetch {Noto Color Emoji Compat, wdth 100.0, wght 400, ital 0.0, bestEffort false} end status Status{statusCode=SUCCESS, resolution=null} [CONTEXT service_id=132 ]
+10-24 13:16:45.450  1298  1313 I FontLog : Pulling font file for id = 12, cache size = 8 [CONTEXT service_id=132 ]
+10-24 13:16:45.452  1298  1313 I FontLog : Pulling font file for id = 12, cache size = 8 [CONTEXT service_id=132 ]
+10-24 13:16:45.484   577  4744 I ImeTracker: com.reveny.nativecheck:9acf21: onRequestHide at ORIGIN_SERVER_HIDE_INPUT reason HIDE_UNSPECIFIED_WINDOW
+10-24 13:16:45.485   577  4744 I ImeTracker: com.reveny.nativecheck:9acf21: onCancelled at PHASE_SERVER_SHOULD_HIDE
+10-24 13:16:45.486  1359  1359 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3227 
+10-24 13:16:45.487  1359  1359 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2087 repeatCheckTimes = 0, unlocked = true
+10-24 13:16:45.487  1359  1359 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1877 onStartInput(EditorInfo{inputType=0x0(NULL) imeOptions=0x0 privateImeOptions=null actionName=UNSPECIFIED actionLabel=null actionId=0 initialSelStart=-1 initialSelEnd=-1 initialCapsMode=0x0 hintText=null label=null packageName=com.reveny.nativecheck fieldId=0 fieldName=null extras=null}, false)
+10-24 13:16:45.487  1359  1359 I GoogleInputMethodService: GoogleInputMethodService.shouldHideHeaderOnInitialState():4008 ShouldHideHeaderOnInitialState = false
+10-24 13:16:45.487  1359  1359 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2087 repeatCheckTimes = 2, unlocked = true
+10-24 13:16:45.582   800   954 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=falsecallback=android.view.ViewRootImpl$$ExternalSyntheticLambda17@c74b2c3
+10-24 13:16:45.582   577  4744 D CoreBackPreview: Window{acf9df u0 Splash Screen com.reveny.nativecheck EXITING}: Setting back callback null
+10-24 13:16:45.583   577  2159 W InputManager-JNI: Input channel object 'acf9df Splash Screen com.reveny.nativecheck (client)' was disposed without first being removed with the input manager!
+10-24 13:16:45.618   577   623 D CompatibilityChangeReporter: Compat change id reported: 143937733; UID 10197; state: ENABLED
+10-24 13:16:45.618   577   623 D CompatibilityChangeReporter: Compat change id reported: 135634846; UID 10197; state: DISABLED
+10-24 13:16:45.619   577   623 D CompatibilityChangeReporter: Compat change id reported: 177438394; UID 10197; state: DISABLED
+10-24 13:16:45.619   577   623 D CompatibilityChangeReporter: Compat change id reported: 135772972; UID 10197; state: DISABLED
+10-24 13:16:45.619   577   623 D CompatibilityChangeReporter: Compat change id reported: 135754954; UID 10197; state: ENABLED
+10-24 13:16:45.619   356   356 W Zygote  : forkRepeatedly terminated due to non-simple command
+10-24 13:16:45.619   356   356 D Zygote  : mbuffer starts with 15, nice name is com.reveny.nativecheck_zygote, mEnd = 421, mNext = 202, mLinesLeft = 6, mFd = 6
+10-24 13:16:45.624   356   356 D Zygote  : Forked child process 6286
+10-24 13:16:45.625   577   623 W ZygoteProcess: Got error connecting to zygote, retrying. msg= Connection refused
+10-24 13:16:45.637  6286  6286 W nativebridge: Application private directory isn't available.
+10-24 13:16:45.639  6286  6286 I ivecheck_zygote: Using CollectorTypeCC GC.
+10-24 13:16:45.675   577   623 W ZygoteProcess: Got error connecting to zygote, retrying. msg= Connection refused
+10-24 13:16:45.696  6286  6286 I ndk_translation: Initialized NDK translation (aarch64), version 0.2.3
+10-24 13:16:45.728   577   623 W ZygoteProcess: Got error connecting to zygote, retrying. msg= Connection refused
+10-24 13:16:45.733   800   991 D EGL_emulation: app_time_stats: avg=15.80ms min=0.65ms max=71.17ms count=46
+10-24 13:16:45.780   577   623 I AppZygote: Starting application preload.
+10-24 13:16:45.781  6286  6286 I AppZygoteInit: Beginning application preload for com.reveny.nativecheck
+10-24 13:16:45.781  6286  6286 D ApplicationLoaders: Returning zygote-cached class loader: /system_ext/framework/androidx.window.extensions.jar
+10-24 13:16:45.781  6286  6286 D ApplicationLoaders: Returning zygote-cached class loader: /system_ext/framework/androidx.window.sidecar.jar
+10-24 13:16:45.781  6286  6286 W ziparchive: Unable to open '/data/app/~~DEChv2viIEQSs2Ss3AjZSw==/com.reveny.nativecheck-10s4YfiP1C_6_-xfpSOSpw==/base.dm': No such file or directory
+10-24 13:16:45.781  6286  6286 W ziparchive: Unable to open '/data/app/~~DEChv2viIEQSs2Ss3AjZSw==/com.reveny.nativecheck-10s4YfiP1C_6_-xfpSOSpw==/base.dm': No such file or directory
+10-24 13:16:45.802  6286  6286 D nativeloader: Configuring clns-6 for other apk /data/app/~~DEChv2viIEQSs2Ss3AjZSw==/com.reveny.nativecheck-10s4YfiP1C_6_-xfpSOSpw==/base.apk. target_sdk_version=35, uses_libraries=, library_path=/data/app/~~DEChv2viIEQSs2Ss3AjZSw==/com.reveny.nativecheck-10s4YfiP1C_6_-xfpSOSpw==/lib/arm64:/data/app/~~DEChv2viIEQSs2Ss3AjZSw==/com.reveny.nativecheck-10s4YfiP1C_6_-xfpSOSpw==/base.apk!/lib/arm64-v8a, permitted_path=/data:/mnt/expand
+10-24 13:16:45.805  6286  6286 I AppZygoteInit: No zygotePreloadName attribute specified.
+10-24 13:16:45.806   577   623 I AppZygote: Application preload done.
+10-24 13:16:45.806  6286  6286 I AppZygoteInit: Application preload done
+10-24 13:16:45.812  6286  6286 I Zygote  : Entering forkRepeatedly native zygote loop
+10-24 13:16:45.817  6286  6286 D Zygote  : Forked child process 6297
+10-24 13:16:45.819  6297  6297 I gote:appz.iso.0: Using CollectorTypeCC GC.
+10-24 13:16:45.819  6297  6297 W gote:appz.iso.0: Unexpected CPU variant for x86: x86_64.
+10-24 13:16:45.819  6297  6297 W gote:appz.iso.0: Known variants: atom, sandybridge, silvermont, goldmont, goldmont-plus, tremont, kabylake, default
+10-24 13:16:45.822  6297  6297 E gote:appz.iso.0: Not starting debugger since process cannot load the jdwp agent.
+10-24 13:16:45.826   577   921 W ActivityManager: Slow operation: 208ms so far, now at startProcess: done updating battery stats
+10-24 13:16:45.826   577   921 W ActivityManager: Slow operation: 208ms so far, now at startProcess: building log message
+10-24 13:16:45.826   577   921 I ActivityManager: Start proc 6297:com.reveny.nativecheck:appZ:com.reveny.nativecheck.app.isolated.IsolatedServiceAppZygote:appz.iso.0/u0ai0 for  {com.reveny.nativecheck/com.reveny.nativecheck.app.isolated.IsolatedServiceAppZygote:appz.iso.0}
+10-24 13:16:45.826   577   921 W ActivityManager: Slow operation: 208ms so far, now at startProcess: starting to update pids map
+10-24 13:16:45.826   577   921 W ActivityManager: Slow operation: 208ms so far, now at startProcess: done updating pids map
+10-24 13:16:45.829   577   921 D CompatibilityChangeReporter: Compat change id reported: 261072174; UID 10197; state: ENABLED
+10-24 13:16:45.832   577   623 W ActivityManager: Slow operation: 214ms so far, now at startProcess: returned from zygote!
+10-24 13:16:45.837  6297  6297 D CompatibilityChangeReporter: Compat change id reported: 171979766; UID 90000; state: ENABLED
+10-24 13:16:45.837  6297  6297 D CompatibilityChangeReporter: Compat change id reported: 242716250; UID 90000; state: ENABLED
+10-24 13:16:45.839  6297  6297 D ApplicationLoaders: Returning zygote-cached class loader: /system_ext/framework/androidx.window.extensions.jar
+10-24 13:16:45.839  6297  6297 D ApplicationLoaders: Returning zygote-cached class loader: /system_ext/framework/androidx.window.sidecar.jar
+10-24 13:16:45.841   577   921 I ActivityManager: Flag disabled. Ignoring finishAttachApplication from uid: 90000. pid: 6297
+10-24 13:16:45.854  6297  6297 W SystemServiceRegistry: No service published for: virtualdevice
+10-24 13:16:45.891   577   921 I ActivityManager: Killing 6297:com.reveny.nativecheck:appZ:com.reveny.nativecheck.app.isolated.IsolatedServiceAppZygote:appz.iso.0/u0a197i-9000 (adj 0): isolated not needed
+10-24 13:16:45.893   577   921 D CompatibilityChangeReporter: Compat change id reported: 135634846; UID 99008; state: DISABLED
+10-24 13:16:45.893   577   921 D CompatibilityChangeReporter: Compat change id reported: 177438394; UID 99008; state: DISABLED
+10-24 13:16:45.893   577   921 D CompatibilityChangeReporter: Compat change id reported: 135772972; UID 99008; state: DISABLED
+10-24 13:16:45.893   577   921 D CompatibilityChangeReporter: Compat change id reported: 135754954; UID 99008; state: ENABLED
+10-24 13:16:45.894   577   623 D CompatibilityChangeReporter: Compat change id reported: 143937733; UID 10197; state: ENABLED
+10-24 13:16:45.898   577   624 I libprocessgroup: Successfully killed process cgroup uid 90000 pid 6297 in 6ms
+10-24 13:16:45.899   356   356 I Zygote  : Entering forkRepeatedly native zygote loop
+10-24 13:16:45.902  6286  6286 I Zygote  : Process 6297 exited due to signal 9 (Killed)
+10-24 13:16:45.903   577  4744 W ProcessStats: Tracking association SourceState{e7b37af com.google.android.googlequicksearchbox:search/10132 Service #4252} whose proc state 8 is better than process ProcessState{a148aef com.google.android.gms/10128 pkg=com.google.android.gms} proc state 14 (85 skipped)
+10-24 13:16:45.903   356   356 D Zygote  : Forked child process 6309
+10-24 13:16:45.904   577   623 I ActivityManager: Start proc 6309:com.reveny.nativecheck:iso:com.reveny.nativecheck.app.isolated.IsolatedService:iso.iso.0/u0i8 for service {com.reveny.nativecheck/com.reveny.nativecheck.app.isolated.IsolatedService:iso.iso.0}
+10-24 13:16:45.904   577   629 E system_server: Cannot read thread CPU times for PID 577
+10-24 13:16:45.904   577   629 D KernelCpuUidUserSysTimeReader: Removing uids 90000-90000
+10-24 13:16:45.905   577   629 D KernelCpuUidUserSysTimeReader: Removing uids 99000-99000
+10-24 13:16:45.905   577   629 D KernelCpuUidUserSysTimeReader: Removing uids 90001-90001
+10-24 13:16:45.905   577   629 D KernelCpuUidUserSysTimeReader: Removing uids 99001-99001
+10-24 13:16:45.905   577   629 D KernelCpuUidUserSysTimeReader: Removing uids 90002-90002
+10-24 13:16:45.905   577   629 D KernelCpuUidUserSysTimeReader: Removing uids 99002-99002
+10-24 13:16:45.906   577   629 D KernelCpuUidUserSysTimeReader: Removing uids 90003-90003
+10-24 13:16:45.906   577   629 D KernelCpuUidUserSysTimeReader: Removing uids 99003-99003
+10-24 13:16:45.906   577   629 D KernelCpuUidUserSysTimeReader: Removing uids 90004-90004
+10-24 13:16:45.906   577   612 D DisplayManagerService: Drop pending events for gone uid 90000
+10-24 13:16:45.906   577   629 D KernelCpuUidUserSysTimeReader: Removing uids 99004-99004
+10-24 13:16:45.906   577   629 D KernelCpuUidUserSysTimeReader: Removing uids 90005-90005
+10-24 13:16:45.907   577   629 D KernelCpuUidUserSysTimeReader: Removing uids 99005-99005
+10-24 13:16:45.907   577   629 D KernelCpuUidUserSysTimeReader: Removing uids 90006-90006
+10-24 13:16:45.907   577   629 D KernelCpuUidUserSysTimeReader: Removing uids 99006-99006
+10-24 13:16:45.907   577   629 D KernelCpuUidUserSysTimeReader: Removing uids 90007-90007
+10-24 13:16:45.908   577   629 D KernelCpuUidUserSysTimeReader: Removing uids 99007-99007
+10-24 13:16:45.922  6309  6309 I DeviceLabNamespace: profile mount status=0 pid=6309
+10-24 13:16:45.923  6309  6309 W main    : type=1400 audit(0.0:734): avc:  denied  { mounton } for  path=2F70726F632F637075696E666F202864656C6574656429 dev="dm-40" ino=336945 scontext=u:r:zygote:s0 tcontext=u:object_r:system_file:s0 tclass=file permissive=0
+10-24 13:16:45.924  6309  6309 W nativebridge: Failed to bind-mount /system/etc/cpuinfo.arm64.txt as /proc/cpuinfo: Permission denied
+10-24 13:16:45.924  6309  6309 W nativebridge: Failed to bind-mount /system/lib64/arm64/cpuinfo as /proc/cpuinfo: Permission denied
+10-24 13:16:45.925  6309  6309 I rvice:iso.iso.0: Using CollectorTypeCC GC.
+10-24 13:16:45.925  6309  6309 W rvice:iso.iso.0: Unexpected CPU variant for x86: x86_64.
+10-24 13:16:45.925  6309  6309 W rvice:iso.iso.0: Known variants: atom, sandybridge, silvermont, goldmont, goldmont-plus, tremont, kabylake, default
+10-24 13:16:45.925  6309  6309 W nativebridge: Cannot create code cache directory /data/user/0/com.reveny.nativecheck/code_cache: No such file or directory.
+10-24 13:16:45.923  6309  6309 W main    : type=1400 audit(0.0:735): avc:  denied  { mounton } for  path=2F70726F632F637075696E666F202864656C6574656429 dev="dm-40" ino=336945 scontext=u:r:zygote:s0 tcontext=u:object_r:system_file:s0 tclass=file permissive=0
+10-24 13:16:45.961  6309  6309 I ndk_translation: Initialized NDK translation (aarch64), version 0.2.3
+10-24 13:16:45.993  6309  6309 E rvice:iso.iso.0: Not starting debugger since process cannot load the jdwp agent.
+10-24 13:16:45.998  6309  6309 I DeviceLabNamespace: property remap status=0 pid=6309
+10-24 13:16:46.037  6309  6309 D CompatibilityChangeReporter: Compat change id reported: 171979766; UID 99008; state: ENABLED
+10-24 13:16:46.038  6309  6309 D CompatibilityChangeReporter: Compat change id reported: 242716250; UID 99008; state: ENABLED
+10-24 13:16:46.039  6309  6309 D ApplicationLoaders: Returning zygote-cached class loader: /system_ext/framework/androidx.window.extensions.jar
+10-24 13:16:46.039  6309  6309 D ApplicationLoaders: Returning zygote-cached class loader: /system_ext/framework/androidx.window.sidecar.jar
+10-24 13:16:46.039  6309  6309 W ziparchive: Unable to open '/data/app/~~DEChv2viIEQSs2Ss3AjZSw==/com.reveny.nativecheck-10s4YfiP1C_6_-xfpSOSpw==/base.dm': No such file or directory
+10-24 13:16:46.040  6309  6309 W ziparchive: Unable to open '/data/app/~~DEChv2viIEQSs2Ss3AjZSw==/com.reveny.nativecheck-10s4YfiP1C_6_-xfpSOSpw==/base.dm': No such file or directory
+10-24 13:16:46.063  6309  6309 D nativeloader: Configuring clns-6 for other apk /data/app/~~DEChv2viIEQSs2Ss3AjZSw==/com.reveny.nativecheck-10s4YfiP1C_6_-xfpSOSpw==/base.apk. target_sdk_version=35, uses_libraries=, library_path=/data/app/~~DEChv2viIEQSs2Ss3AjZSw==/com.reveny.nativecheck-10s4YfiP1C_6_-xfpSOSpw==/lib/arm64:/data/app/~~DEChv2viIEQSs2Ss3AjZSw==/com.reveny.nativecheck-10s4YfiP1C_6_-xfpSOSpw==/base.apk!/lib/arm64-v8a, permitted_path=/data:/mnt/expand:/data/user/0/com.reveny.nativecheck
+10-24 13:16:46.069   577  4744 I ActivityManager: Flag disabled. Ignoring finishAttachApplication from uid: 99008. pid: 6309
+10-24 13:16:46.070  6309  6309 W SystemServiceRegistry: No service published for: virtualdevice
+10-24 13:16:46.084   577  4744 I ActivityManager: Killing 6309:com.reveny.nativecheck:iso:com.reveny.nativecheck.app.isolated.IsolatedService:iso.iso.0/u0a197i8 (adj 0): isolated not needed
+10-24 13:16:46.086   577   623 D CompatibilityChangeReporter: Compat change id reported: 143937733; UID 10197; state: ENABLED
+10-24 13:16:46.090  6286  6286 D Zygote  : Forked child process 6327
+10-24 13:16:46.092   577   612 D DisplayManagerService: Drop pending events for gone uid 99008
+10-24 13:16:46.093  6327  6327 I gote:appz.iso.1: Using CollectorTypeCC GC.
+10-24 13:16:46.093  6327  6327 W gote:appz.iso.1: Unexpected CPU variant for x86: x86_64.
+10-24 13:16:46.093  6327  6327 W gote:appz.iso.1: Known variants: atom, sandybridge, silvermont, goldmont, goldmont-plus, tremont, kabylake, default
+10-24 13:16:46.095   356   356 I Zygote  : Process 6309 exited due to signal 9 (Killed)
+10-24 13:16:46.098   577   624 I libprocessgroup: Successfully killed process cgroup uid 99008 pid 6309 in 13ms
+10-24 13:16:46.099   577   629 E system_server: Cannot read thread CPU times for PID 577
+10-24 13:16:46.101   577   623 I ActivityManager: Start proc 6327:com.reveny.nativecheck:appZ:com.reveny.nativecheck.app.isolated.IsolatedServiceAppZygote:appz.iso.1/u0ai1 for  {com.reveny.nativecheck/com.reveny.nativecheck.app.isolated.IsolatedServiceAppZygote:appz.iso.1}
+10-24 13:16:46.101  6327  6327 E gote:appz.iso.1: Not starting debugger since process cannot load the jdwp agent.
+10-24 13:16:46.132  6327  6327 D CompatibilityChangeReporter: Compat change id reported: 171979766; UID 90001; state: ENABLED
+10-24 13:16:46.133  6327  6327 D CompatibilityChangeReporter: Compat change id reported: 242716250; UID 90001; state: ENABLED
+10-24 13:16:46.134  6327  6327 D ApplicationLoaders: Returning zygote-cached class loader: /system_ext/framework/androidx.window.extensions.jar
+10-24 13:16:46.134  6327  6327 D ApplicationLoaders: Returning zygote-cached class loader: /system_ext/framework/androidx.window.sidecar.jar
+10-24 13:16:46.137   577  4744 I ActivityManager: Flag disabled. Ignoring finishAttachApplication from uid: 90001. pid: 6327
+10-24 13:16:46.137  6327  6327 W SystemServiceRegistry: No service published for: virtualdevice
+10-24 13:16:46.169   577  4744 I ActivityManager: Killing 6327:com.reveny.nativecheck:appZ:com.reveny.nativecheck.app.isolated.IsolatedServiceAppZygote:appz.iso.1/u0a197i-8999 (adj 0): isolated not needed
+10-24 13:16:46.171   577  4744 D CompatibilityChangeReporter: Compat change id reported: 135634846; UID 99009; state: DISABLED
+10-24 13:16:46.171   577  4744 D CompatibilityChangeReporter: Compat change id reported: 177438394; UID 99009; state: DISABLED
+10-24 13:16:46.171   577  4744 D CompatibilityChangeReporter: Compat change id reported: 135772972; UID 99009; state: DISABLED
+10-24 13:16:46.171   577  4744 D CompatibilityChangeReporter: Compat change id reported: 135754954; UID 99009; state: ENABLED
+10-24 13:16:46.171   577   623 D CompatibilityChangeReporter: Compat change id reported: 143937733; UID 10197; state: ENABLED
+10-24 13:16:46.175   356   356 D Zygote  : Forked child process 6339
+10-24 13:16:46.176   577   623 I ActivityManager: Start proc 6339:com.reveny.nativecheck:iso:com.reveny.nativecheck.app.isolated.IsolatedService:iso.iso.1/u0i9 for service {com.reveny.nativecheck/com.reveny.nativecheck.app.isolated.IsolatedService:iso.iso.1}
+10-24 13:16:46.155     0     0 W binder_debug: 29 callbacks suppressed
+10-24 13:16:46.155     0     0 I binder  : undelivered transaction 245006, process died.
+10-24 13:16:46.156     0     0 I binder  : undelivered transaction 245007, process died.
+10-24 13:16:46.157     0     0 I binder  : undelivered transaction 245008, process died.
+10-24 13:16:46.177   577   624 I libprocessgroup: Successfully killed process cgroup uid 90001 pid 6327 in 8ms
+10-24 13:16:46.179   577   629 E system_server: Cannot read thread CPU times for PID 577
+10-24 13:16:46.180  6286  6286 I Zygote  : Process 6327 exited due to signal 9 (Killed)
+10-24 13:16:46.183   577   612 D DisplayManagerService: Drop pending events for gone uid 90001
+10-24 13:16:46.191  6339  6339 I DeviceLabNamespace: profile mount status=0 pid=6339
+10-24 13:16:46.192  6339  6339 W nativebridge: Failed to bind-mount /system/etc/cpuinfo.arm64.txt as /proc/cpuinfo: Permission denied
+10-24 13:16:46.192  6339  6339 W nativebridge: Failed to bind-mount /system/lib64/arm64/cpuinfo as /proc/cpuinfo: Permission denied
+10-24 13:16:46.191  6339  6339 W main    : type=1400 audit(0.0:736): avc:  denied  { mounton } for  path=2F70726F632F637075696E666F202864656C6574656429 dev="dm-40" ino=336945 scontext=u:r:zygote:s0 tcontext=u:object_r:system_file:s0 tclass=file permissive=0
+10-24 13:16:46.199  5971  5972 I AidlLazyServiceRegistrar: Process has 0 (of 1 available) client(s) in use after notification artd has clients: 0
+10-24 13:16:46.199  5971  5972 I AidlLazyServiceRegistrar: Trying to shut down the service. No clients in use for any service in process.
+10-24 13:16:46.200  6339  6339 I rvice:iso.iso.1: Using CollectorTypeCC GC.
+10-24 13:16:46.201  6339  6339 W rvice:iso.iso.1: Unexpected CPU variant for x86: x86_64.
+10-24 13:16:46.201  6339  6339 W rvice:iso.iso.1: Known variants: atom, sandybridge, silvermont, goldmont, goldmont-plus, tremont, kabylake, default
+10-24 13:16:46.201  6339  6339 W nativebridge: Cannot create code cache directory /data/user/0/com.reveny.nativecheck/code_cache: No such file or directory.
+10-24 13:16:46.201  5971  5972 I AidlLazyServiceRegistrar: Unregistered all clients and exiting
+10-24 13:16:46.179     0     0 I servicemanager: Notifying artd they don't (previously: do) have clients when we now have no record of a client
+10-24 13:16:46.181     0     0 I servicemanager: Unregistering artd
+10-24 13:16:46.181     0     0 I BpBinder: onLastStrongRef automatically unlinking death recipients:
+10-24 13:16:46.183     0     0 I init    : Service 'artd' (pid 5971) exited with status 0 oneshot service took 20.275999 seconds in background
+10-24 13:16:46.184     0     0 I init    : Sending signal 9 to service 'artd' (pid 5971) process group...
+10-24 13:16:46.185     0     0 I libprocessgroup: Successfully killed process cgroup uid 1082 pid 5971 in 0ms
+10-24 13:16:46.191  6339  6339 W main    : type=1400 audit(0.0:737): avc:  denied  { mounton } for  path=2F70726F632F637075696E666F202864656C6574656429 dev="dm-40" ino=336945 scontext=u:r:zygote:s0 tcontext=u:object_r:system_file:s0 tclass=file permissive=0
+10-24 13:16:46.226  6339  6339 I ndk_translation: Initialized NDK translation (aarch64), version 0.2.3
+10-24 13:16:46.250  6230  6250 D EGL_emulation: app_time_stats: avg=7.36ms min=0.72ms max=151.40ms count=53
+10-24 13:16:46.267  6339  6339 E rvice:iso.iso.1: Not starting debugger since process cannot load the jdwp agent.
+10-24 13:16:46.270  6339  6339 I DeviceLabNamespace: property remap status=0 pid=6339
+10-24 13:16:46.301  6339  6339 D CompatibilityChangeReporter: Compat change id reported: 171979766; UID 99009; state: ENABLED
+10-24 13:16:46.301  6339  6339 D CompatibilityChangeReporter: Compat change id reported: 242716250; UID 99009; state: ENABLED
+10-24 13:16:46.302  6339  6339 D ApplicationLoaders: Returning zygote-cached class loader: /system_ext/framework/androidx.window.extensions.jar
+10-24 13:16:46.302  6339  6339 D ApplicationLoaders: Returning zygote-cached class loader: /system_ext/framework/androidx.window.sidecar.jar
+10-24 13:16:46.302  6339  6339 W ziparchive: Unable to open '/data/app/~~DEChv2viIEQSs2Ss3AjZSw==/com.reveny.nativecheck-10s4YfiP1C_6_-xfpSOSpw==/base.dm': No such file or directory
+10-24 13:16:46.303  6339  6339 W ziparchive: Unable to open '/data/app/~~DEChv2viIEQSs2Ss3AjZSw==/com.reveny.nativecheck-10s4YfiP1C_6_-xfpSOSpw==/base.dm': No such file or directory
+10-24 13:16:46.324  6339  6339 D nativeloader: Configuring clns-6 for other apk /data/app/~~DEChv2viIEQSs2Ss3AjZSw==/com.reveny.nativecheck-10s4YfiP1C_6_-xfpSOSpw==/base.apk. target_sdk_version=35, uses_libraries=, library_path=/data/app/~~DEChv2viIEQSs2Ss3AjZSw==/com.reveny.nativecheck-10s4YfiP1C_6_-xfpSOSpw==/lib/arm64:/data/app/~~DEChv2viIEQSs2Ss3AjZSw==/com.reveny.nativecheck-10s4YfiP1C_6_-xfpSOSpw==/base.apk!/lib/arm64-v8a, permitted_path=/data:/mnt/expand:/data/user/0/com.reveny.nativecheck
+10-24 13:16:46.332   577  2159 I ActivityManager: Flag disabled. Ignoring finishAttachApplication from uid: 99009. pid: 6339
+10-24 13:16:46.333  6339  6339 W SystemServiceRegistry: No service published for: virtualdevice
+10-24 13:16:46.348   577  2159 I ActivityManager: Killing 6339:com.reveny.nativecheck:iso:com.reveny.nativecheck.app.isolated.IsolatedService:iso.iso.1/u0a197i9 (adj 0): isolated not needed
+10-24 13:16:46.350   577   623 D CompatibilityChangeReporter: Compat change id reported: 143937733; UID 10197; state: ENABLED
+10-24 13:16:46.335     0     0 I binder  : undelivered transaction 245251, process died.
+10-24 13:16:46.336     0     0 I binder  : undelivered transaction 245252, process died.
+10-24 13:16:46.336     0     0 I binder  : undelivered transaction 245253, process died.
+10-24 13:16:46.357   577   612 D DisplayManagerService: Drop pending events for gone uid 99009
+10-24 13:16:46.358  6286  6286 D Zygote  : Forked child process 6356
+10-24 13:16:46.359   577   629 E system_server: Cannot read thread CPU times for PID 577
+10-24 13:16:46.362   577   624 I libprocessgroup: Successfully killed process cgroup uid 99009 pid 6339 in 13ms
+10-24 13:16:46.363  6356  6356 I gote:appz.iso.2: Using CollectorTypeCC GC.
+10-24 13:16:46.363   356   356 I Zygote  : Process 6339 exited due to signal 9 (Killed)
+10-24 13:16:46.364  6356  6356 W gote:appz.iso.2: Unexpected CPU variant for x86: x86_64.
+10-24 13:16:46.364  6356  6356 W gote:appz.iso.2: Known variants: atom, sandybridge, silvermont, goldmont, goldmont-plus, tremont, kabylake, default
+10-24 13:16:46.366  6356  6356 E gote:appz.iso.2: Not starting debugger since process cannot load the jdwp agent.
+10-24 13:16:46.369   577  2159 I ActivityManager: Start proc 6356:com.reveny.nativecheck:appZ:com.reveny.nativecheck.app.isolated.IsolatedServiceAppZygote:appz.iso.2/u0ai2 for  {com.reveny.nativecheck/com.reveny.nativecheck.app.isolated.IsolatedServiceAppZygote:appz.iso.2}
+10-24 13:16:46.381  6356  6356 D CompatibilityChangeReporter: Compat change id reported: 171979766; UID 90002; state: ENABLED
+10-24 13:16:46.382  6356  6356 D CompatibilityChangeReporter: Compat change id reported: 242716250; UID 90002; state: ENABLED
+10-24 13:16:46.384  6356  6356 D ApplicationLoaders: Returning zygote-cached class loader: /system_ext/framework/androidx.window.extensions.jar
+10-24 13:16:46.384  6356  6356 D ApplicationLoaders: Returning zygote-cached class loader: /system_ext/framework/androidx.window.sidecar.jar
+10-24 13:16:46.387   577  2159 I ActivityManager: Flag disabled. Ignoring finishAttachApplication from uid: 90002. pid: 6356
+10-24 13:16:46.387  6356  6356 W SystemServiceRegistry: No service published for: virtualdevice
+10-24 13:16:46.432   577  2159 I ActivityManager: Killing 6356:com.reveny.nativecheck:appZ:com.reveny.nativecheck.app.isolated.IsolatedServiceAppZygote:appz.iso.2/u0a197i-8998 (adj 0): isolated not needed
+10-24 13:16:46.433   577  2159 D CompatibilityChangeReporter: Compat change id reported: 135634846; UID 99010; state: DISABLED
+10-24 13:16:46.433   577  2159 D CompatibilityChangeReporter: Compat change id reported: 177438394; UID 99010; state: DISABLED
+10-24 13:16:46.433   577  2159 D CompatibilityChangeReporter: Compat change id reported: 135772972; UID 99010; state: DISABLED
+10-24 13:16:46.433   577  2159 D CompatibilityChangeReporter: Compat change id reported: 135754954; UID 99010; state: ENABLED
+10-24 13:16:46.433   577   623 D CompatibilityChangeReporter: Compat change id reported: 143937733; UID 10197; state: ENABLED
+10-24 13:16:46.438   577   624 I libprocessgroup: Successfully killed process cgroup uid 90002 pid 6356 in 6ms
+10-24 13:16:46.439   356   356 D Zygote  : Forked child process 6368
+10-24 13:16:46.439   577   623 I ActivityManager: Start proc 6368:com.reveny.nativecheck:iso:com.reveny.nativecheck.app.isolated.IsolatedService:iso.iso.2/u0i10 for service {com.reveny.nativecheck/com.reveny.nativecheck.app.isolated.IsolatedService:iso.iso.2}
+10-24 13:16:46.446   577   629 E system_server: Cannot read thread CPU times for PID 577
+10-24 13:16:46.448  6286  6286 I Zygote  : Process 6356 exited due to signal 9 (Killed)
+10-24 13:16:46.452  6368  6368 I DeviceLabNamespace: profile mount status=0 pid=6368
+10-24 13:16:46.453   577   612 D DisplayManagerService: Drop pending events for gone uid 90002
+10-24 13:16:46.455  6368  6368 W nativebridge: Failed to bind-mount /system/etc/cpuinfo.arm64.txt as /proc/cpuinfo: Permission denied
+10-24 13:16:46.451  6368  6368 W main    : type=1400 audit(0.0:738): avc:  denied  { mounton } for  path=2F70726F632F637075696E666F202864656C6574656429 dev="dm-40" ino=336945 scontext=u:r:zygote:s0 tcontext=u:object_r:system_file:s0 tclass=file permissive=0
+10-24 13:16:46.436     0     0 W audit   : audit_lost=606 audit_rate_limit=5 audit_backlog_limit=64
+10-24 13:16:46.437     0     0 E audit   : rate limit exceeded
+10-24 13:16:46.458  6368  6368 W nativebridge: Failed to bind-mount /system/lib64/arm64/cpuinfo as /proc/cpuinfo: Permission denied
+10-24 13:16:46.459  6368  6368 I rvice:iso.iso.2: Using CollectorTypeCC GC.
+10-24 13:16:46.459  6368  6368 W rvice:iso.iso.2: Unexpected CPU variant for x86: x86_64.
+10-24 13:16:46.459  6368  6368 W rvice:iso.iso.2: Known variants: atom, sandybridge, silvermont, goldmont, goldmont-plus, tremont, kabylake, default
+10-24 13:16:46.459  6368  6368 W nativebridge: Cannot create code cache directory /data/user/0/com.reveny.nativecheck/code_cache: No such file or directory.
+10-24 13:16:46.483  6368  6368 I ndk_translation: Initialized NDK translation (aarch64), version 0.2.3
+10-24 13:16:46.516  6368  6368 E rvice:iso.iso.2: Not starting debugger since process cannot load the jdwp agent.
+10-24 13:16:46.519  6368  6368 I DeviceLabNamespace: property remap status=0 pid=6368
+10-24 13:16:46.549  6368  6368 D CompatibilityChangeReporter: Compat change id reported: 171979766; UID 99010; state: ENABLED
+10-24 13:16:46.549  6368  6368 D CompatibilityChangeReporter: Compat change id reported: 242716250; UID 99010; state: ENABLED
+10-24 13:16:46.551  6368  6368 D ApplicationLoaders: Returning zygote-cached class loader: /system_ext/framework/androidx.window.extensions.jar
+10-24 13:16:46.551  6368  6368 D ApplicationLoaders: Returning zygote-cached class loader: /system_ext/framework/androidx.window.sidecar.jar
+10-24 13:16:46.551  6368  6368 W ziparchive: Unable to open '/data/app/~~DEChv2viIEQSs2Ss3AjZSw==/com.reveny.nativecheck-10s4YfiP1C_6_-xfpSOSpw==/base.dm': No such file or directory
+10-24 13:16:46.551  6368  6368 W ziparchive: Unable to open '/data/app/~~DEChv2viIEQSs2Ss3AjZSw==/com.reveny.nativecheck-10s4YfiP1C_6_-xfpSOSpw==/base.dm': No such file or directory
+10-24 13:16:46.572  6368  6368 D nativeloader: Configuring clns-6 for other apk /data/app/~~DEChv2viIEQSs2Ss3AjZSw==/com.reveny.nativecheck-10s4YfiP1C_6_-xfpSOSpw==/base.apk. target_sdk_version=35, uses_libraries=, library_path=/data/app/~~DEChv2viIEQSs2Ss3AjZSw==/com.reveny.nativecheck-10s4YfiP1C_6_-xfpSOSpw==/lib/arm64:/data/app/~~DEChv2viIEQSs2Ss3AjZSw==/com.reveny.nativecheck-10s4YfiP1C_6_-xfpSOSpw==/base.apk!/lib/arm64-v8a, permitted_path=/data:/mnt/expand:/data/user/0/com.reveny.nativecheck
+10-24 13:16:46.576   577   921 I ActivityManager: Flag disabled. Ignoring finishAttachApplication from uid: 99010. pid: 6368
+10-24 13:16:46.577  6368  6368 W SystemServiceRegistry: No service published for: virtualdevice
+10-24 13:16:46.589   577   921 I ActivityManager: Killing 6368:com.reveny.nativecheck:iso:com.reveny.nativecheck.app.isolated.IsolatedService:iso.iso.2/u0a197i10 (adj 0): isolated not needed
+10-24 13:16:46.591   577   623 D CompatibilityChangeReporter: Compat change id reported: 143937733; UID 10197; state: ENABLED
+10-24 13:16:46.595   577   629 E system_server: Cannot read thread CPU times for PID 577
+10-24 13:16:46.596  6286  6286 D Zygote  : Forked child process 6385
+10-24 13:16:46.597   577   623 I ActivityManager: Start proc 6385:com.reveny.nativecheck:appZ:com.reveny.nativecheck.app.isolated.IsolatedServiceAppZygote:appz.iso.3/u0ai3 for  {com.reveny.nativecheck/com.reveny.nativecheck.app.isolated.IsolatedServiceAppZygote:appz.iso.3}
+10-24 13:16:46.599  6385  6385 I gote:appz.iso.3: Using CollectorTypeCC GC.
+10-24 13:16:46.599  6385  6385 W gote:appz.iso.3: Unexpected CPU variant for x86: x86_64.
+10-24 13:16:46.599  6385  6385 W gote:appz.iso.3: Known variants: atom, sandybridge, silvermont, goldmont, goldmont-plus, tremont, kabylake, default
+10-24 13:16:46.600  6385  6385 E gote:appz.iso.3: Not starting debugger since process cannot load the jdwp agent.
+10-24 13:16:46.602   356   356 I Zygote  : Process 6368 exited due to signal 9 (Killed)
+10-24 13:16:46.602   577   612 D DisplayManagerService: Drop pending events for gone uid 99010
+10-24 13:16:46.603   577   624 I libprocessgroup: Successfully killed process cgroup uid 99010 pid 6368 in 12ms
+10-24 13:16:46.610  6385  6385 D CompatibilityChangeReporter: Compat change id reported: 171979766; UID 90003; state: ENABLED
+10-24 13:16:46.610  6385  6385 D CompatibilityChangeReporter: Compat change id reported: 242716250; UID 90003; state: ENABLED
+10-24 13:16:46.612  6385  6385 D ApplicationLoaders: Returning zygote-cached class loader: /system_ext/framework/androidx.window.extensions.jar
+10-24 13:16:46.612  6385  6385 D ApplicationLoaders: Returning zygote-cached class loader: /system_ext/framework/androidx.window.sidecar.jar
+10-24 13:16:46.615   577  4744 I ActivityManager: Flag disabled. Ignoring finishAttachApplication from uid: 90003. pid: 6385
+10-24 13:16:46.615  6385  6385 W SystemServiceRegistry: No service published for: virtualdevice
+10-24 13:16:46.641   577  4744 I ActivityManager: Killing 6385:com.reveny.nativecheck:appZ:com.reveny.nativecheck.app.isolated.IsolatedServiceAppZygote:appz.iso.3/u0a197i-8997 (adj 0): isolated not needed
+10-24 13:16:46.642   577  4744 D CompatibilityChangeReporter: Compat change id reported: 135634846; UID 99011; state: DISABLED
+10-24 13:16:46.642   577  4744 D CompatibilityChangeReporter: Compat change id reported: 177438394; UID 99011; state: DISABLED
+10-24 13:16:46.642   577  4744 D CompatibilityChangeReporter: Compat change id reported: 135772972; UID 99011; state: DISABLED
+10-24 13:16:46.642   577  4744 D CompatibilityChangeReporter: Compat change id reported: 135754954; UID 99011; state: ENABLED
+10-24 13:16:46.642   577   623 D CompatibilityChangeReporter: Compat change id reported: 143937733; UID 10197; state: ENABLED
+10-24 13:16:46.647   356   356 D Zygote  : Forked child process 6397
+10-24 13:16:46.647   577   623 I ActivityManager: Start proc 6397:com.reveny.nativecheck:iso:com.reveny.nativecheck.app.isolated.IsolatedService:iso.iso.3/u0i11 for service {com.reveny.nativecheck/com.reveny.nativecheck.app.isolated.IsolatedService:iso.iso.3}
+10-24 13:16:46.648   577   624 I libprocessgroup: Successfully killed process cgroup uid 90003 pid 6385 in 6ms
+10-24 13:16:46.651  6286  6286 I Zygote  : Process 6385 exited due to signal 9 (Killed)
+10-24 13:16:46.652   577   629 E system_server: Cannot read thread CPU times for PID 577
+10-24 13:16:46.632     0     0 I binder  : undelivered transaction 245722, process died.
+10-24 13:16:46.654   577   612 D DisplayManagerService: Drop pending events for gone uid 90003
+10-24 13:16:46.666  6397  6397 I DeviceLabNamespace: profile mount status=0 pid=6397
+10-24 13:16:46.667  6397  6397 W nativebridge: Failed to bind-mount /system/etc/cpuinfo.arm64.txt as /proc/cpuinfo: Permission denied
+10-24 13:16:46.667  6397  6397 W nativebridge: Failed to bind-mount /system/lib64/arm64/cpuinfo as /proc/cpuinfo: Permission denied
+10-24 13:16:46.669  6397  6397 I rvice:iso.iso.3: Using CollectorTypeCC GC.
+10-24 13:16:46.669  6397  6397 W rvice:iso.iso.3: Unexpected CPU variant for x86: x86_64.
+10-24 13:16:46.669  6397  6397 W rvice:iso.iso.3: Known variants: atom, sandybridge, silvermont, goldmont, goldmont-plus, tremont, kabylake, default
+10-24 13:16:46.669  6397  6397 W nativebridge: Cannot create code cache directory /data/user/0/com.reveny.nativecheck/code_cache: No such file or directory.
+10-24 13:16:46.691  6397  6397 I ndk_translation: Initialized NDK translation (aarch64), version 0.2.3
+10-24 13:16:46.721  6397  6397 E rvice:iso.iso.3: Not starting debugger since process cannot load the jdwp agent.
+10-24 13:16:46.724  6397  6397 I DeviceLabNamespace: property remap status=0 pid=6397
+10-24 13:16:46.757  6397  6397 D CompatibilityChangeReporter: Compat change id reported: 171979766; UID 99011; state: ENABLED
+10-24 13:16:46.757  6397  6397 D CompatibilityChangeReporter: Compat change id reported: 242716250; UID 99011; state: ENABLED
+10-24 13:16:46.759  6397  6397 D ApplicationLoaders: Returning zygote-cached class loader: /system_ext/framework/androidx.window.extensions.jar
+10-24 13:16:46.759  6397  6397 D ApplicationLoaders: Returning zygote-cached class loader: /system_ext/framework/androidx.window.sidecar.jar
+10-24 13:16:46.759  6397  6397 W ziparchive: Unable to open '/data/app/~~DEChv2viIEQSs2Ss3AjZSw==/com.reveny.nativecheck-10s4YfiP1C_6_-xfpSOSpw==/base.dm': No such file or directory
+10-24 13:16:46.759  6397  6397 W ziparchive: Unable to open '/data/app/~~DEChv2viIEQSs2Ss3AjZSw==/com.reveny.nativecheck-10s4YfiP1C_6_-xfpSOSpw==/base.dm': No such file or directory
+10-24 13:16:46.786  6397  6397 D nativeloader: Configuring clns-6 for other apk /data/app/~~DEChv2viIEQSs2Ss3AjZSw==/com.reveny.nativecheck-10s4YfiP1C_6_-xfpSOSpw==/base.apk. target_sdk_version=35, uses_libraries=, library_path=/data/app/~~DEChv2viIEQSs2Ss3AjZSw==/com.reveny.nativecheck-10s4YfiP1C_6_-xfpSOSpw==/lib/arm64:/data/app/~~DEChv2viIEQSs2Ss3AjZSw==/com.reveny.nativecheck-10s4YfiP1C_6_-xfpSOSpw==/base.apk!/lib/arm64-v8a, permitted_path=/data:/mnt/expand:/data/user/0/com.reveny.nativecheck
+10-24 13:16:46.788   800   800 D StatusBarIconController: ignoring old pipeline callback because the new wifi icon is enabled
+10-24 13:16:46.792   577  2015 I ActivityManager: Flag disabled. Ignoring finishAttachApplication from uid: 99011. pid: 6397
+10-24 13:16:46.792  6397  6397 W SystemServiceRegistry: No service published for: virtualdevice
+10-24 13:16:46.806   577  2015 I ActivityManager: Killing 6397:com.reveny.nativecheck:iso:com.reveny.nativecheck.app.isolated.IsolatedService:iso.iso.3/u0a197i11 (adj 0): isolated not needed
+10-24 13:16:46.807   577   623 D CompatibilityChangeReporter: Compat change id reported: 143937733; UID 10197; state: ENABLED
+10-24 13:16:46.811  6286  6286 D Zygote  : Forked child process 6414
+10-24 13:16:46.812   577   624 I libprocessgroup: Successfully killed process cgroup uid 99011 pid 6397 in 6ms
+10-24 13:16:46.813  6414  6414 I gote:appz.iso.4: Using CollectorTypeCC GC.
+10-24 13:16:46.814  6414  6414 W gote:appz.iso.4: Unexpected CPU variant for x86: x86_64.
+10-24 13:16:46.814  6414  6414 W gote:appz.iso.4: Known variants: atom, sandybridge, silvermont, goldmont, goldmont-plus, tremont, kabylake, default
+10-24 13:16:46.816   577   629 E system_server: Cannot read thread CPU times for PID 577
+10-24 13:16:46.817   577   612 D DisplayManagerService: Drop pending events for gone uid 99011
+10-24 13:16:46.818  6414  6414 E gote:appz.iso.4: Not starting debugger since process cannot load the jdwp agent.
+10-24 13:16:46.820   356   356 I Zygote  : Process 6397 exited due to signal 9 (Killed)
+10-24 13:16:46.823   577  2015 I ActivityManager: Start proc 6414:com.reveny.nativecheck:appZ:com.reveny.nativecheck.app.isolated.IsolatedServiceAppZygote:appz.iso.4/u0ai4 for  {com.reveny.nativecheck/com.reveny.nativecheck.app.isolated.IsolatedServiceAppZygote:appz.iso.4}
+10-24 13:16:46.833  6414  6414 D CompatibilityChangeReporter: Compat change id reported: 171979766; UID 90004; state: ENABLED
+10-24 13:16:46.833  6414  6414 D CompatibilityChangeReporter: Compat change id reported: 242716250; UID 90004; state: ENABLED
+10-24 13:16:46.835  6414  6414 D ApplicationLoaders: Returning zygote-cached class loader: /system_ext/framework/androidx.window.extensions.jar
+10-24 13:16:46.835  6414  6414 D ApplicationLoaders: Returning zygote-cached class loader: /system_ext/framework/androidx.window.sidecar.jar
+10-24 13:16:46.838   577  2210 I ActivityManager: Flag disabled. Ignoring finishAttachApplication from uid: 90004. pid: 6414
+10-24 13:16:46.839  6414  6414 W SystemServiceRegistry: No service published for: virtualdevice
+10-24 13:16:46.868   577  2210 I ActivityManager: Killing 6414:com.reveny.nativecheck:appZ:com.reveny.nativecheck.app.isolated.IsolatedServiceAppZygote:appz.iso.4/u0a197i-8996 (adj 0): isolated not needed
+10-24 13:16:46.870   577  2210 D CompatibilityChangeReporter: Compat change id reported: 135634846; UID 99012; state: DISABLED
+10-24 13:16:46.870   577  2210 D CompatibilityChangeReporter: Compat change id reported: 177438394; UID 99012; state: DISABLED
+10-24 13:16:46.870   577  2210 D CompatibilityChangeReporter: Compat change id reported: 135772972; UID 99012; state: DISABLED
+10-24 13:16:46.870   577  2210 D CompatibilityChangeReporter: Compat change id reported: 135754954; UID 99012; state: ENABLED
+10-24 13:16:46.871   577   623 D CompatibilityChangeReporter: Compat change id reported: 143937733; UID 10197; state: ENABLED
+10-24 13:16:46.874   356   356 D Zygote  : Forked child process 6426
+10-24 13:16:46.874   577   623 I ActivityManager: Start proc 6426:com.reveny.nativecheck:iso:com.reveny.nativecheck.app.isolated.IsolatedService:iso.iso.4/u0i12 for service {com.reveny.nativecheck/com.reveny.nativecheck.app.isolated.IsolatedService:iso.iso.4}
+10-24 13:16:46.876   577   624 I libprocessgroup: Successfully killed process cgroup uid 90004 pid 6414 in 7ms
+10-24 13:16:46.880   577   612 D DisplayManagerService: Drop pending events for gone uid 90004
+10-24 13:16:46.857     0     0 I binder  : undelivered transaction 246045, process died.
+10-24 13:16:46.858     0     0 I binder  : undelivered transaction 246046, process died.
+10-24 13:16:46.858     0     0 I binder  : undelivered transaction 246047, process died.
+10-24 13:16:46.881   577   629 E system_server: Cannot read thread CPU times for PID 577
+10-24 13:16:46.882  6286  6286 I Zygote  : Process 6414 exited due to signal 9 (Killed)
+10-24 13:16:46.889  6426  6426 I DeviceLabNamespace: profile mount status=0 pid=6426
+10-24 13:16:46.891  6426  6426 W nativebridge: Failed to bind-mount /system/etc/cpuinfo.arm64.txt as /proc/cpuinfo: Permission denied
+10-24 13:16:46.891  6426  6426 W nativebridge: Failed to bind-mount /system/lib64/arm64/cpuinfo as /proc/cpuinfo: Permission denied
+10-24 13:16:46.894  6426  6426 I rvice:iso.iso.4: Using CollectorTypeCC GC.
+10-24 13:16:46.894  6426  6426 W rvice:iso.iso.4: Unexpected CPU variant for x86: x86_64.
+10-24 13:16:46.894  6426  6426 W rvice:iso.iso.4: Known variants: atom, sandybridge, silvermont, goldmont, goldmont-plus, tremont, kabylake, default
+10-24 13:16:46.895  6426  6426 W nativebridge: Cannot create code cache directory /data/user/0/com.reveny.nativecheck/code_cache: No such file or directory.
+10-24 13:16:46.921  6426  6426 I ndk_translation: Initialized NDK translation (aarch64), version 0.2.3
+10-24 13:16:46.950  6426  6426 E rvice:iso.iso.4: Not starting debugger since process cannot load the jdwp agent.
+10-24 13:16:46.953  6426  6426 I DeviceLabNamespace: property remap status=0 pid=6426
+10-24 13:16:46.985  6426  6426 D CompatibilityChangeReporter: Compat change id reported: 171979766; UID 99012; state: ENABLED
+10-24 13:16:46.985  6426  6426 D CompatibilityChangeReporter: Compat change id reported: 242716250; UID 99012; state: ENABLED
+10-24 13:16:46.986  6426  6426 D ApplicationLoaders: Returning zygote-cached class loader: /system_ext/framework/androidx.window.extensions.jar
+10-24 13:16:46.986  6426  6426 D ApplicationLoaders: Returning zygote-cached class loader: /system_ext/framework/androidx.window.sidecar.jar
+10-24 13:16:46.986  6426  6426 W ziparchive: Unable to open '/data/app/~~DEChv2viIEQSs2Ss3AjZSw==/com.reveny.nativecheck-10s4YfiP1C_6_-xfpSOSpw==/base.dm': No such file or directory
+10-24 13:16:46.986  6426  6426 W ziparchive: Unable to open '/data/app/~~DEChv2viIEQSs2Ss3AjZSw==/com.reveny.nativecheck-10s4YfiP1C_6_-xfpSOSpw==/base.dm': No such file or directory
+10-24 13:16:47.007  6426  6426 D nativeloader: Configuring clns-6 for other apk /data/app/~~DEChv2viIEQSs2Ss3AjZSw==/com.reveny.nativecheck-10s4YfiP1C_6_-xfpSOSpw==/base.apk. target_sdk_version=35, uses_libraries=, library_path=/data/app/~~DEChv2viIEQSs2Ss3AjZSw==/com.reveny.nativecheck-10s4YfiP1C_6_-xfpSOSpw==/lib/arm64:/data/app/~~DEChv2viIEQSs2Ss3AjZSw==/com.reveny.nativecheck-10s4YfiP1C_6_-xfpSOSpw==/base.apk!/lib/arm64-v8a, permitted_path=/data:/mnt/expand:/data/user/0/com.reveny.nativecheck
+10-24 13:16:47.014   577  2210 I ActivityManager: Flag disabled. Ignoring finishAttachApplication from uid: 99012. pid: 6426
+10-24 13:16:47.016  6426  6426 W SystemServiceRegistry: No service published for: virtualdevice
+10-24 13:16:47.027   577  2210 I ActivityManager: Killing 6426:com.reveny.nativecheck:iso:com.reveny.nativecheck.app.isolated.IsolatedService:iso.iso.4/u0a197i12 (adj 0): isolated not needed
+10-24 13:16:47.030   577   623 D CompatibilityChangeReporter: Compat change id reported: 143937733; UID 10197; state: ENABLED
+10-24 13:16:47.034  6286  6286 D Zygote  : Forked child process 6444
+10-24 13:16:47.035   577   612 D DisplayManagerService: Drop pending events for gone uid 99012
+10-24 13:16:47.038   577   623 I ActivityManager: Start proc 6444:com.reveny.nativecheck:appZ:com.reveny.nativecheck.app.isolated.IsolatedServiceAppZygote:appz.iso.5/u0ai5 for  {com.reveny.nativecheck/com.reveny.nativecheck.app.isolated.IsolatedServiceAppZygote:appz.iso.5}
+10-24 13:16:47.039   577   624 I libprocessgroup: Successfully killed process cgroup uid 99012 pid 6426 in 6ms
+10-24 13:16:47.039   577   629 E system_server: Cannot read thread CPU times for PID 577
+10-24 13:16:47.039   356   356 I Zygote  : Process 6426 exited due to signal 9 (Killed)
+10-24 13:16:47.040  6444  6444 I gote:appz.iso.5: Using CollectorTypeCC GC.
+10-24 13:16:47.040  6444  6444 W gote:appz.iso.5: Unexpected CPU variant for x86: x86_64.
+10-24 13:16:47.040  6444  6444 W gote:appz.iso.5: Known variants: atom, sandybridge, silvermont, goldmont, goldmont-plus, tremont, kabylake, default
+10-24 13:16:47.042  6444  6444 E gote:appz.iso.5: Not starting debugger since process cannot load the jdwp agent.
+10-24 13:16:47.069  6444  6444 D CompatibilityChangeReporter: Compat change id reported: 171979766; UID 90005; state: ENABLED
+10-24 13:16:47.069  6444  6444 D CompatibilityChangeReporter: Compat change id reported: 242716250; UID 90005; state: ENABLED
+10-24 13:16:47.071  6444  6444 D ApplicationLoaders: Returning zygote-cached class loader: /system_ext/framework/androidx.window.extensions.jar
+10-24 13:16:47.071  6444  6444 D ApplicationLoaders: Returning zygote-cached class loader: /system_ext/framework/androidx.window.sidecar.jar
+10-24 13:16:47.074   577  2015 I ActivityManager: Flag disabled. Ignoring finishAttachApplication from uid: 90005. pid: 6444
+10-24 13:16:47.074  6444  6444 W SystemServiceRegistry: No service published for: virtualdevice
+10-24 13:16:47.099   577  2015 I ActivityManager: Killing 6444:com.reveny.nativecheck:appZ:com.reveny.nativecheck.app.isolated.IsolatedServiceAppZygote:appz.iso.5/u0a197i-8995 (adj 0): isolated not needed
+10-24 13:16:47.100   577   624 I libprocessgroup: Successfully killed process cgroup uid 90005 pid 6444 in 0ms
+10-24 13:16:47.102   577  2015 D CompatibilityChangeReporter: Compat change id reported: 135634846; UID 99013; state: DISABLED
+10-24 13:16:47.102   577  2015 D CompatibilityChangeReporter: Compat change id reported: 177438394; UID 99013; state: DISABLED
+10-24 13:16:47.102   577  2015 D CompatibilityChangeReporter: Compat change id reported: 135772972; UID 99013; state: DISABLED
+10-24 13:16:47.102   577  2015 D CompatibilityChangeReporter: Compat change id reported: 135754954; UID 99013; state: ENABLED
+10-24 13:16:47.102   577   623 D CompatibilityChangeReporter: Compat change id reported: 143937733; UID 10197; state: ENABLED
+10-24 13:16:47.104  6286  6286 I Zygote  : Process 6444 exited due to signal 9 (Killed)
+10-24 13:16:47.105   577   629 E system_server: Cannot read thread CPU times for PID 577
+10-24 13:16:47.107   356   356 D Zygote  : Forked child process 6458
+10-24 13:16:47.107   577   623 I ActivityManager: Start proc 6458:com.reveny.nativecheck:iso:com.reveny.nativecheck.app.isolated.IsolatedService:iso.iso.5/u0i13 for service {com.reveny.nativecheck/com.reveny.nativecheck.app.isolated.IsolatedService:iso.iso.5}
+10-24 13:16:47.109   577   612 D DisplayManagerService: Drop pending events for gone uid 90005
+10-24 13:16:47.118  6458  6458 I DeviceLabNamespace: profile mount status=0 pid=6458
+10-24 13:16:47.120  6458  6458 W nativebridge: Failed to bind-mount /system/etc/cpuinfo.arm64.txt as /proc/cpuinfo: Permission denied
+10-24 13:16:47.120  6458  6458 W nativebridge: Failed to bind-mount /system/lib64/arm64/cpuinfo as /proc/cpuinfo: Permission denied
+10-24 13:16:47.121  6458  6458 I rvice:iso.iso.5: Using CollectorTypeCC GC.
+10-24 13:16:47.121  6458  6458 W rvice:iso.iso.5: Unexpected CPU variant for x86: x86_64.
+10-24 13:16:47.121  6458  6458 W rvice:iso.iso.5: Known variants: atom, sandybridge, silvermont, goldmont, goldmont-plus, tremont, kabylake, default
+10-24 13:16:47.121  6458  6458 W nativebridge: Cannot create code cache directory /data/user/0/com.reveny.nativecheck/code_cache: No such file or directory.
+10-24 13:16:47.115  6458  6458 W main    : type=1400 audit(0.0:744): avc:  denied  { mounton } for  path=2F70726F632F637075696E666F202864656C6574656429 dev="dm-40" ino=336945 scontext=u:r:zygote:s0 tcontext=u:object_r:system_file:s0 tclass=file permissive=0
+10-24 13:16:47.115  6458  6458 W main    : type=1400 audit(0.0:745): avc:  denied  { mounton } for  path=2F70726F632F637075696E666F202864656C6574656429 dev="dm-40" ino=336945 scontext=u:r:zygote:s0 tcontext=u:object_r:system_file:s0 tclass=file permissive=0
+10-24 13:16:47.145  6458  6458 I ndk_translation: Initialized NDK translation (aarch64), version 0.2.3
+10-24 13:16:47.178  6458  6458 E rvice:iso.iso.5: Not starting debugger since process cannot load the jdwp agent.
+10-24 13:16:47.182  6458  6458 I DeviceLabNamespace: property remap status=0 pid=6458
+10-24 13:16:47.217  6458  6458 D CompatibilityChangeReporter: Compat change id reported: 171979766; UID 99013; state: ENABLED
+10-24 13:16:47.217  6458  6458 D CompatibilityChangeReporter: Compat change id reported: 242716250; UID 99013; state: ENABLED
+10-24 13:16:47.219  6458  6458 D ApplicationLoaders: Returning zygote-cached class loader: /system_ext/framework/androidx.window.extensions.jar
+10-24 13:16:47.219  6458  6458 D ApplicationLoaders: Returning zygote-cached class loader: /system_ext/framework/androidx.window.sidecar.jar
+10-24 13:16:47.219  6458  6458 W ziparchive: Unable to open '/data/app/~~DEChv2viIEQSs2Ss3AjZSw==/com.reveny.nativecheck-10s4YfiP1C_6_-xfpSOSpw==/base.dm': No such file or directory
+10-24 13:16:47.220  6458  6458 W ziparchive: Unable to open '/data/app/~~DEChv2viIEQSs2Ss3AjZSw==/com.reveny.nativecheck-10s4YfiP1C_6_-xfpSOSpw==/base.dm': No such file or directory
+10-24 13:16:47.239  6458  6458 D nativeloader: Configuring clns-6 for other apk /data/app/~~DEChv2viIEQSs2Ss3AjZSw==/com.reveny.nativecheck-10s4YfiP1C_6_-xfpSOSpw==/base.apk. target_sdk_version=35, uses_libraries=, library_path=/data/app/~~DEChv2viIEQSs2Ss3AjZSw==/com.reveny.nativecheck-10s4YfiP1C_6_-xfpSOSpw==/lib/arm64:/data/app/~~DEChv2viIEQSs2Ss3AjZSw==/com.reveny.nativecheck-10s4YfiP1C_6_-xfpSOSpw==/base.apk!/lib/arm64-v8a, permitted_path=/data:/mnt/expand:/data/user/0/com.reveny.nativecheck
+10-24 13:16:47.247   577  2210 I ActivityManager: Flag disabled. Ignoring finishAttachApplication from uid: 99013. pid: 6458
+10-24 13:16:47.248  6458  6458 W SystemServiceRegistry: No service published for: virtualdevice
+10-24 13:16:47.259   577  2210 I ActivityManager: Killing 6458:com.reveny.nativecheck:iso:com.reveny.nativecheck.app.isolated.IsolatedService:iso.iso.5/u0a197i13 (adj 0): isolated not needed
+10-24 13:16:47.259   577   624 I libprocessgroup: Successfully killed process cgroup uid 99013 pid 6458 in 0ms
+10-24 13:16:47.264  6230  6250 D EGL_emulation: app_time_stats: avg=1.64ms min=0.89ms max=6.74ms count=61
+10-24 13:16:47.265   577   629 E system_server: Cannot read thread CPU times for PID 577
+10-24 13:16:47.266   577   612 D DisplayManagerService: Drop pending events for gone uid 99013
+10-24 13:16:47.269   356   356 I Zygote  : Process 6458 exited due to signal 9 (Killed)
+10-24 13:16:47.269   577   623 D CompatibilityChangeReporter: Compat change id reported: 143937733; UID 10197; state: ENABLED
+10-24 13:16:47.272  6286  6286 D Zygote  : Forked child process 6475
+10-24 13:16:47.273   577   623 I ActivityManager: Start proc 6475:com.reveny.nativecheck:appZ:com.reveny.nativecheck.app.isolated.IsolatedServiceAppZygote:appz.iso.6/u0ai6 for  {com.reveny.nativecheck/com.reveny.nativecheck.app.isolated.IsolatedServiceAppZygote:appz.iso.6}
+10-24 13:16:47.274  6475  6475 I gote:appz.iso.6: Using CollectorTypeCC GC.
+10-24 13:16:47.275  6475  6475 W gote:appz.iso.6: Unexpected CPU variant for x86: x86_64.
+10-24 13:16:47.275  6475  6475 W gote:appz.iso.6: Known variants: atom, sandybridge, silvermont, goldmont, goldmont-plus, tremont, kabylake, default
+10-24 13:16:47.278  6475  6475 E gote:appz.iso.6: Not starting debugger since process cannot load the jdwp agent.
+10-24 13:16:47.305  6475  6475 D CompatibilityChangeReporter: Compat change id reported: 171979766; UID 90006; state: ENABLED
+10-24 13:16:47.306  6475  6475 D CompatibilityChangeReporter: Compat change id reported: 242716250; UID 90006; state: ENABLED
+10-24 13:16:47.308  6475  6475 D ApplicationLoaders: Returning zygote-cached class loader: /system_ext/framework/androidx.window.extensions.jar
+10-24 13:16:47.308  6475  6475 D ApplicationLoaders: Returning zygote-cached class loader: /system_ext/framework/androidx.window.sidecar.jar
+10-24 13:16:47.310   577  4744 I ActivityManager: Flag disabled. Ignoring finishAttachApplication from uid: 90006. pid: 6475
+10-24 13:16:47.311  6475  6475 W SystemServiceRegistry: No service published for: virtualdevice
+10-24 13:16:47.341   577  4744 I ActivityManager: Killing 6475:com.reveny.nativecheck:appZ:com.reveny.nativecheck.app.isolated.IsolatedServiceAppZygote:appz.iso.6/u0a197i-8994 (adj 0): isolated not needed
+10-24 13:16:47.343   577  4744 D CompatibilityChangeReporter: Compat change id reported: 135634846; UID 99014; state: DISABLED
+10-24 13:16:47.344   577  4744 D CompatibilityChangeReporter: Compat change id reported: 177438394; UID 99014; state: DISABLED
+10-24 13:16:47.344   577  4744 D CompatibilityChangeReporter: Compat change id reported: 135772972; UID 99014; state: DISABLED
+10-24 13:16:47.344   577  4744 D CompatibilityChangeReporter: Compat change id reported: 135754954; UID 99014; state: ENABLED
+10-24 13:16:47.346   577   623 D CompatibilityChangeReporter: Compat change id reported: 143937733; UID 10197; state: ENABLED
+10-24 13:16:47.347   577   624 I libprocessgroup: Successfully killed process cgroup uid 90006 pid 6475 in 5ms
+10-24 13:16:47.349   577   629 E system_server: Cannot read thread CPU times for PID 577
+10-24 13:16:47.350   577   612 D DisplayManagerService: Drop pending events for gone uid 90006
+10-24 13:16:47.350  6286  6286 I Zygote  : Process 6475 exited due to signal 9 (Killed)
+10-24 13:16:47.354   356   356 D Zygote  : Forked child process 6488
+10-24 13:16:47.354   577   623 I ActivityManager: Start proc 6488:com.reveny.nativecheck:iso:com.reveny.nativecheck.app.isolated.IsolatedService:iso.iso.6/u0i14 for service {com.reveny.nativecheck/com.reveny.nativecheck.app.isolated.IsolatedService:iso.iso.6}
+10-24 13:16:47.366  6488  6488 I DeviceLabNamespace: profile mount status=0 pid=6488
+10-24 13:16:47.368  6488  6488 W nativebridge: Failed to bind-mount /system/etc/cpuinfo.arm64.txt as /proc/cpuinfo: Permission denied
+10-24 13:16:47.368  6488  6488 W nativebridge: Failed to bind-mount /system/lib64/arm64/cpuinfo as /proc/cpuinfo: Permission denied
+10-24 13:16:47.370  6488  6488 I rvice:iso.iso.6: Using CollectorTypeCC GC.
+10-24 13:16:47.370  6488  6488 W rvice:iso.iso.6: Unexpected CPU variant for x86: x86_64.
+10-24 13:16:47.370  6488  6488 W rvice:iso.iso.6: Known variants: atom, sandybridge, silvermont, goldmont, goldmont-plus, tremont, kabylake, default
+10-24 13:16:47.370  6488  6488 W nativebridge: Cannot create code cache directory /data/user/0/com.reveny.nativecheck/code_cache: No such file or directory.
+10-24 13:16:47.363  6488  6488 W main    : type=1400 audit(0.0:746): avc:  denied  { mounton } for  path=2F70726F632F637075696E666F202864656C6574656429 dev="dm-40" ino=336945 scontext=u:r:zygote:s0 tcontext=u:object_r:system_file:s0 tclass=file permissive=0
+10-24 13:16:47.363  6488  6488 W main    : type=1400 audit(0.0:747): avc:  denied  { mounton } for  path=2F70726F632F637075696E666F202864656C6574656429 dev="dm-40" ino=336945 scontext=u:r:zygote:s0 tcontext=u:object_r:system_file:s0 tclass=file permissive=0
+10-24 13:16:47.395  6488  6488 I ndk_translation: Initialized NDK translation (aarch64), version 0.2.3
+10-24 13:16:47.423  6488  6488 E rvice:iso.iso.6: Not starting debugger since process cannot load the jdwp agent.
+10-24 13:16:47.426  6488  6488 I DeviceLabNamespace: property remap status=0 pid=6488
+10-24 13:16:47.432  6230  6250 D EGL_emulation: app_time_stats: avg=675.47ms min=109.45ms max=1000.16ms count=3
+10-24 13:16:47.452  6488  6488 D CompatibilityChangeReporter: Compat change id reported: 171979766; UID 99014; state: ENABLED
+10-24 13:16:47.452  6488  6488 D CompatibilityChangeReporter: Compat change id reported: 242716250; UID 99014; state: ENABLED
+10-24 13:16:47.455  6488  6488 D ApplicationLoaders: Returning zygote-cached class loader: /system_ext/framework/androidx.window.extensions.jar
+10-24 13:16:47.455  6488  6488 D ApplicationLoaders: Returning zygote-cached class loader: /system_ext/framework/androidx.window.sidecar.jar
+10-24 13:16:47.455  6488  6488 W ziparchive: Unable to open '/data/app/~~DEChv2viIEQSs2Ss3AjZSw==/com.reveny.nativecheck-10s4YfiP1C_6_-xfpSOSpw==/base.dm': No such file or directory
+10-24 13:16:47.455  6488  6488 W ziparchive: Unable to open '/data/app/~~DEChv2viIEQSs2Ss3AjZSw==/com.reveny.nativecheck-10s4YfiP1C_6_-xfpSOSpw==/base.dm': No such file or directory
+10-24 13:16:47.478  6488  6488 D nativeloader: Configuring clns-6 for other apk /data/app/~~DEChv2viIEQSs2Ss3AjZSw==/com.reveny.nativecheck-10s4YfiP1C_6_-xfpSOSpw==/base.apk. target_sdk_version=35, uses_libraries=, library_path=/data/app/~~DEChv2viIEQSs2Ss3AjZSw==/com.reveny.nativecheck-10s4YfiP1C_6_-xfpSOSpw==/lib/arm64:/data/app/~~DEChv2viIEQSs2Ss3AjZSw==/com.reveny.nativecheck-10s4YfiP1C_6_-xfpSOSpw==/base.apk!/lib/arm64-v8a, permitted_path=/data:/mnt/expand:/data/user/0/com.reveny.nativecheck
+10-24 13:16:47.484   577  2210 I ActivityManager: Flag disabled. Ignoring finishAttachApplication from uid: 99014. pid: 6488
+10-24 13:16:47.484  6488  6488 W SystemServiceRegistry: No service published for: virtualdevice
+10-24 13:16:47.498   577  2210 I ActivityManager: Killing 6488:com.reveny.nativecheck:iso:com.reveny.nativecheck.app.isolated.IsolatedService:iso.iso.6/u0a197i14 (adj 0): isolated not needed
+10-24 13:16:47.501   577   623 D CompatibilityChangeReporter: Compat change id reported: 143937733; UID 10197; state: ENABLED
+10-24 13:16:47.503  6286  6286 D Zygote  : Forked child process 6505
+10-24 13:16:47.504   577   624 I libprocessgroup: Successfully killed process cgroup uid 99014 pid 6488 in 5ms
+10-24 13:16:47.505   577   612 D DisplayManagerService: Drop pending events for gone uid 99014
+10-24 13:16:47.506   577   629 E system_server: Cannot read thread CPU times for PID 577
+10-24 13:16:47.507   356   356 I Zygote  : Process 6488 exited due to signal 9 (Killed)
+10-24 13:16:47.507   577   623 I ActivityManager: Start proc 6505:com.reveny.nativecheck:appZ:com.reveny.nativecheck.app.isolated.IsolatedServiceAppZygote:appz.iso.7/u0ai7 for  {com.reveny.nativecheck/com.reveny.nativecheck.app.isolated.IsolatedServiceAppZygote:appz.iso.7}
+10-24 13:16:47.509  6505  6505 I gote:appz.iso.7: Using CollectorTypeCC GC.
+10-24 13:16:47.509  6505  6505 W gote:appz.iso.7: Unexpected CPU variant for x86: x86_64.
+10-24 13:16:47.509  6505  6505 W gote:appz.iso.7: Known variants: atom, sandybridge, silvermont, goldmont, goldmont-plus, tremont, kabylake, default
+10-24 13:16:47.513  6505  6505 E gote:appz.iso.7: Not starting debugger since process cannot load the jdwp agent.
+10-24 13:16:47.540  6505  6505 D CompatibilityChangeReporter: Compat change id reported: 171979766; UID 90007; state: ENABLED
+10-24 13:16:47.541  6505  6505 D CompatibilityChangeReporter: Compat change id reported: 242716250; UID 90007; state: ENABLED
+10-24 13:16:47.542  6505  6505 D ApplicationLoaders: Returning zygote-cached class loader: /system_ext/framework/androidx.window.extensions.jar
+10-24 13:16:47.542  6505  6505 D ApplicationLoaders: Returning zygote-cached class loader: /system_ext/framework/androidx.window.sidecar.jar
+10-24 13:16:47.548   577  4744 I ActivityManager: Flag disabled. Ignoring finishAttachApplication from uid: 90007. pid: 6505
+10-24 13:16:47.558  6505  6505 W SystemServiceRegistry: No service published for: virtualdevice
+10-24 13:16:47.586   577  4744 I ActivityManager: Killing 6505:com.reveny.nativecheck:appZ:com.reveny.nativecheck.app.isolated.IsolatedServiceAppZygote:appz.iso.7/u0a197i-8993 (adj 0): isolated not needed
+10-24 13:16:47.589   577   624 I libprocessgroup: Successfully killed process cgroup uid 90007 pid 6505 in 0ms
+10-24 13:16:47.590   577  2210 D CompatibilityChangeReporter: Compat change id reported: 135634846; UID 99015; state: DISABLED
+10-24 13:16:47.590   577  2210 D CompatibilityChangeReporter: Compat change id reported: 177438394; UID 99015; state: DISABLED
+10-24 13:16:47.590   577  2210 D CompatibilityChangeReporter: Compat change id reported: 135772972; UID 99015; state: DISABLED
+10-24 13:16:47.590   577  2210 D CompatibilityChangeReporter: Compat change id reported: 135754954; UID 99015; state: ENABLED
+10-24 13:16:47.590   577   623 D CompatibilityChangeReporter: Compat change id reported: 143937733; UID 10197; state: ENABLED
+10-24 13:16:47.591  6286  6286 I Zygote  : Process 6505 exited due to signal 9 (Killed)
+10-24 13:16:47.591   577   629 E system_server: Cannot read thread CPU times for PID 577
+10-24 13:16:47.598   577   612 D DisplayManagerService: Drop pending events for gone uid 90007
+10-24 13:16:47.599   356   356 D Zygote  : Forked child process 6519
+10-24 13:16:47.599   577   623 I ActivityManager: Start proc 6519:com.reveny.nativecheck:iso:com.reveny.nativecheck.app.isolated.IsolatedService:iso.iso.7/u0i15 for service {com.reveny.nativecheck/com.reveny.nativecheck.app.isolated.IsolatedService:iso.iso.7}
+10-24 13:16:47.609  6519  6519 I DeviceLabNamespace: profile mount status=0 pid=6519
+10-24 13:16:47.630  6519  6519 W nativebridge: Failed to bind-mount /system/etc/cpuinfo.arm64.txt as /proc/cpuinfo: Permission denied
+10-24 13:16:47.627  6519  6519 W main    : type=1400 audit(0.0:748): avc:  denied  { mounton } for  path=2F70726F632F637075696E666F202864656C6574656429 dev="dm-40" ino=336945 scontext=u:r:zygote:s0 tcontext=u:object_r:system_file:s0 tclass=file permissive=0
+10-24 13:16:47.612     0     0 W audit   : audit_lost=611 audit_rate_limit=5 audit_backlog_limit=64
+10-24 13:16:47.632  6519  6519 W nativebridge: Failed to bind-mount /system/lib64/arm64/cpuinfo as /proc/cpuinfo: Permission denied
+10-24 13:16:47.633  6519  6519 I rvice:iso.iso.7: Using CollectorTypeCC GC.
+10-24 13:16:47.634  6519  6519 W rvice:iso.iso.7: Unexpected CPU variant for x86: x86_64.
+10-24 13:16:47.634  6519  6519 W rvice:iso.iso.7: Known variants: atom, sandybridge, silvermont, goldmont, goldmont-plus, tremont, kabylake, default
+10-24 13:16:47.634  6519  6519 W nativebridge: Cannot create code cache directory /data/user/0/com.reveny.nativecheck/code_cache: No such file or directory.
+10-24 13:16:47.613     0     0 E audit   : rate limit exceeded
+10-24 13:16:47.657  6519  6519 I ndk_translation: Initialized NDK translation (aarch64), version 0.2.3
+10-24 13:16:47.691  6519  6519 E rvice:iso.iso.7: Not starting debugger since process cannot load the jdwp agent.
+10-24 13:16:47.694  6519  6519 I DeviceLabNamespace: property remap status=0 pid=6519
+10-24 13:16:47.724  6519  6519 D CompatibilityChangeReporter: Compat change id reported: 171979766; UID 99015; state: ENABLED
+10-24 13:16:47.724  6519  6519 D CompatibilityChangeReporter: Compat change id reported: 242716250; UID 99015; state: ENABLED
+10-24 13:16:47.726  6519  6519 D ApplicationLoaders: Returning zygote-cached class loader: /system_ext/framework/androidx.window.extensions.jar
+10-24 13:16:47.726  6519  6519 D ApplicationLoaders: Returning zygote-cached class loader: /system_ext/framework/androidx.window.sidecar.jar
+10-24 13:16:47.726  6519  6519 W ziparchive: Unable to open '/data/app/~~DEChv2viIEQSs2Ss3AjZSw==/com.reveny.nativecheck-10s4YfiP1C_6_-xfpSOSpw==/base.dm': No such file or directory
+10-24 13:16:47.726  6519  6519 W ziparchive: Unable to open '/data/app/~~DEChv2viIEQSs2Ss3AjZSw==/com.reveny.nativecheck-10s4YfiP1C_6_-xfpSOSpw==/base.dm': No such file or directory
+10-24 13:16:47.747  6519  6519 D nativeloader: Configuring clns-6 for other apk /data/app/~~DEChv2viIEQSs2Ss3AjZSw==/com.reveny.nativecheck-10s4YfiP1C_6_-xfpSOSpw==/base.apk. target_sdk_version=35, uses_libraries=, library_path=/data/app/~~DEChv2viIEQSs2Ss3AjZSw==/com.reveny.nativecheck-10s4YfiP1C_6_-xfpSOSpw==/lib/arm64:/data/app/~~DEChv2viIEQSs2Ss3AjZSw==/com.reveny.nativecheck-10s4YfiP1C_6_-xfpSOSpw==/base.apk!/lib/arm64-v8a, permitted_path=/data:/mnt/expand:/data/user/0/com.reveny.nativecheck
+10-24 13:16:47.753   577  2015 I ActivityManager: Flag disabled. Ignoring finishAttachApplication from uid: 99015. pid: 6519
+10-24 13:16:47.754  6519  6519 W SystemServiceRegistry: No service published for: virtualdevice
+10-24 13:16:47.767   577  2015 I ActivityManager: Killing 6519:com.reveny.nativecheck:iso:com.reveny.nativecheck.app.isolated.IsolatedService:iso.iso.7/u0a197i15 (adj 0): isolated not needed
+10-24 13:16:47.753     0     0 I binder_alloc: 6519: binder_alloc_buf, no vma
+10-24 13:16:47.771   577   624 I libprocessgroup: Successfully killed process cgroup uid 99015 pid 6519 in 0ms
+10-24 13:16:47.772   577  2210 E IPCThreadState: Binder transaction failure: 247251/29189/-3
+10-24 13:16:47.775   356   356 I Zygote  : Process 6519 exited due to signal 9 (Killed)
+10-24 13:16:47.776   577   629 E system_server: Cannot read thread CPU times for PID 577
+10-24 13:16:47.776   577   612 D DisplayManagerService: Drop pending events for gone uid 99015
+10-24 13:16:47.967   800   800 D StatusBarIconController: ignoring old pipeline callbacks, because the new mobile icons are enabled
+--------- beginning of crash
+10-24 13:16:48.149  6230  6264 F libc    : Fatal signal 11 (SIGSEGV), code 128 (SI_KERNEL), fault addr 0x0 in tid 6264 (pool-2-thread-1), pid 6230 (eny.nativecheck)
+10-24 13:16:48.175  6540  6540 I crash_dump64: obtaining output fd from tombstoned, type: kDebuggerdTombstoneProto
+10-24 13:16:48.176   195   195 I tombstoned: received crash request for pid 6264
+10-24 13:16:48.176  6540  6540 I crash_dump64: performing dump of process 6230 (target tid = 6264)
+10-24 13:16:48.272   577  4744 D CompatibilityChangeReporter: Compat change id reported: 168419799; UID 10200; state: DISABLED
+10-24 13:16:48.272   577  4744 D CompatibilityChangeReporter: Compat change id reported: 273564678; UID 10200; state: DISABLED
+10-24 13:16:48.272   577  4744 D CompatibilityChangeReporter: Compat change id reported: 184838306; UID 10200; state: DISABLED
+10-24 13:16:48.273   577  4744 D CompatibilityChangeReporter: Compat change id reported: 185004937; UID 10200; state: DISABLED
+10-24 13:16:48.273   577  4744 D CompatibilityChangeReporter: Compat change id reported: 168419799; UID 10193; state: DISABLED
+10-24 13:16:48.273   577  4744 D CompatibilityChangeReporter: Compat change id reported: 273564678; UID 10193; state: DISABLED
+10-24 13:16:48.273   577  4744 D CompatibilityChangeReporter: Compat change id reported: 184838306; UID 10193; state: DISABLED
+10-24 13:16:48.273   577  4744 D CompatibilityChangeReporter: Compat change id reported: 185004937; UID 10193; state: DISABLED
+10-24 13:16:48.280  6230  6250 D EGL_emulation: app_time_stats: avg=1.44ms min=0.91ms max=4.78ms count=61
+10-24 13:16:48.294     0     0 I logd    : logdr: UID=10197 GID=10197 PID=6540 n tail=500 logMask=8 pid=6230 start=0ns deadline=0ns
+10-24 13:16:48.300     0     0 I logd    : logdr: UID=10197 GID=10197 PID=6540 n tail=500 logMask=1 pid=6230 start=0ns deadline=0ns
+10-24 13:16:48.321  1424  1699 I MediaProvider: Deleted 0 1 0 0 0 0 0 items on external_primary due to com.android.shell
+10-24 13:16:48.335  6540  6540 F DEBUG   : *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+10-24 13:16:48.335  6540  6540 F DEBUG   : Build fingerprint: 'google/shiba/shiba:14/AP1A.240505.005/11677807:user/release-keys'
+10-24 13:16:48.335  6540  6540 F DEBUG   : Revision: '0'
+10-24 13:16:48.335  6540  6540 F DEBUG   : ABI: 'x86_64'
+10-24 13:16:48.335  6540  6540 F DEBUG   : Timestamp: 2026-10-24 13:16:48.183885517-0300
+10-24 13:16:48.335  6540  6540 F DEBUG   : Process uptime: 5s
+10-24 13:16:48.335  6540  6540 F DEBUG   : Cmdline: com.reveny.nativecheck
+10-24 13:16:48.335  6540  6540 F DEBUG   : pid: 6230, tid: 6264, name: pool-2-thread-1  >>> com.reveny.nativecheck <<<
+10-24 13:16:48.335  6540  6540 F DEBUG   : uid: 10197
+10-24 13:16:48.335  6540  6540 F DEBUG   : signal 11 (SIGSEGV), code 128 (SI_KERNEL), fault addr 0x0000000000000000
+10-24 13:16:48.335  6540  6540 F DEBUG   :     rax 00007efefd2fa578  rbx 00007f022bc89050  rcx 00007f021cc032cc  rdx 0000000000000002
+10-24 13:16:48.335  6540  6540 F DEBUG   :     r8  00007eff6b651f01  r9  0000000000000001  r10 0000000000000001  r11 000000000000000e
+10-24 13:16:48.335  6540  6540 F DEBUG   :     r12 00007eff6b68c010  r13 00000000002fa578  r14 00007eff61199f90  r15 0013000100028606
+10-24 13:16:48.335  6540  6540 F DEBUG   :     rdi 00007f022bc89050  rsi 00007efefb8e61e0
+10-24 13:16:48.335  6540  6540 F DEBUG   :     rbp 00007f022bc89050  rsp 00007efefebea4a0  rip 00007efefb8e62ad
+10-24 13:16:48.335  6540  6540 F DEBUG   : 1 total frames
+10-24 13:16:48.335  6540  6540 F DEBUG   : backtrace:
+10-24 13:16:48.335  6540  6540 F DEBUG   :       #00 pc 00000000000e62ad  <anonymous:7efefb800000>
+10-24 13:16:48.342   577  4744 D OomAdjuster: Not killing cached processes
+10-24 13:16:48.350  1298  5707 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.ipa.base.IpaGcmTaskService started execution. cause:9 exec_start_elapsed_seconds: 456 [CONTEXT service_id=218 ]
+10-24 13:16:48.350   195   195 E tombstoned: Tombstone written to: tombstone_14
+10-24 13:16:48.355   577  6552 W ActivityTaskManager:   Force finishing activity com.reveny.nativecheck/.ui.activity.MainActivity
+10-24 13:16:48.355   800   868 V WindowManagerShell: Transition requested: android.os.BinderProxy@576dd88 TransitionRequestInfo { type = CLOSE, triggerTask = null, remoteTransition = null, displayChange = null }
+10-24 13:16:48.357   577   669 I BootReceiver: Copying /data/tombstones/tombstone_14 to DropBox (SYSTEM_TOMBSTONE)
+10-24 13:16:48.358   577   669 I DropBoxManagerService: add tag=SYSTEM_TOMBSTONE isTagEnabled=true flags=0x6
+10-24 13:16:48.361  1298  5708 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.ipa.base.IpaGcmTaskService finished executing. cause:9 result: 1 elapsed_millis: 13 uptime_millis: 13 exec_start_elapsed_seconds: 456 [CONTEXT service_id=218 ]
+10-24 13:16:48.362   577  6554 I DropBoxManagerService: add tag=data_app_native_crash isTagEnabled=true flags=0x2
+10-24 13:16:48.387   577   669 I DropBoxManagerService: add tag=SYSTEM_TOMBSTONE_PROTO_WITH_HEADERS isTagEnabled=true flags=0x4
+10-24 13:16:48.391   863  1130 D BtGatt.ScanManager: uid 10128 isForeground true scanMode -1
+10-24 13:16:48.371     0     0 I init    : Untracked pid 6540 exited with status 0
+10-24 13:16:48.371     0     0 I init    : Untracked pid 6540 did not have an associated service entry and will not be reaped
+10-24 13:16:48.393   420   420 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+10-24 13:16:48.406   577   666 D CompatibilityChangeReporter: Compat change id reported: 265195908; UID 10197; state: ENABLED
+10-24 13:16:48.415   577  2210 I ActivityManager: Process com.reveny.nativecheck (pid 6230) has died: prcp CRE 
+10-24 13:16:48.417   356   356 I Zygote  : Process 6230 exited due to signal 11 (Segmentation fault)
+10-24 13:16:48.417   577   653 I WindowManager: WIN DEATH: Window{70c10f4 u0 com.reveny.nativecheck/com.reveny.nativecheck.ui.activity.MainActivity}
+10-24 13:16:48.418   577   653 W InputManager-JNI: Input channel object '70c10f4 com.reveny.nativecheck/com.reveny.nativecheck.ui.activity.MainActivity (client)' was disposed without first being removed with the input manager!
+10-24 13:16:48.418   577  2159 I ImeTracker: com.reveny.nativecheck:bea43a7e: onRequestHide at ORIGIN_SERVER_HIDE_INPUT reason HIDE_REMOVE_CLIENT
+10-24 13:16:48.419   577  2159 I ImeTracker: com.reveny.nativecheck:bea43a7e: onCancelled at PHASE_SERVER_SHOULD_HIDE
+10-24 13:16:48.419   577   921 I WindowManager: WIN DEATH: Window{b15aebc u0 com.reveny.nativecheck/com.reveny.nativecheck.ui.activity.MainActivity}
+10-24 13:16:48.419   577   921 W InputManager-JNI: Input channel object 'b15aebc com.reveny.nativecheck/com.reveny.nativecheck.ui.activity.MainActivity (client)' was disposed without first being removed with the input manager!
+10-24 13:16:48.421   577   612 D DisplayManagerService: Drop pending events for gone uid 10197
+10-24 13:16:48.439  6131  6151 E OpenGLRenderer: Unable to match the desired swap behavior.
+10-24 13:16:48.482  6553  6553 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+10-24 13:16:48.483  1424  1709 W MediaProvider: isAppCloneUserPair for user 0: false
+10-24 13:16:48.484  6553  6553 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+10-24 13:16:48.552     0     0 I servicemanager: Could not find android.hardware.graphics.allocator.IAllocator/default in the VINTF manifest.
+10-24 13:16:48.572   142   142 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+10-24 13:16:48.572  6553  6557 I Gralloc4: mapper 4.x is not supported
+10-24 13:16:48.579   577   624 I libprocessgroup: Successfully killed process cgroup uid 10197 pid 6230 in 152ms
+10-24 13:16:48.559     0     0 I init    : Untracked pid 6542 exited with status 0
+10-24 13:16:48.560     0     0 I init    : Untracked pid 6542 did not have an associated service entry and will not be reaped
+10-24 13:16:48.585  1298  6087 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.ipa.base.IpaGcmTaskService started execution. cause:9 exec_start_elapsed_seconds: 456 [CONTEXT service_id=218 ]
+10-24 13:16:48.588  1298  5708 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.ipa.base.IpaGcmTaskService finished executing. cause:9 result: 1 elapsed_millis: 11 uptime_millis: 11 exec_start_elapsed_seconds: 456 [CONTEXT service_id=218 ]
+10-24 13:16:48.632   800   868 V WindowManagerShell: onTransitionReady android.os.BinderProxy@576dd88: {id=24 t=CLOSE f=0x10 trk=0 r=[0@Point(0, 0)] c=[{WCT{android.window.IWindowContainerToken$Stub$Proxy@c604a34} m=TO_FRONT f=MOVE_TO_TOP leash=Surface(name=Task=129)/@0xa4bf321 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0},{WCT{android.window.IWindowContainerToken$Stub$Proxy@3d3a05d} m=CLOSE f=NONE leash=Surface(name=Task=130)/@0x2f0c346 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0}]}
+10-24 13:16:48.634   577   611 V WindowManager: Sent Transition #24 createdAt=10-24 13:16:48.355 via request=TransitionRequestInfo { type = CLOSE, triggerTask = null, remoteTransition = null, displayChange = null }
+10-24 13:16:48.634   577   611 V WindowManager:     startWCT=WindowContainerTransaction { changes = {} hops = [] errorCallbackToken=null taskFragmentOrganizer=null }
+10-24 13:16:48.634   577   611 V WindowManager:     info={id=24 t=CLOSE f=0x10 trk=0 r=[0@Point(0, 0)] c=[{WCT{RemoteToken{e9ef7d9 Task{8dcfc25 #129 type=standard A=10200:com.framgia.example.emulatordetector}}} m=TO_FRONT f=MOVE_TO_TOP leash=Surface(name=Task=129)/@0x82f8add sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0},{WCT{RemoteToken{73c9156 Task{2faca00 #130 type=standard A=10197:com.reveny.nativecheck}}} m=CLOSE f=NONE leash=Surface(name=Task=130)/@0x767d918 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0}]}
+10-24 13:16:48.634   800   868 V WindowManagerShell: Playing animation for (#24)android.os.BinderProxy@576dd88@0
+10-24 13:16:48.634   800   868 V WindowManagerShell:  try handler com.android.wm.shell.transition.DefaultMixedHandler@3f85d22
+10-24 13:16:48.634   800   868 V WindowManagerShell:  try handler com.android.wm.shell.keyguard.KeyguardTransitionHandler@76c33b3
+10-24 13:16:48.634   800   868 V WindowManagerShell:  try handler com.android.wm.shell.activityembedding.ActivityEmbeddingController@44bd70
+10-24 13:16:48.634   800   868 V WindowManagerShell:  try handler com.android.wm.shell.recents.RecentsTransitionHandler@39cf8e9
+10-24 13:16:48.634   800   868 V ShellRecents: RecentsTransitionHandler.startAnimation: no controller found
+10-24 13:16:48.634   800   868 V WindowManagerShell:  try handler com.android.wm.shell.pip.PipTransition@ae3296e
+10-24 13:16:48.634   800   868 V WindowManagerShell:  try handler com.android.wm.shell.splitscreen.StageCoordinator@26c580f
+10-24 13:16:48.634   800   868 V WindowManagerShell:  try handler com.android.wm.shell.transition.RemoteTransitionHandler@590409c
+10-24 13:16:48.634   800   868 V WindowManagerShell: Transition doesn't have explicit remote, search filters for match for {id=24 t=CLOSE f=0x10 trk=0 r=[0@Point(0, 0)] c=[{WCT{android.window.IWindowContainerToken$Stub$Proxy@c604a34} m=TO_FRONT f=MOVE_TO_TOP leash=Surface(name=Task=129)/@0xa4bf321 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0},{WCT{android.window.IWindowContainerToken$Stub$Proxy@3d3a05d} m=CLOSE f=NONE leash=Surface(name=Task=130)/@0x2f0c346 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0}]}
+10-24 13:16:48.634   800   868 V WindowManagerShell:  Checking filter Pair{{types=[] flags=0x0] notFlags=0x0 checks=[{atype=dream independent=true modes=[OPEN,TO_FRONT] flags=NONE mustBeTask=false order=ANY topActivity=null},{atype=home independent=true modes=[CLOSE,TO_BACK] flags=NONE mustBeTask=false order=ANY topActivity=null}]} RemoteTransition { remoteTransition = android.window.IRemoteTransition$Stub$Proxy@5398d72, appThread = android.app.IApplicationThread$Stub$Proxy@ac625c3, debugName = LauncherToDream }}
+10-24 13:16:48.634   800   868 V WindowManagerShell:  Checking filter Pair{{types=[] flags=0x0] notFlags=0x100 checks=[{atype=home independent=true modes=[OPEN,TO_FRONT] flags=NONE mustBeTask=false order=TOP topActivity=ComponentInfo{com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.NexusLauncherActivity}},{atype=standard independent=true modes=[CLOSE,TO_BACK] flags=NONE mustBeTask=false order=ANY topActivity=null}]} RemoteTransition { remoteTransition = android.window.IRemoteTransition$Stub$Proxy@db1ae40, appThread = android.app.IApplicationThread$Stub$Proxy@d3ee179, debugName = QuickstepLaunchHome }}
+10-24 13:16:48.634   800   868 V WindowManagerShell:  Delegate animation for #24 to null
+10-24 13:16:48.634   800   868 V WindowManagerShell:  try handler com.android.wm.shell.transition.DefaultTransitionHandler@951dc21
+10-24 13:16:48.634   800   868 V WindowManagerShell: start default transition animation, info = {id=24 t=CLOSE f=0x10 trk=0 r=[0@Point(0, 0)] c=[{WCT{android.window.IWindowContainerToken$Stub$Proxy@c604a34} m=TO_FRONT f=MOVE_TO_TOP leash=Surface(name=Task=129)/@0xa4bf321 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0},{WCT{android.window.IWindowContainerToken$Stub$Proxy@3d3a05d} m=CLOSE f=NONE leash=Surface(name=Task=130)/@0x2f0c346 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0}]}
+10-24 13:16:48.636   800   868 V WindowManagerShell: loadAnimation: anim=android.view.animation.AnimationSet@2d1d5a0 animAttr=0xb type=CLOSE isEntrance=false
+10-24 13:16:48.636   800   868 V WindowManagerShell: loadAnimation: anim=android.view.animation.AnimationSet@d61b1ff animAttr=0xa type=CLOSE isEntrance=true
+10-24 13:16:48.637   800   868 V WindowManagerShell:  animated by com.android.wm.shell.transition.DefaultTransitionHandler@951dc21
+10-24 13:16:48.662   577  2062 I ImeTracker: com.framgia.example.emulatordetector:68ab59d: onRequestHide at ORIGIN_SERVER_HIDE_INPUT reason HIDE_UNSPECIFIED_WINDOW
+10-24 13:16:48.662   577  2062 I ImeTracker: com.framgia.example.emulatordetector:68ab59d: onCancelled at PHASE_SERVER_SHOULD_HIDE
+10-24 13:16:48.663  1359  1359 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3227 
+10-24 13:16:48.664  1359  1359 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2087 repeatCheckTimes = 0, unlocked = true
+10-24 13:16:48.664  1359  1359 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1877 onStartInput(EditorInfo{inputType=0x0(NULL) imeOptions=0x0 privateImeOptions=null actionName=UNSPECIFIED actionLabel=null actionId=0 initialSelStart=-1 initialSelEnd=-1 initialCapsMode=0x0 hintText=null label=null packageName=com.framgia.example.emulatordetector fieldId=0 fieldName=null extras=null}, false)
+10-24 13:16:48.664  1359  1359 I GoogleInputMethodService: GoogleInputMethodService.shouldHideHeaderOnInitialState():4008 ShouldHideHeaderOnInitialState = false
+10-24 13:16:48.666  1359  1359 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2087 repeatCheckTimes = 2, unlocked = true
+10-24 13:16:48.668   420   420 E BpTransactionCompletedListener: Failed to transact (-32)
+10-24 13:16:48.673   800   991 D EGL_emulation: app_time_stats: avg=274.08ms min=4.80ms max=3218.92ms count=15
+10-24 13:16:48.739   577   673 D ActivityManager: freezing 5910 dev.androidlab.probe
+10-24 13:16:48.764   577  1074 I ActivityManager: Broadcasting: Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x400000 }
+10-24 13:16:48.765   577  1074 I ActivityManager: Enqueued broadcast Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x400000 }: 0
+10-24 13:16:48.769   577   611 I ActivityManager: Broadcast completed: result=0
+10-24 13:16:48.769  1424  1883 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+10-24 13:16:48.779  1424  1883 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+10-24 13:16:48.815  1298  6087 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.ipa.base.IpaGcmTaskService started execution. cause:9 exec_start_elapsed_seconds: 456 [CONTEXT service_id=218 ]
+10-24 13:16:48.819  1298  5707 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.ipa.base.IpaGcmTaskService finished executing. cause:9 result: 1 elapsed_millis: 14 uptime_millis: 14 exec_start_elapsed_seconds: 456 [CONTEXT service_id=218 ]
+10-24 13:16:48.834   800   991 D EGL_emulation: app_time_stats: avg=73.56ms min=12.76ms max=2419.02ms count=42

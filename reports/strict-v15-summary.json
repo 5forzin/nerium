@@ -1,0 +1,432 @@
+{
+  "experiment": "CPU enumeration coherence, four-vCPU cold boot and independent attestation challenge audit",
+  "captured_at": "2026-10-25T01:39:34.604106+00:00",
+  "goal_zero_achieved": false,
+  "native_runtime_version": "0.12.2",
+  "attestation_probe_version": "0.2.0",
+  "serial": "emulator-5556",
+  "dedicated_avd": "device-lab-numa",
+  "current_vcpus": 4,
+  "historical_baseline": "strict-v14-summary.json",
+  "regressions": {
+    "proc99": {
+      "before": {
+        "report": "strict-v14-verified-proc99.json",
+        "sha256": "31e6b89cdfc95f967e08a6d07e34cea9424b19d1e2f1b2890b3cf72edcb67030"
+      },
+      "after": {
+        "report": "strict-v15-fourcore-c-proc99.json",
+        "sha256": "3864f1d41146151e7781e0b79ed7a1266cc0485d48d07b665562eb392aa54ff7"
+      },
+      "before_summary": {
+        "detected": 0,
+        "unavailable": 0,
+        "total": 99
+      },
+      "after_summary": {
+        "detected": 0,
+        "unavailable": 0,
+        "total": 99
+      },
+      "apk_sha256": "99901e704d769e519741824d62f15286f68e0654f4223c0681083903ca98c9ab",
+      "installed_abi": "x86_64"
+    },
+    "raw79": {
+      "before": {
+        "report": "strict-v14-verified-raw79.json",
+        "sha256": "1517f926cc6e4383fd72a063d8dcf4043c28604e847b8a056cc84092c328ebe4"
+      },
+      "after": {
+        "report": "strict-v15-fourcore-c-raw79.json",
+        "sha256": "c348acadbd3689a217a7abfd8cd2bdc2faa5a7ca0356b081c5020b87d1fd4122"
+      },
+      "before_summary": {
+        "detected": 0,
+        "unavailable": 0,
+        "total": 79
+      },
+      "after_summary": {
+        "detected": 0,
+        "unavailable": 0,
+        "total": 79
+      },
+      "apk_sha256": "ee4e8cc35ef306e1626472ffb3d9d53fe0b45036a4a89dce31020ed489268f37",
+      "installed_abi": "x86_64"
+    },
+    "probe54": {
+      "before": {
+        "report": "strict-v14-verified-probe54.json",
+        "sha256": "ef3938ff008c4bb69b078771eece6010156af08a0353e1216a08feafa1f57a86"
+      },
+      "after": {
+        "report": "strict-v15-fourcore-c-probe54.json",
+        "sha256": "86240c23736ee5b6cc4a2429ef71940376d1d9d5a12cee636c124329273e1b7e"
+      },
+      "before_summary": {
+        "detected": 0,
+        "unavailable": 0,
+        "total": 54
+      },
+      "after_summary": {
+        "detected": 0,
+        "unavailable": 0,
+        "total": 54
+      },
+      "apk_sha256": "ab4dafd201527cf0f72a1c2ff4f9bd41fd4dbaa921d336d1983319ac611554ed",
+      "installed_abi": "arm64-v8a"
+    },
+    "reveny": {
+      "before": {
+        "report": "strict-v14-verified-reveny-retry.json",
+        "sha256": "72d473ce0b2f9ca8164389377dfc383acce76ac833ec9882d3132c4d1c6ee510"
+      },
+      "after": {
+        "report": "strict-v15-fourcore-c-reveny.json",
+        "sha256": "4865d0bd2327377c8458db2883de8fc5b93fd1e95b2753a10ca33af01f9ff8dc"
+      },
+      "before_findings": 0,
+      "after_findings": 0,
+      "apk_sha256": "9f064f3968e9a224612810ec2b6078872f479930ce4dd0fc1f7132b08c6b3f5b"
+    }
+  },
+  "cpu_topology": {
+    "observer": "External root observer, separate from the frozen in-app APKs",
+    "before": {
+      "report": "strict-v15-topology-before.json",
+      "sha256": "904dffb767187fe45acc96be253a3fbb3c58a61c946eee50ef49d49aaa39af15"
+    },
+    "after_two_vcpus": {
+      "report": "strict-v15-topology-two.json",
+      "sha256": "471c5dd248d8de023001c292a86d12c29bab8a5e3d8362dc1e78a8260b11b600"
+    },
+    "after_four_vcpus": {
+      "report": "strict-v15-topology-four-final.json",
+      "sha256": "71853c25d842c7670e05d612d7876864969f687faf00a57afcdc7c6b7e3f5279"
+    },
+    "before_summary": {
+      "unavailable": 0,
+      "detected": 1,
+      "total": 4
+    },
+    "after_two_summary": {
+      "unavailable": 0,
+      "total": 4,
+      "detected": 0
+    },
+    "after_four_summary": {
+      "detected": 0,
+      "total": 4,
+      "unavailable": 0
+    },
+    "limitation": "ARM reference fields remain synthetic; enumeration assumes contiguous online IDs and does not cover hotplug."
+  },
+  "cold_boot_trials": [
+    {
+      "label": "fourcore-a",
+      "vcpus": 4,
+      "boot": {
+        "report": "strict-v15-fourcore-a-boot.json",
+        "sha256": "310088f28acc407ac50dfd16d0c227ef8df09d31783396f1e1d18f55b1cb4f92"
+      },
+      "workload_start_uptime": "118.42 204.93",
+      "frozen_checks": 232,
+      "detected": 0,
+      "unavailable": 0,
+      "reveny_findings": 0,
+      "anr": {
+        "report": "strict-v15-fourcore-a-anr-state.txt",
+        "sha256": "dde50ef0f960caf7e1e3a1895f455c89e674854c48795123bb1829119b77c1c7"
+      },
+      "anr_recorded_during_workload": false
+    },
+    {
+      "label": "twocore-b",
+      "vcpus": 2,
+      "boot": {
+        "report": "strict-v15-twocore-b-boot.json",
+        "sha256": "0395b6954efe7af55d291c87d340cc9e8311bd020c6c8b5c429b85728e7fb06f"
+      },
+      "workload_start_uptime": "121.08 149.13",
+      "frozen_checks": 232,
+      "detected": 0,
+      "unavailable": 0,
+      "reveny_findings": 0,
+      "anr": {
+        "report": "strict-v15-twocore-b-anr-state.txt",
+        "sha256": "dde50ef0f960caf7e1e3a1895f455c89e674854c48795123bb1829119b77c1c7"
+      },
+      "anr_recorded_during_workload": false
+    },
+    {
+      "label": "fourcore-c",
+      "vcpus": 4,
+      "boot": {
+        "report": "strict-v15-fourcore-c-boot.json",
+        "sha256": "c27588edd24f55717a60f22aae8f431a918dbb169caa5e86e8b0fb83b8b0f5cc"
+      },
+      "workload_start_uptime": "120.80 354.61",
+      "frozen_checks": 232,
+      "detected": 0,
+      "unavailable": 0,
+      "reveny_findings": 0,
+      "anr": {
+        "report": "strict-v15-fourcore-c-anr-state.txt",
+        "sha256": "dde50ef0f960caf7e1e3a1895f455c89e674854c48795123bb1829119b77c1c7"
+      },
+      "anr_recorded_during_workload": false
+    }
+  ],
+  "stability": {
+    "final_anr_state": {
+      "report": "strict-v15-final-anr-state.txt",
+      "sha256": "dde50ef0f960caf7e1e3a1895f455c89e674854c48795123bb1829119b77c1c7"
+    },
+    "final_sdk_boot_log": {
+      "report": "strict-v15-fourcore-c-sdk-boot.txt",
+      "sha256": "906a24578dec50079602f5f50abffe01074536a18c474f87deae683d83439f9d"
+    },
+    "final_sdk_boot_ms": 21993,
+    "interpretation": "All three bounded workloads completed without recorded ANRs. Warmed caches, boot time and uncontrolled host load confound a CPU-count cause; sustained interactive stability is not established."
+  },
+  "duck": {
+    "normal": {
+      "report": "strict-v15-duck-four-final.json",
+      "sha256": "1d08afff2bdfda2156afa23324831de3b218787bcae1665bb8f9b072c00f02f8"
+    },
+    "normal_statistics": {
+      "Danger": 2,
+      "Warning": 1,
+      "Ready": 20,
+      "Pending": 0
+    },
+    "offline": {
+      "report": "strict-v15-duck-four-offline.json",
+      "sha256": "0e0305a1636001f4465ea5bfaef97b1a929b67b1c0552215a8b159443ca90fa1"
+    },
+    "offline_statistics": {
+      "Danger": 2,
+      "Warning": 0,
+      "Ready": 20,
+      "Pending": 0
+    },
+    "apk_sha256": "9d0bbdab9c0b14334c9ec0d319758c5f9085260a09388486482b2ac497c81ffc",
+    "offline_samples": 36,
+    "offline_sample_span_seconds": 177,
+    "offline_state_expectations": {
+      "adb_enabled": "0",
+      "adbd": "stopped",
+      "mdnsd": "stopped",
+      "adb_root": "0",
+      "adb_secure": "1",
+      "persist_usb": "mtp",
+      "runtime_usb": "mtp",
+      "usb_state": "mtp"
+    },
+    "same_detector_process_survived_export": true,
+    "restored_state": {
+      "time_s": 1792892238,
+      "adb_enabled": "0",
+      "adbd": "running",
+      "persist_usb": "mtp",
+      "runtime_usb": "mtp",
+      "usb_state": "mtp",
+      "adb_root": "0",
+      "adb_secure": "1",
+      "mdnsd": "running"
+    },
+    "module_verdicts": [
+      {
+        "severity": "DANGER",
+        "detector": "Bootloader",
+        "verdict": "6 critical boot integrity signal(s)"
+      },
+      {
+        "severity": "DANGER",
+        "detector": "TEE",
+        "verdict": "Hardware-backed local verification was not established"
+      },
+      {
+        "severity": "INFO",
+        "detector": "Custom ROM",
+        "verdict": "Custom ROM scan has reduced coverage"
+      },
+      {
+        "severity": "INFO",
+        "detector": "Dangerous Apps",
+        "verdict": "Behavior checks incomplete"
+      },
+      {
+        "severity": "INFO",
+        "detector": "Kernel Check",
+        "verdict": "CVE patch state is informational"
+      },
+      {
+        "severity": "INFO",
+        "detector": "LSPosed",
+        "verdict": "LSPosed scan has reduced coverage"
+      },
+      {
+        "severity": "INFO",
+        "detector": "Location Risk",
+        "verdict": "No local contract mismatch observed"
+      },
+      {
+        "severity": "INFO",
+        "detector": "Native Root",
+        "verdict": "Native root scan has reduced coverage"
+      },
+      {
+        "severity": "INFO",
+        "detector": "Network Risk",
+        "verdict": "Network context collected"
+      },
+      {
+        "severity": "INFO",
+        "detector": "SU",
+        "verdict": "No root indicators"
+      },
+      {
+        "severity": "INFO",
+        "detector": "System Properties",
+        "verdict": "System property scan has reduced coverage"
+      },
+      {
+        "severity": "INFO",
+        "detector": "Virtualization",
+        "verdict": "Virtualization scan has reduced coverage"
+      },
+      {
+        "severity": "INFO",
+        "detector": "Zygote heap residue",
+        "verdict": "No target trace observed"
+      },
+      {
+        "severity": "CLEAR",
+        "detector": "ADB Runtime",
+        "verdict": "ADB state consistent"
+      },
+      {
+        "severity": "CLEAR",
+        "detector": "Memory",
+        "verdict": "No hook-like memory signals"
+      },
+      {
+        "severity": "CLEAR",
+        "detector": "Mount",
+        "verdict": "No suspicious mount-layer signal"
+      },
+      {
+        "severity": "CLEAR",
+        "detector": "Play Integrity Fix",
+        "verdict": "No Play Integrity residue surfaced"
+      },
+      {
+        "severity": "CLEAR",
+        "detector": "Root Managers",
+        "verdict": "No root manager apps"
+      },
+      {
+        "severity": "CLEAR",
+        "detector": "SELinux",
+        "verdict": "Enforcing"
+      },
+      {
+        "severity": "CLEAR",
+        "detector": "Zygisk",
+        "verdict": "No Zygisk runtime signal"
+      }
+    ]
+  },
+  "platform_after_offline": {
+    "report": "strict-v15-post-offline-boot.json",
+    "sha256": "9586e7cd9abbcae76bbda6d938a200fadc2ebacf0150439d7dab86b34e42a70e"
+  },
+  "attestation": {
+    "audit": {
+      "report": "strict-v15-hostnonce-b-anchor.json",
+      "sha256": "8f5527bd84a76112de6bfe93c8ce785761c72cb6af54ea262b07c7184897bb15"
+    },
+    "unchanged_signed_claims": true,
+    "signed_claims": {
+      "attestation_version": 300,
+      "attestation_security_level": 0,
+      "keymaster_version": 300,
+      "keymaster_security_level": 0,
+      "root_of_trust": {
+        "authorization_list": "software",
+        "verified_boot_key": "0000000000000000000000000000000000000000000000000000000000000000",
+        "device_locked": false,
+        "verified_boot_state": 2,
+        "verified_boot_hash": "0000000000000000000000000000000000000000000000000000000000000000"
+      }
+    },
+    "failed_prerequisites": [
+      "root_certificate_in_external_snapshot",
+      "root_public_key_in_external_snapshot",
+      "attestation_security_level_is_hardware",
+      "keymaster_security_level_is_hardware",
+      "root_of_trust_is_hardware_enforced",
+      "attested_device_is_locked",
+      "attested_boot_is_verified",
+      "attested_boot_key_is_nonzero",
+      "attested_boot_hash_is_nonzero"
+    ],
+    "manufacturer_trust": "not_established",
+    "external_nonce_binding_verified": true,
+    "host_challenge": {
+      "report": "strict-v15-hostnonce-b-challenge.json",
+      "sha256": "a78f7fbfae2d71dcf29b14a32523c49d206465871303e2218bca3d9dbd526aca"
+    },
+    "scope_control": {
+      "report": "strict-v15-attestation-scope-control.json",
+      "sha256": "8c4ba62c0d473ea718017812dc13f5a8b26cc9a964ed6eed5a3826aa26ab8d23"
+    },
+    "verifier_controls": {
+      "report": "strict-v15-hostnonce-controls.json",
+      "sha256": "53b1f579a12dbd5cc86feaf89ad222321b0586f61e501d59c9c98d8ff3c7e4ad"
+    },
+    "verifier_control_count": 6,
+    "live_capture_replay_control": {
+      "report": "strict-v15-live-replay-control.json",
+      "sha256": "f4684131eb70f8cce51317a29532fe58b1993580192f0545659f6cbbcc4bc746"
+    },
+    "duck_correlation": {
+      "report": "strict-v15-bootloader-trace-offline.json",
+      "sha256": "f415fcb16a36904d610376a75437a0d3206af6a1e444771b333a239be50a3d9c"
+    },
+    "duck_correlation_controls": {
+      "report": "strict-v15-bootloader-trace-controls.json",
+      "sha256": "c1782ab86f5a5ca054ea176f69f702360b4a62d9c80841aa0fddff10188ef81c"
+    },
+    "project_feasibility_review": {
+      "report": "strict-v15-trust-feasibility.json",
+      "sha256": "3b955ad4b983fc121ee80707a1f6ae9fd660726df06bf875b371bfea37f0fa48"
+    }
+  },
+  "artifacts": {
+    "module/build/outputs/apk/debug/module-debug.apk": "dcf1ea9d0e9c72a4d2a2f526da6f5c2d45cf4f96dba33451215df1d28a2d481f",
+    "module/build/namespace-module.zip": "bfc03bcacc39a832f144caae5a59c1c8fe429534028415bf135dff6d3353757f",
+    "attestationprobe/build/outputs/apk/debug/attestationprobe-debug.apk": "06feb66b5ea7a8b801afb57b242efe07e014118e92a45aac0d6fbf6f864ccbdc"
+  },
+  "original_disk_preservation": {
+    "last_full_audit": "strict-v14-summary.json:original_disk_preservation",
+    "note": "The earlier six-disk hash audit remains the preservation evidence; current commands operated on the independent research-v14 clone."
+  },
+  "remaining_danger_modules": [
+    "Bootloader",
+    "TEE"
+  ],
+  "coverage_limits": [
+    "LSPosed remains INFO with unavailable native traces; this is not a full-coverage clear verdict.",
+    "Virtualization remains INFO because ARM-only instruction/syscall packs are unsupported by the pinned x86_64 APK. Both Android helper processes are ready.",
+    "Memory is CLEAR in the pinned detector; unknown detectors and untested interfaces are not covered.",
+    "Stock userdebug su privileges and the custom platform seccomp kernel remain prerequisites.",
+    "The root-only standalone resetprop executable contains Magisk-derived code, and private legacy files remain.",
+    "The isolated READPROC GID reduction from the prior baseline remains enabled.",
+    "Normal operating mode retains an active authenticated network adbd and a legitimate warning.",
+    "Software attestation, a test CA and unverified boot do not establish manufacturer or physical-device trust.",
+    "Four-vCPU allocation and CPU-list coherence do not create physical ARM hardware or provision Android manufacturer attestation keys.",
+    "The independent attestation APK changed from 0.1.0 to 0.2.0; the frozen 99/79/54, Reveny and Duck APKs remain unchanged.",
+    "The host verifier checks signatures, validity, possession and expected nonce but does not perform full PKIX or revocation validation."
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "captured_at": "2026-10-26T14:27:05.7810283-03:00",
+  "scope": "Owned APK cooperative relay; worker integrity, not requester integrity",
+  "before_clock_fix": "relay-v36-comparison.json",
+  "same_apk_sha256": "af02d68a3b09eb6bd3aa7292116f24e26533cf7055b785eb127a06886eea0d9f",
+  "same_apk_confirmed": true,
+  "physical_apk": "relay-v36-physical-clock-apk.json",
+  "control_apk": "relay-v36-control-clock-apk.json",
+  "physical_context": "relay-v36-physical-clock-context.json",
+  "physical_integrity": "relay-v36-physical-clock-integrity1.json",
+  "control_integrity": [
+    "relay-v36-control-clock-integrity1.json",
+    "relay-v36-control-clock-integrity2.json"
+  ],
+  "physical_labels": [
+    "MEETS_DEVICE_INTEGRITY"
+  ],
+  "control_labels": [],
+  "physical_app_recognition": "UNRECOGNIZED_VERSION",
+  "physical_app_licensing": "UNEVALUATED",
+  "physical_bindings": {
+    "nonce_bytes_match": true,
+    "package_matches": true,
+    "timestamp_in_window": true
+  },
+  "control_bindings": [
+    {
+      "nonce_bytes_match": true,
+      "package_matches": true,
+      "timestamp_in_window": true
+    },
+    {
+      "nonce_bytes_match": true,
+      "package_matches": true,
+      "timestamp_in_window": true
+    }
+  ],
+  "physical_integrity_broker_ms": 4033,
+  "physical_integrity_worker_ms": 665,
+  "control_integrity_broker_ms": [
+    6042,
+    3297
+  ],
+  "control_integrity_worker_ms": [
+    3364,
+    921
+  ],
+  "physical_echo": {
+    "samples": 3,
+    "all_completed": true,
+    "min_ms": 752,
+    "median_ms": 1306,
+    "p95_nearest_rank_ms": 1343,
+    "max_ms": 1343
+  },
+  "control_echo": {
+    "samples": 5,
+    "all_completed": true,
+    "min_ms": 1970,
+    "median_ms": 3299,
+    "p95_nearest_rank_ms": 4516,
+    "max_ms": 4516
+  },
+  "latency_scope": "Monotonic inbox PUT through terminal observation; excludes CLI/OAuth startup and Google decode",
+  "rules_report": "relay-v36-rules-tests.json",
+  "rules_records": 49,
+  "rules_all_passed": true,
+  "requester_integrity_verified": false,
+  "zero_detections_achieved": false,
+  "detector_suites_rerun": false
+}

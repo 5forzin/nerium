@@ -1,0 +1,247 @@
+--------- beginning of kernel
+10-24 21:45:43.047     0     0 I init    : starting service 'artd'...
+--------- beginning of system
+10-24 21:45:43.081   556   640 D ActivityManager: freezing 3889 com.google.android.projection.gearhead:shared
+--------- beginning of main
+10-24 21:45:43.083   350   350 V zygisk-ptrace64: Forked 7748
+10-24 21:45:43.085   350   350 V zygisk-ptrace64: New process 7748 attached
+10-24 21:45:43.133   350   350 V zygisk-ptrace64: 7748 program /apex/com.android.art/bin/artd
+10-24 21:45:43.134   350   350 V zygisk-ptrace64: detach process 7748
+10-24 21:45:43.113     0     0 I init    : ... started service 'artd' has pid 7748
+10-24 21:45:43.115     0     0 I init    : Control message: Processed ctl.interface_start for 'aidl/artd' from pid: 136 (/system/bin/servicemanager)
+10-24 21:45:43.190   766   766 D StatusBarIconController: ignoring old pipeline callbacks, because the new mobile icons are enabled
+10-24 21:45:43.204   766   825 D EGL_emulation: app_time_stats: avg=2636.15ms min=7.65ms max=15660.22ms count=6
+10-24 21:45:43.209  7748  7748 I artd    : Starting artd
+10-24 21:45:43.210  7748  7748 I AidlLazyServiceRegistrar: Registering service artd
+10-24 21:45:43.191     0     0 I BpBinder: onLastStrongRef automatically unlinking death recipients:
+10-24 21:45:43.270  7748  7748 W ziparchive: Unable to open '/data/app/~~yxshPE5xSECWDj-f-lUm_Q==/com.eltavine.duckdetector-JbMZcWdKSPgz5AIqbFOafg==/base.dm': No such file or directory
+10-24 21:45:43.271  7748  7748 W ziparchive: Unable to open '/data/app/~~yxshPE5xSECWDj-f-lUm_Q==/com.eltavine.duckdetector-JbMZcWdKSPgz5AIqbFOafg==/base.dm': No such file or directory
+10-24 21:45:43.467   556  3833 D CompatibilityChangeReporter: Compat change id reported: 168419799; UID 10203; state: DISABLED
+10-24 21:45:43.467   556  3833 D CompatibilityChangeReporter: Compat change id reported: 273564678; UID 10203; state: DISABLED
+10-24 21:45:43.469   556  3833 D CompatibilityChangeReporter: Compat change id reported: 184838306; UID 10203; state: DISABLED
+10-24 21:45:43.470   556  3833 D CompatibilityChangeReporter: Compat change id reported: 185004937; UID 10203; state: DISABLED
+10-24 21:45:43.571  1394  4809 I MediaProvider: Deleted 0 0 0 0 0 0 1 items on external_primary due to com.android.shell
+10-24 21:45:43.591   766   766 D StatusBarIconController: ignoring old pipeline callback because the new wifi icon is enabled
+10-24 21:45:43.782  1354  7651 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.ipa.base.IpaGcmTaskService started execution. cause:9 exec_start_elapsed_seconds: 526 [CONTEXT service_id=218 ]
+10-24 21:45:43.792  7760  7760 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+10-24 21:45:43.800  7760  7760 I AndroidRuntime: Using default boot image
+10-24 21:45:43.800  7760  7760 I AndroidRuntime: Leaving lock profiling enabled
+10-24 21:45:43.803  7760  7760 I app_process: Core platform API reporting enabled, enforcing=false
+10-24 21:45:43.804  7760  7760 I app_process: Using CollectorTypeCC GC.
+10-24 21:45:43.826  1354  7651 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.ipa.base.IpaGcmTaskService finished executing. cause:9 result: 1 elapsed_millis: 113 uptime_millis: 113 exec_start_elapsed_seconds: 526 [CONTEXT service_id=218 ]
+10-24 21:45:43.959  7760  7760 D nativeloader: InitDefaultPublicLibraries for_preload=1: libandroid.so:libaaudio.so:libamidi.so:libbinder_ndk.so:libc.so:libcamera2ndk.so:libdl.so:libEGL.so:libGLESv1_CM.so:libGLESv2.so:libGLESv3.so:libicu.so:libicui18n.so:libicuuc.so:libjnigraphics.so:liblog.so:libmediandk.so:libm.so:libnativehelper.so:libnativewindow.so:libOpenMAXAL.so:libOpenSLES.so:libRS.so:libstdc++.so:libsync.so:libvulkan.so:libwebviewchromium_plat_support.so:libz.so
+10-24 21:45:43.974  7760  7760 D app_process: Time zone APEX ICU file found: /apex/com.android.tzdata/etc/icu/icu_tzdata.dat
+10-24 21:45:43.974  7760  7760 D app_process: I18n APEX ICU file found: /apex/com.android.i18n/etc/icu/icudt72l.dat
+10-24 21:45:43.979  7760  7760 W app_process: Unexpected CPU variant for x86: x86_64.
+10-24 21:45:43.979  7760  7760 W app_process: Known variants: atom, sandybridge, silvermont, goldmont, goldmont-plus, tremont, kabylake, default
+10-24 21:45:43.984  7760  7760 W app_process: ClassLoaderContext shared library size mismatch. Expected=2, found=0 (PCL[]{PCL[/system/framework/android.test.base.jar*836642756]#PCL[/system/framework/android.test.mock.jar*3186112116]} | PCL[])
+10-24 21:45:43.985  7760  7760 W app_process: ClassLoaderContext classpath size mismatch. expected=0, found=1 (PCL[]{PCL[/system/framework/android.test.runner.jar*4168958247]{PCL[/system/framework/android.test.base.jar*836642756]#PCL[/system/framework/android.test.mock.jar*3186112116]}#PCL[/system/framework/android.test.base.jar*836642756]} | PCL[/system/framework/android.test.runner.jar*4168958247])
+10-24 21:45:44.007  7760  7760 W libc    : Access denied finding property "ro.product.name_for_attestation"
+10-24 21:45:44.009  7760  7760 W libc    : Access denied finding property "ro.product.brand_for_attestation"
+10-24 21:45:44.011  7760  7760 W libc    : Access denied finding property "ro.product.model_for_attestation"
+10-24 21:45:44.029  7760  7760 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+10-24 21:45:43.994  7760  7760 W main    : type=1400 audit(0.0:2339): avc:  denied  { read } for  name="u:object_r:build_attestation_prop:s0" dev="tmpfs" ino=86 scontext=u:r:shell:s0 tcontext=u:object_r:build_attestation_prop:s0 tclass=file permissive=0
+10-24 21:45:44.134   379  4953 D android.hardware.audio@7.1-impl.ranchu: threadLoop: entering standby, frames: 981376
+10-24 21:45:43.994  7760  7760 W main    : type=1400 audit(0.0:2340): avc:  denied  { read } for  name="u:object_r:build_attestation_prop:s0" dev="tmpfs" ino=86 scontext=u:r:shell:s0 tcontext=u:object_r:build_attestation_prop:s0 tclass=file permissive=0
+10-24 21:45:44.195   766   825 D EGL_emulation: app_time_stats: avg=353.77ms min=15.01ms max=1843.90ms count=6
+10-24 21:45:43.994  7760  7760 W main    : type=1400 audit(0.0:2341): avc:  denied  { read } for  name="u:object_r:build_attestation_prop:s0" dev="tmpfs" ino=86 scontext=u:r:shell:s0 tcontext=u:object_r:build_attestation_prop:s0 tclass=file permissive=0
+10-24 21:45:44.196  7760  7760 D UiAutomationConnection: Created on user UserHandle{0}
+10-24 21:45:44.197  7760  7760 I UiAutomation: Initialized for user 0 on display 0
+10-24 21:45:44.197  7760  7760 W UiAutomation: Created with deprecatead constructor, assumes DEFAULT_DISPLAY
+10-24 21:45:44.200   556  1371 D AccessibilityManagerService: changeCurrentUserForTestAutomationIfNeededLocked(0): ignoring because device doesn't support visible background users
+10-24 21:45:44.200   556  1371 I UiAutomationManager: Registering UiTestAutomationService (id=com.android.server.accessibility/UiAutomation) when called by user 0
+10-24 21:45:44.224   556  1371 W WindowMagnificationMgr: requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+10-24 21:45:44.228  2225  2729 I AiAiEcho: Settings changed for uri: content://settings/secure/accessibility_enabled
+10-24 21:45:44.229  7760  7774 V UiAutomation: Init UiAutomation@80e6a6[id=22, displayId=0, flags=0]
+10-24 21:45:44.230  2225  2417 I AiAiEcho: Predicting[0]: 
+10-24 21:45:44.230  2225  2417 I AiAiEcho: EchoTargets: 
+10-24 21:45:44.230  2225  2417 I AiAiEcho: Filtered by AiAi flag check: 
+10-24 21:45:44.244  1710  2045 I A       : NGA disabled since it's running Panthera and at least one a11y feature is on.
+10-24 21:45:44.244  1710  2045 I A       : Nga state changed to NgaStateDetails{state=DISABLED, isSpecialExperience=false}
+10-24 21:45:44.244   556   556 D BatterySaverPolicy: accessibility changed to true, updating policy.
+10-24 21:45:44.248  2203  2246 I A       : APA or Classic session decision: SessionDecision(sessionVariance=CLASSIC, platformVariance=CLASSIC, justification=CURRENT_PLATFORM_VARIANCE).
+10-24 21:45:44.249  2203  2246 I A       : [Memory] eligibility: StashEligibility{4}
+10-24 21:45:44.254  2203  2608 I A       : Unsubscribed to apa or classic variant change.
+10-24 21:45:44.264  2225  2417 I AiAiEcho: Ranked targets strategy: SORT, count: 0, ranking metadata: 
+10-24 21:45:44.265  2225  2417 I AiAiEcho: Predicting[0]: 
+10-24 21:45:44.266  2225  2417 I AiAiEcho: EchoTargets: 
+10-24 21:45:44.266  2225  2417 I AiAiEcho: Filtered by AiAi flag check: 
+10-24 21:45:44.266  2225  2417 I AiAiEcho: Ranked targets strategy: SORT, count: 0, ranking metadata: 
+10-24 21:45:44.268  2225  2417 I AiAiEcho: Predicting[0]: 
+10-24 21:45:44.268  2225  2417 I AiAiEcho: EchoTargets: 
+10-24 21:45:44.268  2225  2417 I AiAiEcho: Filtered by AiAi flag check: 
+10-24 21:45:44.269  2225  2417 I AiAiEcho: Ranked targets strategy: SORT, count: 0, ranking metadata: 
+10-24 21:45:44.280  2225  2729 I AiAiEcho: Settings changed for uri: content://settings/secure/accessibility_enabled
+10-24 21:45:44.282   556   623 W WindowMagnificationMgr: requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+10-24 21:45:44.285  2225  2417 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface media_data_manager with targets# 0 (types=[])
+10-24 21:45:44.288  2225  2417 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface home with targets# 0 (types=[])
+10-24 21:45:44.314  2225  2417 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface lockscreen with targets# 0 (types=[])
+10-24 21:45:44.315  2225  2417 I AiAiEcho: Predicting[0]: 
+10-24 21:45:44.315   766   766 D SsMediaDataProvider: Forwarding Smartspace updates []
+10-24 21:45:44.335  2225  2417 I AiAiEcho: EchoTargets: 
+10-24 21:45:44.335  2225  2417 I AiAiEcho: Filtered by AiAi flag check: 
+10-24 21:45:44.338  2225  2417 I AiAiEcho: Ranked targets strategy: SORT, count: 0, ranking metadata: 
+10-24 21:45:44.339  2225  2417 I AiAiEcho: Predicting[0]: 
+10-24 21:45:44.340  2225  2417 I AiAiEcho: EchoTargets: 
+10-24 21:45:44.340  2225  2417 I AiAiEcho: Filtered by AiAi flag check: 
+10-24 21:45:44.340  2225  2417 I AiAiEcho: Ranked targets strategy: SORT, count: 0, ranking metadata: 
+10-24 21:45:44.341   556  1067 W WindowManager: Cannot find window which accessibility connection is added to
+10-24 21:45:44.342  2225  2417 I AiAiEcho: Predicting[0]: 
+10-24 21:45:44.342  2225  2417 I AiAiEcho: EchoTargets: 
+10-24 21:45:44.342  2225  2417 I AiAiEcho: Filtered by AiAi flag check: 
+10-24 21:45:44.342  2225  2417 I AiAiEcho: Ranked targets strategy: SORT, count: 0, ranking metadata: 
+10-24 21:45:44.344  2225  2417 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface media_data_manager with targets# 0 (types=[])
+10-24 21:45:44.345  2225  2417 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface home with targets# 0 (types=[])
+10-24 21:45:44.348  2225  2417 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface lockscreen with targets# 0 (types=[])
+10-24 21:45:44.383   766   766 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=falsecallback=android.view.ViewRootImpl$$ExternalSyntheticLambda17@8e06102
+10-24 21:45:44.384   556   623 D CoreBackPreview: Window{55baa46 u0 Toast}: Setting back callback null
+10-24 21:45:44.387   556  1372 W InputManager-JNI: Input channel object '55baa46 Toast (client)' was disposed without first being removed with the input manager!
+10-24 21:45:44.396   556   623 W NotificationService: Toast already killed. pkg=com.eltavine.duckdetector token=android.os.BinderProxy@3035290
+10-24 21:45:44.398   766   766 W PageIndicator: Total number of pages invalid: 0. Assuming 1 page.
+10-24 21:45:44.399   766   766 D SsMediaDataProvider: Forwarding Smartspace updates []
+10-24 21:45:44.399   766   766 W PageIndicator: Total number of pages invalid: 0. Assuming 1 page.
+10-24 21:45:45.279  1394  4809 W MediaProvider: isAppCloneUserPair for user 0: false
+10-24 21:45:45.348   556   623 D OomAdjuster: Not killing cached processes
+10-24 21:45:45.350   556   623 W ProcessStats: Tracking association SourceState{46f83fb com.google.android.gms.persistent/10128 ImpBg #4329} whose proc state 6 is better than process ProcessState{3caee2c com.google.android.gms/10128 pkg=com.google.android.gms} proc state 14 (450 skipped)
+10-24 21:45:45.363  7760  7760 I AccessibilityNodeInfoDumper: Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@98ff; boundsInParent: Rect(0, 0 - 0, 0); boundsInScreen: Rect(747, 2163 - 873, 2279); boundsInWindow: Rect(747, 2163 - 873, 2279); packageName: com.eltavine.duckdetector; className: android.view.View; text: null; error: null; maxTextLength: -1; stateDescription: null; contentDescription: null; tooltipText: null; containerTitle: null; viewIdResName: null; uniqueId: null; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: false; visible: false; actions: [AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null]; isTextSelectable: false
+10-24 21:45:45.370  1354  7536 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.ipa.base.IpaGcmTaskService started execution. cause:9 exec_start_elapsed_seconds: 527 [CONTEXT service_id=218 ]
+10-24 21:45:45.372  7760  7760 I AccessibilityNodeInfoDumper: Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@8469; boundsInParent: Rect(0, 0 - 1, 1); boundsInScreen: Rect(0, 0 - 1, 1); boundsInWindow: Rect(0, 0 - 1, 1); packageName: com.eltavine.duckdetector; className: android.webkit.WebView; text: null; error: null; maxTextLength: -1; stateDescription: null; contentDescription: null; tooltipText: null; containerTitle: null; viewIdResName: null; uniqueId: null; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: false; visible: false; actions: null; isTextSelectable: false
+10-24 21:45:45.374  7760  7760 W AccessibilityNodeInfoDumper: Fetch time: 98ms
+10-24 21:45:45.384   556  2196 W WindowMagnificationMgr: requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+10-24 21:45:45.384   556  2196 D AccessibilityManagerService: restoreCurrentUserForTestAutomationIfNeededLocked(): ignoring because device doesn't support visible background users
+10-24 21:45:45.385  2225  2729 I AiAiEcho: Settings changed for uri: content://settings/secure/accessibility_enabled
+10-24 21:45:45.387  2225  2417 I AiAiEcho: Predicting[0]: 
+10-24 21:45:45.387  2225  2417 I AiAiEcho: EchoTargets: 
+10-24 21:45:45.387  2225  2417 I AiAiEcho: Filtered by AiAi flag check: 
+10-24 21:45:45.388  2225  2417 I AiAiEcho: Ranked targets strategy: SORT, count: 0, ranking metadata: 
+10-24 21:45:45.389  2225  2417 I AiAiEcho: Predicting[0]: 
+10-24 21:45:45.389  2225  2417 I AiAiEcho: EchoTargets: 
+10-24 21:45:45.389  2225  2417 I AiAiEcho: Filtered by AiAi flag check: 
+10-24 21:45:45.391   556   556 D BatterySaverPolicy: accessibility changed to false, updating policy.
+10-24 21:45:45.398  2225  2417 I AiAiEcho: Ranked targets strategy: SORT, count: 0, ranking metadata: 
+10-24 21:45:45.400  1710  2041 I A       : NGA enabled in interactor.
+10-24 21:45:45.400  1710  2041 I A       : Nga state changed to NgaStateDetails{state=ENABLED, isSpecialExperience=false}
+10-24 21:45:45.400  1354  6815 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.ipa.base.IpaGcmTaskService finished executing. cause:9 result: 1 elapsed_millis: 44 uptime_millis: 44 exec_start_elapsed_seconds: 527 [CONTEXT service_id=218 ]
+10-24 21:45:45.402  2203  4840 I A       : Initializing all components
+10-24 21:45:45.403  2203  4840 I A       : APA or Classic session decision: SessionDecision(sessionVariance=CLASSIC, platformVariance=CLASSIC, justification=CURRENT_PLATFORM_VARIANCE).
+10-24 21:45:45.404  2203  4840 I A       : [Memory] eligibility: StashEligibility{6}
+10-24 21:45:45.406  2225  2417 I AiAiEcho: Predicting[0]: 
+10-24 21:45:45.407  2225  2417 I AiAiEcho: EchoTargets: 
+10-24 21:45:45.407  2225  2417 I AiAiEcho: Filtered by AiAi flag check: 
+10-24 21:45:45.404  2203  2600 I A       : State changed: IDLE => IDLE by NGA_STATE_CHANGED and N/A with Optional.empty
+10-24 21:45:45.408  2225  2417 I AiAiEcho: Ranked targets strategy: SORT, count: 0, ranking metadata: 
+10-24 21:45:45.408  2203  2600 I A       : Recognizer choice: (recognizer_type: 1, recognizer_mode: 1, choice_reason: 4)
+10-24 21:45:45.413  2225  2417 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface media_data_manager with targets# 0 (types=[])
+10-24 21:45:45.416  2225  2417 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface home with targets# 0 (types=[])
+10-24 21:45:45.417  2225  2417 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface lockscreen with targets# 0 (types=[])
+10-24 21:45:45.422  7760  7760 D AndroidRuntime: Shutting down VM
+10-24 21:45:45.425  2203  2608 I A       : onIsEnabledChanged, isEnabled: false
+10-24 21:45:45.426  2203  2608 W A       : Disposing empty manager. Did you forgot to subscribe observables?
+10-24 21:45:45.426  2203  2608 W A       : Disposing empty manager. Did you forgot to subscribe observables?
+10-24 21:45:45.433  2203  2608 W A       : Disposing empty manager. Did you forgot to subscribe observables?
+10-24 21:45:45.434  2203  2608 W A       : Disposing empty manager. Did you forgot to subscribe observables?
+10-24 21:45:45.435  2203  2608 W A       : Disposing empty manager. Did you forgot to subscribe observables?
+10-24 21:45:45.436  2203  2608 W A       : Disposing empty manager. Did you forgot to subscribe observables?
+10-24 21:45:45.442   766   798 W Looper  : Slow dispatch took 54ms wmshell.main h=android.view.ViewRootImpl$ViewRootHandler c=android.view.accessibility.AccessibilityManager$$ExternalSyntheticLambda1@92eb098 m=0
+10-24 21:45:45.443   556  1163 W WindowManager: Cannot find window which accessibility connection is added to
+10-24 21:45:45.444   766   766 D SsMediaDataProvider: Forwarding Smartspace updates []
+10-24 21:45:45.445   766   766 W PageIndicator: Total number of pages invalid: 0. Assuming 1 page.
+10-24 21:45:45.448  2203  2608 W A       : Disposing empty manager. Did you forgot to subscribe observables?
+10-24 21:45:45.448  2203  2608 W A       : Disposing empty manager. Did you forgot to subscribe observables?
+10-24 21:45:45.449  2203  2608 W A       : Disposing empty manager. Did you forgot to subscribe observables?
+10-24 21:45:45.449  2203  2608 W A       : Disposing empty manager. Did you forgot to subscribe observables?
+10-24 21:45:45.449  2203  2608 I A       : onOpaVisibilityChanged: false
+10-24 21:45:45.450  2203  2608 W A       : Disposing empty manager. Did you forgot to subscribe observables?
+10-24 21:45:45.450  2203  2608 W A       : Disposing empty manager. Did you forgot to subscribe observables?
+10-24 21:45:45.450  2203  2608 W A       : Disposing empty manager. Did you forgot to subscribe observables?
+10-24 21:45:45.451  2203  2608 W A       : Disposing empty manager. Did you forgot to subscribe observables?
+10-24 21:45:45.451  2203  2608 W A       : Disposing empty manager. Did you forgot to subscribe observables?
+10-24 21:45:45.451  2203  2608 W A       : Disposing empty manager. Did you forgot to subscribe observables?
+10-24 21:45:45.452  2203  2608 I A       : Setting session to type: NO_SESSION
+10-24 21:45:45.452  2203  2608 W A       : Disposing empty manager. Did you forgot to subscribe observables?
+10-24 21:45:45.452  2203  2608 W A       : Disposing empty manager. Did you forgot to subscribe observables?
+10-24 21:45:45.453  2203  2608 W A       : Disposing empty manager. Did you forgot to subscribe observables?
+10-24 21:45:45.453  2203  2608 W A       : Disposing empty manager. Did you forgot to subscribe observables?
+10-24 21:45:45.453  2203  2608 W A       : Disposing empty manager. Did you forgot to subscribe observables?
+10-24 21:45:45.453  2203  2608 W A       : Disposing empty manager. Did you forgot to subscribe observables?
+10-24 21:45:45.454  2203  2608 W A       : Disposing empty manager. Did you forgot to subscribe observables?
+10-24 21:45:45.454  2203  2608 W A       : Disposing empty manager. Did you forgot to subscribe observables?
+10-24 21:45:45.454  2203  2608 I A       : setNavBarVisible: GestureNavBarVisible{navbarVisible=true}
+10-24 21:45:45.456  2203  2608 W A       : Disposing empty manager. Did you forgot to subscribe observables?
+10-24 21:45:45.456  2203  2608 W A       : Disposing empty manager. Did you forgot to subscribe observables?
+10-24 21:45:45.456  2203  2608 W A       : Disposing empty manager. Did you forgot to subscribe observables?
+10-24 21:45:45.457  2203  2608 W A       : Disposing empty manager. Did you forgot to subscribe observables?
+10-24 21:45:45.457  2203  2608 W A       : Disposing empty manager. Did you forgot to subscribe observables?
+10-24 21:45:45.459  2203  2608 W A       : Disposing empty manager. Did you forgot to subscribe observables?
+10-24 21:45:45.459  2203  2608 I A       : onDisabled. Registered: false
+10-24 21:45:45.464  2203  2600 I A       : onActiveStateChangeEvent: IDLE => IDLE
+10-24 21:45:45.464  2203  2600 I A       : #onActiveStateChangeEvent, newState: IDLE, previousState: IDLE.
+10-24 21:45:45.467  2203  2600 I A       : on opa visibility changed false
+10-24 21:45:45.468  2203  2600 I A       : on opa visibility changed false
+10-24 21:45:45.469  2203  2600 I A       : stopListening(NGA_PAUSED_UNKNOWN_REASON, NGA_CREATE), idleOverride=NOT_LISTENING
+10-24 21:45:45.471  2203  2608 I A       : Initialize
+10-24 21:45:45.483  2203  2203 E GsaVoiceSerConnection: gsaVis null binding
+10-24 21:45:45.488  2203  2600 I NgaEntryPointEventSendr: setupConnection
+10-24 21:45:45.511  1710  1710 I A       : Creating pss binder().
+10-24 21:45:45.524  2203  2600 I NgaEntryPointEventSendr: State changed: Disconnected => Connecting
+10-24 21:45:45.525  2203  2600 I NgaEntryPointEventSendr: onServiceConnected
+10-24 21:45:45.527  1710  1730 I A       : Calling beginBinderSession().
+10-24 21:45:45.527  1710  1730 I A       : beginBinderSession(): calling binder
+10-24 21:45:45.529  2203  2600 I NgaEntryPointEventSendr: State changed: Connecting => Ready
+10-24 21:45:45.539   556  3833 W ActivityManager: Unable to start service Intent { cmp=com.google.android.apps.tachyon/.clientapi.ClientApiService } U=0: not found
+10-24 21:45:45.550  2203  2600 I A       : Successfully initialized all components
+10-24 21:45:45.557  1710  2476 W A       : UiCallbackStub-onGenericEvent[ServiceEvent = 60] task was not run. Callback from Service received after client was disposed.
+10-24 21:45:45.582  1710  2476 W SearchServiceCore: Abort, client detached.
+10-24 21:45:45.584  2203  2608 I NgaEntryPointEventSendr: State changed: Ready => Disconnected (onOpaDisconnected)
+10-24 21:45:45.584  1710  4133 I PBSessionCacheImpl: Deleted sessionId[7522452422723445] from persistence.
+10-24 21:45:46.022  7748  7748 I AidlLazyServiceRegistrar: Process has 1 (of 1 available) client(s) in use after notification artd has clients: 1
+10-24 21:45:45.971     0     0 I servicemanager: Notifying artd they do (previously: don't) have clients when we now have a record of a client
+10-24 21:45:46.343  5870  5870 E FrameTracker: force finish cuj, time out: J<IME_INSETS_ANIMATION::0@0@com.google.android.documentsui>
+10-24 21:45:46.610  1394  4809 I MediaProvider: Deleted 0 1 0 0 0 0 0 items on external_primary due to com.android.shell
+10-24 21:45:46.689  1354  6815 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.ipa.base.IpaGcmTaskService started execution. cause:9 exec_start_elapsed_seconds: 529 [CONTEXT service_id=218 ]
+10-24 21:45:46.718  1354  7651 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.ipa.base.IpaGcmTaskService finished executing. cause:9 result: 1 elapsed_millis: 51 uptime_millis: 51 exec_start_elapsed_seconds: 529 [CONTEXT service_id=218 ]
+10-24 21:45:46.809  7783  7783 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+10-24 21:45:46.815  1394  1580 W MediaProvider: isAppCloneUserPair for user 0: false
+10-24 21:45:46.820  7783  7783 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+10-24 21:45:46.840     0     0 I servicemanager: Could not find android.hardware.graphics.allocator.IAllocator/default in the VINTF manifest.
+10-24 21:45:46.895   138   138 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+10-24 21:45:46.899  7783  7785 I Gralloc4: mapper 4.x is not supported
+10-24 21:45:46.981  1354  7204 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.ipa.base.IpaGcmTaskService started execution. cause:9 exec_start_elapsed_seconds: 529 [CONTEXT service_id=218 ]
+10-24 21:45:47.000  1354  7536 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.ipa.base.IpaGcmTaskService finished executing. cause:9 result: 1 elapsed_millis: 50 uptime_millis: 50 exec_start_elapsed_seconds: 529 [CONTEXT service_id=218 ]
+10-24 21:45:47.262   556  3833 I ActivityManager: Broadcasting: Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x400000 }
+10-24 21:45:47.278   556   580 I ActivityManager: Broadcast completed: result=0
+10-24 21:45:47.281  1394  1865 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+10-24 21:45:47.284   556  3833 I ActivityManager: Enqueued broadcast Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x400000 }: 0
+10-24 21:45:47.293  1394  1865 W ExifInterface: Invalid image: ExifInterface got an unsupported image format file(ExifInterface supports JPEG and some RAW image formats only) or a corrupted JPEG file to ExifInterface.
+10-24 21:45:47.293  1394  1865 W ExifInterface: java.io.EOFException
+10-24 21:45:47.293  1394  1865 W ExifInterface: 	at android.media.ExifInterface$ByteOrderedDataInputStream.readShort(ExifInterface.java:5044)
+10-24 21:45:47.293  1394  1865 W ExifInterface: 	at android.media.ExifInterface.readByteOrder(ExifInterface.java:3995)
+10-24 21:45:47.293  1394  1865 W ExifInterface: 	at android.media.ExifInterface.parseTiffHeaders(ExifInterface.java:4015)
+10-24 21:45:47.293  1394  1865 W ExifInterface: 	at android.media.ExifInterface.getRawAttributes(ExifInterface.java:2974)
+10-24 21:45:47.293  1394  1865 W ExifInterface: 	at android.media.ExifInterface.loadAttributes(ExifInterface.java:2023)
+10-24 21:45:47.293  1394  1865 W ExifInterface: 	at android.media.ExifInterface.<init>(ExifInterface.java:1640)
+10-24 21:45:47.293  1394  1865 W ExifInterface: 	at android.media.ExifInterface.<init>(ExifInterface.java:1591)
+10-24 21:45:47.293  1394  1865 W ExifInterface: 	at com.android.providers.media.scan.ModernMediaScanner.scanItemImage(ModernMediaScanner.java:1357)
+10-24 21:45:47.293  1394  1865 W ExifInterface: 	at com.android.providers.media.scan.ModernMediaScanner.scanItem(ModernMediaScanner.java:1019)
+10-24 21:45:47.293  1394  1865 W ExifInterface: 	at com.android.providers.media.scan.ModernMediaScanner.-$$Nest$smscanItem(ModernMediaScanner.java:0)
+10-24 21:45:47.293  1394  1865 W ExifInterface: 	at com.android.providers.media.scan.ModernMediaScanner$Scan.visitFile(ModernMediaScanner.java:820)
+10-24 21:45:47.293  1394  1865 W ExifInterface: 	at com.android.providers.media.scan.ModernMediaScanner$Scan.visitFile(ModernMediaScanner.java:319)
+10-24 21:45:47.293  1394  1865 W ExifInterface: 	at java.nio.file.Files.walkFileTree(Files.java:2670)
+10-24 21:45:47.293  1394  1865 W ExifInterface: 	at java.nio.file.Files.walkFileTree(Files.java:2742)
+10-24 21:45:47.293  1394  1865 W ExifInterface: 	at com.android.providers.media.scan.ModernMediaScanner$Scan.walkFileTree(ModernMediaScanner.java:435)
+10-24 21:45:47.293  1394  1865 W ExifInterface: 	at com.android.providers.media.scan.ModernMediaScanner$Scan.runInternal(ModernMediaScanner.java:398)
+10-24 21:45:47.293  1394  1865 W ExifInterface: 	at com.android.providers.media.scan.ModernMediaScanner$Scan.run(ModernMediaScanner.java:387)
+10-24 21:45:47.293  1394  1865 W ExifInterface: 	at com.android.providers.media.scan.ModernMediaScanner.scanFile(ModernMediaScanner.java:261)
+10-24 21:45:47.293  1394  1865 W ExifInterface: 	at com.android.providers.media.MediaProvider.scanFile(MediaProvider.java:1943)
+10-24 21:45:47.293  1394  1865 W ExifInterface: 	at com.android.providers.media.MediaService.onScanFile(MediaService.java:225)
+10-24 21:45:47.293  1394  1865 W ExifInterface: 	at com.android.providers.media.MediaService.onHandleWork(MediaService.java:85)
+10-24 21:45:47.293  1394  1865 W ExifInterface: 	at androidx.core.app.JobIntentService$CommandProcessor.doInBackground(JobIntentService.java:396)
+10-24 21:45:47.293  1394  1865 W ExifInterface: 	at androidx.core.app.JobIntentService$CommandProcessor.doInBackground(JobIntentService.java:387)
+10-24 21:45:47.293  1394  1865 W ExifInterface: 	at android.os.AsyncTask$3.call(AsyncTask.java:394)
+10-24 21:45:47.293  1394  1865 W ExifInterface: 	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+10-24 21:45:47.293  1394  1865 W ExifInterface: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+10-24 21:45:47.293  1394  1865 W ExifInterface: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:644)
+10-24 21:45:47.293  1394  1865 W ExifInterface: 	at java.lang.Thread.run(Thread.java:1012)
+10-24 21:45:47.303  1394  1865 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+10-24 21:45:47.399  1354  6815 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.ipa.base.IpaGcmTaskService started execution. cause:9 exec_start_elapsed_seconds: 529 [CONTEXT service_id=218 ]
+10-24 21:45:47.404  1354  6815 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.ipa.base.IpaGcmTaskService finished executing. cause:9 result: 1 elapsed_millis: 39 uptime_millis: 39 exec_start_elapsed_seconds: 529 [CONTEXT service_id=218 ]

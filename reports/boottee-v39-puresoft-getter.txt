@@ -1,0 +1,52 @@
+
+C:\Users\antho\AppData\Local\android-device-lab\research-v39-keymint-audit\libpuresoftkeymasterdevice.so:	file format elf64-x86-64
+
+Disassembly of section .text:
+
+000000000000fb30 <keymaster::PureSoftKeymasterContext::GetVerifiedBootParams(keymaster_error_t*) const>:
+    fb30: 41 56                        	pushq	%r14
+    fb32: 53                           	pushq	%rbx
+    fb33: 50                           	pushq	%rax
+    fb34: 48 89 f3                     	movq	%rsi, %rbx
+    fb37: 0f b6 05 52 b4 00 00         	movzbl	0xb452(%rip), %eax      # 0x1af90
+    fb3e: 84 c0                        	testb	%al, %al
+    fb40: 74 68                        	je	0xfbaa <keymaster::PureSoftKeymasterContext::GetVerifiedBootParams(keymaster_error_t*) const+0x7a>
+    fb42: 0f b6 0d 2f b4 00 00         	movzbl	0xb42f(%rip), %ecx      # 0x1af78
+    fb49: f6 c1 01                     	testb	$0x1, %cl
+    fb4c: 74 10                        	je	0xfb5e <keymaster::PureSoftKeymasterContext::GetVerifiedBootParams(keymaster_error_t*) const+0x2e>
+    fb4e: 48 8b 15 33 b4 00 00         	movq	0xb433(%rip), %rdx      # 0x1af88
+    fb55: 48 8b 0d 24 b4 00 00         	movq	0xb424(%rip), %rcx      # 0x1af80
+    fb5c: eb 0a                        	jmp	0xfb68 <keymaster::PureSoftKeymasterContext::GetVerifiedBootParams(keymaster_error_t*) const+0x38>
+    fb5e: 48 d1 e9                     	shrq	%rcx
+    fb61: 48 8d 15 11 b4 00 00         	leaq	0xb411(%rip), %rdx      # 0x1af79
+    fb68: 48 89 15 e1 b3 00 00         	movq	%rdx, 0xb3e1(%rip)      # 0x1af50
+    fb6f: 48 8d 05 da b3 00 00         	leaq	0xb3da(%rip), %rax      # 0x1af50
+    fb76: 48 89 0d db b3 00 00         	movq	%rcx, 0xb3db(%rip)      # 0x1af58
+    fb7d: 48 89 15 dc b3 00 00         	movq	%rdx, 0xb3dc(%rip)      # 0x1af60
+    fb84: 48 89 0d dd b3 00 00         	movq	%rcx, 0xb3dd(%rip)      # 0x1af68
+    fb8b: c7 05 db b3 00 00 02 00 00 00	movl	$0x2, 0xb3db(%rip)      # 0x1af70
+    fb95: c6 05 d8 b3 00 00 00         	movb	$0x0, 0xb3d8(%rip)      # 0x1af74
+    fb9c: c7 03 00 00 00 00            	movl	$0x0, (%rbx)
+    fba2: 48 83 c4 08                  	addq	$0x8, %rsp
+    fba6: 5b                           	popq	%rbx
+    fba7: 41 5e                        	popq	%r14
+    fba9: c3                           	retq
+    fbaa: 48 8d 3d df b3 00 00         	leaq	0xb3df(%rip), %rdi      # 0x1af90
+    fbb1: e8 3a 7a 00 00               	callq	0x175f0 <__cxa_guard_acquire@plt>
+    fbb6: 85 c0                        	testl	%eax, %eax
+    fbb8: 74 88                        	je	0xfb42 <keymaster::PureSoftKeymasterContext::GetVerifiedBootParams(keymaster_error_t*) const+0x12>
+    fbba: 0f 57 c0                     	xorps	%xmm0, %xmm0
+    fbbd: 0f 11 05 b4 b3 00 00         	movups	%xmm0, 0xb3b4(%rip)     # 0x1af78
+    fbc4: 48 c7 05 b9 b3 00 00 00 00 00 00     	movq	$0x0, 0xb3b9(%rip) # 0x1af88
+    fbcf: 4c 8d 35 a2 b3 00 00         	leaq	0xb3a2(%rip), %r14      # 0x1af78
+    fbd6: be 20 00 00 00               	movl	$0x20, %esi
+    fbdb: 4c 89 f7                     	movq	%r14, %rdi
+    fbde: 31 d2                        	xorl	%edx, %edx
+    fbe0: e8 5b 7a 00 00               	callq	0x17640 <_ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6__initEmc@plt>
+    fbe5: 48 8b 3d 0c 98 00 00         	movq	0x980c(%rip), %rdi      # 0x193f8
+    fbec: 48 8d 15 2d 90 00 00         	leaq	0x902d(%rip), %rdx      # 0x18c20
+    fbf3: 4c 89 f6                     	movq	%r14, %rsi
+    fbf6: e8 c5 77 00 00               	callq	0x173c0 <__cxa_atexit@plt>
+    fbfb: 48 8d 3d 8e b3 00 00         	leaq	0xb38e(%rip), %rdi      # 0x1af90
+    fc02: e8 f9 79 00 00               	callq	0x17600 <__cxa_guard_release@plt>
+    fc07: e9 36 ff ff ff               	jmp	0xfb42 <keymaster::PureSoftKeymasterContext::GetVerifiedBootParams(keymaster_error_t*) const+0x12>

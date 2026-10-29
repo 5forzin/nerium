@@ -1,0 +1,21 @@
+{
+  "scope": "Negative authentication fixture with intentionally invalid token; no user can be created",
+  "cases": [
+    {
+      "quota_header": true,
+      "http_status": 403,
+      "google_status": "PERMISSION_DENIED",
+      "error_code": null,
+      "reasons": [
+        "USER_PROJECT_DENIED"
+      ]
+    },
+    {
+      "quota_header": false,
+      "http_status": 400,
+      "google_status": null,
+      "error_code": null,
+      "reasons": []
+    }
+  ]
+}

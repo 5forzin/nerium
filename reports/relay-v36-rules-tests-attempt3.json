@@ -1,0 +1,120 @@
+{
+  "name": "synthetic_protocol_rules_fixtures_not_apk_execution_or_attestation",
+  "passed": false,
+  "tests": [
+    {
+      "name": "deployed_rules_match_local",
+      "status_code": 200,
+      "expected_codes": [
+        200
+      ],
+      "passed": true,
+      "elapsed_ms": 641,
+      "request_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "response_sha256": "2f2c364bd7ad5d5c3f3fdb4d13206ace7e967db4dbaa2ffcdcfe7619b089194d"
+    },
+    {
+      "name": "fixture_session_create",
+      "status_code": 200,
+      "expected_codes": [
+        200
+      ],
+      "passed": true,
+      "elapsed_ms": 187,
+      "request_sha256": "b906fe728eb4edaf03aa2631feb9345f13b1bda50f84703184dd8d7b12d6cd63",
+      "response_sha256": "b906fe728eb4edaf03aa2631feb9345f13b1bda50f84703184dd8d7b12d6cd63"
+    },
+    {
+      "name": "fixture_session_create",
+      "status_code": 200,
+      "expected_codes": [
+        200
+      ],
+      "passed": true,
+      "elapsed_ms": 179,
+      "request_sha256": "adeef8bde530c73cf09a823b8399c2ff92b6d26850d33875a1aa58f392f9ca2e",
+      "response_sha256": "adeef8bde530c73cf09a823b8399c2ff92b6d26850d33875a1aa58f392f9ca2e"
+    },
+    {
+      "name": "LOCAL_OR_SERVICE_FAILURE",
+      "status_code": 0,
+      "expected_codes": [],
+      "passed": false,
+      "elapsed_ms": 0,
+      "request_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "exception_type": "System.Management.Automation.PropertyNotFoundException",
+      "script_stack_trace": [
+        "at New-WorkerIdToken, test-relay-rules.ps1: line 132",
+        "at <ScriptBlock>, test-relay-rules.ps1: line 231",
+        "at <ScriptBlock>, [script]: line 2"
+      ]
+    },
+    {
+      "name": "cleanup_owned_fixture",
+      "status_code": 200,
+      "expected_codes": [
+        200
+      ],
+      "passed": true,
+      "elapsed_ms": 180,
+      "request_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "response_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b"
+    },
+    {
+      "name": "cleanup_owned_fixture",
+      "status_code": 200,
+      "expected_codes": [
+        200
+      ],
+      "passed": true,
+      "elapsed_ms": 180,
+      "request_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "response_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b"
+    },
+    {
+      "name": "cleanup_owned_fixture",
+      "status_code": 200,
+      "expected_codes": [
+        200
+      ],
+      "passed": true,
+      "elapsed_ms": 185,
+      "request_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "response_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b"
+    },
+    {
+      "name": "cleanup_owned_fixture",
+      "status_code": 200,
+      "expected_codes": [
+        200
+      ],
+      "passed": true,
+      "elapsed_ms": 181,
+      "request_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "response_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b"
+    },
+    {
+      "name": "cleanup_owned_fixture",
+      "status_code": 200,
+      "expected_codes": [
+        200
+      ],
+      "passed": true,
+      "elapsed_ms": 176,
+      "request_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "response_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b"
+    },
+    {
+      "name": "cleanup_owned_fixture",
+      "status_code": 200,
+      "expected_codes": [
+        200
+      ],
+      "passed": true,
+      "elapsed_ms": 178,
+      "request_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "response_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b"
+    }
+  ]
+}

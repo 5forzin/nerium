@@ -1,0 +1,5 @@
+--------- beginning of main
+10-24 15:23:42.964  4813  4813 I EmulatorDetection: isEmulator: true, result: - Detected Hypervisor in cpuinfo
+10-24 15:23:42.964  4813  4813 I EmulatorDetection: - Detected x86 Architecture
+10-24 15:23:42.964  4813  4813 I EmulatorDetection: - Detected ARM Translation Property
+10-24 15:23:42.964  4813  4813 I EmulatorDetection: - Detected ARM Translation Property (2)

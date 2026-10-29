@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "captured_at_ms": 1792972293887,
+  "package": "dev.androidlab.integrityprobe",
+  "status": "token_received",
+  "cloud_project_number": 45438431209,
+  "nonce_base64url": "HPon5Tn_bWwQLu8m5O7TB7W85_e3F3kzgAHUOPdjTOk",
+  "token_length": 991,
+  "apk_sha256": "676e2aa8ed58aaeca6b9babaaf7d88a141b10e35a09206afe87bb2199edeb070",
+  "environment": {
+    "android_api": "34",
+    "build_fingerprint": "google/sdk_gphone64_x86_64/emu64xa:14/UE1A.230829.036.A4/12096271:user/release-keys",
+    "play_store_path": "package:/product/priv-app/Phonesky/Phonesky.apk",
+    "play_store_version": "35.6.11-21 [0] [PR] 528895992",
+    "play_services_version": "26.41.31 (190800-1002748488)"
+  },
+  "token_sha256": "3f061b55a8ebb2f6500374c5c54b988525eeca823b22f38831a3ab16f111c485",
+  "token_private_path": "files/token-playstore-v26-adb-off-restored-integrity.txt",
+  "compact_jwe_shape": true
+}

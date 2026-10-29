@@ -1,0 +1,17 @@
+{
+  "started_at": "2026-10-25T02:01:00.0726483+00:00",
+  "captured_at": "2026-10-25T02:01:08.3280570+00:00",
+  "boot_id": "f5243202-7e9d-4b39-beab-960cacfce525",
+  "launch": "Independent platform worker: 5819",
+  "repository_revision": "dda5277d10b948ba6bec362252ec41f8bbbd9f97",
+  "keystore_before": 194,
+  "keystore_after": 194,
+  "keystore_restarted": false,
+  "candidate_library_loaded": false,
+  "interceptors_initialized": false,
+  "policy_unchanged": true,
+  "loaded_selinux_policy_sha256": "725322b8bb21c399e222db65bd9e0ee307a3b603d19d9a3d5f47a93cc8f369c0",
+  "enforcing": "Enforcing",
+  "hardware_trust_supplied": false,
+  "log": "strict-v17-tricky-candidate.log"
+}

@@ -1,0 +1,24 @@
+{
+  "captured_at": "2026-10-24T16:16:44.8378062+00:00",
+  "detector": "framgia",
+  "version": "1.4.0",
+  "package": "com.framgia.example.emulatordetector",
+  "release": "https://github.com/framgia/android-emulator-detector/releases/tag/1.4.0",
+  "apk_sha256": "4f627a722df412fd12922c0043cd9c1f5b720e31010c9b8d3dd136a9a16e1382",
+  "installed_abi": "null",
+  "status": "complete",
+  "detected": false,
+  "reason": "Fresh result read from the unchanged detector APK.",
+  "process_id": 6131,
+  "foreground": "topResumedActivity=ActivityRecord{3da181c u0 com.framgia.example.emulatordetector/.MainActivity t129}",
+  "final_foreground": "topResumedActivity=ActivityRecord{3da181c u0 com.framgia.example.emulatordetector/.MainActivity t129}",
+  "final_process_id": "6131",
+  "launch": "Starting: Intent { cmp=com.framgia.example.emulatordetector/.MainActivity }\nStatus: ok\nLaunchState: COLD\nActivity: com.framgia.example.emulatordetector/.MainActivity\nTotalTime: 548\nWaitTime: 556\nComplete",
+  "ui_result": "This device is not emulator\nTelephony enable is true\n\n\nBuild.PRODUCT: shiba\nBuild.MANUFACTURER: Google\nBuild.BRAND: google\nBuild.DEVICE: shiba\nBuild.MODEL: Pixel 8\nBuild.HARDWARE: shiba\nBuild.FINGERPRINT: google/shiba/shiba:14/AP1A.240505.005/11677807:user/release-keys\n\nEmulator Detector version 1.4.0",
+  "visible_text": [
+    "Emulator Detector",
+    "This device is not emulator\nTelephony enable is true\n\n\nBuild.PRODUCT: shiba\nBuild.MANUFACTURER: Google\nBuild.BRAND: google\nBuild.DEVICE: shiba\nBuild.MODEL: Pixel 8\nBuild.HARDWARE: shiba\nBuild.FINGERPRINT: google/shiba/shiba:14/AP1A.240505.005/11677807:user/release-keys\n\nEmulator Detector version 1.4.0"
+  ],
+  "screenshot": "strict-v04-final-after-framgia.png",
+  "log": "strict-v04-final-after-framgia.log"
+}

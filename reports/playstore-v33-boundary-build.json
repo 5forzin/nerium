@@ -1,0 +1,24 @@
+{
+  "apk_sha256": "0db397968067d44a109c797020a0a286ecd7997a755f34bde0b846308613a2bd",
+  "abi": "x86_64",
+  "version": "0.1.0",
+  "ndk": "27.0.12077973",
+  "sources": {
+    "boundaryprobe/src/main/cpp/boundary_probe.c": "3a3f04d2fbb3990237e46095127275329c94f87ccb1e37ceee936ccf973ff645",
+    "boundaryprobe/src/main/cpp/CMakeLists.txt": "a0a19196a8bd742042df912e8e94ed05b8ab6504a3246c0646efd2927bb526fe",
+    "boundaryprobe/src/main/java/dev/androidlab/boundaryprobe/MainActivity.java": "9be0ebef06433416b0dedd4363538ef190a3fdc2dbf1f0d2000545fd8b94d4b6",
+    "boundaryprobe/src/main/AndroidManifest.xml": "a570691e78abf99853f9490744e83f74f4e2236f1ceabd2ea1954e5d926536f2",
+    "boundaryprobe/build.gradle.kts": "ad7239cc4466c2153f36eba8643b87667bda0cb476d0f9c963f407445a014183",
+    "scripts/capture-boundary.ps1": "2c0fd768317417e2ed9aea9abcb84cad03eac57e52df2331777e8002995db5e9",
+    "scripts/verify-boundary.py": "8ddd7c05b3bc038c6cfde97d228335462582b6940bbfe4137fa91829118edff7"
+  },
+  "report": "playstore-v33-boundary-confirmed.json",
+  "verification": "playstore-v33-boundary-confirmed-verified.json",
+  "system_content_version": "v32",
+  "system_image_modified": false,
+  "policy_modified": false,
+  "compile_sdk": 35,
+  "target_sdk": 35,
+  "min_sdk": 28,
+  "runtime_api": 34
+}

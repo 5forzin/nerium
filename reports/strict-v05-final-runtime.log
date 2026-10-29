@@ -1,0 +1,41 @@
+----part 1 start----
+[ 2026-10-24T13:49:03.032    10192:  4300:  4300 V/VectorLegacyBridge ] Loading legacy module dev.androidlab.module from /data/app/~~jZUh-JAwmGlwE7Q-SfrmPA==/dev.androidlab.module-bgHhlVbqMNEQZ2pok6vuaw==/base.apk
+[ 2026-10-24T13:49:03.288    10192:  4300:  4300 V/VectorLegacyBridge ]   Loading class dev.androidlab.module.DeviceHooks
+[ 2026-10-24T13:49:03.501    10192:  4300:  4300 I/VectorLegacyBridge ] DeviceLab: guest auxv for dev.androidlab.probe: configured
+[ 2026-10-24T13:49:03.523    10192:  4300:  4300 I/VectorLegacyBridge ] DeviceLab: native hooks for dev.androidlab.probe: get=1 callback=1 fopen=1 open=1 openat=1 open_checked=1 openat_checked=1 uname=1 syscall=1 auxval=1 gl2=1 gl3=1 readlink=1 readlinkat=1 cpu_cache=1 uname_controls=1 raw_uname=aarch64
+[ 2026-10-24T13:49:03.531    10192:  4300:  4300 I/VectorLegacyBridge ] DeviceLab: Java identity hooks installed for dev.androidlab.probe
+[ 2026-10-24T13:49:06.458    10193:  4411:  4411 V/VectorLegacyBridge ] Loading legacy module dev.androidlab.module from /data/app/~~jZUh-JAwmGlwE7Q-SfrmPA==/dev.androidlab.module-bgHhlVbqMNEQZ2pok6vuaw==/base.apk
+[ 2026-10-24T13:49:06.480    10193:  4411:  4411 V/VectorLegacyBridge ]   Loading class dev.androidlab.module.DeviceHooks
+[ 2026-10-24T13:49:06.605    10193:  4411:  4411 I/VectorLegacyBridge ] DeviceLab: native hooks for com.reveny.emulator.detection.sample: get=1 callback=1 fopen=1 open=1 openat=1 open_checked=1 openat_checked=1 uname=1 syscall=1 auxval=1 gl2=1 gl3=1 readlink=1 readlinkat=1 cpu_cache=1 uname_controls=1 raw_uname=aarch64
+[ 2026-10-24T13:49:06.608    10193:  4411:  4411 I/VectorLegacyBridge ] DeviceLab: Java identity hooks installed for com.reveny.emulator.detection.sample
+[ 2026-10-24T13:50:51.993    10193:  4768:  4768 V/VectorLegacyBridge ] Loading legacy module dev.androidlab.module from /data/app/~~jZUh-JAwmGlwE7Q-SfrmPA==/dev.androidlab.module-bgHhlVbqMNEQZ2pok6vuaw==/base.apk
+[ 2026-10-24T13:50:52.075    10193:  4768:  4768 V/VectorLegacyBridge ]   Loading class dev.androidlab.module.DeviceHooks
+[ 2026-10-24T13:50:52.181    10193:  4768:  4768 I/VectorLegacyBridge ] DeviceLab: native hooks for com.reveny.emulator.detection.sample: get=1 callback=1 fopen=1 open=1 openat=1 open_checked=1 openat_checked=1 uname=1 syscall=1 auxval=1 gl2=1 gl3=1 readlink=1 readlinkat=1 cpu_cache=1 uname_controls=1 raw_uname=aarch64
+[ 2026-10-24T13:50:52.184    10193:  4768:  4768 I/VectorLegacyBridge ] DeviceLab: Java identity hooks installed for com.reveny.emulator.detection.sample
+[ 2026-10-24T13:51:03.700    10192:  4972:  4972 V/VectorLegacyBridge ] Loading legacy module dev.androidlab.module from /data/app/~~jZUh-JAwmGlwE7Q-SfrmPA==/dev.androidlab.module-bgHhlVbqMNEQZ2pok6vuaw==/base.apk
+[ 2026-10-24T13:51:03.726    10192:  4972:  4972 V/VectorLegacyBridge ]   Loading class dev.androidlab.module.DeviceHooks
+[ 2026-10-24T13:51:03.812    10192:  4972:  4972 I/VectorLegacyBridge ] DeviceLab: guest auxv for dev.androidlab.probe: configured
+[ 2026-10-24T13:51:03.827    10192:  4972:  4972 I/VectorLegacyBridge ] DeviceLab: native hooks for dev.androidlab.probe: get=1 callback=1 fopen=1 open=1 openat=1 open_checked=1 openat_checked=1 uname=1 syscall=1 auxval=1 gl2=1 gl3=1 readlink=1 readlinkat=1 cpu_cache=1 uname_controls=1 raw_uname=x86_64
+[ 2026-10-24T13:51:03.832    10192:  4972:  4972 I/VectorLegacyBridge ] DeviceLab: Java identity hooks installed for dev.androidlab.probe
+[ 2026-10-24T13:51:06.575    10193:  5052:  5052 V/VectorLegacyBridge ] Loading legacy module dev.androidlab.module from /data/app/~~jZUh-JAwmGlwE7Q-SfrmPA==/dev.androidlab.module-bgHhlVbqMNEQZ2pok6vuaw==/base.apk
+[ 2026-10-24T13:51:06.586    10193:  5052:  5052 V/VectorLegacyBridge ]   Loading class dev.androidlab.module.DeviceHooks
+[ 2026-10-24T13:51:06.657    10193:  5052:  5052 I/VectorLegacyBridge ] DeviceLab: native hooks for com.reveny.emulator.detection.sample: get=1 callback=1 fopen=1 open=1 openat=1 open_checked=1 openat_checked=1 uname=1 syscall=1 auxval=1 gl2=1 gl3=1 readlink=1 readlinkat=1 cpu_cache=1 uname_controls=1 raw_uname=x86_64
+[ 2026-10-24T13:51:06.662    10193:  5052:  5052 I/VectorLegacyBridge ] DeviceLab: Java identity hooks installed for com.reveny.emulator.detection.sample
+[ 2026-10-24T13:51:17.265    10192:  5196:  5196 V/VectorLegacyBridge ] Loading legacy module dev.androidlab.module from /data/app/~~jZUh-JAwmGlwE7Q-SfrmPA==/dev.androidlab.module-bgHhlVbqMNEQZ2pok6vuaw==/base.apk
+[ 2026-10-24T13:51:17.296    10192:  5196:  5196 V/VectorLegacyBridge ]   Loading class dev.androidlab.module.DeviceHooks
+[ 2026-10-24T13:51:17.426    10192:  5196:  5196 I/VectorLegacyBridge ] DeviceLab: guest auxv for dev.androidlab.probe: configured
+[ 2026-10-24T13:51:17.438    10192:  5196:  5196 I/VectorLegacyBridge ] DeviceLab: native hooks for dev.androidlab.probe: get=1 callback=1 fopen=1 open=1 openat=1 open_checked=1 openat_checked=1 uname=1 syscall=1 auxval=1 gl2=1 gl3=1 readlink=1 readlinkat=1 cpu_cache=1 uname_controls=1 raw_uname=aarch64
+[ 2026-10-24T13:51:17.441    10192:  5196:  5196 I/VectorLegacyBridge ] DeviceLab: Java identity hooks installed for dev.androidlab.probe
+[ 2026-10-24T13:51:27.355    10193:  5345:  5345 V/VectorLegacyBridge ] Loading legacy module dev.androidlab.module from /data/app/~~jZUh-JAwmGlwE7Q-SfrmPA==/dev.androidlab.module-bgHhlVbqMNEQZ2pok6vuaw==/base.apk
+[ 2026-10-24T13:51:27.363    10193:  5345:  5345 V/VectorLegacyBridge ]   Loading class dev.androidlab.module.DeviceHooks
+[ 2026-10-24T13:51:27.483    10193:  5345:  5345 I/VectorLegacyBridge ] DeviceLab: native hooks for com.reveny.emulator.detection.sample: get=1 callback=1 fopen=1 open=1 openat=1 open_checked=1 openat_checked=1 uname=1 syscall=1 auxval=1 gl2=1 gl3=1 readlink=1 readlinkat=1 cpu_cache=1 uname_controls=1 raw_uname=aarch64
+[ 2026-10-24T13:51:27.490    10193:  5345:  5345 I/VectorLegacyBridge ] DeviceLab: Java identity hooks installed for com.reveny.emulator.detection.sample
+[ 2026-10-24T13:53:52.382    10192:  5528:  5528 V/VectorLegacyBridge ] Loading legacy module dev.androidlab.module from /data/app/~~RhL29OCvEl4NyjNAQjwh4A==/dev.androidlab.module-9lz7Wvf-0a1NiD5W81YCEQ==/base.apk
+[ 2026-10-24T13:53:52.404    10192:  5528:  5528 V/VectorLegacyBridge ]   Loading class dev.androidlab.module.DeviceHooks
+[ 2026-10-24T13:53:52.834    10192:  5528:  5528 I/VectorLegacyBridge ] DeviceLab: guest auxv for dev.androidlab.probe: configured
+[ 2026-10-24T13:53:52.976    10192:  5528:  5528 I/VectorLegacyBridge ] DeviceLab: native hooks for dev.androidlab.probe: get=1 callback=1 fopen=1 open=1 openat=1 open_checked=1 openat_checked=1 uname=1 syscall=1 auxval=1 gl2=1 gl3=1 readlink=1 readlinkat=1 cpu_cache=1 uname_controls=1 raw_uname=aarch64 maps=1/unlinked-cache mountinfo=1/unlinked-cache
+[ 2026-10-24T13:53:53.003    10192:  5528:  5528 I/VectorLegacyBridge ] DeviceLab: Java identity hooks installed for dev.androidlab.probe
+[ 2026-10-24T13:54:01.557    10193:  5728:  5728 V/VectorLegacyBridge ] Loading legacy module dev.androidlab.module from /data/app/~~RhL29OCvEl4NyjNAQjwh4A==/dev.androidlab.module-9lz7Wvf-0a1NiD5W81YCEQ==/base.apk
+[ 2026-10-24T13:54:01.568    10193:  5728:  5728 V/VectorLegacyBridge ]   Loading class dev.androidlab.module.DeviceHooks
+[ 2026-10-24T13:54:01.662    10193:  5728:  5728 I/VectorLegacyBridge ] DeviceLab: native hooks for com.reveny.emulator.detection.sample: get=1 callback=1 fopen=1 open=1 openat=1 open_checked=1 openat_checked=1 uname=1 syscall=1 auxval=1 gl2=1 gl3=1 readlink=1 readlinkat=1 cpu_cache=1 uname_controls=1 raw_uname=aarch64 maps=1/unlinked-cache mountinfo=1/unlinked-cache
+[ 2026-10-24T13:54:01.664    10193:  5728:  5728 I/VectorLegacyBridge ] DeviceLab: Java identity hooks installed for com.reveny.emulator.detection.sample

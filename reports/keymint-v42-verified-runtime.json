@@ -1,0 +1,45 @@
+{
+  "unused_ram_cache_content_unchanged": true,
+  "graceful_shutdown": true,
+  "schema_version": 1,
+  "host_startup": {
+    "state": "connected",
+    "message_version": 4,
+    "security_level": "SOFTWARE",
+    "lab_software_attestation": true,
+    "attestation_root_trust": "lab_owned_untrusted",
+    "lab_root_sha256": "68659387e2c856e9fc95fa736bfa9910779f4b9b2ea0c05396d8651006fc0701"
+  },
+  "owner": {
+    "schema_version": 1,
+    "name": "candidate7-pinned",
+    "started_at": "2026-10-26T20:28:57.0069288-03:00",
+    "emulator_pid": 12988,
+    "pipe_name": "adl-keymint-v42-f72db42b037a9a1b",
+    "serial": "emulator-5586",
+    "avd": "device-lab-keymint-v42",
+    "runtime": "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\runtime-c",
+    "launch_input_sha256": {
+      "kernel-platform": "81f3eddb5ebc4ce67feff18b1933eeaee7deca532266ae61c3d428f2e59cbd11",
+      "ramdisk-platform.img": "0a7b6fac2ba902d4c00deb1ebd606b20839c4b06d4ef832492ec893b5fb3e969"
+    },
+    "lab_software_attestation": true,
+    "quickboot_file_backed": false,
+    "backend_pid": 11184,
+    "backend_sha256": "98a7a6253e0a7d6e491b66f920dec51c6f7d09c37f6c94c0baad462d81cf32ac"
+  },
+  "recorded_at": "2026-10-26T23:41:53.2265143+00:00",
+  "quickboot_memory_file_argument_present": false,
+  "original_snapshot_removal_not_retried": true,
+  "backend_terminal": {
+    "state": "closed",
+    "frames": 76,
+    "payload_bytes_in": 11139,
+    "payload_bytes_out": 10983,
+    "cng_generations": 2,
+    "software_generations": 6,
+    "protected_signatures": 2,
+    "android_tee_verified": false
+  },
+  "other_emulator_untouched": true
+}

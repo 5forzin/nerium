@@ -1,0 +1,111 @@
+make[1]: Entering directory '/work/out'
+  GEN     Makefile
+  DESCEND objtool
+  DESCEND bpf/resolve_btfids
+  CALL    /work/src/scripts/checksyscalls.sh
+  CC      kernel/sched/build_policy.o
+  CC      drivers/base/devres.o
+  AR      drivers/base/built-in.a
+  AR      kernel/sched/built-in.a
+  CHK     kernel/kheaders_data.tar.xz
+  AR      kernel/built-in.a
+  AR      drivers/built-in.a
+  AR      built-in.a
+  AR      vmlinux.a
+  LD      vmlinux.o
+  OBJCOPY modules.builtin.modinfo
+  GEN     modules.builtin
+  GEN     .vmlinux.objs
+  MODPOST Module.symvers
+  GEN     vmlinux.symvers
+  CC      .vmlinux.export.o
+  UPD     include/generated/utsversion.h
+  CC      init/version-timestamp.o
+  LD      .tmp_vmlinux.btf
+  BTF     .btf.vmlinux.bin.o
+  LD      .tmp_vmlinux.kallsyms1
+  NM      .tmp_vmlinux.kallsyms1.syms
+  KSYMS   .tmp_vmlinux.kallsyms1.S
+  AS      .tmp_vmlinux.kallsyms1.S
+  LD      .tmp_vmlinux.kallsyms2
+  NM      .tmp_vmlinux.kallsyms2.syms
+  KSYMS   .tmp_vmlinux.kallsyms2.S
+  AS      .tmp_vmlinux.kallsyms2.S
+  LD      vmlinux
+  BTFIDS  vmlinux
+  NM      System.map
+  SORTTAB vmlinux
+  CC      arch/x86/boot/version.o
+  BTF [M] drivers/block/zram/zram.ko
+  CC [M]  drivers/bluetooth/btbcm.mod.o
+  BTF [M] drivers/bluetooth/btqca.ko
+  VOFFSET arch/x86/boot/compressed/../voffset.h
+  CC [M]  drivers/bluetooth/btsdio.mod.o
+  CC [M]  drivers/bluetooth/hci_uart.mod.o
+  BTF [M] drivers/net/can/dev/can-dev.ko
+  OBJCOPY arch/x86/boot/compressed/vmlinux.bin
+  BTF [M] drivers/net/can/slcan/slcan.ko
+  RELOCS  arch/x86/boot/compressed/vmlinux.relocs
+  BTF [M] drivers/net/can/vcan.ko
+  BTF [M] drivers/net/ppp/bsd_comp.ko
+  BTF [M] drivers/net/ppp/ppp_deflate.ko
+  BTF [M] drivers/net/ppp/ppp_generic.ko
+  CC      arch/x86/boot/compressed/kaslr.o
+  BTF [M] drivers/net/ppp/ppp_mppe.ko
+  BTF [M] drivers/net/ppp/pppox.ko
+  BTF [M] drivers/net/ppp/pptp.ko
+  BTF [M] drivers/net/slip/slhc.ko
+  BTF [M] drivers/usb/class/cdc-acm.ko
+  BTF [M] drivers/usb/serial/ftdi_sio.ko
+  BTF [M] drivers/usb/serial/usbserial.ko
+  BTF [M] lib/crypto/libarc4.ko
+  BTF [M] mm/zsmalloc.ko
+  BTF [M] net/6lowpan/6lowpan.ko
+  CC      arch/x86/boot/compressed/misc.o
+  BTF [M] net/6lowpan/nhc_dest.ko
+  BTF [M] net/6lowpan/nhc_fragment.ko
+  BTF [M] net/6lowpan/nhc_hop.ko
+  BTF [M] net/6lowpan/nhc_ipv6.ko
+  BTF [M] net/6lowpan/nhc_mobility.ko
+  BTF [M] net/6lowpan/nhc_routing.ko
+  BTF [M] net/6lowpan/nhc_udp.ko
+  BTF [M] net/8021q/8021q.ko
+  BTF [M] net/bluetooth/bluetooth.ko
+  BTF [M] net/bluetooth/hidp/hidp.ko
+  BTF [M] net/bluetooth/rfcomm/rfcomm.ko
+  BTF [M] net/can/can-bcm.ko
+  BTF [M] net/can/can-gw.ko
+  BTF [M] net/can/can-raw.ko
+  BTF [M] net/can/can.ko
+  BTF [M] net/ieee802154/6lowpan/ieee802154_6lowpan.ko
+  BTF [M] net/ieee802154/ieee802154.ko
+  BTF [M] net/ieee802154/ieee802154_socket.ko
+  BTF [M] net/l2tp/l2tp_core.ko
+  BTF [M] net/l2tp/l2tp_ppp.ko
+  BTF [M] net/mac80211/mac80211.ko
+  BTF [M] net/mac802154/mac802154.ko
+  CC [M]  net/nfc/nfc.mod.o
+  LZ4     arch/x86/boot/compressed/vmlinux.bin.lz4
+  BTF [M] net/rfkill/rfkill.ko
+  BTF [M] net/tipc/diag.ko
+  BTF [M] net/tipc/tipc.ko
+  BTF [M] net/wireless/cfg80211.ko
+  LD [M]  drivers/bluetooth/btbcm.ko
+  BTF [M] drivers/bluetooth/btbcm.ko
+  LD [M]  drivers/bluetooth/btsdio.ko
+  BTF [M] drivers/bluetooth/btsdio.ko
+  LD [M]  drivers/bluetooth/hci_uart.ko
+  LD [M]  net/nfc/nfc.ko
+  BTF [M] drivers/bluetooth/hci_uart.ko
+  BTF [M] net/nfc/nfc.ko
+  MKPIGGY arch/x86/boot/compressed/piggy.S
+  AS      arch/x86/boot/compressed/piggy.o
+  LD      arch/x86/boot/compressed/vmlinux
+  ZOFFSET arch/x86/boot/zoffset.h
+  OBJCOPY arch/x86/boot/vmlinux.bin
+  AS      arch/x86/boot/header.o
+  LD      arch/x86/boot/setup.elf
+  OBJCOPY arch/x86/boot/setup.bin
+  BUILD   arch/x86/boot/bzImage
+Kernel: arch/x86/boot/bzImage is ready  (#2)
+make[1]: Leaving directory '/work/out'

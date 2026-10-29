@@ -1,0 +1,10 @@
+--------- beginning of main
+10-24 14:21:37.626  2524  2524 I DeviceLabNamespace: profile mount status=0 pid=2524
+10-24 14:21:37.631  2524  2524 I DeviceLabNamespace: uname broker status=0 pid=2524
+10-24 14:21:38.011  2524  2524 I DeviceLabNamespace: property remap status=0 pid=2524
+10-24 14:22:01.405  3973  3973 I DeviceLabNamespace: profile mount status=0 pid=3973
+10-24 14:22:01.462  3973  3973 I DeviceLabNamespace: uname broker status=0 pid=3973
+10-24 14:22:01.815  3973  3973 I DeviceLabNamespace: property remap status=0 pid=3973
+10-24 14:22:04.085  4067  4067 I DeviceLabNamespace: profile mount status=0 pid=4067
+10-24 14:22:04.087  4067  4067 I DeviceLabNamespace: uname broker status=0 pid=4067
+10-24 14:22:04.349  4067  4067 I DeviceLabNamespace: property remap status=0 pid=4067

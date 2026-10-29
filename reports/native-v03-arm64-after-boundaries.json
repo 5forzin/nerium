@@ -1,0 +1,12 @@
+{
+  "captured_at": "2026-10-24T15:10:58.0454523Z",
+  "process_id": 4509,
+  "app_mount_namespace": "mnt:[4026532991]",
+  "zygote_mount_namespace": "mnt:[4026532925]",
+  "outside_has_hypervisor": true,
+  "app_namespace_has_hypervisor": false,
+  "outside_hardware": "ranchu",
+  "outside_qemu": "1",
+  "selinux": "Enforcing",
+  "namespace_log": "--------- beginning of main\n10-24 12:10:51.753  4509  4509 I DeviceLabNamespace: cpuinfo mount status=0 pid=4509"
+}

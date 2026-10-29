@@ -1,0 +1,18 @@
+319489 0 700
+id=device_lab_cpu
+name=Device Lab Namespace
+version=0.12.1
+versionCode=14
+author=Android Device Lab
+description=Scoped CPU, properties, uname and proc compatibility for the configured laboratory apps.
+224046b3ef302c67668e002933c049616feabd886a2ffa8363af6364774d63f1  /data/misc/device-lab/modules/device_lab_cpu/zygisk/x86_64.so
+dev.androidlab.probe
+dev.androidlab.rawprobe
+dev.androidlab.procprobe
+com.eltavine.duckdetector
+com.reveny.emulator.detection.sample
+com.framgia.example.emulatordetector
+com.felhr.emulatordetector
+com.reveny.nativecheck
+icu.nullptr.nativetest
+io.github.vvb2060.nativedetector

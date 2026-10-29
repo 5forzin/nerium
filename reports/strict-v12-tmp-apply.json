@@ -1,0 +1,8 @@
+{
+  "status": "rejected",
+  "phase": "initial lost+found exchange",
+  "error": "EXDEV: incompatible directory encryption policies",
+  "modified": false,
+  "tmp_inode": 65538,
+  "recovery_inode": 40
+}

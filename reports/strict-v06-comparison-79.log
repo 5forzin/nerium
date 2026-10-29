@@ -1,0 +1,140 @@
+Device identity changes:
+
+Changed identity fields: 0
+
+Check changes:
+  control.maps.fd_alias: clear -> clear
+    before: /proc/4037/maps
+    after:  /proc/4378/maps
+  control.mountinfo.fd_alias: clear -> clear
+    before: /proc/4037/mountinfo
+    after:  /proc/4378/mountinfo
+  libc.maps.task: detected -> clear
+    before: bytes=228839;/libndk_translation;/dev.androidlab.module-;
+    after:  bytes=227913;
+  libc.mountinfo.task: detected -> clear
+    before: bytes=150002;/libndk_translation; /proc/cpuinfo ;/adb/modules/device_lab_cpu/;
+    after:  bytes=144682;
+  libc.mounts.task: detected -> clear
+    before: bytes=92689;/libndk_translation; /proc/cpuinfo ;
+    after:  bytes=90402;
+  libc.smaps.task: detected -> clear
+    before: bytes=1604062;/libndk_translation;/dev.androidlab.module-;
+    after:  bytes=1586934;
+  raw.maps.dirfd: detected -> clear
+    before: bytes=228839;/libndk_translation;/dev.androidlab.module-;
+    after:  bytes=227913;
+  raw.maps.legacy_open: detected -> clear
+    before: bytes=228839;/libndk_translation;/dev.androidlab.module-;
+    after:  bytes=227468;
+  raw.maps.normalized: detected -> clear
+    before: bytes=228839;/libndk_translation;/dev.androidlab.module-;
+    after:  bytes=227468;
+  raw.maps.pid: detected -> clear
+    before: bytes=228464;/libndk_translation;/dev.androidlab.module-;
+    after:  bytes=227359;
+  raw.maps.root_alias: detected -> clear
+    before: bytes=228839;/libndk_translation;/dev.androidlab.module-;
+    after:  bytes=227561;
+  raw.maps.self: detected -> clear
+    before: bytes=227864;/libndk_translation;/dev.androidlab.module-;
+    after:  bytes=226839;
+  raw.maps.task: detected -> clear
+    before: bytes=228839;/libndk_translation;/dev.androidlab.module-;
+    after:  bytes=227468;
+  raw.maps.thread_self: detected -> clear
+    before: bytes=229029;/libndk_translation;/dev.androidlab.module-;
+    after:  bytes=227468;
+  raw.maps.tid: detected -> clear
+    before: bytes=229029;/libndk_translation;/dev.androidlab.module-;
+    after:  bytes=227359;
+  raw.mountinfo.dirfd: detected -> clear
+    before: bytes=150002;/libndk_translation; /proc/cpuinfo ;/adb/modules/device_lab_cpu/;
+    after:  bytes=144682;
+  raw.mountinfo.legacy_open: detected -> clear
+    before: bytes=150002;/libndk_translation; /proc/cpuinfo ;/adb/modules/device_lab_cpu/;
+    after:  bytes=144682;
+  raw.mountinfo.normalized: detected -> clear
+    before: bytes=150002;/libndk_translation; /proc/cpuinfo ;/adb/modules/device_lab_cpu/;
+    after:  bytes=144682;
+  raw.mountinfo.pid: detected -> clear
+    before: bytes=150002;/libndk_translation; /proc/cpuinfo ;/adb/modules/device_lab_cpu/;
+    after:  bytes=144682;
+  raw.mountinfo.root_alias: detected -> clear
+    before: bytes=150002;/libndk_translation; /proc/cpuinfo ;/adb/modules/device_lab_cpu/;
+    after:  bytes=144682;
+  raw.mountinfo.self: detected -> clear
+    before: bytes=150002;/libndk_translation; /proc/cpuinfo ;/adb/modules/device_lab_cpu/;
+    after:  bytes=144682;
+  raw.mountinfo.task: detected -> clear
+    before: bytes=150002;/libndk_translation; /proc/cpuinfo ;/adb/modules/device_lab_cpu/;
+    after:  bytes=144682;
+  raw.mountinfo.thread_self: detected -> clear
+    before: bytes=150002;/libndk_translation; /proc/cpuinfo ;/adb/modules/device_lab_cpu/;
+    after:  bytes=144682;
+  raw.mountinfo.tid: detected -> clear
+    before: bytes=150002;/libndk_translation; /proc/cpuinfo ;/adb/modules/device_lab_cpu/;
+    after:  bytes=144682;
+  raw.mounts.dirfd: detected -> clear
+    before: bytes=92689;/libndk_translation; /proc/cpuinfo ;
+    after:  bytes=90402;
+  raw.mounts.legacy_open: detected -> clear
+    before: bytes=92689;/libndk_translation; /proc/cpuinfo ;
+    after:  bytes=90402;
+  raw.mounts.normalized: detected -> clear
+    before: bytes=92689;/libndk_translation; /proc/cpuinfo ;
+    after:  bytes=90402;
+  raw.mounts.pid: detected -> clear
+    before: bytes=92689;/libndk_translation; /proc/cpuinfo ;
+    after:  bytes=90402;
+  raw.mounts.proc_alias: detected -> clear
+    before: bytes=92689;/libndk_translation; /proc/cpuinfo ;
+    after:  bytes=90402;
+  raw.mounts.root_alias: detected -> clear
+    before: bytes=92689;/libndk_translation; /proc/cpuinfo ;
+    after:  bytes=90402;
+  raw.mounts.self: detected -> clear
+    before: bytes=92689;/libndk_translation; /proc/cpuinfo ;
+    after:  bytes=90402;
+  raw.mounts.task: detected -> clear
+    before: bytes=92689;/libndk_translation; /proc/cpuinfo ;
+    after:  bytes=90402;
+  raw.mounts.thread_self: detected -> clear
+    before: bytes=92689;/libndk_translation; /proc/cpuinfo ;
+    after:  bytes=90402;
+  raw.mounts.tid: detected -> clear
+    before: bytes=92689;/libndk_translation; /proc/cpuinfo ;
+    after:  bytes=90402;
+  raw.smaps.dirfd: detected -> clear
+    before: bytes=1604062;/libndk_translation;/dev.androidlab.module-;
+    after:  bytes=1586934;
+  raw.smaps.legacy_open: detected -> clear
+    before: bytes=1596956;/libndk_translation;/dev.androidlab.module-;
+    after:  bytes=1586934;
+  raw.smaps.normalized: detected -> clear
+    before: bytes=1591958;/libndk_translation;/dev.androidlab.module-;
+    after:  bytes=1579828;
+  raw.smaps.pid: detected -> clear
+    before: bytes=1580610;/libndk_translation;/dev.androidlab.module-;
+    after:  bytes=1564159;
+  raw.smaps.root_alias: detected -> clear
+    before: bytes=1604062;/libndk_translation;/dev.androidlab.module-;
+    after:  bytes=1586934;
+  raw.smaps.self: detected -> clear
+    before: bytes=1577119;/libndk_translation;/dev.androidlab.module-;
+    after:  bytes=1559261;
+  raw.smaps.task: detected -> clear
+    before: bytes=1591124;/libndk_translation;/dev.androidlab.module-;
+    after:  bytes=1579101;
+  raw.smaps.thread_self: detected -> clear
+    before: bytes=1591124;/libndk_translation;/dev.androidlab.module-;
+    after:  bytes=1567050;
+  raw.smaps.tid: detected -> clear
+    before: bytes=1584178;/libndk_translation;/dev.androidlab.module-;
+    after:  bytes=1566379;
+
+Remaining detected signals (0):
+
+Unavailable checks (0):
+
+These are heuristic observations, not proof of a physical device or an integrity verdict.

@@ -1,0 +1,3 @@
+on post-fs-data
+    setprop vendor.device_lab.v26_init_probe ready
+    write /data/local/tmp/device-lab-v26-init-probe ready

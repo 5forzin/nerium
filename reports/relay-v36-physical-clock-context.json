@@ -1,0 +1,10 @@
+{
+  "captured_at": "2026-10-26T17:25:37.1115903+00:00",
+  "reservation_id": "2z8rqaqro5qls",
+  "serial": "localhost:62044",
+  "model": "SM-S938U1",
+  "api_level": "35",
+  "abi": "arm64-v8a",
+  "verified_boot_state": "green",
+  "bootloader_locked": "1"
+}

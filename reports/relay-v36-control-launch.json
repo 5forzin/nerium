@@ -1,0 +1,8 @@
+{
+  "pid": 19552,
+  "avd": "device-lab-relay-control-v36",
+  "path": "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v36\\emulator-control.avd",
+  "port": 5582,
+  "started_at": "2026-10-26T16:05:23.0140111Z",
+  "purpose": "Unmodified stock emulator control for cooperative relay transport; not physical identity"
+}

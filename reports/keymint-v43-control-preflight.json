@@ -1,0 +1,38 @@
+{
+  "recorded_at": "2026-10-27T01:06:39.3217517+00:00",
+  "debugging_services_changed": false,
+  "selinux_changed": false,
+  "schema_version": 1,
+  "status": "passed_control_preflight",
+  "controller_sha256": "0f93ffa3730b01ce5dc62feb29180598fa93865a2da43e1ebdb003d597f4a654",
+  "worker": {
+    "role": "worker",
+    "run_id": "0a20682fe2c81d86cf9c2723a109f863",
+    "pid": 4588,
+    "parent": 1,
+    "process_group": 4588,
+    "session": 4588,
+    "adbd_pid": 4537,
+    "adbd_group": 4537,
+    "cgroup_verified": true,
+    "independent_watchdog_verified": true,
+    "policy_sha256": "725322b8bb21c399e222db65bd9e0ee307a3b603d19d9a3d5f47a93cc8f369c0",
+    "enforcing": true,
+    "services_changed": false
+  },
+  "watchdog": {
+    "role": "watchdog",
+    "run_id": "0a20682fe2c81d86cf9c2723a109f863",
+    "pid": 4610,
+    "parent": 4588,
+    "process_group": 4610,
+    "session": 4610,
+    "cgroup_verified": true,
+    "adbd_before": "running",
+    "adbd_after": "running",
+    "mdns_before": "running",
+    "mdns_after": "running",
+    "policy_sha256": "725322b8bb21c399e222db65bd9e0ee307a3b603d19d9a3d5f47a93cc8f369c0",
+    "services_changed": false
+  }
+}

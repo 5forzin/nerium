@@ -1,0 +1,12 @@
+{
+  "captured_at": "2026-10-26T00:11:42.0537446+00:00",
+  "avd": "device-lab-playstore-serviceprobe-v28",
+  "boot_completed": "1",
+  "selinux": "Enforcing",
+  "build_type": "user",
+  "ro_debuggable": "0",
+  "service_state": "running",
+  "service_process": "u:r:device_lab_vendor_probe:s0 nobody        1352     1        172      4 0                   0 S device-lab-vendor-probe",
+  "play_store_path": "package:/product/priv-app/Phonesky/Phonesky.apk",
+  "magisk_binary_present": false
+}

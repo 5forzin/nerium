@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "request_id": "72d9dbc4b9d64aec9e30c5d67bdce3db",
+  "request_sha256": "b81c7f86bcf7d8bedfba890dab3fa44b7cc93b45185b885dbcc6bc9a8104f65d",
+  "challenge_sha256": "bff340f43ca711b6415fd88fa8fa8ddf743e7bfd22b69564e66c5a2744cca213",
+  "operation": "play_integrity",
+  "origin": "cooperative_remote_worker",
+  "requester_integrity_verified": false,
+  "verification_state": "verified_remote_result",
+  "request_binding": {
+    "package_matches": true,
+    "nonce_bytes_match": true,
+    "timestamp_in_window": true
+  },
+  "worker_verdict": {
+    "app_integrity": {
+      "appRecognitionVerdict": "UNEVALUATED"
+    },
+    "device_integrity": {},
+    "account_details": {
+      "appLicensingVerdict": "UNEVALUATED"
+    }
+  },
+  "broker_observed_elapsed_ms": 3289,
+  "execution_elapsed_ms": 897,
+  "worker_package": "dev.androidlab.relayworker",
+  "client_elapsed_ms": 5199
+}

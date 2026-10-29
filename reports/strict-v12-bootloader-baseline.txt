@@ -1,0 +1,93 @@
+  [✖ DANGER] Bootloader
+  Verdict      : 6 critical boot integrity signal(s)
+  Quick Facts  : State: Unlocked  |  Proof: Attest  |  Tier: Software  |  Trust: Factory
+
+  [State]
+    • Boot state: Unlocked
+        Bootloader appears unlocked or Verified Boot reported an unverified/orange state.
+    • Evidence source: Attestation
+        RootOfTrust data was available and took priority over software-readable properties.
+    • Lock state: Unlocked (Derived from RootOfTrust.deviceLocked in attestation.)
+    • Trust root: Factory
+        Chain length: 3. Root classification: Factory.
+        Root fingerprint: 925a702d36c9c08b76a16caf2b55ba62f464361b096a03c491011ec7b17cc4ff
+
+  [Attestation]
+    • Attestation tier: Software
+        Certificate chain length: 3. Challenge matched generated nonce.
+    • Certificate chain: Valid (Chain signatures valid: true.)
+    • Attested boot state: Unverified (RootOfTrust.verifiedBootState from attestation extension.)
+    • Attested deviceLocked: false (RootOfTrust.deviceLocked from attestation extension.)
+    • Attested boot hash: 0000000000000000…
+        0000000000000000000000000000000000000000000000000000000000000000
+    • Attested boot key: 0000000000000000…
+        0000000000000000000000000000000000000000000000000000000000000000
+
+  [Properties]
+    • ro.boot.veritymode: enforcing
+        Source: Reflection
+        dm-verity modes usually map to enforcing, logging, or disabled.
+        Cross-checked across 3 sources.
+        Observed value: enforcing
+    • ro.boot.vbmeta.hash_alg: sha256
+        Source: Reflection
+        Cross-checked across 3 sources.
+        Observed value: sha256
+    • ro.boot.vbmeta.size: 6656
+        Source: Reflection
+        Cross-checked across 3 sources.
+        Observed value: 6656
+    • ro.boot.vbmeta.digest: 451e57ed688ff746d…
+        Source: Reflection
+        Compared against attested verifiedBootHash when RootOfTrust is available.
+        Cross-checked across 3 sources.
+        Observed value: 451e57ed688ff746d2c636d52169ade253e2bc5bb30a5c3ff23679ca15d3bcd3
+    • ro.boot.avb_version: 1.2
+        Source: Reflection
+        Cross-checked across 3 sources.
+        Observed value: 1.2
+
+  [Consistency]
+    • Attested hash vs vbmeta digest: Aligned
+        Attestation reported Unverified; AOSP allows an all-zero verifiedBootKey and runtime vbmeta comparison was skipped.
+    • Widevine credential: Partial
+        Advertised level: L3; Java system ID: 28615; video/mp4 HW_SECURE_ALL capability: UNSUPPORTED; maximum session: NOT_PROVISIONED; credential availability: AVAILABLE; local key request: NOT_ATTEMPTED; boot context: independent RootOfTrust state is unlocked; sanitized errors: SESSION_OPEN(NOT_PROVISIONED,vendor=7,oem=0,context=0).
+    • Widevine Java/native parity: Aligned
+        securityLevel(Java=L3, NDK=L3); systemId(Java=28615, NDK=28615).
+
+  [Methods]
+    • Key attestation: Software (RootOfTrust availability: true.)
+    • Certificate trust: Factory (Chain signatures valid: true.)
+    • Boot consistency: Aligned
+        Attestation reported Unverified; AOSP allows an all-zero verifiedBootKey and runtime vbmeta comparison was skipped.
+    • Property catalog: 5 / 21 observed
+        Tracked boot, AVB, dm-verity, Samsung fuse, and secure-build properties.
+    • Reflection API: 5 hit(s)
+        android.os.SystemProperties reflection reads for tracked boot properties.
+    • getprop snapshot: 5 hit(s) (Single getprop dump reused for cross-source comparisons.)
+    • Native libc: 8 hit(s)
+        Native libc property cross-checks using the callback-based system property API.
+    • Raw boot params: Unavailable
+        androidboot.* values from /proc/cmdline and /proc/bootconfig.
+    • Source consistency: Aligned
+        Cross-source comparison across reflection, getprop, JVM, and native libc reads.
+    • Cross-check rules: Aligned
+        Raw-boot, lock-state, partition-verity, and build-profile coherence checks.
+    • Widevine credential: Partial
+        Widevine credential: Partial. Advertised level: L3; Java system ID: 28615; video/mp4 HW_SECURE_ALL capability: UNSUPPORTED; maximum session: NOT_PROVISIONED; credential availability: AVAILABLE; local key request: NOT_ATTEMPTED; boot context: independent RootOfTrust state is unlocked; sanitized errors: SESSION_OPEN(NOT_PROVISIONED,vendor=7,oem=0,context=0).
+        Widevine Java/native parity: Aligned. securityLevel(Java=L3, NDK=L3); systemId(Java=28615, NDK=28615).
+
+  [Scan]
+    • Properties checked: 21
+    • Properties observed: 5
+    • Native hits: 8
+    • Raw boot hits: 0
+    • Source mismatches: 0
+    • Cross-checks: 0
+    • Attestation chain: 3
+    • Hardware-backed: No
+
+  [Impact & Guidance]
+    • Unlocked bootloaders allow custom boot images and can disable or bypass normal verified-boot guarantees.
+    • Bootloader evidence should still be read alongside TEE, kernel, SU, package, and property detectors because modern spoofing stacks often spread signals across layers.
+

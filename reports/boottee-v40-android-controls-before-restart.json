@@ -1,0 +1,327 @@
+{
+  "schema_version": 1,
+  "recorded_at": "2026-10-26T19:43:52.652Z",
+  "status": "passed",
+  "error_code": null,
+  "transport": "private_owned_apk_files_over_dedicated_adb",
+  "serial": "emulator-5584",
+  "android_package": "dev.androidlab.hostkeyprobe",
+  "private_artifacts_cleared": true,
+  "source_artifacts": [
+    {
+      "path": "hostkeyprobe/src/main/java/dev/androidlab/hostkeyprobe/MainActivity.java",
+      "sha256": "3abdbb6ae32222f29ba2e6b13df308c4585861d44f5c384fa025dc3789095c66"
+    },
+    {
+      "path": "hostkey/WindowsVbsKey.cs",
+      "sha256": "65621d5dd43193f27678ee8c27e422c935ccf6280edb3257fd6a5bfdc6eccfde"
+    },
+    {
+      "path": "scripts/vbs-key-operation.ps1",
+      "sha256": "388fedbbb985d66401dc572f11a8aa37146f7ac045e26a1d634d68e38f0a009b"
+    },
+    {
+      "path": "scripts/test-hostkey-android.mjs",
+      "sha256": "0ceb9021f894570c1a3e62560ad42d26d2076f7360d46acb54596cc8a5beaaad"
+    }
+  ],
+  "apk_sha256": "55f64c038d50f87e30660a91dd1a30ea54803fc64330ceb3e81009b4f5b1b31b",
+  "checks": [
+    {
+      "name": "separate_process_native_and_node_verification",
+      "passed": true,
+      "native": {
+        "schema_version": 1,
+        "status": "completed",
+        "origin": "windows_vbs_host_key",
+        "android_tee_verified": false,
+        "external_root_authenticated": false,
+        "valid": true,
+        "native_root_valid": true,
+        "native_identity_valid": true,
+        "nonce_valid": true,
+        "payload_valid": true,
+        "spki_matches_public_blob": true,
+        "signature_valid": true,
+        "root_status": "0x00000000",
+        "identity_status": "0x00000000",
+        "signature_status": "0x00000000",
+        "cleanup_succeeded": true,
+        "cleanup_statuses": [
+          "0x00000000",
+          "0x00000000",
+          "0x00000000"
+        ]
+      },
+      "request_id": "a05d6829899d4a8d8ed5e3187865a7d0",
+      "subject_spki_sha256": "b267fe321205745d272d58ea9578e9f65e684dd40dba48a5091d1a7ae6753e61"
+    },
+    {
+      "name": "signature_tampered",
+      "passed": true,
+      "expected_state": "rejected",
+      "result": {
+        "schema_version": 1,
+        "attempt_id": "f36f409c8bcb4b409c5cba1fcb128c70",
+        "origin": "untrusted_host_key_response",
+        "claimed_key_protection": "windows_vbs",
+        "external_root_authenticated": false,
+        "android_tee_verified": false,
+        "google_attestation_verified": false,
+        "android_verified_windows_claims": false,
+        "request_id": "a05d6829899d4a8d8ed5e3187865a7d0",
+        "error_code": "SIGNATURE_INVALID",
+        "verification_state": "rejected"
+      }
+    },
+    {
+      "name": "public_blob_tampered",
+      "passed": true,
+      "expected_state": "rejected",
+      "result": {
+        "schema_version": 1,
+        "attempt_id": "bdd2e4a5f1384a55ad125c2a709c0967",
+        "origin": "untrusted_host_key_response",
+        "claimed_key_protection": "windows_vbs",
+        "external_root_authenticated": false,
+        "android_tee_verified": false,
+        "google_attestation_verified": false,
+        "android_verified_windows_claims": false,
+        "request_id": "a05d6829899d4a8d8ed5e3187865a7d0",
+        "error_code": "PUBLIC_KEY_BINDING",
+        "verification_state": "rejected"
+      }
+    },
+    {
+      "name": "nonce_tampered",
+      "passed": true,
+      "expected_state": "rejected",
+      "result": {
+        "schema_version": 1,
+        "attempt_id": "b624843b225a46a081304c5034b60708",
+        "origin": "untrusted_host_key_response",
+        "claimed_key_protection": "windows_vbs",
+        "external_root_authenticated": false,
+        "android_tee_verified": false,
+        "google_attestation_verified": false,
+        "android_verified_windows_claims": false,
+        "request_id": "a05d6829899d4a8d8ed5e3187865a7d0",
+        "error_code": "NONCE_MISMATCH",
+        "verification_state": "rejected"
+      }
+    },
+    {
+      "name": "payload_hash_tampered",
+      "passed": true,
+      "expected_state": "rejected",
+      "result": {
+        "schema_version": 1,
+        "attempt_id": "a84efdc6c3a845c8b3eba8da703e06b4",
+        "origin": "untrusted_host_key_response",
+        "claimed_key_protection": "windows_vbs",
+        "external_root_authenticated": false,
+        "android_tee_verified": false,
+        "google_attestation_verified": false,
+        "android_verified_windows_claims": false,
+        "request_id": "a05d6829899d4a8d8ed5e3187865a7d0",
+        "error_code": "PAYLOAD_MISMATCH",
+        "verification_state": "rejected"
+      }
+    },
+    {
+      "name": "duplicate_field",
+      "passed": true,
+      "expected_state": "rejected",
+      "result": {
+        "schema_version": 1,
+        "attempt_id": "0de6bf39e7514b3594b95ac4cd7ab1b9",
+        "origin": "untrusted_host_key_response",
+        "claimed_key_protection": "windows_vbs",
+        "external_root_authenticated": false,
+        "android_tee_verified": false,
+        "google_attestation_verified": false,
+        "android_verified_windows_claims": false,
+        "request_id": "a05d6829899d4a8d8ed5e3187865a7d0",
+        "error_code": "DUPLICATE_FIELD",
+        "verification_state": "rejected"
+      }
+    },
+    {
+      "name": "fractional_schema",
+      "passed": true,
+      "expected_state": "rejected",
+      "result": {
+        "schema_version": 1,
+        "attempt_id": "a84d0350d29342cf812fa56d9dfeae9d",
+        "origin": "untrusted_host_key_response",
+        "claimed_key_protection": "windows_vbs",
+        "external_root_authenticated": false,
+        "android_tee_verified": false,
+        "google_attestation_verified": false,
+        "android_verified_windows_claims": false,
+        "request_id": "a05d6829899d4a8d8ed5e3187865a7d0",
+        "error_code": "JSON_INTEGER_FORMAT",
+        "verification_state": "rejected"
+      }
+    },
+    {
+      "name": "string_schema",
+      "passed": true,
+      "expected_state": "rejected",
+      "result": {
+        "schema_version": 1,
+        "attempt_id": "6e0c34ab1bf54aa99315f2326c29ca71",
+        "origin": "untrusted_host_key_response",
+        "claimed_key_protection": "windows_vbs",
+        "external_root_authenticated": false,
+        "android_tee_verified": false,
+        "google_attestation_verified": false,
+        "android_verified_windows_claims": false,
+        "request_id": "a05d6829899d4a8d8ed5e3187865a7d0",
+        "error_code": "RESPONSE_FIELD_TYPE",
+        "verification_state": "rejected"
+      }
+    },
+    {
+      "name": "wrapped_schema",
+      "passed": true,
+      "expected_state": "rejected",
+      "result": {
+        "schema_version": 1,
+        "attempt_id": "8bf34893a7fb40a6aaf0451d7f11ddd8",
+        "origin": "untrusted_host_key_response",
+        "claimed_key_protection": "windows_vbs",
+        "external_root_authenticated": false,
+        "android_tee_verified": false,
+        "google_attestation_verified": false,
+        "android_verified_windows_claims": false,
+        "request_id": "a05d6829899d4a8d8ed5e3187865a7d0",
+        "error_code": "RESPONSE_SCHEMA",
+        "verification_state": "rejected"
+      }
+    },
+    {
+      "name": "wrapped_salt",
+      "passed": true,
+      "expected_state": "rejected",
+      "result": {
+        "schema_version": 1,
+        "attempt_id": "735a9f8dd5d3416a9812d67d2f247601",
+        "origin": "untrusted_host_key_response",
+        "claimed_key_protection": "windows_vbs",
+        "external_root_authenticated": false,
+        "android_tee_verified": false,
+        "google_attestation_verified": false,
+        "android_verified_windows_claims": false,
+        "request_id": "a05d6829899d4a8d8ed5e3187865a7d0",
+        "error_code": "SIGNATURE_ALGORITHM",
+        "verification_state": "rejected"
+      }
+    },
+    {
+      "name": "trailing_document",
+      "passed": true,
+      "expected_state": "rejected",
+      "result": {
+        "schema_version": 1,
+        "attempt_id": "360edcb212554ce09a8ecf7f90a5cbea",
+        "origin": "untrusted_host_key_response",
+        "claimed_key_protection": "windows_vbs",
+        "external_root_authenticated": false,
+        "android_tee_verified": false,
+        "google_attestation_verified": false,
+        "android_verified_windows_claims": false,
+        "request_id": "a05d6829899d4a8d8ed5e3187865a7d0",
+        "error_code": "LOCAL_VERIFICATION_FAILED",
+        "verification_state": "rejected"
+      }
+    },
+    {
+      "name": "valid_host_signature",
+      "passed": true,
+      "expected_state": "verified_untrusted_host_signature",
+      "result": {
+        "schema_version": 1,
+        "attempt_id": "0e8ee3243b6a4b738c02ef50dcec1342",
+        "origin": "untrusted_host_key_response",
+        "claimed_key_protection": "windows_vbs",
+        "external_root_authenticated": false,
+        "android_tee_verified": false,
+        "google_attestation_verified": false,
+        "android_verified_windows_claims": false,
+        "request_id": "a05d6829899d4a8d8ed5e3187865a7d0",
+        "signature_verified": true,
+        "nonce_matches": true,
+        "public_blob_matches_spki": true,
+        "challenge_consumed": true,
+        "payload_sha256": "d1d03543b3732eca35783f48b449f71c3a192dac073255d6a1c627f19ab43ae5",
+        "subject_spki_sha256": "b267fe321205745d272d58ea9578e9f65e684dd40dba48a5091d1a7ae6753e61",
+        "challenge_age_ms": 31598,
+        "verification_state": "verified_untrusted_host_signature"
+      }
+    },
+    {
+      "name": "same_challenge_replay",
+      "passed": true,
+      "expected_state": "rejected",
+      "result": {
+        "schema_version": 1,
+        "attempt_id": "c6cb708fecb744f284632a9b2159c927",
+        "origin": "untrusted_host_key_response",
+        "claimed_key_protection": "windows_vbs",
+        "external_root_authenticated": false,
+        "android_tee_verified": false,
+        "google_attestation_verified": false,
+        "android_verified_windows_claims": false,
+        "request_id": "a05d6829899d4a8d8ed5e3187865a7d0",
+        "error_code": "CHALLENGE_CONSUMED",
+        "verification_state": "rejected"
+      }
+    },
+    {
+      "name": "prior_challenge_replay",
+      "passed": true,
+      "expected_state": "rejected",
+      "result": {
+        "schema_version": 1,
+        "attempt_id": "de336a7f7a42412f8e9e999d2cda9659",
+        "origin": "untrusted_host_key_response",
+        "claimed_key_protection": "windows_vbs",
+        "external_root_authenticated": false,
+        "android_tee_verified": false,
+        "google_attestation_verified": false,
+        "android_verified_windows_claims": false,
+        "request_id": "e2e540e9a3214ea0b0193be79cedbd9e",
+        "error_code": "NONCE_MISMATCH",
+        "verification_state": "rejected"
+      }
+    },
+    {
+      "name": "expired_challenge",
+      "passed": true,
+      "expected_state": "rejected",
+      "result": {
+        "schema_version": 1,
+        "attempt_id": "d69905a8d236433d85b5c07d9b92f892",
+        "origin": "untrusted_host_key_response",
+        "claimed_key_protection": "windows_vbs",
+        "external_root_authenticated": false,
+        "android_tee_verified": false,
+        "google_attestation_verified": false,
+        "android_verified_windows_claims": false,
+        "request_id": "e2e540e9a3214ea0b0193be79cedbd9e",
+        "error_code": "CHALLENGE_EXPIRED",
+        "verification_state": "rejected"
+      }
+    }
+  ],
+  "native_claims_verified_on_windows": true,
+  "android_verified_windows_claims": false,
+  "external_root_authenticated": false,
+  "android_tee_verified": false,
+  "google_attestation_verified": false,
+  "hardware_level_advertised_to_android": false,
+  "keymint_integrated": false,
+  "fresh_detector_run": false,
+  "zero_detections_achieved": false
+}

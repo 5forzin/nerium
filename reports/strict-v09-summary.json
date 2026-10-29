@@ -1,0 +1,196 @@
+{
+  "experiment": "Independent detector expansion on module 0.8.0",
+  "module_payload_unchanged": true,
+  "control_scope": "Duck and both ARM detectors excluded; 99/79/54 and Reveny remain scoped",
+  "enabled_scope": "All ten laboratory packages scoped",
+  "duck": {
+    "before_report": "strict-v09-duck-before.json",
+    "after_report": "strict-v09-duck-after.json",
+    "apk_sha256": "9d0bbdab9c0b14334c9ec0d319758c5f9085260a09388486482b2ac497c81ffc",
+    "installed_abi": "x86_64",
+    "statistics_before": {
+      "Danger": 6,
+      "Warning": 7,
+      "Ready": 20,
+      "Pending": 0
+    },
+    "statistics_after": {
+      "Danger": 9,
+      "Warning": 5,
+      "Ready": 20,
+      "Pending": 0
+    },
+    "module_changes": {
+      "Mount": {
+        "before": {
+          "severity": "DANGER",
+          "detector": "Mount",
+          "verdict": "10 critical mount signal(s)"
+        },
+        "after": {
+          "severity": "DANGER",
+          "detector": "Mount",
+          "verdict": "8 critical mount signal(s)"
+        }
+      },
+      "System Properties": {
+        "before": {
+          "severity": "DANGER",
+          "detector": "System Properties",
+          "verdict": "5 high-risk property or coherence signal(s)"
+        },
+        "after": {
+          "severity": "DANGER",
+          "detector": "System Properties",
+          "verdict": "1 high-risk property or coherence signal(s)"
+        }
+      },
+      "Virtualization": {
+        "before": {
+          "severity": "DANGER",
+          "detector": "Virtualization",
+          "verdict": "14 direct virtualization signal(s)"
+        },
+        "after": {
+          "severity": "DANGER",
+          "detector": "Virtualization",
+          "verdict": "8 direct virtualization signal(s)"
+        }
+      },
+      "Dangerous Apps": {
+        "before": {
+          "severity": "WARNING",
+          "detector": "Dangerous Apps",
+          "verdict": "1 risky package(s) surfaced"
+        },
+        "after": {
+          "severity": "WARNING",
+          "detector": "Dangerous Apps",
+          "verdict": "Platform behavior mismatch observed"
+        }
+      },
+      "LSPosed": {
+        "before": {
+          "severity": "WARNING",
+          "detector": "LSPosed",
+          "verdict": "Dirty SELinux policy signal(s)"
+        },
+        "after": {
+          "severity": "DANGER",
+          "detector": "LSPosed",
+          "verdict": "1 high-risk LSPosed signal(s)"
+        }
+      },
+      "Native Root": {
+        "before": {
+          "severity": "WARNING",
+          "detector": "Native Root",
+          "verdict": "1 native signal(s) need review"
+        },
+        "after": {
+          "severity": "DANGER",
+          "detector": "Native Root",
+          "verdict": "1 runtime root signal(s)"
+        }
+      },
+      "Memory": {
+        "before": {
+          "severity": "CLEAR",
+          "detector": "Memory",
+          "verdict": "No hook-like memory signals"
+        },
+        "after": {
+          "severity": "DANGER",
+          "detector": "Memory",
+          "verdict": "9 high-risk memory signal(s)"
+        }
+      }
+    },
+    "conclusion": "Virtualization remains detected. Hook and framework evidence increases when the profile is applied.",
+    "arm_only_probes": "Unsupported in the selected x86_64 installation; not counted as clear."
+  },
+  "arm_detectors": {
+    "native-root": {
+      "before": "strict-v09-native-root-before.json",
+      "after": "strict-v09-native-root-after.json",
+      "status": "unavailable",
+      "apk_sha256": "1033d24102af2632fe5c379e28c9ea9a20bc1d570e171ac3e50f8afd35fc4bd6",
+      "installed_abi": "arm64-v8a"
+    },
+    "native-test": {
+      "before": "strict-v09-native-test-before.json",
+      "after": "strict-v09-native-test-after.json",
+      "status": "unavailable",
+      "apk_sha256": "5b2cb3b3203cb0cb4e59235fca7d728dfeaba1467e045699625671bc1ede4f67",
+      "installed_abi": "arm64-v8a"
+    }
+  },
+  "regression": {
+    "start": {
+      "proc99": {
+        "report": "strict-v09-start-proc99.json",
+        "apk_sha256": "99901e704d769e519741824d62f15286f68e0654f4223c0681083903ca98c9ab",
+        "installed_abi": "x86_64",
+        "detected": 0,
+        "unavailable": 0,
+        "total": 99
+      },
+      "raw79": {
+        "report": "strict-v09-start-raw79.json",
+        "apk_sha256": "ee4e8cc35ef306e1626472ffb3d9d53fe0b45036a4a89dce31020ed489268f37",
+        "installed_abi": "x86_64",
+        "detected": 0,
+        "unavailable": 0,
+        "total": 79
+      },
+      "probe54": {
+        "report": "strict-v09-start-probe54.json",
+        "apk_sha256": "ab4dafd201527cf0f72a1c2ff4f9bd41fd4dbaa921d336d1983319ac611554ed",
+        "installed_abi": "arm64-v8a",
+        "detected": 0,
+        "unavailable": 0,
+        "total": 54
+      },
+      "reveny": {
+        "report": "strict-v09-start-reveny.json",
+        "apk_sha256": "9f064f3968e9a224612810ec2b6078872f479930ce4dd0fc1f7132b08c6b3f5b",
+        "findings": 0
+      }
+    },
+    "final": {
+      "proc99": {
+        "report": "strict-v09-final-proc99.json",
+        "apk_sha256": "99901e704d769e519741824d62f15286f68e0654f4223c0681083903ca98c9ab",
+        "installed_abi": "x86_64",
+        "detected": 0,
+        "unavailable": 0,
+        "total": 99
+      },
+      "raw79": {
+        "report": "strict-v09-final-raw79.json",
+        "apk_sha256": "ee4e8cc35ef306e1626472ffb3d9d53fe0b45036a4a89dce31020ed489268f37",
+        "installed_abi": "x86_64",
+        "detected": 0,
+        "unavailable": 0,
+        "total": 79
+      },
+      "probe54": {
+        "report": "strict-v09-final-probe54.json",
+        "apk_sha256": "ab4dafd201527cf0f72a1c2ff4f9bd41fd4dbaa921d336d1983319ac611554ed",
+        "installed_abi": "arm64-v8a",
+        "detected": 0,
+        "unavailable": 0,
+        "total": 54
+      },
+      "reveny": {
+        "report": "strict-v09-final-reveny.json",
+        "apk_sha256": "9f064f3968e9a224612810ec2b6078872f479930ce4dd0fc1f7132b08c6b3f5b",
+        "findings": 0
+      }
+    }
+  },
+  "boundaries_report": "strict-v09-final-boundaries.json",
+  "rejected_capture": "Initial Duck screenshot attempt interrupted by an ADB server restart; no accepted result.",
+  "startup": "Agreement reviewed, notifications skipped, optional diagnostics left at their defaults. Nightly update dismissed; APK remains pinned.",
+  "reports_are_original_app_exports": true
+}

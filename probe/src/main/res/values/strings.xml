@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Device Probe</string>
+    <string name="run_checks">Run checks</string>
+    <string name="share_json">Share JSON</string>
+    <string name="share_report">Share report</string>
+    <string name="running_checks">Running checks…</string>
+    <string name="collection_failed">Collection failed: %1$s</string>
+</resources>

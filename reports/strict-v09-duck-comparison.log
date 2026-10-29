@@ -1,0 +1,23 @@
+Detector: duck (same APK checksum and ABI)
+Status: complete -> complete
+Detected: True -> True
+Before: Built-in report from the pinned APK corroborated by its current process and dashboard.
+After: Built-in report from the pinned APK corroborated by its current process and dashboard.
+Danger modules: 6 -> 9
+Warning modules: 7 -> 5
+Ready modules: 20 -> 20
+Pending modules: 0 -> 0
+  Dangerous Apps: WARNING: 1 risky package(s) surfaced
+    -> WARNING: Platform behavior mismatch observed
+  LSPosed: WARNING: Dirty SELinux policy signal(s)
+    -> DANGER: 1 high-risk LSPosed signal(s)
+  Memory: CLEAR: No hook-like memory signals
+    -> DANGER: 9 high-risk memory signal(s)
+  Mount: DANGER: 10 critical mount signal(s)
+    -> DANGER: 8 critical mount signal(s)
+  Native Root: WARNING: 1 native signal(s) need review
+    -> DANGER: 1 runtime root signal(s)
+  System Properties: DANGER: 5 high-risk property or coherence signal(s)
+    -> DANGER: 1 high-risk property or coherence signal(s)
+  Virtualization: DANGER: 14 direct virtualization signal(s)
+    -> DANGER: 8 direct virtualization signal(s)

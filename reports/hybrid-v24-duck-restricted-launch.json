@@ -1,0 +1,21 @@
+{
+  "captured_at": "2026-10-25T07:03:23.2181922+00:00",
+  "detector": "duck",
+  "version": "2026.10.24-b5305070468a (1084)",
+  "package": "com.eltavine.duckdetector",
+  "release": "https://github.com/eltavine/Duck-Detector-Refactoring/releases/tag/nightly-2026-10-24-b5305070",
+  "apk_sha256": "9d0bbdab9c0b14334c9ec0d319758c5f9085260a09388486482b2ac497c81ffc",
+  "installed_abi": "x86_64",
+  "status": "needs_review",
+  "detected": null,
+  "reason": "Result needs visual review.",
+  "process_id": 6283,
+  "foreground": "topResumedActivity=ActivityRecord{5cf26d7 u0 com.eltavine.duckdetector/.MainActivity t43}",
+  "final_foreground": "topResumedActivity=ActivityRecord{5cf26d7 u0 com.eltavine.duckdetector/.MainActivity t43}",
+  "final_process_id": "6283",
+  "launch": "Starting: Intent { cmp=com.eltavine.duckdetector/android.app.NativeActivity }\nStatus: ok\nLaunchState: COLD\nActivity: com.eltavine.duckdetector/.MainActivity\nTotalTime: 6915\nWaitTime: 6925\nComplete",
+  "ui_result": null,
+  "visible_text": [],
+  "screenshot": "hybrid-v24-duck-restricted-launch.png",
+  "log": "hybrid-v24-duck-restricted-launch.log"
+}

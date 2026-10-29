@@ -1,0 +1,16 @@
+{
+  "captured_at": "2026-10-25T23:38:22.1180317+00:00",
+  "package": "com.reveny.emulator.detection.sample",
+  "apk_sha256": "9f064f3968e9a224612810ec2b6078872f479930ce4dd0fc1f7132b08c6b3f5b",
+  "process_id": 4384,
+  "detected": true,
+  "finding_count": 4,
+  "findings": [
+    "- Detected Hypervisor in cpuinfo",
+    "- Detected x86 Architecture",
+    "- Detected ARM Translation Property",
+    "- Detected ARM Translation Property (2)"
+  ],
+  "ui_result": "- Detected Hypervisor in cpuinfo\n- Detected x86 Architecture\n- Detected ARM Translation Property\n- Detected ARM Translation Property (2)\n",
+  "native_log": "--------- beginning of main\n10-25 20:38:22.546  4384  4384 I EmulatorDetection: isEmulator: true, result: - Detected Hypervisor in cpuinfo\n10-25 20:38:22.546  4384  4384 I EmulatorDetection: - Detected x86 Architecture\n10-25 20:38:22.546  4384  4384 I EmulatorDetection: - Detected ARM Translation Property\n10-25 20:38:22.546  4384  4384 I EmulatorDetection: - Detected ARM Translation Property (2)"
+}

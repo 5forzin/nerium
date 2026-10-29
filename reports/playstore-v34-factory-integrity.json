@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "captured_at_ms": 1792980959471,
+  "package": "dev.androidlab.integrityprobe",
+  "status": "token_received",
+  "cloud_project_number": 45438431209,
+  "nonce_base64url": "qksAwNZ3c_bu903xSnX2Vqk29UnjcDq85HpCrG3KgZc",
+  "token_length": 991,
+  "apk_sha256": "676e2aa8ed58aaeca6b9babaaf7d88a141b10e35a09206afe87bb2199edeb070",
+  "environment": {
+    "android_api": "34",
+    "build_fingerprint": "google/sdk_gphone64_x86_64/emu64xa:14/UE1A.230829.036.A4/12096271:user/release-keys",
+    "play_store_path": "package:/data/app/~~LtA2vJV-o4wg8AbP0jwq2Q==/com.android.vending-EsvLfCQJKaGireT_Al-n8g==/base.apk",
+    "play_store_version": "53.6.15-34 [0] [PR] 996698724",
+    "play_services_version": "26.41.31 (190800-1002748488)"
+  },
+  "token_sha256": "4dadd879083a306a005ebb7ba7941079ea023180cdbf4fe2420c1f3580836455",
+  "token_private_path": "files/token-playstore-v34-factory-integrity.txt",
+  "compact_jwe_shape": true
+}

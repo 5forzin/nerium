@@ -1,0 +1,17 @@
+{
+  "serial": "emulator-5576",
+  "boot_id": "48ec91c5-7d0c-4a4b-85a1-a0ec99749724",
+  "selinux": "Enforcing",
+  "verity_mode": "enforcing",
+  "vbmeta_digest": "18bfbbbda08a42cb2b73ad7be7aa378b5948519d2bcdf3418e2a3aa7d1506ca4",
+  "build_type": "user",
+  "debuggable": "0",
+  "zygote_service": "running",
+  "library_sha256": "7b08248367b571ae1399342b69b8a2eaa5b1e17f921835089d33fe497682cc21",
+  "captured_at": "2026-10-26T01:30:03.256149+00:00",
+  "avd": "device-lab-playstore-zygote-probe-v31",
+  "system_content_version": "v32",
+  "root_mount": "/dev/block/dm-5 / ext4 ro,seclabel,relatime 0 0",
+  "installed_duck_catalog": "scripts/detectors-1093.json",
+  "runtime_hooks_verified": false
+}

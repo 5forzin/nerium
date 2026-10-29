@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Attestation Probe</string>
+    <string name="running">Checking keystore…</string>
+    <string name="failed">Collection failed: %1$s</string>
+</resources>

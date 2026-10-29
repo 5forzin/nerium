@@ -1,0 +1,158 @@
+
+C:\Users\antho\AppData\Local\android-device-lab\research-v39-keymint-audit\libpuresoftkeymasterdevice.so:	file format elf64-x86-64
+
+Disassembly of section .text:
+
+000000000000f210 <keymaster::PureSoftKeymasterContext::SetVerifiedBootInfo(std::__1::basic_string_view<char, std::__1::char_traits<char>>, std::__1::basic_string_view<char, std::__1::char_traits<char>>, std::__1::vector<unsigned char, std::__1::allocator<unsigned char>> const&)>:
+    f210: 55                           	pushq	%rbp
+    f211: 41 57                        	pushq	%r15
+    f213: 41 56                        	pushq	%r14
+    f215: 41 54                        	pushq	%r12
+    f217: 53                           	pushq	%rbx
+    f218: 48 83 ec 30                  	subq	$0x30, %rsp
+    f21c: 4c 89 cb                     	movq	%r9, %rbx
+    f21f: 4d 89 c7                     	movq	%r8, %r15
+    f222: 49 89 cc                     	movq	%rcx, %r12
+    f225: 49 89 fe                     	movq	%rdi, %r14
+    f228: 64 48 8b 04 25 28 00 00 00   	movq	%fs:0x28, %rax
+    f231: 48 89 44 24 28               	movq	%rax, 0x28(%rsp)
+    f236: 48 89 74 24 18               	movq	%rsi, 0x18(%rsp)
+    f23b: 48 89 54 24 20               	movq	%rdx, 0x20(%rsp)
+    f240: 48 89 4c 24 08               	movq	%rcx, 0x8(%rsp)
+    f245: 4c 89 44 24 10               	movq	%r8, 0x10(%rsp)
+    f24a: 80 bf 90 00 00 00 00         	cmpb	$0x0, 0x90(%rdi)
+    f251: 74 47                        	je	0xf29a <keymaster::PureSoftKeymasterContext::SetVerifiedBootInfo(std::__1::basic_string_view<char, std::__1::char_traits<char>>, std::__1::basic_string_view<char, std::__1::char_traits<char>>, std::__1::vector<unsigned char, std::__1::allocator<unsigned char>> const&)+0x8a>
+    f253: 41 0f b6 4e 78               	movzbl	0x78(%r14), %ecx
+    f258: f6 c1 01                     	testb	$0x1, %cl
+    f25b: 74 10                        	je	0xf26d <keymaster::PureSoftKeymasterContext::SetVerifiedBootInfo(std::__1::basic_string_view<char, std::__1::char_traits<char>>, std::__1::basic_string_view<char, std::__1::char_traits<char>>, std::__1::vector<unsigned char, std::__1::allocator<unsigned char>> const&)+0x5d>
+    f25d: 49 8b 86 88 00 00 00         	movq	0x88(%r14), %rax
+    f264: 49 8b 8e 80 00 00 00         	movq	0x80(%r14), %rcx
+    f26b: eb 07                        	jmp	0xf274 <keymaster::PureSoftKeymasterContext::SetVerifiedBootInfo(std::__1::basic_string_view<char, std::__1::char_traits<char>>, std::__1::basic_string_view<char, std::__1::char_traits<char>>, std::__1::vector<unsigned char, std::__1::allocator<unsigned char>> const&)+0x64>
+    f26d: 49 8d 46 79                  	leaq	0x79(%r14), %rax
+    f271: 48 d1 e9                     	shrq	%rcx
+    f274: bd da ff ff ff               	movl	$0xffffffda, %ebp       # imm = 0xFFFFFFDA
+    f279: 48 39 d1                     	cmpq	%rdx, %rcx
+    f27c: 0f 85 a9 01 00 00            	jne	0xf42b <keymaster::PureSoftKeymasterContext::SetVerifiedBootInfo(std::__1::basic_string_view<char, std::__1::char_traits<char>>, std::__1::basic_string_view<char, std::__1::char_traits<char>>, std::__1::vector<unsigned char, std::__1::allocator<unsigned char>> const&)+0x21b>
+    f282: 48 85 d2                     	testq	%rdx, %rdx
+    f285: 74 13                        	je	0xf29a <keymaster::PureSoftKeymasterContext::SetVerifiedBootInfo(std::__1::basic_string_view<char, std::__1::char_traits<char>>, std::__1::basic_string_view<char, std::__1::char_traits<char>>, std::__1::vector<unsigned char, std::__1::allocator<unsigned char>> const&)+0x8a>
+    f287: 48 89 f7                     	movq	%rsi, %rdi
+    f28a: 48 89 c6                     	movq	%rax, %rsi
+    f28d: e8 be 85 00 00               	callq	0x17850 <memcmp@plt>
+    f292: 85 c0                        	testl	%eax, %eax
+    f294: 0f 85 91 01 00 00            	jne	0xf42b <keymaster::PureSoftKeymasterContext::SetVerifiedBootInfo(std::__1::basic_string_view<char, std::__1::char_traits<char>>, std::__1::basic_string_view<char, std::__1::char_traits<char>>, std::__1::vector<unsigned char, std::__1::allocator<unsigned char>> const&)+0x21b>
+    f29a: 41 80 7e 70 00               	cmpb	$0x0, 0x70(%r14)
+    f29f: 74 40                        	je	0xf2e1 <keymaster::PureSoftKeymasterContext::SetVerifiedBootInfo(std::__1::basic_string_view<char, std::__1::char_traits<char>>, std::__1::basic_string_view<char, std::__1::char_traits<char>>, std::__1::vector<unsigned char, std::__1::allocator<unsigned char>> const&)+0xd1>
+    f2a1: 41 0f b6 46 58               	movzbl	0x58(%r14), %eax
+    f2a6: a8 01                        	testb	$0x1, %al
+    f2a8: 74 0a                        	je	0xf2b4 <keymaster::PureSoftKeymasterContext::SetVerifiedBootInfo(std::__1::basic_string_view<char, std::__1::char_traits<char>>, std::__1::basic_string_view<char, std::__1::char_traits<char>>, std::__1::vector<unsigned char, std::__1::allocator<unsigned char>> const&)+0xa4>
+    f2aa: 49 8b 76 68                  	movq	0x68(%r14), %rsi
+    f2ae: 49 8b 46 60                  	movq	0x60(%r14), %rax
+    f2b2: eb 07                        	jmp	0xf2bb <keymaster::PureSoftKeymasterContext::SetVerifiedBootInfo(std::__1::basic_string_view<char, std::__1::char_traits<char>>, std::__1::basic_string_view<char, std::__1::char_traits<char>>, std::__1::vector<unsigned char, std::__1::allocator<unsigned char>> const&)+0xab>
+    f2b4: 49 8d 76 59                  	leaq	0x59(%r14), %rsi
+    f2b8: 48 d1 e8                     	shrq	%rax
+    f2bb: bd da ff ff ff               	movl	$0xffffffda, %ebp       # imm = 0xFFFFFFDA
+    f2c0: 4c 39 f8                     	cmpq	%r15, %rax
+    f2c3: 0f 85 62 01 00 00            	jne	0xf42b <keymaster::PureSoftKeymasterContext::SetVerifiedBootInfo(std::__1::basic_string_view<char, std::__1::char_traits<char>>, std::__1::basic_string_view<char, std::__1::char_traits<char>>, std::__1::vector<unsigned char, std::__1::allocator<unsigned char>> const&)+0x21b>
+    f2c9: 4d 85 ff                     	testq	%r15, %r15
+    f2cc: 74 13                        	je	0xf2e1 <keymaster::PureSoftKeymasterContext::SetVerifiedBootInfo(std::__1::basic_string_view<char, std::__1::char_traits<char>>, std::__1::basic_string_view<char, std::__1::char_traits<char>>, std::__1::vector<unsigned char, std::__1::allocator<unsigned char>> const&)+0xd1>
+    f2ce: 4c 89 e7                     	movq	%r12, %rdi
+    f2d1: 4c 89 fa                     	movq	%r15, %rdx
+    f2d4: e8 77 85 00 00               	callq	0x17850 <memcmp@plt>
+    f2d9: 85 c0                        	testl	%eax, %eax
+    f2db: 0f 85 4a 01 00 00            	jne	0xf42b <keymaster::PureSoftKeymasterContext::SetVerifiedBootInfo(std::__1::basic_string_view<char, std::__1::char_traits<char>>, std::__1::basic_string_view<char, std::__1::char_traits<char>>, std::__1::vector<unsigned char, std::__1::allocator<unsigned char>> const&)+0x21b>
+    f2e1: 41 80 be b0 00 00 00 00      	cmpb	$0x0, 0xb0(%r14)
+    f2e9: 74 51                        	je	0xf33c <keymaster::PureSoftKeymasterContext::SetVerifiedBootInfo(std::__1::basic_string_view<char, std::__1::char_traits<char>>, std::__1::basic_string_view<char, std::__1::char_traits<char>>, std::__1::vector<unsigned char, std::__1::allocator<unsigned char>> const&)+0x12c>
+    f2eb: 48 8b 03                     	movq	(%rbx), %rax
+    f2ee: 48 8b 4b 08                  	movq	0x8(%rbx), %rcx
+    f2f2: 48 89 ce                     	movq	%rcx, %rsi
+    f2f5: 48 29 c6                     	subq	%rax, %rsi
+    f2f8: 49 8b 96 98 00 00 00         	movq	0x98(%r14), %rdx
+    f2ff: 49 8b be a0 00 00 00         	movq	0xa0(%r14), %rdi
+    f306: 48 29 d7                     	subq	%rdx, %rdi
+    f309: bd da ff ff ff               	movl	$0xffffffda, %ebp       # imm = 0xFFFFFFDA
+    f30e: 48 39 fe                     	cmpq	%rdi, %rsi
+    f311: 0f 85 14 01 00 00            	jne	0xf42b <keymaster::PureSoftKeymasterContext::SetVerifiedBootInfo(std::__1::basic_string_view<char, std::__1::char_traits<char>>, std::__1::basic_string_view<char, std::__1::char_traits<char>>, std::__1::vector<unsigned char, std::__1::allocator<unsigned char>> const&)+0x21b>
+    f317: 66 0f 1f 84 00 00 00 00 00   	nopw	(%rax,%rax)
+    f320: 48 39 c8                     	cmpq	%rcx, %rax
+    f323: 74 17                        	je	0xf33c <keymaster::PureSoftKeymasterContext::SetVerifiedBootInfo(std::__1::basic_string_view<char, std::__1::char_traits<char>>, std::__1::basic_string_view<char, std::__1::char_traits<char>>, std::__1::vector<unsigned char, std::__1::allocator<unsigned char>> const&)+0x12c>
+    f325: 0f b6 30                     	movzbl	(%rax), %esi
+    f328: 40 3a 32                     	cmpb	(%rdx), %sil
+    f32b: 0f 85 fa 00 00 00            	jne	0xf42b <keymaster::PureSoftKeymasterContext::SetVerifiedBootInfo(std::__1::basic_string_view<char, std::__1::char_traits<char>>, std::__1::basic_string_view<char, std::__1::char_traits<char>>, std::__1::vector<unsigned char, std::__1::allocator<unsigned char>> const&)+0x21b>
+    f331: 48 ff c0                     	incq	%rax
+    f334: 48 ff c2                     	incq	%rdx
+    f337: 48 39 c8                     	cmpq	%rcx, %rax
+    f33a: 75 e9                        	jne	0xf325 <keymaster::PureSoftKeymasterContext::SetVerifiedBootInfo(std::__1::basic_string_view<char, std::__1::char_traits<char>>, std::__1::basic_string_view<char, std::__1::char_traits<char>>, std::__1::vector<unsigned char, std::__1::allocator<unsigned char>> const&)+0x115>
+    f33c: 49 8d 7e 78                  	leaq	0x78(%r14), %rdi
+    f340: 4d 8d 66 58                  	leaq	0x58(%r14), %r12
+    f344: 4d 8d be 98 00 00 00         	leaq	0x98(%r14), %r15
+    f34b: 48 8d 74 24 18               	leaq	0x18(%rsp), %rsi
+    f350: e8 4b 0a 00 00               	callq	0xfda0 <non-virtual thunk to keymaster::PureSoftKeymasterContext::~PureSoftKeymasterContext()+0x20>
+    f355: 48 8d 74 24 08               	leaq	0x8(%rsp), %rsi
+    f35a: 4c 89 e7                     	movq	%r12, %rdi
+    f35d: e8 3e 0a 00 00               	callq	0xfda0 <non-virtual thunk to keymaster::PureSoftKeymasterContext::~PureSoftKeymasterContext()+0x20>
+    f362: 41 80 be b0 00 00 00 00      	cmpb	$0x0, 0xb0(%r14)
+    f36a: 74 16                        	je	0xf382 <keymaster::PureSoftKeymasterContext::SetVerifiedBootInfo(std::__1::basic_string_view<char, std::__1::char_traits<char>>, std::__1::basic_string_view<char, std::__1::char_traits<char>>, std::__1::vector<unsigned char, std::__1::allocator<unsigned char>> const&)+0x172>
+    f36c: 49 39 df                     	cmpq	%rbx, %r15
+    f36f: 74 7e                        	je	0xf3ef <keymaster::PureSoftKeymasterContext::SetVerifiedBootInfo(std::__1::basic_string_view<char, std::__1::char_traits<char>>, std::__1::basic_string_view<char, std::__1::char_traits<char>>, std::__1::vector<unsigned char, std::__1::allocator<unsigned char>> const&)+0x1df>
+    f371: 48 8b 33                     	movq	(%rbx), %rsi
+    f374: 48 8b 53 08                  	movq	0x8(%rbx), %rdx
+    f378: 4c 89 ff                     	movq	%r15, %rdi
+    f37b: e8 d0 0a 00 00               	callq	0xfe50 <non-virtual thunk to keymaster::PureSoftKeymasterContext::~PureSoftKeymasterContext()+0xd0>
+    f380: eb 6d                        	jmp	0xf3ef <keymaster::PureSoftKeymasterContext::SetVerifiedBootInfo(std::__1::basic_string_view<char, std::__1::char_traits<char>>, std::__1::basic_string_view<char, std::__1::char_traits<char>>, std::__1::vector<unsigned char, std::__1::allocator<unsigned char>> const&)+0x1df>
+    f382: 0f 57 c0                     	xorps	%xmm0, %xmm0
+    f385: 41 0f 11 07                  	movups	%xmm0, (%r15)
+    f389: 49 c7 47 10 00 00 00 00      	movq	$0x0, 0x10(%r15)
+    f391: 4c 8b 63 08                  	movq	0x8(%rbx), %r12
+    f395: 4c 2b 23                     	subq	(%rbx), %r12
+    f398: 74 4d                        	je	0xf3e7 <keymaster::PureSoftKeymasterContext::SetVerifiedBootInfo(std::__1::basic_string_view<char, std::__1::char_traits<char>>, std::__1::basic_string_view<char, std::__1::char_traits<char>>, std::__1::vector<unsigned char, std::__1::allocator<unsigned char>> const&)+0x1d7>
+    f39a: 0f 88 bb 00 00 00            	js	0xf45b <keymaster::PureSoftKeymasterContext::SetVerifiedBootInfo(std::__1::basic_string_view<char, std::__1::char_traits<char>>, std::__1::basic_string_view<char, std::__1::char_traits<char>>, std::__1::vector<unsigned char, std::__1::allocator<unsigned char>> const&)+0x24b>
+    f3a0: 4c 89 e7                     	movq	%r12, %rdi
+    f3a3: e8 68 81 00 00               	callq	0x17510 <_Znwm@plt>
+    f3a8: 49 89 86 a0 00 00 00         	movq	%rax, 0xa0(%r14)
+    f3af: 49 89 86 98 00 00 00         	movq	%rax, 0x98(%r14)
+    f3b6: 49 01 c4                     	addq	%rax, %r12
+    f3b9: 4d 89 a6 a8 00 00 00         	movq	%r12, 0xa8(%r14)
+    f3c0: 48 8b 33                     	movq	(%rbx), %rsi
+    f3c3: 4c 8b 63 08                  	movq	0x8(%rbx), %r12
+    f3c7: 49 29 f4                     	subq	%rsi, %r12
+    f3ca: 4d 85 e4                     	testq	%r12, %r12
+    f3cd: 7e 18                        	jle	0xf3e7 <keymaster::PureSoftKeymasterContext::SetVerifiedBootInfo(std::__1::basic_string_view<char, std::__1::char_traits<char>>, std::__1::basic_string_view<char, std::__1::char_traits<char>>, std::__1::vector<unsigned char, std::__1::allocator<unsigned char>> const&)+0x1d7>
+    f3cf: 49 89 c7                     	movq	%rax, %r15
+    f3d2: 48 89 c7                     	movq	%rax, %rdi
+    f3d5: 4c 89 e2                     	movq	%r12, %rdx
+    f3d8: e8 23 88 00 00               	callq	0x17c00 <memcpy@plt>
+    f3dd: 4d 01 e7                     	addq	%r12, %r15
+    f3e0: 4d 89 be a0 00 00 00         	movq	%r15, 0xa0(%r14)
+    f3e7: 41 c6 86 b0 00 00 00 01      	movb	$0x1, 0xb0(%r14)
+    f3ef: 4d 8b b6 50 01 00 00         	movq	0x150(%r14), %r14
+    f3f6: 31 ed                        	xorl	%ebp, %ebp
+    f3f8: 4d 85 f6                     	testq	%r14, %r14
+    f3fb: 74 2e                        	je	0xf42b <keymaster::PureSoftKeymasterContext::SetVerifiedBootInfo(std::__1::basic_string_view<char, std::__1::char_traits<char>>, std::__1::basic_string_view<char, std::__1::char_traits<char>>, std::__1::vector<unsigned char, std::__1::allocator<unsigned char>> const&)+0x21b>
+    f3fd: 49 8b 36                     	movq	(%r14), %rsi
+    f400: 48 8d 05 01 9b 00 00         	leaq	0x9b01(%rip), %rax      # 0x18f08 <vtable for keymaster::PureSoftRemoteProvisioningContext+0x10>
+    f407: 48 39 c6                     	cmpq	%rax, %rsi
+    f40a: 75 3e                        	jne	0xf44a <keymaster::PureSoftKeymasterContext::SetVerifiedBootInfo(std::__1::basic_string_view<char, std::__1::char_traits<char>>, std::__1::basic_string_view<char, std::__1::char_traits<char>>, std::__1::vector<unsigned char, std::__1::allocator<unsigned char>> const&)+0x23a>
+    f40c: 48 8b 74 24 18               	movq	0x18(%rsp), %rsi
+    f411: 48 8b 54 24 20               	movq	0x20(%rsp), %rdx
+    f416: 48 8b 4c 24 08               	movq	0x8(%rsp), %rcx
+    f41b: 4c 8b 44 24 10               	movq	0x10(%rsp), %r8
+    f420: 4c 89 f7                     	movq	%r14, %rdi
+    f423: 49 89 d9                     	movq	%rbx, %r9
+    f426: e8 75 82 00 00               	callq	0x176a0 <_ZN9keymaster33PureSoftRemoteProvisioningContext19SetVerifiedBootInfoENSt3__117basic_string_viewIcNS1_11char_traitsIcEEEES5_RKNS1_6vectorIhNS1_9allocatorIhEEEE@plt>
+    f42b: 64 48 8b 04 25 28 00 00 00   	movq	%fs:0x28, %rax
+    f434: 48 3b 44 24 28               	cmpq	0x28(%rsp), %rax
+    f439: 75 28                        	jne	0xf463 <keymaster::PureSoftKeymasterContext::SetVerifiedBootInfo(std::__1::basic_string_view<char, std::__1::char_traits<char>>, std::__1::basic_string_view<char, std::__1::char_traits<char>>, std::__1::vector<unsigned char, std::__1::allocator<unsigned char>> const&)+0x253>
+    f43b: 89 e8                        	movl	%ebp, %eax
+    f43d: 48 83 c4 30                  	addq	$0x30, %rsp
+    f441: 5b                           	popq	%rbx
+    f442: 41 5c                        	popq	%r12
+    f444: 41 5e                        	popq	%r14
+    f446: 41 5f                        	popq	%r15
+    f448: 5d                           	popq	%rbp
+    f449: c3                           	retq
+    f44a: 48 bf 93 20 8c 1a d9 40 c8 9f	movabsq	$-0x6037bf26e573df6d, %rdi # imm = 0x9FC840D91A8C2093
+    f454: e8 d7 7f 00 00               	callq	0x17430 <__cfi_slowpath@plt>
+    f459: eb b1                        	jmp	0xf40c <keymaster::PureSoftKeymasterContext::SetVerifiedBootInfo(std::__1::basic_string_view<char, std::__1::char_traits<char>>, std::__1::basic_string_view<char, std::__1::char_traits<char>>, std::__1::vector<unsigned char, std::__1::allocator<unsigned char>> const&)+0x1fc>
+    f45b: 4c 89 ff                     	movq	%r15, %rdi
+    f45e: e8 7d 81 00 00               	callq	0x175e0 <_ZNKSt3__120__vector_base_commonILb1EE20__throw_length_errorEv@plt>
+    f463: e8 88 87 00 00               	callq	0x17bf0 <__stack_chk_fail@plt>

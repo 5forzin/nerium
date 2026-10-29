@@ -1,0 +1,1947 @@
+{
+  "experiment": "Version 0.12 stock-init platform bootstrap and independent trust audit",
+  "captured_at": "2026-10-25T01:10:47.133396+00:00",
+  "goal_zero_achieved": false,
+  "native_runtime_version": "0.12.1",
+  "dedicated_avd": "device-lab-numa",
+  "serial": "emulator-5556",
+  "prototype_avd_path": "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v14\\avd\\device-lab-numa.avd",
+  "original_disk_preservation": {
+    "files": [
+      {
+        "file": "userdata-qemu.img",
+        "sha256": "dba2012889013d4e2eac2b42fd0808aee0d8c00ca4d286ee2fbd5409c6320946",
+        "matches_preserved_baseline": true
+      },
+      {
+        "file": "userdata-qemu.img.qcow2",
+        "sha256": "8960c6bf5f402808298edace76b87e7a5f17e337a1ba68c2ba1ae98ec96190b1",
+        "matches_preserved_baseline": true
+      },
+      {
+        "file": "encryptionkey.img",
+        "sha256": "6e2f44b662ddf5ee6f741e5f892b9ea5ea132faf27f36bb5d775769fa5c25a16",
+        "matches_preserved_baseline": true
+      },
+      {
+        "file": "encryptionkey.img.qcow2",
+        "sha256": "86f59a8bbdd74f29c41b08cb889753f3025da2da7996ca9ccc2bb78e17092a27",
+        "matches_preserved_baseline": true
+      },
+      {
+        "file": "cache.img",
+        "sha256": "b826b52bf364acf36e73c6a5de4849feb99e457deff9dfb7d7516b0da3dc17b9",
+        "matches_preserved_baseline": true
+      },
+      {
+        "file": "cache.img.qcow2",
+        "sha256": "be6f48d510db67fd549e3002e0f7fa0ca90116bbf8477441fb230602c51c0a45",
+        "matches_preserved_baseline": true
+      }
+    ],
+    "all_original_disks_unchanged": true
+  },
+  "source_reproduction": {
+    "upstream_commit": "b5aa415c2ce1161ab807578ce0414129fbfc6313",
+    "files": [
+      {
+        "file": "zygiskd/src/root_impl/common.c",
+        "source_sha256": "48d39999e4e1062a41e22f864fc03f8fd2d502e68433e01271971d00ffdf3170",
+        "reproduced_sha256": "48d39999e4e1062a41e22f864fc03f8fd2d502e68433e01271971d00ffdf3170",
+        "identical_bytes": true,
+        "identical_normalized_lf": true
+      },
+      {
+        "file": "zygiskd/src/root_impl/common.h",
+        "source_sha256": "401b52c37515f08a51a724620377efac2c9f5ada8ac068fc82a4141155837fc5",
+        "reproduced_sha256": "401b52c37515f08a51a724620377efac2c9f5ada8ac068fc82a4141155837fc5",
+        "identical_bytes": true,
+        "identical_normalized_lf": true
+      },
+      {
+        "file": "zygiskd/src/utils.c",
+        "source_sha256": "5c1e788591dbe9138e9fc9656f164fe7e68a2879b2af56964cd7d86212f4352e",
+        "reproduced_sha256": "5c1e788591dbe9138e9fc9656f164fe7e68a2879b2af56964cd7d86212f4352e",
+        "identical_bytes": true,
+        "identical_normalized_lf": true
+      },
+      {
+        "file": "zygiskd/src/constants.h",
+        "source_sha256": "845f04c7d3ee50c51ae67db09df3d95d2960a47ad3d97ae75b8406a8576ba955",
+        "reproduced_sha256": "845f04c7d3ee50c51ae67db09df3d95d2960a47ad3d97ae75b8406a8576ba955",
+        "identical_bytes": true,
+        "identical_normalized_lf": true
+      },
+      {
+        "file": "zygiskd/src/zygiskd.c",
+        "source_sha256": "c0c50f49c959b6acac950258bc224544fecb27d34fba5651936dd070f246acda",
+        "reproduced_sha256": "c0c50f49c959b6acac950258bc224544fecb27d34fba5651936dd070f246acda",
+        "identical_bytes": true,
+        "identical_normalized_lf": true
+      },
+      {
+        "file": "loader/src/include/daemon.h",
+        "source_sha256": "110e0be9100fe8b14d7dfeadc84252c760c12a4ef5a3c6eac47b00ae2b1a73b1",
+        "reproduced_sha256": "110e0be9100fe8b14d7dfeadc84252c760c12a4ef5a3c6eac47b00ae2b1a73b1",
+        "identical_bytes": true,
+        "identical_normalized_lf": true
+      },
+      {
+        "file": "loader/src/injector/module.h",
+        "source_sha256": "e136ee715664e16b5c8baf63768d6ffd5c3778ce2342b7ef48d13afc1bebe7c4",
+        "reproduced_sha256": "7dd2939d62f6e81613a388676fe4a59dbf7525dc87fe90571ef60f77a29799a4",
+        "identical_bytes": false,
+        "identical_normalized_lf": true
+      },
+      {
+        "file": "loader/src/injector/hook.c",
+        "source_sha256": "23981906c74f197500145d306c1e4a27a13eac259de901abf63d6c140b115c50",
+        "reproduced_sha256": "d39e441e7eeee2864a9541f304be6f4f7d0d59e4b200bc486181f5b521c098ae",
+        "identical_bytes": false,
+        "identical_normalized_lf": true
+      },
+      {
+        "file": "loader/src/common/daemon.c",
+        "source_sha256": "760fccac2a246d87a6c33184ebb762dc6e02c45f2c0c4b4764fee40f67b733f3",
+        "reproduced_sha256": "760fccac2a246d87a6c33184ebb762dc6e02c45f2c0c4b4764fee40f67b733f3",
+        "identical_bytes": true,
+        "identical_normalized_lf": true
+      },
+      {
+        "file": "zygiskd/src/main.c",
+        "source_sha256": "c053336e9ca36d4d6abbb33cf51b01115bc27c6e125103d9a4a41e584d818981",
+        "reproduced_sha256": "05cfa38d3a2ade59770210f7995d0089f59738cb5b1a2a624cb85995e93bd3a8",
+        "identical_bytes": false,
+        "identical_normalized_lf": true
+      },
+      {
+        "file": "loader/src/ptracer/main.c",
+        "source_sha256": "fac3744ac871411964b9ace55b1797e36f4488094adbd0b9e9cbf4262bc0b7a6",
+        "reproduced_sha256": "fac3744ac871411964b9ace55b1797e36f4488094adbd0b9e9cbf4262bc0b7a6",
+        "identical_bytes": true,
+        "identical_normalized_lf": true
+      },
+      {
+        "file": "loader/src/ptracer/monitor.c",
+        "source_sha256": "85b108ec250648cb45465c7d42d49fdc572d8fdb868d07908b011bac5c01780c",
+        "reproduced_sha256": "85b108ec250648cb45465c7d42d49fdc572d8fdb868d07908b011bac5c01780c",
+        "identical_bytes": true,
+        "identical_normalized_lf": true
+      },
+      {
+        "file": "loader/src/ptracer/ptracer.c",
+        "source_sha256": "7f73f194943065201dddce8d83683bfe76034328c11ad7a3f3eeaa03bc47faaa",
+        "reproduced_sha256": "7f73f194943065201dddce8d83683bfe76034328c11ad7a3f3eeaa03bc47faaa",
+        "identical_bytes": true,
+        "identical_normalized_lf": true
+      }
+    ],
+    "all_identical_normalized_lf": true,
+    "line_endings_only": true,
+    "runtime_version": "0.12.1"
+  },
+  "source_proposal": "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v14\\platform-backend-proposal.json",
+  "images": {
+    "source_vendor_sha256": "ea34aee8412f70edc5d3751646d23299ac5e02bc5a87b5a272805d144a14965b",
+    "updated_vendor_sha256": "5814211774f080825f110f6813d0292f9c8a9c526f6e865f8605b31e4dcf7c49",
+    "added_file": "/etc/init/device-lab-platform.rc",
+    "added_file_sha256": "5a31b9086e732f302f67fa2f7b44e518b6d8b92e9a4279c4d43b6407708fe9a8",
+    "init_file_label": "u:object_r:vendor_configs_file:s0",
+    "vendor_selinux_policy_files_unchanged": {
+      "selinux/vendor_seapp_contexts": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "selinux/vendor_property_contexts": "bab7f6408b72080362cea5010e3869bba3015cab72b2b30d8aef669aa186c62d",
+      "selinux/vendor_sepolicy.cil": "e7646ff1751c59fb11645ad0c1244fa5264eed638451cf542c6b25496a0a014a",
+      "selinux/vendor_file_contexts": "028bd7ccd0ff7394f448f76b28938d40bb3f7ecd4d981a2f26ef5d46a2feff83",
+      "selinux/vndservice_contexts": "f8091d231a19ad7ab549664138bd35169ff20997d3af2a954bbef709a5d09da6",
+      "selinux/vendor_mac_permissions.xml": "5dd587b84d7db230355c039d84f381367af4338725a21e9a7c71c2baeb582c44",
+      "selinux/precompiled_sepolicy.system_ext_sepolicy_and_mapping.sha256": "9325618d35394ed6de411fa29c98d3675e30280ddbeb9c594c7107f636f2850c",
+      "selinux/precompiled_sepolicy": "0dac84bc3e76bf1eed64b3e7b9b323ada817e068ec704b9235827f2e27bb153a",
+      "selinux/precompiled_sepolicy.plat_sepolicy_and_mapping.sha256": "41a55823ddbff0d2790fb9fc9834fb1d1ba8befba0e003bca3bd98d8466090a8",
+      "selinux/plat_pub_versioned.cil": "13b393393a1d105664aff17fb530a3711036bb5bbd0ee6977f4690133e7e3225",
+      "selinux/vendor_service_contexts": "3bb288de1aa005e0beb1b001ce18bdfaea2b6009a9a10bc84fdf711260540028",
+      "selinux/selinux_denial_metadata": "4025cc1505b02185b3a48b93b4472ced048bbbd5b241492ad0959b543edf0ebd",
+      "selinux/plat_sepolicy_vers.txt": "4ba43f48df0b0ef8b5c74590acca60edcc08c7ff513f338c9a0e6a4cb5752827",
+      "selinux/vendor_hwservice_contexts": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "kernel_sha256": "81f3eddb5ebc4ce67feff18b1933eeaee7deca532266ae61c3d428f2e59cbd11",
+    "ramdisk_sha256": "0a7b6fac2ba902d4c00deb1ebd606b20839c4b06d4ef832492ec893b5fb3e969",
+    "fsck": "clean",
+    "matching_vendor_extents": true,
+    "runtime_verified": false
+  },
+  "restored_ramdisk": {
+    "original_init_restored": true,
+    "stock_init_sha256": "062d4c118ce4680ecad632506c41c2f084873a33851e14e149e0a5ebd2cee489",
+    "preserved_kernel_modules": {
+      "lib/modules/virtio_dma_buf.ko": "c7a981a178cc3dd6caa1b2878dc357a7d9206651858dcab3c030ca49f23f5a5d",
+      "lib/modules/virtio_console.ko": "0644e7d2fc54778155a4f8e9df2aeaae8218167fc325d7d35f9f309c7b606a1e",
+      "lib/modules/virtio_pci.ko": "1a02da2d5d65ae36d99cd057c05a26d35d69e3e6f46f2495f2085a2105d3193c",
+      "lib/modules/vmw_vsock_virtio_transport.ko": "67a0feea3282406d9fa2e7a5eef2576eae90a4c5947d848eb67227b6b3adf3b8",
+      "lib/modules/virtio-rng.ko": "32683f207a97b73345a35d0aee5b25e477b0e7ce5c659ec0275c438b64a067b5",
+      "lib/modules/virtio_pci_modern_dev.ko": "384236e8ad08e543a9ede6fa5517cfce36d871511226e483eeefb41298e9c2e0",
+      "lib/modules/virtio_blk.ko": "c207015a2f93c184418d9059ddc2cb8c8b97424a3101020af7ab36ed103baeda",
+      "lib/modules/virtio_pci_legacy_dev.ko": "18752b9f59a325d54e2cde359d06101c5c8ca21adfe884055bb90b5c2dce02c7"
+    },
+    "module_modes_owners_and_groups_preserved": true,
+    "module_mtimes_normalized_to_zero": [
+      "lib/modules/virtio_dma_buf.ko",
+      "lib/modules/virtio_console.ko",
+      "lib/modules/virtio_pci.ko",
+      "lib/modules/vmw_vsock_virtio_transport.ko",
+      "lib/modules/virtio-rng.ko",
+      "lib/modules/virtio_pci_modern_dev.ko",
+      "lib/modules/virtio_blk.ko",
+      "lib/modules/virtio_pci_legacy_dev.ko"
+    ],
+    "removed_entries": [
+      ".",
+      ".backup",
+      ".backup/.magisk",
+      ".backup/.rmlist",
+      ".backup/init.xz",
+      "overlay.d",
+      "overlay.d/sbin",
+      "overlay.d/sbin/magisk64.xz",
+      "overlay.d/sbin/stub.xz"
+    ],
+    "before_archive_sha256": "d77b82680c85fe70a512f0a59b1ea77e14dfec3baaa96638889c4f9d83417d77",
+    "after_archive_sha256": "107163d3bee03109adb66de52aae9afed3034ba3e4d42cd0bd44e71a05d21c64",
+    "runtime_verified": false
+  },
+  "automatic_cold_boot": {
+    "report": "strict-v14-cold-boot.json",
+    "sha256": "c64dbd20c4699b9826866cbc81a961bd42c58241ae3f6487724bed07d168c2e2",
+    "data": {
+      "captured_at": "2026-10-25T00:39:25.4977466+00:00",
+      "boot_id": "606f7d82-9180-46f2-a275-eba7bf4da618",
+      "boot_markers": {
+        "platform-early-ready": "606f7d82-9180-46f2-a275-eba7bf4da618",
+        "platform-late-ready": "606f7d82-9180-46f2-a275-eba7bf4da618",
+        "platform-supervisor-boot": "606f7d82-9180-46f2-a275-eba7bf4da618"
+      },
+      "monitor_pid": 350,
+      "init_tracer": "TracerPid:\t350",
+      "monitor_cgroup": "4:memory:/\n3:cpuset:/\n2:cpu:/\n1:blkio:/\n0::/device-lab-platform",
+      "platform_backend": "Welcome to ReZygiskd64Root-owned userdebug platform backend selected{\"platform_backend_ready\":true,\"uid\":0}",
+      "loaded_selinux_policy_sha256": "725322b8bb21c399e222db65bd9e0ee307a3b603d19d9a3d5f47a93cc8f369c0",
+      "selinux_controls": {
+        "available": true,
+        "uid": 0,
+        "enforcing": true,
+        "cases": [
+          {
+            "name": "stock_zygote_control",
+            "context_valid": true,
+            "errno": 0,
+            "stable": true,
+            "passed": true
+          },
+          {
+            "name": "malformed_control",
+            "context_valid": false,
+            "errno": 22,
+            "stable": true,
+            "passed": true
+          },
+          {
+            "name": "magisk_domain_absent",
+            "context_valid": false,
+            "errno": 22,
+            "stable": true,
+            "passed": true
+          },
+          {
+            "name": "magisk_file_type_absent",
+            "context_valid": false,
+            "errno": 22,
+            "stable": true,
+            "passed": true
+          }
+        ],
+        "passed": 5,
+        "failed": 0,
+        "controls_passed": true
+      },
+      "platform_contract": {
+        "platform_domain_supported": true,
+        "platform_probe_errno": 0,
+        "cases": [
+          {
+            "name": "standard_listener_capacity",
+            "passed": true,
+            "platform_notifications": 0,
+            "application_notifications": 0,
+            "errno": 16
+          },
+          {
+            "name": "unprivileged_platform_flag_rejected",
+            "passed": true,
+            "platform_notifications": 0,
+            "application_notifications": 0,
+            "errno": 16
+          },
+          {
+            "name": "separate_listener_capacity",
+            "passed": true,
+            "platform_notifications": 0,
+            "application_notifications": 0,
+            "errno": 16
+          },
+          {
+            "name": "root_metadata_and_filter_count",
+            "passed": true,
+            "platform_notifications": 0,
+            "application_notifications": 0,
+            "errno": 0
+          },
+          {
+            "name": "independent_targets",
+            "passed": true,
+            "platform_notifications": 1,
+            "application_notifications": 1,
+            "errno": 0
+          },
+          {
+            "name": "overlap_continue_order",
+            "passed": true,
+            "platform_notifications": 1,
+            "application_notifications": 1,
+            "errno": 0
+          },
+          {
+            "name": "application_errno_precedes_platform",
+            "passed": true,
+            "platform_notifications": 0,
+            "application_notifications": 0,
+            "errno": 13
+          },
+          {
+            "name": "application_trap_precedes_platform",
+            "passed": true,
+            "platform_notifications": 0,
+            "application_notifications": 0,
+            "errno": 0
+          },
+          {
+            "name": "fork_inheritance",
+            "passed": true,
+            "platform_notifications": 1,
+            "application_notifications": 0,
+            "errno": 0
+          },
+          {
+            "name": "thread_tsync",
+            "passed": true,
+            "platform_notifications": 2,
+            "application_notifications": 2,
+            "errno": 0
+          },
+          {
+            "name": "exec_inheritance",
+            "passed": true,
+            "platform_notifications": 1,
+            "application_notifications": 0,
+            "errno": 0
+          },
+          {
+            "name": "platform_atomic_fd_injection",
+            "passed": true,
+            "platform_notifications": 1,
+            "application_notifications": 0,
+            "errno": 0
+          }
+        ],
+        "passed": 12,
+        "failed": 0,
+        "unavailable": 0
+      },
+      "bootstrap_binary_sha256": {
+        "/data/misc/device-lab/bootstrap/bin/zygiskd64": "181b1f5d4e14e54b9a805cf570e9a898bb2b000fd910248a8bdf18ad467a7835",
+        "/data/misc/device-lab/bootstrap/bin/zygisk-ptrace64": "ea25206850fff9f862447788839d060f9c1bb84c48ef9a35be7d17fa13231571",
+        "/data/misc/device-lab/bootstrap/lib64/libzygisk.so": "f5b0b332fcee1a65851655035644e8ab1a99c39457935ed6a4080f8cd441b965"
+      },
+      "magisk_bootstrap_binaries_absent": true,
+      "operating_mode": {
+        "usb_debugging": false,
+        "adb_authenticated": true,
+        "usb_persistent": "mtp",
+        "shell_uid": 2000,
+        "usb_runtime": "mtp",
+        "adb_root": false,
+        "adbd": "running",
+        "usb_applied": "mtp"
+      }
+    }
+  },
+  "startup_order": {
+    "report": "strict-v14-cold-startup.json",
+    "sha256": "821ba2a1033131127d0dbe7b2d2d8f64e8102a7e657f43f8a94e02b5d4eff304",
+    "data": {
+      "events": {
+        "bootstrap_start": {
+          "uptime_s": 29.250004,
+          "log": "[   29.250004] init: starting service 'device_lab_bootstrap'"
+        },
+        "bootstrap_success": {
+          "uptime_s": 30.841833,
+          "log": "[   30.841833] init: Service 'device_lab_bootstrap' (pid 320) exited with status 0"
+        },
+        "zygote_start": {
+          "uptime_s": 35.804746,
+          "log": "[   35.804746] init: starting service 'zygote'"
+        },
+        "network_start": {
+          "uptime_s": 88.549965,
+          "log": "[   88.549965] init: starting service 'device_lab_network'"
+        },
+        "network_success": {
+          "uptime_s": 96.085814,
+          "log": "[   96.085814] init: Service 'device_lab_network' (pid 1329) exited with status 0"
+        }
+      },
+      "bootstrap_completed_before_zygote": true
+    }
+  },
+  "regressions": {
+    "proc99": {
+      "before": {
+        "report": "strict-v14-before-proc99.json",
+        "sha256": "41da2915bef0f2d57637cb8b6f5e63c85f11657a4007c01d011ac5d080982e8a"
+      },
+      "after": {
+        "report": "strict-v14-verified-proc99.json",
+        "sha256": "31e6b89cdfc95f967e08a6d07e34cea9424b19d1e2f1b2890b3cf72edcb67030"
+      },
+      "before_summary": {
+        "detected": 0,
+        "unavailable": 0,
+        "total": 99
+      },
+      "after_summary": {
+        "detected": 0,
+        "unavailable": 0,
+        "total": 99
+      },
+      "apk_sha256": "99901e704d769e519741824d62f15286f68e0654f4223c0681083903ca98c9ab",
+      "installed_abi": "x86_64"
+    },
+    "raw79": {
+      "before": {
+        "report": "strict-v14-before-raw79.json",
+        "sha256": "9e7f4fabbeb1538a70fc4e6203585e7078b70674635924bd842c3bc8709aad7f"
+      },
+      "after": {
+        "report": "strict-v14-verified-raw79.json",
+        "sha256": "1517f926cc6e4383fd72a063d8dcf4043c28604e847b8a056cc84092c328ebe4"
+      },
+      "before_summary": {
+        "detected": 0,
+        "unavailable": 0,
+        "total": 79
+      },
+      "after_summary": {
+        "detected": 0,
+        "unavailable": 0,
+        "total": 79
+      },
+      "apk_sha256": "ee4e8cc35ef306e1626472ffb3d9d53fe0b45036a4a89dce31020ed489268f37",
+      "installed_abi": "x86_64"
+    },
+    "probe54": {
+      "before": {
+        "report": "strict-v14-before-probe54.json",
+        "sha256": "718c9fcc9169f3b9d0572ad3752c532439077f0775ac5e0610567f0104686802"
+      },
+      "after": {
+        "report": "strict-v14-verified-probe54.json",
+        "sha256": "ef3938ff008c4bb69b078771eece6010156af08a0353e1216a08feafa1f57a86"
+      },
+      "before_summary": {
+        "detected": 0,
+        "unavailable": 0,
+        "total": 54
+      },
+      "after_summary": {
+        "detected": 0,
+        "unavailable": 0,
+        "total": 54
+      },
+      "apk_sha256": "ab4dafd201527cf0f72a1c2ff4f9bd41fd4dbaa921d336d1983319ac611554ed",
+      "installed_abi": "arm64-v8a"
+    },
+    "reveny": {
+      "before": "strict-v14-before-reveny.json",
+      "after": "strict-v14-verified-reveny-retry.json",
+      "before_findings": 0,
+      "after_findings": 0,
+      "apk_sha256": "9f064f3968e9a224612810ec2b6078872f479930ce4dd0fc1f7132b08c6b3f5b"
+    }
+  },
+  "root_boundaries": {
+    "report": "strict-v14-migrated-boundaries.json",
+    "data": {
+      "captured_at": "2026-10-25T00:58:37.6130161Z",
+      "process_id": 2921,
+      "app_mount_namespace": "mnt:[4026532967]",
+      "zygote_mount_namespace": "mnt:[4026532923]",
+      "outside_has_hypervisor": true,
+      "app_namespace_has_hypervisor": false,
+      "outside_hardware": "ranchu",
+      "outside_qemu": "1",
+      "outside_uname": "x86_64",
+      "unhooked_namespace_uname": "x86_64",
+      "no_new_privs": 0,
+      "seccomp_filters": 2,
+      "kernel_maps_translation_visible": true,
+      "kernel_maps_module_visible": true,
+      "kernel_maps_staged_runtime_visible": true,
+      "kernel_mountinfo_profile_visible": true,
+      "kernel_mountinfo_magisk_visible": false,
+      "outside_properties": {
+        "ro.product.cpu.abilist": "x86_64,arm64-v8a",
+        "ro.dalvik.vm.native.bridge": "libndk_translation.so",
+        "ro.dalvik.vm.isa.arm64": "x86_64",
+        "ro.build.fingerprint": "google/sdk_gphone64_x86_64/emu64xa:14/UE1A.230829.050/12077443:userdebug/dev-keys"
+      },
+      "app_namespace_hardware": "shiba",
+      "selinux": "Enforcing",
+      "namespace_log": "--------- beginning of main\n10-24 21:58:21.272  2921  2921 I DeviceLabNamespace: profile mount status=0 pid=2921\n10-24 21:58:21.378  2921  2921 I DeviceLabNamespace: uname broker status=0 pid=2921\n10-24 21:58:21.378  2921  2921 I DeviceLabNamespace: notification domain=platform pid=2921\n10-24 21:58:21.378  2921  2921 I DeviceLabNamespace: proc broker enabled=1\n10-24 21:58:23.490  2921  2921 I DeviceLabNamespace: property remap status=0 pid=2921"
+    }
+  },
+  "duck": {
+    "before": {
+      "report": "strict-v14-duck-before.json",
+      "scan_statistics": {
+        "Danger": 2,
+        "Warning": 2,
+        "Ready": 20,
+        "Pending": 0
+      }
+    },
+    "normal": {
+      "report": "strict-v14-duck-migrated.json",
+      "apk_sha256": "9d0bbdab9c0b14334c9ec0d319758c5f9085260a09388486482b2ac497c81ffc",
+      "installed_abi": "x86_64",
+      "scan_statistics": {
+        "Danger": 2,
+        "Warning": 1,
+        "Ready": 20,
+        "Pending": 0
+      },
+      "module_verdicts": [
+        {
+          "severity": "DANGER",
+          "detector": "Bootloader",
+          "verdict": "6 critical boot integrity signal(s)"
+        },
+        {
+          "severity": "DANGER",
+          "detector": "TEE",
+          "verdict": "Hardware-backed local verification was not established"
+        },
+        {
+          "severity": "WARNING",
+          "detector": "ADB Runtime",
+          "verdict": "ADB enabled"
+        },
+        {
+          "severity": "INFO",
+          "detector": "Custom ROM",
+          "verdict": "Custom ROM scan has reduced coverage"
+        },
+        {
+          "severity": "INFO",
+          "detector": "Dangerous Apps",
+          "verdict": "Behavior checks incomplete"
+        },
+        {
+          "severity": "INFO",
+          "detector": "Kernel Check",
+          "verdict": "CVE patch state is informational"
+        },
+        {
+          "severity": "INFO",
+          "detector": "LSPosed",
+          "verdict": "LSPosed scan has reduced coverage"
+        },
+        {
+          "severity": "INFO",
+          "detector": "Location Risk",
+          "verdict": "No local contract mismatch observed"
+        },
+        {
+          "severity": "INFO",
+          "detector": "Native Root",
+          "verdict": "Native root scan has reduced coverage"
+        },
+        {
+          "severity": "INFO",
+          "detector": "Network Risk",
+          "verdict": "Network context collected"
+        },
+        {
+          "severity": "INFO",
+          "detector": "SU",
+          "verdict": "No root indicators"
+        },
+        {
+          "severity": "INFO",
+          "detector": "System Properties",
+          "verdict": "System property scan has reduced coverage"
+        },
+        {
+          "severity": "INFO",
+          "detector": "Virtualization",
+          "verdict": "Virtualization scan has reduced coverage"
+        },
+        {
+          "severity": "INFO",
+          "detector": "Zygote heap residue",
+          "verdict": "No target trace observed"
+        },
+        {
+          "severity": "CLEAR",
+          "detector": "Memory",
+          "verdict": "No hook-like memory signals"
+        },
+        {
+          "severity": "CLEAR",
+          "detector": "Mount",
+          "verdict": "No suspicious mount-layer signal"
+        },
+        {
+          "severity": "CLEAR",
+          "detector": "Play Integrity Fix",
+          "verdict": "No Play Integrity residue surfaced"
+        },
+        {
+          "severity": "CLEAR",
+          "detector": "Root Managers",
+          "verdict": "No root manager apps"
+        },
+        {
+          "severity": "CLEAR",
+          "detector": "SELinux",
+          "verdict": "Enforcing"
+        },
+        {
+          "severity": "CLEAR",
+          "detector": "Zygisk",
+          "verdict": "No Zygisk runtime signal"
+        }
+      ]
+    },
+    "offline": {
+      "status": "complete",
+      "report": "strict-v14-duck-storage-offline.json",
+      "sha256": "a23ce3ad4ff9bd9f1091388e93c7c71c9f151e3ba5f482a690b95c6bf019d2bb",
+      "apk_sha256": "9d0bbdab9c0b14334c9ec0d319758c5f9085260a09388486482b2ac497c81ffc",
+      "installed_abi": "x86_64",
+      "scan_statistics": {
+        "Danger": 2,
+        "Warning": 0,
+        "Ready": 20,
+        "Pending": 0
+      },
+      "module_verdicts": [
+        {
+          "severity": "DANGER",
+          "detector": "Bootloader",
+          "verdict": "6 critical boot integrity signal(s)"
+        },
+        {
+          "severity": "DANGER",
+          "detector": "TEE",
+          "verdict": "Hardware-backed local verification was not established"
+        },
+        {
+          "severity": "INFO",
+          "detector": "Custom ROM",
+          "verdict": "Custom ROM scan has reduced coverage"
+        },
+        {
+          "severity": "INFO",
+          "detector": "Dangerous Apps",
+          "verdict": "Behavior checks incomplete"
+        },
+        {
+          "severity": "INFO",
+          "detector": "Kernel Check",
+          "verdict": "CVE patch state is informational"
+        },
+        {
+          "severity": "INFO",
+          "detector": "LSPosed",
+          "verdict": "LSPosed scan has reduced coverage"
+        },
+        {
+          "severity": "INFO",
+          "detector": "Location Risk",
+          "verdict": "No local contract mismatch observed"
+        },
+        {
+          "severity": "INFO",
+          "detector": "Native Root",
+          "verdict": "Native root scan has reduced coverage"
+        },
+        {
+          "severity": "INFO",
+          "detector": "Network Risk",
+          "verdict": "Network context collected"
+        },
+        {
+          "severity": "INFO",
+          "detector": "SU",
+          "verdict": "No root indicators"
+        },
+        {
+          "severity": "INFO",
+          "detector": "System Properties",
+          "verdict": "System property scan has reduced coverage"
+        },
+        {
+          "severity": "INFO",
+          "detector": "Virtualization",
+          "verdict": "Virtualization scan has reduced coverage"
+        },
+        {
+          "severity": "INFO",
+          "detector": "Zygote heap residue",
+          "verdict": "No target trace observed"
+        },
+        {
+          "severity": "CLEAR",
+          "detector": "ADB Runtime",
+          "verdict": "ADB state consistent"
+        },
+        {
+          "severity": "CLEAR",
+          "detector": "Memory",
+          "verdict": "No hook-like memory signals"
+        },
+        {
+          "severity": "CLEAR",
+          "detector": "Mount",
+          "verdict": "No suspicious mount-layer signal"
+        },
+        {
+          "severity": "CLEAR",
+          "detector": "Play Integrity Fix",
+          "verdict": "No Play Integrity residue surfaced"
+        },
+        {
+          "severity": "CLEAR",
+          "detector": "Root Managers",
+          "verdict": "No root manager apps"
+        },
+        {
+          "severity": "CLEAR",
+          "detector": "SELinux",
+          "verdict": "Enforcing"
+        },
+        {
+          "severity": "CLEAR",
+          "detector": "Zygisk",
+          "verdict": "No Zygisk runtime signal"
+        }
+      ],
+      "state_controls": {
+        "sample_count": 36,
+        "observed_sample_span_s": 181,
+        "controlled_state": {
+          "adb_enabled": "0",
+          "adbd": "stopped",
+          "mdnsd": "stopped",
+          "adb_root": "0",
+          "adb_secure": "1",
+          "persist_usb": "mtp",
+          "runtime_usb": "mtp",
+          "usb_state": "mtp"
+        },
+        "before": {
+          "time_s": 1792890345,
+          "adb_enabled": "0",
+          "adbd": "running",
+          "persist_usb": "mtp",
+          "runtime_usb": "mtp",
+          "usb_state": "mtp",
+          "adb_root": "1",
+          "adb_secure": "1",
+          "mdnsd": "running"
+        },
+        "offline": {
+          "time_s": 1792890351,
+          "adb_enabled": "0",
+          "adbd": "stopped",
+          "persist_usb": "mtp",
+          "runtime_usb": "mtp",
+          "usb_state": "mtp",
+          "adb_root": "0",
+          "adb_secure": "1",
+          "mdnsd": "stopped"
+        },
+        "restored": {
+          "time_s": 1792890538,
+          "adb_enabled": "0",
+          "adbd": "running",
+          "persist_usb": "mtp",
+          "runtime_usb": "mtp",
+          "usb_state": "mtp",
+          "adb_root": "0",
+          "adb_secure": "1",
+          "mdnsd": "running"
+        },
+        "measured_duck_pid": 4797,
+        "same_process_survived_export": true,
+        "samples_sha256": "d276a50a54e38bb5b784ed515671869a4fe10cd56d02292cf0df9d4d179efdcb",
+        "verdict_pending_export": false,
+        "exported_duck_report": "strict-v14-duck-storage-offline.json",
+        "scan_statistics": {
+          "Danger": 2,
+          "Warning": 0,
+          "Ready": 20,
+          "Pending": 0
+        }
+      }
+    },
+    "module_comparison": [
+      {
+        "detector": "Bootloader",
+        "before": {
+          "severity": "DANGER",
+          "detector": "Bootloader",
+          "verdict": "6 critical boot integrity signal(s)"
+        },
+        "normal": {
+          "severity": "DANGER",
+          "detector": "Bootloader",
+          "verdict": "6 critical boot integrity signal(s)"
+        },
+        "offline": {
+          "severity": "DANGER",
+          "detector": "Bootloader",
+          "verdict": "6 critical boot integrity signal(s)"
+        }
+      },
+      {
+        "detector": "TEE",
+        "before": {
+          "severity": "DANGER",
+          "detector": "TEE",
+          "verdict": "Hardware-backed local verification was not established"
+        },
+        "normal": {
+          "severity": "DANGER",
+          "detector": "TEE",
+          "verdict": "Hardware-backed local verification was not established"
+        },
+        "offline": {
+          "severity": "DANGER",
+          "detector": "TEE",
+          "verdict": "Hardware-backed local verification was not established"
+        }
+      },
+      {
+        "detector": "SELinux",
+        "before": {
+          "severity": "WARNING",
+          "detector": "SELinux",
+          "verdict": "Enforcing with recognized privileged contexts"
+        },
+        "normal": {
+          "severity": "CLEAR",
+          "detector": "SELinux",
+          "verdict": "Enforcing"
+        },
+        "offline": {
+          "severity": "CLEAR",
+          "detector": "SELinux",
+          "verdict": "Enforcing"
+        }
+      },
+      {
+        "detector": "LSPosed",
+        "before": {
+          "severity": "INFO",
+          "detector": "LSPosed",
+          "verdict": "LSPosed scan has reduced coverage"
+        },
+        "normal": {
+          "severity": "INFO",
+          "detector": "LSPosed",
+          "verdict": "LSPosed scan has reduced coverage"
+        },
+        "offline": {
+          "severity": "INFO",
+          "detector": "LSPosed",
+          "verdict": "LSPosed scan has reduced coverage"
+        }
+      },
+      {
+        "detector": "Memory",
+        "before": {
+          "severity": "CLEAR",
+          "detector": "Memory",
+          "verdict": "No hook-like memory signals"
+        },
+        "normal": {
+          "severity": "CLEAR",
+          "detector": "Memory",
+          "verdict": "No hook-like memory signals"
+        },
+        "offline": {
+          "severity": "CLEAR",
+          "detector": "Memory",
+          "verdict": "No hook-like memory signals"
+        }
+      },
+      {
+        "detector": "Virtualization",
+        "before": {
+          "severity": "INFO",
+          "detector": "Virtualization",
+          "verdict": "Virtualization scan has reduced coverage"
+        },
+        "normal": {
+          "severity": "INFO",
+          "detector": "Virtualization",
+          "verdict": "Virtualization scan has reduced coverage"
+        },
+        "offline": {
+          "severity": "INFO",
+          "detector": "Virtualization",
+          "verdict": "Virtualization scan has reduced coverage"
+        }
+      },
+      {
+        "detector": "ADB Runtime",
+        "before": {
+          "severity": "WARNING",
+          "detector": "ADB Runtime",
+          "verdict": "ADB enabled"
+        },
+        "normal": {
+          "severity": "WARNING",
+          "detector": "ADB Runtime",
+          "verdict": "ADB enabled"
+        },
+        "offline": {
+          "severity": "CLEAR",
+          "detector": "ADB Runtime",
+          "verdict": "ADB state consistent"
+        }
+      }
+    ],
+    "offline_first_attempt": {
+      "report": "strict-v14-duck-offline.json",
+      "scan_statistics": {
+        "Danger": 2,
+        "Warning": 1,
+        "Ready": 20,
+        "Pending": 0
+      },
+      "state_controls": {
+        "sample_count": 36,
+        "observed_sample_span_s": 184,
+        "controlled_state": {
+          "adb_enabled": "0",
+          "adbd": "stopped",
+          "adb_root": "0",
+          "adb_secure": "1",
+          "persist_usb": "mtp",
+          "runtime_usb": "mtp",
+          "usb_state": "mtp"
+        },
+        "before": {
+          "time_s": 1792888917,
+          "adb_enabled": "0",
+          "adbd": "running",
+          "persist_usb": "mtp",
+          "runtime_usb": "mtp",
+          "usb_state": "mtp",
+          "adb_root": "1",
+          "adb_secure": "1"
+        },
+        "offline": {
+          "time_s": 1792888922,
+          "adb_enabled": "0",
+          "adbd": "stopped",
+          "persist_usb": "mtp",
+          "runtime_usb": "mtp",
+          "usb_state": "mtp",
+          "adb_root": "0",
+          "adb_secure": "1"
+        },
+        "restored": {
+          "time_s": 1792889113,
+          "adb_enabled": "0",
+          "adbd": "running",
+          "persist_usb": "mtp",
+          "runtime_usb": "mtp",
+          "usb_state": "mtp",
+          "adb_root": "0",
+          "adb_secure": "1"
+        },
+        "measured_duck_pid": 6223,
+        "samples_sha256": "0618e96e3efb779b735d33be5d036b3828d71f17e6265613a1c2dcbb6f6625c3",
+        "verdict_pending_export": false,
+        "exported_duck_report": "strict-v14-duck-offline.json",
+        "scan_statistics": {
+          "Danger": 2,
+          "Warning": 1,
+          "Ready": 20,
+          "Pending": 0
+        },
+        "unexpected_observation": "The local legacy ADB mDNS announcement remained visible with adbd stopped and its TCP connection refused."
+      },
+      "finding": "Local legacy ADB announcement remained discoverable; no confirmed protocol listener."
+    },
+    "offline_mdns_attempt": {
+      "report": "strict-v14-duck-offline-mdns.json",
+      "scan_statistics": {
+        "Danger": 2,
+        "Warning": 1,
+        "Ready": 20,
+        "Pending": 0
+      },
+      "state_controls": {
+        "sample_count": 36,
+        "observed_sample_span_s": 183,
+        "controlled_state": {
+          "adb_enabled": "0",
+          "adbd": "stopped",
+          "mdnsd": "stopped",
+          "adb_root": "0",
+          "adb_secure": "1",
+          "persist_usb": "mtp",
+          "runtime_usb": "mtp",
+          "usb_state": "mtp"
+        },
+        "before": {
+          "time_s": 1792889259,
+          "adb_enabled": "0",
+          "adbd": "running",
+          "persist_usb": "mtp",
+          "runtime_usb": "mtp",
+          "usb_state": "mtp",
+          "adb_root": "1",
+          "adb_secure": "1",
+          "mdnsd": "running"
+        },
+        "offline": {
+          "time_s": 1792889264,
+          "adb_enabled": "0",
+          "adbd": "stopped",
+          "persist_usb": "mtp",
+          "runtime_usb": "mtp",
+          "usb_state": "mtp",
+          "adb_root": "0",
+          "adb_secure": "1",
+          "mdnsd": "stopped"
+        },
+        "restored": {
+          "time_s": 1792889455,
+          "adb_enabled": "0",
+          "adbd": "running",
+          "persist_usb": "mtp",
+          "runtime_usb": "mtp",
+          "usb_state": "mtp",
+          "adb_root": "0",
+          "adb_secure": "1",
+          "mdnsd": "running"
+        },
+        "measured_duck_pid": 8023,
+        "samples_sha256": "b862e985537b30c1fc546b5f2fd271be185d303b485bf0cd5a32f40ae50d6a05",
+        "verdict_pending_export": false,
+        "scan_statistics": {
+          "Danger": 2,
+          "Warning": 1,
+          "Ready": 20,
+          "Pending": 0
+        },
+        "exported_duck_report": "strict-v14-duck-offline-mdns.json"
+      },
+      "adb_module": {
+        "severity": "CLEAR",
+        "detector": "ADB Runtime",
+        "verdict": "ADB state consistent"
+      },
+      "selinux_module": {
+        "severity": "WARNING",
+        "detector": "SELinux",
+        "verdict": "Enforcing with audit exposure"
+      },
+      "new_observation": "An actual denied getattr on the unused legacy /data/adb directory was reported through the app-visible audit log."
+    }
+  },
+  "attestation": {
+    "report": "strict-v14-attestation-anchor.json",
+    "sha256": "5352e5dc3c8d90b441bd7bc008e2c3089c20c8c575f4612fe7cd84058d02fe31",
+    "unchanged_signed_claims": true,
+    "same_unscoped_test_root": true,
+    "audit": {
+      "report": "strict-v14-attestation-platform.json",
+      "report_sha256": "ebc64eff0ef2d2488bb76188ca47cf0472d1b9b9f84e88ec663e6aa5140265ab",
+      "external_root_snapshot_sha256": "b79beef96dd68073f1975bab90970ae85d1ae56d451a819ece6bff3d4e253ab4",
+      "external_root_count": 2,
+      "certificate_signatures_verified": true,
+      "nonce_binding_verified": true,
+      "key_possession_verified": true,
+      "root_sha256": "a96496be813505610011960ca9f3f5df818b36f14ab121d26f4517cb04d291c0",
+      "root_subject": "O=Google Test LLC,CN=Droid Unregistered Device CA",
+      "signed_claims": {
+        "attestation_version": 300,
+        "attestation_security_level": 0,
+        "keymaster_version": 300,
+        "keymaster_security_level": 0,
+        "root_of_trust": {
+          "authorization_list": "software",
+          "verified_boot_key": "0000000000000000000000000000000000000000000000000000000000000000",
+          "device_locked": false,
+          "verified_boot_state": 2,
+          "verified_boot_hash": "0000000000000000000000000000000000000000000000000000000000000000"
+        }
+      },
+      "rkp_metadata": {
+        "attestation_certificate_indices_zero_based": [
+          0
+        ],
+        "provisioning_certificate_indices_zero_based": [
+          1,
+          2
+        ],
+        "nearest_root_provisioning_adjacent_to_attestation": false,
+        "root_public_key_matches_external_snapshot": false,
+        "scope": "Extension placement and root matching only; provisioning contents are not authenticated here."
+      },
+      "prerequisites": {
+        "root_certificate_in_external_snapshot": false,
+        "root_public_key_in_external_snapshot": false,
+        "attestation_security_level_is_hardware": false,
+        "keymaster_security_level_is_hardware": false,
+        "root_of_trust_is_hardware_enforced": false,
+        "attested_device_is_locked": false,
+        "attested_boot_is_verified": false,
+        "attested_boot_key_is_nonzero": false,
+        "attested_boot_hash_is_nonzero": false
+      },
+      "failed_prerequisites": [
+        "root_certificate_in_external_snapshot",
+        "root_public_key_in_external_snapshot",
+        "attestation_security_level_is_hardware",
+        "keymaster_security_level_is_hardware",
+        "root_of_trust_is_hardware_enforced",
+        "attested_device_is_locked",
+        "attested_boot_is_verified",
+        "attested_boot_key_is_nonzero",
+        "attested_boot_hash_is_nonzero"
+      ],
+      "revocation_checked": false,
+      "full_pkix_path_validation_performed": false,
+      "manufacturer_trust": "not_established",
+      "scope": "Diagnostic prerequisite audit; matching an anchor alone does not establish hardware trust."
+    },
+    "verifier_controls": {
+      "report": "strict-v14-attestation-platform.json",
+      "cases": [
+        {
+          "case": "original",
+          "passed": true,
+          "expected": "accepted_without_manufacturer_trust"
+        },
+        {
+          "case": "changed_nonce",
+          "passed": true,
+          "expected": "rejected"
+        },
+        {
+          "case": "changed_unsigned_claim",
+          "passed": true,
+          "expected": "rejected"
+        },
+        {
+          "case": "changed_possession_signature",
+          "passed": true,
+          "expected": "rejected"
+        },
+        {
+          "case": "replaced_issuer",
+          "passed": true,
+          "expected": "rejected"
+        }
+      ],
+      "passed": 5,
+      "failed": 0
+    },
+    "official_sources": [
+      "https://developer.android.com/privacy-and-security/security-key-attestation",
+      "https://source.android.com/docs/security/features/keystore/attestation",
+      "https://android.googleapis.com/attestation/root"
+    ],
+    "latest_report": "strict-v14-migrated-attestation-anchor.json",
+    "latest_audit": {
+      "report": "strict-v14-migrated-attestation.json",
+      "report_sha256": "6d08ee6fab75f986519bfccd961ad39da9e231f66414f7dab6a02ad0f1f064b5",
+      "external_root_snapshot_sha256": "b79beef96dd68073f1975bab90970ae85d1ae56d451a819ece6bff3d4e253ab4",
+      "external_root_count": 2,
+      "certificate_signatures_verified": true,
+      "nonce_binding_verified": true,
+      "key_possession_verified": true,
+      "root_sha256": "a96496be813505610011960ca9f3f5df818b36f14ab121d26f4517cb04d291c0",
+      "root_subject": "O=Google Test LLC,CN=Droid Unregistered Device CA",
+      "signed_claims": {
+        "attestation_version": 300,
+        "attestation_security_level": 0,
+        "keymaster_version": 300,
+        "keymaster_security_level": 0,
+        "root_of_trust": {
+          "authorization_list": "software",
+          "verified_boot_key": "0000000000000000000000000000000000000000000000000000000000000000",
+          "device_locked": false,
+          "verified_boot_state": 2,
+          "verified_boot_hash": "0000000000000000000000000000000000000000000000000000000000000000"
+        }
+      },
+      "rkp_metadata": {
+        "attestation_certificate_indices_zero_based": [
+          0
+        ],
+        "provisioning_certificate_indices_zero_based": [
+          1,
+          2
+        ],
+        "nearest_root_provisioning_adjacent_to_attestation": false,
+        "root_public_key_matches_external_snapshot": false,
+        "scope": "Extension placement and root matching only; provisioning contents are not authenticated here."
+      },
+      "prerequisites": {
+        "root_certificate_in_external_snapshot": false,
+        "root_public_key_in_external_snapshot": false,
+        "attestation_security_level_is_hardware": false,
+        "keymaster_security_level_is_hardware": false,
+        "root_of_trust_is_hardware_enforced": false,
+        "attested_device_is_locked": false,
+        "attested_boot_is_verified": false,
+        "attested_boot_key_is_nonzero": false,
+        "attested_boot_hash_is_nonzero": false
+      },
+      "failed_prerequisites": [
+        "root_certificate_in_external_snapshot",
+        "root_public_key_in_external_snapshot",
+        "attestation_security_level_is_hardware",
+        "keymaster_security_level_is_hardware",
+        "root_of_trust_is_hardware_enforced",
+        "attested_device_is_locked",
+        "attested_boot_is_verified",
+        "attested_boot_key_is_nonzero",
+        "attested_boot_hash_is_nonzero"
+      ],
+      "revocation_checked": false,
+      "full_pkix_path_validation_performed": false,
+      "manufacturer_trust": "not_established",
+      "scope": "Diagnostic prerequisite audit; matching an anchor alone does not establish hardware trust."
+    }
+  },
+  "rejected_measurements": [
+    {
+      "report": "strict-v14-stock-policy-native-unavailable.json",
+      "reason": "Missing native exported policy API; replaced by raw kernel context controls."
+    },
+    {
+      "report": "strict-v14-platform-first-probe54.json",
+      "reason": "Invalid socket label and inaccessible staged module paths."
+    },
+    {
+      "report": "strict-v14-platform-socket-probe54.json",
+      "reason": "Stock filesystem socket permissions prevented IPC."
+    },
+    {
+      "report": "strict-v14-platform-ready-probe54.json",
+      "reason": "Library path under /data/adb was not searchable by zygote."
+    },
+    {
+      "report": "strict-v14-duck-platform-first.json",
+      "reason": "Verbose application framework logging produced a genuine runtime finding."
+    },
+    {
+      "report": "strict-v14-duck-release.json",
+      "reason": "The fresh process emitted no trace, but retained prior-PID debug logs were still visible."
+    },
+    {
+      "report": "strict-v14-cold-reveny.json",
+      "reason": "System UI ANR obscured the result; retained as unavailable, then independently retried."
+    }
+  ],
+  "coverage_limits": [
+    "LSPosed remains INFO with unavailable native traces; this is not a full-coverage clear verdict.",
+    "Virtualization remains INFO because ARM-only instruction/syscall packs are unsupported by the pinned x86_64 APK. Both Android helper processes are ready.",
+    "Memory is CLEAR in the pinned detector; unknown detectors and untested interfaces are not covered.",
+    "Stock userdebug su privileges and the custom platform seccomp kernel remain prerequisites.",
+    "The root-only standalone resetprop executable contains Magisk-derived code, and private legacy files remain.",
+    "The isolated READPROC GID reduction from the prior baseline remains enabled.",
+    "Normal operating mode retains an active authenticated network adbd and a legitimate warning.",
+    "Software attestation, a test CA and unverified boot do not establish manufacturer or physical-device trust."
+  ],
+  "remaining_danger_modules": [
+    "Bootloader",
+    "TEE"
+  ],
+  "remaining_warning_modules_in_normal_mode": [
+    "ADB Runtime"
+  ],
+  "after_first_offline_boot": {
+    "captured_at": "2026-10-25T00:46:00.7716763+00:00",
+    "boot_id": "606f7d82-9180-46f2-a275-eba7bf4da618",
+    "boot_markers": {
+      "platform-early-ready": "606f7d82-9180-46f2-a275-eba7bf4da618",
+      "platform-late-ready": "606f7d82-9180-46f2-a275-eba7bf4da618",
+      "platform-supervisor-boot": "606f7d82-9180-46f2-a275-eba7bf4da618"
+    },
+    "monitor_pid": 350,
+    "init_tracer": "TracerPid:\t350",
+    "monitor_cgroup": "4:memory:/\n3:cpuset:/\n2:cpu:/\n1:blkio:/\n0::/device-lab-platform",
+    "platform_backend": "Welcome to ReZygiskd64Root-owned userdebug platform backend selected{\"platform_backend_ready\":true,\"uid\":0}",
+    "loaded_selinux_policy_sha256": "725322b8bb21c399e222db65bd9e0ee307a3b603d19d9a3d5f47a93cc8f369c0",
+    "selinux_controls": {
+      "available": true,
+      "uid": 0,
+      "enforcing": true,
+      "cases": [
+        {
+          "name": "stock_zygote_control",
+          "context_valid": true,
+          "errno": 0,
+          "stable": true,
+          "passed": true
+        },
+        {
+          "name": "malformed_control",
+          "context_valid": false,
+          "errno": 22,
+          "stable": true,
+          "passed": true
+        },
+        {
+          "name": "magisk_domain_absent",
+          "context_valid": false,
+          "errno": 22,
+          "stable": true,
+          "passed": true
+        },
+        {
+          "name": "magisk_file_type_absent",
+          "context_valid": false,
+          "errno": 22,
+          "stable": true,
+          "passed": true
+        }
+      ],
+      "passed": 5,
+      "failed": 0,
+      "controls_passed": true
+    },
+    "platform_contract": {
+      "platform_domain_supported": true,
+      "platform_probe_errno": 0,
+      "cases": [
+        {
+          "name": "standard_listener_capacity",
+          "passed": true,
+          "platform_notifications": 0,
+          "application_notifications": 0,
+          "errno": 16
+        },
+        {
+          "name": "unprivileged_platform_flag_rejected",
+          "passed": true,
+          "platform_notifications": 0,
+          "application_notifications": 0,
+          "errno": 16
+        },
+        {
+          "name": "separate_listener_capacity",
+          "passed": true,
+          "platform_notifications": 0,
+          "application_notifications": 0,
+          "errno": 16
+        },
+        {
+          "name": "root_metadata_and_filter_count",
+          "passed": true,
+          "platform_notifications": 0,
+          "application_notifications": 0,
+          "errno": 0
+        },
+        {
+          "name": "independent_targets",
+          "passed": true,
+          "platform_notifications": 1,
+          "application_notifications": 1,
+          "errno": 0
+        },
+        {
+          "name": "overlap_continue_order",
+          "passed": true,
+          "platform_notifications": 1,
+          "application_notifications": 1,
+          "errno": 0
+        },
+        {
+          "name": "application_errno_precedes_platform",
+          "passed": true,
+          "platform_notifications": 0,
+          "application_notifications": 0,
+          "errno": 13
+        },
+        {
+          "name": "application_trap_precedes_platform",
+          "passed": true,
+          "platform_notifications": 0,
+          "application_notifications": 0,
+          "errno": 0
+        },
+        {
+          "name": "fork_inheritance",
+          "passed": true,
+          "platform_notifications": 1,
+          "application_notifications": 0,
+          "errno": 0
+        },
+        {
+          "name": "thread_tsync",
+          "passed": true,
+          "platform_notifications": 2,
+          "application_notifications": 2,
+          "errno": 0
+        },
+        {
+          "name": "exec_inheritance",
+          "passed": true,
+          "platform_notifications": 1,
+          "application_notifications": 0,
+          "errno": 0
+        },
+        {
+          "name": "platform_atomic_fd_injection",
+          "passed": true,
+          "platform_notifications": 1,
+          "application_notifications": 0,
+          "errno": 0
+        }
+      ],
+      "passed": 12,
+      "failed": 0,
+      "unavailable": 0
+    },
+    "bootstrap_binary_sha256": {
+      "/data/misc/device-lab/bootstrap/bin/zygiskd64": "181b1f5d4e14e54b9a805cf570e9a898bb2b000fd910248a8bdf18ad467a7835",
+      "/data/misc/device-lab/bootstrap/bin/zygisk-ptrace64": "ea25206850fff9f862447788839d060f9c1bb84c48ef9a35be7d17fa13231571",
+      "/data/misc/device-lab/bootstrap/lib64/libzygisk.so": "f5b0b332fcee1a65851655035644e8ab1a99c39457935ed6a4080f8cd441b965"
+    },
+    "magisk_bootstrap_binaries_absent": true,
+    "operating_mode": {
+      "usb_applied": "mtp",
+      "usb_persistent": "mtp",
+      "adb_root": false,
+      "adb_authenticated": true,
+      "usb_runtime": "mtp",
+      "usb_debugging": false,
+      "shell_uid": 2000,
+      "adbd": "running"
+    }
+  },
+  "mdns_investigation": {
+    "detector_source_commit": "b5305070468a497842f54fbe998521fbc9d87ddc",
+    "discovery_evidence": "strict-v14-mdns-before.txt",
+    "aosp_source_url": "https://android.googlesource.com/platform/packages/modules/adb/+/refs/heads/android14-release/daemon/mdns.cpp",
+    "aosp_source_sha256": "5bf2186c845d788980cbabdf815a4e17dcdeb3fae6f953e45cfb8114beaf4c4b",
+    "observed_local_endpoint": "10.0.2.17:5555",
+    "observed_remote_endpoint": "10.0.2.16:5555",
+    "observed_local_service_name": "adb-EMULATOR37X2X12X0 (2)",
+    "adbd_cleanup_uses_atexit": true,
+    "aosp_notes_hard_kill_cleanup_limitation": true,
+    "measurement_adjustment": "Stop and restore only this guest legacy mdnsd advertiser alongside adbd; keep Wi-Fi and the Java NsdService backend operating."
+  },
+  "storage_migration": {
+    "runtime_version": "0.12.1",
+    "status": "automatic_boot_and_offline_lifecycle_verified",
+    "source_reproduction": {
+      "upstream_commit": "b5aa415c2ce1161ab807578ce0414129fbfc6313",
+      "files": [
+        {
+          "file": "zygiskd/src/root_impl/common.c",
+          "source_sha256": "48d39999e4e1062a41e22f864fc03f8fd2d502e68433e01271971d00ffdf3170",
+          "reproduced_sha256": "48d39999e4e1062a41e22f864fc03f8fd2d502e68433e01271971d00ffdf3170",
+          "identical_bytes": true,
+          "identical_normalized_lf": true
+        },
+        {
+          "file": "zygiskd/src/root_impl/common.h",
+          "source_sha256": "401b52c37515f08a51a724620377efac2c9f5ada8ac068fc82a4141155837fc5",
+          "reproduced_sha256": "401b52c37515f08a51a724620377efac2c9f5ada8ac068fc82a4141155837fc5",
+          "identical_bytes": true,
+          "identical_normalized_lf": true
+        },
+        {
+          "file": "zygiskd/src/utils.c",
+          "source_sha256": "5c1e788591dbe9138e9fc9656f164fe7e68a2879b2af56964cd7d86212f4352e",
+          "reproduced_sha256": "5c1e788591dbe9138e9fc9656f164fe7e68a2879b2af56964cd7d86212f4352e",
+          "identical_bytes": true,
+          "identical_normalized_lf": true
+        },
+        {
+          "file": "zygiskd/src/constants.h",
+          "source_sha256": "845f04c7d3ee50c51ae67db09df3d95d2960a47ad3d97ae75b8406a8576ba955",
+          "reproduced_sha256": "845f04c7d3ee50c51ae67db09df3d95d2960a47ad3d97ae75b8406a8576ba955",
+          "identical_bytes": true,
+          "identical_normalized_lf": true
+        },
+        {
+          "file": "zygiskd/src/zygiskd.c",
+          "source_sha256": "c0c50f49c959b6acac950258bc224544fecb27d34fba5651936dd070f246acda",
+          "reproduced_sha256": "c0c50f49c959b6acac950258bc224544fecb27d34fba5651936dd070f246acda",
+          "identical_bytes": true,
+          "identical_normalized_lf": true
+        },
+        {
+          "file": "loader/src/include/daemon.h",
+          "source_sha256": "110e0be9100fe8b14d7dfeadc84252c760c12a4ef5a3c6eac47b00ae2b1a73b1",
+          "reproduced_sha256": "110e0be9100fe8b14d7dfeadc84252c760c12a4ef5a3c6eac47b00ae2b1a73b1",
+          "identical_bytes": true,
+          "identical_normalized_lf": true
+        },
+        {
+          "file": "loader/src/injector/module.h",
+          "source_sha256": "e136ee715664e16b5c8baf63768d6ffd5c3778ce2342b7ef48d13afc1bebe7c4",
+          "reproduced_sha256": "7dd2939d62f6e81613a388676fe4a59dbf7525dc87fe90571ef60f77a29799a4",
+          "identical_bytes": false,
+          "identical_normalized_lf": true
+        },
+        {
+          "file": "loader/src/injector/hook.c",
+          "source_sha256": "23981906c74f197500145d306c1e4a27a13eac259de901abf63d6c140b115c50",
+          "reproduced_sha256": "d39e441e7eeee2864a9541f304be6f4f7d0d59e4b200bc486181f5b521c098ae",
+          "identical_bytes": false,
+          "identical_normalized_lf": true
+        },
+        {
+          "file": "loader/src/common/daemon.c",
+          "source_sha256": "760fccac2a246d87a6c33184ebb762dc6e02c45f2c0c4b4764fee40f67b733f3",
+          "reproduced_sha256": "760fccac2a246d87a6c33184ebb762dc6e02c45f2c0c4b4764fee40f67b733f3",
+          "identical_bytes": true,
+          "identical_normalized_lf": true
+        },
+        {
+          "file": "zygiskd/src/main.c",
+          "source_sha256": "c053336e9ca36d4d6abbb33cf51b01115bc27c6e125103d9a4a41e584d818981",
+          "reproduced_sha256": "05cfa38d3a2ade59770210f7995d0089f59738cb5b1a2a624cb85995e93bd3a8",
+          "identical_bytes": false,
+          "identical_normalized_lf": true
+        },
+        {
+          "file": "loader/src/ptracer/main.c",
+          "source_sha256": "fac3744ac871411964b9ace55b1797e36f4488094adbd0b9e9cbf4262bc0b7a6",
+          "reproduced_sha256": "fac3744ac871411964b9ace55b1797e36f4488094adbd0b9e9cbf4262bc0b7a6",
+          "identical_bytes": true,
+          "identical_normalized_lf": true
+        },
+        {
+          "file": "loader/src/ptracer/monitor.c",
+          "source_sha256": "85b108ec250648cb45465c7d42d49fdc572d8fdb868d07908b011bac5c01780c",
+          "reproduced_sha256": "85b108ec250648cb45465c7d42d49fdc572d8fdb868d07908b011bac5c01780c",
+          "identical_bytes": true,
+          "identical_normalized_lf": true
+        },
+        {
+          "file": "loader/src/ptracer/ptracer.c",
+          "source_sha256": "7f73f194943065201dddce8d83683bfe76034328c11ad7a3f3eeaa03bc47faaa",
+          "reproduced_sha256": "7f73f194943065201dddce8d83683bfe76034328c11ad7a3f3eeaa03bc47faaa",
+          "identical_bytes": true,
+          "identical_normalized_lf": true
+        }
+      ],
+      "all_identical_normalized_lf": true,
+      "line_endings_only": true,
+      "runtime_version": "0.12.1"
+    },
+    "canonical_module_path": "/data/misc/device-lab/modules/device_lab_cpu",
+    "archive_path": "/data/misc/device-lab/legacy-v012/adb",
+    "legacy_directory_moved_not_deleted": true,
+    "policy_changes": false,
+    "audit_logs_modified": false,
+    "build_and_lint": "passed",
+    "pre_migration_reports": [
+      "strict-v14-final-proc99.json",
+      "strict-v14-final-raw79.json",
+      "strict-v14-final-probe54.json",
+      "strict-v14-final-reveny.json"
+    ],
+    "new_boot_results": "strict-v14-automatic-storage-boot.json",
+    "stock_reserved_directory": "Stock init.usb.rc creates an empty /data/adb. The root-owned early service retires it with rmdir after the legacy data is preserved.",
+    "absence_and_archive_identity_verified": true,
+    "archive_original_inode": 319489,
+    "stock_usb_init_evidence": "strict-v14-stock-usb-init.rc",
+    "native_runtime_version": "0.12.1",
+    "final_assets_evidence": "strict-v14-final-assets.txt",
+    "installed_asset_sha256": {
+      "/data/misc/device-lab/bootstrap/early.sh": "a569e4f3a1e65bff02e6addbfd2a7b8021aa52f968065386736ac2d3b1e373d6",
+      "/data/misc/device-lab/bootstrap/late.sh": "5333682977521d735115a07fa9d6615a2e061a4909af8838cae0a1344895c6db",
+      "/data/misc/device-lab/modules/device_lab_cpu/zygisk/x86_64.so": "224046b3ef302c67668e002933c049616feabd886a2ffa8363af6364774d63f1"
+    }
+  },
+  "automatic_storage_boot": {
+    "report": "strict-v14-automatic-storage-boot.json",
+    "data": {
+      "captured_at": "2026-10-25T01:03:43.2560344+00:00",
+      "boot_id": "0116e55c-3124-419c-a4f9-18a4ba7673fb",
+      "boot_markers": {
+        "platform-early-ready": "0116e55c-3124-419c-a4f9-18a4ba7673fb",
+        "platform-late-ready": "0116e55c-3124-419c-a4f9-18a4ba7673fb",
+        "platform-supervisor-boot": "0116e55c-3124-419c-a4f9-18a4ba7673fb"
+      },
+      "monitor_pid": 353,
+      "init_tracer": "TracerPid:\t353",
+      "monitor_cgroup": "4:memory:/\n3:cpuset:/\n2:cpu:/\n1:blkio:/\n0::/device-lab-platform",
+      "platform_backend": "Welcome to ReZygiskd64Root-owned userdebug platform backend selected{\"platform_backend_ready\":true,\"uid\":0}",
+      "loaded_selinux_policy_sha256": "725322b8bb21c399e222db65bd9e0ee307a3b603d19d9a3d5f47a93cc8f369c0",
+      "selinux_controls": {
+        "available": true,
+        "uid": 0,
+        "enforcing": true,
+        "cases": [
+          {
+            "name": "stock_zygote_control",
+            "context_valid": true,
+            "errno": 0,
+            "stable": true,
+            "passed": true
+          },
+          {
+            "name": "malformed_control",
+            "context_valid": false,
+            "errno": 22,
+            "stable": true,
+            "passed": true
+          },
+          {
+            "name": "magisk_domain_absent",
+            "context_valid": false,
+            "errno": 22,
+            "stable": true,
+            "passed": true
+          },
+          {
+            "name": "magisk_file_type_absent",
+            "context_valid": false,
+            "errno": 22,
+            "stable": true,
+            "passed": true
+          }
+        ],
+        "passed": 5,
+        "failed": 0,
+        "controls_passed": true
+      },
+      "platform_contract": {
+        "platform_domain_supported": true,
+        "platform_probe_errno": 0,
+        "cases": [
+          {
+            "name": "standard_listener_capacity",
+            "passed": true,
+            "platform_notifications": 0,
+            "application_notifications": 0,
+            "errno": 16
+          },
+          {
+            "name": "unprivileged_platform_flag_rejected",
+            "passed": true,
+            "platform_notifications": 0,
+            "application_notifications": 0,
+            "errno": 16
+          },
+          {
+            "name": "separate_listener_capacity",
+            "passed": true,
+            "platform_notifications": 0,
+            "application_notifications": 0,
+            "errno": 16
+          },
+          {
+            "name": "root_metadata_and_filter_count",
+            "passed": true,
+            "platform_notifications": 0,
+            "application_notifications": 0,
+            "errno": 0
+          },
+          {
+            "name": "independent_targets",
+            "passed": true,
+            "platform_notifications": 1,
+            "application_notifications": 1,
+            "errno": 0
+          },
+          {
+            "name": "overlap_continue_order",
+            "passed": true,
+            "platform_notifications": 1,
+            "application_notifications": 1,
+            "errno": 0
+          },
+          {
+            "name": "application_errno_precedes_platform",
+            "passed": true,
+            "platform_notifications": 0,
+            "application_notifications": 0,
+            "errno": 13
+          },
+          {
+            "name": "application_trap_precedes_platform",
+            "passed": true,
+            "platform_notifications": 0,
+            "application_notifications": 0,
+            "errno": 0
+          },
+          {
+            "name": "fork_inheritance",
+            "passed": true,
+            "platform_notifications": 1,
+            "application_notifications": 0,
+            "errno": 0
+          },
+          {
+            "name": "thread_tsync",
+            "passed": true,
+            "platform_notifications": 2,
+            "application_notifications": 2,
+            "errno": 0
+          },
+          {
+            "name": "exec_inheritance",
+            "passed": true,
+            "platform_notifications": 1,
+            "application_notifications": 0,
+            "errno": 0
+          },
+          {
+            "name": "platform_atomic_fd_injection",
+            "passed": true,
+            "platform_notifications": 1,
+            "application_notifications": 0,
+            "errno": 0
+          }
+        ],
+        "passed": 12,
+        "failed": 0,
+        "unavailable": 0
+      },
+      "bootstrap_binary_sha256": {
+        "/data/misc/device-lab/bootstrap/bin/zygiskd64": "f818b6bcad9b0d713c694326dc993d8fab2630427e21be52b21c5e3d12b6979b",
+        "/data/misc/device-lab/bootstrap/bin/zygisk-ptrace64": "ea25206850fff9f862447788839d060f9c1bb84c48ef9a35be7d17fa13231571",
+        "/data/misc/device-lab/bootstrap/lib64/libzygisk.so": "f5b0b332fcee1a65851655035644e8ab1a99c39457935ed6a4080f8cd441b965"
+      },
+      "magisk_bootstrap_binaries_absent": true,
+      "legacy_storage_migrated": true,
+      "legacy_storage_archive": "319489 0 700",
+      "operating_mode": {
+        "usb_runtime": "mtp",
+        "adbd": "running",
+        "usb_applied": "mtp",
+        "usb_persistent": "mtp",
+        "shell_uid": 2000,
+        "adb_root": false,
+        "adb_authenticated": true,
+        "usb_debugging": false
+      }
+    }
+  },
+  "stability_limitations": {
+    "observed": "System UI ANRs occurred after cold-boot regression workloads, including the normal logging mode; Google Play services also recorded a broadcast ANR. The visible System UI dialog was recovered with Wait.",
+    "root_cause": "not established",
+    "invalid_measurements": [
+      "strict-v14-cold-reveny.json",
+      "strict-v14-migrated-reveny.json",
+      "strict-v14-verified-reveny.json"
+    ],
+    "valid_retries": [
+      "strict-v14-cold-reveny-retry.json",
+      "strict-v14-migrated-reveny-retry.json",
+      "strict-v14-verified-reveny-retry.json"
+    ],
+    "evidence": [
+      "strict-v14-system-ui-state.txt",
+      "strict-v14-system-ui-anr.txt",
+      "strict-v14-system-ui-primary-anr.txt"
+    ],
+    "normal_emulator_boot_ms": 48826,
+    "note": "Both the System UI service ANR and the subsequent GMS broadcast ANR are preserved. Full interactive stability is not established.",
+    "system_ui_main_at_trace": "Runnable in FooterActionsViewModel initialization; schedstat=(1831619459 11963625017 3484). Cause remains unconfirmed."
+  },
+  "post_offline_boot": {
+    "report": "strict-v14-post-offline-boot.json",
+    "data": {
+      "captured_at": "2026-10-25T01:09:53.2355978+00:00",
+      "boot_id": "0116e55c-3124-419c-a4f9-18a4ba7673fb",
+      "boot_markers": {
+        "platform-early-ready": "0116e55c-3124-419c-a4f9-18a4ba7673fb",
+        "platform-late-ready": "0116e55c-3124-419c-a4f9-18a4ba7673fb",
+        "platform-supervisor-boot": "0116e55c-3124-419c-a4f9-18a4ba7673fb"
+      },
+      "monitor_pid": 353,
+      "init_tracer": "TracerPid:\t353",
+      "monitor_cgroup": "4:memory:/\n3:cpuset:/\n2:cpu:/\n1:blkio:/\n0::/device-lab-platform",
+      "platform_backend": "Welcome to ReZygiskd64Root-owned userdebug platform backend selected{\"platform_backend_ready\":true,\"uid\":0}",
+      "loaded_selinux_policy_sha256": "725322b8bb21c399e222db65bd9e0ee307a3b603d19d9a3d5f47a93cc8f369c0",
+      "selinux_controls": {
+        "available": true,
+        "uid": 0,
+        "enforcing": true,
+        "cases": [
+          {
+            "name": "stock_zygote_control",
+            "context_valid": true,
+            "errno": 0,
+            "stable": true,
+            "passed": true
+          },
+          {
+            "name": "malformed_control",
+            "context_valid": false,
+            "errno": 22,
+            "stable": true,
+            "passed": true
+          },
+          {
+            "name": "magisk_domain_absent",
+            "context_valid": false,
+            "errno": 22,
+            "stable": true,
+            "passed": true
+          },
+          {
+            "name": "magisk_file_type_absent",
+            "context_valid": false,
+            "errno": 22,
+            "stable": true,
+            "passed": true
+          }
+        ],
+        "passed": 5,
+        "failed": 0,
+        "controls_passed": true
+      },
+      "platform_contract": {
+        "platform_domain_supported": true,
+        "platform_probe_errno": 0,
+        "cases": [
+          {
+            "name": "standard_listener_capacity",
+            "passed": true,
+            "platform_notifications": 0,
+            "application_notifications": 0,
+            "errno": 16
+          },
+          {
+            "name": "unprivileged_platform_flag_rejected",
+            "passed": true,
+            "platform_notifications": 0,
+            "application_notifications": 0,
+            "errno": 16
+          },
+          {
+            "name": "separate_listener_capacity",
+            "passed": true,
+            "platform_notifications": 0,
+            "application_notifications": 0,
+            "errno": 16
+          },
+          {
+            "name": "root_metadata_and_filter_count",
+            "passed": true,
+            "platform_notifications": 0,
+            "application_notifications": 0,
+            "errno": 0
+          },
+          {
+            "name": "independent_targets",
+            "passed": true,
+            "platform_notifications": 1,
+            "application_notifications": 1,
+            "errno": 0
+          },
+          {
+            "name": "overlap_continue_order",
+            "passed": true,
+            "platform_notifications": 1,
+            "application_notifications": 1,
+            "errno": 0
+          },
+          {
+            "name": "application_errno_precedes_platform",
+            "passed": true,
+            "platform_notifications": 0,
+            "application_notifications": 0,
+            "errno": 13
+          },
+          {
+            "name": "application_trap_precedes_platform",
+            "passed": true,
+            "platform_notifications": 0,
+            "application_notifications": 0,
+            "errno": 0
+          },
+          {
+            "name": "fork_inheritance",
+            "passed": true,
+            "platform_notifications": 1,
+            "application_notifications": 0,
+            "errno": 0
+          },
+          {
+            "name": "thread_tsync",
+            "passed": true,
+            "platform_notifications": 2,
+            "application_notifications": 2,
+            "errno": 0
+          },
+          {
+            "name": "exec_inheritance",
+            "passed": true,
+            "platform_notifications": 1,
+            "application_notifications": 0,
+            "errno": 0
+          },
+          {
+            "name": "platform_atomic_fd_injection",
+            "passed": true,
+            "platform_notifications": 1,
+            "application_notifications": 0,
+            "errno": 0
+          }
+        ],
+        "passed": 12,
+        "failed": 0,
+        "unavailable": 0
+      },
+      "bootstrap_binary_sha256": {
+        "/data/misc/device-lab/bootstrap/bin/zygiskd64": "f818b6bcad9b0d713c694326dc993d8fab2630427e21be52b21c5e3d12b6979b",
+        "/data/misc/device-lab/bootstrap/bin/zygisk-ptrace64": "ea25206850fff9f862447788839d060f9c1bb84c48ef9a35be7d17fa13231571",
+        "/data/misc/device-lab/bootstrap/lib64/libzygisk.so": "f5b0b332fcee1a65851655035644e8ab1a99c39457935ed6a4080f8cd441b965"
+      },
+      "magisk_bootstrap_binaries_absent": true,
+      "legacy_storage_migrated": true,
+      "legacy_storage_archive": "319489 0 700",
+      "operating_mode": {
+        "adbd": "running",
+        "usb_applied": "mtp",
+        "shell_uid": 2000,
+        "usb_runtime": "mtp",
+        "adb_authenticated": true,
+        "usb_debugging": false,
+        "adb_root": false,
+        "usb_persistent": "mtp"
+      }
+    }
+  },
+  "remaining_warning_modules_in_offline_mode": []
+}

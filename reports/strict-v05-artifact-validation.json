@@ -1,0 +1,7 @@
+{
+  "namespace_elf_sha256": "410ecb2a3ebf47ffd42b371bada0f78df60f8158ba563f819de472b74e7e5f25",
+  "apk_zip_installed_payloads_match": true,
+  "host_uname_pointer_controls": "passed",
+  "proc_view_controls": "passed",
+  "snapshot_backend": "unlinked-cache"
+}

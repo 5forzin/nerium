@@ -1,0 +1,28 @@
+{
+  "process_id": 2580,
+  "original_mapper_visible": true,
+  "original_channel_visible": true,
+  "original_sync_visible": true,
+  "namespace_elf_sha256": "0be6777978d0d2f204f957371e0ab864d0addb8264fc1c17c57752a7b0ed7d79",
+  "framework_scope": "APP_PACKAGE                           USER_ID\n---------------------------------------------\ncom.felhr.emulatordetector            0      \ncom.framgia.example.emulatordetector  0      \ncom.reveny.emulator.detection.sample  0      \ncom.reveny.nativecheck                0      \ndev.androidlab.probe                  0      \ndev.androidlab.procprobe              0      \ndev.androidlab.rawprobe               0      \nicu.nullptr.nativetest                0      \nio.github.vvb2060.nativedetector      0      ",
+  "namespace_scope": [
+    "dev.androidlab.probe",
+    "dev.androidlab.rawprobe",
+    "dev.androidlab.procprobe",
+    "com.eltavine.duckdetector",
+    "com.reveny.emulator.detection.sample",
+    "com.framgia.example.emulatordetector",
+    "com.felhr.emulatordetector",
+    "com.reveny.nativecheck",
+    "icu.nullptr.nativetest",
+    "io.github.vvb2060.nativedetector"
+  ],
+  "runtime_scope": [
+    "com.eltavine.duckdetector"
+  ],
+  "verbose_log_setting": "KEY: verbose-log\nVALUE: false",
+  "runtime_library_member_name_visible": false,
+  "runtime_apk_mappings_visible": true,
+  "runtime_initialization_log": "--------- beginning of main\n10-24 17:37:10.156  2580  2580 I DeviceLabRuntime: profile build=1 auxv=1 graphics_dispatch=1",
+  "mapping_note": "APK-backed native mappings name base.apk, not the ZIP member filename."
+}

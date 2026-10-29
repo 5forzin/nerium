@@ -1,0 +1,24 @@
+{
+  "report": "strict-v12-attestation-vintf.json",
+  "certificate_count": 3,
+  "certificate_signatures_verified": true,
+  "nonce_binding_verified": true,
+  "key_possession_verified": true,
+  "device_host_decode_agrees": true,
+  "signed_claims": {
+    "attestation_version": 300,
+    "attestation_security_level": 0,
+    "keymaster_version": 300,
+    "keymaster_security_level": 0,
+    "root_of_trust": {
+      "authorization_list": "software",
+      "verified_boot_key": "0000000000000000000000000000000000000000000000000000000000000000",
+      "device_locked": false,
+      "verified_boot_state": 2,
+      "verified_boot_hash": "0000000000000000000000000000000000000000000000000000000000000000"
+    }
+  },
+  "root_sha256": "a96496be813505610011960ca9f3f5df818b36f14ab121d26f4517cb04d291c0",
+  "manufacturer_trust": "not_established",
+  "report_sha256": "8ae534c536c4844ae1e6dcaa4fb10eb703a47ab6bf49fa505f3f2c3d6f8c8c3e"
+}

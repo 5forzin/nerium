@@ -1,0 +1,314 @@
+{
+  "abi": "x86_64",
+  "transport": "inline-syscall",
+  "checks": [
+    {
+      "id": "capability.openat2",
+      "status": "unavailable",
+      "detail": "result=-10031"
+    },
+    {
+      "id": "capability.statx",
+      "status": "clear",
+      "detail": ""
+    },
+    {
+      "id": "maps.open.nofollow",
+      "status": "detected",
+      "detail": "bytes=229388"
+    },
+    {
+      "id": "maps.open.noctty",
+      "status": "detected",
+      "detail": "bytes=229582"
+    },
+    {
+      "id": "maps.open.noatime",
+      "status": "detected",
+      "detail": "bytes=229582"
+    },
+    {
+      "id": "maps.legacy_stat",
+      "status": "detected",
+      "detail": "size=228648"
+    },
+    {
+      "id": "maps.statfs_alias",
+      "status": "detected",
+      "detail": "type=61267"
+    },
+    {
+      "id": "maps.statx_alias",
+      "status": "detected",
+      "detail": "mnt_id=282;expected=79019"
+    },
+    {
+      "id": "maps.statx_empty",
+      "status": "detected",
+      "detail": "mnt_id=282;expected=79019"
+    },
+    {
+      "id": "maps.fdinfo_inode",
+      "status": "detected",
+      "detail": "pos:64flags:02100000mnt_id:282ino:336921"
+    },
+    {
+      "id": "maps.fdinfo_position",
+      "status": "clear",
+      "detail": ""
+    },
+    {
+      "id": "maps.fdinfo_mount",
+      "status": "detected",
+      "detail": ""
+    },
+    {
+      "id": "maps.mmap_denied",
+      "status": "detected",
+      "detail": "result=123488426995712"
+    },
+    {
+      "id": "maps.readv",
+      "status": "clear",
+      "detail": ""
+    },
+    {
+      "id": "maps.preadv",
+      "status": "clear",
+      "detail": ""
+    },
+    {
+      "id": "maps.dup_offset",
+      "status": "clear",
+      "detail": ""
+    },
+    {
+      "id": "smaps.open.nofollow",
+      "status": "detected",
+      "detail": "bytes=1582688"
+    },
+    {
+      "id": "smaps.open.noctty",
+      "status": "detected",
+      "detail": "bytes=1585502"
+    },
+    {
+      "id": "smaps.open.noatime",
+      "status": "detected",
+      "detail": "bytes=1585502"
+    },
+    {
+      "id": "smaps.legacy_stat",
+      "status": "detected",
+      "detail": "size=1580148"
+    },
+    {
+      "id": "smaps.statfs_alias",
+      "status": "detected",
+      "detail": "type=61267"
+    },
+    {
+      "id": "smaps.statx_alias",
+      "status": "detected",
+      "detail": "mnt_id=282;expected=79019"
+    },
+    {
+      "id": "smaps.statx_empty",
+      "status": "detected",
+      "detail": "mnt_id=282;expected=79019"
+    },
+    {
+      "id": "smaps.fdinfo_inode",
+      "status": "detected",
+      "detail": "pos:64flags:02100000mnt_id:282ino:336921"
+    },
+    {
+      "id": "smaps.fdinfo_position",
+      "status": "clear",
+      "detail": ""
+    },
+    {
+      "id": "smaps.fdinfo_mount",
+      "status": "detected",
+      "detail": ""
+    },
+    {
+      "id": "smaps.mmap_denied",
+      "status": "detected",
+      "detail": "result=123488426995712"
+    },
+    {
+      "id": "smaps.readv",
+      "status": "clear",
+      "detail": ""
+    },
+    {
+      "id": "smaps.preadv",
+      "status": "clear",
+      "detail": ""
+    },
+    {
+      "id": "smaps.dup_offset",
+      "status": "clear",
+      "detail": ""
+    },
+    {
+      "id": "mountinfo.open.nofollow",
+      "status": "detected",
+      "detail": "bytes=150012"
+    },
+    {
+      "id": "mountinfo.open.noctty",
+      "status": "detected",
+      "detail": "bytes=150012"
+    },
+    {
+      "id": "mountinfo.open.noatime",
+      "status": "detected",
+      "detail": "bytes=150012"
+    },
+    {
+      "id": "mountinfo.legacy_stat",
+      "status": "detected",
+      "detail": "size=144692"
+    },
+    {
+      "id": "mountinfo.statfs_alias",
+      "status": "detected",
+      "detail": "type=61267"
+    },
+    {
+      "id": "mountinfo.statx_alias",
+      "status": "detected",
+      "detail": "mnt_id=282;expected=79019"
+    },
+    {
+      "id": "mountinfo.statx_empty",
+      "status": "detected",
+      "detail": "mnt_id=282;expected=79019"
+    },
+    {
+      "id": "mountinfo.fdinfo_inode",
+      "status": "detected",
+      "detail": "pos:64flags:02100000mnt_id:282ino:336921"
+    },
+    {
+      "id": "mountinfo.fdinfo_position",
+      "status": "clear",
+      "detail": ""
+    },
+    {
+      "id": "mountinfo.fdinfo_mount",
+      "status": "detected",
+      "detail": ""
+    },
+    {
+      "id": "mountinfo.mmap_denied",
+      "status": "detected",
+      "detail": "result=123488426995712"
+    },
+    {
+      "id": "mountinfo.readv",
+      "status": "clear",
+      "detail": ""
+    },
+    {
+      "id": "mountinfo.preadv",
+      "status": "clear",
+      "detail": ""
+    },
+    {
+      "id": "mountinfo.dup_offset",
+      "status": "clear",
+      "detail": ""
+    },
+    {
+      "id": "mounts.open.nofollow",
+      "status": "detected",
+      "detail": "bytes=92695"
+    },
+    {
+      "id": "mounts.open.noctty",
+      "status": "detected",
+      "detail": "bytes=92695"
+    },
+    {
+      "id": "mounts.open.noatime",
+      "status": "detected",
+      "detail": "bytes=92695"
+    },
+    {
+      "id": "mounts.legacy_stat",
+      "status": "detected",
+      "detail": "size=90408"
+    },
+    {
+      "id": "mounts.statfs_alias",
+      "status": "detected",
+      "detail": "type=61267"
+    },
+    {
+      "id": "mounts.statx_alias",
+      "status": "detected",
+      "detail": "mnt_id=282;expected=79019"
+    },
+    {
+      "id": "mounts.statx_empty",
+      "status": "detected",
+      "detail": "mnt_id=282;expected=79019"
+    },
+    {
+      "id": "mounts.fdinfo_inode",
+      "status": "detected",
+      "detail": "pos:64flags:02100000mnt_id:282ino:336921"
+    },
+    {
+      "id": "mounts.fdinfo_position",
+      "status": "clear",
+      "detail": ""
+    },
+    {
+      "id": "mounts.fdinfo_mount",
+      "status": "detected",
+      "detail": ""
+    },
+    {
+      "id": "mounts.mmap_denied",
+      "status": "detected",
+      "detail": "result=123488426995712"
+    },
+    {
+      "id": "mounts.readv",
+      "status": "clear",
+      "detail": ""
+    },
+    {
+      "id": "mounts.preadv",
+      "status": "clear",
+      "detail": ""
+    },
+    {
+      "id": "mounts.dup_offset",
+      "status": "clear",
+      "detail": ""
+    },
+    {
+      "id": "proc.numa_maps",
+      "status": "unavailable",
+      "detail": "result=-2"
+    },
+    {
+      "id": "proc.map_files",
+      "status": "detected",
+      "detail": "entries=1510;readable=1510;artifacts=7;/data/app/~~ucDOMXq_w25zWQWABlGwRw==/dev.androidlab.module-1mVDw1yaeMyJkg1YbZDXYw==/base.apk"
+    }
+  ],
+  "schema_version": 1,
+  "summary": {
+    "detected": 41,
+    "unavailable": 2,
+    "total": 60
+  },
+  "apk_sha256": "504d14fb0cbbb36ad9506e2655b5d4ecba20f290e6963a081668331ebf9a25dd",
+  "installed_abi": "x86_64"
+}

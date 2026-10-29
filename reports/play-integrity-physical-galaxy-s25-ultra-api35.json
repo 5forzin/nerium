@@ -1,0 +1,20 @@
+﻿{
+    "schema_version":  1,
+    "captured_at_ms":  1792908766247,
+    "package":  "dev.androidlab.integrityprobe",
+    "status":  "token_received",
+    "cloud_project_number":  45438431209,
+    "nonce_base64url":  "BX7xB0uNgUWTCHYxdYQMTOoU8uEeRZxmfCEVAe1Gegw",
+    "token_length":  1390,
+    "apk_sha256":  "676e2aa8ed58aaeca6b9babaaf7d88a141b10e35a09206afe87bb2199edeb070",
+    "environment":  {
+                        "android_api":  "35",
+                        "build_fingerprint":  "samsung/pa3quew/pa3q:15/AP3A.240905.015.A2/S938U1UEU1AYB3_OYM1AYB3:user/release-keys",
+                        "play_store_path":  "package:/product/priv-app/Phonesky/Phonesky.apk",
+                        "play_store_version":  "42.4.22-31 [0] [PR] 663941805",
+                        "play_services_version":  "26.37.37 (260400-994713346)"
+                    },
+    "token_sha256":  "572bdce8c8ebcc5796d09e2d3e2c222de5835aab99e8eb75dc65c450e9e689f8",
+    "token_private_path":  "files/token-play-integrity-physical-galaxy-s25-ultra-api35.txt",
+    "compact_jwe_shape":  true
+}

@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "recorded_at": "2026-10-27T02:53:27.5731311+00:00",
+  "status": "passed_keymint_runtime_controls",
+  "before_report": "keymint-v44-before-control.json",
+  "after_report": "keymint-v44-after-control.json",
+  "same_apk_sha256": "14378c11de162cf1b49024f47db7531e4b840547c4f62b123a74501a01ac926a",
+  "controls": {
+    "rsa_pss_sha256": {
+      "before": "passed",
+      "after": "passed",
+      "before_security_level": 0,
+      "after_security_level": 0
+    },
+    "ec_p256_sha256": {
+      "before": "passed",
+      "after": "passed",
+      "before_security_level": 0,
+      "after_security_level": 0
+    },
+    "aes_256_gcm": {
+      "before": "passed",
+      "after": "passed",
+      "before_security_level": 0,
+      "after_security_level": 0
+    },
+    "hmac_sha256": {
+      "before": "passed",
+      "after": "passed",
+      "before_security_level": 0,
+      "after_security_level": 0
+    }
+  },
+  "cleanup_before": true,
+  "cleanup_after": true,
+  "backend_before_sha256": "98a7a6253e0a7d6e491b66f920dec51c6f7d09c37f6c94c0baad462d81cf32ac",
+  "backend_after_sha256": "d5bb58f00b412db54377517a545ee474835762599557f1cc4c359ece5047cfec",
+  "launcher_state": "ready",
+  "completed_frames_at_ready": 1,
+  "selinux_before": "Enforcing",
+  "selinux_after": "Enforcing",
+  "selinux_policy_hash_after": "unavailable_to_unprivileged_shell",
+  "other_emulator_untouched": true,
+  "detector_suites_reexecuted": false,
+  "android_tee_verified": false,
+  "google_attestation_established": false,
+  "zero_detections_achieved": false
+}

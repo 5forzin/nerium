@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "decoded_at": "2026-10-25T06:12:56.5815428+00:00",
+  "source_report": "play-integrity-physical-galaxy-s25-ultra-api35.json",
+  "token_sha256": "572bdce8c8ebcc5796d09e2d3e2c222de5835aab99e8eb75dc65c450e9e689f8",
+  "request_package_name": "dev.androidlab.integrityprobe",
+  "nonce_matches": true,
+  "request_timestamp_ms": "1792908768507",
+  "app_recognition_verdict": "UNRECOGNIZED_VERSION",
+  "device_recognition_verdict": [
+    "MEETS_DEVICE_INTEGRITY"
+  ],
+  "app_licensing_verdict": "UNEVALUATED"
+}

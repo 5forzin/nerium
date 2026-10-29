@@ -1,0 +1,469 @@
+﻿{
+    "schema_version":  1,
+    "captured_at":  "2026-10-25T05:29:53.349978Z",
+    "app_version":  "0.4.0",
+    "device":  {
+                   "manufacturer":  "Google",
+                   "brand":  "google",
+                   "model":  "sdk_gphone64_x86_64",
+                   "device":  "emu64xa",
+                   "product":  "sdk_gphone64_x86_64",
+                   "hardware":  "ranchu",
+                   "board":  "goldfish_x86_64",
+                   "fingerprint":  "google/sdk_gphone64_x86_64/emu64xa:15/AE3A.240806.036/12592187:user/release-keys",
+                   "supported_abis":  [
+                                          "x86_64",
+                                          "arm64-v8a"
+                                      ],
+                   "sdk":  35,
+                   "android_release":  "15"
+               },
+    "native_cpuinfo":  {
+                           "fopen":  "processor\t: 0\nvendor_id\t: GenuineIntel\ncpu family\t: 6\nmodel\t\t: 183\nmodel name\t: 13th Gen Intel(R) Core(TM) i5-13450HX\nstepping\t: 1\nmicrocode\t: 0xffffffff\ncpu MHz\t\t: 3868.091\ncache size\t: 20480 KB\nphysical id\t: 0\nsiblings\t: 1\ncore id\t\t: 0\ncpu cores\t: 1\napicid\t\t: 0\ninitial apicid\t: 0\nfpu\t\t: yes\nfpu_exception\t: yes\ncpuid level\t: 28\nwp\t\t: yes\nflags\t\t: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss syscall nx pdpe1gb rdtscp lm constant_tsc rep_good nopl nonstop_tsc cpuid aperfmperf pni pclmulqdq ssse3 fma cx16 sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid rdseed adx clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves avx_vnni umip waitpkg gfni vaes vpclmulqdq rdpid movdiri movdir64b fsrm md_clear serialize ibt arch_capabilities\nbugs\t\t: spectre_v1 spectre_v2 spec_store_bypass swapgs retbleed rfds bhi\nbogomips\t: 5221.71\nclflush size\t: 64\ncache_alignment\t: 64\naddress sizes\t: 39 bits physical, 48 bits virtual\npower management:\n\nprocessor\t: 1\nvendor_id\t: GenuineIntel\ncpu family\t: 6\nmodel\t\t: 183\nmodel name\t: 13th Gen Intel(R) Core(TM) i5-13450HX\nstepping\t: 1\nmicrocode\t: 0xffffffff\ncpu MHz\t\t: 3495.746\ncache size\t: 20480 KB\nphysical id\t: 1\nsiblings\t: 1\ncore id\t\t: 0\ncpu cores\t: 1\napicid\t\t: 1\ninitial apicid\t: 1\nfpu\t\t: yes\nfpu_exception\t: yes\ncpuid level\t: 28\nwp\t\t: yes\nflags\t\t: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss syscall nx pdpe1gb rdtscp lm constant_tsc rep_good nopl nonstop_tsc cpuid aperfmperf pni pclmulqdq ssse3 fma cx16 sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid rdseed adx clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves avx_vnni umip waitpkg gfni vaes vpclmulqdq rdpid movdiri movdir64b fsrm md_clear serialize ibt arch_capabilities\nbugs\t\t: spectre_v1 spectre_v2 spec_store_bypass swapgs retbleed rfds bhi\nbogomips\t: 5221.71\nclflush size\t: 64\ncache_alignment\t: 64\naddress sizes\t: 39 bits physical, 48 bits virtual\npower management:\n\n",
+                           "open":  "processor\t: 0\nvendor_id\t: GenuineIntel\ncpu family\t: 6\nmodel\t\t: 183\nmodel name\t: 13th Gen Intel(R) Core(TM) i5-13450HX\nstepping\t: 1\nmicrocode\t: 0xffffffff\ncpu MHz\t\t: 3868.091\ncache size\t: 20480 KB\nphysical id\t: 0\nsiblings\t: 1\ncore id\t\t: 0\ncpu cores\t: 1\napicid\t\t: 0\ninitial apicid\t: 0\nfpu\t\t: yes\nfpu_exception\t: yes\ncpuid level\t: 28\nwp\t\t: yes\nflags\t\t: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss syscall nx pdpe1gb rdtscp lm constant_tsc rep_good nopl nonstop_tsc cpuid aperfmperf pni pclmulqdq ssse3 fma cx16 sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid rdseed adx clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves avx_vnni umip waitpkg gfni vaes vpclmulqdq rdpid movdiri movdir64b fsrm md_clear serialize ibt arch_capabilities\nbugs\t\t: spectre_v1 spectre_v2 spec_store_bypass swapgs retbleed rfds bhi\nbogomips\t: 5221.71\nclflush size\t: 64\ncache_alignment\t: 64\naddress sizes\t: 39 bits physical, 48 bits virtual\npower management:\n\nprocessor\t: 1\nvendor_id\t: GenuineIntel\ncpu family\t: 6\nmodel\t\t: 183\nmodel name\t: 13th Gen Intel(R) Core(TM) i5-13450HX\nstepping\t: 1\nmicrocode\t: 0xffffffff\ncpu MHz\t\t: 3495.746\ncache size\t: 20480 KB\nphysical id\t: 1\nsiblings\t: 1\ncore id\t\t: 0\ncpu cores\t: 1\napicid\t\t: 1\ninitial apicid\t: 1\nfpu\t\t: yes\nfpu_exception\t: yes\ncpuid level\t: 28\nwp\t\t: yes\nflags\t\t: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss syscall nx pdpe1gb rdtscp lm constant_tsc rep_good nopl nonstop_tsc cpuid aperfmperf pni pclmulqdq ssse3 fma cx16 sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid rdseed adx clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves avx_vnni umip waitpkg gfni vaes vpclmulqdq rdpid movdiri movdir64b fsrm md_clear serialize ibt arch_capabilities\nbugs\t\t: spectre_v1 spectre_v2 spec_store_bypass swapgs retbleed rfds bhi\nbogomips\t: 5221.71\nclflush size\t: 64\ncache_alignment\t: 64\naddress sizes\t: 39 bits physical, 48 bits virtual\npower management:\n\n",
+                           "openat":  "processor\t: 0\nvendor_id\t: GenuineIntel\ncpu family\t: 6\nmodel\t\t: 183\nmodel name\t: 13th Gen Intel(R) Core(TM) i5-13450HX\nstepping\t: 1\nmicrocode\t: 0xffffffff\ncpu MHz\t\t: 3868.091\ncache size\t: 20480 KB\nphysical id\t: 0\nsiblings\t: 1\ncore id\t\t: 0\ncpu cores\t: 1\napicid\t\t: 0\ninitial apicid\t: 0\nfpu\t\t: yes\nfpu_exception\t: yes\ncpuid level\t: 28\nwp\t\t: yes\nflags\t\t: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss syscall nx pdpe1gb rdtscp lm constant_tsc rep_good nopl nonstop_tsc cpuid aperfmperf pni pclmulqdq ssse3 fma cx16 sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid rdseed adx clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves avx_vnni umip waitpkg gfni vaes vpclmulqdq rdpid movdiri movdir64b fsrm md_clear serialize ibt arch_capabilities\nbugs\t\t: spectre_v1 spectre_v2 spec_store_bypass swapgs retbleed rfds bhi\nbogomips\t: 5221.71\nclflush size\t: 64\ncache_alignment\t: 64\naddress sizes\t: 39 bits physical, 48 bits virtual\npower management:\n\nprocessor\t: 1\nvendor_id\t: GenuineIntel\ncpu family\t: 6\nmodel\t\t: 183\nmodel name\t: 13th Gen Intel(R) Core(TM) i5-13450HX\nstepping\t: 1\nmicrocode\t: 0xffffffff\ncpu MHz\t\t: 3495.746\ncache size\t: 20480 KB\nphysical id\t: 1\nsiblings\t: 1\ncore id\t\t: 0\ncpu cores\t: 1\napicid\t\t: 1\ninitial apicid\t: 1\nfpu\t\t: yes\nfpu_exception\t: yes\ncpuid level\t: 28\nwp\t\t: yes\nflags\t\t: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss syscall nx pdpe1gb rdtscp lm constant_tsc rep_good nopl nonstop_tsc cpuid aperfmperf pni pclmulqdq ssse3 fma cx16 sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid rdseed adx clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves avx_vnni umip waitpkg gfni vaes vpclmulqdq rdpid movdiri movdir64b fsrm md_clear serialize ibt arch_capabilities\nbugs\t\t: spectre_v1 spectre_v2 spec_store_bypass swapgs retbleed rfds bhi\nbogomips\t: 5221.71\nclflush size\t: 64\ncache_alignment\t: 64\naddress sizes\t: 39 bits physical, 48 bits virtual\npower management:\n\n",
+                           "syscall":  "processor\t: 0\nvendor_id\t: GenuineIntel\ncpu family\t: 6\nmodel\t\t: 183\nmodel name\t: 13th Gen Intel(R) Core(TM) i5-13450HX\nstepping\t: 1\nmicrocode\t: 0xffffffff\ncpu MHz\t\t: 3868.091\ncache size\t: 20480 KB\nphysical id\t: 0\nsiblings\t: 1\ncore id\t\t: 0\ncpu cores\t: 1\napicid\t\t: 0\ninitial apicid\t: 0\nfpu\t\t: yes\nfpu_exception\t: yes\ncpuid level\t: 28\nwp\t\t: yes\nflags\t\t: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss syscall nx pdpe1gb rdtscp lm constant_tsc rep_good nopl nonstop_tsc cpuid aperfmperf pni pclmulqdq ssse3 fma cx16 sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid rdseed adx clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves avx_vnni umip waitpkg gfni vaes vpclmulqdq rdpid movdiri movdir64b fsrm md_clear serialize ibt arch_capabilities\nbugs\t\t: spectre_v1 spectre_v2 spec_store_bypass swapgs retbleed rfds bhi\nbogomips\t: 5221.71\nclflush size\t: 64\ncache_alignment\t: 64\naddress sizes\t: 39 bits physical, 48 bits virtual\npower management:\n\nprocessor\t: 1\nvendor_id\t: GenuineIntel\ncpu family\t: 6\nmodel\t\t: 183\nmodel name\t: 13th Gen Intel(R) Core(TM) i5-13450HX\nstepping\t: 1\nmicrocode\t: 0xffffffff\ncpu MHz\t\t: 3495.746\ncache size\t: 20480 KB\nphysical id\t: 1\nsiblings\t: 1\ncore id\t\t: 0\ncpu cores\t: 1\napicid\t\t: 1\ninitial apicid\t: 1\nfpu\t\t: yes\nfpu_exception\t: yes\ncpuid level\t: 28\nwp\t\t: yes\nflags\t\t: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss syscall nx pdpe1gb rdtscp lm constant_tsc rep_good nopl nonstop_tsc cpuid aperfmperf pni pclmulqdq ssse3 fma cx16 sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid rdseed adx clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves avx_vnni umip waitpkg gfni vaes vpclmulqdq rdpid movdiri movdir64b fsrm md_clear serialize ibt arch_capabilities\nbugs\t\t: spectre_v1 spectre_v2 spec_store_bypass swapgs retbleed rfds bhi\nbogomips\t: 5221.71\nclflush size\t: 64\ncache_alignment\t: 64\naddress sizes\t: 39 bits physical, 48 bits virtual\npower management:\n\n",
+                           "inline_syscall":  "processor\t: 0\nvendor_id\t: GenuineIntel\ncpu family\t: 6\nmodel\t\t: 183\nmodel name\t: 13th Gen Intel(R) Core(TM) i5-13450HX\nstepping\t: 1\nmicrocode\t: 0xffffffff\ncpu MHz\t\t: 3868.091\ncache size\t: 20480 KB\nphysical id\t: 0\nsiblings\t: 1\ncore id\t\t: 0\ncpu cores\t: 1\napicid\t\t: 0\ninitial apicid\t: 0\nfpu\t\t: yes\nfpu_exception\t: yes\ncpuid level\t: 28\nwp\t\t: yes\nflags\t\t: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss syscall nx pdpe1gb rdtscp lm constant_tsc rep_good nopl nonstop_tsc cpuid aperfmperf pni pclmulqdq ssse3 fma cx16 sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid rdseed adx clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves avx_vnni umip waitpkg gfni vaes vpclmulqdq rdpid movdiri movdir64b fsrm md_clear serialize ibt arch_capabilities\nbugs\t\t: spectre_v1 spectre_v2 spec_store_bypass swapgs retbleed rfds bhi\nbogomips\t: 5221.71\nclflush size\t: 64\ncache_alignment\t: 64\naddress sizes\t: 39 bits physical, 48 bits virtual\npower management:\n\nprocessor\t: 1\nvendor_id\t: GenuineIntel\ncpu family\t: 6\nmodel\t\t: 183\nmodel name\t: 13th Gen Intel(R) Core(TM) i5-13450HX\nstepping\t: 1\nmicrocode\t: 0xffffffff\ncpu MHz\t\t: 3495.746\ncache size\t: 20480 KB\nphysical id\t: 1\nsiblings\t: 1\ncore id\t\t: 0\ncpu cores\t: 1\napicid\t\t: 1\ninitial apicid\t: 1\nfpu\t\t: yes\nfpu_exception\t: yes\ncpuid level\t: 28\nwp\t\t: yes\nflags\t\t: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss syscall nx pdpe1gb rdtscp lm constant_tsc rep_good nopl nonstop_tsc cpuid aperfmperf pni pclmulqdq ssse3 fma cx16 sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid rdseed adx clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves avx_vnni umip waitpkg gfni vaes vpclmulqdq rdpid movdiri movdir64b fsrm md_clear serialize ibt arch_capabilities\nbugs\t\t: spectre_v1 spectre_v2 spec_store_bypass swapgs retbleed rfds bhi\nbogomips\t: 5221.71\nclflush size\t: 64\ncache_alignment\t: 64\naddress sizes\t: 39 bits physical, 48 bits virtual\npower management:\n\n"
+                       },
+    "graphics":  {
+                     "vendor":  "Google (Google Inc.)",
+                     "renderer":  "Android Emulator OpenGL ES Translator (Google SwiftShader)",
+                     "version":  "OpenGL ES 3.0 (OpenGL ES 3.0 SwiftShader 4.0.0.1)",
+                     "egl_vendor":  "Android"
+                 },
+    "inventory":  {
+                      "sensors":  [
+                                      {
+                                          "name":  "Goldfish 3-axis Accelerometer",
+                                          "vendor":  "The Android Open Source Project",
+                                          "type":  1
+                                      },
+                                      {
+                                          "name":  "Goldfish 3-axis Gyroscope",
+                                          "vendor":  "The Android Open Source Project",
+                                          "type":  4
+                                      },
+                                      {
+                                          "name":  "Goldfish 3-axis Magnetic field sensor",
+                                          "vendor":  "The Android Open Source Project",
+                                          "type":  2
+                                      },
+                                      {
+                                          "name":  "Goldfish Orientation sensor",
+                                          "vendor":  "The Android Open Source Project",
+                                          "type":  3
+                                      },
+                                      {
+                                          "name":  "Goldfish Ambient Temperature sensor",
+                                          "vendor":  "The Android Open Source Project",
+                                          "type":  13
+                                      },
+                                      {
+                                          "name":  "Goldfish Proximity sensor",
+                                          "vendor":  "The Android Open Source Project",
+                                          "type":  8
+                                      },
+                                      {
+                                          "name":  "Goldfish Light sensor",
+                                          "vendor":  "The Android Open Source Project",
+                                          "type":  5
+                                      },
+                                      {
+                                          "name":  "Goldfish Pressure sensor",
+                                          "vendor":  "The Android Open Source Project",
+                                          "type":  6
+                                      },
+                                      {
+                                          "name":  "Goldfish Humidity sensor",
+                                          "vendor":  "The Android Open Source Project",
+                                          "type":  12
+                                      },
+                                      {
+                                          "name":  "Goldfish 3-axis Magnetic field sensor (uncalibrated)",
+                                          "vendor":  "The Android Open Source Project",
+                                          "type":  14
+                                      },
+                                      {
+                                          "name":  "Goldfish 3-axis Gyroscope (uncalibrated)",
+                                          "vendor":  "The Android Open Source Project",
+                                          "type":  16
+                                      },
+                                      {
+                                          "name":  "Goldfish 3-axis Accelerometer Uncalibrated",
+                                          "vendor":  "The Android Open Source Project",
+                                          "type":  35
+                                      },
+                                      {
+                                          "name":  "Game Rotation Vector Sensor",
+                                          "vendor":  "AOSP",
+                                          "type":  15
+                                      },
+                                      {
+                                          "name":  "GeoMag Rotation Vector Sensor",
+                                          "vendor":  "AOSP",
+                                          "type":  20
+                                      },
+                                      {
+                                          "name":  "Gravity Sensor",
+                                          "vendor":  "AOSP",
+                                          "type":  9
+                                      },
+                                      {
+                                          "name":  "Linear Acceleration Sensor",
+                                          "vendor":  "AOSP",
+                                          "type":  10
+                                      },
+                                      {
+                                          "name":  "Rotation Vector Sensor",
+                                          "vendor":  "AOSP",
+                                          "type":  11
+                                      },
+                                      {
+                                          "name":  "Orientation Sensor",
+                                          "vendor":  "AOSP",
+                                          "type":  3
+                                      }
+                                  ],
+                      "battery":  {
+                                      "level":  100,
+                                      "scale":  100,
+                                      "temperature":  250,
+                                      "status":  2
+                                  }
+                  },
+    "checks":  [
+                   {
+                       "id":  "java.identity",
+                       "layer":  "java",
+                       "status":  "detected",
+                       "observed":  "sdk_gphone64_x86_64 sdk_gphone64_x86_64 ranchu emu64xa google"
+                   },
+                   {
+                       "id":  "java.fingerprint",
+                       "layer":  "java",
+                       "status":  "detected",
+                       "observed":  "google/sdk_gphone64_x86_64/emu64xa:15/AE3A.240806.036/12592187:user/release-keys"
+                   },
+                   {
+                       "id":  "java.abi",
+                       "layer":  "java",
+                       "status":  "detected",
+                       "observed":  "[x86_64, arm64-v8a]"
+                   },
+                   {
+                       "id":  "property.java.ro.kernel.qemu",
+                       "layer":  "java",
+                       "status":  "detected",
+                       "observed":  "1"
+                   },
+                   {
+                       "id":  "property.java.ro.boot.qemu",
+                       "layer":  "java",
+                       "status":  "detected",
+                       "observed":  "1"
+                   },
+                   {
+                       "id":  "property.java.ro.hardware",
+                       "layer":  "java",
+                       "status":  "detected",
+                       "observed":  "ranchu"
+                   },
+                   {
+                       "id":  "property.subprocess.ro.kernel.qemu",
+                       "layer":  "subprocess",
+                       "status":  "detected",
+                       "observed":  "1"
+                   },
+                   {
+                       "id":  "property.subprocess.ro.boot.qemu",
+                       "layer":  "subprocess",
+                       "status":  "detected",
+                       "observed":  "1"
+                   },
+                   {
+                       "id":  "property.subprocess.ro.hardware",
+                       "layer":  "subprocess",
+                       "status":  "detected",
+                       "observed":  "ranchu"
+                   },
+                   {
+                       "id":  "property.native.get.ro.hardware",
+                       "layer":  "native",
+                       "status":  "detected",
+                       "observed":  "ranchu"
+                   },
+                   {
+                       "id":  "property.native.callback.ro.hardware",
+                       "layer":  "native",
+                       "status":  "detected",
+                       "observed":  "ranchu"
+                   },
+                   {
+                       "id":  "property.native.get.ro.product.cpu.abilist",
+                       "layer":  "native",
+                       "status":  "detected",
+                       "observed":  "x86_64,arm64-v8a"
+                   },
+                   {
+                       "id":  "property.native.callback.ro.product.cpu.abilist",
+                       "layer":  "native",
+                       "status":  "detected",
+                       "observed":  "x86_64,arm64-v8a"
+                   },
+                   {
+                       "id":  "property.native.get.ro.dalvik.vm.native.bridge",
+                       "layer":  "native",
+                       "status":  "detected",
+                       "observed":  "libndk_translation.so"
+                   },
+                   {
+                       "id":  "property.native.callback.ro.dalvik.vm.native.bridge",
+                       "layer":  "native",
+                       "status":  "detected",
+                       "observed":  "libndk_translation.so"
+                   },
+                   {
+                       "id":  "property.native.get.ro.dalvik.vm.isa.arm64",
+                       "layer":  "native",
+                       "status":  "detected",
+                       "observed":  "x86_64"
+                   },
+                   {
+                       "id":  "property.native.callback.ro.dalvik.vm.isa.arm64",
+                       "layer":  "native",
+                       "status":  "detected",
+                       "observed":  "x86_64"
+                   },
+                   {
+                       "id":  "native.cpuinfo.fopen",
+                       "layer":  "native",
+                       "status":  "detected",
+                       "observed":  "processor\t: 0\nvendor_id\t: GenuineIntel\ncpu family\t: 6\nmodel\t\t: 183\nmodel name\t: 13th Gen Intel(R) Core(TM) i5-13450HX\nstepping\t: 1\nmicrocode\t: 0xffffffff\ncpu MHz\t\t: 3868.091\ncache size\t: 20480 KB\nphysical id\t: 0\nsiblings\t: 1\ncore id\t\t: 0\ncpu cores\t: 1\napicid\t\t: 0\ninitial apicid\t: 0\nfpu\t\t: yes\nfpu_exception\t: yes\ncpuid level\t: 28\nwp\t\t: yes\nflags\t\t: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss syscall nx pdpe1gb rdtscp lm constant_tsc rep_good nopl nonstop_tsc cpuid aperfmperf pni pclmulqdq ssse3 fma cx16 sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid rdseed adx clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves avx_vnni umip waitpkg gfni vaes vpclmulqdq rdpid movdiri movdir64b fsrm md_clear serialize ibt arch_capabilities\nbugs\t\t: spectre_v1 spectre_v2 spec_store_bypass swapgs retbleed rfds bhi\nbogomips\t: 5221.71\nclflush size\t: 64\ncache_alignment\t: 64\naddress sizes\t: 39 bits physical, 48 bits virtual\npower management:\n\nprocessor\t: 1\nvendor_id\t: GenuineIntel\ncpu family\t: 6\nmodel\t\t: 183\nmodel name\t: 13th Gen Intel(R) Core(TM) i5-13450HX\nstepping\t: 1\nmicrocode\t: 0xffffffff\ncpu MHz\t\t: 3495.746\ncache size\t: 20480 KB\nphysical id\t: 1\nsiblings\t: 1\ncore id\t\t: 0\ncpu cores\t: 1\napicid\t\t: 1\ninitial apicid\t: 1\nfpu\t\t: yes\nfpu_exception\t: yes\ncpuid level\t: 28\nwp\t\t: yes\nflags\t\t: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss syscall nx pdpe1gb rdtscp lm constant_tsc rep_good nopl nonstop_tsc cpuid aperfmperf pni pclmulqdq ssse3 fma cx16 sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid rdseed adx clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves avx_vnni umip waitpkg gfni vaes vpclmulqdq rdpid movdiri movdir64b fsrm md_clear serialize ibt arch_capabilities\nbugs\t\t: spectre_v1 spectre_v2 spec_store_bypass swapgs retbleed rfds bhi\nbogomips\t: 5221.71\nclflush size\t: 64\ncache_alignment\t: 64\naddress sizes\t: 39 bits physical, 48 bits virtual\npower management:\n\n"
+                   },
+                   {
+                       "id":  "native.cpuinfo.open",
+                       "layer":  "native",
+                       "status":  "detected",
+                       "observed":  "processor\t: 0\nvendor_id\t: GenuineIntel\ncpu family\t: 6\nmodel\t\t: 183\nmodel name\t: 13th Gen Intel(R) Core(TM) i5-13450HX\nstepping\t: 1\nmicrocode\t: 0xffffffff\ncpu MHz\t\t: 3868.091\ncache size\t: 20480 KB\nphysical id\t: 0\nsiblings\t: 1\ncore id\t\t: 0\ncpu cores\t: 1\napicid\t\t: 0\ninitial apicid\t: 0\nfpu\t\t: yes\nfpu_exception\t: yes\ncpuid level\t: 28\nwp\t\t: yes\nflags\t\t: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss syscall nx pdpe1gb rdtscp lm constant_tsc rep_good nopl nonstop_tsc cpuid aperfmperf pni pclmulqdq ssse3 fma cx16 sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid rdseed adx clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves avx_vnni umip waitpkg gfni vaes vpclmulqdq rdpid movdiri movdir64b fsrm md_clear serialize ibt arch_capabilities\nbugs\t\t: spectre_v1 spectre_v2 spec_store_bypass swapgs retbleed rfds bhi\nbogomips\t: 5221.71\nclflush size\t: 64\ncache_alignment\t: 64\naddress sizes\t: 39 bits physical, 48 bits virtual\npower management:\n\nprocessor\t: 1\nvendor_id\t: GenuineIntel\ncpu family\t: 6\nmodel\t\t: 183\nmodel name\t: 13th Gen Intel(R) Core(TM) i5-13450HX\nstepping\t: 1\nmicrocode\t: 0xffffffff\ncpu MHz\t\t: 3495.746\ncache size\t: 20480 KB\nphysical id\t: 1\nsiblings\t: 1\ncore id\t\t: 0\ncpu cores\t: 1\napicid\t\t: 1\ninitial apicid\t: 1\nfpu\t\t: yes\nfpu_exception\t: yes\ncpuid level\t: 28\nwp\t\t: yes\nflags\t\t: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss syscall nx pdpe1gb rdtscp lm constant_tsc rep_good nopl nonstop_tsc cpuid aperfmperf pni pclmulqdq ssse3 fma cx16 sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid rdseed adx clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves avx_vnni umip waitpkg gfni vaes vpclmulqdq rdpid movdiri movdir64b fsrm md_clear serialize ibt arch_capabilities\nbugs\t\t: spectre_v1 spectre_v2 spec_store_bypass swapgs retbleed rfds bhi\nbogomips\t: 5221.71\nclflush size\t: 64\ncache_alignment\t: 64\naddress sizes\t: 39 bits physical, 48 bits virtual\npower management:\n\n"
+                   },
+                   {
+                       "id":  "native.cpuinfo.openat",
+                       "layer":  "native",
+                       "status":  "detected",
+                       "observed":  "processor\t: 0\nvendor_id\t: GenuineIntel\ncpu family\t: 6\nmodel\t\t: 183\nmodel name\t: 13th Gen Intel(R) Core(TM) i5-13450HX\nstepping\t: 1\nmicrocode\t: 0xffffffff\ncpu MHz\t\t: 3868.091\ncache size\t: 20480 KB\nphysical id\t: 0\nsiblings\t: 1\ncore id\t\t: 0\ncpu cores\t: 1\napicid\t\t: 0\ninitial apicid\t: 0\nfpu\t\t: yes\nfpu_exception\t: yes\ncpuid level\t: 28\nwp\t\t: yes\nflags\t\t: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss syscall nx pdpe1gb rdtscp lm constant_tsc rep_good nopl nonstop_tsc cpuid aperfmperf pni pclmulqdq ssse3 fma cx16 sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid rdseed adx clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves avx_vnni umip waitpkg gfni vaes vpclmulqdq rdpid movdiri movdir64b fsrm md_clear serialize ibt arch_capabilities\nbugs\t\t: spectre_v1 spectre_v2 spec_store_bypass swapgs retbleed rfds bhi\nbogomips\t: 5221.71\nclflush size\t: 64\ncache_alignment\t: 64\naddress sizes\t: 39 bits physical, 48 bits virtual\npower management:\n\nprocessor\t: 1\nvendor_id\t: GenuineIntel\ncpu family\t: 6\nmodel\t\t: 183\nmodel name\t: 13th Gen Intel(R) Core(TM) i5-13450HX\nstepping\t: 1\nmicrocode\t: 0xffffffff\ncpu MHz\t\t: 3495.746\ncache size\t: 20480 KB\nphysical id\t: 1\nsiblings\t: 1\ncore id\t\t: 0\ncpu cores\t: 1\napicid\t\t: 1\ninitial apicid\t: 1\nfpu\t\t: yes\nfpu_exception\t: yes\ncpuid level\t: 28\nwp\t\t: yes\nflags\t\t: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss syscall nx pdpe1gb rdtscp lm constant_tsc rep_good nopl nonstop_tsc cpuid aperfmperf pni pclmulqdq ssse3 fma cx16 sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid rdseed adx clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves avx_vnni umip waitpkg gfni vaes vpclmulqdq rdpid movdiri movdir64b fsrm md_clear serialize ibt arch_capabilities\nbugs\t\t: spectre_v1 spectre_v2 spec_store_bypass swapgs retbleed rfds bhi\nbogomips\t: 5221.71\nclflush size\t: 64\ncache_alignment\t: 64\naddress sizes\t: 39 bits physical, 48 bits virtual\npower management:\n\n"
+                   },
+                   {
+                       "id":  "native.cpuinfo.syscall",
+                       "layer":  "syscall_control",
+                       "status":  "detected",
+                       "observed":  "processor\t: 0\nvendor_id\t: GenuineIntel\ncpu family\t: 6\nmodel\t\t: 183\nmodel name\t: 13th Gen Intel(R) Core(TM) i5-13450HX\nstepping\t: 1\nmicrocode\t: 0xffffffff\ncpu MHz\t\t: 3868.091\ncache size\t: 20480 KB\nphysical id\t: 0\nsiblings\t: 1\ncore id\t\t: 0\ncpu cores\t: 1\napicid\t\t: 0\ninitial apicid\t: 0\nfpu\t\t: yes\nfpu_exception\t: yes\ncpuid level\t: 28\nwp\t\t: yes\nflags\t\t: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss syscall nx pdpe1gb rdtscp lm constant_tsc rep_good nopl nonstop_tsc cpuid aperfmperf pni pclmulqdq ssse3 fma cx16 sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid rdseed adx clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves avx_vnni umip waitpkg gfni vaes vpclmulqdq rdpid movdiri movdir64b fsrm md_clear serialize ibt arch_capabilities\nbugs\t\t: spectre_v1 spectre_v2 spec_store_bypass swapgs retbleed rfds bhi\nbogomips\t: 5221.71\nclflush size\t: 64\ncache_alignment\t: 64\naddress sizes\t: 39 bits physical, 48 bits virtual\npower management:\n\nprocessor\t: 1\nvendor_id\t: GenuineIntel\ncpu family\t: 6\nmodel\t\t: 183\nmodel name\t: 13th Gen Intel(R) Core(TM) i5-13450HX\nstepping\t: 1\nmicrocode\t: 0xffffffff\ncpu MHz\t\t: 3495.746\ncache size\t: 20480 KB\nphysical id\t: 1\nsiblings\t: 1\ncore id\t\t: 0\ncpu cores\t: 1\napicid\t\t: 1\ninitial apicid\t: 1\nfpu\t\t: yes\nfpu_exception\t: yes\ncpuid level\t: 28\nwp\t\t: yes\nflags\t\t: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss syscall nx pdpe1gb rdtscp lm constant_tsc rep_good nopl nonstop_tsc cpuid aperfmperf pni pclmulqdq ssse3 fma cx16 sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid rdseed adx clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves avx_vnni umip waitpkg gfni vaes vpclmulqdq rdpid movdiri movdir64b fsrm md_clear serialize ibt arch_capabilities\nbugs\t\t: spectre_v1 spectre_v2 spec_store_bypass swapgs retbleed rfds bhi\nbogomips\t: 5221.71\nclflush size\t: 64\ncache_alignment\t: 64\naddress sizes\t: 39 bits physical, 48 bits virtual\npower management:\n\n"
+                   },
+                   {
+                       "id":  "native.cpuinfo.inline_syscall",
+                       "layer":  "syscall_control",
+                       "status":  "detected",
+                       "observed":  "processor\t: 0\nvendor_id\t: GenuineIntel\ncpu family\t: 6\nmodel\t\t: 183\nmodel name\t: 13th Gen Intel(R) Core(TM) i5-13450HX\nstepping\t: 1\nmicrocode\t: 0xffffffff\ncpu MHz\t\t: 3868.091\ncache size\t: 20480 KB\nphysical id\t: 0\nsiblings\t: 1\ncore id\t\t: 0\ncpu cores\t: 1\napicid\t\t: 0\ninitial apicid\t: 0\nfpu\t\t: yes\nfpu_exception\t: yes\ncpuid level\t: 28\nwp\t\t: yes\nflags\t\t: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss syscall nx pdpe1gb rdtscp lm constant_tsc rep_good nopl nonstop_tsc cpuid aperfmperf pni pclmulqdq ssse3 fma cx16 sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid rdseed adx clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves avx_vnni umip waitpkg gfni vaes vpclmulqdq rdpid movdiri movdir64b fsrm md_clear serialize ibt arch_capabilities\nbugs\t\t: spectre_v1 spectre_v2 spec_store_bypass swapgs retbleed rfds bhi\nbogomips\t: 5221.71\nclflush size\t: 64\ncache_alignment\t: 64\naddress sizes\t: 39 bits physical, 48 bits virtual\npower management:\n\nprocessor\t: 1\nvendor_id\t: GenuineIntel\ncpu family\t: 6\nmodel\t\t: 183\nmodel name\t: 13th Gen Intel(R) Core(TM) i5-13450HX\nstepping\t: 1\nmicrocode\t: 0xffffffff\ncpu MHz\t\t: 3495.746\ncache size\t: 20480 KB\nphysical id\t: 1\nsiblings\t: 1\ncore id\t\t: 0\ncpu cores\t: 1\napicid\t\t: 1\ninitial apicid\t: 1\nfpu\t\t: yes\nfpu_exception\t: yes\ncpuid level\t: 28\nwp\t\t: yes\nflags\t\t: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss syscall nx pdpe1gb rdtscp lm constant_tsc rep_good nopl nonstop_tsc cpuid aperfmperf pni pclmulqdq ssse3 fma cx16 sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid rdseed adx clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves avx_vnni umip waitpkg gfni vaes vpclmulqdq rdpid movdiri movdir64b fsrm md_clear serialize ibt arch_capabilities\nbugs\t\t: spectre_v1 spectre_v2 spec_store_bypass swapgs retbleed rfds bhi\nbogomips\t: 5221.71\nclflush size\t: 64\ncache_alignment\t: 64\naddress sizes\t: 39 bits physical, 48 bits virtual\npower management:\n\n"
+                   },
+                   {
+                       "id":  "native.runtime_architecture",
+                       "layer":  "instruction_set_control",
+                       "status":  "detected",
+                       "observed":  "x86_64"
+                   },
+                   {
+                       "id":  "native.file_semantics",
+                       "layer":  "io_control",
+                       "status":  "clear",
+                       "observed":  "Read-only, close-on-exec, seek and repeated read"
+                   },
+                   {
+                       "id":  "native.regular_file.metadata",
+                       "layer":  "io_control",
+                       "status":  "clear",
+                       "observed":  "[0xef53, /data/data/dev.androidlab.probe/files/native-control.txt]"
+                   },
+                   {
+                       "id":  "native.regular_file.fopen",
+                       "layer":  "io_control",
+                       "status":  "clear",
+                       "observed":  "Device Lab native I/O control\n"
+                   },
+                   {
+                       "id":  "native.regular_file.open",
+                       "layer":  "io_control",
+                       "status":  "clear",
+                       "observed":  "Device Lab native I/O control\n"
+                   },
+                   {
+                       "id":  "native.regular_file.openat",
+                       "layer":  "io_control",
+                       "status":  "clear",
+                       "observed":  "Device Lab native I/O control\n"
+                   },
+                   {
+                       "id":  "native.regular_file.syscall",
+                       "layer":  "io_control",
+                       "status":  "clear",
+                       "observed":  "Device Lab native I/O control\n"
+                   },
+                   {
+                       "id":  "native.regular_file.inline_syscall",
+                       "layer":  "io_control",
+                       "status":  "clear",
+                       "observed":  "Device Lab native I/O control\n"
+                   },
+                   {
+                       "id":  "java.abi.primary_consistency",
+                       "layer":  "identity_consistency",
+                       "status":  "clear",
+                       "observed":  "CPU_ABI=x86_64; SUPPORTED_ABIS=[x86_64, arm64-v8a]"
+                   },
+                   {
+                       "id":  "java.build.fingerprint_fields",
+                       "layer":  "identity_consistency",
+                       "status":  "clear",
+                       "observed":  "fingerprint=google/sdk_gphone64_x86_64/emu64xa:15/AE3A.240806.036/12592187:user/release-keys; fields=google/sdk_gphone64_x86_64/emu64xa:15/AE3A.240806.036/12592187:user/release-keys"
+                   },
+                   {
+                       "id":  "kernel.java.uname",
+                       "layer":  "kernel",
+                       "status":  "detected",
+                       "observed":  "x86_64"
+                   },
+                   {
+                       "id":  "kernel.subprocess.uname",
+                       "layer":  "kernel",
+                       "status":  "detected",
+                       "observed":  "x86_64"
+                   },
+                   {
+                       "id":  "kernel.subprocess.clean_env_uname",
+                       "layer":  "kernel",
+                       "status":  "detected",
+                       "observed":  "x86_64"
+                   },
+                   {
+                       "id":  "kernel.native.uname",
+                       "layer":  "kernel",
+                       "status":  "detected",
+                       "observed":  "x86_64"
+                   },
+                   {
+                       "id":  "kernel.inline.uname",
+                       "layer":  "kernel",
+                       "status":  "detected",
+                       "observed":  "x86_64"
+                   },
+                   {
+                       "id":  "native.auxv.platform",
+                       "layer":  "kernel",
+                       "status":  "detected",
+                       "observed":  "x86_64"
+                   },
+                   {
+                       "id":  "native.cpuinfo.filesystem_type",
+                       "layer":  "filesystem_metadata",
+                       "status":  "clear",
+                       "observed":  "0x9fa0"
+                   },
+                   {
+                       "id":  "native.cpuinfo.descriptor_alias",
+                       "layer":  "filesystem_metadata",
+                       "status":  "clear",
+                       "observed":  "/proc/cpuinfo"
+                   },
+                   {
+                       "id":  "native.maps.translation",
+                       "layer":  "translation",
+                       "status":  "detected",
+                       "observed":  "7c5ec6a5f000-7c5ec6b4a000 r--p 00000000 fe:05 17058753                   /system/lib64/libndk_translation.so\n7c5ec6b4b000-7c5ec6d4e000 r-xp 000ec000 fe:05 17058753                   /system/lib64/libndk_translation.so\n7c5ec6d4f000-7c5ec6db8000 r--p 002f0000 fe:05 17058753                   /system/lib64/libndk_translation.so\n7c5ec6dbb000-7c5ec6dbc000 rw-p 0035c000 fe:05 17058753                   /system/lib64/libndk_translation.so"
+                   },
+                   {
+                       "id":  "native.maps.instrumentation",
+                       "layer":  "instrumentation",
+                       "status":  "clear",
+                       "observed":  "none"
+                   },
+                   {
+                       "id":  "native.mountinfo.profile",
+                       "layer":  "filesystem_metadata",
+                       "status":  "clear",
+                       "observed":  "none"
+                   },
+                   {
+                       "id":  "native.cpuinfo.alias",
+                       "layer":  "syscall_control",
+                       "status":  "detected",
+                       "observed":  "processor\t: 0\nvendor_id\t: GenuineIntel\ncpu family\t: 6\nmodel\t\t: 183\nmodel name\t: 13th Gen Intel(R) Core(TM) i5-13450HX\nstepping\t: 1\nmicrocode\t: 0xffffffff\ncpu MHz\t\t: 3714.171\ncache size\t: 20480 KB\nphysical id\t: 0\nsiblings\t: 1\ncore id\t\t: 0\ncpu cores\t: 1\napicid\t\t: 0\ninitial apicid\t: 0\nfpu\t\t: yes\nfpu_exception\t: yes\ncpuid level\t: 28\nwp\t\t: yes\nflags\t\t: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss syscall nx pdpe1gb rdtscp lm constant_tsc rep_good nopl nonstop_tsc cpuid aperfmperf pni pclmulqdq ssse3 fma cx16 sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid rdseed adx clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves avx_vnni umip waitpkg gfni vaes vpclmulqdq rdpid movdiri movdir64b fsrm md_clear serialize ibt arch_capabilities\nbugs\t\t: spectre_v1 spectre_v2 spec_store_bypass swapgs retbleed rfds bhi\nbogomips\t: 5221.71\nclflush size\t: 64\ncache_alignment\t: 64\naddress sizes\t: 39 bits physical, 48 bits virtual\npower management:\n\nprocessor\t: 1\nvendor_id\t: GenuineIntel\ncpu family\t: 6\nmodel\t\t: 183\nmodel name\t: 13th Gen Intel(R) Core(TM) i5-13450HX\nstepping\t: 1\nmicrocode\t: 0xffffffff\ncpu MHz\t\t: 3710.374\ncache size\t: 20480 KB\nphysical id\t: 1\nsiblings\t: 1\ncore id\t\t: 0\ncpu cores\t: 1\napicid\t\t: 1\ninitial apicid\t: 1\nfpu\t\t: yes\nfpu_exception\t: yes\ncpuid level\t: 28\nwp\t\t: yes\nflags\t\t: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss syscall nx pdpe1gb rdtscp lm constant_tsc rep_good nopl nonstop_tsc cpuid aperfmperf pni pclmulqdq ssse3 fma cx16 sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid rdseed adx clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves avx_vnni umip waitpkg gfni vaes vpclmulqdq rdpid movdiri movdir64b fsrm md_clear serialize ibt arch_capabilities\nbugs\t\t: spectre_v1 spectre_v2 spec_store_bypass swapgs retbleed rfds bhi\nbogomips\t: 5221.71\nclflush size\t: 64\ncache_alignment\t: 64\naddress sizes\t: 39 bits physical, 48 bits virtual\npower management:\n\n"
+                   },
+                   {
+                       "id":  "graphics.vendor",
+                       "layer":  "graphics",
+                       "status":  "clear",
+                       "observed":  "Google (Google Inc.)"
+                   },
+                   {
+                       "id":  "graphics.renderer",
+                       "layer":  "graphics",
+                       "status":  "detected",
+                       "observed":  "Android Emulator OpenGL ES Translator (Google SwiftShader)"
+                   },
+                   {
+                       "id":  "graphics.version",
+                       "layer":  "graphics",
+                       "status":  "detected",
+                       "observed":  "OpenGL ES 3.0 (OpenGL ES 3.0 SwiftShader 4.0.0.1)"
+                   },
+                   {
+                       "id":  "graphics.egl_vendor",
+                       "layer":  "graphics",
+                       "status":  "clear",
+                       "observed":  "Android"
+                   },
+                   {
+                       "id":  "graphics.identity_consistency",
+                       "layer":  "identity_consistency",
+                       "status":  "clear",
+                       "observed":  "vendor=Google (Google Inc.); renderer=Android Emulator OpenGL ES Translator (Google SwiftShader); version=OpenGL ES 3.0 (OpenGL ES 3.0 SwiftShader 4.0.0.1)"
+                   },
+                   {
+                       "id":  "native.identity.property_consistency",
+                       "layer":  "identity_consistency",
+                       "status":  "clear",
+                       "observed":  "{\"ro.build.id\":{\"get\":\"AE3A.240806.036\",\"callback\":\"AE3A.240806.036\",\"java\":\"AE3A.240806.036\"},\"ro.build.type\":{\"get\":\"user\",\"callback\":\"user\",\"java\":\"user\"},\"ro.build.tags\":{\"get\":\"release-keys\",\"callback\":\"release-keys\",\"java\":\"release-keys\"},\"ro.build.version.incremental\":{\"get\":\"12592187\",\"callback\":\"12592187\",\"java\":\"12592187\"}}"
+                   },
+                   {
+                       "id":  "file./dev/qemu_pipe",
+                       "layer":  "filesystem",
+                       "status":  "clear",
+                       "observed":  "/dev/qemu_pipe"
+                   },
+                   {
+                       "id":  "file./dev/goldfish_pipe",
+                       "layer":  "filesystem",
+                       "status":  "clear",
+                       "observed":  "/dev/goldfish_pipe"
+                   },
+                   {
+                       "id":  "file./dev/socket/qemud",
+                       "layer":  "filesystem",
+                       "status":  "clear",
+                       "observed":  "/dev/socket/qemud"
+                   },
+                   {
+                       "id":  "sensor.metadata",
+                       "layer":  "framework",
+                       "status":  "detected",
+                       "observed":  "[{\"name\":\"Goldfish 3-axis Accelerometer\",\"vendor\":\"The Android Open Source Project\",\"type\":1},{\"name\":\"Goldfish 3-axis Gyroscope\",\"vendor\":\"The Android Open Source Project\",\"type\":4},{\"name\":\"Goldfish 3-axis Magnetic field sensor\",\"vendor\":\"The Android Open Source Project\",\"type\":2},{\"name\":\"Goldfish Orientation sensor\",\"vendor\":\"The Android Open Source Project\",\"type\":3},{\"name\":\"Goldfish Ambient Temperature sensor\",\"vendor\":\"The Android Open Source Project\",\"type\":13},{\"name\":\"Goldfish Proximity sensor\",\"vendor\":\"The Android Open Source Project\",\"type\":8},{\"name\":\"Goldfish Light sensor\",\"vendor\":\"The Android Open Source Project\",\"type\":5},{\"name\":\"Goldfish Pressure sensor\",\"vendor\":\"The Android Open Source Project\",\"type\":6},{\"name\":\"Goldfish Humidity sensor\",\"vendor\":\"The Android Open Source Project\",\"type\":12},{\"name\":\"Goldfish 3-axis Magnetic field sensor (uncalibrated)\",\"vendor\":\"The Android Open Source Project\",\"type\":14},{\"name\":\"Goldfish 3-axis Gyroscope (uncalibrated)\",\"vendor\":\"The Android Open Source Project\",\"type\":16},{\"name\":\"Goldfish 3-axis Accelerometer Uncalibrated\",\"vendor\":\"The Android Open Source Project\",\"type\":35},{\"name\":\"Game Rotation Vector Sensor\",\"vendor\":\"AOSP\",\"type\":15},{\"name\":\"GeoMag Rotation Vector Sensor\",\"vendor\":\"AOSP\",\"type\":20},{\"name\":\"Gravity Sensor\",\"vendor\":\"AOSP\",\"type\":9},{\"name\":\"Linear Acceleration Sensor\",\"vendor\":\"AOSP\",\"type\":10},{\"name\":\"Rotation Vector Sensor\",\"vendor\":\"AOSP\",\"type\":11},{\"name\":\"Orientation Sensor\",\"vendor\":\"AOSP\",\"type\":3}]"
+                   }
+               ],
+    "summary":  {
+                    "detected":  34,
+                    "unavailable":  0,
+                    "total":  54
+                },
+    "integrity":  "not_tested",
+    "interpretation":  "Heuristic signals only. A clear check is not proof of a physical device. File visibility and permissions can limit observations.",
+    "apk_sha256":  "ab4dafd201527cf0f72a1c2ff4f9bd41fd4dbaa921d336d1983319ac611554ed",
+    "installed_abi":  "x86_64"
+}

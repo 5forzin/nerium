@@ -1,0 +1,18 @@
+{
+  "captured_at": "2026-10-24T23:42:20.7554030+00:00",
+  "installed_apk_sha256": "36c6c59b25ffdcd49eb65015bd1225f0065c38093fbb23a387b22a693d52b781",
+  "built_apk_sha256": "36c6c59b25ffdcd49eb65015bd1225f0065c38093fbb23a387b22a693d52b781",
+  "installed_namespace_sha256": "363183c50b721550bed17feaadc4993e6f8995f64a6e99c695cc48393beb30c0",
+  "boot_id": "27e531fe-772c-4ef2-bfb7-e45f35c28b35",
+  "activation_boot_id": "27e531fe-772c-4ef2-bfb7-e45f35c28b35",
+  "adbd": "running",
+  "adb_enabled": "0",
+  "auth": "1",
+  "kernel": "Linux localhost 6.1.23-android14-4-00257-g7e35917775b8-ab9964412 #4 SMP PREEMPT Sat Oct 24 23:26:40 UTC 2026 x86_64 Toybox",
+  "native_scope": "dev.androidlab.probe\ndev.androidlab.rawprobe\ndev.androidlab.procprobe\ncom.eltavine.duckdetector\ncom.reveny.emulator.detection.sample\ncom.framgia.example.emulatordetector\ncom.felhr.emulatordetector\ncom.reveny.nativecheck\nicu.nullptr.nativetest\nio.github.vvb2060.nativedetector",
+  "native_runtime_scope": "dev.androidlab.probe\ndev.androidlab.rawprobe\ndev.androidlab.procprobe\ncom.eltavine.duckdetector\ncom.reveny.emulator.detection.sample\ncom.framgia.example.emulatordetector\ncom.felhr.emulatordetector\ncom.reveny.nativecheck\nicu.nullptr.nativetest\nio.github.vvb2060.nativedetector",
+  "restrict_isolated_proc": true,
+  "built_namespace_sha256": "363183c50b721550bed17feaadc4993e6f8995f64a6e99c695cc48393beb30c0",
+  "adb_root": "0",
+  "shell_uid": "2000"
+}

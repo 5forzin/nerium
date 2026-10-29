@@ -1,0 +1,10 @@
+﻿{
+    "schema_version":  1,
+    "captured_at_ms":  1792905982199,
+    "package":  "dev.androidlab.integrityprobe",
+    "status":  "request_failed",
+    "cloud_project_number":  45438431209,
+    "nonce_base64url":  "Rxero2PgjrSezQw5jCHfOJDO4u5fwjyhVTyma42ANYs",
+    "error_code":  -17,
+    "apk_sha256":  "676e2aa8ed58aaeca6b9babaaf7d88a141b10e35a09206afe87bb2199edeb070"
+}

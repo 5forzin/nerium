@@ -1,0 +1,46 @@
+{
+  "attestation": "strict-v15-hostnonce-b.json",
+  "duck": "strict-v15-duck-four-offline.json",
+  "duck_apk_sha256": "9d0bbdab9c0b14334c9ec0d319758c5f9085260a09388486482b2ac497c81ffc",
+  "duck_source_revision": "b5305070468a497842f54fbe998521fbc9d87ddc",
+  "source": "https://github.com/eltavine/Duck-Detector-Refactoring/blob/b5305070468a497842f54fbe998521fbc9d87ddc/capability/attestation/data/src/main/kotlin/com/eltavine/duckdetector/capability/attestation/data/CertificateTrustAnalyzer.kt",
+  "duck_export_sha256": "ff69aed15d72290dd993b4327d8e05615f4ebca577b6ec0086d6f8957c628dc6",
+  "independent_root_certificate_sha256": "a96496be813505610011960ca9f3f5df818b36f14ab121d26f4517cb04d291c0",
+  "independent_root_public_key_sha256": "925a702d36c9c08b76a16caf2b55ba62f464361b096a03c491011ec7b17cc4ff",
+  "duck_root_public_key_fingerprints": [
+    "925a702d36c9c08b76a16caf2b55ba62f464361b096a03c491011ec7b17cc4ff"
+  ],
+  "root_public_key_fingerprint_agrees": true,
+  "signed_claims": {
+    "attestation_version": 300,
+    "attestation_security_level": 0,
+    "keymaster_version": 300,
+    "keymaster_security_level": 0,
+    "root_of_trust": {
+      "authorization_list": "software",
+      "verified_boot_key": "0000000000000000000000000000000000000000000000000000000000000000",
+      "device_locked": false,
+      "verified_boot_state": 2,
+      "verified_boot_hash": "0000000000000000000000000000000000000000000000000000000000000000"
+    }
+  },
+  "external_nonce_binding_verified": true,
+  "external_challenge": {
+    "file": "strict-v15-hostnonce-b-challenge.json",
+    "sha256": "a78f7fbfae2d71dcf29b14a32523c49d206465871303e2218bca3d9dbd526aca"
+  },
+  "bootloader_signal_inputs": {
+    "boot_state": 2,
+    "lock_state": false,
+    "attested_boot_state": 2,
+    "attested_lock": false,
+    "attested_boot_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+    "attested_boot_key": "0000000000000000000000000000000000000000000000000000000000000000"
+  },
+  "interpretation": [
+    "Duck fingerprints SubjectPublicKeyInfo, whereas the independent root_sha256 fingerprints the entire certificate.",
+    "The six Bootloader danger entries reuse four signed boot fields; they are not six independent hardware defects.",
+    "In the pinned Duck analyzer, Factory is a fallback label after Google-root matching and AOSP name patterns; it does not establish manufacturer trust."
+  ],
+  "scope": "Correlates public-key fingerprints and boot inputs only. Duck does not export its complete certificate chain here. The independent verifier checks its own chain, nonce and possession signature; manufacturer trust remains unestablished."
+}

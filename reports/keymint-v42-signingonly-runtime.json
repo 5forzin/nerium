@@ -1,0 +1,31 @@
+{
+  "graceful_shutdown": true,
+  "backend": {
+    "state": "closed",
+    "frames": 67,
+    "payload_bytes_in": 9948,
+    "payload_bytes_out": 5713,
+    "cng_generations": 1,
+    "software_generations": 4,
+    "protected_signatures": 1,
+    "android_tee_verified": false
+  },
+  "owner": {
+    "schema_version": 1,
+    "name": "candidate4",
+    "started_at": "2026-10-26T19:52:35.3829991-03:00",
+    "emulator_pid": 8296,
+    "pipe_name": "adl-keymint-v42-c31be0d84585ea57",
+    "serial": "emulator-5586",
+    "avd": "device-lab-keymint-v42",
+    "runtime": "E:\\Workstation\\projects\\android-device-lab\\.local\\keymint-v42",
+    "launch_input_sha256": {
+      "kernel-platform": "81f3eddb5ebc4ce67feff18b1933eeaee7deca532266ae61c3d428f2e59cbd11",
+      "ramdisk-platform.img": "0a7b6fac2ba902d4c00deb1ebd606b20839c4b06d4ef832492ec893b5fb3e969"
+    },
+    "backend_pid": 29584,
+    "backend_sha256": "ae2f3ca25eff17a588462efad7fd9321996cc29bc31f287f44bb5d72f05e209f"
+  },
+  "schema_version": 1,
+  "recorded_at": "2026-10-26T23:02:03.0133836+00:00"
+}

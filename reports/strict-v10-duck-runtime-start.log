@@ -1,0 +1,225 @@
+--------- beginning of main
+10-24 17:33:02.734  2615  2615 I DeviceLabNamespace: profile mount status=0 pid=2615
+10-24 17:33:02.759  2615  2615 I DeviceLabNamespace: uname broker status=0 pid=2615
+10-24 17:33:02.759  2615  2615 I DeviceLabNamespace: proc broker enabled=1
+10-24 17:33:02.785  2615  2615 I DeviceLabPolicy: policy PLT installed=1
+10-24 17:33:02.799  2615  2615 I DeviceLabPolicy: openat2 policy status=0 source_length=260 original_suffix_preserved=1
+10-24 17:33:02.803  2615  2615 I ne.duckdetector: Using CollectorTypeCC GC.
+10-24 17:33:02.809  2615  2615 W ne.duckdetector: Unexpected CPU variant for x86: x86_64.
+10-24 17:33:02.809  2615  2615 W ne.duckdetector: Known variants: atom, sandybridge, silvermont, goldmont, goldmont-plus, tremont, kabylake, default
+10-24 17:33:02.811  2615  2615 E ne.duckdetector: Not starting debugger since process cannot load the jdwp agent.
+10-24 17:33:02.823  2615  2615 I DeviceLabPolicy: policy PLT restored=1
+10-24 17:33:02.843  2615  2615 I DeviceLabNamespace: property remap status=0 pid=2615
+10-24 17:33:02.863  2615  2615 D libEGL  : loaded /vendor/lib64/egl/libEGL_emulation.so
+10-24 17:33:02.867  2615  2615 D libEGL  : loaded /vendor/lib64/egl/libGLESv1_CM_emulation.so
+10-24 17:33:02.870  2615  2615 D libEGL  : loaded /vendor/lib64/egl/libGLESv2_emulation.so
+10-24 17:33:02.888  2615  2615 I DeviceLabRuntime: profile build=1 auxv=1 graphics_dispatch=1
+10-24 17:33:02.934  2615  2615 D CompatibilityChangeReporter: Compat change id reported: 171979766; UID 10203; state: ENABLED
+10-24 17:33:02.934  2615  2615 D CompatibilityChangeReporter: Compat change id reported: 242716250; UID 10203; state: ENABLED
+10-24 17:33:02.939  2615  2615 D ApplicationLoaders: Returning zygote-cached class loader: /system_ext/framework/androidx.window.extensions.jar
+10-24 17:33:02.939  2615  2615 D ApplicationLoaders: Returning zygote-cached class loader: /system_ext/framework/androidx.window.sidecar.jar
+10-24 17:33:02.944  2615  2615 W ziparchive: Unable to open '/data/app/~~yxshPE5xSECWDj-f-lUm_Q==/com.eltavine.duckdetector-JbMZcWdKSPgz5AIqbFOafg==/base.dm': No such file or directory
+10-24 17:33:02.944  2615  2615 W ziparchive: Unable to open '/data/app/~~yxshPE5xSECWDj-f-lUm_Q==/com.eltavine.duckdetector-JbMZcWdKSPgz5AIqbFOafg==/base.dm': No such file or directory
+10-24 17:33:02.986  2615  2615 D nativeloader: Configuring clns-6 for other apk /data/app/~~yxshPE5xSECWDj-f-lUm_Q==/com.eltavine.duckdetector-JbMZcWdKSPgz5AIqbFOafg==/base.apk. target_sdk_version=37, uses_libraries=, library_path=/data/app/~~yxshPE5xSECWDj-f-lUm_Q==/com.eltavine.duckdetector-JbMZcWdKSPgz5AIqbFOafg==/lib/x86_64:/data/app/~~yxshPE5xSECWDj-f-lUm_Q==/com.eltavine.duckdetector-JbMZcWdKSPgz5AIqbFOafg==/base.apk!/lib/x86_64, permitted_path=/data:/mnt/expand:/data/user/0/com.eltavine.duckdetector
+10-24 17:33:03.009  2615  2615 V GraphicsEnvironment: Currently set values for:
+10-24 17:33:03.009  2615  2615 V GraphicsEnvironment:   angle_gl_driver_selection_pkgs=[]
+10-24 17:33:03.009  2615  2615 V GraphicsEnvironment:   angle_gl_driver_selection_values=[]
+10-24 17:33:03.009  2615  2615 V GraphicsEnvironment: ANGLE GameManagerService for com.eltavine.duckdetector: false
+10-24 17:33:03.009  2615  2615 V GraphicsEnvironment: com.eltavine.duckdetector is not listed in per-application setting
+10-24 17:33:03.010  2615  2615 V GraphicsEnvironment: Neither updatable production driver nor prerelease driver is supported.
+10-24 17:33:03.236  2615  2615 E EarlyMountPreload: Failed to get mntent_strings buffer
+10-24 17:33:03.268  2615  2615 W libc    : Access denied finding property "qemu.sf.lcd_density"
+10-24 17:33:03.266  2615  2615 W ne.duckdetector: type=1400 audit(0.0:30): avc:  denied  { read } for  name="u:object_r:qemu_sf_lcd_density_prop:s0" dev="tmpfs" ino=264 scontext=u:r:untrusted_app:s0:c203,c256,c512,c768 tcontext=u:object_r:qemu_sf_lcd_density_prop:s0 tclass=file permissive=0 app=com.eltavine.duckdetector
+10-24 17:33:03.635  2615  2615 I WebViewFactory: Loading com.google.android.webview version 113.0.5672.136 (code 567263637)
+10-24 17:33:03.816  2615  2615 W ziparchive: Unable to open '/data/app/~~TzlpvnPuyMR75d3mQLDJvw==/com.google.android.trichromelibrary_567263637-GvX3w6q2jy7To1Wn8PsRbA==/TrichromeLibrary.dm': No such file or directory
+10-24 17:33:03.817  2615  2615 W ziparchive: Unable to open '/data/app/~~TzlpvnPuyMR75d3mQLDJvw==/com.google.android.trichromelibrary_567263637-GvX3w6q2jy7To1Wn8PsRbA==/TrichromeLibrary.dm': No such file or directory
+10-24 17:33:03.818  2615  2615 W ne.duckdetector: Entry not found
+10-24 17:33:03.824  2615  2615 D nativeloader: Configuring clns-7 for other apk /data/app/~~TzlpvnPuyMR75d3mQLDJvw==/com.google.android.trichromelibrary_567263637-GvX3w6q2jy7To1Wn8PsRbA==/TrichromeLibrary.apk. target_sdk_version=34, uses_libraries=ALL, library_path=/data/app/~~cA2pE84YwiT5hl2ch_Do5g==/com.google.android.webview-Os2J0ASj4ujleapyBoISSw==/lib/x86_64:/data/app/~~cA2pE84YwiT5hl2ch_Do5g==/com.google.android.webview-Os2J0ASj4ujleapyBoISSw==/WebViewGoogle.apk!/lib/x86_64:/data/app/~~TzlpvnPuyMR75d3mQLDJvw==/com.google.android.trichromelibrary_567263637-GvX3w6q2jy7To1Wn8PsRbA==/TrichromeLibrary.apk!/lib/x86_64, permitted_path=/data:/mnt/expand
+10-24 17:33:03.863  2615  2615 D nativeloader: Configuring clns-8 for other apk /data/app/~~cA2pE84YwiT5hl2ch_Do5g==/com.google.android.webview-Os2J0ASj4ujleapyBoISSw==/WebViewGoogle.apk. target_sdk_version=34, uses_libraries=, library_path=/data/app/~~cA2pE84YwiT5hl2ch_Do5g==/com.google.android.webview-Os2J0ASj4ujleapyBoISSw==/lib/x86_64:/data/app/~~cA2pE84YwiT5hl2ch_Do5g==/com.google.android.webview-Os2J0ASj4ujleapyBoISSw==/WebViewGoogle.apk!/lib/x86_64:/data/app/~~TzlpvnPuyMR75d3mQLDJvw==/com.google.android.trichromelibrary_567263637-GvX3w6q2jy7To1Wn8PsRbA==/TrichromeLibrary.apk!/lib/x86_64, permitted_path=/data:/mnt/expand
+10-24 17:33:04.300  2615  2615 I cr_WVCFactoryProvider: Loaded version=113.0.5672.136 minSdkVersion=29 isBundle=false multiprocess=true packageId=2
+10-24 17:33:04.580  2615  2615 I cr_LibraryLoader: Successfully loaded native library
+10-24 17:33:04.590  2615  2615 I cr_CachingUmaRecorder: Flushed 8 samples from 8 histograms.
+10-24 17:33:05.534  2615  2615 D CompatibilityChangeReporter: Compat change id reported: 183155436; UID 10203; state: ENABLED
+10-24 17:33:06.583  2615  2615 D CompatibilityChangeReporter: Compat change id reported: 214741472; UID 10203; state: ENABLED
+10-24 17:33:06.586  2615  2615 D CompatibilityChangeReporter: Compat change id reported: 171228096; UID 10203; state: ENABLED
+10-24 17:33:06.717  2615  2615 D AutofillManager: Fill dialog is enabled:false, hints=[password, passwordAuto, creditCardNumber, creditCardSecurityCode, creditCardExpirationDate]
+10-24 17:33:06.792  2615  2929 W cr_media: BLUETOOTH_CONNECT permission is missing.
+10-24 17:33:06.793  2615  2929 W cr_media: registerBluetoothIntentsIfNeeded: Requires BLUETOOTH permission
+10-24 17:33:07.010  2615  2615 D CompatibilityChangeReporter: Compat change id reported: 237531167; UID 10203; state: DISABLED
+10-24 17:33:07.016  2615  2615 W OpenGLRenderer: Unknown dataspace 0
+10-24 17:33:07.161  2615  2615 D CompatibilityChangeReporter: Compat change id reported: 193247900; UID 10203; state: ENABLED
+10-24 17:33:07.470  2615  2695 W OpenGLRenderer: Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+10-24 17:33:07.470  2615  2695 W OpenGLRenderer: Failed to initialize 101010-2 format, error = EGL_SUCCESS
+10-24 17:33:07.555  2615  2695 I Gralloc4: mapper 4.x is not supported
+10-24 17:33:07.613  2615  2695 E OpenGLRenderer: Unable to match the desired swap behavior.
+10-24 17:33:07.728  2615  2676 I OpenGLRenderer: Davey! duration=893ms; Flags=1, FrameTimelineVsyncId=6358, IntendedVsync=32822162618, Vsync=33155495938, InputEventId=0, HandleInputStart=33160156960, AnimationStart=33160157267, PerformTraversalsStart=33161045096, DrawStart=33613816167, FrameDeadline=32838829284, FrameInterval=33157519469, FrameStartTime=16666666, SyncQueued=33631135183, SyncStart=33639582190, IssueDrawCommandsStart=33645947160, SwapBuffers=33682307056, FrameCompleted=33723685640, DequeueBufferDuration=3596, QueueBufferDuration=327896, GpuCompleted=33723685640, SwapBuffersCompleted=33715015871, DisplayPresentTime=0, CommandSubmissionCompleted=33682307056, 
+10-24 17:33:07.744  2615  2615 I Choreographer: Skipped 34 frames!  The application may be doing too much work on its main thread.
+10-24 17:33:08.287  2615  2615 D CompatibilityChangeReporter: Compat change id reported: 263076149; UID 10203; state: ENABLED
+10-24 17:33:08.319  2615  3073 W libc    : Access denied finding property "partition.odm.verified"
+10-24 17:33:08.319  2615  3073 W libc    : Access denied finding property "partition.product.verified"
+10-24 17:33:08.323  2615  3073 W libc    : Access denied finding property "partition.system.verified"
+10-24 17:33:08.323  2615  3073 W libc    : Access denied finding property "partition.system_ext.verified"
+10-24 17:33:08.324  2615  3073 W libc    : Access denied finding property "partition.vendor.verified"
+10-24 17:33:08.324  2615  3073 W libc    : Access denied finding property "ro.debuggable"
+10-24 17:33:08.325  2615  3073 W libc    : Access denied finding property "ro.oem_unlock_supported"
+10-24 17:33:08.327  2615  3073 W libc    : Access denied finding property "ro.secure"
+10-24 17:33:08.327  2615  3073 W libc    : Access denied finding property "ro.debuggable"
+10-24 17:33:08.327  2615  3073 W libc    : Access denied finding property "ro.oem_unlock_supported"
+10-24 17:33:08.327  2615  3073 W libc    : Access denied finding property "ro.secure"
+10-24 17:33:08.314  2615  2615 W DefaultDispatch: type=1400 audit(0.0:32): avc:  denied  { read } for  name="u:object_r:verity_status_prop:s0" dev="tmpfs" ino=338 scontext=u:r:untrusted_app:s0:c203,c256,c512,c768 tcontext=u:object_r:verity_status_prop:s0 tclass=file permissive=0 app=com.eltavine.duckdetector
+10-24 17:33:08.314  2615  2615 W DefaultDispatch: type=1400 audit(0.0:33): avc:  denied  { read } for  name="u:object_r:verity_status_prop:s0" dev="tmpfs" ino=338 scontext=u:r:untrusted_app:s0:c203,c256,c512,c768 tcontext=u:object_r:verity_status_prop:s0 tclass=file permissive=0 app=com.eltavine.duckdetector
+10-24 17:33:08.318  2615  2615 W DefaultDispatch: type=1400 audit(0.0:34): avc:  denied  { read } for  name="u:object_r:verity_status_prop:s0" dev="tmpfs" ino=338 scontext=u:r:untrusted_app:s0:c203,c256,c512,c768 tcontext=u:object_r:verity_status_prop:s0 tclass=file permissive=0 app=com.eltavine.duckdetector
+10-24 17:33:08.318  2615  2615 W DefaultDispatch: type=1400 audit(0.0:35): avc:  denied  { read } for  name="u:object_r:verity_status_prop:s0" dev="tmpfs" ino=338 scontext=u:r:untrusted_app:s0:c203,c256,c512,c768 tcontext=u:object_r:verity_status_prop:s0 tclass=file permissive=0 app=com.eltavine.duckdetector
+10-24 17:33:08.318  2615  2615 W DefaultDispatch: type=1400 audit(0.0:36): avc:  denied  { read } for  name="u:object_r:verity_status_prop:s0" dev="tmpfs" ino=338 scontext=u:r:untrusted_app:s0:c203,c256,c512,c768 tcontext=u:object_r:verity_status_prop:s0 tclass=file permissive=0 app=com.eltavine.duckdetector
+10-24 17:33:08.322  2615  2615 W DefaultDispatch: type=1400 audit(0.0:37): avc:  denied  { read } for  name="u:object_r:userdebug_or_eng_prop:s0" dev="tmpfs" ino=321 scontext=u:r:untrusted_app:s0:c203,c256,c512,c768 tcontext=u:object_r:userdebug_or_eng_prop:s0 tclass=file permissive=0 app=com.eltavine.duckdetector
+10-24 17:33:08.322  2615  2615 W DefaultDispatch: type=1400 audit(0.0:38): avc:  denied  { read } for  name="u:object_r:oem_unlock_prop:s0" dev="tmpfs" ino=245 scontext=u:r:untrusted_app:s0:c203,c256,c512,c768 tcontext=u:object_r:oem_unlock_prop:s0 tclass=file permissive=0 app=com.eltavine.duckdetector
+10-24 17:33:08.607  2615  2615 W ne.duckdetector: Verification of java.lang.Object dj3.a(r10) took 135.838ms (20082.64 bytecodes/s) (90304B approximate peak alloc)
+10-24 17:33:08.751  2615  3072 W libc    : Access denied finding property "qemu.sf.lcd_density"
+10-24 17:33:08.754  2615  3179 W libc    : Access denied finding property "partition.odm.verified"
+10-24 17:33:08.790  2615  3138 D CompatibilityChangeReporter: Compat change id reported: 186082280; UID 10203; state: ENABLED
+10-24 17:33:08.802  2615  3179 W libc    : Access denied finding property "partition.product.verified"
+10-24 17:33:08.813  2615  3179 W libc    : Access denied finding property "partition.system.verified"
+10-24 17:33:08.846  2615  3072 W libc    : Access denied finding property "qemu.sf.lcd_density"
+10-24 17:33:08.846  2615  3179 W libc    : Access denied finding property "partition.system_ext.verified"
+10-24 17:33:08.848  2615  3179 W libc    : Access denied finding property "partition.vendor.verified"
+10-24 17:33:08.849  2615  3179 W libc    : Access denied finding property "ro.bootimage.build.fingerprint"
+10-24 17:33:08.850  2615  3179 W libc    : Access denied finding property "ro.debuggable"
+10-24 17:33:08.855  2615  3179 W libc    : Access denied finding property "ro.oem_unlock_supported"
+10-24 17:33:08.885  2615  3179 W libc    : Access denied finding property "ro.secure"
+10-24 17:33:08.911  2615  3179 W libc    : Access denied finding property "ro.bootimage.build.fingerprint"
+10-24 17:33:08.913  2615  3179 W libc    : Access denied finding property "ro.debuggable"
+10-24 17:33:08.914  2615  3179 W libc    : Access denied finding property "ro.oem_unlock_supported"
+10-24 17:33:08.914  2615  3179 W libc    : Access denied finding property "ro.secure"
+10-24 17:33:08.916  2615  3179 W libc    : Access denied finding property "ro.secure"
+10-24 17:33:09.402  2615  2615 W DefaultDispatch: type=1400 audit(0.0:65): avc:  denied  { nlmsg_readpriv } for  scontext=u:r:untrusted_app:s0:c203,c256,c512,c768 tcontext=u:r:untrusted_app:s0:c203,c256,c512,c768 tclass=netlink_route_socket permissive=0 bug=b/155595000 app=com.eltavine.duckdetector
+10-24 17:33:09.422  2615  2615 W DefaultDispatch: type=1400 audit(0.0:66): avc:  denied  { nlmsg_getneigh } for  scontext=u:r:untrusted_app:s0:c203,c256,c512,c768 tcontext=u:r:untrusted_app:s0:c203,c256,c512,c768 tclass=netlink_route_socket permissive=0 bug=b/155595000 app=com.eltavine.duckdetector
+10-24 17:33:09.438  2615  2615 W DefaultDispatch: type=1400 audit(0.0:67): avc:  denied  { read } for  name="system" dev="dm-40" ino=262145 scontext=u:r:untrusted_app:s0:c203,c256,c512,c768 tcontext=u:object_r:system_data_file:s0 tclass=dir permissive=0 app=com.eltavine.duckdetector
+10-24 17:33:09.646  2615  2615 W DefaultDispatch: type=1400 audit(0.0:68): avc:  denied  { getattr } for  path="/sys/kernel/tracing/trace_marker" dev="tracefs" ino=8944 scontext=u:r:untrusted_app:s0:c203,c256,c512,c768 tcontext=u:object_r:debugfs_trace_marker:s0 tclass=file permissive=0 app=com.eltavine.duckdetector
+10-24 17:33:09.794  2615  2615 W DefaultDispatch: type=1400 audit(0.0:69): avc:  denied  { read } for  name="system" dev="dm-40" ino=262145 scontext=u:r:untrusted_app:s0:c203,c256,c512,c768 tcontext=u:object_r:system_data_file:s0 tclass=dir permissive=0 app=com.eltavine.duckdetector
+10-24 17:33:09.865  2615  3073 W libc    : Access denied finding property "ro.debuggable"
+10-24 17:33:09.865  2615  3073 W libc    : Access denied finding property "ro.secure"
+10-24 17:33:09.876  2615  3073 W libc    : Access denied finding property "ro.oem_unlock_supported"
+10-24 17:33:09.902  2615  3073 W libc    : Access denied finding property "partition.system.verified"
+10-24 17:33:09.977  2615  2695 D EGL_emulation: app_time_stats: avg=323.15ms min=9.74ms max=1716.90ms count=7
+10-24 17:33:09.979  2615  2615 I Choreographer: Skipped 102 frames!  The application may be doing too much work on its main thread.
+10-24 17:33:09.992  2615  2674 I OpenGLRenderer: Davey! duration=1916ms; Flags=0, FrameTimelineVsyncId=7347, IntendedVsync=34038829236, Vsync=34255495894, InputEventId=0, HandleInputStart=34271242280, AnimationStart=34271243206, PerformTraversalsStart=34794921739, DrawStart=34795347371, FrameDeadline=34288829226, FrameInterval=34268582006, FrameStartTime=16666666, SyncQueued=35907961912, SyncStart=35929419084, IssueDrawCommandsStart=35930841396, SwapBuffers=35949004806, FrameCompleted=35977110707, DequeueBufferDuration=3939, QueueBufferDuration=459636, GpuCompleted=35976996889, SwapBuffersCompleted=35977110707, DisplayPresentTime=0, CommandSubmissionCompleted=35949004806, 
+10-24 17:33:10.023  2615  2674 I OpenGLRenderer: Davey! duration=1733ms; Flags=0, FrameTimelineVsyncId=7460, IntendedVsync=34272162560, Vsync=35972162492, InputEventId=0, HandleInputStart=35981500363, AnimationStart=35981501496, PerformTraversalsStart=35983072307, DrawStart=35983121819, FrameDeadline=36005495824, FrameInterval=35979134287, FrameStartTime=16666666, SyncQueued=35983193627, SyncStart=35983236792, IssueDrawCommandsStart=35987865598, SwapBuffers=35988766503, FrameCompleted=36005940560, DequeueBufferDuration=1767, QueueBufferDuration=119946, GpuCompleted=36005940560, SwapBuffersCompleted=35994133818, DisplayPresentTime=0, CommandSubmissionCompleted=35988766503, 
+10-24 17:33:10.042  2615  3073 W libc    : Access denied finding property "partition.vendor.verified"
+10-24 17:33:10.150  2615  3073 W libc    : Access denied finding property "partition.product.verified"
+10-24 17:33:10.162  2615  3073 W libc    : Access denied finding property "partition.system_ext.verified"
+10-24 17:33:10.174  2615  3073 W libc    : Access denied finding property "partition.odm.verified"
+10-24 17:33:10.334  2615  3289 D ProfileInstaller: Skipping profile installation for com.eltavine.duckdetector
+10-24 17:33:10.405  2615  3112 I Soter.SoterCore: soter: SoterCore is call static block to init SoterCore IMPL
+10-24 17:33:10.409  2615  3112 I Soter.SoterCoreBeforeTreble: soter: no SoterProvider found
+10-24 17:33:10.410  2615  3112 I Soter.SoterCore: soter: SoterCore is call static block to init SoterCore IMPL, IMPL is null[true]
+10-24 17:33:10.410  2615  3112 I Soter.SoterCore: soter: SoterCore IMPL is null then call getProviderSoterCore to init
+10-24 17:33:10.411  2615  3112 I Soter.SoterCoreBeforeTreble: soter: no SoterProvider found
+10-24 17:33:10.411  2615  3112 I Soter.SoterCore: soter: SoterCore IMPL is null[true], after call getProviderSoterCore to init
+10-24 17:33:10.411  2615  3112 I Soter.SoterCore: soter: SoterCore IMPL is null then call tryToInitSoterTreble to init
+10-24 17:33:10.411  2615  3112 I Soter.SoterCoreTreble: soter: initSoter in
+10-24 17:33:10.478  2615  3112 I Soter.SyncJob: doAsSyncJob
+10-24 17:33:10.478  2615  3112 I Soter.SoterCoreTreble: soter: bindServiceIfNeeded try to bind
+10-24 17:33:10.586  2615  3112 I Soter.SoterCoreTreble: soter: bindService binding is start 
+10-24 17:33:10.586  2615  3112 I Soter.SoterCoreTreble: soter: initSoter binding
+10-24 17:33:10.591  2615  3179 W libc    : Access denied finding property "ro.debuggable"
+10-24 17:33:10.592  2615  3179 W libc    : Access denied finding property "partition.system.verified"
+10-24 17:33:10.592  2615  3179 W libc    : Access denied finding property "partition.vendor.verified"
+10-24 17:33:10.593  2615  3179 W libc    : Access denied finding property "partition.product.verified"
+10-24 17:33:10.593  2615  3179 W libc    : Access denied finding property "partition.system_ext.verified"
+10-24 17:33:10.593  2615  3179 W libc    : Access denied finding property "partition.odm.verified"
+10-24 17:33:10.593  2615  3179 W libc    : Access denied finding property "ro.oem_unlock_supported"
+10-24 17:33:10.593  2615  3179 W libc    : Access denied finding property "ro.bootimage.build.fingerprint"
+10-24 17:33:10.605  2615  3111 D CompatibilityChangeReporter: Compat change id reported: 270306772; UID 10203; state: ENABLED
+10-24 17:33:10.627  2615  3073 I DrmHalHidl: No hidl drm factories found
+10-24 17:33:10.627  2615  3073 E DrmHalHidl: Failed to find passthrough drm factories
+10-24 17:33:10.633  2615  3111 D CompatibilityChangeReporter: Compat change id reported: 235355681; UID 10203; state: ENABLED
+10-24 17:33:10.710  2615  3073 I DrmUtils: found IDrmFactory. Instance name:[android.hardware.drm.IDrmFactory/clearkey]
+10-24 17:33:10.722  2615  3073 I DrmUtils: found IDrmFactory. Instance name:[android.hardware.drm.IDrmFactory/widevine]
+10-24 17:33:10.762  2615  3073 I DrmHalHidl: No hidl drm factories found
+10-24 17:33:10.765  2615  3073 E DrmHalHidl: Failed to find passthrough drm factories
+10-24 17:33:10.766  2615  3073 I DrmUtils: found IDrmFactory. Instance name:[android.hardware.drm.IDrmFactory/clearkey]
+10-24 17:33:10.767  2615  3073 I DrmUtils: found IDrmFactory. Instance name:[android.hardware.drm.IDrmFactory/widevine]
+10-24 17:33:10.789  2615  3073 I DrmHalHidl: No hidl drm factories found
+10-24 17:33:10.793  2615  3073 E DrmHalHidl: Failed to find passthrough drm factories
+10-24 17:33:10.793  2615  3073 I DrmUtils: found IDrmFactory. Instance name:[android.hardware.drm.IDrmFactory/clearkey]
+10-24 17:33:10.796  2615  3073 I DrmUtils: found IDrmFactory. Instance name:[android.hardware.drm.IDrmFactory/widevine]
+10-24 17:33:10.808  2615  3073 I DrmHalHidl: No hidl drm factories found
+10-24 17:33:10.811  2615  3073 E DrmHalHidl: Failed to find passthrough drm factories
+10-24 17:33:10.812  2615  3073 I DrmUtils: found IDrmFactory. Instance name:[android.hardware.drm.IDrmFactory/clearkey]
+10-24 17:33:10.814  2615  3073 I DrmUtils: found IDrmFactory. Instance name:[android.hardware.drm.IDrmFactory/widevine]
+10-24 17:33:10.919  2615  2615 D DuckSettingsScroll: wordmark viewport=996x383
+10-24 17:33:10.941  2615  3073 I DrmHalHidl: No hidl drm factories found
+10-24 17:33:10.942  2615  3073 E DrmHalHidl: Failed to find passthrough drm factories
+10-24 17:33:10.943  2615  3073 I DrmUtils: found IDrmFactory. Instance name:[android.hardware.drm.IDrmFactory/clearkey]
+10-24 17:33:10.943  2615  3073 I DrmUtils: found IDrmFactory. Instance name:[android.hardware.drm.IDrmFactory/widevine]
+10-24 17:33:10.970  2615  3073 D DrmHalAidl: framework logs size 10; plugin logs size 63
+10-24 17:33:11.063  2615  2615 D DuckSettingsScroll: wordmark build start names=41
+10-24 17:33:11.152  2615  2615 I Choreographer: Skipped 65 frames!  The application may be doing too much work on its main thread.
+10-24 17:33:11.179  2615  2695 D EGL_emulation: app_time_stats: avg=601.07ms min=17.03ms max=1185.11ms count=2
+10-24 17:33:11.205  2615  3164 I OpenGLRenderer: Davey! duration=1200ms; Flags=0, FrameTimelineVsyncId=7573, IntendedVsync=35988829158, Vsync=36038829156, InputEventId=0, HandleInputStart=36043026309, AnimationStart=36043026972, PerformTraversalsStart=36051512199, DrawStart=36051541324, FrameDeadline=36038829156, FrameInterval=36043021752, FrameStartTime=16666666, SyncQueued=37048165387, SyncStart=37048253290, IssueDrawCommandsStart=37048432689, SwapBuffers=37178009335, FrameCompleted=37189106659, DequeueBufferDuration=2275, QueueBufferDuration=146246, GpuCompleted=37189106659, SwapBuffersCompleted=37179293406, DisplayPresentTime=0, CommandSubmissionCompleted=37178009335, 
+10-24 17:33:11.408  2615  3134 D CompatibilityChangeReporter: Compat change id reported: 247079863; UID 10203; state: ENABLED
+10-24 17:33:11.414  2615  2615 W DefaultDispatch: type=1400 audit(0.0:566): avc:  denied  { setcurrent } for  scontext=u:r:untrusted_app:s0:c203,c256,c512,c768 tcontext=u:r:untrusted_app:s0:c203,c256,c512,c768 tclass=process permissive=0 app=com.eltavine.duckdetector
+10-24 17:33:11.430  2615  2615 W DefaultDispatch: type=1400 audit(0.0:567): avc:  denied  { setcurrent } for  scontext=u:r:untrusted_app:s0:c203,c256,c512,c768 tcontext=u:r:untrusted_app:s0:c203,c256,c512,c768 tclass=process permissive=0 app=com.eltavine.duckdetector
+10-24 17:33:11.446  2615  2615 W DefaultDispatch: type=1400 audit(0.0:568): avc:  denied  { setcurrent } for  scontext=u:r:untrusted_app:s0:c203,c256,c512,c768 tcontext=u:r:untrusted_app:s0:c203,c256,c512,c768 tclass=process permissive=0 app=com.eltavine.duckdetector
+10-24 17:33:11.450  2615  2615 W DefaultDispatch: type=1400 audit(0.0:569): avc:  denied  { setcurrent } for  scontext=u:r:untrusted_app:s0:c203,c256,c512,c768 tcontext=u:r:untrusted_app:s0:c203,c256,c512,c768 tclass=process permissive=0 app=com.eltavine.duckdetector
+10-24 17:33:11.462  2615  2615 D DuckSettingsScroll: wordmark build done ms=399
+10-24 17:33:11.458  2615  2615 W DefaultDispatch: type=1400 audit(0.0:570): avc:  denied  { setcurrent } for  scontext=u:r:untrusted_app:s0:c203,c256,c512,c768 tcontext=u:r:untrusted_app:s0:c203,c256,c512,c768 tclass=process permissive=0 app=com.eltavine.duckdetector
+10-24 17:33:11.524  2615  3087 I OpenGLRenderer: Davey! duration=1461ms; Flags=0, FrameTimelineVsyncId=7596, IntendedVsync=36055495822, Vsync=37138829112, InputEventId=0, HandleInputStart=37163611670, AnimationStart=37163612192, PerformTraversalsStart=37421183768, DrawStart=37421220138, FrameDeadline=37222162442, FrameInterval=37152391547, FrameStartTime=16666666, SyncQueued=37454779616, SyncStart=37460050614, IssueDrawCommandsStart=37460220400, SwapBuffers=37508231122, FrameCompleted=37522686992, DequeueBufferDuration=1807, QueueBufferDuration=95017, GpuCompleted=37522686992, SwapBuffersCompleted=37508814250, DisplayPresentTime=0, CommandSubmissionCompleted=37508231122, 
+10-24 17:33:11.818  2615  3400 D TrafficStats: tagSocket(191) with statsTag=0xffffffff, statsUid=-1
+10-24 17:33:12.009  2615  3142 I DuckSelinuxCarrier: pid=2615 tid=3142 uid=10203 request scan=34624 package=com.eltavine.duckdetector service=com.eltavine.duckdetector.capability.selinuxpolicy.data.SelinuxContextValidityCarrierService
+10-24 17:33:12.010  2615  3142 I DuckSelinuxCarrier: pid=2615 tid=3142 uid=10203 shared collection miss scan=34624
+10-24 17:33:12.137  2615  3400 D TrafficStats: tagSocket(76) with statsTag=0xffffffff, statsUid=-1
+10-24 17:33:12.180  2615  2695 D EGL_emulation: app_time_stats: avg=56.36ms min=1.84ms max=329.52ms count=16
+10-24 17:33:12.327  2615  2668 I ne.duckdetector: NativeAlloc concurrent copying GC freed 491202(22MB) AllocSpace objects, 55(2136KB) LOS objects, 49% free, 14MB/28MB, paused 9.299ms,13us total 925.053ms
+10-24 17:33:12.685  2615  2695 E OpenGLRenderer: Unable to match the desired swap behavior.
+10-24 17:33:13.184  2615  2695 D EGL_emulation: app_time_stats: avg=31.59ms min=2.21ms max=209.43ms count=27
+10-24 17:33:13.370  2615  3137 I DuckSelinuxCarrier: pid=2615 tid=3137 uid=10203 request scan=34391 package=com.eltavine.duckdetector service=com.eltavine.duckdetector.capability.selinuxpolicy.data.SelinuxContextValidityCarrierService
+10-24 17:33:13.588  2615  3112 E Soter.SoterCoreTreble: soter: initSoter error
+10-24 17:33:13.588  2615  3112 I Soter.SoterCore: soter: SoterCore IMPL is null after call tryToInitSoterTreble to init
+10-24 17:33:13.589  2615  3112 I Soter.SoterCoreBeforeTreble: soter: no SoterProvider found
+10-24 17:33:13.591  2615  3112 E Soter.SoterCore: soter: isNativeSupportSoter IMPL is null, not support soter
+10-24 17:33:13.591  2615  3112 E Soter.SoterCore: soter: isTrebleServiceConnected IMPL is null, not support soter
+10-24 17:33:13.592  2615  3112 E Soter.SoterCore: soter: isNativeSupportSoter IMPL is null, not support soter
+10-24 17:33:13.593  2615  3112 E Soter.SoterCore: soter: isNativeSupportSoter IMPL is null, not support soter
+10-24 17:33:13.593  2615  3112 E Soter.SoterCore: soter: isSupportBiometric type[1] return[false]
+10-24 17:33:13.593  2615  3112 I Soter.BiometricManagerCompat: soter: Biometric provider not initialized type[2]
+10-24 17:33:13.593  2615  3112 E Soter.SoterCore: soter: isSupportBiometric type[2] return[false]
+10-24 17:33:13.594  2615  3112 I Soter.BiometricManagerCompat: soter: Biometric provider not initialized type[2]
+10-24 17:33:13.594  2615  3112 E Soter.SoterCore: soter: removeAuthKey IMPL is null, not support soter
+10-24 17:33:13.788  2615  3112 W JavaBinder: ibinderForJavaObject: 0x7356c11d2140 is not a Binder object
+10-24 17:33:13.788  2615  3112 E Parcel  : Native binder in markForBinder is null for non-null jobject
+10-24 17:33:13.811  2615  3112 W JavaBinder: ibinderForJavaObject: 0x7356c11d21e0 is not a Binder object
+10-24 17:33:13.811  2615  3112 E Parcel  : Native binder in markForBinder is null for non-null jobject
+10-24 17:33:13.820  2615  3112 W JavaBinder: ibinderForJavaObject: 0x7356c11d21e0 is not a Binder object
+10-24 17:33:13.821  2615  3112 E Parcel  : Native binder in markForBinder is null for non-null jobject
+10-24 17:33:13.845  2615  2666 I ne.duckdetector: Compiler allocated 4320KB to compile void te4.b(yl, ry0, ry0, java.util.Map, kb3, b9, int)
+10-24 17:33:14.193  2615  2695 D EGL_emulation: app_time_stats: avg=3.79ms min=1.74ms max=26.70ms count=61
+10-24 17:33:15.213  2615  2695 D EGL_emulation: app_time_stats: avg=15.02ms min=1.69ms max=48.72ms count=56
+10-24 17:33:16.161  2615  3400 I DuckSelinuxCarrier: pid=2615 tid=3400 uid=10203 bind=42160266200 elapsedMs=1 service metadata process=com.eltavine.duckdetector flags=10 appProcess=com.eltavine.duckdetector appUid=10203 apk=/data/app/~~yxshPE5xSECWDj-f-lUm_Q==/com.eltavine.duckdetector-JbMZcWdKSPgz5AIqbFOafg==/base.apk
+10-24 17:33:16.161  2615  3400 I DuckSelinuxCarrier: pid=2615 tid=3400 uid=10203 bind=42160266200 elapsedMs=1 bindService begin component=ComponentInfo{com.eltavine.duckdetector/com.eltavine.duckdetector.capability.selinuxpolicy.data.SelinuxContextValidityCarrierService}
+10-24 17:33:16.165  2615  3400 I DuckSelinuxCarrier: pid=2615 tid=3400 uid=10203 bind=42160266200 elapsedMs=4 bindService returned bound=true
+10-24 17:33:16.227  2615  2695 D EGL_emulation: app_time_stats: avg=18.61ms min=1.89ms max=103.06ms count=50
+10-24 17:33:16.481  2615  3086 I DuckSelinuxCarrier: pid=2615 tid=3086 uid=10203 bind=42160266200 elapsedMs=320 onServiceConnected component=ComponentInfo{com.eltavine.duckdetector/com.eltavine.duckdetector.capability.selinuxpolicy.data.SelinuxContextValidityCarrierService} binder=56112371 alive=true
+10-24 17:33:16.481  2615  3086 I DuckSelinuxCarrier: pid=2615 tid=3086 uid=10203 snapshot transaction begin
+10-24 17:33:16.485  2615  3086 I DuckSelinuxCarrier: pid=2615 tid=3086 uid=10203 snapshot transaction returned chars=9610
+10-24 17:33:16.493  2615  3086 I DuckSelinuxCarrier: pid=2615 tid=3086 uid=10203 bind=42160266200 elapsedMs=332 unbind begin connected=true active=true
+10-24 17:33:16.521  2615  3086 I DuckSelinuxCarrier: pid=2615 tid=3086 uid=10203 bind=42160266200 elapsedMs=361 unbind returned
+10-24 17:33:16.521  2615  3086 I DuckSelinuxCarrier: pid=2615 tid=3086 uid=10203 bind=42160266200 elapsedMs=361 completion resume connected=true active=true
+10-24 17:33:16.522  2615  3086 I DuckSelinuxCarrier: pid=2615 tid=3086 uid=10203 return scan=34624 available=true carrier=u:r:app_zygote:s0:c512,c768 avc=COLLECTED pairs=512 failure=null
+10-24 17:33:16.524  2615  3400 I DuckSelinuxCarrier: pid=2615 tid=3400 uid=10203 return scan=34391 available=true carrier=u:r:app_zygote:s0:c512,c768 avc=COLLECTED pairs=512 failure=null
+10-24 17:33:16.546  2615  2615 W DefaultDispatch: type=1400 audit(0.0:1054): avc:  denied  { read } for  name="policyvers" dev="selinuxfs" ino=10 scontext=u:r:untrusted_app:s0:c203,c256,c512,c768 tcontext=u:object_r:selinuxfs:s0 tclass=file permissive=0 app=com.eltavine.duckdetector
+10-24 17:33:16.550  2615  2615 W DefaultDispatch: type=1400 audit(0.0:1055): avc:  denied  { read } for  name="class" dev="selinuxfs" ino=31 scontext=u:r:untrusted_app:s0:c203,c256,c512,c768 tcontext=u:object_r:selinuxfs:s0 tclass=dir permissive=0 app=com.eltavine.duckdetector
+10-24 17:33:17.037  2615  2695 D EGL_emulation: app_time_stats: avg=2141.91ms min=1301.52ms max=2982.30ms count=2
+10-24 17:33:17.049  2615  2615 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=falsecallback=bk2@ae3c1c7
+10-24 17:33:17.053  2615  2695 D OpenGLRenderer: endAllActiveAnimators on 0x73592c2fdf90 (fh4) with handle 0x7358bc36d930
+10-24 17:33:17.238  2615  2695 D EGL_emulation: app_time_stats: avg=8.54ms min=1.55ms max=68.03ms count=51
+10-24 17:33:18.030  2615  3113 D TrafficStats: tagSocket(200) with statsTag=0xffffffff, statsUid=-1
+10-24 17:33:18.035  2615  3113 D TrafficStats: tagSocket(200) with statsTag=0xffffffff, statsUid=-1
+10-24 17:33:18.051  2615  3113 D TrafficStats: tagSocket(200) with statsTag=0xffffffff, statsUid=-1
+10-24 17:33:18.055  2615  3113 D TrafficStats: tagSocket(200) with statsTag=0xffffffff, statsUid=-1
+10-24 17:33:18.243  2615  2695 D EGL_emulation: app_time_stats: avg=4.77ms min=1.62ms max=18.79ms count=61
+10-24 17:33:19.260  2615  2695 D EGL_emulation: app_time_stats: avg=8.16ms min=1.69ms max=104.00ms count=55
+10-24 17:33:20.276  2615  2695 D EGL_emulation: app_time_stats: avg=2.24ms min=1.54ms max=7.80ms count=61
+10-24 17:33:21.277  2615  2695 D EGL_emulation: app_time_stats: avg=2.03ms min=1.46ms max=4.05ms count=60
+10-24 17:33:22.281  2615  2695 D EGL_emulation: app_time_stats: avg=3.35ms min=1.47ms max=11.33ms count=60
+10-24 17:33:23.294  2615  2695 D EGL_emulation: app_time_stats: avg=2.53ms min=1.54ms max=7.20ms count=61

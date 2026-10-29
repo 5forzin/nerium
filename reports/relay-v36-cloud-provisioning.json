@@ -1,0 +1,14 @@
+{
+  "captured_at": "2026-10-26T16:01:18.0926028Z",
+  "database_name": "projects/45438431209/locations/us-central1/instances/android-device-lab-bc008-default-rtdb",
+  "database_url": "https://android-device-lab-bc008-default-rtdb.firebaseio.com",
+  "database_state": "ACTIVE",
+  "database_type": "DEFAULT_DATABASE",
+  "billing_enabled": false,
+  "firebase_cli_version": "15.34.1",
+  "authentication_initialized": true,
+  "app_package": "dev.androidlab.relayworker",
+  "app_id": "1:45438431209:android:f03f0319501de69b992578",
+  "private_configuration_outside_repository": true,
+  "gcloud_oauth_database_read_succeeded": true
+}

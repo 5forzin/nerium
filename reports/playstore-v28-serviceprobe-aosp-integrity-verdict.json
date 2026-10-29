@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "decoded_at": "2026-10-26T00:09:18.0166007+00:00",
+  "source_report": "playstore-v28-serviceprobe-aosp-integrity.json",
+  "token_sha256": "43034b547a3f437c3656e5cd3326c55336496b90bafb66c50912f13176883acf",
+  "request_package_name": "dev.androidlab.integrityprobe",
+  "nonce_matches": true,
+  "request_timestamp_ms": "1792973345904",
+  "app_recognition_verdict": "UNEVALUATED",
+  "device_recognition_verdict": [],
+  "app_licensing_verdict": "UNEVALUATED"
+}

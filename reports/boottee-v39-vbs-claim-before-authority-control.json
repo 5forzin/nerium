@@ -1,0 +1,233 @@
+{
+  "schema_version": 1,
+  "recorded_at": "2026-10-26T19:20:10.3252353+00:00",
+  "scope": "Windows VBS key protection and native claim controls; not Android KeyMint, Duck clearance, or Google certification.",
+  "sdk_header_revision": "2f767671802301cf043c717d66bf004ed7863487",
+  "sources": [
+    "https://github.com/microsoft/win32metadata/blob/2f767671802301cf043c717d66bf004ed7863487/generation/WinSDK/RecompiledIdlHeaders/um/ncrypt.h",
+    "https://learn.microsoft.com/en-us/windows/win32/api/ncrypt/nf-ncrypt-ncryptcreatepersistedkey",
+    "https://learn.microsoft.com/en-us/windows/win32/api/ncrypt/nf-ncrypt-ncryptcreateclaim",
+    "https://learn.microsoft.com/en-us/windows/win32/api/ncrypt/nf-ncrypt-ncryptverifyclaim"
+  ],
+  "configuration_changes": false,
+  "native_result": {
+    "outcome": "verified_windows_claim_controls",
+    "unsupported_stage": null,
+    "status": null,
+    "keys_ephemeral": true,
+    "provider_fallback": false,
+    "private_key_exported": false,
+    "raw_claims_retained": false,
+    "android_tee_verified": false,
+    "google_attestation_verified": false,
+    "zero_detections_achieved": false,
+    "operations": [
+      {
+        "stage": "provider_open",
+        "status": "0x00000000",
+        "succeeded": true
+      },
+      {
+        "stage": "subject_create_require_vbs",
+        "status": "0x00000000",
+        "succeeded": true
+      },
+      {
+        "stage": "subject_length",
+        "status": "0x00000000",
+        "succeeded": true
+      },
+      {
+        "stage": "subject_finalize",
+        "status": "0x00000000",
+        "succeeded": true
+      },
+      {
+        "stage": "subject_public_size",
+        "status": "0x00000000",
+        "succeeded": true
+      },
+      {
+        "stage": "subject_public_export",
+        "status": "0x00000000",
+        "succeeded": true
+      },
+      {
+        "stage": "authority_create_require_vbs",
+        "status": "0x00000000",
+        "succeeded": true
+      },
+      {
+        "stage": "authority_length",
+        "status": "0x00000000",
+        "succeeded": true
+      },
+      {
+        "stage": "authority_attestation_usage",
+        "status": "0x00000000",
+        "succeeded": true
+      },
+      {
+        "stage": "authority_finalize",
+        "status": "0x00000000",
+        "succeeded": true
+      },
+      {
+        "stage": "authority_public_size",
+        "status": "0x00000000",
+        "succeeded": true
+      },
+      {
+        "stage": "authority_public_export",
+        "status": "0x00000000",
+        "succeeded": true
+      },
+      {
+        "stage": "wrong_subject_create_require_vbs",
+        "status": "0x00000000",
+        "succeeded": true
+      },
+      {
+        "stage": "wrong_subject_length",
+        "status": "0x00000000",
+        "succeeded": true
+      },
+      {
+        "stage": "wrong_subject_finalize",
+        "status": "0x00000000",
+        "succeeded": true
+      },
+      {
+        "stage": "wrong_subject_public_size",
+        "status": "0x00000000",
+        "succeeded": true
+      },
+      {
+        "stage": "wrong_subject_public_export",
+        "status": "0x00000000",
+        "succeeded": true
+      },
+      {
+        "stage": "subject_public_import",
+        "status": "0x00000000",
+        "succeeded": true
+      },
+      {
+        "stage": "authority_public_import",
+        "status": "0x00000000",
+        "succeeded": true
+      },
+      {
+        "stage": "wrong_subject_public_import",
+        "status": "0x00000000",
+        "succeeded": true
+      },
+      {
+        "stage": "root_claim_size",
+        "status": "0x00000000",
+        "succeeded": true
+      },
+      {
+        "stage": "root_claim_create",
+        "status": "0x00000000",
+        "succeeded": true
+      },
+      {
+        "stage": "identity_claim_size",
+        "status": "0x00000000",
+        "succeeded": true
+      },
+      {
+        "stage": "identity_claim_create",
+        "status": "0x00000000",
+        "succeeded": true
+      }
+    ],
+    "cleanup": [
+      {
+        "kind": "own_key_handle",
+        "status": "0x00000000"
+      },
+      {
+        "kind": "own_key_handle",
+        "status": "0x00000000"
+      },
+      {
+        "kind": "own_key_handle",
+        "status": "0x00000000"
+      },
+      {
+        "kind": "own_key_handle",
+        "status": "0x00000000"
+      },
+      {
+        "kind": "own_key_handle",
+        "status": "0x00000000"
+      },
+      {
+        "kind": "own_key_handle",
+        "status": "0x00000000"
+      },
+      {
+        "kind": "provider_handle",
+        "status": "0x00000000"
+      }
+    ],
+    "subject_virtual_isolation": {
+      "status": "0x00000000",
+      "supported": true,
+      "value": 1
+    },
+    "subject_implementation_type": {
+      "status": "0x80090029",
+      "supported": false,
+      "value": null
+    },
+    "subject_public": {
+      "length": 283,
+      "sha256": "f22496cc4ec7492ff04c97c671765e62a657c9afe806d642fdaf87902cecbaf4"
+    },
+    "authority_virtual_isolation": {
+      "status": "0x00000000",
+      "supported": true,
+      "value": 1
+    },
+    "authority_public": {
+      "length": 283,
+      "sha256": "d087859d374e0acbdde689e0870e1979ecf567c4523afc0ccfecf2a4523066af"
+    },
+    "wrong_subject_public": {
+      "length": 283,
+      "sha256": "122f36f085789da50e42f77ade1938324561bfb1c576fefb967839f546883b27"
+    },
+    "nonce_sha256": "291a3d7e2acc3c04e171592d0b453f10433739bbbbc4020f8b9be11a0178385f",
+    "root": {
+      "length": 1990,
+      "sha256": "a22f3c16cc311ebf2b53a90028906609516b5f2898e2a47a9eece7c4184598d5",
+      "verify_status": "0x00000000",
+      "tampered_status": "0xD0000229",
+      "wrong_subject_public_key_status": "0xD0000229",
+      "nonce_layout_supported": true,
+      "nonce_matches": true,
+      "wrong_nonce_rejected": true,
+      "nonce_blob_tampered_status": "0xD0000229",
+      "nonce_blob_tampered_rejected": true,
+      "nonce_binding_verified": true,
+      "nonce_check": "Explicit expected-challenge comparison after native signature verification; not an undocumented VerifyClaim parameter."
+    },
+    "identity": {
+      "length": 690,
+      "sha256": "cef3e7ae5ea28d5ea3969f7cdcfc842c9d16696604bc465fb4f3ef92107d872f",
+      "verify_status": "0x00000000",
+      "tampered_status": "0xD000A000",
+      "wrong_subject_public_key_status": "0xD0000229",
+      "nonce_layout_supported": true,
+      "nonce_matches": true,
+      "wrong_nonce_rejected": true,
+      "nonce_blob_tampered_status": "0xD000A000",
+      "nonce_blob_tampered_rejected": true,
+      "nonce_binding_verified": true,
+      "nonce_check": "Explicit expected-challenge comparison after native signature verification; not an undocumented VerifyClaim parameter."
+    }
+  }
+}

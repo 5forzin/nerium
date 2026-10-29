@@ -1,0 +1,5 @@
+{
+  "reason": "The System UI ANR dialog obscured the detector result; no clear verdict was accepted.",
+  "status": "unavailable",
+  "ui": "strict-v14-cold-reveny.xml"
+}

@@ -1,0 +1,100 @@
+{
+  "captured_at": "2026-10-25T01:25:01.357028+00:00",
+  "goal_zero_achieved": false,
+  "current_attestation_audit": "strict-v15-hostnonce-b-anchor.json",
+  "signed_claims": {
+    "attestation_version": 300,
+    "attestation_security_level": 0,
+    "keymaster_version": 300,
+    "keymaster_security_level": 0,
+    "root_of_trust": {
+      "authorization_list": "software",
+      "verified_boot_key": "0000000000000000000000000000000000000000000000000000000000000000",
+      "device_locked": false,
+      "verified_boot_state": 2,
+      "verified_boot_hash": "0000000000000000000000000000000000000000000000000000000000000000"
+    }
+  },
+  "failed_prerequisites": [
+    "root_certificate_in_external_snapshot",
+    "root_public_key_in_external_snapshot",
+    "attestation_security_level_is_hardware",
+    "keymaster_security_level_is_hardware",
+    "root_of_trust_is_hardware_enforced",
+    "attested_device_is_locked",
+    "attested_boot_is_verified",
+    "attested_boot_key_is_nonzero",
+    "attested_boot_hash_is_nonzero"
+  ],
+  "manufacturer_trust": "not_established",
+  "candidates": [
+    {
+      "project": "JingMatrix/TEESimulator",
+      "revision": "06f9f2ee11b86c5144a1f345f70f8fb23cae4493",
+      "source": "https://github.com/JingMatrix/TEESimulator/blob/06f9f2ee11b86c5144a1f345f70f8fb23cae4493/README.md",
+      "readme_sha256": "b211bf512b43e58240ca85cc7976b38e5b07745c175d83869ad9aae8cb70e9a9",
+      "observations": [
+        "Signs with a user-provided keybox; a keybox is not included.",
+        "Harvests the existing device root-of-trust values; those values are not profile-configurable.",
+        "The current emulator provides software, unlocked and unverified values."
+      ],
+      "resolves_current_trust_barrier": false
+    },
+    {
+      "project": "AOSP Cuttlefish secure_env TPM backend",
+      "revision": "27b7db3e0bb17bf8341cd3125e4ebe5295109ebf",
+      "source": "https://android.googlesource.com/device/google/cuttlefish/+/27b7db3e0bb17bf8341cd3125e4ebe5295109ebf/host/commands/secure_env/",
+      "observations": [
+        "Provides Windows TPM-backed cryptographic primitives as a separate host process.",
+        "The inspected attestation record reports TrustedEnvironment but obtains its default signing key and chain from the software attestation certificate helpers.",
+        "That default does not supply a provisioned manufacturer identity; TPM-backed storage and Android manufacturer certification are separate requirements."
+      ],
+      "resolves_current_trust_barrier": false,
+      "source_sha256": {
+        "secure_env_windows_main.cpp": "62e90483362d7a108d56c889ca078df1893ea8d0c6617640dcc1d9430c3c3cea",
+        "tpm_attestation_record.cpp": "0c7488aada8e236de46d24058b8f8a4ad7c03aa40b850de257f6590d844889a5",
+        "tpm_keymaster_context.cpp": "fd12cc3e4a6b779aa195b2eb398c648235fea977a413898531bf298c1c90fb98",
+        "tpm_remote_provisioning_context.cpp": "33d657ad35e643e3e9eef45f206453f7f60cb72bac109e0a32c2f2179b323b7f"
+      }
+    },
+    {
+      "project": "Android AVF protected VM remote attestation",
+      "source": "https://android.googlesource.com/platform/packages/modules/Virtualization/+/refs/heads/android17-release/docs/vm_remote_attestation.md",
+      "observations": [
+        "Requires a UDS-rooted DICE public key registered with the RKP factory/backend.",
+        "Attests a protected VM payload using a distinct certificate extension; it is not an Android physical-handset identity.",
+        "Moving to a VM implementation alone does not provide the missing registered device identity."
+      ],
+      "resolves_current_trust_barrier": false
+    }
+  ],
+  "host_readonly_observations": {
+    "cpu": "Intel Core i5-13450HX",
+    "hypervisor_present": true,
+    "physical_memory_bytes": 16849256448,
+    "tpm_state": "not established; Get-Tpm returned no usable Boolean status",
+    "note": "CIM virtualization fields under an active hypervisor are not used to conclude that CPU virtualization is disabled."
+  },
+  "official_trust_requirements": "https://developer.android.com/privacy-and-security/security-key-attestation",
+  "conclusion": "The measured emulator has no established manufacturer-backed Android attestation identity. None of the reviewed projects supplies that identity merely by installing its code. CPU topology and stability changes do not resolve this cryptographic requirement.",
+  "duck_source_audit": {
+    "revision": "b5305070468a497842f54fbe998521fbc9d87ddc",
+    "source_manifest": "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v15\\duck-trust-source-manifest.json",
+    "root_fingerprint_correlation": "strict-v15-bootloader-trace-four.json",
+    "observations": [
+      "Factory is a fallback label when neither the Google-root check nor AOSP certificate-name heuristics match.",
+      "The Duck public-key fingerprint equals the independent root SubjectPublicKeyInfo fingerprint; the differing certificate fingerprint is expected.",
+      "The six Bootloader danger entries reuse four signed boot fields. CPU allocation does not alter those fields."
+    ]
+  },
+  "rkp_interface_review": {
+    "source": "https://android.googlesource.com/platform/hardware/interfaces/+/f84593a4594c3b7e748e29d4cdd1c5434fea6e54/security/rkp/aidl/android/hardware/security/keymint/IRemotelyProvisionedComponent.aidl",
+    "sha256": "af624187da39576acca79f138d1b8dfd187f943441ec3c63a23fd0a8eb5cc692",
+    "observations": [
+      "The interface describes a DICE chain originating from a unique-device-secret key; production device identity is separate from implementing the API.",
+      "Version 3, associated with Android 14, removes the older testMode request mechanism. Older test-mode documentation is not evidence of this guest backend behavior.",
+      "The unregistered test-CA subject alone is not used to infer the provisioning server policy. The measured signed software level and nonmatching external roots remain the evidence."
+    ]
+  },
+  "external_nonce_binding_verified": true
+}

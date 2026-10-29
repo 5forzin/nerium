@@ -1,0 +1,59 @@
+{
+  "recorded_at": "2026-10-26T18:58:36.6698753+00:00",
+  "cache_unit_checks": 9,
+  "rpc_unit_checks": 19,
+  "ownership_checks": 4,
+  "api_checks": 12,
+  "api_all_passed": true,
+  "idle_lifecycle_passed": true,
+  "verified_android_comparison_samples": 8,
+  "all_worker_sessions_revoked": true,
+  "requester_apk_sha256": "4ad843aca3156d555ce9c3934153c34495bc567144159cffc7faab798f2dd307",
+  "worker_apk_sha256": "af02d68a3b09eb6bd3aa7292116f24e26533cf7055b785eb127a06886eea0d9f",
+  "physical_test": false,
+  "detector_suites_rerun": false,
+  "zero_detections_achieved": false,
+  "next_focus": "Bootloader and TEE",
+  "sources": [
+    {
+      "path": "relay/RelayHost.psm1",
+      "sha256": "1c2d954f6da53400398d0aaeff181c6943bb18526ce1cab3d3e9c34d6e24877f"
+    },
+    {
+      "path": "relay/RelaySession.psm1",
+      "sha256": "621432d3c27d75b3f0bd84da433bb422cd42d7242ad3d8bffdfb8ffe98149c03"
+    },
+    {
+      "path": "relay/RelayServiceClient.mjs",
+      "sha256": "02bd768ea2a8da584102159606cd1d7c01a675a9799f692949c2e5603d406d90"
+    },
+    {
+      "path": "relay/requester-broker.mjs",
+      "sha256": "52cdcccc8149f07e35f6e1e65c0205c5359cd39fdc45fe2b0861238512a9015c"
+    },
+    {
+      "path": "scripts/relay-broker-service.ps1",
+      "sha256": "34a62b41fa272ef17f0783cb48bb61f743080c56a9d98ec23cd069ee8c26bfba"
+    },
+    {
+      "path": "scripts/relay-requester.ps1",
+      "sha256": "219a00563502965b792494943ee8c046d2fe36a7e5eccde834cf8bcda36b9945"
+    },
+    {
+      "path": "scripts/measure-relay-latency.ps1",
+      "sha256": "576c66e7cdf6ac2e4f86fe975912adee66b5ade28136a566c765d7d9519d7942"
+    },
+    {
+      "path": "scripts/test-relay-session-cache.ps1",
+      "sha256": "2dbd3ea77c5691ce049dfe371e03179f67a2513cda79740836298c4a0213d944"
+    },
+    {
+      "path": "scripts/test-relay-service-client.mjs",
+      "sha256": "19a7813a9d658a414b4e00eabf88117ca16b05a2323c8e7865b612adc2958156"
+    },
+    {
+      "path": "scripts/test-relay-service-lifecycle.ps1",
+      "sha256": "1f2524853e588fc7e1e2908be98904c121e424e3ad03250d4054e8d8a131ee48"
+    }
+  ]
+}

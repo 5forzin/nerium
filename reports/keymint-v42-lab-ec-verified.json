@@ -1,0 +1,22 @@
+{
+  "report": "keymint-v42-lab-ec.json",
+  "certificate_count": 2,
+  "certificate_signatures_verified": true,
+  "nonce_binding_verified": true,
+  "external_nonce_binding_verified": true,
+  "external_challenge": {
+    "file": "keymint-v42-lab-ec-challenge.json",
+    "sha256": "9085ff08f58d2a4cc64719676b327122e4c9f58766bc8135c5e8e5387755d8fb"
+  },
+  "key_possession_verified": true,
+  "device_host_decode_agrees": true,
+  "signed_claims": {
+    "attestation_version": 300,
+    "attestation_security_level": 0,
+    "keymaster_version": 300,
+    "keymaster_security_level": 0
+  },
+  "root_sha256": "b1b39cca723d76936f18703d1a9fe3622998ea2d40594cdc18954f007640f5c7",
+  "manufacturer_trust": "not_established",
+  "report_sha256": "42e9abeb2c0fbda66fc08c6170016ac0f03eaaf53ae1165c4591a6d60dbe4d73"
+}

@@ -1,0 +1,25 @@
+{
+  "captured_at": "2026-10-24T13:08:48.1545493-03:00",
+  "detector": "lsposed-native",
+  "version": "2.2",
+  "package": "io.github.vvb2060.nativedetector",
+  "release": "https://github.com/LSPosed/NativeDetector/releases/tag/v2.2",
+  "apk_sha256": "bccff3df297f9a9f03a9b4e5055a5d6dea1aa06aa33511e9210fbb25fd672b41",
+  "installed_abi": "x86_64",
+  "status": "visually_reviewed",
+  "detected": false,
+  "reason": "Screenshot shows Zygisk not found. This is a Zygisk label, not an emulator or hardware-integrity verdict.",
+  "process_id": 5558,
+  "foreground": "topResumedActivity=ActivityRecord{c6cb476 u0 io.github.vvb2060.nativedetector/.zygisk t115}",
+  "launch": "Starting: Intent { cmp=io.github.vvb2060.nativedetector/.zygisk }\nStatus: ok\nLaunchState: COLD\nActivity: io.github.vvb2060.nativedetector/android.app.NativeActivity\nTotalTime: 386\nWaitTime: 388\nComplete",
+  "ui_result": "Zygisk not found",
+  "visible_text": [],
+  "screenshot": "strict-v04-before-lsposed.png",
+  "log": "strict-v04-before-lsposed.log",
+  "visual_review": {
+    "reviewed_at": "2026-10-24T16:25:06.2368266+00:00",
+    "method": "Visual inspection of the saved screenshot; source reviewed for failure messages",
+    "screenshot_sha256": "db3c2452632cf1d55f340aef22670d871ebb6a2682910984396ccf1cf1a847fe",
+    "initialization_error_logged": false
+  }
+}

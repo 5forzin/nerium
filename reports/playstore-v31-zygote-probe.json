@@ -1,0 +1,71 @@
+{
+  "captured_at": "2026-10-26T01:04:14.2553754+00:00",
+  "avd": "device-lab-playstore-zygote-probe-v31",
+  "selinux": "Enforcing",
+  "verity_mode": "enforcing",
+  "vbmeta_digest": "599a57025357b46f60cbe5f1f2428c1f5b5ad027445cb4283d641b22f8e063a6",
+  "boot_completed": "1",
+  "zygote_pid": 354,
+  "system_server_pid": 543,
+  "zygote_service": "running",
+  "events": [
+    {
+      "stage": "wrapper",
+      "pid": 354,
+      "uid": 0,
+      "euid": 0,
+      "context": "u:r:zygote:s0",
+      "at_secure": 1,
+      "no_new_privs": 0,
+      "capget_result": 0,
+      "effective_capabilities": "000001ffffffffff",
+      "permitted_capabilities": "000001ffffffffff",
+      "inheritable_capabilities": "0000000000000000",
+      "bounding_capabilities": "000001ffffffffff",
+      "ambient_capabilities": "0000000000000000",
+      "capability_query_errors": 0,
+      "gid": 0,
+      "egid": 0,
+      "group_count": 2,
+      "groups": [
+        1065,
+        3009
+      ],
+      "runtime_library_visible": false,
+      "art_library_visible": false,
+      "command_line_size": 109,
+      "command_line_hash_fnv1a": "3a8823b14470c9ad",
+      "argument_count": 6,
+      "preload_present": false
+    },
+    {
+      "stage": "constructor",
+      "pid": 354,
+      "uid": 0,
+      "euid": 0,
+      "context": "u:r:zygote:s0",
+      "at_secure": 0,
+      "no_new_privs": 0,
+      "capget_result": 0,
+      "effective_capabilities": "000001ffffffffff",
+      "permitted_capabilities": "000001ffffffffff",
+      "inheritable_capabilities": "0000000000000000",
+      "bounding_capabilities": "000001ffffffffff",
+      "ambient_capabilities": "0000000000000000",
+      "capability_query_errors": 0,
+      "gid": 0,
+      "egid": 0,
+      "group_count": 2,
+      "groups": [
+        1065,
+        3009
+      ],
+      "runtime_library_visible": true,
+      "art_library_visible": false,
+      "command_line_size": 99,
+      "command_line_hash_fnv1a": "82ae545fb7256b9e",
+      "argument_count": 6,
+      "preload_present": true
+    }
+  ]
+}

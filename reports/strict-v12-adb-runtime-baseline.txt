@@ -1,0 +1,33 @@
+  [▲ WARNING] ADB Runtime
+  Verdict      : ADB enabled
+  Quick Facts  : ADB: Active  |  Contradictions: 0  |  USB: adb  |  Network: Local legacy ADB TCP service
+
+  [Impact]
+    • Interpretation: ADB enabled
+        Debugging settings or runtime activity were observed. ADB can be enabled on an ordinary device and does not establish root access.
+
+  [Detection methods]
+    • Settings and policy: Context collected
+        Debugging restrictions and Test Harness Mode qualify settings; settings and USB gadget state are not hard contradictions against init.
+    • init socket: Present (label denied)
+        stat(/dev/socket/adbd) was refused on the socket inode while the sibling control path did not exist, so the inode is present and its label hides the attributes. listing=readable, directory=ok, socket=Permission denied, control=No such file or directory
+    • JDWP control socket: Present (abstract(@jdwp-control)=connected)
+    • USB runtime: adb (connected=false, configured=false)
+    • ADB mDNS: Local legacy ADB TCP service (10.0.2.17:5555; protocol=not probed)
+    • ADB protocol vs init: Not established
+        2 lifecycle sample(s), 1 discovery pass(es); latest protocol=not probed. A contradiction requires the same confirmed listener in repeated passes while init reports stopped.
+
+  [Scan summary]
+    • Platform API: 34
+    • Debugging restricted: Disabled
+    • Test harness mode: Unavailable
+    • USB debugging setting: Enabled
+    • Wireless debugging setting: Disabled
+    • init.svc.adbd: running
+    • init socket: Present (label denied)
+        stat(/dev/socket/adbd) was refused on the socket inode while the sibling control path did not exist, so the inode is present and its label hides the attributes. listing=readable, directory=ok, socket=Permission denied, control=No such file or directory
+    • JDWP control socket: Present (abstract(@jdwp-control)=connected)
+    • USB runtime: adb (connected=false, configured=false)
+    • ADB mDNS: Local legacy ADB TCP service (10.0.2.17:5555; protocol=not probed)
+    • sys.usb.state: adb
+

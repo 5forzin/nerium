@@ -1,0 +1,10 @@
+{
+  "observed_at": "2026-10-26T18:23:41.5023883+00:00",
+  "owned_emulator_5582_absent": true,
+  "owned_emulator_5584_absent": true,
+  "preexisting_emulator_5554_present": true,
+  "broker_running": false,
+  "worker_sessions": "revoked",
+  "physical_reservations": "none",
+  "billing_enabled": false
+}

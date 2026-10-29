@@ -1,0 +1,12 @@
+{
+  "captured_at": "2026-10-26T16:36:19.1909445Z",
+  "reservation": "11xijz7wzyfga",
+  "serial": "localhost:56785",
+  "source_kind": "firebase_physical_control",
+  "model": "SM-S938U1",
+  "manufacturer": "samsung",
+  "android_api": "35",
+  "abi": "arm64-v8a",
+  "verified_boot_state": "green",
+  "bootloader_locked": "1"
+}

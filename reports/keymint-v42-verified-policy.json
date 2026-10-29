@@ -1,0 +1,46 @@
+{
+  "hal_sha256": "e2d73a9ae6765f91f107b031ac55c7667b089c9b1c113cb147b2ad9d3877a922",
+  "recorded_at": "2026-10-26T23:31:12.2663001+00:00",
+  "schema_version": 1,
+  "loaded_policy_sha256": "725322b8bb21c399e222db65bd9e0ee307a3b603d19d9a3d5f47a93cc8f369c0",
+  "phase": "pinned_lab_attestation",
+  "context_controls": {
+    "available": true,
+    "uid": 0,
+    "enforcing": true,
+    "cases": [
+      {
+        "name": "stock_zygote_control",
+        "context_valid": true,
+        "errno": 0,
+        "stable": true,
+        "passed": true
+      },
+      {
+        "name": "malformed_control",
+        "context_valid": false,
+        "errno": 22,
+        "stable": true,
+        "passed": true
+      },
+      {
+        "name": "magisk_domain_absent",
+        "context_valid": false,
+        "errno": 22,
+        "stable": true,
+        "passed": true
+      },
+      {
+        "name": "magisk_file_type_absent",
+        "context_valid": false,
+        "errno": 22,
+        "stable": true,
+        "passed": true
+      }
+    ],
+    "passed": 5,
+    "failed": 0,
+    "controls_passed": true
+  },
+  "policy_changed": false
+}

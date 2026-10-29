@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "variants": [
+    {
+      "variant": "stock_google_play_api34",
+      "report": "play-integrity-playstore-api34-retry1.json",
+      "status": "token_received",
+      "android_api": "34",
+      "build_fingerprint": "google/sdk_gphone64_x86_64/emu64xa:14/UE1A.230829.036.A4/12096271:user/release-keys",
+      "play_store_version": "35.6.11-21 [0] [PR] 528895992",
+      "play_services_version": "23.18.18 (190800-535401451)",
+      "nonce_matches": true,
+      "device_recognition_verdict": [],
+      "app_recognition_verdict": "UNEVALUATED"
+    },
+    {
+      "variant": "numa_hybrid_google_play_api34",
+      "report": "play-integrity-playstore-numa-hybrid2.json",
+      "status": "token_received",
+      "android_api": "34",
+      "build_fingerprint": "google/sdk_gphone64_x86_64/emu64xa:14/UE1A.230829.036.A4/12096271:user/release-keys",
+      "play_store_version": "35.6.11-21 [0] [PR] 528895992",
+      "play_services_version": "23.18.18 (190800-535401451)",
+      "nonce_matches": true,
+      "device_recognition_verdict": [],
+      "app_recognition_verdict": "UNEVALUATED"
+    },
+    {
+      "variant": "stock_google_play_api35",
+      "report": "play-integrity-playstore-api35-fresh.json",
+      "status": "token_received",
+      "android_api": "35",
+      "build_fingerprint": "google/sdk_gphone64_x86_64/emu64xa:15/AE3A.240806.036/12592187:user/release-keys",
+      "play_store_version": "53.6.15-34 [0] [PR] 996698724",
+      "play_services_version": "26.41.31 (260800-1002748488)",
+      "nonce_matches": true,
+      "device_recognition_verdict": [],
+      "app_recognition_verdict": "UNEVALUATED"
+    }
+  ],
+  "all_device_integrity_verdicts_equal": true
+}

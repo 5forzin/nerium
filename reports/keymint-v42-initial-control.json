@@ -1,0 +1,17 @@
+{
+  "recorded_at": "2026-10-26T22:16:17.5109037+00:00",
+  "phase": "initial_control",
+  "kernel_override_missing": true,
+  "ramdisk_override_missing": true,
+  "selinux": "Enforcing",
+  "virtio_port_observed": "/dev/vport22p1",
+  "virtio_port_label": "u:object_r:qemu_device:s0",
+  "backend_frames": 0,
+  "backend_terminal_error": "PIPE_IO_TIMEOUT",
+  "recovery_terminal_error": "PIPE_CONNECT_TIMEOUT",
+  "owned_qemu_pid": 26696,
+  "forced_stop_required": true,
+  "original_avd_modified": false,
+  "hal_replaced": false,
+  "next_action": "Restart the isolated clone with recorded platform kernel/ramdisk and corrected idle transport wait"
+}

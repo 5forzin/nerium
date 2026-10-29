@@ -1,0 +1,409 @@
+﻿{
+    "abi":  "x86_64",
+    "transport":  "inline-syscall",
+    "checks":  [
+                   {
+                       "id":  "raw.maps.self",
+                       "status":  "detected",
+                       "detail":  "bytes=219171;/libndk_translation;"
+                   },
+                   {
+                       "id":  "raw.maps.pid",
+                       "status":  "detected",
+                       "detail":  "bytes=219497;/libndk_translation;"
+                   },
+                   {
+                       "id":  "raw.maps.tid",
+                       "status":  "detected",
+                       "detail":  "bytes=219497;/libndk_translation;"
+                   },
+                   {
+                       "id":  "raw.maps.thread_self",
+                       "status":  "detected",
+                       "detail":  "bytes=219497;/libndk_translation;"
+                   },
+                   {
+                       "id":  "raw.maps.task",
+                       "status":  "detected",
+                       "detail":  "bytes=219497;/libndk_translation;"
+                   },
+                   {
+                       "id":  "raw.maps.normalized",
+                       "status":  "detected",
+                       "detail":  "bytes=219606;/libndk_translation;"
+                   },
+                   {
+                       "id":  "raw.maps.legacy_open",
+                       "status":  "detected",
+                       "detail":  "bytes=219606;/libndk_translation;"
+                   },
+                   {
+                       "id":  "raw.maps.root_alias",
+                       "status":  "detected",
+                       "detail":  "bytes=219606;/libndk_translation;"
+                   },
+                   {
+                       "id":  "libc.maps.task",
+                       "status":  "detected",
+                       "detail":  "bytes=219606;/libndk_translation;"
+                   },
+                   {
+                       "id":  "raw.maps.dirfd",
+                       "status":  "detected",
+                       "detail":  "bytes=219606;/libndk_translation;"
+                   },
+                   {
+                       "id":  "raw.smaps.self",
+                       "status":  "detected",
+                       "detail":  "bytes=1499944;/libndk_translation;"
+                   },
+                   {
+                       "id":  "raw.smaps.pid",
+                       "status":  "detected",
+                       "detail":  "bytes=1506205;/libndk_translation;"
+                   },
+                   {
+                       "id":  "raw.smaps.tid",
+                       "status":  "detected",
+                       "detail":  "bytes=1511828;/libndk_translation;"
+                   },
+                   {
+                       "id":  "raw.smaps.thread_self",
+                       "status":  "detected",
+                       "detail":  "bytes=1511828;/libndk_translation;"
+                   },
+                   {
+                       "id":  "raw.smaps.task",
+                       "status":  "detected",
+                       "detail":  "bytes=1513285;/libndk_translation;"
+                   },
+                   {
+                       "id":  "raw.smaps.normalized",
+                       "status":  "detected",
+                       "detail":  "bytes=1515396;/libndk_translation;"
+                   },
+                   {
+                       "id":  "raw.smaps.legacy_open",
+                       "status":  "detected",
+                       "detail":  "bytes=1527410;/libndk_translation;"
+                   },
+                   {
+                       "id":  "raw.smaps.root_alias",
+                       "status":  "detected",
+                       "detail":  "bytes=1525362;/libndk_translation;"
+                   },
+                   {
+                       "id":  "libc.smaps.task",
+                       "status":  "detected",
+                       "detail":  "bytes=1529639;/libndk_translation;"
+                   },
+                   {
+                       "id":  "raw.smaps.dirfd",
+                       "status":  "detected",
+                       "detail":  "bytes=1529639;/libndk_translation;"
+                   },
+                   {
+                       "id":  "raw.mountinfo.self",
+                       "status":  "detected",
+                       "detail":  "bytes=150526;/libndk_translation;"
+                   },
+                   {
+                       "id":  "raw.mountinfo.pid",
+                       "status":  "detected",
+                       "detail":  "bytes=150526;/libndk_translation;"
+                   },
+                   {
+                       "id":  "raw.mountinfo.tid",
+                       "status":  "detected",
+                       "detail":  "bytes=150526;/libndk_translation;"
+                   },
+                   {
+                       "id":  "raw.mountinfo.thread_self",
+                       "status":  "detected",
+                       "detail":  "bytes=150526;/libndk_translation;"
+                   },
+                   {
+                       "id":  "raw.mountinfo.task",
+                       "status":  "detected",
+                       "detail":  "bytes=150526;/libndk_translation;"
+                   },
+                   {
+                       "id":  "raw.mountinfo.normalized",
+                       "status":  "detected",
+                       "detail":  "bytes=150526;/libndk_translation;"
+                   },
+                   {
+                       "id":  "raw.mountinfo.legacy_open",
+                       "status":  "detected",
+                       "detail":  "bytes=150526;/libndk_translation;"
+                   },
+                   {
+                       "id":  "raw.mountinfo.root_alias",
+                       "status":  "detected",
+                       "detail":  "bytes=150526;/libndk_translation;"
+                   },
+                   {
+                       "id":  "libc.mountinfo.task",
+                       "status":  "detected",
+                       "detail":  "bytes=150526;/libndk_translation;"
+                   },
+                   {
+                       "id":  "raw.mountinfo.dirfd",
+                       "status":  "detected",
+                       "detail":  "bytes=150526;/libndk_translation;"
+                   },
+                   {
+                       "id":  "raw.mounts.self",
+                       "status":  "detected",
+                       "detail":  "bytes=86602;/libndk_translation;"
+                   },
+                   {
+                       "id":  "raw.mounts.pid",
+                       "status":  "detected",
+                       "detail":  "bytes=86602;/libndk_translation;"
+                   },
+                   {
+                       "id":  "raw.mounts.tid",
+                       "status":  "detected",
+                       "detail":  "bytes=86602;/libndk_translation;"
+                   },
+                   {
+                       "id":  "raw.mounts.thread_self",
+                       "status":  "detected",
+                       "detail":  "bytes=86602;/libndk_translation;"
+                   },
+                   {
+                       "id":  "raw.mounts.task",
+                       "status":  "detected",
+                       "detail":  "bytes=86602;/libndk_translation;"
+                   },
+                   {
+                       "id":  "raw.mounts.normalized",
+                       "status":  "detected",
+                       "detail":  "bytes=86602;/libndk_translation;"
+                   },
+                   {
+                       "id":  "raw.mounts.legacy_open",
+                       "status":  "detected",
+                       "detail":  "bytes=86602;/libndk_translation;"
+                   },
+                   {
+                       "id":  "raw.mounts.root_alias",
+                       "status":  "detected",
+                       "detail":  "bytes=86602;/libndk_translation;"
+                   },
+                   {
+                       "id":  "libc.mounts.task",
+                       "status":  "detected",
+                       "detail":  "bytes=86602;/libndk_translation;"
+                   },
+                   {
+                       "id":  "raw.mounts.dirfd",
+                       "status":  "detected",
+                       "detail":  "bytes=86602;/libndk_translation;"
+                   },
+                   {
+                       "id":  "raw.mounts.proc_alias",
+                       "status":  "detected",
+                       "detail":  "bytes=86602;/libndk_translation;"
+                   },
+                   {
+                       "id":  "control.maps.seek",
+                       "status":  "clear",
+                       "detail":  ""
+                   },
+                   {
+                       "id":  "control.maps.pread",
+                       "status":  "clear",
+                       "detail":  ""
+                   },
+                   {
+                       "id":  "control.maps.readonly",
+                       "status":  "clear",
+                       "detail":  ""
+                   },
+                   {
+                       "id":  "control.maps.cloexec",
+                       "status":  "clear",
+                       "detail":  ""
+                   },
+                   {
+                       "id":  "control.maps.procfs",
+                       "status":  "clear",
+                       "detail":  "type=40864"
+                   },
+                   {
+                       "id":  "control.maps.fd_alias",
+                       "status":  "clear",
+                       "detail":  "/proc/5116/maps"
+                   },
+                   {
+                       "id":  "control.maps.fstat",
+                       "status":  "clear",
+                       "detail":  ""
+                   },
+                   {
+                       "id":  "control.maps.stat_empty",
+                       "status":  "clear",
+                       "detail":  ""
+                   },
+                   {
+                       "id":  "control.maps.stat_alias",
+                       "status":  "clear",
+                       "detail":  ""
+                   },
+                   {
+                       "id":  "control.maps.fstat_null",
+                       "status":  "clear",
+                       "detail":  ""
+                   },
+                   {
+                       "id":  "control.maps.fstatfs_null",
+                       "status":  "clear",
+                       "detail":  ""
+                   },
+                   {
+                       "id":  "control.maps.stat_null_path",
+                       "status":  "clear",
+                       "detail":  ""
+                   },
+                   {
+                       "id":  "control.maps.thread_fd_alias",
+                       "status":  "clear",
+                       "detail":  ""
+                   },
+                   {
+                       "id":  "control.maps.relative_fd_alias",
+                       "status":  "clear",
+                       "detail":  ""
+                   },
+                   {
+                       "id":  "control.maps.readlink_zero",
+                       "status":  "clear",
+                       "detail":  ""
+                   },
+                   {
+                       "id":  "control.maps.readlink_null",
+                       "status":  "clear",
+                       "detail":  ""
+                   },
+                   {
+                       "id":  "control.maps.fstat_readonly",
+                       "status":  "clear",
+                       "detail":  ""
+                   },
+                   {
+                       "id":  "control.mountinfo.seek",
+                       "status":  "clear",
+                       "detail":  ""
+                   },
+                   {
+                       "id":  "control.mountinfo.pread",
+                       "status":  "clear",
+                       "detail":  ""
+                   },
+                   {
+                       "id":  "control.mountinfo.readonly",
+                       "status":  "clear",
+                       "detail":  ""
+                   },
+                   {
+                       "id":  "control.mountinfo.cloexec",
+                       "status":  "clear",
+                       "detail":  ""
+                   },
+                   {
+                       "id":  "control.mountinfo.procfs",
+                       "status":  "clear",
+                       "detail":  "type=40864"
+                   },
+                   {
+                       "id":  "control.mountinfo.fd_alias",
+                       "status":  "clear",
+                       "detail":  "/proc/5116/mountinfo"
+                   },
+                   {
+                       "id":  "control.mountinfo.fstat",
+                       "status":  "clear",
+                       "detail":  ""
+                   },
+                   {
+                       "id":  "control.mountinfo.stat_empty",
+                       "status":  "clear",
+                       "detail":  ""
+                   },
+                   {
+                       "id":  "control.mountinfo.stat_alias",
+                       "status":  "clear",
+                       "detail":  ""
+                   },
+                   {
+                       "id":  "control.mountinfo.fstat_null",
+                       "status":  "clear",
+                       "detail":  ""
+                   },
+                   {
+                       "id":  "control.mountinfo.fstatfs_null",
+                       "status":  "clear",
+                       "detail":  ""
+                   },
+                   {
+                       "id":  "control.mountinfo.stat_null_path",
+                       "status":  "clear",
+                       "detail":  ""
+                   },
+                   {
+                       "id":  "control.mountinfo.thread_fd_alias",
+                       "status":  "clear",
+                       "detail":  ""
+                   },
+                   {
+                       "id":  "control.mountinfo.relative_fd_alias",
+                       "status":  "clear",
+                       "detail":  ""
+                   },
+                   {
+                       "id":  "control.mountinfo.readlink_zero",
+                       "status":  "clear",
+                       "detail":  ""
+                   },
+                   {
+                       "id":  "control.mountinfo.readlink_null",
+                       "status":  "clear",
+                       "detail":  ""
+                   },
+                   {
+                       "id":  "control.mountinfo.fstat_readonly",
+                       "status":  "clear",
+                       "detail":  ""
+                   },
+                   {
+                       "id":  "control.invalid_dirfd",
+                       "status":  "clear",
+                       "detail":  ""
+                   },
+                   {
+                       "id":  "control.missing",
+                       "status":  "clear",
+                       "detail":  ""
+                   },
+                   {
+                       "id":  "control.directory_flag",
+                       "status":  "clear",
+                       "detail":  ""
+                   },
+                   {
+                       "id":  "control.null_path",
+                       "status":  "clear",
+                       "detail":  ""
+                   }
+               ],
+    "schema_version":  1,
+    "summary":  {
+                    "detected":  41,
+                    "unavailable":  0,
+                    "total":  79
+                },
+    "apk_sha256":  "ee4e8cc35ef306e1626472ffb3d9d53fe0b45036a4a89dce31020ed489268f37",
+    "installed_abi":  "x86_64"
+}

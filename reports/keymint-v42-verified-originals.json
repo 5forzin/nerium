@@ -1,0 +1,108 @@
+{
+  "schema_version": 1,
+  "retained_thin_backing_unchanged": true,
+  "originals_unchanged": true,
+  "recorded_at": "2026-10-26T23:38:59.9697385+00:00",
+  "checks": [
+    {
+      "unchanged": true,
+      "sha256": "8a5d3f844f527a28d15d1af56ad3e2abdec57c771e81ff7a0322a03d5cf69883",
+      "path": "system-images/advancedFeatures.ini"
+    },
+    {
+      "unchanged": true,
+      "sha256": "ea2b9be04a6da1331eee99b17e5c71d43ac516ed21b52fc2749c0ffe16f73b02",
+      "path": "system-images/build.prop"
+    },
+    {
+      "unchanged": true,
+      "sha256": "522bd0b6a2c92e37de465059bb9487bb9597a9aae032b469a8ebe0b38146d8c3",
+      "path": "system-images/encryptionkey.img"
+    },
+    {
+      "unchanged": true,
+      "sha256": "81f3eddb5ebc4ce67feff18b1933eeaee7deca532266ae61c3d428f2e59cbd11",
+      "path": "system-images/kernel-ranchu"
+    },
+    {
+      "unchanged": true,
+      "sha256": "c89cb2dd967b17420117f529192478a7f79c151699c07f0d10fed068f0f95ab3",
+      "path": "system-images/package.xml"
+    },
+    {
+      "unchanged": true,
+      "sha256": "0a7b6fac2ba902d4c00deb1ebd606b20839c4b06d4ef832492ec893b5fb3e969",
+      "path": "system-images/ramdisk.img"
+    },
+    {
+      "unchanged": true,
+      "sha256": "bd7597e0dfa855335194fbafaf63bde93aa86bc3b56cea73cd54635715e77abc",
+      "path": "system-images/source.properties"
+    },
+    {
+      "unchanged": true,
+      "sha256": "4806fbc745cd9abbfacc358496508f0ce420010e0ddaccef11e52e5da8e92f0a",
+      "path": "system-images/system.img"
+    },
+    {
+      "unchanged": true,
+      "sha256": "30e14955ebf1352266dc2ff8067e68104607e750abb9d3b36582b8af909fcb58",
+      "path": "system-images/userdata.img"
+    },
+    {
+      "unchanged": true,
+      "sha256": "30b356018896249d981d4bd7e3648bf0f6cf6cab8abf5e2aa52b037f1aaa1d9d",
+      "path": "system-images/vendor.img"
+    },
+    {
+      "unchanged": true,
+      "sha256": "7a037836ad84ea38282bc86f902511c4abfa8f5e18fd735b8baa28e190edeb38",
+      "path": "system-images/VerifiedBootParams.textproto"
+    },
+    {
+      "unchanged": true,
+      "sha256": "dba2012889013d4e2eac2b42fd0808aee0d8c00ca4d286ee2fbd5409c6320946",
+      "path": "avd/userdata-qemu.img"
+    },
+    {
+      "unchanged": true,
+      "sha256": "85d528aaee3511c03cf851d26982a612afcacbc2bff28cd5fe2a4ea2c2035577",
+      "path": "avd/userdata-qemu.img.qcow2"
+    },
+    {
+      "unchanged": true,
+      "sha256": "6e2f44b662ddf5ee6f741e5f892b9ea5ea132faf27f36bb5d775769fa5c25a16",
+      "path": "avd/encryptionkey.img"
+    },
+    {
+      "unchanged": true,
+      "sha256": "a7c7e3504f9476594c40d4404e66884a11d65b608ee53820569b60e750f10fa0",
+      "path": "avd/encryptionkey.img.qcow2"
+    },
+    {
+      "unchanged": true,
+      "sha256": "b826b52bf364acf36e73c6a5de4849feb99e457deff9dfb7d7516b0da3dc17b9",
+      "path": "avd/cache.img"
+    },
+    {
+      "unchanged": true,
+      "sha256": "be6f48d510db67fd549e3002e0f7fa0ca90116bbf8477441fb230602c51c0a45",
+      "path": "avd/cache.img.qcow2"
+    },
+    {
+      "unchanged": true,
+      "sha256": "ced49bb6027b351b00928860955b374743f67e996a3a7e8e6638e22faea65663",
+      "path": "avd/config.ini"
+    },
+    {
+      "unchanged": true,
+      "sha256": "accf2dfbc94a6070243381830e39d63dd49027ddbcbb179537b0d76f94bec845",
+      "path": "avd/initrd"
+    },
+    {
+      "unchanged": true,
+      "sha256": "30e14955ebf1352266dc2ff8067e68104607e750abb9d3b36582b8af909fcb58",
+      "path": "avd/userdata.img"
+    }
+  ]
+}

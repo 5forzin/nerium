@@ -1,0 +1,16 @@
+{
+  "captured_at": "2026-10-25T01:41:20.8369449+00:00",
+  "boot_id": "2b11bf62-e746-42a9-bd3a-f8ea3160d0d5",
+  "same_boot_as_accepted_regressions": true,
+  "installed_apk_sha256": {
+    "dev.androidlab.procprobe": "99901e704d769e519741824d62f15286f68e0654f4223c0681083903ca98c9ab",
+    "dev.androidlab.rawprobe": "ee4e8cc35ef306e1626472ffb3d9d53fe0b45036a4a89dce31020ed489268f37",
+    "dev.androidlab.probe": "ab4dafd201527cf0f72a1c2ff4f9bd41fd4dbaa921d336d1983319ac611554ed",
+    "com.reveny.emulator.detection.sample": "9f064f3968e9a224612810ec2b6078872f479930ce4dd0fc1f7132b08c6b3f5b",
+    "com.eltavine.duckdetector": "9d0bbdab9c0b14334c9ec0d319758c5f9085260a09388486482b2ac497c81ffc",
+    "dev.androidlab.module": "dcf1ea9d0e9c72a4d2a2f526da6f5c2d45cf4f96dba33451215df1d28a2d481f",
+    "dev.androidlab.attestationprobe": "06feb66b5ea7a8b801afb57b242efe07e014118e92a45aac0d6fbf6f864ccbdc"
+  },
+  "operating_mode": "2000\nrunning\nrunning\n0\n1\n0\nmtp\n0-3",
+  "regressions_not_rerun": "No runtime, kernel, policy or detector APK changed; accepted four-core results remain the regression evidence."
+}

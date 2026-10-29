@@ -1,0 +1,279 @@
+{
+  "abi": "x86_64",
+  "transport": "inline-syscall",
+  "checks": [
+    {
+      "id": "raw.maps.self",
+      "status": "clear",
+      "detail": "bytes=225050;"
+    },
+    {
+      "id": "raw.maps.pid",
+      "status": "clear",
+      "detail": "bytes=225438;"
+    },
+    {
+      "id": "raw.maps.tid",
+      "status": "clear",
+      "detail": "bytes=225438;"
+    },
+    {
+      "id": "raw.maps.thread_self",
+      "status": "clear",
+      "detail": "bytes=225438;"
+    },
+    {
+      "id": "raw.maps.task",
+      "status": "clear",
+      "detail": "bytes=225547;"
+    },
+    {
+      "id": "raw.maps.normalized",
+      "status": "clear",
+      "detail": "bytes=225547;"
+    },
+    {
+      "id": "raw.maps.legacy_open",
+      "status": "clear",
+      "detail": "bytes=225547;"
+    },
+    {
+      "id": "libc.maps.task",
+      "status": "clear",
+      "detail": "bytes=225547;"
+    },
+    {
+      "id": "raw.maps.dirfd",
+      "status": "clear",
+      "detail": "bytes=226333;"
+    },
+    {
+      "id": "raw.smaps.self",
+      "status": "clear",
+      "detail": "bytes=1552871;"
+    },
+    {
+      "id": "raw.smaps.pid",
+      "status": "clear",
+      "detail": "bytes=1572709;"
+    },
+    {
+      "id": "raw.smaps.tid",
+      "status": "clear",
+      "detail": "bytes=1576206;"
+    },
+    {
+      "id": "raw.smaps.thread_self",
+      "status": "clear",
+      "detail": "bytes=1576206;"
+    },
+    {
+      "id": "raw.smaps.task",
+      "status": "clear",
+      "detail": "bytes=1574068;"
+    },
+    {
+      "id": "raw.smaps.normalized",
+      "status": "clear",
+      "detail": "bytes=1580491;"
+    },
+    {
+      "id": "raw.smaps.legacy_open",
+      "status": "clear",
+      "detail": "bytes=1580491;"
+    },
+    {
+      "id": "libc.smaps.task",
+      "status": "clear",
+      "detail": "bytes=1580491;"
+    },
+    {
+      "id": "raw.smaps.dirfd",
+      "status": "clear",
+      "detail": "bytes=1580491;"
+    },
+    {
+      "id": "raw.mountinfo.self",
+      "status": "clear",
+      "detail": "bytes=144680;"
+    },
+    {
+      "id": "raw.mountinfo.pid",
+      "status": "clear",
+      "detail": "bytes=144680;"
+    },
+    {
+      "id": "raw.mountinfo.tid",
+      "status": "clear",
+      "detail": "bytes=144680;"
+    },
+    {
+      "id": "raw.mountinfo.thread_self",
+      "status": "clear",
+      "detail": "bytes=144680;"
+    },
+    {
+      "id": "raw.mountinfo.task",
+      "status": "clear",
+      "detail": "bytes=144680;"
+    },
+    {
+      "id": "raw.mountinfo.normalized",
+      "status": "clear",
+      "detail": "bytes=144680;"
+    },
+    {
+      "id": "raw.mountinfo.legacy_open",
+      "status": "clear",
+      "detail": "bytes=144680;"
+    },
+    {
+      "id": "libc.mountinfo.task",
+      "status": "clear",
+      "detail": "bytes=144680;"
+    },
+    {
+      "id": "raw.mountinfo.dirfd",
+      "status": "clear",
+      "detail": "bytes=144680;"
+    },
+    {
+      "id": "raw.mounts.self",
+      "status": "clear",
+      "detail": "bytes=90402;"
+    },
+    {
+      "id": "raw.mounts.pid",
+      "status": "clear",
+      "detail": "bytes=90402;"
+    },
+    {
+      "id": "raw.mounts.tid",
+      "status": "clear",
+      "detail": "bytes=90402;"
+    },
+    {
+      "id": "raw.mounts.thread_self",
+      "status": "clear",
+      "detail": "bytes=90402;"
+    },
+    {
+      "id": "raw.mounts.task",
+      "status": "clear",
+      "detail": "bytes=90402;"
+    },
+    {
+      "id": "raw.mounts.normalized",
+      "status": "clear",
+      "detail": "bytes=90402;"
+    },
+    {
+      "id": "raw.mounts.legacy_open",
+      "status": "clear",
+      "detail": "bytes=90402;"
+    },
+    {
+      "id": "libc.mounts.task",
+      "status": "clear",
+      "detail": "bytes=90402;"
+    },
+    {
+      "id": "raw.mounts.dirfd",
+      "status": "clear",
+      "detail": "bytes=90402;"
+    },
+    {
+      "id": "raw.mounts.proc_alias",
+      "status": "clear",
+      "detail": "bytes=90402;"
+    },
+    {
+      "id": "control.maps.seek",
+      "status": "clear",
+      "detail": ""
+    },
+    {
+      "id": "control.maps.pread",
+      "status": "clear",
+      "detail": ""
+    },
+    {
+      "id": "control.maps.readonly",
+      "status": "clear",
+      "detail": ""
+    },
+    {
+      "id": "control.maps.cloexec",
+      "status": "clear",
+      "detail": ""
+    },
+    {
+      "id": "control.maps.procfs",
+      "status": "clear",
+      "detail": "type=40864"
+    },
+    {
+      "id": "control.maps.fd_alias",
+      "status": "clear",
+      "detail": "/proc/2524/maps"
+    },
+    {
+      "id": "control.mountinfo.seek",
+      "status": "clear",
+      "detail": ""
+    },
+    {
+      "id": "control.mountinfo.pread",
+      "status": "clear",
+      "detail": ""
+    },
+    {
+      "id": "control.mountinfo.readonly",
+      "status": "clear",
+      "detail": ""
+    },
+    {
+      "id": "control.mountinfo.cloexec",
+      "status": "clear",
+      "detail": ""
+    },
+    {
+      "id": "control.mountinfo.procfs",
+      "status": "clear",
+      "detail": "type=40864"
+    },
+    {
+      "id": "control.mountinfo.fd_alias",
+      "status": "clear",
+      "detail": "/proc/2524/mountinfo"
+    },
+    {
+      "id": "control.invalid_dirfd",
+      "status": "clear",
+      "detail": ""
+    },
+    {
+      "id": "control.missing",
+      "status": "clear",
+      "detail": ""
+    },
+    {
+      "id": "control.directory_flag",
+      "status": "clear",
+      "detail": ""
+    },
+    {
+      "id": "control.null_path",
+      "status": "clear",
+      "detail": ""
+    }
+  ],
+  "schema_version": 1,
+  "summary": {
+    "detected": 0,
+    "unavailable": 0,
+    "total": 53
+  },
+  "apk_sha256": "a29060d71e0d1eba2b3d33bc9eed879d5d4773fd823de8510dcb8430de17cf7f",
+  "installed_abi": "x86_64"
+}

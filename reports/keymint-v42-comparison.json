@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "recorded_at": "2026-10-26T22:57:52.6088359+00:00",
+  "status": "passed_core_controls_with_attestation_regression",
+  "core_controls_passed": true,
+  "before_prefix": "keymint-v42-baseline",
+  "after_prefix": "keymint-v42-final",
+  "suites": {
+    "arm54": {
+      "before": {
+        "detected": 0,
+        "unavailable": 0,
+        "total": 54
+      },
+      "after": {
+        "detected": 0,
+        "unavailable": 0,
+        "total": 54
+      },
+      "same_apk_abi_checks": true
+    },
+    "raw79": {
+      "before": {
+        "detected": 0,
+        "unavailable": 0,
+        "total": 79
+      },
+      "after": {
+        "detected": 0,
+        "unavailable": 0,
+        "total": 79
+      },
+      "same_apk_abi_checks": true
+    },
+    "proc99": {
+      "before": {
+        "detected": 0,
+        "unavailable": 0,
+        "total": 99
+      },
+      "after": {
+        "detected": 0,
+        "unavailable": 0,
+        "total": 99
+      },
+      "same_apk_abi_checks": true
+    }
+  },
+  "reveny": {
+    "before": 0,
+    "after": 0,
+    "same_apk": true
+  },
+  "keystore": {
+    "protected_rsa_generations": 1,
+    "before": "4/4",
+    "after": "4/4",
+    "same_apk": true,
+    "protected_signatures": 1
+  },
+  "selinux": {
+    "unchanged": true,
+    "loaded_policy_sha256": "725322b8bb21c399e222db65bd9e0ee307a3b603d19d9a3d5f47a93cc8f369c0",
+    "context_controls_passed": true,
+    "enforcing": true
+  },
+  "duck": {
+    "same_apk": true,
+    "attestation_before": "Software (RootOfTrust availability: true.)",
+    "attestation_after": "Unavailable (Failed to generate key pair.)",
+    "lower_bootloader_signal_count_is_not_a_fix": true,
+    "attestation_collection_regressed": true,
+    "before": {
+      "Danger": 2,
+      "Warning": 1,
+      "Ready": 20,
+      "Pending": 0
+    },
+    "after": {
+      "Danger": 2,
+      "Warning": 1,
+      "Ready": 20,
+      "Pending": 0
+    }
+  },
+  "android_tee_verified": false,
+  "google_attestation_established": false,
+  "zero_detections_achieved": false
+}

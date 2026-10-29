@@ -1,0 +1,57 @@
+{
+  "report": "keymint-v42-verified-ec.json",
+  "report_sha256": "cec29774fb4dba99ed4a06636b3abcf210005a0e7c81f29f1f90859bca75ff6e",
+  "external_root_snapshot_sha256": "b79beef96dd68073f1975bab90970ae85d1ae56d451a819ece6bff3d4e253ab4",
+  "external_root_count": 2,
+  "certificate_signatures_verified": true,
+  "nonce_binding_verified": true,
+  "external_nonce_binding_verified": true,
+  "external_challenge": {
+    "file": "keymint-v42-verified-ec-challenge.json",
+    "sha256": "436db9ee6ac4908455ef99291ba75250460cd19b25adad55c9b5d8ff6fb67e68"
+  },
+  "key_possession_verified": true,
+  "root_sha256": "68659387e2c856e9fc95fa736bfa9910779f4b9b2ea0c05396d8651006fc0701",
+  "root_subject": "CN=AndroidLab Software Attestation Root",
+  "signed_claims": {
+    "attestation_version": 300,
+    "attestation_security_level": 0,
+    "keymaster_version": 300,
+    "keymaster_security_level": 0
+  },
+  "rkp_metadata": {
+    "attestation_certificate_indices_zero_based": [
+      0
+    ],
+    "provisioning_certificate_indices_zero_based": [],
+    "nearest_root_provisioning_adjacent_to_attestation": null,
+    "root_public_key_matches_external_snapshot": false,
+    "scope": "Extension placement and root matching only; provisioning contents are not authenticated here."
+  },
+  "prerequisites": {
+    "root_certificate_in_external_snapshot": false,
+    "root_public_key_in_external_snapshot": false,
+    "attestation_security_level_is_hardware": false,
+    "keymaster_security_level_is_hardware": false,
+    "root_of_trust_is_hardware_enforced": false,
+    "attested_device_is_locked": false,
+    "attested_boot_is_verified": false,
+    "attested_boot_key_is_nonzero": false,
+    "attested_boot_hash_is_nonzero": false
+  },
+  "failed_prerequisites": [
+    "root_certificate_in_external_snapshot",
+    "root_public_key_in_external_snapshot",
+    "attestation_security_level_is_hardware",
+    "keymaster_security_level_is_hardware",
+    "root_of_trust_is_hardware_enforced",
+    "attested_device_is_locked",
+    "attested_boot_is_verified",
+    "attested_boot_key_is_nonzero",
+    "attested_boot_hash_is_nonzero"
+  ],
+  "revocation_checked": false,
+  "full_pkix_path_validation_performed": false,
+  "manufacturer_trust": "not_established",
+  "scope": "Diagnostic prerequisite audit; matching an anchor alone does not establish hardware trust."
+}

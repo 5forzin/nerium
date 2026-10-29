@@ -1,0 +1,12 @@
+{
+  "captured_at": "2026-10-24T15:16:05.7519943Z",
+  "process_id": 2583,
+  "app_mount_namespace": "mnt:[4026532949]",
+  "zygote_mount_namespace": "mnt:[4026532925]",
+  "outside_has_hypervisor": true,
+  "app_namespace_has_hypervisor": false,
+  "outside_hardware": "ranchu",
+  "outside_qemu": "1",
+  "selinux": "Enforcing",
+  "namespace_log": "--------- beginning of main\n10-24 12:15:38.482  2583  2583 I DeviceLabNamespace: profile mount status=0 pid=2583\n10-24 12:15:39.632  2583  2583 I DeviceLabNamespace: property remap status=0 pid=2583"
+}

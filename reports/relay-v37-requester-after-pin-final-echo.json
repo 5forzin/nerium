@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "request_id": "fbfbee8ba7404096bcb986fd7be08462",
+  "request_sha256": "878ffcdd248d955e81789f9c1b53adb31aced7ce3f1a4e83205503a77fb42336",
+  "challenge_sha256": "9744e8c316a827fbb7979ef96d2578dfb8a85d03ad574423f97a1d94ce998e9c",
+  "operation": "echo_sha256",
+  "origin": "cooperative_remote_worker",
+  "requester_integrity_verified": false,
+  "verification_state": "verified_remote_result",
+  "broker_observed_elapsed_ms": 3804,
+  "execution_elapsed_ms": 4,
+  "worker_package": "dev.androidlab.relayworker",
+  "client_elapsed_ms": 8244
+}

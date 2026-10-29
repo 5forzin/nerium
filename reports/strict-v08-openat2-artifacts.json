@@ -1,0 +1,24 @@
+{
+  "module": {
+    "path": "E:\\Workstation\\projects\\android-device-lab\\module\\build\\outputs\\apk\\debug\\module-debug.apk",
+    "sha256": "c81eb86c4673e91fc82fb47ff04af72a32db6112f7900e4f9c315531e554e0ab"
+  },
+  "probe54": {
+    "path": "E:\\Workstation\\projects\\android-device-lab\\probe\\build\\outputs\\apk\\debug\\probe-debug.apk",
+    "sha256": "ab4dafd201527cf0f72a1c2ff4f9bd41fd4dbaa921d336d1983319ac611554ed"
+  },
+  "raw79": {
+    "path": "E:\\Workstation\\projects\\android-device-lab\\rawprobe\\build\\outputs\\apk\\debug\\rawprobe-debug.apk",
+    "sha256": "ee4e8cc35ef306e1626472ffb3d9d53fe0b45036a4a89dce31020ed489268f37"
+  },
+  "proc95": {
+    "path": "E:\\Workstation\\projects\\android-device-lab\\procprobe\\build\\outputs\\apk\\debug\\procprobe-debug.apk",
+    "sha256": "99901e704d769e519741824d62f15286f68e0654f4223c0681083903ca98c9ab"
+  },
+  "namespace": {
+    "path": "E:\\Workstation\\projects\\android-device-lab\\module\\build\\namespace-module.zip",
+    "sha256": "e2e03edb60f060d6ab16b727db9899e5f7db601c78dd56f7195a99464e45cd05"
+  },
+  "namespace_elf_apk": "c831acc45f6adc0dc489cd070882ed9dd802513af28ab2e6736b243234fb21de",
+  "namespace_elf_zip": "c831acc45f6adc0dc489cd070882ed9dd802513af28ab2e6736b243234fb21de"
+}

@@ -1,0 +1,7 @@
+Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] }
+Status: ok
+LaunchState: WARM
+Activity: com.google.android.apps.nexuslauncher/.NexusLauncherActivity
+TotalTime: 1286
+WaitTime: 1344
+Complete

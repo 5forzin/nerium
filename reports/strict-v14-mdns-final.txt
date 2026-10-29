@@ -1,0 +1,42 @@
+NsdService:
+ total records=9
+ rec[0]: time=10-24 22:05:57.024 processed=DefaultState org=EnabledState dest=<null> what=REGISTER_CLIENT
+ rec[1]: time=10-24 22:05:57.087 processed=EnabledState org=EnabledState dest=<null> what=DISCOVER_SERVICES
+ rec[2]: time=10-24 22:05:57.113 processed=EnabledState org=EnabledState dest=<null> what=DISCOVER_SERVICES
+ rec[3]: time=10-24 22:05:57.251 processed=EnabledState org=EnabledState dest=<null> what=MDNS_DISCOVERY_MANAGER_EVENT
+ rec[4]: time=10-24 22:05:57.282 processed=EnabledState org=EnabledState dest=<null> what=RESOLVE_SERVICE
+ rec[5]: time=10-24 22:05:57.283 processed=EnabledState org=EnabledState dest=<null> what=MDNS_DISCOVERY_MANAGER_EVENT
+ rec[6]: time=10-24 22:05:58.636 processed=EnabledState org=EnabledState dest=<null> what=STOP_DISCOVERY
+ rec[7]: time=10-24 22:05:58.638 processed=EnabledState org=EnabledState dest=<null> what=STOP_DISCOVERY
+ rec[8]: time=10-24 22:05:58.638 processed=<null> org=EnabledState dest=<null> what=MDNS_DISCOVERY_MANAGER_EVENT
+curState=EnabledState
+
+Logs:
+  2026-10-24T22:05:58.638780 - [NsdService.Client10203-1] Unregister the DiscoveryListener 3
+  2026-10-24T22:05:58.638430 - [MdnsSocketProvider] Stop monitoring sockets.
+  2026-10-24T22:05:58.638403 - [MdnsSocketProvider] Remove socket on net:101 after unrequestSocket
+  2026-10-24T22:05:58.638209 - [MdnsSocketProvider] unrequestSocket
+  2026-10-24T22:05:58.638196 - [MdnsDiscoveryManager._adb._tcp.local-101] Socket destroyed. onServiceNameRemoved: adb-EMULATOR37X2X12X0
+  2026-10-24T22:05:58.638179 - [MdnsDiscoveryManager._adb._tcp.local-101] Socket destroyed. onServiceRemoved: adb-EMULATOR37X2X12X0
+  2026-10-24T22:05:58.638086 - [MdnsDiscoveryManager] Unregistering listener for serviceType:_adb._tcp.local
+  2026-10-24T22:05:58.636478 - [NsdService.Client10203-1] Unregister the DiscoveryListener 2
+  2026-10-24T22:05:58.636312 - [MdnsSocketProvider] unrequestSocket
+  2026-10-24T22:05:58.636262 - [MdnsDiscoveryManager] Unregistering listener for serviceType:_adb-tls-connect._tcp.local
+  2026-10-24T22:05:57.283263 - [MdnsSocketProvider] unrequestSocket
+  2026-10-24T22:05:57.283085 - [MdnsDiscoveryManager] Unregistering listener for serviceType:_adb._tcp.local
+  2026-10-24T22:05:57.282672 - [NsdService.Client10203-1] Register a ResolutionListener 4 for service type:_adb._tcp.local
+  2026-10-24T22:05:57.282527 - [MdnsSocketProvider] requestSocket for net:101
+  2026-10-24T22:05:57.281959 - [MdnsDiscoveryManager] Registering listener for serviceType: _adb._tcp.local
+  2026-10-24T22:05:57.251626 - [MdnsDiscoveryManager._adb._tcp.local-101] onServiceFound: Name: adb-EMULATOR37X2X12X0, type: _adb._tcp.local, subtypes: , ip: [10.0.2.16], ipv6: [fec0::d21e:2f45:cf3:4b65, fe80::3011:71d0:26e1:53d4, fec0::c1e9:8b54:4645:e5a1], port: 5555, interfaceIndex: 16, network: 101, textStrings: [], textEntries: []
+  2026-10-24T22:05:57.251484 - [MdnsDiscoveryManager._adb._tcp.local-101] onServiceNameDiscovered: Name: adb-EMULATOR37X2X12X0, type: _adb._tcp.local, subtypes: , ip: [10.0.2.16], ipv6: [fec0::d21e:2f45:cf3:4b65, fe80::3011:71d0:26e1:53d4, fec0::c1e9:8b54:4645:e5a1], port: 5555, interfaceIndex: 16, network: 101, textStrings: [], textEntries: []
+  2026-10-24T22:05:57.113740 - [NsdService.Client10203-1] Register a DiscoveryListener 3 for service type:_adb._tcp.local
+  2026-10-24T22:05:57.113560 - [MdnsDiscoveryManager] createServiceTypeClient for type:_adb._tcp.local, net:101
+  2026-10-24T22:05:57.112948 - [MdnsSocketProvider] requestSocket for net:null
+  2026-10-24T22:05:57.112726 - [MdnsDiscoveryManager] Registering listener for serviceType: _adb._tcp.local
+  2026-10-24T22:05:57.101048 - [MdnsDiscoveryManager] createServiceTypeClient for type:_adb-tls-connect._tcp.local, net:101
+  2026-10-24T22:05:57.089684 - [MdnsSocketProvider] Create socket on net:NetworkAsKey{ network=101 }, ifName:wlan0
+  2026-10-24T22:05:57.087941 - [NsdService.Client10203-1] Register a DiscoveryListener 2 for service type:_adb-tls-connect._tcp.local
+  2026-10-24T22:05:57.087780 - [MdnsSocketProvider] requestSocket for net:null
+  2026-10-24T22:05:57.084038 - [MdnsDiscoveryManager] Registering listener for serviceType: _adb-tls-connect._tcp.local
+  2026-10-24T22:05:57.059195 - [MdnsSocketProvider] Start monitoring sockets.
+  2026-10-24T22:05:57.023586 - [NsdService.Client10203-1] New client. useJavaBackend=true

@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "recorded_at": "2026-10-26T19:54:15.6054703+00:00",
+  "scope": "Preserved six previously executed local CNG store controls; copied source is byte-identical to the executed cache source; no new native execution",
+  "reexecuted_for_this_report": false,
+  "test_source_matches_executed_source": true,
+  "compiler": {
+    "sha256": "f6599825884bd087a81ef01e7a662025a9553de01dc501c824b6c568aa4e5ec9",
+    "path": "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v41\\llvm-mingw-20261020-ucrt-x86_64\\bin\\x86_64-w64-mingw32-clang++.exe"
+  },
+  "executed_binary": {
+    "sha256": "8410b92fba2db9c97feee4146e35594ea88ad24d02f9acb98f0d605e3f255baf",
+    "path": "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v41\\cng-store-tests\\store_test.exe"
+  },
+  "source_sha256": {
+    "nativekeymint/cng_key_store.h": "bb390452e2a87067717168ddcfc3b39bf1e603c0e360154e0458330af2a19db8",
+    "nativekeymint/cng_key_store.cpp": "4ca84eef6ff8e57e1378708e478f438d2ca6a478691506c6e126c56cf21d0863",
+    "nativekeymint/cng_store_tests.cpp": "c25de3e65ed16e8bc2242f73a95db94d632246ff9e11cd1fca429a269b2d51fe"
+  },
+  "executed_compile_command": {
+    "executable": "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v41\\llvm-mingw-20261020-ucrt-x86_64\\bin\\x86_64-w64-mingw32-clang++.exe",
+    "arguments": [
+      "-std=c++17",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-I",
+      "E:\\Workstation\\projects\\android-device-lab\\nativekeymint",
+      "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v41\\cng-store-tests\\store_test.cpp",
+      "E:\\Workstation\\projects\\android-device-lab\\nativekeymint\\cng_key_store.cpp",
+      "-lncrypt",
+      "-lbcrypt",
+      "-o",
+      "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v41\\cng-store-tests\\store_test.exe"
+    ]
+  },
+  "execution": {
+    "failed": 0,
+    "exit_code": 0,
+    "observed_output": [
+      "PASS generated key and independent BCrypt PSS verification",
+      "PASS altered digest rejected",
+      "PASS wrong public key rejected",
+      "PASS concurrent sign/delete and repeated delete",
+      "PASS sign after delete rejected",
+      "PASS public lookup after delete rejected",
+      "6 store controls passed"
+    ],
+    "runtime_path_prefix": "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v41\\llvm-mingw-20261020-ucrt-x86_64\\bin",
+    "passed": 6
+  },
+  "controls": [
+    {
+      "name": "generated_key_independent_bcrypt_pss_verification",
+      "meaning": "Generated opaque-reference RSA2048 key; public blob imported independently through BCrypt; PSS SHA256 salt32 signature verified.",
+      "passed": true
+    },
+    {
+      "name": "altered_digest_rejected",
+      "meaning": "One changed digest byte failed independent verification.",
+      "passed": true
+    },
+    {
+      "name": "wrong_public_key_rejected",
+      "meaning": "Signature failed verification with another newly generated own key.",
+      "passed": true
+    },
+    {
+      "name": "concurrent_sign_delete",
+      "meaning": "Twenty sign attempts raced a deletion; each either completed before deletion linearized or returned CNG_KEY_NOT_FOUND; repeated Delete returned false.",
+      "passed": true
+    },
+    {
+      "name": "sign_after_delete_rejected",
+      "meaning": "A new sign call after Delete returned CNG_KEY_NOT_FOUND.",
+      "passed": true
+    },
+    {
+      "name": "public_lookup_after_delete_rejected",
+      "meaning": "PublicBlob after Delete returned CNG_KEY_NOT_FOUND.",
+      "passed": true
+    }
+  ],
+  "private_key_exported": false,
+  "raw_key_ids_retained": false,
+  "android_tee_verified": false,
+  "google_attestation_verified": false,
+  "zero_detections_achieved": false
+}

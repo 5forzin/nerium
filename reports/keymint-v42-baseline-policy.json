@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "recorded_at": "2026-10-26T22:29:35.0392407+00:00",
+  "phase": "baseline",
+  "loaded_policy_sha256": "725322b8bb21c399e222db65bd9e0ee307a3b603d19d9a3d5f47a93cc8f369c0",
+  "context_controls": {
+    "available": true,
+    "uid": 0,
+    "enforcing": true,
+    "cases": [
+      {
+        "name": "stock_zygote_control",
+        "context_valid": true,
+        "errno": 0,
+        "stable": true,
+        "passed": true
+      },
+      {
+        "name": "malformed_control",
+        "context_valid": false,
+        "errno": 22,
+        "stable": true,
+        "passed": true
+      },
+      {
+        "name": "magisk_domain_absent",
+        "context_valid": false,
+        "errno": 22,
+        "stable": true,
+        "passed": true
+      },
+      {
+        "name": "magisk_file_type_absent",
+        "context_valid": false,
+        "errno": 22,
+        "stable": true,
+        "passed": true
+      }
+    ],
+    "passed": 5,
+    "failed": 0,
+    "controls_passed": true
+  },
+  "policy_changed": false
+}

@@ -1,0 +1,10 @@
+{
+  "reservation_id": "11xijz7wzyfga",
+  "resource_name": "projects/android-device-lab-bc008/deviceSessions/session-11xijz7wzyfga",
+  "model_id": "pa3q",
+  "api": 35,
+  "connection_port": 56785,
+  "state": "ACTIVE",
+  "source": "Android CLI create --connect output",
+  "observed_at": "2026-10-26T16:35:22.1886506Z"
+}

@@ -1,0 +1,26 @@
+--------- beginning of main
+10-24 15:22:33.889  2701  2701 I DeviceLabNamespace: profile mount status=0 pid=2701
+10-24 15:22:33.895  2701  2701 I DeviceLabNamespace: uname broker status=0 pid=2701
+10-24 15:22:33.895  2701  2701 I DeviceLabNamespace: proc broker enabled=1
+10-24 15:22:34.281  2701  2701 I DeviceLabNamespace: property remap status=0 pid=2701
+10-24 15:22:34.446  2701  2701 I VectorLegacyBridge: DeviceLab: native hooks for dev.androidlab.procprobe: get=1 callback=1 fopen=1 open=1 openat=1 open_checked=1 openat_checked=1 uname=1 syscall=1 auxval=1 gl2=1 gl3=1 readlink=1 readlinkat=1 cpu_cache=1 uname_controls=1 raw_uname=aarch64 maps=1/kernel-broker mountinfo=1/kernel-broker
+10-24 15:22:34.453  2701  2701 I VectorLegacyBridge: DeviceLab: Java identity hooks installed for dev.androidlab.procprobe
+10-24 15:22:40.249  3425  3425 I DeviceLabNamespace: profile mount status=0 pid=3425
+10-24 15:22:40.294  3425  3425 I DeviceLabNamespace: uname broker status=0 pid=3425
+10-24 15:22:40.294  3425  3425 I DeviceLabNamespace: proc broker enabled=1
+10-24 15:22:40.860  3425  3425 I DeviceLabNamespace: property remap status=0 pid=3425
+10-24 15:22:41.152  3425  3425 I VectorLegacyBridge: DeviceLab: native hooks for dev.androidlab.rawprobe: get=1 callback=1 fopen=1 open=1 openat=1 open_checked=1 openat_checked=1 uname=1 syscall=1 auxval=1 gl2=1 gl3=1 readlink=1 readlinkat=1 cpu_cache=1 uname_controls=1 raw_uname=aarch64 maps=1/kernel-broker mountinfo=1/kernel-broker
+10-24 15:22:41.167  3425  3425 I VectorLegacyBridge: DeviceLab: Java identity hooks installed for dev.androidlab.rawprobe
+10-24 15:22:43.839  3722  3722 I DeviceLabNamespace: profile mount status=0 pid=3722
+10-24 15:22:43.851  3722  3722 I DeviceLabNamespace: uname broker status=0 pid=3722
+10-24 15:22:43.851  3722  3722 I DeviceLabNamespace: proc broker enabled=1
+10-24 15:22:44.639  3722  3722 I DeviceLabNamespace: property remap status=0 pid=3722
+10-24 15:22:44.849  3722  3722 I VectorLegacyBridge: DeviceLab: guest auxv for dev.androidlab.probe: configured
+10-24 15:22:44.912  3722  3722 I VectorLegacyBridge: DeviceLab: native hooks for dev.androidlab.probe: get=1 callback=1 fopen=1 open=1 openat=1 open_checked=1 openat_checked=1 uname=1 syscall=1 auxval=1 gl2=1 gl3=1 readlink=1 readlinkat=1 cpu_cache=1 uname_controls=1 raw_uname=aarch64 maps=1/kernel-broker mountinfo=1/kernel-broker
+10-24 15:22:44.920  3722  3722 I VectorLegacyBridge: DeviceLab: Java identity hooks installed for dev.androidlab.probe
+10-24 15:22:52.583  4285  4285 I DeviceLabNamespace: profile mount status=0 pid=4285
+10-24 15:22:52.584  4285  4285 I DeviceLabNamespace: uname broker status=0 pid=4285
+10-24 15:22:52.584  4285  4285 I DeviceLabNamespace: proc broker enabled=1
+10-24 15:22:52.898  4285  4285 I DeviceLabNamespace: property remap status=0 pid=4285
+10-24 15:22:52.994  4285  4285 I VectorLegacyBridge: DeviceLab: native hooks for com.reveny.emulator.detection.sample: get=1 callback=1 fopen=1 open=1 openat=1 open_checked=1 openat_checked=1 uname=1 syscall=1 auxval=1 gl2=1 gl3=1 readlink=1 readlinkat=1 cpu_cache=1 uname_controls=1 raw_uname=aarch64 maps=1/kernel-broker mountinfo=1/kernel-broker
+10-24 15:22:52.997  4285  4285 I VectorLegacyBridge: DeviceLab: Java identity hooks installed for com.reveny.emulator.detection.sample

@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "operation": "play_integrity",
+  "job_id": "f63e0cb897684d97aa50dca30650157b",
+  "session_id": "568b8416f0a14ff3aa5c8d02c36ab04d",
+  "worker_uid": "worker_f21c8e1d34ed4226b778be90",
+  "request_sha256": "509a1894826a9bac8116c6e81c1f5f11cd4dbf0d29f44aba0c21b76bed72c7e0",
+  "origin": "cooperative_remote_worker",
+  "requester_integrity_verified": false,
+  "worker_package": "dev.androidlab.relayworker",
+  "created_at_ms": 1793031243548,
+  "expires_at_ms": 1793031363548,
+  "status": "failed",
+  "challenge_sha256": "273ba0504d559843875994d395de402b1f880ffc25a0c267f2a20e8b1e2a1aaf",
+  "lease_id": "fe3fd07bf2044146a60745947be3c012",
+  "attempt": 1,
+  "worker_version_code": 1,
+  "worker_apk_cert_sha256": "8da73e88327cb0e66192edff23cda9ab9010590b8f02e66881be7d1f528e14f6",
+  "execution_elapsed_ms": 1691,
+  "completed_at_ms": 1793031246711,
+  "error": {
+    "code": "HTTP_403"
+  }
+}

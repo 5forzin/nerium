@@ -1,0 +1,247 @@
+Starting a Gradle Daemon, 4 stopped Daemons could not be reused, use --status for details
+Calculating task graph as configuration cache cannot be reused because file 'procprobe\build.gradle.kts' has changed.
+Warning: SDK processing. This version only understands SDK XML versions up to 3 but an SDK XML file of version 4 was encountered. This can happen if you use versions of Android Studio and the command-line tools that were released at different times.
+> Task :probe:preBuild UP-TO-DATE
+> Task :module:preBuild UP-TO-DATE
+> Task :probe:preDebugBuild UP-TO-DATE
+> Task :module:preDebugBuild UP-TO-DATE
+> Task :probe:mergeDebugNativeDebugMetadata NO-SOURCE
+> Task :probe:javaPreCompileDebug UP-TO-DATE
+> Task :probe:generateDebugBuildConfig UP-TO-DATE
+> Task :probe:checkDebugAarMetadata UP-TO-DATE
+> Task :probe:generateDebugResValues UP-TO-DATE
+> Task :probe:processDebugNavigationResources UP-TO-DATE
+> Task :probe:mapDebugSourceSetPaths UP-TO-DATE
+> Task :probe:generateDebugResources UP-TO-DATE
+> Task :probe:compileDebugNavigationResources UP-TO-DATE
+> Task :probe:mergeDebugResources UP-TO-DATE
+> Task :probe:createDebugCompatibleScreenManifests UP-TO-DATE
+> Task :probe:packageDebugResources UP-TO-DATE
+> Task :probe:extractDeepLinksDebug UP-TO-DATE
+> Task :probe:processDebugMainManifest UP-TO-DATE
+> Task :probe:parseDebugLocalResources UP-TO-DATE
+> Task :probe:processDebugManifest UP-TO-DATE
+> Task :probe:mergeDebugShaders UP-TO-DATE
+> Task :probe:processDebugManifestForPackage UP-TO-DATE
+> Task :probe:compileDebugShaders NO-SOURCE
+> Task :probe:generateDebugAssets UP-TO-DATE
+> Task :probe:mergeDebugAssets UP-TO-DATE
+> Task :probe:compressDebugAssets UP-TO-DATE
+> Task :probe:desugarDebugFileDependencies UP-TO-DATE
+> Task :probe:processDebugJavaRes NO-SOURCE
+> Task :probe:processDebugResources UP-TO-DATE
+> Task :probe:mergeDebugJavaResource UP-TO-DATE
+> Task :probe:checkDebugDuplicateClasses UP-TO-DATE
+> Task :probe:mergeExtDexDebug UP-TO-DATE
+> Task :probe:mergeLibDexDebug UP-TO-DATE
+> Task :probe:compileDebugJavaWithJavac UP-TO-DATE
+> Task :probe:dexBuilderDebug UP-TO-DATE
+> Task :probe:mergeDebugGlobalSynthetics UP-TO-DATE
+> Task :probe:mergeProjectDexDebug UP-TO-DATE
+> Task :probe:configureCMakeDebug[x86_64]
+> Task :probe:configureCMakeDebug[arm64-v8a]
+> Task :probe:buildCMakeDebug[x86_64]
+> Task :probe:buildCMakeDebug[arm64-v8a]
+> Task :probe:validateSigningDebug UP-TO-DATE
+> Task :probe:mergeDebugJniLibFolders UP-TO-DATE
+> Task :probe:writeDebugAppMetadata UP-TO-DATE
+> Task :probe:writeDebugSigningConfigVersions UP-TO-DATE
+> Task :module:mergeDebugNativeDebugMetadata NO-SOURCE
+> Task :probe:mergeDebugNativeLibs UP-TO-DATE
+> Task :module:javaPreCompileDebug UP-TO-DATE
+> Task :module:checkDebugAarMetadata UP-TO-DATE
+> Task :probe:stripDebugDebugSymbols UP-TO-DATE
+> Task :module:processDebugNavigationResources UP-TO-DATE
+> Task :module:compileDebugNavigationResources UP-TO-DATE
+> Task :module:generateDebugResValues UP-TO-DATE
+> Task :module:mapDebugSourceSetPaths UP-TO-DATE
+> Task :module:generateDebugResources UP-TO-DATE
+> Task :module:mergeDebugResources UP-TO-DATE
+> Task :module:packageDebugResources UP-TO-DATE
+> Task :module:parseDebugLocalResources UP-TO-DATE
+> Task :module:createDebugCompatibleScreenManifests UP-TO-DATE
+> Task :module:extractDeepLinksDebug UP-TO-DATE
+> Task :module:processDebugMainManifest UP-TO-DATE
+> Task :probe:packageDebug UP-TO-DATE
+> Task :probe:assembleDebug UP-TO-DATE
+> Task :probe:createDebugApkListingFileRedirect UP-TO-DATE
+> Task :module:processDebugManifest UP-TO-DATE
+> Task :module:mergeDebugShaders UP-TO-DATE
+> Task :module:processDebugManifestForPackage UP-TO-DATE
+> Task :module:compileDebugShaders NO-SOURCE
+> Task :module:generateDebugAssets UP-TO-DATE
+> Task :module:mergeDebugAssets UP-TO-DATE
+> Task :module:processDebugResources UP-TO-DATE
+> Task :module:compressDebugAssets UP-TO-DATE
+> Task :module:desugarDebugFileDependencies UP-TO-DATE
+> Task :module:processDebugJavaRes NO-SOURCE
+> Task :module:mergeDebugJavaResource UP-TO-DATE
+> Task :module:checkDebugDuplicateClasses UP-TO-DATE
+> Task :module:mergeExtDexDebug UP-TO-DATE
+> Task :module:compileDebugJavaWithJavac UP-TO-DATE
+> Task :module:mergeLibDexDebug UP-TO-DATE
+> Task :module:dexBuilderDebug UP-TO-DATE
+> Task :module:mergeDebugGlobalSynthetics UP-TO-DATE
+> Task :module:mergeProjectDexDebug UP-TO-DATE
+> Task :module:configureCMakeDebug[arm64-v8a]
+> Task :module:configureCMakeDebug[x86_64]
+> Task :module:buildCMakeDebug[arm64-v8a]
+> Task :module:mergeDebugJniLibFolders UP-TO-DATE
+> Task :module:validateSigningDebug UP-TO-DATE
+> Task :module:writeDebugAppMetadata UP-TO-DATE
+> Task :module:writeDebugSigningConfigVersions UP-TO-DATE
+> Task :rawprobe:preBuild UP-TO-DATE
+> Task :rawprobe:preDebugBuild UP-TO-DATE
+> Task :rawprobe:mergeDebugNativeDebugMetadata NO-SOURCE
+> Task :rawprobe:javaPreCompileDebug UP-TO-DATE
+> Task :rawprobe:checkDebugAarMetadata UP-TO-DATE
+> Task :rawprobe:processDebugNavigationResources UP-TO-DATE
+> Task :rawprobe:compileDebugNavigationResources UP-TO-DATE
+> Task :rawprobe:generateDebugResValues UP-TO-DATE
+> Task :module:buildCMakeDebug[x86_64]
+> Task :rawprobe:mapDebugSourceSetPaths UP-TO-DATE
+> Task :rawprobe:generateDebugResources UP-TO-DATE
+> Task :module:mergeDebugNativeLibs UP-TO-DATE
+> Task :module:stripDebugDebugSymbols UP-TO-DATE
+> Task :rawprobe:mergeDebugResources UP-TO-DATE
+> Task :rawprobe:packageDebugResources UP-TO-DATE
+> Task :module:packageDebug UP-TO-DATE
+> Task :module:assembleDebug UP-TO-DATE
+> Task :module:createDebugApkListingFileRedirect UP-TO-DATE
+> Task :rawprobe:parseDebugLocalResources UP-TO-DATE
+> Task :rawprobe:createDebugCompatibleScreenManifests UP-TO-DATE
+> Task :rawprobe:extractDeepLinksDebug UP-TO-DATE
+> Task :rawprobe:mergeDebugShaders UP-TO-DATE
+> Task :rawprobe:compileDebugShaders NO-SOURCE
+> Task :rawprobe:processDebugMainManifest UP-TO-DATE
+> Task :rawprobe:generateDebugAssets UP-TO-DATE
+> Task :rawprobe:mergeDebugAssets UP-TO-DATE
+> Task :rawprobe:processDebugManifest UP-TO-DATE
+> Task :rawprobe:compressDebugAssets UP-TO-DATE
+> Task :rawprobe:processDebugManifestForPackage UP-TO-DATE
+> Task :rawprobe:desugarDebugFileDependencies UP-TO-DATE
+> Task :rawprobe:processDebugJavaRes NO-SOURCE
+> Task :rawprobe:processDebugResources UP-TO-DATE
+> Task :rawprobe:mergeDebugJavaResource UP-TO-DATE
+> Task :rawprobe:checkDebugDuplicateClasses UP-TO-DATE
+> Task :rawprobe:mergeExtDexDebug UP-TO-DATE
+> Task :rawprobe:compileDebugJavaWithJavac UP-TO-DATE
+> Task :rawprobe:mergeLibDexDebug UP-TO-DATE
+> Task :rawprobe:dexBuilderDebug UP-TO-DATE
+> Task :rawprobe:mergeDebugGlobalSynthetics UP-TO-DATE
+> Task :rawprobe:mergeProjectDexDebug UP-TO-DATE
+> Task :rawprobe:mergeDebugJniLibFolders UP-TO-DATE
+> Task :rawprobe:validateSigningDebug UP-TO-DATE
+> Task :rawprobe:configureCMakeDebug[x86_64]
+> Task :rawprobe:writeDebugAppMetadata UP-TO-DATE
+> Task :rawprobe:writeDebugSigningConfigVersions UP-TO-DATE
+> Task :procprobe:preBuild UP-TO-DATE
+> Task :procprobe:preDebugBuild UP-TO-DATE
+> Task :procprobe:mergeDebugNativeDebugMetadata NO-SOURCE
+> Task :procprobe:javaPreCompileDebug UP-TO-DATE
+> Task :procprobe:checkDebugAarMetadata UP-TO-DATE
+> Task :procprobe:processDebugNavigationResources UP-TO-DATE
+> Task :procprobe:compileDebugNavigationResources UP-TO-DATE
+> Task :procprobe:generateDebugResValues UP-TO-DATE
+> Task :procprobe:mapDebugSourceSetPaths UP-TO-DATE
+> Task :procprobe:generateDebugResources UP-TO-DATE
+> Task :procprobe:mergeDebugResources UP-TO-DATE
+> Task :procprobe:packageDebugResources UP-TO-DATE
+> Task :procprobe:parseDebugLocalResources UP-TO-DATE
+> Task :procprobe:createDebugCompatibleScreenManifests
+> Task :procprobe:extractDeepLinksDebug UP-TO-DATE
+> Task :rawprobe:buildCMakeDebug[x86_64]
+> Task :rawprobe:mergeDebugNativeLibs UP-TO-DATE
+> Task :rawprobe:stripDebugDebugSymbols UP-TO-DATE
+> Task :rawprobe:packageDebug UP-TO-DATE
+> Task :rawprobe:createDebugApkListingFileRedirect UP-TO-DATE
+> Task :rawprobe:assembleDebug UP-TO-DATE
+> Task :procprobe:mergeDebugShaders UP-TO-DATE
+> Task :procprobe:compileDebugShaders NO-SOURCE
+> Task :procprobe:generateDebugAssets UP-TO-DATE
+> Task :procprobe:mergeDebugAssets UP-TO-DATE
+> Task :procprobe:compressDebugAssets UP-TO-DATE
+> Task :procprobe:desugarDebugFileDependencies UP-TO-DATE
+> Task :procprobe:processDebugJavaRes NO-SOURCE
+> Task :procprobe:mergeDebugJavaResource UP-TO-DATE
+> Task :procprobe:checkDebugDuplicateClasses UP-TO-DATE
+> Task :procprobe:mergeExtDexDebug UP-TO-DATE
+> Task :procprobe:mergeLibDexDebug UP-TO-DATE
+> Task :procprobe:configureCMakeDebug[x86_64]
+> Task :procprobe:processDebugMainManifest
+> Task :procprobe:processDebugManifest
+> Task :procprobe:processDebugManifestForPackage
+> Task :procprobe:processDebugResources
+> Task :procprobe:compileDebugJavaWithJavac UP-TO-DATE
+> Task :procprobe:dexBuilderDebug UP-TO-DATE
+> Task :procprobe:mergeDebugGlobalSynthetics UP-TO-DATE
+> Task :procprobe:mergeProjectDexDebug UP-TO-DATE
+> Task :procprobe:mergeDebugJniLibFolders UP-TO-DATE
+> Task :procprobe:validateSigningDebug UP-TO-DATE
+> Task :procprobe:writeDebugAppMetadata UP-TO-DATE
+> Task :procprobe:writeDebugSigningConfigVersions UP-TO-DATE
+> Task :probe:bundleDebugClassesToCompileJar UP-TO-DATE
+> Task :probe:preDebugAndroidTestBuild SKIPPED
+> Task :probe:generateDebugAndroidTestResValues UP-TO-DATE
+> Task :probe:generateDebugAndroidTestLintModel UP-TO-DATE
+> Task :probe:extractProguardFiles UP-TO-DATE
+> Task :probe:generateDebugLintReportModel UP-TO-DATE
+> Task :probe:preDebugUnitTestBuild UP-TO-DATE
+> Task :probe:generateDebugUnitTestLintModel UP-TO-DATE
+> Task :probe:lintAnalyzeDebug UP-TO-DATE
+> Task :probe:lintAnalyzeDebugAndroidTest UP-TO-DATE
+> Task :probe:lintAnalyzeDebugUnitTest UP-TO-DATE
+> Task :probe:lintReportDebug UP-TO-DATE
+> Task :probe:lintDebug
+> Task :module:bundleDebugClassesToCompileJar UP-TO-DATE
+> Task :module:preDebugAndroidTestBuild SKIPPED
+> Task :module:generateDebugAndroidTestResValues UP-TO-DATE
+> Task :module:generateDebugAndroidTestLintModel UP-TO-DATE
+> Task :module:extractProguardFiles UP-TO-DATE
+> Task :module:generateDebugLintReportModel UP-TO-DATE
+> Task :module:preDebugUnitTestBuild UP-TO-DATE
+> Task :module:generateDebugUnitTestLintModel UP-TO-DATE
+> Task :module:lintAnalyzeDebug UP-TO-DATE
+> Task :module:lintAnalyzeDebugAndroidTest UP-TO-DATE
+> Task :module:lintAnalyzeDebugUnitTest UP-TO-DATE
+> Task :module:lintReportDebug UP-TO-DATE
+> Task :module:lintDebug
+> Task :rawprobe:bundleDebugClassesToCompileJar UP-TO-DATE
+> Task :rawprobe:preDebugAndroidTestBuild SKIPPED
+> Task :rawprobe:generateDebugAndroidTestResValues UP-TO-DATE
+> Task :rawprobe:generateDebugAndroidTestLintModel UP-TO-DATE
+> Task :rawprobe:extractProguardFiles UP-TO-DATE
+> Task :rawprobe:generateDebugLintReportModel UP-TO-DATE
+> Task :rawprobe:preDebugUnitTestBuild UP-TO-DATE
+> Task :rawprobe:generateDebugUnitTestLintModel UP-TO-DATE
+> Task :rawprobe:lintAnalyzeDebug UP-TO-DATE
+> Task :rawprobe:lintAnalyzeDebugAndroidTest UP-TO-DATE
+> Task :rawprobe:lintAnalyzeDebugUnitTest UP-TO-DATE
+> Task :rawprobe:lintReportDebug UP-TO-DATE
+> Task :rawprobe:lintDebug
+> Task :procprobe:bundleDebugClassesToCompileJar UP-TO-DATE
+> Task :procprobe:preDebugAndroidTestBuild SKIPPED
+> Task :procprobe:generateDebugAndroidTestResValues UP-TO-DATE
+> Task :procprobe:generateDebugAndroidTestLintModel
+> Task :procprobe:extractProguardFiles UP-TO-DATE
+> Task :procprobe:generateDebugLintReportModel
+> Task :procprobe:preDebugUnitTestBuild UP-TO-DATE
+> Task :procprobe:generateDebugUnitTestLintModel
+> Task :procprobe:buildCMakeDebug[x86_64]
+> Task :procprobe:mergeDebugNativeLibs
+> Task :procprobe:stripDebugDebugSymbols
+> Task :procprobe:packageDebug
+> Task :procprobe:createDebugApkListingFileRedirect
+> Task :procprobe:assembleDebug
+> Task :procprobe:lintAnalyzeDebugAndroidTest
+> Task :procprobe:lintAnalyzeDebugUnitTest
+> Task :procprobe:lintAnalyzeDebug
+
+> Task :procprobe:lintReportDebug
+Wrote HTML report to file:///E:/Workstation/projects/android-device-lab/procprobe/build/reports/lint-results-debug.html
+
+> Task :procprobe:lintDebug
+
+BUILD SUCCESSFUL in 21s
+201 actionable tasks: 32 executed, 169 up-to-date
+Configuration cache entry stored.

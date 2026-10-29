@@ -1,0 +1,80 @@
+{
+  "arm54": {
+    "before": {
+      "detected": 28,
+      "unavailable": 1,
+      "total": 54
+    },
+    "after": {
+      "detected": 28,
+      "unavailable": 1,
+      "total": 54
+    },
+    "status_changes": [],
+    "same_apk": true,
+    "same_abi": true
+  },
+  "raw79": {
+    "before": {
+      "detected": 20,
+      "unavailable": 0,
+      "total": 79
+    },
+    "after": {
+      "detected": 20,
+      "unavailable": 0,
+      "total": 79
+    },
+    "status_changes": [],
+    "same_apk": true,
+    "same_abi": true
+  },
+  "proc99": {
+    "before": {
+      "detected": 8,
+      "unavailable": 1,
+      "total": 95
+    },
+    "after": {
+      "detected": 8,
+      "unavailable": 1,
+      "total": 95
+    },
+    "status_changes": [],
+    "same_apk": true,
+    "same_abi": true
+  },
+  "reveny": {
+    "before": 4,
+    "after": 4,
+    "same_findings": true,
+    "same_apk": true
+  },
+  "duck_1093": {
+    "before": {
+      "Danger": 3,
+      "Warning": 3,
+      "Ready": 20,
+      "Pending": 0
+    },
+    "after": {
+      "Danger": 3,
+      "Warning": 3,
+      "Ready": 20,
+      "Pending": 0
+    },
+    "same_apk": true,
+    "same_abi": true,
+    "module_changes": []
+  },
+  "play_integrity": {
+    "before_labels": [],
+    "after_labels": [],
+    "both_nonces_matched": true
+  },
+  "system_image_unchanged_from_v32": true,
+  "system_extent_sha256": "199a5f0ee9f3a22c6fc85661fc1dfa0f922b3a9e96525fc350d96c5544b1a28e",
+  "diagnostic_apk_removed": true,
+  "boundary_measurement_contract_passed": true,
+  "zero_detections_achieved": false
+}

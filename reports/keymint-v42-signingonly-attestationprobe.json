@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "captured_at_ms": 1793055656675,
+  "api": 34,
+  "challenge_source": "external",
+  "hardware_attestation_feature": true,
+  "strongbox_feature": false,
+  "default_keystore": {
+    "status": "failed",
+    "error_type": "java.security.ProviderException",
+    "error": "java.security.ProviderException: Failed to generate key pair."
+  },
+  "strongbox": {
+    "status": "unavailable",
+    "error_type": "android.security.keystore.StrongBoxUnavailableException",
+    "error": "android.security.keystore.StrongBoxUnavailableException: Failed to generated key pair."
+  },
+  "interpretation": "Valid signatures and nonce binding do not establish manufacturer trust or hardware-backed storage.",
+  "apk_sha256": "06feb66b5ea7a8b801afb57b242efe07e014118e92a45aac0d6fbf6f864ccbdc",
+  "package": "dev.androidlab.attestationprobe"
+}

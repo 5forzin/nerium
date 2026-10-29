@@ -1,0 +1,1 @@
+{"stream_attempts":3,"stream_connections":3,"event_count":10,"poll_count":4,"last_event_at_ms":1793035540584,"last_poll_at_ms":1793035540335,"last_http_status":200,"last_error_code":"SOCKET_TIMEOUT","started_at_ms":1793035488031,"updated_at_ms":1793035540584}

@@ -1,0 +1,102 @@
+{
+  "schema_version": 1,
+  "scope": "Offline factory SDK vendor ELF inspection; no runtime loaded-image claim",
+  "source_system_img_sha256": "4c0231879770f9ef3a4f33ef317ccf6a123b16e198ecab0e9ce76b9efc1f7da0",
+  "source_provenance_report": "reports/playstore-v34-factory-provenance.json",
+  "source_partition": "vendor logical partition embedded in system.img",
+  "partition_offset": 875560960,
+  "partition_bytes": 95346688,
+  "extraction": "Read-only bounded Python standard-library ext4 extent reader",
+  "service": {
+    "class": "early_hal",
+    "puresoft_build_id": "d22016875c6596c7a8301b0795994afa",
+    "executable": "/vendor/bin/hw/android.hardware.security.keymint-service",
+    "service_build_id": "5a6619124c24a09ce4489f4c462ae038",
+    "vintf_rpc_instance": "IRemotelyProvisionedComponent/default",
+    "vintf_keymint_version": 2,
+    "vintf_instance": "IKeyMintDevice/default",
+    "user": "nobody",
+    "init_name": "vendor.keymint-default",
+    "libkeymint_build_id": "6da91774449d6f079f47d045f846fa26"
+  },
+  "getter": {
+    "context_boot_data_read": false,
+    "size": "0xdc",
+    "virtual_address": "0xfb30",
+    "shared_key_and_hash": "Both fields receive same string pointer and length",
+    "zero_string_constructor": "0xfbd6 length=0x20; 0xfbde fill=0; 0xfbe0 basic_string::__init(size,char)",
+    "library": "/vendor/lib64/libpuresoftkeymasterdevice.so",
+    "locked_store": "0xfb95: movb 0x0 -> params+36",
+    "symbol": "keymaster::PureSoftKeymasterContext::GetVerifiedBootParams(keymaster_error_t*) const",
+    "boot_state_store": "0xfb8b: movl 0x2 -> params+32"
+  },
+  "setter": {
+    "size": "0x258",
+    "rpc_forward": "0xf426 calls PureSoftRemoteProvisioningContext::SetVerifiedBootInfo",
+    "address": "0xf210"
+  },
+  "aosp_reference_commit": "8729d4dd86c0bfec54c34610aa1c35f3d109b8a6",
+  "aosp_reference_tag": "android-14.0.0_r1",
+  "binary_getter_semantics_match_reference": true,
+  "exact_source_build_commit_proven": false,
+  "avd_or_sdk_modified": false,
+  "runtime_boot_performed": false,
+  "private_key_material_parsed_or_used": false,
+  "files": [
+    {
+      "file": "android.hardware.security.keymint-service",
+      "bytes": 30072,
+      "sha256": "1fdcae411c1c3859c96633ebcb725e3fb57d616478070a59da69e782c3cd9fd3"
+    },
+    {
+      "file": "libkeymint.so",
+      "bytes": 138480,
+      "sha256": "2c44bdec5b26f2cd6d203f22a86103391ee66f0e2a832242ff4788907c3a0b19"
+    },
+    {
+      "file": "libpuresoftkeymasterdevice.so",
+      "bytes": 101448,
+      "sha256": "82653197ba002aaf5d2fef9e7df72871e50f418564b2742eaf869649d2f23af5"
+    },
+    {
+      "file": "libkeymaster_portable.so",
+      "bytes": 542720,
+      "sha256": "d096ef622e0fdce1019bec845349b3226dbff08907ea44cccfa0ee59b7725039"
+    },
+    {
+      "file": "libkeymaster_messages.so",
+      "bytes": 109256,
+      "sha256": "c04c2c217b76ed61de876f4c90a9904839532343738be3b6e4ea76b578c497b9"
+    },
+    {
+      "file": "lib_android_keymaster_keymint_utils.so",
+      "bytes": 21880,
+      "sha256": "5228710f6168ed1ce3e8d17f89046786b9d7626813fde426efcaeecbe6f7f65b"
+    },
+    {
+      "file": "android.hardware.security.keymint-service.rc",
+      "bytes": 124,
+      "sha256": "045cd6b62ddcadcc86eb0eac6b94c343eec1588ce45450d6aa592a45ddedd722"
+    },
+    {
+      "file": "android.hardware.security.keymint-service.xml",
+      "bytes": 400,
+      "sha256": "a014eb27cc61a178062ea044fe640bbd52afbb1eb60d94c513cd50c3a485fe06"
+    },
+    {
+      "file": "puresoft-getter.disassembly.txt",
+      "bytes": 3880,
+      "sha256": "a14fb0494d1302a94073a22168b4d77bfce93a53816daded1b3eca27a5d7c63f"
+    },
+    {
+      "file": "puresoft-set-bootinfo.disassembly.txt",
+      "bytes": 17218,
+      "sha256": "9b8af336488b378d3aa6ef840c0eea136020373de7a13e68719fae61ae1c674d"
+    },
+    {
+      "file": "keymint-constructor.disassembly.txt",
+      "bytes": 14549,
+      "sha256": "0760866b42d2b92ada55c47efc0238ab84132344ba08683d64d9d5d753e1ba87"
+    }
+  ]
+}

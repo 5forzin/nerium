@@ -1,0 +1,48 @@
+{
+  "trial": "Fresh Android 14 x86_64 emulator image comparison",
+  "isolated_sdk": "C:/Users/antho/AppData/Local/android-device-lab/research-googleapi/Sdk",
+  "duck_apk_sha256": "9d0bbdab9c0b14334c9ec0d319758c5f9085260a09388486482b2ac497c81ffc",
+  "google_apis": {
+    "avd": "device-lab-googleapi",
+    "boot_id": "e28b06cf-f27e-4a56-b7d5-fd26188b10a0",
+    "image_revision": 14,
+    "system_image_sha256": "156534aa2c707edfb57026f7b573a561e513433d7643d9ce3230ae6d65804c7a",
+    "build_type": "userdebug/dev-keys",
+    "duck": {"Danger": 4, "Warning": 2, "Ready": 20, "Pending": 0},
+    "keystore_security_level": 0,
+    "attestation_security_level": 0,
+    "root_subject": "O=Google Test LLC,CN=Droid Unregistered Device CA",
+    "root_sha256": "09ac57039e17c3f0f181a63bb53112c09fb383936186ab53379b23851793dd4b",
+    "manufacturer_trust": "not_established"
+  },
+  "google_apis_playstore": {
+    "avd": "device-lab-playstore",
+    "boot_id": "e8fde9d0-1b78-4578-b955-25736c17b68c",
+    "image_revision": 14,
+    "system_image_sha256": "4c0231879770f9ef3a4f33ef317ccf6a123b16e198ecab0e9ce76b9efc1f7da0",
+    "build_type": "user/release-keys",
+    "duck": {"Danger": 3, "Warning": 3, "Ready": 20, "Pending": 0},
+    "keystore_security_level": 0,
+    "attestation_security_level": 0,
+    "root_subject": "CN=Android Keystore Software Attestation Root,OU=Android,O=Google\\, Inc.,L=Mountain View,ST=California,C=US",
+    "root_sha256": "51d496ad4664190fbdaf1ad987278efa35d6fbf52e50a9c34ded8395477ede5c",
+    "root_matches_official_list": false,
+    "certificate_chain_valid_now": false,
+    "expired_intermediate_sha256": "b98b2d687c24434b0ffa20eb889e180fe2d514883d695484ebb4ff83a6639b9b",
+    "host_verifier": "rejected_expired_certificate"
+  },
+  "isolated_candidate_reference": {
+    "report": "strict-v17-synthetic-summary.json",
+    "duck_normal": {"Danger": 1, "Warning": 1, "Ready": 20, "Pending": 0},
+    "duck_offline": {"Danger": 1, "Warning": 0, "Ready": 20, "Pending": 0},
+    "manufacturer_trust": "not_established"
+  },
+  "evidence": [
+    "strict-googleapi-fresh-duck.json",
+    "strict-googleapi-fresh-hostnonce.json",
+    "strict-googleapi-fresh-trust-audit.json",
+    "strict-playstore-fresh-duck.json",
+    "strict-playstore-fresh-hostnonce-v021.json",
+    "strict-v17-synthetic-summary.json"
+  ]
+}

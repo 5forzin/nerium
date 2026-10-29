@@ -1,0 +1,79 @@
+  [✖ DANGER] Mount
+  Verdict      : 8 critical mount signal(s)
+  Quick Facts  : Critical: 8  |  Review: None  |  Coverage: 70%  |  Native: Loaded
+
+  [Artifacts]
+    • Magisk mounts: /debug_ramdisk (magisk -> /debug_ramdisk (tmpfs))
+    • Magisk mounts: /system/bin/magisk (magisk -> /system/bin/magisk (tmpfs))
+    • Magisk mounts: /system/bin/magis… (magisk -> /system/bin/magiskpolicy (tmpfs))
+
+  [Runtime]
+    • Status: Clean (No findings were produced for this section.)
+
+  [Filesystem]
+    • Status: Clean (No findings were produced for this section.)
+
+  [Consistency]
+    • Root mount artifact: /debug_ramdisk (root=/, source=magisk)
+    • Root mount artifact: /apex/com.android…
+        root=/adb/modules/zygisk_vector/bin/dex2oat64, source=/dev/block/dm-40
+    • Root mount artifact: /system/bin/magisk (root=/magisk64, source=magisk)
+    • Root mount artifact: /system/bin/magis… (root=/magiskpolicy, source=magisk)
+    • /data/adb access: Restricted
+        The app could not read /data/adb directly, which is normal without root.
+    • Anonymous device minors: Gaps observed
+        Window: /dev/cpuset=0:28 .. /storage/emulated/0/Android/data/.nomedia=0:84; visible unique devices=8. Only interior intervals between visible devices are compared. Gap 0:36..0:36 between /data_mirror and /system/bin. Gap runs=1. Released IDs, kernel-only allocations and other namespaces can explain gaps. These are non-atomic observations, not proof of root or Vector; bind mounts reuse a superblock and may leave no additional anonymous device number.
+    • Init namespace access: Restricted
+        Reading /proc/1/ns/mnt is normally blocked for unprivileged apps, so namespace comparison coverage is partial.
+    • Path coverage: 70%
+        Accessible checks: 14/20. Permission-denied checks: 6. Restricted visibility is not evidence of root.
+    • Root mount propagation: Private
+        No shared/master propagation markers were present on the root mount.
+    • statx mount root: /data/data
+        App data reports the VFS mount-root attribute; this is not an integrity violation.
+    • statx mount root: /system/bin
+        System bin reports the VFS mount-root attribute; this is not an integrity violation.
+    • statx mount root: /system/lib64
+        System lib64 reports the VFS mount-root attribute; this is not an integrity violation.
+
+  [Methods]
+    • Startup preload: Clean
+        Transparent NativeActivity launcher runs early namespace and mount checks before MainActivity starts.
+    • Zygote next mount view: Requires Android 17 (Zygote next native services require Android 17 (API 37).)
+    • Anonymous device minors: Gaps observed
+        Window: /dev/cpuset=0:28 .. /storage/emulated/0/Android/data/.nomedia=0:84; visible unique devices=8. Only interior intervals between visible devices are compared. Gap 0:36..0:36 between /data_mirror and /system/bin. Gap runs=1. Released IDs, kernel-only allocations and other namespaces can explain gaps. These are non-atomic observations, not proof of root or Vector; bind mounts reuse a superblock and may leave no additional anonymous device number.
+    • Path probes: Partial
+        Busybox, /data/adb, debug ramdisk payload markers, and hybrid framework path checks.
+    • Shell tmp view: Clean
+        Checks whether /data/local/tmp is selectively hidden or remapped compared with its parent and with /proc/self/mountinfo. parentAccessible=true, accessState=ACCESSIBLE, mountinfoReadable=true, dedicatedMounts=0
+    • /proc/self/mounts: 2 hit(s)
+        Runtime mount table scan for Magisk paths, writable system partitions, overlays, loop devices, and observed source paths.
+    • /proc/self/maps: Unavailable
+        Memory-map scan for Zygisk, Riru, and Magisk-hidden library paths.
+    • /proc/self/mountinfo: 4 hit(s)
+        Mountinfo root-field, propagation, mount-ID, and namespace-consistency checks.
+    • Filesystem probes: Clean
+        Overlayfs support, system filesystem type, and suspicious tmpfs sizing checks.
+    • statx cross-check: Mount root
+        Reports returned statx mount-ID and mount-root fields. Missing fields or syscall errors limit coverage; non-atomic differences do not establish tampering.
+
+  [Scan]
+    • Startup preload: Clean
+    • Preload context: Stale
+    • Preload findings: 0
+    • Mount entries: 1095
+    • Mountinfo entries: 1088
+    • Map lines: 0
+    • Permission denied: 6
+    • Coverage: 70%
+    • Mounts readable: Yes
+    • Mountinfo readable: Yes
+    • Maps readable: No
+    • statx support: Yes
+
+  [Impact & Guidance]
+    • A direct root token in a visible process mount table is strong evidence of a root-managed mount layer.
+    • Mount-layer anomalies are strong signals because they describe how the current process actually sees filesystems, overlays, and root-managed bind mounts at runtime.
+    • Magisk, Zygisk, KernelSU, or APatch-style mount artifacts can be used to present a cleaner filesystem view to selected apps while keeping root tooling active elsewhere.
+    • Permission-restricted paths and namespace boundaries can hide part of the mount picture, so combine this card with SU, TEE, kernel, and package detectors.
+

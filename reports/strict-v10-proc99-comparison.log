@@ -1,0 +1,101 @@
+Device identity changes:
+
+Changed identity fields: 0
+
+Check changes:
+  maps.fdinfo_inode: clear -> clear
+    before: pos:64flags:02100000mnt_id:22263ino:902883
+    after:  pos:64flags:02100000mnt_id:81243ino:325087
+  maps.open.noatime: clear -> clear
+    before: bytes=226792
+    after:  bytes=224765
+  maps.open.noctty: clear -> clear
+    before: bytes=226792
+    after:  bytes=224667
+  maps.open.nofollow: clear -> clear
+    before: bytes=226404
+    after:  bytes=224279
+  maps.openat2: clear -> clear
+    before: bytes=226792
+    after:  bytes=224959
+  maps.statx_alias: clear -> clear
+    before: mnt_id=22263;expected=22263
+    after:  mnt_id=81243;expected=81243
+  maps.statx_empty: clear -> clear
+    before: mnt_id=22263;expected=22263
+    after:  mnt_id=81243;expected=81243
+  mountinfo.fdinfo_inode: clear -> clear
+    before: pos:64flags:02100000mnt_id:22263ino:902104
+    after:  pos:64flags:02100000mnt_id:81243ino:325099
+  mountinfo.open.noatime: clear -> clear
+    before: bytes=144553
+    after:  bytes=144571
+  mountinfo.open.noctty: clear -> clear
+    before: bytes=144553
+    after:  bytes=144571
+  mountinfo.open.nofollow: clear -> clear
+    before: bytes=144553
+    after:  bytes=144571
+  mountinfo.openat2: clear -> clear
+    before: bytes=144553
+    after:  bytes=144571
+  mountinfo.statx_alias: clear -> clear
+    before: mnt_id=22263;expected=22263
+    after:  mnt_id=81243;expected=81243
+  mountinfo.statx_empty: clear -> clear
+    before: mnt_id=22263;expected=22263
+    after:  mnt_id=81243;expected=81243
+  mounts.fdinfo_inode: clear -> clear
+    before: pos:64flags:02100000mnt_id:22263ino:902925
+    after:  pos:64flags:02100000mnt_id:81243ino:324300
+  mounts.open.noatime: clear -> clear
+    before: bytes=90310
+    after:  bytes=90314
+  mounts.open.noctty: clear -> clear
+    before: bytes=90310
+    after:  bytes=90314
+  mounts.open.nofollow: clear -> clear
+    before: bytes=90310
+    after:  bytes=90314
+  mounts.openat2: clear -> clear
+    before: bytes=90310
+    after:  bytes=90314
+  mounts.statx_alias: clear -> clear
+    before: mnt_id=22263;expected=22263
+    after:  mnt_id=81243;expected=81243
+  mounts.statx_empty: clear -> clear
+    before: mnt_id=22263;expected=22263
+    after:  mnt_id=81243;expected=81243
+  proc.map_files: clear -> clear
+    before: entries=1500;readable=1500;artifacts=0;
+    after:  entries=1498;readable=1498;artifacts=0;
+  proc.numa_maps: clear -> clear
+    before: bytes=159633
+    after:  bytes=158128
+  smaps.fdinfo_inode: clear -> clear
+    before: pos:64flags:02100000mnt_id:22263ino:903175
+    after:  pos:64flags:02100000mnt_id:81243ino:324282
+  smaps.open.noatime: clear -> clear
+    before: bytes=1556519
+    after:  bytes=1563451
+  smaps.open.noctty: clear -> clear
+    before: bytes=1555842
+    after:  bytes=1546445
+  smaps.open.nofollow: clear -> clear
+    before: bytes=1555179
+    after:  bytes=1541470
+  smaps.openat2: clear -> clear
+    before: bytes=1556519
+    after:  bytes=1568413
+  smaps.statx_alias: clear -> clear
+    before: mnt_id=22263;expected=22263
+    after:  mnt_id=81243;expected=81243
+  smaps.statx_empty: clear -> clear
+    before: mnt_id=22263;expected=22263
+    after:  mnt_id=81243;expected=81243
+
+Remaining detected signals (0):
+
+Unavailable checks (0):
+
+These are heuristic observations, not proof of a physical device or an integrity verdict.

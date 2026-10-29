@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "owner": "candidate3-owner.json",
+  "recorded_at": "2026-10-26T22:52:31.6126627+00:00",
+  "graceful_shutdown_acknowledged": true,
+  "initial_exit_wait_timed_out": true,
+  "subsequent_exit_confirmed": true,
+  "forced_stop_performed": false,
+  "backend_terminal_state": "closed",
+  "backend_frames": 67,
+  "other_emulators_untouched": true
+}

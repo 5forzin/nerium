@@ -1,0 +1,35 @@
+  [✖ DANGER] SU
+  Verdict      : SU binary detected
+  Quick Facts  : Artifacts: 1  |  Daemons: None  |  Context: Normal  |  Processes: 0
+
+  [Artifacts]
+    • Root daemons: None
+    • SU binaries: 1 (/system/bin/su)
+
+  [Context]
+    • Self context: Normal (u:r:untrusted_app:s0:c203,c256,c512,c768)
+    • Suspicious processes: None (No suspicious process contexts matched root-related tokens.)
+    • Probe path: JNI syscall scan
+        Checked 5 process contexts; 0 /proc reads were denied. Denied reads are kept as supporting visibility evidence, not direct root-process proof.
+
+  [Methods]
+    • daemonScan: Partial (6 of 6 paths could not be checked from this app.)
+    • fileScan: SU found (/system/bin/su)
+    • nativeSyscall: Normal
+        Self: u:r:untrusted_app:s0:c203,c256,c512,c768
+        Checked: 5
+        Denied: 0
+        Denied reads are supporting visibility evidence only.
+    • nativeLibrary: Loaded
+
+  [Scan]
+    • SU paths checked: 13
+    • Daemon paths checked: 0
+    • Proc contexts checked: 5
+    • Proc reads denied: 0
+
+  [Impact & Guidance]
+    • Privilege-escalation tooling is present or visible from this app context.
+    • Root managers can hide files, alter system behavior, and weaken app trust signals.
+    • Banking, payment, DRM, and integrity-sensitive apps may refuse to run.
+

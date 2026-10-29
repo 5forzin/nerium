@@ -1,0 +1,89 @@
+  [▲ WARNING] LSPosed
+  Verdict      : Dirty SELinux policy signal(s)
+  Quick Facts  : Critical: N/A  |  Review: 3  |  Bridge: Clean  |  Packages: 1
+
+  [Runtime]
+    • Runtime probes: Clean (No signal surfaced in this LSPosed evidence slice.)
+
+  [Binder]
+    • Binder probes: Clean (No signal surfaced in this LSPosed evidence slice.)
+
+  [Package]
+    • Device Lab Module: Module
+        dev.androidlab.module
+        Meta-data: xposedmodule, xposedminversion, xposeddescription, xposedscope
+
+  [SELinux policy]
+    • system_server execmem: Allowed
+        The native + java app_zygote SELinux access oracle reported system_server -> system_server:process execmem as allowed.
+    • Magisk binder: Allowed
+        The native + java app_zygote SELinux access oracle reported untrusted_app -> magisk:binder call as allowed. This is supporting dirty-policy evidence, not an LSPosed-specific rule.
+
+  [Native]
+    • Native traces: Unavailable
+        This LSPosed evidence slice was unavailable or scoped, so it is not treated as clean.
+
+  [Methods]
+    • Class load: Clean
+        Resolve known Xposed, libXposed, and LSPosed runtime classes through boot and app-facing class loaders.
+    • ClassLoader chain: Clean
+        Walks app-facing ClassLoader parent chains and flags loader names or chain depth that resemble LSPosed/Xposed injection.
+    • XposedBridge fields: Clean
+        Reflects XposedBridge.disableHooks and XposedBridge.sHookedMethodCallbacks to confirm live bridge state rather than class residue alone.
+    • Package catalog: Clean
+        Checks for LSPosed, LSPatch, EdXposed, Xposed installer, TaiChi, VirtualXposed, and common module-manager packages.
+    • Xposed meta-data: 1 module(s)
+        Scans installed app manifest meta-data such as xposedmodule, xposedminversion, and xposedscope.
+    • Stack trace: Clean
+        Analyzes current-thread and synthetic throwable stacks for XposedBridge, LSPosedBridge, LSPHooker_, and related hook callback tokens.
+    • Hook callbacks: Clean
+        Checks whether the default uncaught-exception handler class points back to Xposed or LSPosed runtime code.
+    • Binder bridge: Clean
+        Probes activity and serial Binder services for LSPosed bridge transaction behavior and descriptors.
+    • Zygote permissions: 1 grant(s) clean
+        Compares granted app permissions against the zygote-assigned supplemental GIDs exposed through /proc/self/status. Audited granted permissions against /proc/self/status Groups: INTERNET -> INET_GID (3003). Current groups: 3003 9997 20203 50203
+    • Runtime artifacts: Clean
+        Scans /proc/self/net/unix, /proc/self/fd, and environment variables for LSPosed/Xposed runtime residue that leaks into the current app process.
+    • Logcat leaks: Clean
+        Samples recent logcat buffers for LSPosed tags, control messages, bridge traces, and org.lsposed.daemon process leakage without requesting extra permissions.
+    • Dirty sepolicy: 2 dirty rule(s)
+        Runs DirtySepolicy-style access queries through the existing app_zygote SELinux carrier. The LSPosed-specific rule is untrusted_app -> lsposed_file:file read.
+        Carrier=u:r:app_zygote:s0:c512,c768 | carrier state=ok | carrier match=yes | controls=passed | repeatability=stable | query=selinux_check_access + android.os.SELinux.checkSELinuxAccess
+        access control=allowed | negative control rejected=yes | system_server execmem=allowed | Magisk binder=allowed | KernelSU file read=denied | LSPosed file read=denied
+        selinux_check_access unavailable from the current carrier.
+        Native dedicated=unavailable carrier=u:r:app_zygote:s0:c512,c768 controls=failed stable=no reason=selinux_check_access unavailable from the current carrier.
+        Java dedicated=trusted carrier=u:r:app_zygote:s0:c512,c768 controls=passed stable=yes
+    • Native maps: Clean
+        Scans /proc/self/maps for LSPosed, XposedBridge, libXposed, LSPlant, EdXposed, and LSPatch runtime mappings.
+    • Native heap: Unavailable
+        Samples readable Dalvik heap regions through /proc/self/mem for LSPosed and Xposed keyword residuals.
+    • Native library: Loaded
+        JNI-backed maps and heap probes for LSPosed-specific runtime evidence.
+    • Signal summary: 3 weak
+        Direct runtime signals come from classes, stack traces, Binder bridges, and native traces; package-only signals are softer residue.
+
+  [Scan]
+    • Danger signals: 0
+    • Review signals: 3
+    • Class hits: 0
+    • ClassLoader hits: 0
+    • Bridge field hits: 0
+    • Stack hits: 0
+    • Callback hits: 0
+    • Binder hits: 0
+    • Runtime artifact hits: 0
+    • Runtime artifacts availability: Checked
+    • Logcat hits: 0
+    • Logcat availability: Checked
+    • Dirty policy hits: 2
+    • Dirty policy availability: Checked
+    • Manager packages: 0
+    • Module apps: 1
+    • Native maps: 0
+    • Native heap: N/A
+    • Package visibility: Full
+
+  [Impact & Guidance]
+    • Manager packages, Xposed module meta-data, or dirty SELinux policy drift show framework or root-policy residue, but they do not prove the current process is hooked right now.
+    • Hardened setups can avoid exposing direct stack or class evidence in the current app, so yellow-only results still deserve correlation with other detector cards.
+

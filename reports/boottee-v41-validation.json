@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "recorded_at": "2026-10-26T20:01:22.0679406+00:00",
+  "status": "passed",
+  "native_aosp_baseline": {
+    "run": true,
+    "serialized_messages": 18,
+    "public_verify": true,
+    "altered_message_rejected": true,
+    "certificate_count": 0,
+    "report": "reports/boottee-v41-native-baseline.json"
+  },
+  "cng_protocol": {
+    "passed": 46,
+    "failed": 0,
+    "wire_round_trips": 38,
+    "exit_code": 0,
+    "report": "reports/boottee-v41-cng-protocol.json"
+  },
+  "cng_store": {
+    "passed": 6,
+    "failed": 0,
+    "source_matches_executed_version": true,
+    "report": "reports/boottee-v41-cng-store-controls.json",
+    "reexecuted_for_validation": false
+  },
+  "cached_dependency_files_verified": 602,
+  "executable_sha256": "0bc480b620eba80ac4e7c49e152446dd8f8f5727e6b63fd94ddb4d0421cbef2f",
+  "compiler_sha256": "2e1c3555b5c733d619b62f1f35d6defb5358cf94a01b2263b81f9ecfc0e9e08a",
+  "build_script_sha256": "ea6157cd7d5e920f1725b617c7b3b48b4d3496fa0b3437cbdeb7c35f8c2385e5",
+  "security_level": "SOFTWARE",
+  "hardware_authorizations_empty": true,
+  "key_reference_bytes": 36,
+  "process_local_ephemeral_keys": true,
+  "private_key_exported": false,
+  "keymint_version3_implemented": false,
+  "android_hal_replaced": false,
+  "android_guest_transport_integrated": false,
+  "key_persistence_implemented": false,
+  "avd_started": false,
+  "android_image_changed": false,
+  "selinux_changed": false,
+  "host_security_changed": false,
+  "external_attestation_root_authenticated": false,
+  "trusted_android_boot_verified": false,
+  "android_tee_verified": false,
+  "google_attestation_verified": false,
+  "fresh_detector_run": false,
+  "zero_detections_achieved": false,
+  "next_gate": "Connect the real protocol backend to a guest transport while preserving key authorization and truthful security/boot semantics"
+}

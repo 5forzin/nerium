@@ -1,0 +1,26 @@
+{
+  "captured_at": "2026-10-24T19:52:32.6010267Z",
+  "process_id": 2756,
+  "app_mount_namespace": "mnt:[4026532970]",
+  "zygote_mount_namespace": "mnt:[4026532925]",
+  "outside_has_hypervisor": true,
+  "app_namespace_has_hypervisor": false,
+  "outside_hardware": "ranchu",
+  "outside_qemu": "1",
+  "outside_uname": "x86_64",
+  "unhooked_namespace_uname": "x86_64",
+  "no_new_privs": 0,
+  "seccomp_filters": 1,
+  "kernel_maps_translation_visible": true,
+  "kernel_maps_module_visible": true,
+  "kernel_mountinfo_profile_visible": false,
+  "outside_properties": {
+    "ro.product.cpu.abilist": "x86_64,arm64-v8a",
+    "ro.dalvik.vm.native.bridge": "libndk_translation.so",
+    "ro.dalvik.vm.isa.arm64": "x86_64",
+    "ro.build.fingerprint": "google/sdk_gphone64_x86_64/emu64xa:14/UE1A.230829.050/12077443:userdebug/dev-keys"
+  },
+  "app_namespace_hardware": "ranchu",
+  "selinux": "Enforcing",
+  "namespace_log": ""
+}

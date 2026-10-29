@@ -1,0 +1,586 @@
+{
+  "schema_version": 1,
+  "recorded_at": "2026-10-26T23:07:12.940524+00:00",
+  "status": "read_only_research_complete",
+  "acquisition": {
+    "method": "Authenticated GitHub CLI API; exact commits and source paths",
+    "github_host": "github.com",
+    "active_account_verified": true,
+    "credentials_recorded": false,
+    "commands": [
+      "gh auth status --active --hostname github.com [filtered output]",
+      "gh api repos/eltavine/Duck-Detector-Refactoring/commits/b5305070468a --jq .sha",
+      "gh api repos/eltavine/Duck-Detector-Refactoring/git/trees/<commit>?recursive=1",
+      "gh api repos/<owner>/<repository>/contents/<path>?ref=<exact-commit>",
+      "gh api search/code?q=SIGNATURE_PADDING_RSA_PSS+setAttestationChallenge+-PURPOSE_VERIFY+-filename:KeyGenParameterSpec.java",
+      "gh api repos/openwallet-foundation/multipaz/commits/main --jq .sha",
+      "gh api repos/openwallet-foundation/multipaz/releases?per_page=5"
+    ]
+  },
+  "sources": [
+    {
+      "repository": "eltavine/Duck-Detector-Refactoring",
+      "commit": "b5305070468a497842f54fbe998521fbc9d87ddc",
+      "path": "capability/attestation/data/src/main/kotlin/com/eltavine/duckdetector/capability/attestation/data/AndroidKeyStoreTools.kt",
+      "url": "https://github.com/eltavine/Duck-Detector-Refactoring/blob/b5305070468a497842f54fbe998521fbc9d87ddc/capability/attestation/data/src/main/kotlin/com/eltavine/duckdetector/capability/attestation/data/AndroidKeyStoreTools.kt",
+      "sha256": "4145814a2c9250dd1b9f13a48b61f1707260b6c7f6676aebb2657ec6b2afec4e",
+      "cached_path": "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\attestation-profile-research\\AndroidKeyStoreTools.kt",
+      "line_ranges": [
+        {
+          "start": 68,
+          "end": 84,
+          "meaning": "RSA attestation uses 2048-bit RSA and PKCS1 signing padding",
+          "url": "https://github.com/eltavine/Duck-Detector-Refactoring/blob/b5305070468a497842f54fbe998521fbc9d87ddc/capability/attestation/data/src/main/kotlin/com/eltavine/duckdetector/capability/attestation/data/AndroidKeyStoreTools.kt#L68-L84"
+        },
+        {
+          "start": 182,
+          "end": 203,
+          "meaning": "Shared attestation builder requests SIGN plus VERIFY, SHA256, challenge and certificate metadata",
+          "url": "https://github.com/eltavine/Duck-Detector-Refactoring/blob/b5305070468a497842f54fbe998521fbc9d87ddc/capability/attestation/data/src/main/kotlin/com/eltavine/duckdetector/capability/attestation/data/AndroidKeyStoreTools.kt#L182-L203"
+        },
+        {
+          "start": 105,
+          "end": 125,
+          "meaning": "Attest-only EC key requests unsupported ATTEST_KEY purpose",
+          "url": "https://github.com/eltavine/Duck-Detector-Refactoring/blob/b5305070468a497842f54fbe998521fbc9d87ddc/capability/attestation/data/src/main/kotlin/com/eltavine/duckdetector/capability/attestation/data/AndroidKeyStoreTools.kt#L105-L125"
+        }
+      ]
+    },
+    {
+      "repository": "eltavine/Duck-Detector-Refactoring",
+      "commit": "b5305070468a497842f54fbe998521fbc9d87ddc",
+      "path": "capability/attestation/data/src/main/kotlin/com/eltavine/duckdetector/capability/attestation/data/AndroidAttestationCollector.kt",
+      "url": "https://github.com/eltavine/Duck-Detector-Refactoring/blob/b5305070468a497842f54fbe998521fbc9d87ddc/capability/attestation/data/src/main/kotlin/com/eltavine/duckdetector/capability/attestation/data/AndroidAttestationCollector.kt",
+      "sha256": "c30af8733b055800cfb257d6fc49e01b67cdba4a6eda516270d266ff315f79a9",
+      "cached_path": "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\attestation-profile-research\\AndroidAttestationCollector.kt",
+      "line_ranges": [
+        {
+          "start": 28,
+          "end": 39,
+          "meaning": "Primary collection uses EC-P256 and a fresh 32-byte challenge",
+          "url": "https://github.com/eltavine/Duck-Detector-Refactoring/blob/b5305070468a497842f54fbe998521fbc9d87ddc/capability/attestation/data/src/main/kotlin/com/eltavine/duckdetector/capability/attestation/data/AndroidAttestationCollector.kt#L28-L39"
+        },
+        {
+          "start": 69,
+          "end": 83,
+          "meaning": "Comparison collection creates RSA and EC chains with one fresh 24-byte challenge",
+          "url": "https://github.com/eltavine/Duck-Detector-Refactoring/blob/b5305070468a497842f54fbe998521fbc9d87ddc/capability/attestation/data/src/main/kotlin/com/eltavine/duckdetector/capability/attestation/data/AndroidAttestationCollector.kt#L69-L83"
+        }
+      ]
+    },
+    {
+      "repository": "eltavine/Duck-Detector-Refactoring",
+      "commit": "b5305070468a497842f54fbe998521fbc9d87ddc",
+      "path": "capability/attestation/data/src/main/kotlin/com/eltavine/duckdetector/capability/attestation/data/AttestationExtensionParser.kt",
+      "url": "https://github.com/eltavine/Duck-Detector-Refactoring/blob/b5305070468a497842f54fbe998521fbc9d87ddc/capability/attestation/data/src/main/kotlin/com/eltavine/duckdetector/capability/attestation/data/AttestationExtensionParser.kt",
+      "sha256": "9d48c1b6c6d48c516fc8e79101ed2de285245deff3c3f6431c5eb9722c6a90c9",
+      "cached_path": "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\attestation-profile-research\\AttestationExtensionParser.kt",
+      "line_ranges": [
+        {
+          "start": 60,
+          "end": 73,
+          "meaning": "Attestation challenge is compared to expected challenge",
+          "url": "https://github.com/eltavine/Duck-Detector-Refactoring/blob/b5305070468a497842f54fbe998521fbc9d87ddc/capability/attestation/data/src/main/kotlin/com/eltavine/duckdetector/capability/attestation/data/AttestationExtensionParser.kt#L60-L73"
+        },
+        {
+          "start": 94,
+          "end": 97,
+          "meaning": "Application information is parsed from Android attestation tag709",
+          "url": "https://github.com/eltavine/Duck-Detector-Refactoring/blob/b5305070468a497842f54fbe998521fbc9d87ddc/capability/attestation/data/src/main/kotlin/com/eltavine/duckdetector/capability/attestation/data/AttestationExtensionParser.kt#L94-L97"
+        },
+        {
+          "start": 250,
+          "end": 273,
+          "meaning": "Parses package names and signing-certificate digests; this block does not compare them against an independently expected application identity",
+          "url": "https://github.com/eltavine/Duck-Detector-Refactoring/blob/b5305070468a497842f54fbe998521fbc9d87ddc/capability/attestation/data/src/main/kotlin/com/eltavine/duckdetector/capability/attestation/data/AttestationExtensionParser.kt#L250-L273"
+        },
+        {
+          "start": 341,
+          "end": 349,
+          "meaning": "Parser independently selects the last certificate containing OID1.3.6.1.4.1.11129.2.1.17 without anchor authentication",
+          "url": "https://github.com/eltavine/Duck-Detector-Refactoring/blob/b5305070468a497842f54fbe998521fbc9d87ddc/capability/attestation/data/src/main/kotlin/com/eltavine/duckdetector/capability/attestation/data/AttestationExtensionParser.kt#L341-L349"
+        }
+      ]
+    },
+    {
+      "repository": "eltavine/Duck-Detector-Refactoring",
+      "commit": "b5305070468a497842f54fbe998521fbc9d87ddc",
+      "path": "feature/tee/data/src/main/kotlin/com/eltavine/duckdetector/features/tee/data/verification/keystore/KeyMintCryptoSupport.kt",
+      "url": "https://github.com/eltavine/Duck-Detector-Refactoring/blob/b5305070468a497842f54fbe998521fbc9d87ddc/feature/tee/data/src/main/kotlin/com/eltavine/duckdetector/features/tee/data/verification/keystore/KeyMintCryptoSupport.kt",
+      "sha256": "4e8b2348f2542bc75719757a82497045ad782ae82e7f09da082ade3f9493ee57",
+      "cached_path": "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\attestation-profile-research\\KeyMintCryptoSupport.kt",
+      "line_ranges": [
+        {
+          "start": 75,
+          "end": 95,
+          "meaning": "RSA helper uses 2048 bits and the fixed duck_keymint_probe challenge; purpose and padding come from caller",
+          "url": "https://github.com/eltavine/Duck-Detector-Refactoring/blob/b5305070468a497842f54fbe998521fbc9d87ddc/feature/tee/data/src/main/kotlin/com/eltavine/duckdetector/features/tee/data/verification/keystore/KeyMintCryptoSupport.kt#L75-L95"
+        }
+      ]
+    },
+    {
+      "repository": "eltavine/Duck-Detector-Refactoring",
+      "commit": "b5305070468a497842f54fbe998521fbc9d87ddc",
+      "path": "feature/tee/data/src/main/kotlin/com/eltavine/duckdetector/features/tee/data/verification/keystore/KeyMintCryptoChecks.kt",
+      "url": "https://github.com/eltavine/Duck-Detector-Refactoring/blob/b5305070468a497842f54fbe998521fbc9d87ddc/feature/tee/data/src/main/kotlin/com/eltavine/duckdetector/features/tee/data/verification/keystore/KeyMintCryptoChecks.kt",
+      "sha256": "b6aab1740a0d34c64295626fc3cd48a96b970d549915f95f1607b1194bd08140",
+      "cached_path": "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\attestation-profile-research\\KeyMintCryptoChecks.kt",
+      "line_ranges": [
+        {
+          "start": 144,
+          "end": 177,
+          "meaning": "RSA-PSS/SHA256 capability probe requests SIGN plus VERIFY and does not request attestation",
+          "url": "https://github.com/eltavine/Duck-Detector-Refactoring/blob/b5305070468a497842f54fbe998521fbc9d87ddc/feature/tee/data/src/main/kotlin/com/eltavine/duckdetector/features/tee/data/verification/keystore/KeyMintCryptoChecks.kt#L144-L177"
+        },
+        {
+          "start": 184,
+          "end": 191,
+          "meaning": "Attested RSA-OAEP probe requests DECRYPT and OAEP padding",
+          "url": "https://github.com/eltavine/Duck-Detector-Refactoring/blob/b5305070468a497842f54fbe998521fbc9d87ddc/feature/tee/data/src/main/kotlin/com/eltavine/duckdetector/features/tee/data/verification/keystore/KeyMintCryptoChecks.kt#L184-L191"
+        }
+      ]
+    },
+    {
+      "repository": "eltavine/Duck-Detector-Refactoring",
+      "commit": "b5305070468a497842f54fbe998521fbc9d87ddc",
+      "path": "feature/tee/data/src/main/kotlin/com/eltavine/duckdetector/features/tee/data/verification/strongbox/StrongBoxProbe.kt",
+      "url": "https://github.com/eltavine/Duck-Detector-Refactoring/blob/b5305070468a497842f54fbe998521fbc9d87ddc/feature/tee/data/src/main/kotlin/com/eltavine/duckdetector/features/tee/data/verification/strongbox/StrongBoxProbe.kt",
+      "sha256": "6aa417d8c2e3c1e4cffb8d8d4826b356b248be9de1122c758ecf511db5f4fdf6",
+      "cached_path": "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\attestation-profile-research\\StrongBoxProbe.kt",
+      "line_ranges": [
+        {
+          "start": 212,
+          "end": 223,
+          "meaning": "RSA capability profile uses 4096 bits, SIGN plus VERIFY, SHA256 and PKCS1",
+          "url": "https://github.com/eltavine/Duck-Detector-Refactoring/blob/b5305070468a497842f54fbe998521fbc9d87ddc/feature/tee/data/src/main/kotlin/com/eltavine/duckdetector/features/tee/data/verification/strongbox/StrongBoxProbe.kt#L212-L223"
+        }
+      ]
+    },
+    {
+      "repository": "openwallet-foundation/multipaz",
+      "commit": "11d29d84b8dd557dbe14bf22df1ae041229fb56c",
+      "path": "multipaz/src/commonMain/kotlin/org/multipaz/crypto/Algorithm.kt",
+      "url": "https://github.com/openwallet-foundation/multipaz/blob/11d29d84b8dd557dbe14bf22df1ae041229fb56c/multipaz/src/commonMain/kotlin/org/multipaz/crypto/Algorithm.kt",
+      "sha256": "123418bee9eb6eeda31dae307e08d1092454d2965d3483669276dc5417fb042b",
+      "cached_path": "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\attestation-profile-research\\Algorithm.kt",
+      "line_ranges": [
+        {
+          "start": 281,
+          "end": 284,
+          "meaning": "PS256_2048 is signing RSA2048 with SHA256 and PSS",
+          "url": "https://github.com/openwallet-foundation/multipaz/blob/11d29d84b8dd557dbe14bf22df1ae041229fb56c/multipaz/src/commonMain/kotlin/org/multipaz/crypto/Algorithm.kt#L281-L284"
+        }
+      ]
+    },
+    {
+      "repository": "openwallet-foundation/multipaz",
+      "commit": "11d29d84b8dd557dbe14bf22df1ae041229fb56c",
+      "path": "multipaz/src/androidMain/kotlin/org/multipaz/securearea/AndroidKeystoreCreateKeySettings.kt",
+      "url": "https://github.com/openwallet-foundation/multipaz/blob/11d29d84b8dd557dbe14bf22df1ae041229fb56c/multipaz/src/androidMain/kotlin/org/multipaz/securearea/AndroidKeystoreCreateKeySettings.kt",
+      "sha256": "b9c27c165737d7a82e060ff265f4b34716c64325303d269428f434aa348ed34e",
+      "cached_path": "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\attestation-profile-research\\AndroidKeystoreCreateKeySettings.kt",
+      "line_ranges": [
+        {
+          "start": 55,
+          "end": 64,
+          "meaning": "Builder accepts caller challenge; defaults to no user authentication, no StrongBox and no attest-key alias",
+          "url": "https://github.com/openwallet-foundation/multipaz/blob/11d29d84b8dd557dbe14bf22df1ae041229fb56c/multipaz/src/androidMain/kotlin/org/multipaz/securearea/AndroidKeystoreCreateKeySettings.kt#L55-L64"
+        }
+      ]
+    },
+    {
+      "repository": "openwallet-foundation/multipaz",
+      "commit": "11d29d84b8dd557dbe14bf22df1ae041229fb56c",
+      "path": "multipaz/src/androidMain/kotlin/org/multipaz/securearea/AndroidKeystoreSecureArea.kt",
+      "url": "https://github.com/openwallet-foundation/multipaz/blob/11d29d84b8dd557dbe14bf22df1ae041229fb56c/multipaz/src/androidMain/kotlin/org/multipaz/securearea/AndroidKeystoreSecureArea.kt",
+      "sha256": "27eae8cef40629276b8244921ce878d0cbf49a4047f96c06ad25b02c4f21ba16",
+      "cached_path": "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\attestation-profile-research\\AndroidKeystoreSecureArea.kt",
+      "line_ranges": [
+        {
+          "start": 236,
+          "end": 251,
+          "meaning": "Signing algorithms request SIGN only, with no VERIFY purpose",
+          "url": "https://github.com/openwallet-foundation/multipaz/blob/11d29d84b8dd557dbe14bf22df1ae041229fb56c/multipaz/src/androidMain/kotlin/org/multipaz/securearea/AndroidKeystoreSecureArea.kt#L236-L251"
+        },
+        {
+          "start": 287,
+          "end": 307,
+          "meaning": "RSA generation chooses exact algorithm key size, one digest and one signature padding",
+          "url": "https://github.com/openwallet-foundation/multipaz/blob/11d29d84b8dd557dbe14bf22df1ae041229fb56c/multipaz/src/androidMain/kotlin/org/multipaz/securearea/AndroidKeystoreSecureArea.kt#L287-L307"
+        },
+        {
+          "start": 324,
+          "end": 369,
+          "meaning": "Authentication, StrongBox and attest-key options are conditional",
+          "url": "https://github.com/openwallet-foundation/multipaz/blob/11d29d84b8dd557dbe14bf22df1ae041229fb56c/multipaz/src/androidMain/kotlin/org/multipaz/securearea/AndroidKeystoreSecureArea.kt#L324-L369"
+        },
+        {
+          "start": 371,
+          "end": 382,
+          "meaning": "Passes caller attestation challenge; extra validity authorizations appear only when validity is set",
+          "url": "https://github.com/openwallet-foundation/multipaz/blob/11d29d84b8dd557dbe14bf22df1ae041229fb56c/multipaz/src/androidMain/kotlin/org/multipaz/securearea/AndroidKeystoreSecureArea.kt#L371-L382"
+        },
+        {
+          "start": 389,
+          "end": 407,
+          "meaning": "Reads and stores the resulting Android Keystore certificate chain",
+          "url": "https://github.com/openwallet-foundation/multipaz/blob/11d29d84b8dd557dbe14bf22df1ae041229fb56c/multipaz/src/androidMain/kotlin/org/multipaz/securearea/AndroidKeystoreSecureArea.kt#L389-L407"
+        },
+        {
+          "start": 1194,
+          "end": 1198,
+          "meaning": "PSS-SHA256 signing maps to SHA256withRSA/PSS",
+          "url": "https://github.com/openwallet-foundation/multipaz/blob/11d29d84b8dd557dbe14bf22df1ae041229fb56c/multipaz/src/androidMain/kotlin/org/multipaz/securearea/AndroidKeystoreSecureArea.kt#L1194-L1198"
+        }
+      ]
+    },
+    {
+      "repository": "openwallet-foundation/multipaz",
+      "commit": "11d29d84b8dd557dbe14bf22df1ae041229fb56c",
+      "path": "samples/testapp/src/androidMain/kotlin/org/multipaz/testapp/ui/AndroidKeystoreSecureAreaScreenAndroid.kt",
+      "url": "https://github.com/openwallet-foundation/multipaz/blob/11d29d84b8dd557dbe14bf22df1ae041229fb56c/samples/testapp/src/androidMain/kotlin/org/multipaz/testapp/ui/AndroidKeystoreSecureAreaScreenAndroid.kt",
+      "sha256": "c28f53f65b330cfac6876669bef0f27b87f1ee26b4d4e32ef165394573268c96",
+      "cached_path": "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\attestation-profile-research\\AndroidKeystoreSecureAreaScreenAndroid.kt",
+      "line_ranges": [
+        {
+          "start": 365,
+          "end": 415,
+          "meaning": "UI offers plain PS256_2048 with authentication disabled and StrongBox false",
+          "url": "https://github.com/openwallet-foundation/multipaz/blob/11d29d84b8dd557dbe14bf22df1ae041229fb56c/samples/testapp/src/androidMain/kotlin/org/multipaz/testapp/ui/AndroidKeystoreSecureAreaScreenAndroid.kt#L365-L415"
+        },
+        {
+          "start": 747,
+          "end": 765,
+          "meaning": "aksTestUnguarded requests caller-selected algorithm and constant Challenge bytes without a validity period",
+          "url": "https://github.com/openwallet-foundation/multipaz/blob/11d29d84b8dd557dbe14bf22df1ae041229fb56c/samples/testapp/src/androidMain/kotlin/org/multipaz/testapp/ui/AndroidKeystoreSecureAreaScreenAndroid.kt#L747-L765"
+        },
+        {
+          "start": 768,
+          "end": 797,
+          "meaning": "Signs data with the generated key",
+          "url": "https://github.com/openwallet-foundation/multipaz/blob/11d29d84b8dd557dbe14bf22df1ae041229fb56c/samples/testapp/src/androidMain/kotlin/org/multipaz/testapp/ui/AndroidKeystoreSecureAreaScreenAndroid.kt#L768-L797"
+        },
+        {
+          "start": 287,
+          "end": 307,
+          "meaning": "The separate RSA Attestation button chooses RS256_2048, which uses PKCS1 and is unsuitable for the strict CNG profile",
+          "url": "https://github.com/openwallet-foundation/multipaz/blob/11d29d84b8dd557dbe14bf22df1ae041229fb56c/samples/testapp/src/androidMain/kotlin/org/multipaz/testapp/ui/AndroidKeystoreSecureAreaScreenAndroid.kt#L287-L307"
+        }
+      ]
+    },
+    {
+      "repository": "openwallet-foundation/multipaz",
+      "commit": "11d29d84b8dd557dbe14bf22df1ae041229fb56c",
+      "path": "multipaz/src/androidInstrumentedTest/kotlin/org/multipaz/securearea/AndroidKeystoreSecureAreaTest.kt",
+      "url": "https://github.com/openwallet-foundation/multipaz/blob/11d29d84b8dd557dbe14bf22df1ae041229fb56c/multipaz/src/androidInstrumentedTest/kotlin/org/multipaz/securearea/AndroidKeystoreSecureAreaTest.kt",
+      "sha256": "849a2ed212884b79db6279d7390ecdaac11cb9ad739c1ddd3c4b4f6c22faee62",
+      "cached_path": "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\attestation-profile-research\\AndroidKeystoreSecureAreaTest.kt",
+      "line_ranges": [
+        {
+          "start": 549,
+          "end": 582,
+          "meaning": "Existing testAttestation uses default EC and a fixed challenge; it is not a ready strict RSA-PSS attestation regression",
+          "url": "https://github.com/openwallet-foundation/multipaz/blob/11d29d84b8dd557dbe14bf22df1ae041229fb56c/multipaz/src/androidInstrumentedTest/kotlin/org/multipaz/securearea/AndroidKeystoreSecureAreaTest.kt#L549-L582"
+        }
+      ]
+    },
+    {
+      "repository": "aosp-mirror/platform_frameworks_base",
+      "commit": "299fe6f5d6fc6f1af7c3411dcf4e5efdf7217368",
+      "path": "keystore/java/android/security/keystore2/AndroidKeyStoreKeyPairGeneratorSpi.java",
+      "url": "https://github.com/aosp-mirror/platform_frameworks_base/blob/299fe6f5d6fc6f1af7c3411dcf4e5efdf7217368/keystore/java/android/security/keystore2/AndroidKeyStoreKeyPairGeneratorSpi.java",
+      "sha256": "df0eed335d2858a8a2f019e1189eded4de4eb7113b67631b2baf021c9700ac59",
+      "cached_path": "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\attestation-profile-research\\AndroidKeyStoreKeyPairGeneratorSpi.java",
+      "line_ranges": [
+        {
+          "start": 563,
+          "end": 575,
+          "meaning": "Android RSA provider defaults the public exponent to F4=65537",
+          "url": "https://github.com/aosp-mirror/platform_frameworks_base/blob/299fe6f5d6fc6f1af7c3411dcf4e5efdf7217368/keystore/java/android/security/keystore2/AndroidKeyStoreKeyPairGeneratorSpi.java#L563-L575"
+        },
+        {
+          "start": 688,
+          "end": 696,
+          "meaning": "The provider adds the supplied attestation challenge to KeyMint parameters",
+          "url": "https://github.com/aosp-mirror/platform_frameworks_base/blob/299fe6f5d6fc6f1af7c3411dcf4e5efdf7217368/keystore/java/android/security/keystore2/AndroidKeyStoreKeyPairGeneratorSpi.java#L688-L696"
+        }
+      ]
+    },
+    {
+      "repository": "eltavine/Duck-Detector-Refactoring",
+      "commit": "b5305070468a497842f54fbe998521fbc9d87ddc",
+      "path": "capability/attestation/data/src/main/kotlin/com/eltavine/duckdetector/capability/attestation/data/CertificateTrustAnalyzer.kt",
+      "url": "https://github.com/eltavine/Duck-Detector-Refactoring/blob/b5305070468a497842f54fbe998521fbc9d87ddc/capability/attestation/data/src/main/kotlin/com/eltavine/duckdetector/capability/attestation/data/CertificateTrustAnalyzer.kt",
+      "sha256": "633061cd2aeb2fe7eaf92e0a369ec7b3db5e5e743f7719c2afb4e78619084b7d",
+      "cached_path": "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\attestation-profile-research\\CertificateTrustAnalyzer.kt",
+      "line_ranges": [
+        {
+          "start": 28,
+          "end": 35,
+          "meaning": "Root fingerprint is SHA256 over root public-key SPKI; Google-anchor matching is separate",
+          "url": "https://github.com/eltavine/Duck-Detector-Refactoring/blob/b5305070468a497842f54fbe998521fbc9d87ddc/capability/attestation/data/src/main/kotlin/com/eltavine/duckdetector/capability/attestation/data/CertificateTrustAnalyzer.kt#L28-L35"
+        },
+        {
+          "start": 48,
+          "end": 51,
+          "meaning": "GOOGLE requires a matching Google root; otherwise AOSP is selected by certificate-name heuristic",
+          "url": "https://github.com/eltavine/Duck-Detector-Refactoring/blob/b5305070468a497842f54fbe998521fbc9d87ddc/capability/attestation/data/src/main/kotlin/com/eltavine/duckdetector/capability/attestation/data/CertificateTrustAnalyzer.kt#L48-L51"
+        },
+        {
+          "start": 64,
+          "end": 70,
+          "meaning": "Chain signatures and root self-signature are verified without establishing an external trust anchor",
+          "url": "https://github.com/eltavine/Duck-Detector-Refactoring/blob/b5305070468a497842f54fbe998521fbc9d87ddc/capability/attestation/data/src/main/kotlin/com/eltavine/duckdetector/capability/attestation/data/CertificateTrustAnalyzer.kt#L64-L70"
+        },
+        {
+          "start": 73,
+          "end": 95,
+          "meaning": "Case-insensitive subject/issuer substring Software Attestation is sufficient for AOSP classification",
+          "url": "https://github.com/eltavine/Duck-Detector-Refactoring/blob/b5305070468a497842f54fbe998521fbc9d87ddc/capability/attestation/data/src/main/kotlin/com/eltavine/duckdetector/capability/attestation/data/CertificateTrustAnalyzer.kt#L73-L95"
+        }
+      ]
+    },
+    {
+      "repository": "eltavine/Duck-Detector-Refactoring",
+      "commit": "b5305070468a497842f54fbe998521fbc9d87ddc",
+      "path": "capability/attestation/data/src/main/kotlin/com/eltavine/duckdetector/capability/attestation/data/GoogleAttestationRootStore.kt",
+      "url": "https://github.com/eltavine/Duck-Detector-Refactoring/blob/b5305070468a497842f54fbe998521fbc9d87ddc/capability/attestation/data/src/main/kotlin/com/eltavine/duckdetector/capability/attestation/data/GoogleAttestationRootStore.kt",
+      "sha256": "7018b59872764de8a9c15ff786b29b8d1f3f64e98d085f1fde8af1ded00b3bce",
+      "cached_path": "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\attestation-profile-research\\GoogleAttestationRootStore.kt",
+      "line_ranges": [
+        {
+          "start": 48,
+          "end": 63,
+          "meaning": "Google roots are matched by SPKI fingerprint or exact certificate DER, independently of AOSP name heuristic",
+          "url": "https://github.com/eltavine/Duck-Detector-Refactoring/blob/b5305070468a497842f54fbe998521fbc9d87ddc/capability/attestation/data/src/main/kotlin/com/eltavine/duckdetector/capability/attestation/data/GoogleAttestationRootStore.kt#L48-L63"
+        }
+      ]
+    },
+    {
+      "repository": "eltavine/Duck-Detector-Refactoring",
+      "commit": "b5305070468a497842f54fbe998521fbc9d87ddc",
+      "path": "feature/tee/data/src/main/kotlin/com/eltavine/duckdetector/features/tee/data/verification/certificate/ChainStructureAnalyzer.kt",
+      "url": "https://github.com/eltavine/Duck-Detector-Refactoring/blob/b5305070468a497842f54fbe998521fbc9d87ddc/feature/tee/data/src/main/kotlin/com/eltavine/duckdetector/features/tee/data/verification/certificate/ChainStructureAnalyzer.kt",
+      "sha256": "f503d7eac089c71a6a605f92fa8960866390fd9629e9d97b799da29e8879e92f",
+      "cached_path": "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\attestation-profile-research\\ChainStructureAnalyzer.kt",
+      "line_ranges": [
+        {
+          "start": 41,
+          "end": 43,
+          "meaning": "trustedAttestationIndex is the last chain index containing the Android attestation extension",
+          "url": "https://github.com/eltavine/Duck-Detector-Refactoring/blob/b5305070468a497842f54fbe998521fbc9d87ddc/feature/tee/data/src/main/kotlin/com/eltavine/duckdetector/features/tee/data/verification/certificate/ChainStructureAnalyzer.kt#L41-L43"
+        },
+        {
+          "start": 51,
+          "end": 57,
+          "meaning": "The selected extension index and count are returned as chain structure, not anchor trust",
+          "url": "https://github.com/eltavine/Duck-Detector-Refactoring/blob/b5305070468a497842f54fbe998521fbc9d87ddc/feature/tee/data/src/main/kotlin/com/eltavine/duckdetector/features/tee/data/verification/certificate/ChainStructureAnalyzer.kt#L51-L57"
+        }
+      ]
+    },
+    {
+      "repository": "eltavine/Duck-Detector-Refactoring",
+      "commit": "b5305070468a497842f54fbe998521fbc9d87ddc",
+      "path": "feature/tee/data/src/main/kotlin/com/eltavine/duckdetector/features/tee/data/report/TeeReportAttestationValues.kt",
+      "url": "https://github.com/eltavine/Duck-Detector-Refactoring/blob/b5305070468a497842f54fbe998521fbc9d87ddc/feature/tee/data/src/main/kotlin/com/eltavine/duckdetector/features/tee/data/report/TeeReportAttestationValues.kt",
+      "sha256": "1a80d5cac02da7d831178b77bb053e8fdd09316aaf9f897025ac1d8f92093d4d",
+      "cached_path": "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\attestation-profile-research\\TeeReportAttestationValues.kt",
+      "line_ranges": [
+        {
+          "start": 187,
+          "end": 190,
+          "meaning": "trusted #N is the selected extension index plus one",
+          "url": "https://github.com/eltavine/Duck-Detector-Refactoring/blob/b5305070468a497842f54fbe998521fbc9d87ddc/feature/tee/data/src/main/kotlin/com/eltavine/duckdetector/features/tee/data/report/TeeReportAttestationValues.kt#L187-L190"
+        }
+      ]
+    },
+    {
+      "repository": "eltavine/Duck-Detector-Refactoring",
+      "commit": "b5305070468a497842f54fbe998521fbc9d87ddc",
+      "path": "capability/attestation/domain/src/main/kotlin/com/eltavine/duckdetector/capability/attestation/domain/TeeTrustRoot.kt",
+      "url": "https://github.com/eltavine/Duck-Detector-Refactoring/blob/b5305070468a497842f54fbe998521fbc9d87ddc/capability/attestation/domain/src/main/kotlin/com/eltavine/duckdetector/capability/attestation/domain/TeeTrustRoot.kt",
+      "sha256": "3d322f4eb3e4e749e9e4eec1da74751699be9f90b2775aca711c2c8a54f093fd",
+      "cached_path": "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\attestation-profile-research\\TeeTrustRoot.kt",
+      "line_ranges": [
+        {
+          "start": 20,
+          "end": 26,
+          "meaning": "AOSP and GOOGLE are separate enum classifications",
+          "url": "https://github.com/eltavine/Duck-Detector-Refactoring/blob/b5305070468a497842f54fbe998521fbc9d87ddc/capability/attestation/domain/src/main/kotlin/com/eltavine/duckdetector/capability/attestation/domain/TeeTrustRoot.kt#L20-L26"
+        }
+      ]
+    }
+  ],
+  "duck_profiles": [
+    {
+      "name": "Primary attestation",
+      "algorithm": "EC P256",
+      "purposes": [
+        "SIGN",
+        "VERIFY"
+      ],
+      "digests": [
+        "SHA256"
+      ],
+      "challenge": "fresh 32 random bytes",
+      "strict_cng_match": false,
+      "reason": "Strict CNG only supports RSA2048 SIGN-only PSS SHA256"
+    },
+    {
+      "name": "RSA comparison attestation",
+      "algorithm": "RSA2048",
+      "purposes": [
+        "SIGN",
+        "VERIFY"
+      ],
+      "digests": [
+        "SHA256"
+      ],
+      "signature_paddings": [
+        "RSA_PKCS1"
+      ],
+      "challenge": "fresh 24 random bytes shared with EC comparison",
+      "strict_cng_match": false,
+      "reason": "VERIFY and PKCS1 both exclude CNG selection"
+    },
+    {
+      "name": "RSA-PSS capability",
+      "algorithm": "RSA2048",
+      "purposes": [
+        "SIGN",
+        "VERIFY"
+      ],
+      "digests": [
+        "SHA256"
+      ],
+      "signature_paddings": [
+        "RSA_PSS"
+      ],
+      "challenge": null,
+      "strict_cng_match": false,
+      "reason": "VERIFY excludes CNG and this probe requests no attestation"
+    },
+    {
+      "name": "RSA-OAEP round trip",
+      "algorithm": "RSA2048",
+      "purposes": [
+        "DECRYPT"
+      ],
+      "digests": [
+        "SHA256"
+      ],
+      "encryption_paddings": [
+        "RSA_OAEP"
+      ],
+      "challenge": "fixed duck_keymint_probe bytes",
+      "strict_cng_match": false,
+      "reason": "Decryption/OAEP is outside the protected signing profile"
+    }
+  ],
+  "binding_findings": {
+    "duck_challenge_checked": true,
+    "duck_parser_reads_application_id_tag709": true,
+    "duck_java_builders_set_explicit_application_id_or_application_data": false,
+    "independent_app_identity_verification_in_cited_parser": false,
+    "application_id_note": "The attestation application identity must be checked against the actual independent APK package/version/signing-certificate digest, rather than merely accepting a parsed value."
+  },
+  "routing_conclusion": "Pinned Duck cannot demonstrate a CNG-backed attested key with the strict current routing policy. Its attested RSA keys select software. Restoring a lab-owned SOFTWARE chain must not be described as CNG, TEE, StrongBox or manufacturer-trusted attestation.",
+  "independent_candidate": {
+    "repository": "openwallet-foundation/multipaz",
+    "commit": "11d29d84b8dd557dbe14bf22df1ae041229fb56c",
+    "kind": "Existing unmodified source candidate; no verified matching prebuilt APK",
+    "ui_selection": "Android Keystore secure-area test: plain PS256_2048, with no StrongBox prefix and no authentication suffix",
+    "profile": {
+      "algorithm": "RSA2048",
+      "public_exponent": 65537,
+      "purposes": [
+        "SIGN"
+      ],
+      "signature_paddings": [
+        "RSA_PSS"
+      ],
+      "digests": [
+        "SHA256"
+      ],
+      "user_authentication_required": false,
+      "strongbox": false,
+      "attest_key_alias": null,
+      "attestation_challenge_hex": "4368616c6c656e6765",
+      "extra_key_validity_tags": false
+    },
+    "expected_strict_cng_route": true,
+    "routing_is_source_inference_not_runtime_observation": true,
+    "bounds": [
+      "The existing UI uses constant eight-byte Challenge, so it is not evidence of fresh-nonce replay resistance.",
+      "Its test button signs data; the cited flow does not independently verify exported chain, app identity and challenge.",
+      "The separate RSA Attestation UI button uses PKCS1 and extra validity tags; do not use it for CNG proof.",
+      "Five latest GitHub releases inspected had no assets; no prebuilt APK hash or signature was verified.",
+      "Do not build or install Multipaz in this research step."
+    ]
+  },
+  "next_validation_owned_by_root": "A new isolated cngattestationcontrol APK with exact strict PS256 profile, fresh 32-byte external challenge and public-artifact export; independent host verification. Existing 54/79/99 and keymintcontrol APKs remain frozen.",
+  "not_built": true,
+  "not_installed": true,
+  "not_run": true,
+  "no_device_queries": true,
+  "no_process_operations": true,
+  "no_image_changes": true,
+  "no_fixture_key_material_access": true,
+  "duck_label_clarification": {
+    "recorded_at": "2026-10-26T23:36:05.131617+00:00",
+    "source_commit": "b5305070468a497842f54fbe998521fbc9d87ddc",
+    "observed_export": {
+      "file": "reports\\keymint-v42-verified-duck-complete-export.txt",
+      "sha256": "38cedd898e6323fb0e966495a4a6584a614138f27b2627e4cf88e5da2f9d0c78",
+      "trust_label": "AOSP",
+      "chain_layout": "len 2 / ext 1 / trusted #1",
+      "tier": "Software",
+      "reported_root_public_key_sha256": "04ea08ac6bc84662cd2910a8d400c47a788f9308c4ba96e7a2a27ab519ba72ca"
+    },
+    "public_certificate_evidence": {
+      "file": "reports\\keymint-v42-verified-ec.json",
+      "sha256": "cec29774fb4dba99ed4a06636b3abcf210005a0e7c81f29f1f90859bca75ff6e",
+      "subject": "CN=AndroidLab Software Attestation Root",
+      "root_der_sha256": "68659387e2c856e9fc95fa736bfa9910779f4b9b2ea0c05396d8651006fc0701",
+      "root_spki_sha256": "04ea08ac6bc84662cd2910a8d400c47a788f9308c4ba96e7a2a27ab519ba72ca",
+      "spki_matches_duck_export": true,
+      "der_fingerprint_and_spki_fingerprint_are_different_hash_inputs": true,
+      "private_material_read": false
+    },
+    "aosp_label_reason": {
+      "rule": "Any chain certificate subject or issuer contains a configured case-insensitive name substring, after Google root matching fails",
+      "matched_pattern": "Software Attestation",
+      "matched_subject": "CN=AndroidLab Software Attestation Root",
+      "classifier_uses_security_tier": false,
+      "known_aosp_root_spki_match_required": false,
+      "google_root_match_inferred_from_aosp_branch": false,
+      "not_a_google_or_manufacturer_trust_result": true
+    },
+    "trusted_number_meaning": {
+      "zero_based_selected_extension_index": 0,
+      "displayed_one_based_index": 1,
+      "chain_length": 2,
+      "attestation_extension_count": 1,
+      "selection": "Last certificate in leaf-to-root chain containing Android attestation OID1.3.6.1.4.1.11129.2.1.17",
+      "trusted_anchor_number": false,
+      "external_anchor_check_part_of_index_selection": false
+    },
+    "independent_trust_audit": {
+      "file": "reports\\keymint-v42-verified-ec-trust.json",
+      "sha256": "816891a24cab330c62205ea035b069bf9d88a8bd5aa731fc29d2da59f0c48f49",
+      "manufacturer_trust": "not_established",
+      "root_public_key_in_external_snapshot": false,
+      "signed_attestation_security_level": 0,
+      "signed_keymaster_security_level": 0,
+      "hardware_root_of_trust_established": false
+    },
+    "conclusion": "Duck AOSP is a name-based classification for this lab-owned SOFTWARE certificate chain. trusted #1 identifies the leaf carrying the attestation extension. Neither establishes Google/manufacturer trust, TEE/StrongBox storage or verified boot. The unresolved TEE limitation remains.",
+    "actions": {
+      "vm_operations": false,
+      "builds": false,
+      "application_changes": false,
+      "backend_code_changes": false,
+      "image_changes": false
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "captured_at": "2026-10-24T21:49:44.5869520Z",
+  "installed_runtime_apk_sha256": "fadd869822543e8b6c07c31935e1e8096afacccb66ae9539ece34dfaf615d22e",
+  "installed_namespace_sha256": "52ba539b9e93346c44d1c5af2e016c95d7d76d5d18df893875e5e7d95dda99c0",
+  "vector_disabled": true,
+  "restrict_isolated_proc": true,
+  "runtime_scope": [
+    "dev.androidlab.probe",
+    "dev.androidlab.rawprobe",
+    "dev.androidlab.procprobe",
+    "com.eltavine.duckdetector",
+    "com.reveny.emulator.detection.sample",
+    "com.framgia.example.emulatordetector",
+    "com.felhr.emulatordetector",
+    "com.reveny.nativecheck",
+    "icu.nullptr.nativetest",
+    "io.github.vvb2060.nativedetector"
+  ],
+  "runtime_arm_scope": [
+    "dev.androidlab.probe",
+    "com.felhr.emulatordetector",
+    "com.reveny.nativecheck",
+    "icu.nullptr.nativetest"
+  ]
+}

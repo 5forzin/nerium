@@ -1,0 +1,6 @@
+Detector: native-test (same APK checksum and ABI)
+Status: unavailable -> unavailable
+Detected: None -> None
+Before: Detector exited or restarted during result collection.
+After: Detector exited or restarted during result collection.
+Incomplete measurements must not be counted as clear.

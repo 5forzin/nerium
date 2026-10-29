@@ -1,0 +1,14 @@
+{
+  "top_signature_verified": true,
+  "system_signature_verified": true,
+  "system_chain_public_key_matches": true,
+  "system_chain_rollback_location": 1,
+  "top_flags": 0,
+  "system_flags": 0,
+  "top_vbmeta_size": 4992,
+  "system_vbmeta_size": 1728,
+  "total_vbmeta_size": 6720,
+  "vbmeta_digest_sha256": "0889a50c7542ba3fdfb15b19589e2e383433d90102646277d4e7fd457383a70b",
+  "other_partition_data_verified": false,
+  "trust_scope": "public AOSP emulator test key"
+}

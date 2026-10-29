@@ -1,0 +1,90 @@
+cmake_minimum_required(VERSION 3.22)
+project(androidlab_native_keymaster LANGUAGES C CXX)
+set(CMAKE_C_STANDARD 11)
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+if(NOT WIN32)
+  message(FATAL_ERROR "This harness requires native Windows")
+endif()
+if(NOT AOSP_SOURCE_DIR)
+  message(FATAL_ERROR "Set AOSP_SOURCE_DIR to the prepared dependency cache")
+endif()
+file(TO_CMAKE_PATH "${AOSP_SOURCE_DIR}" AOSP_SOURCE_DIR)
+set(BORINGSSL_DIR "${AOSP_SOURCE_DIR}/boringssl")
+include("${BORINGSSL_DIR}/crypto_sources.cmake")
+add_library(crypto STATIC ${BORINGSSL_CRYPTO_SOURCES})
+target_include_directories(crypto PUBLIC "${BORINGSSL_DIR}/include" PRIVATE "${BORINGSSL_DIR}/crypto")
+target_compile_definitions(crypto PRIVATE OPENSSL_NO_ASM WIN32_LEAN_AND_MEAN NOMINMAX)
+target_link_libraries(crypto PUBLIC ws2_32 bcrypt winpthread)
+file(GLOB CPPBOR_SOURCES "${AOSP_SOURCE_DIR}/cppbor/src/*.cpp")
+add_library(cppbor STATIC ${CPPBOR_SOURCES})
+target_include_directories(cppbor PUBLIC "${AOSP_SOURCE_DIR}/cppbor/include/cppbor"
+  "${AOSP_SOURCE_DIR}/cppbor/include" PRIVATE "${CMAKE_CURRENT_SOURCE_DIR}/compat")
+target_link_libraries(cppbor PUBLIC crypto)
+set(KEYMASTER_DIR "${AOSP_SOURCE_DIR}/keymaster")
+# Android 14's PureSoft override returns enum* where its base declares const enum*.
+# Apply only the const-correct signature in a generated copy; upstream cache stays intact.
+set(PORT_INCLUDE "${CMAKE_CURRENT_BINARY_DIR}/port_include")
+file(MAKE_DIRECTORY "${PORT_INCLUDE}/keymaster/contexts")
+file(READ "${KEYMASTER_DIR}/include/keymaster/contexts/pure_soft_keymaster_context.h" PURE_SOFT_HEADER)
+string(REPLACE "    keymaster_algorithm_t* GetSupportedAlgorithms("
+  "    const keymaster_algorithm_t* GetSupportedAlgorithms(" PURE_SOFT_HEADER "${PURE_SOFT_HEADER}")
+file(WRITE "${PORT_INCLUDE}/keymaster/contexts/pure_soft_keymaster_context.h" "${PURE_SOFT_HEADER}")
+file(READ "${KEYMASTER_DIR}/contexts/pure_soft_keymaster_context.cpp" PURE_SOFT_SOURCE)
+string(REPLACE "keymaster_algorithm_t*\nPureSoftKeymasterContext::GetSupportedAlgorithms"
+  "const keymaster_algorithm_t*\nPureSoftKeymasterContext::GetSupportedAlgorithms"
+  PURE_SOFT_SOURCE "${PURE_SOFT_SOURCE}")
+file(WRITE "${CMAKE_CURRENT_BINARY_DIR}/pure_soft_keymaster_context.cpp" "${PURE_SOFT_SOURCE}")
+include("${CMAKE_CURRENT_SOURCE_DIR}/port_attestation_record.cmake")
+file(READ "${KEYMASTER_DIR}/Android.bp" KEYMASTER_BP)
+string(REGEX MATCH "name: \"libkeymaster_portable\",[^]]*]" PORTABLE_BLOCK "${KEYMASTER_BP}")
+string(REGEX MATCHALL "\"[^\"]+\\.(cpp|c)\"" PORTABLE_PATHS "${PORTABLE_BLOCK}")
+set(KEYMASTER_SOURCES)
+foreach(PATH IN LISTS PORTABLE_PATHS)
+  string(REPLACE "\"" "" PATH "${PATH}")
+  list(APPEND KEYMASTER_SOURCES "${KEYMASTER_DIR}/${PATH}")
+endforeach()
+list(REMOVE_ITEM KEYMASTER_SOURCES "${KEYMASTER_DIR}/km_openssl/attestation_record.cpp")
+list(APPEND KEYMASTER_SOURCES
+  "${CMAKE_CURRENT_BINARY_DIR}/attestation_record.cpp"
+  "${CMAKE_CURRENT_BINARY_DIR}/pure_soft_keymaster_context.cpp"
+  "${KEYMASTER_DIR}/contexts/pure_soft_remote_provisioning_context.cpp"
+  "${KEYMASTER_DIR}/contexts/soft_attestation_context.cpp"
+  "${KEYMASTER_DIR}/km_openssl/soft_keymaster_enforcement.cpp"
+  "${KEYMASTER_DIR}/cppcose/cppcose.cpp"
+  "${CMAKE_CURRENT_SOURCE_DIR}/attestation_disabled.cpp")
+add_library(keymaster STATIC ${KEYMASTER_SOURCES})
+target_include_directories(keymaster PUBLIC "${PORT_INCLUDE}" "${KEYMASTER_DIR}/include"
+  "${AOSP_SOURCE_DIR}/hardware/include" PRIVATE "${CMAKE_CURRENT_SOURCE_DIR}/compat")
+target_compile_definitions(keymaster PRIVATE KEYMASTER_NAME_TAGS NOMINMAX WIN32_LEAN_AND_MEAN)
+target_compile_options(keymaster PRIVATE -fno-rtti -Wno-deprecated-declarations)
+target_link_libraries(keymaster PUBLIC crypto cppbor)
+add_executable(native_keymaster_baseline harness.cpp)
+target_link_libraries(native_keymaster_baseline PRIVATE keymaster)
+if(EXISTS "${CMAKE_CURRENT_SOURCE_DIR}/cng_protocol_tests.cpp" AND
+   EXISTS "${CMAKE_CURRENT_SOURCE_DIR}/cng_keymint_context.cpp" AND
+   EXISTS "${CMAKE_CURRENT_SOURCE_DIR}/cng_key_store.cpp")
+  add_library(cng_backend STATIC cng_keymint_context.cpp cng_key_store.cpp cng_certificate.cpp hybrid_keymint_context.cpp
+    lab_software_attestation.cpp)
+  target_link_libraries(cng_backend PUBLIC keymaster ncrypt bcrypt)
+  target_compile_definitions(cng_backend PRIVATE NOMINMAX WIN32_LEAN_AND_MEAN)
+  add_executable(cng_protocol_tests cng_protocol_tests.cpp)
+  target_link_libraries(cng_protocol_tests PRIVATE cng_backend)
+  if(EXISTS "${CMAKE_CURRENT_SOURCE_DIR}/keymint3_certificate_tests.cpp")
+    add_executable(keymint3_certificate_tests keymint3_certificate_tests.cpp)
+    target_link_libraries(keymint3_certificate_tests PRIVATE cng_backend)
+  endif()
+  if(EXISTS "${CMAKE_CURRENT_SOURCE_DIR}/keymint_pipe_backend.cpp")
+    add_executable(keymint_pipe_backend keymint_pipe_backend.cpp)
+    target_link_libraries(keymint_pipe_backend PRIVATE cng_backend)
+    target_compile_definitions(keymint_pipe_backend PRIVATE NOMINMAX WIN32_LEAN_AND_MEAN)
+  endif()
+  if(EXISTS "${CMAKE_CURRENT_SOURCE_DIR}/hybrid_keymint_tests.cpp")
+    add_executable(hybrid_keymint_tests hybrid_keymint_tests.cpp)
+    target_link_libraries(hybrid_keymint_tests PRIVATE cng_backend)
+  endif()
+  if(EXISTS "${CMAKE_CURRENT_SOURCE_DIR}/lab_attestation_tests.cpp")
+    add_executable(lab_attestation_tests lab_attestation_tests.cpp)
+    target_link_libraries(lab_attestation_tests PRIVATE cng_backend)
+  endif()
+endif()

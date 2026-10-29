@@ -1,0 +1,51 @@
+{
+  "captured_at": "2026-10-26T14:30:45.2177525-03:00",
+  "apk_sha256": "af02d68a3b09eb6bd3aa7292116f24e26533cf7055b785eb127a06886eea0d9f",
+  "build": "assembleDebug passed",
+  "lint_errors": 0,
+  "lint_warnings": 8,
+  "rules_records": 49,
+  "rules_all_passed": true,
+  "sources": [
+    {
+      "path": "settings.gradle.kts",
+      "sha256": "904070ae62fe9f7c2dc28c49d3ba51c9718bae8768479fc48e88b974c84ba574"
+    },
+    {
+      "path": "firebase.json",
+      "sha256": "19dff8ce170bd710d55c77ca6ae45735875262a4d5c8414e415df3cabc990a74"
+    },
+    {
+      "path": "relay/database.rules.json",
+      "sha256": "2f2c364bd7ad5d5c3f3fdb4d13206ace7e967db4dbaa2ffcdcfe7619b089194d"
+    },
+    {
+      "path": "relay/RelayHost.psm1",
+      "sha256": "43f81db1d0a09b817c279db46afeb1def8230573126775d7a24c0dc44b51d708"
+    },
+    {
+      "path": "scripts/relay-lab.ps1",
+      "sha256": "94e1a38da9e3967522adf9f47b4966c5faab5f036cc3272203d8b3639edc6505"
+    },
+    {
+      "path": "scripts/test-relay-rules.ps1",
+      "sha256": "342637489ab825c6e72ee489c401a9245e20408c87b6a3f59cf4e5642408618a"
+    },
+    {
+      "path": "relayworker/build.gradle.kts",
+      "sha256": "036036b3ff1bf2f53b66c11bfb7a3048e24198241630ba9abd19e1fee4ddd553"
+    },
+    {
+      "path": "relayworker/src/main/AndroidManifest.xml",
+      "sha256": "58e076be3d4cdd63a3616eacd46033b65f93483dacbfd221f38ad78c1ecccef8"
+    },
+    {
+      "path": "relayworker/src/main/java/dev/androidlab/relayworker/MainActivity.java",
+      "sha256": "9c10b59869d23aa76d9c29304f2fd0df5dff81747835df74b902f5c0d4685a43"
+    },
+    {
+      "path": "relayworker/src/main/java/dev/androidlab/relayworker/RelayWorker.java",
+      "sha256": "e8f5ce202cce6c72fd03f561002e3087cda234288f42e5499d7d06e10b4ece6b"
+    }
+  ]
+}

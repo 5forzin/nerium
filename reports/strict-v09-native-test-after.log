@@ -1,0 +1,292 @@
+--------- beginning of main
+10-24 17:15:57.079  8132  8132 W ziparchive: Unable to open '/data/app/~~s_4z8pR5rEJB6D5MCNY-sw==/icu.nullptr.nativetest-fkNthfflye5Zcg_vlj7Whg==/base.dm': No such file or directory
+10-24 17:15:57.079  8132  8132 W ziparchive: Unable to open '/data/app/~~s_4z8pR5rEJB6D5MCNY-sw==/icu.nullptr.nativetest-fkNthfflye5Zcg_vlj7Whg==/base.dm': No such file or directory
+--------- beginning of system
+10-24 17:15:57.146   577  1409 I ActivityManager: Force stopping icu.nullptr.nativetest appid=10198 user=0: from pid 8528
+10-24 17:15:57.147   577  1409 I AppsFilter: interaction: PackageSetting{be66812 dev.androidlab.procprobe/10202} -> PackageSetting{4693da8 icu.nullptr.nativetest/10198} BLOCKED
+10-24 17:15:57.147   577  1409 I AppsFilter: interaction: PackageSetting{f5b99e0 dev.androidlab.module/10194} -> PackageSetting{4693da8 icu.nullptr.nativetest/10198} BLOCKED
+10-24 17:15:57.147   577  1409 I AppsFilter: interaction: PackageSetting{622f499 dev.androidlab.probe/10192} -> PackageSetting{4693da8 icu.nullptr.nativetest/10198} BLOCKED
+10-24 17:15:57.147   577  1409 I AppsFilter: interaction: PackageSetting{abef35e dev.androidlab.rawprobe/10201} -> PackageSetting{4693da8 icu.nullptr.nativetest/10198} BLOCKED
+10-24 17:15:57.149   970   970 D CarrierSvcBindHelper: onHandleForceStop: [icu.nullptr.nativetest]
+10-24 17:15:57.149   970   970 D CarrierSvcBindHelper: No carrier app for: 0
+10-24 17:15:57.185   577  1409 D CompatibilityChangeReporter: Compat change id reported: 161252188; UID 10198; state: DISABLED
+10-24 17:15:57.185   577  1409 W ActivityTaskManager: callingPackage for (uid=2000, pid=8533) has no WPC
+10-24 17:15:57.186   577  1409 D CompatibilityChangeReporter: Compat change id reported: 265464455; UID 10198; state: DISABLED
+10-24 17:15:57.186   577  1409 D CompatibilityChangeReporter: Compat change id reported: 265452344; UID 10198; state: DISABLED
+10-24 17:15:57.186   577  1409 D CompatibilityChangeReporter: Compat change id reported: 266124927; UID 10198; state: DISABLED
+10-24 17:15:57.186   577  1409 D CompatibilityChangeReporter: Compat change id reported: 265451093; UID 10198; state: DISABLED
+10-24 17:15:57.186   577  1409 D CompatibilityChangeReporter: Compat change id reported: 265456536; UID 10198; state: DISABLED
+10-24 17:15:57.186   577  1409 D CompatibilityChangeReporter: Compat change id reported: 255940284; UID 10198; state: DISABLED
+10-24 17:15:57.186   577  1409 D CompatibilityChangeReporter: Compat change id reported: 236283604; UID 10198; state: DISABLED
+10-24 17:15:57.186   577  1409 D CompatibilityChangeReporter: Compat change id reported: 263959004; UID 10198; state: DISABLED
+10-24 17:15:57.186   577  1409 D CompatibilityChangeReporter: Compat change id reported: 264304459; UID 10198; state: DISABLED
+10-24 17:15:57.186   577  1409 D CompatibilityChangeReporter: Compat change id reported: 264301586; UID 10198; state: DISABLED
+10-24 17:15:57.186   577  1409 D CompatibilityChangeReporter: Compat change id reported: 254631730; UID 10198; state: DISABLED
+10-24 17:15:57.186   577  1409 D CompatibilityChangeReporter: Compat change id reported: 273509367; UID 10198; state: DISABLED
+10-24 17:15:57.186   577  1409 D CompatibilityChangeReporter: Compat change id reported: 263259275; UID 10198; state: DISABLED
+10-24 17:15:57.186   577  1409 D CompatibilityChangeReporter: Compat change id reported: 174042980; UID 10198; state: DISABLED
+10-24 17:15:57.186   577  1409 D CompatibilityChangeReporter: Compat change id reported: 174042936; UID 10198; state: DISABLED
+10-24 17:15:57.186   577  1409 D CompatibilityChangeReporter: Compat change id reported: 181136395; UID 10198; state: DISABLED
+10-24 17:15:57.187   577  1409 D CompatibilityChangeReporter: Compat change id reported: 194480991; UID 10198; state: ENABLED
+10-24 17:15:57.189   577  1409 D CompatibilityChangeReporter: Compat change id reported: 184838306; UID 10198; state: DISABLED
+10-24 17:15:57.189   577  1409 D CompatibilityChangeReporter: Compat change id reported: 185004937; UID 10198; state: DISABLED
+10-24 17:15:57.189   577  1409 D CompatibilityChangeReporter: Compat change id reported: 197654537; UID 10198; state: ENABLED
+10-24 17:15:57.190   577  1409 V SplashScreenExceptionList: SplashScreen checking exception for package icu.nullptr.nativetest (target sdk:35) -> false
+10-24 17:15:57.190   577  1409 D CompatibilityChangeReporter: Compat change id reported: 205907456; UID 10198; state: ENABLED
+10-24 17:15:57.192   795   836 V WindowManagerShell: Transition requested: android.os.BinderProxy@c4d308d TransitionRequestInfo { type = OPEN, triggerTask = TaskInfo{userId=0 taskId=283 displayId=0 isRunning=true baseIntent=Intent { flg=0x10000000 cmp=icu.nullptr.nativetest/android.app.NativeActivity } baseActivity=ComponentInfo{icu.nullptr.nativetest/android.app.NativeActivity} topActivity=ComponentInfo{icu.nullptr.nativetest/android.app.NativeActivity} origActivity=null realActivity=ComponentInfo{icu.nullptr.nativetest/android.app.NativeActivity} numActivities=1 lastActiveTime=1307191 supportsMultiWindow=true resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{android.window.IWindowContainerToken$Stub$Proxy@bb6d242} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=Rect(0, 132 - 0, 0) topActivityInfo=ActivityInfo{1f3d253 android.app.NativeActivity} launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=false isVisible=false isVisibleRequested=false isSleeping=false topActivityInSizeCompat=false topActivityEligibleForLetterboxEducation= false topActivityLetterboxed= false isFromDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=-1 topActivityLetterboxHeight=-1 locusId=null displayAreaFeatureId=1 cameraCompatControlState=hidden}, remoteTransition = null, displayChange = null }
+10-24 17:15:57.192   577  1409 I ActivityTaskManager: START u0 {flg=0x10000000 cmp=icu.nullptr.nativetest/android.app.NativeActivity} with LAUNCH_MULTIPLE from uid 2000 (BAL_ALLOW_PERMISSION) result code=0
+10-24 17:15:57.193   577   611 D CompatibilityChangeReporter: Compat change id reported: 135634846; UID 10198; state: DISABLED
+10-24 17:15:57.193   577   611 D CompatibilityChangeReporter: Compat change id reported: 177438394; UID 10198; state: DISABLED
+10-24 17:15:57.193   577   611 D CompatibilityChangeReporter: Compat change id reported: 135772972; UID 10198; state: DISABLED
+10-24 17:15:57.193   577   611 D CompatibilityChangeReporter: Compat change id reported: 135754954; UID 10198; state: ENABLED
+10-24 17:15:57.194   577   619 D CompatibilityChangeReporter: Compat change id reported: 143937733; UID 10198; state: ENABLED
+10-24 17:15:57.194   795   856 D SplashScreenView: Build android.window.SplashScreenView{963d08e V.E...... ......ID 0,0-0,0}
+10-24 17:15:57.194   795   856 D SplashScreenView: Icon: view: android.widget.ImageView{4df40af V.ED..... ......I. 0,0-0,0 #10204f0 android:id/splashscreen_icon_view} drawable: com.android.wm.shell.startingsurface.SplashscreenIconDrawableFactory$ImmobileIconDrawable@f1e0cbc size: 504
+10-24 17:15:57.194   795   856 D SplashScreenView: Branding: view: android.view.View{d14e445 G.ED..... ......I. 0,0-0,0 #10204ef android:id/splashscreen_branding_view} drawable: null size w: 0 h: 0
+10-24 17:15:57.197   347   347 D Zygote  : Forked child process 8537
+10-24 17:15:57.199   577   619 I ActivityManager: Start proc 8537:icu.nullptr.nativetest/u0a198 for next-top-activity {icu.nullptr.nativetest/android.app.NativeActivity}
+10-24 17:15:57.201   577   661 D CompatibilityChangeReporter: Compat change id reported: 265195908; UID 10198; state: ENABLED
+10-24 17:15:57.202   577  2155 D CompatibilityChangeReporter: Compat change id reported: 168419799; UID 10198; state: DISABLED
+10-24 17:15:57.202   577  2155 D CompatibilityChangeReporter: Compat change id reported: 273564678; UID 10198; state: DISABLED
+10-24 17:15:57.205   413   413 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+10-24 17:15:57.210   577  2155 D CoreBackPreview: Window{5d911ec u0 Splash Screen icu.nullptr.nativetest}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@e04684a, mPriority=0, mIsAnimationCallback=false}
+10-24 17:15:57.244   795   890 E OpenGLRenderer: Unable to match the desired swap behavior.
+10-24 17:15:57.246  8537  8537 I DeviceLabNamespace: profile mount status=0 pid=8537
+10-24 17:15:57.253  8537  8537 I DeviceLabNamespace: uname broker status=0 pid=8537
+10-24 17:15:57.253  8537  8537 I DeviceLabNamespace: proc broker enabled=1
+10-24 17:15:57.284  4795  4816 D EGL_emulation: app_time_stats: avg=208.29ms min=13.79ms max=1476.55ms count=8
+10-24 17:15:57.293  8537  8537 I DeviceLabPolicy: policy PLT installed=1
+10-24 17:15:57.314   795   795 D StatusBarIconController: ignoring old pipeline callback because the new wifi icon is enabled
+10-24 17:15:57.314  8537  8537 W main    : type=1400 audit(0.0:6377): avc:  denied  { mounton } for  path=2F70726F632F637075696E666F202864656C6574656429 dev="dm-40" ino=336975 scontext=u:r:zygote:s0 tcontext=u:object_r:system_file:s0 tclass=file permissive=0
+10-24 17:15:57.317  8537  8537 W nativebridge: Failed to bind-mount /system/etc/cpuinfo.arm64.txt as /proc/cpuinfo: Permission denied
+10-24 17:15:57.317  8537  8537 W nativebridge: Failed to bind-mount /system/lib64/arm64/cpuinfo as /proc/cpuinfo: Permission denied
+10-24 17:15:57.317  8537  8537 I DeviceLabPolicy: openat2 policy status=0 source_length=260 original_suffix_preserved=1
+10-24 17:15:57.314  8537  8537 W main    : type=1400 audit(0.0:6378): avc:  denied  { mounton } for  path=2F70726F632F637075696E666F202864656C6574656429 dev="dm-40" ino=336975 scontext=u:r:zygote:s0 tcontext=u:object_r:system_file:s0 tclass=file permissive=0
+10-24 17:15:57.341  8537  8537 I lptr.nativetest: Using CollectorTypeCC GC.
+10-24 17:15:57.346  8537  8537 W lptr.nativetest: Unexpected CPU variant for x86: x86_64.
+10-24 17:15:57.346  8537  8537 W lptr.nativetest: Known variants: atom, sandybridge, silvermont, goldmont, goldmont-plus, tremont, kabylake, default
+10-24 17:15:57.346   577   608 V WindowManager: Sent Transition #29 createdAt=10-24 17:15:57.187 via request=TransitionRequestInfo { type = OPEN, triggerTask = TaskInfo{userId=0 taskId=283 displayId=0 isRunning=true baseIntent=Intent { flg=0x10000000 cmp=icu.nullptr.nativetest/android.app.NativeActivity } baseActivity=ComponentInfo{icu.nullptr.nativetest/android.app.NativeActivity} topActivity=ComponentInfo{icu.nullptr.nativetest/android.app.NativeActivity} origActivity=null realActivity=ComponentInfo{icu.nullptr.nativetest/android.app.NativeActivity} numActivities=1 lastActiveTime=1307191 supportsMultiWindow=true resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{RemoteToken{228bf16 Task{f810f43 #283 type=standard A=10198:icu.nullptr.nativetest}}} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=Rect(0, 132 - 0, 0) topActivityInfo=ActivityInfo{6964097 android.app.NativeActivity} launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=false isVisible=false isVisibleRequested=false isSleeping=false topActivityInSizeCompat=false topActivityEligibleForLetterboxEducation= false topActivityLetterboxed= false isFromDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=-1 topActivityLetterboxHeight=-1 locusId=null displayAreaFeatureId=1 cameraCompatControlState=hidden}, remoteTransition = null, displayChange = null }
+10-24 17:15:57.346   577   608 V WindowManager:     startWCT=WindowContainerTransaction { changes = {} hops = [] errorCallbackToken=null taskFragmentOrganizer=null }
+10-24 17:15:57.346   577   608 V WindowManager:     info={id=29 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[{WCT{RemoteToken{228bf16 Task{f810f43 #283 type=standard A=10198:icu.nullptr.nativetest}}} m=OPEN f=NONE leash=Surface(name=Task=283)/@0x2e323bb sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0},{WCT{RemoteToken{ba3b933 Task{223a0f9 #276 type=standard A=10193:com.reveny.emulator.detection.sample}}} m=TO_BACK f=NONE leash=Surface(name=Task=276)/@0xae37631 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0}]}
+10-24 17:15:57.347   795   836 V WindowManagerShell: onTransitionReady android.os.BinderProxy@c4d308d: {id=29 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[{WCT{android.window.IWindowContainerToken$Stub$Proxy@b12f1aa} m=OPEN f=NONE leash=Surface(name=Task=283)/@0xfbcfc7f sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0},{WCT{android.window.IWindowContainerToken$Stub$Proxy@2ee19b} m=TO_BACK f=NONE leash=Surface(name=Task=276)/@0x1a0644c sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0}]}
+10-24 17:15:57.347   795   836 V WindowManagerShell: Playing animation for (#29)android.os.BinderProxy@c4d308d@0
+10-24 17:15:57.347   795   836 V WindowManagerShell:  try handler com.android.wm.shell.transition.DefaultMixedHandler@b657810
+10-24 17:15:57.347   795   836 V WindowManagerShell:  try handler com.android.wm.shell.keyguard.KeyguardTransitionHandler@1292f09
+10-24 17:15:57.347   795   836 V WindowManagerShell:  try handler com.android.wm.shell.activityembedding.ActivityEmbeddingController@4d3f50e
+10-24 17:15:57.347   795   836 V WindowManagerShell:  try handler com.android.wm.shell.recents.RecentsTransitionHandler@9bdcb2f
+10-24 17:15:57.347   795   836 V ShellRecents: RecentsTransitionHandler.startAnimation: no controller found
+10-24 17:15:57.347   795   836 V WindowManagerShell:  try handler com.android.wm.shell.pip.PipTransition@f12053c
+10-24 17:15:57.347   795   836 V WindowManagerShell:  try handler com.android.wm.shell.splitscreen.StageCoordinator@acb2c5
+10-24 17:15:57.347   795   836 V WindowManagerShell:  try handler com.android.wm.shell.transition.RemoteTransitionHandler@15e541a
+10-24 17:15:57.347   795   836 V WindowManagerShell: Transition doesn't have explicit remote, search filters for match for {id=29 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[{WCT{android.window.IWindowContainerToken$Stub$Proxy@b12f1aa} m=OPEN f=NONE leash=Surface(name=Task=283)/@0xfbcfc7f sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0},{WCT{android.window.IWindowContainerToken$Stub$Proxy@2ee19b} m=TO_BACK f=NONE leash=Surface(name=Task=276)/@0x1a0644c sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0}]}
+10-24 17:15:57.347   795   836 V WindowManagerShell:  Checking filter Pair{{types=[] flags=0x0] notFlags=0x0 checks=[{atype=dream independent=true modes=[OPEN,TO_FRONT] flags=NONE mustBeTask=false order=ANY topActivity=null},{atype=home independent=true modes=[CLOSE,TO_BACK] flags=NONE mustBeTask=false order=ANY topActivity=null}]} RemoteTransition { remoteTransition = android.window.IRemoteTransition$Stub$Proxy@55f8098, appThread = android.app.IApplicationThread$Stub$Proxy@6840f1, debugName = LauncherToDream }}
+10-24 17:15:57.347   795   836 V WindowManagerShell:  Checking filter Pair{{types=[] flags=0x0] notFlags=0x100 checks=[{atype=home independent=true modes=[OPEN,TO_FRONT] flags=NONE mustBeTask=false order=TOP topActivity=ComponentInfo{com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.NexusLauncherActivity}},{atype=standard independent=true modes=[CLOSE,TO_BACK] flags=NONE mustBeTask=false order=ANY topActivity=null}]} RemoteTransition { remoteTransition = android.window.IRemoteTransition$Stub$Proxy@b9344d6, appThread = android.app.IApplicationThread$Stub$Proxy@31b357, debugName = QuickstepLaunchHome }}
+10-24 17:15:57.347   795   836 V WindowManagerShell:  Delegate animation for #29 to null
+10-24 17:15:57.348   795   836 V WindowManagerShell:  try handler com.android.wm.shell.transition.DefaultTransitionHandler@8e5eb4b
+10-24 17:15:57.348   795   836 V WindowManagerShell: start default transition animation, info = {id=29 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[{WCT{android.window.IWindowContainerToken$Stub$Proxy@b12f1aa} m=OPEN f=NONE leash=Surface(name=Task=283)/@0xfbcfc7f sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0},{WCT{android.window.IWindowContainerToken$Stub$Proxy@2ee19b} m=TO_BACK f=NONE leash=Surface(name=Task=276)/@0x1a0644c sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0}]}
+10-24 17:15:57.348   795   836 V WindowManagerShell: loadAnimation: anim=android.view.animation.AnimationSet@e867e76 animAttr=0x9 type=OPEN isEntrance=false
+10-24 17:15:57.348   795   836 V WindowManagerShell: loadAnimation: anim=android.view.animation.AnimationSet@3c4f0e4 animAttr=0x8 type=OPEN isEntrance=true
+10-24 17:15:57.349   795   836 V WindowManagerShell:  animated by com.android.wm.shell.transition.DefaultTransitionHandler@8e5eb4b
+10-24 17:15:57.378  8537  8537 I ndk_translation: Initialized NDK translation (aarch64), version 0.2.3
+10-24 17:15:57.413  8537  8537 E lptr.nativetest: Not starting debugger since process cannot load the jdwp agent.
+10-24 17:15:57.414   577   605 D VectorZygiskBridge: onTransact: action=GET_BINDER, callerUid=10198
+10-24 17:15:57.416  8537  8537 W lptr.nativetest: Core platform API violation: Ljava/lang/Class;->accessFlags:I from Lcom/android/internal/os/Zygote; using JNI
+10-24 17:15:57.416  8537  8537 W lptr.nativetest: Core platform API violation: Ljava/lang/reflect/Executable;->artMethod:J from Lcom/android/internal/os/Zygote; using JNI
+10-24 17:15:57.416  8537  8537 W lptr.nativetest: Core platform API violation: Ljava/lang/reflect/Executable;->accessFlags:I from Lcom/android/internal/os/Zygote; using JNI
+10-24 17:15:57.435  8537  8537 W lptr.nativetest: Core platform API violation: Ldalvik/system/BaseDexClassLoader;->pathList:Ldalvik/system/DexPathList; from Lcom/android/internal/os/Zygote; using JNI
+10-24 17:15:57.435  8537  8537 W lptr.nativetest: Core platform API violation: Ldalvik/system/DexPathList;->dexElements:[Ldalvik/system/DexPathList$Element; from Lcom/android/internal/os/Zygote; using JNI
+10-24 17:15:57.435  8537  8537 W lptr.nativetest: Core platform API violation: Ldalvik/system/DexPathList$Element;->dexFile:Ldalvik/system/DexFile; from Lcom/android/internal/os/Zygote; using JNI
+10-24 17:15:57.435  8537  8537 W lptr.nativetest: Core platform API violation: Ldalvik/system/DexFile;->mCookie:Ljava/lang/Object; from Lcom/android/internal/os/Zygote; using JNI
+10-24 17:15:57.439  8537  8537 W BpBinder: Linking to death on org.matrix.vector.ipc.IFrameworkService but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+10-24 17:15:57.443  8537  8537 V VectorDeopter: Skipping deopt for android.app.Instrumentation#newApplication: android.app.Instrumentation.newApplication [class java.lang.ClassLoader, class android.content.Context]
+10-24 17:15:57.444  8537  8537 V Vector  : Loading Vector/Xposed for icu.nullptr.nativetest (UID: 10198)
+10-24 17:15:57.465  8537  8537 V VectorLegacyBridge: Loading legacy module dev.androidlab.module from /data/app/~~U1Lz_1Kp7JfF0Wu2oqtyFA==/dev.androidlab.module-mdqdxQNJAcvPF82j9RvLMg==/base.apk
+10-24 17:15:57.467  8537  8537 W lptr.nativetest: Unsupported class loader
+10-24 17:15:57.467  8537  8537 I VectorNative: Native API entries initialized and protected.
+10-24 17:15:57.481  8537  8537 V VectorLegacyBridge:   Loading class dev.androidlab.module.DeviceHooks
+10-24 17:15:57.487  8537  8537 I DeviceLabPolicy: policy PLT restored=1
+10-24 17:15:57.497  8537  8537 I DeviceLabNamespace: property remap status=0 pid=8537
+10-24 17:15:57.528  8537  8537 D CompatibilityChangeReporter: Compat change id reported: 171979766; UID 10198; state: ENABLED
+10-24 17:15:57.528  8537  8537 D CompatibilityChangeReporter: Compat change id reported: 242716250; UID 10198; state: ENABLED
+10-24 17:15:57.530   577   605 D CompatibilityChangeReporter: Compat change id reported: 170503758; UID 10198; state: ENABLED
+10-24 17:15:57.532  8537  8537 W ziparchive: Unable to open '/data/app/~~s_4z8pR5rEJB6D5MCNY-sw==/icu.nullptr.nativetest-fkNthfflye5Zcg_vlj7Whg==/base.dm': No such file or directory
+10-24 17:15:57.532  8537  8537 W ziparchive: Unable to open '/data/app/~~s_4z8pR5rEJB6D5MCNY-sw==/icu.nullptr.nativetest-fkNthfflye5Zcg_vlj7Whg==/base.dm': No such file or directory
+10-24 17:15:57.571  8537  8537 D nativeloader: Configuring clns-6 for other apk /data/app/~~s_4z8pR5rEJB6D5MCNY-sw==/icu.nullptr.nativetest-fkNthfflye5Zcg_vlj7Whg==/base.apk. target_sdk_version=35, uses_libraries=, library_path=/data/app/~~s_4z8pR5rEJB6D5MCNY-sw==/icu.nullptr.nativetest-fkNthfflye5Zcg_vlj7Whg==/lib/arm64:/data/app/~~s_4z8pR5rEJB6D5MCNY-sw==/icu.nullptr.nativetest-fkNthfflye5Zcg_vlj7Whg==/base.apk!/lib/arm64-v8a, permitted_path=/data:/mnt/expand:/data/user/0/icu.nullptr.nativetest
+10-24 17:15:57.582  8537  8537 D nativeloader: Configuring clns-7 for other apk . target_sdk_version=35, uses_libraries=ALL, library_path=/data/app/~~U1Lz_1Kp7JfF0Wu2oqtyFA==/dev.androidlab.module-mdqdxQNJAcvPF82j9RvLMg==/base.apk!/lib/x86_64:/data/app/~~U1Lz_1Kp7JfF0Wu2oqtyFA==/dev.androidlab.module-mdqdxQNJAcvPF82j9RvLMg==/base.apk!/lib/arm64-v8a, permitted_path=/data:/mnt/expand
+10-24 17:15:57.596  8537  8537 I VectorLegacyBridge: DeviceLab: guest auxv for icu.nullptr.nativetest: configured
+10-24 17:15:57.599  8537  8537 I VectorNative: Detected registered native module being loaded: '/data/app/~~U1Lz_1Kp7JfF0Wu2oqtyFA==/dev.androidlab.module-mdqdxQNJAcvPF82j9RvLMg==/base.apk!/lib/x86_64/libdevicelab.so'
+10-24 17:15:57.599  8537  8537 I DeviceLabNative: __system_property_get hook status: 0
+10-24 17:15:57.599  8537  8537 I DeviceLabNative: __system_property_read_callback hook status: 0
+10-24 17:15:57.599  8537  8537 I DeviceLabNative: fopen hook status: 0
+10-24 17:15:57.599  8537  8537 I DeviceLabNative: open hook status: 0
+10-24 17:15:57.599  8537  8537 I DeviceLabNative: openat hook status: 0
+10-24 17:15:57.600  8537  8537 I DeviceLabNative: __open_2 hook status: 0
+10-24 17:15:57.600  8537  8537 I DeviceLabNative: __openat_2 hook status: 0
+10-24 17:15:57.600  8537  8537 I DeviceLabNative: uname hook status: 0
+10-24 17:15:57.600  8537  8537 I DeviceLabNative: syscall hook status: 0
+10-24 17:15:57.600  8537  8537 I DeviceLabNative: getauxval hook status: 0
+10-24 17:15:57.600  8537  8537 I DeviceLabNative: readlink hook status: 0
+10-24 17:15:57.600  8537  8537 I DeviceLabNative: readlinkat hook status: 0
+10-24 17:15:57.600  8537  8537 I VectorNative: Initialized native module '/data/app/~~U1Lz_1Kp7JfF0Wu2oqtyFA==/dev.androidlab.module-mdqdxQNJAcvPF82j9RvLMg==/base.apk!/lib/x86_64/libdevicelab.so' and registered its callback.
+10-24 17:15:57.601  8537  8537 I DeviceLabNative: glGetString hook status: 0
+10-24 17:15:57.601  8537  8537 I DeviceLabNative: glGetString hook status: 0
+10-24 17:15:57.620  8537  8537 I VectorLegacyBridge: DeviceLab: native hooks for icu.nullptr.nativetest: get=1 callback=1 fopen=1 open=1 openat=1 open_checked=1 openat_checked=1 uname=1 syscall=1 auxval=1 gl2=1 gl3=1 readlink=1 readlinkat=1 cpu_cache=1 uname_controls=1 raw_uname=aarch64 maps=1/kernel-broker mountinfo=1/kernel-broker
+10-24 17:15:57.635  8537  8537 I VectorLegacyBridge: DeviceLab: Java identity hooks installed for icu.nullptr.nativetest
+10-24 17:15:57.644  8537  8537 V GraphicsEnvironment: Currently set values for:
+10-24 17:15:57.644  8537  8537 V GraphicsEnvironment:   angle_gl_driver_selection_pkgs=[]
+10-24 17:15:57.644  8537  8537 V GraphicsEnvironment:   angle_gl_driver_selection_values=[]
+10-24 17:15:57.645  8537  8537 V GraphicsEnvironment: ANGLE GameManagerService for icu.nullptr.nativetest: false
+10-24 17:15:57.645  8537  8537 V GraphicsEnvironment: icu.nullptr.nativetest is not listed in per-application setting
+10-24 17:15:57.645  8537  8537 V GraphicsEnvironment: Neither updatable production driver nor prerelease driver is supported.
+10-24 17:15:57.683   577   605 I ActivityManager: Flag disabled. Ignoring finishAttachApplication from uid: 10198. pid: 8537
+10-24 17:15:57.713   905  1177 D BtGatt.ScanManager: uid 10128 isForeground true scanMode -1
+10-24 17:15:57.717  8537  8564 D libEGL  : loaded /vendor/lib64/egl/libEGL_emulation.so
+10-24 17:15:57.719  8537  8559 W ziparchive: Unable to open '/data/user_de/0/com.google.android.gms/app_chimera/m/00000002/DynamiteLoader.dm': No such file or directory
+10-24 17:15:57.719  8537  8559 W ziparchive: Unable to open '/data/user_de/0/com.google.android.gms/app_chimera/m/00000002/DynamiteLoader.dm': No such file or directory
+10-24 17:15:57.722  8537  8564 D libEGL  : loaded /vendor/lib64/egl/libGLESv1_CM_emulation.so
+10-24 17:15:57.729  8537  8560 D CompatibilityChangeReporter: Compat change id reported: 160794467; UID 10198; state: ENABLED
+10-24 17:15:57.730   577   605 D CompatibilityChangeReporter: Compat change id reported: 161145287; UID 10198; state: ENABLED
+10-24 17:15:57.735  8537  8564 D libEGL  : loaded /vendor/lib64/egl/libGLESv2_emulation.so
+10-24 17:15:57.762  8537  8565 W ziparchive: Unable to open '/data/user_de/0/com.google.android.gms/app_chimera/m/00000007/MeasurementDynamite.dm': No such file or directory
+10-24 17:15:57.763  8537  8565 W ziparchive: Unable to open '/data/user_de/0/com.google.android.gms/app_chimera/m/00000007/MeasurementDynamite.dm': No such file or directory
+10-24 17:15:57.782  8537  8559 W ziparchive: Unable to open '/data/user_de/0/com.google.android.gms/app_chimera/m/00000000/AdsDynamite.dm': No such file or directory
+10-24 17:15:57.783  8537  8559 W ziparchive: Unable to open '/data/user_de/0/com.google.android.gms/app_chimera/m/00000000/AdsDynamite.dm': No such file or directory
+10-24 17:15:57.860   795   836 V WindowManagerShell: Transition animation finished (aborted=false), notifying core (#29)android.os.BinderProxy@c4d308d@0
+10-24 17:15:57.860   577   608 V WindowManager: Finish Transition #29: created at 10-24 17:15:57.187 collect-started=0.035ms request-sent=3.961ms started=6.262ms ready=87.721ms sent=157.831ms finished=673.001ms
+10-24 17:15:57.862   795   836 V WindowManagerShell: Track 0 became idle
+10-24 17:15:57.862   795   836 V WindowManagerShell: All active transition animations finished
+10-24 17:15:57.882  8537  8571 I FA-Ads  : App measurement initialized, version: 77033
+10-24 17:15:57.883  8537  8571 I FA-Ads  : To enable debug logging run: adb shell setprop log.tag.FA VERBOSE
+10-24 17:15:57.920   577   784 D CompatibilityChangeReporter: Compat change id reported: 261072174; UID 10198; state: ENABLED
+10-24 17:15:57.921  1480  1480 D BoundBrokerSvc: onBind: Intent { act=com.google.android.gms.measurement.START pkg=com.google.android.gms }
+10-24 17:15:57.921  1480  1480 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.gms.measurement.START pkg=com.google.android.gms }
+--------- beginning of crash
+10-24 17:15:57.952  8537  8537 F libc    : Fatal signal 11 (SIGSEGV), code 2 (SEGV_ACCERR), fault addr 0x7dce04672e50 in tid 8537 (lptr.nativetest), pid 8537 (lptr.nativetest)
+10-24 17:15:58.011  8576  8576 I crash_dump64: obtaining output fd from tombstoned, type: kDebuggerdTombstoneProto
+10-24 17:15:58.011   191   191 I tombstoned: received crash request for pid 8537
+10-24 17:15:58.012  8576  8576 I crash_dump64: performing dump of process 8537 (target tid = 8537)
+--------- beginning of kernel
+10-24 17:15:58.386     0     0 I logd    : logdr: UID=10198 GID=10198 PID=8576 n tail=500 logMask=8 pid=8537 start=0ns deadline=0ns
+10-24 17:15:58.390     0     0 I logd    : logdr: UID=10198 GID=10198 PID=8576 n tail=500 logMask=1 pid=8537 start=0ns deadline=0ns
+10-24 17:15:58.414  8576  8576 F DEBUG   : *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+10-24 17:15:58.414  8576  8576 F DEBUG   : Build fingerprint: 'google/shiba/shiba:14/AP1A.240505.005/11677807:user/release-keys'
+10-24 17:15:58.414  8576  8576 F DEBUG   : Revision: '0'
+10-24 17:15:58.414  8576  8576 F DEBUG   : ABI: 'x86_64'
+10-24 17:15:58.414  8576  8576 F DEBUG   : Timestamp: 2026-10-24 17:15:58.015735311-0300
+10-24 17:15:58.414  8576  8576 F DEBUG   : Process uptime: 2s
+10-24 17:15:58.414  8576  8576 F DEBUG   : Cmdline: icu.nullptr.nativetest
+10-24 17:15:58.414  8576  8576 F DEBUG   : pid: 8537, tid: 8537, name: lptr.nativetest  >>> icu.nullptr.nativetest <<<
+10-24 17:15:58.414  8576  8576 F DEBUG   : uid: 10198
+10-24 17:15:58.415  8576  8576 F DEBUG   : signal 11 (SIGSEGV), code 2 (SEGV_ACCERR), fault addr 0x00007dce04672e50
+10-24 17:15:58.415  8576  8576 F DEBUG   :     rax 0000000000000000  rbx 00007dce044bf000  rcx 00007dce04669b98  rdx 000000000000000b
+10-24 17:15:58.415  8576  8576 F DEBUG   :     r8  000000000000000b  r9  000000000000000b  r10 00007ffc36a0ee70  r11 0000000000000206
+10-24 17:15:58.415  8576  8576 F DEBUG   :     r12 00007dcb4a17b010  r13 0000000000672e50  r14 0000000000002159  r15 00007dcb4a17afb8
+10-24 17:15:58.415  8576  8576 F DEBUG   :     rdi 0000000000002159  rsi 0000000000002159
+10-24 17:15:58.415  8576  8576 F DEBUG   :     rbp 000000003109b501  rsp 00007ffc36a0ee68  rip 00007dce04669b98
+10-24 17:15:58.415  8576  8576 F DEBUG   : 6 total frames
+10-24 17:15:58.415  8576  8576 F DEBUG   : backtrace:
+10-24 17:15:58.415  8576  8576 F DEBUG   :       #00 pc 000000000005db98  /apex/com.android.runtime/lib64/bionic/libc.so (syscall+24) (BuildId: fa337969c798946280caa45e2d71a2e7)
+10-24 17:15:58.415  8576  8576 F DEBUG   :       #01 pc 0000000000208e30  /system/lib64/libndk_translation.so (ndk_translation_HandleNoExec+208) (BuildId: 553ba82b76bb5a11fd1d67b2c7e01b75)
+10-24 17:15:58.415  8576  8576 F DEBUG   :       #02 pc 000000000018c030  /system/lib64/libndk_translation.so (ndk_translation::ExecuteGuest(ndk_translation::ProcessState*)+224) (BuildId: 553ba82b76bb5a11fd1d67b2c7e01b75)
+10-24 17:15:58.415  8576  8576 F DEBUG   :       #03 pc 000000000018486b  /system/lib64/libndk_translation.so (ndk_translation::ExecuteGuestCall(ndk_translation::ProcessState*)+123) (BuildId: 553ba82b76bb5a11fd1d67b2c7e01b75)
+10-24 17:15:58.415  8576  8576 F DEBUG   :       #04 pc 000000000018c1fb  /system/lib64/libndk_translation.so (ndk_translation::RunGuestCall(unsigned long, ndk_translation::GuestArgumentBuffer*)+187) (BuildId: 553ba82b76bb5a11fd1d67b2c7e01b75)
+10-24 17:15:58.415  8576  8576 F DEBUG   :       #05 pc 00000000000000e8  <anonymous:7dcaea95b000>
+10-24 17:15:58.423   191   191 E tombstoned: Tombstone written to: tombstone_47
+10-24 17:15:58.424   577  8581 W ActivityTaskManager:   Force finishing activity icu.nullptr.nativetest/android.app.NativeActivity
+10-24 17:15:58.424   795   836 V WindowManagerShell: Transition requested: android.os.BinderProxy@b05a7fc TransitionRequestInfo { type = CLOSE, triggerTask = null, remoteTransition = null, displayChange = null }
+10-24 17:15:58.427   577   664 I BootReceiver: Copying /data/tombstones/tombstone_47 to DropBox (SYSTEM_TOMBSTONE)
+10-24 17:15:58.427   577   664 I DropBoxManagerService: add tag=SYSTEM_TOMBSTONE isTagEnabled=true flags=0x6
+10-24 17:15:58.430   577  8582 I DropBoxManagerService: add tag=data_app_native_crash isTagEnabled=true flags=0x2
+10-24 17:15:58.412     0     0 I init    : Untracked pid 8576 exited with status 0
+10-24 17:15:58.413     0     0 I init    : Untracked pid 8576 did not have an associated service entry and will not be reaped
+10-24 17:15:58.414     0     0 I init    : Untracked pid 8578 exited with status 0
+10-24 17:15:58.414     0     0 I init    : Untracked pid 8578 did not have an associated service entry and will not be reaped
+10-24 17:15:58.436   577   609 I ActivityManager: Showing crash dialog for package icu.nullptr.nativetest u0
+10-24 17:15:58.437   577   664 I DropBoxManagerService: add tag=SYSTEM_TOMBSTONE_PROTO_WITH_HEADERS isTagEnabled=true flags=0x4
+10-24 17:15:58.446   577   609 D CompatibilityChangeReporter: Compat change id reported: 210923482; UID 1000; state: ENABLED
+10-24 17:15:58.446   577   609 D CompatibilityChangeReporter: Compat change id reported: 171228096; UID 1000; state: ENABLED
+10-24 17:15:58.450   577   784 I ActivityManager: Process icu.nullptr.nativetest (pid 8537) has died: fg  TOP 
+10-24 17:15:58.451   577   622 I libprocessgroup: Successfully killed process cgroup uid 10198 pid 8537 in 0ms
+10-24 17:15:58.453  1480  1480 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.measurement.START pkg=com.google.android.gms }
+10-24 17:15:58.455   347   347 I Zygote  : Process 8537 exited due to signal 11 (Segmentation fault)
+10-24 17:15:58.456   413   413 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+10-24 17:15:58.439     0     0 I init    : Untracked pid 8542 exited with status 0
+10-24 17:15:58.439     0     0 I init    : Untracked pid 8542 did not have an associated service entry and will not be reaped
+10-24 17:15:58.468   577   609 W InputManager-JNI: Input channel object '3614cd1 Application Error: icu.nullptr.nativetest (client)' was disposed without first being removed with the input manager!
+10-24 17:15:58.470   577   609 D DisplayManagerService: Drop pending events for gone uid 10198
+10-24 17:15:58.473   905  1177 D BtGatt.ScanManager: uid 10128 isForeground true scanMode -1
+10-24 17:15:58.477   577  8581 W ActivityManager: Ignoring remove of inactive process: ProcessRecord{15fa6f9 0:icu.nullptr.nativetest/u0a198}
+10-24 17:15:58.496  4795  4816 E OpenGLRenderer: Unable to match the desired swap behavior.
+10-24 17:15:58.589   577   608 V WindowManager: Sent Transition #30 createdAt=10-24 17:15:58.424 via request=TransitionRequestInfo { type = CLOSE, triggerTask = null, remoteTransition = null, displayChange = null }
+10-24 17:15:58.589   577   608 V WindowManager:     startWCT=WindowContainerTransaction { changes = {} hops = [] errorCallbackToken=null taskFragmentOrganizer=null }
+10-24 17:15:58.589   577   608 V WindowManager:     info={id=30 t=CLOSE f=0x10 trk=0 r=[0@Point(0, 0)] c=[{WCT{RemoteToken{ba3b933 Task{223a0f9 #276 type=standard A=10193:com.reveny.emulator.detection.sample}}} m=TO_FRONT f=MOVE_TO_TOP leash=Surface(name=Task=276)/@0xae37631 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0},{WCT{RemoteToken{228bf16 Task{f810f43 #283 type=standard A=10198:icu.nullptr.nativetest}}} m=CLOSE f=NONE leash=Surface(name=Task=283)/@0x2e323bb sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0}]}
+10-24 17:15:58.591   795   836 V WindowManagerShell: onTransitionReady android.os.BinderProxy@b05a7fc: {id=30 t=CLOSE f=0x10 trk=0 r=[0@Point(0, 0)] c=[{WCT{android.window.IWindowContainerToken$Stub$Proxy@4d11774} m=TO_FRONT f=MOVE_TO_TOP leash=Surface(name=Task=276)/@0x3eb1361 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0},{WCT{android.window.IWindowContainerToken$Stub$Proxy@9e4849d} m=CLOSE f=NONE leash=Surface(name=Task=283)/@0x904fe86 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0}]}
+10-24 17:15:58.591   795   836 V WindowManagerShell: Playing animation for (#30)android.os.BinderProxy@b05a7fc@0
+10-24 17:15:58.591   795   836 V WindowManagerShell:  try handler com.android.wm.shell.transition.DefaultMixedHandler@b657810
+10-24 17:15:58.591   795   836 V WindowManagerShell:  try handler com.android.wm.shell.keyguard.KeyguardTransitionHandler@1292f09
+10-24 17:15:58.591   795   836 V WindowManagerShell:  try handler com.android.wm.shell.activityembedding.ActivityEmbeddingController@4d3f50e
+10-24 17:15:58.592   795   836 V WindowManagerShell:  try handler com.android.wm.shell.recents.RecentsTransitionHandler@9bdcb2f
+10-24 17:15:58.592   795   836 V ShellRecents: RecentsTransitionHandler.startAnimation: no controller found
+10-24 17:15:58.592   795   836 V WindowManagerShell:  try handler com.android.wm.shell.pip.PipTransition@f12053c
+10-24 17:15:58.592   795   836 V WindowManagerShell:  try handler com.android.wm.shell.splitscreen.StageCoordinator@acb2c5
+10-24 17:15:58.592   795   836 V WindowManagerShell:  try handler com.android.wm.shell.transition.RemoteTransitionHandler@15e541a
+10-24 17:15:58.592   795   836 V WindowManagerShell: Transition doesn't have explicit remote, search filters for match for {id=30 t=CLOSE f=0x10 trk=0 r=[0@Point(0, 0)] c=[{WCT{android.window.IWindowContainerToken$Stub$Proxy@4d11774} m=TO_FRONT f=MOVE_TO_TOP leash=Surface(name=Task=276)/@0x3eb1361 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0},{WCT{android.window.IWindowContainerToken$Stub$Proxy@9e4849d} m=CLOSE f=NONE leash=Surface(name=Task=283)/@0x904fe86 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0}]}
+10-24 17:15:58.592   795   836 V WindowManagerShell:  Checking filter Pair{{types=[] flags=0x0] notFlags=0x0 checks=[{atype=dream independent=true modes=[OPEN,TO_FRONT] flags=NONE mustBeTask=false order=ANY topActivity=null},{atype=home independent=true modes=[CLOSE,TO_BACK] flags=NONE mustBeTask=false order=ANY topActivity=null}]} RemoteTransition { remoteTransition = android.window.IRemoteTransition$Stub$Proxy@55f8098, appThread = android.app.IApplicationThread$Stub$Proxy@6840f1, debugName = LauncherToDream }}
+10-24 17:15:58.592   795   836 V WindowManagerShell:  Checking filter Pair{{types=[] flags=0x0] notFlags=0x100 checks=[{atype=home independent=true modes=[OPEN,TO_FRONT] flags=NONE mustBeTask=false order=TOP topActivity=ComponentInfo{com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.NexusLauncherActivity}},{atype=standard independent=true modes=[CLOSE,TO_BACK] flags=NONE mustBeTask=false order=ANY topActivity=null}]} RemoteTransition { remoteTransition = android.window.IRemoteTransition$Stub$Proxy@b9344d6, appThread = android.app.IApplicationThread$Stub$Proxy@31b357, debugName = QuickstepLaunchHome }}
+10-24 17:15:58.592   795   836 V WindowManagerShell:  Delegate animation for #30 to null
+10-24 17:15:58.592   795   836 V WindowManagerShell:  try handler com.android.wm.shell.transition.DefaultTransitionHandler@8e5eb4b
+10-24 17:15:58.592   795   836 V WindowManagerShell: start default transition animation, info = {id=30 t=CLOSE f=0x10 trk=0 r=[0@Point(0, 0)] c=[{WCT{android.window.IWindowContainerToken$Stub$Proxy@4d11774} m=TO_FRONT f=MOVE_TO_TOP leash=Surface(name=Task=276)/@0x3eb1361 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0},{WCT{android.window.IWindowContainerToken$Stub$Proxy@9e4849d} m=CLOSE f=NONE leash=Surface(name=Task=283)/@0x904fe86 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0}]}
+10-24 17:15:58.592   795   836 V WindowManagerShell: loadAnimation: anim=android.view.animation.AnimationSet@5227d12 animAttr=0xb type=CLOSE isEntrance=false
+10-24 17:15:58.592   795   836 V WindowManagerShell: loadAnimation: anim=android.view.animation.AnimationSet@7a236e0 animAttr=0xa type=CLOSE isEntrance=true
+10-24 17:15:58.595   795   836 V WindowManagerShell:  animated by com.android.wm.shell.transition.DefaultTransitionHandler@8e5eb4b
+10-24 17:15:58.608   577  1623 I ImeTracker: com.reveny.emulator.detection.sample:7d24e06b: onRequestHide at ORIGIN_SERVER_HIDE_INPUT reason HIDE_SAME_WINDOW_FOCUSED_WITHOUT_EDITOR
+10-24 17:15:58.608   577  1623 I ImeTracker: com.reveny.emulator.detection.sample:7d24e06b: onCancelled at PHASE_SERVER_SHOULD_HIDE
+10-24 17:15:58.609  1355  1355 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3227 
+10-24 17:15:58.609  1355  1355 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2087 repeatCheckTimes = 0, unlocked = true
+10-24 17:15:58.610  1355  1355 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1877 onStartInput(EditorInfo{inputType=0x0(NULL) imeOptions=0x0 privateImeOptions=null actionName=UNSPECIFIED actionLabel=null actionId=0 initialSelStart=-1 initialSelEnd=-1 initialCapsMode=0x0 hintText=null label=null packageName=com.reveny.emulator.detection.sample fieldId=0 fieldName=null extras=null}, false)
+10-24 17:15:58.610  1355  1355 I GoogleInputMethodService: GoogleInputMethodService.shouldHideHeaderOnInitialState():4008 ShouldHideHeaderOnInitialState = false
+10-24 17:15:58.610  1355  1355 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2087 repeatCheckTimes = 2, unlocked = true
+10-24 17:15:58.623   795   855 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=falsecallback=android.view.ViewRootImpl$$ExternalSyntheticLambda17@41d38a8
+10-24 17:15:58.624   577   784 W InputManager-JNI: Input channel object '5d911ec Splash Screen icu.nullptr.nativetest (client)' was disposed without first being removed with the input manager!
+10-24 17:15:58.625   577  1623 W WindowManager: Failed looking up window session=Session{11f36c7 795:u0a10168} callers=com.android.server.wm.WindowManagerService.windowForClientLocked:6034 com.android.server.wm.Session.setOnBackInvokedCallbackInfo:944 android.view.IWindowSession$Stub.onTransact:1145 
+10-24 17:15:58.625   577  1623 I WindowManager: setOnBackInvokedCallback(): No window state for package:com.android.systemui
+10-24 17:15:58.925   577   611 W ActivityTaskManager: Activity top resumed state loss timeout for ActivityRecord{4d02cf2 u0 icu.nullptr.nativetest/android.app.NativeActivity t283 f} isExiting}
+10-24 17:15:59.107   795   836 V WindowManagerShell: Transition animation finished (aborted=false), notifying core (#30)android.os.BinderProxy@b05a7fc@0
+10-24 17:15:59.108   577   608 V WindowManager: Finish Transition #30: created at 10-24 17:15:58.424 collect-started=0.014ms request-sent=0.032ms started=10.108ms ready=28.471ms sent=163.578ms finished=683.215ms
+10-24 17:15:59.109   795   836 V WindowManagerShell: Track 0 became idle
+10-24 17:15:59.110   795   836 V WindowManagerShell: All active transition animations finished
+10-24 17:16:00.029  1496  1682 I AiAiEcho: Predicting[0]: 
+10-24 17:16:00.029  1496  1682 I AiAiEcho: EchoTargets: 
+10-24 17:16:00.029  1496  1682 I AiAiEcho: Filtered by AiAi flag check: 
+10-24 17:16:00.029  1496  1682 I AiAiEcho: Ranked targets strategy: SORT, count: 0, ranking metadata: 
+10-24 17:16:00.030  1496  1682 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface lockscreen with targets# 0 (types=[])
+10-24 17:16:00.031   795   890 D EGL_emulation: app_time_stats: avg=419.36ms min=1.99ms max=4156.23ms count=10
+10-24 17:16:00.044   795   795 W PageIndicator: Total number of pages invalid: 0. Assuming 1 page.
+10-24 17:16:00.275   795   795 D StatusBarIconController: ignoring old pipeline callback because the new wifi icon is enabled
+10-24 17:16:01.551  1435  2891 I MediaProvider: Deleted 0 1 0 0 0 0 0 items on external_primary due to com.android.shell
+10-24 17:16:01.565  1303  7925 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.ipa.base.IpaGcmTaskService started execution. cause:9 exec_start_elapsed_seconds: 1311 [CONTEXT service_id=218 ]
+10-24 17:16:01.568  1303  8499 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.ipa.base.IpaGcmTaskService finished executing. cause:9 result: 1 elapsed_millis: 6 uptime_millis: 6 exec_start_elapsed_seconds: 1311 [CONTEXT service_id=218 ]
+10-24 17:16:01.581  8132  8132 I AidlLazyServiceRegistrar: Process has 0 (of 1 available) client(s) in use after notification artd has clients: 0
+10-24 17:16:01.581  8132  8132 I AidlLazyServiceRegistrar: Trying to shut down the service. No clients in use for any service in process.
+10-24 17:16:01.582  8132  8132 I AidlLazyServiceRegistrar: Unregistered all clients and exiting
+10-24 17:16:01.564     0     0 I servicemanager: Notifying artd they don't (previously: do) have clients when we now have no record of a client
+10-24 17:16:01.565     0     0 I servicemanager: Unregistering artd
+10-24 17:16:01.566     0     0 I BpBinder: onLastStrongRef automatically unlinking death recipients:
+10-24 17:16:01.577     0     0 I init    : Service 'artd' (pid 8132) exited with status 0 oneshot service took 16.294001 seconds in background
+10-24 17:16:01.578     0     0 I init    : Sending signal 9 to service 'artd' (pid 8132) process group...
+10-24 17:16:01.579     0     0 I libprocessgroup: Successfully killed process cgroup uid 1082 pid 8132 in 0ms
+10-24 17:16:01.628  8592  8592 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+10-24 17:16:01.629  1435  2891 W MediaProvider: isAppCloneUserPair for user 0: false
+10-24 17:16:01.630  8592  8592 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+10-24 17:16:01.653  1303  8495 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.ipa.base.IpaGcmTaskService started execution. cause:9 exec_start_elapsed_seconds: 1311 [CONTEXT service_id=218 ]
+10-24 17:16:01.659  1303  7925 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.ipa.base.IpaGcmTaskService finished executing. cause:9 result: 1 elapsed_millis: 17 uptime_millis: 17 exec_start_elapsed_seconds: 1311 [CONTEXT service_id=218 ]
+10-24 17:16:01.661   138   138 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+10-24 17:16:01.661  8592  8594 I Gralloc4: mapper 4.x is not supported
+10-24 17:16:01.643     0     0 I servicemanager: Could not find android.hardware.graphics.allocator.IAllocator/default in the VINTF manifest.
+10-24 17:16:01.800   577  1409 I ActivityManager: Broadcasting: Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x400000 }
+10-24 17:16:01.801   577  1409 I ActivityManager: Enqueued broadcast Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x400000 }: 0
+10-24 17:16:01.802   577   608 I ActivityManager: Broadcast completed: result=0
+10-24 17:16:01.803  1435  1825 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+10-24 17:16:01.808  1435  1825 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+10-24 17:16:01.827  1303  8495 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.ipa.base.IpaGcmTaskService started execution. cause:9 exec_start_elapsed_seconds: 1311 [CONTEXT service_id=218 ]
+10-24 17:16:01.830  1303  8499 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.ipa.base.IpaGcmTaskService finished executing. cause:9 result: 1 elapsed_millis: 9 uptime_millis: 9 exec_start_elapsed_seconds: 1311 [CONTEXT service_id=218 ]

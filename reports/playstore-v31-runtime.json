@@ -1,0 +1,11 @@
+{
+  "captured_at": "2026-10-26T01:09:59.0856934+00:00",
+  "avd": "device-lab-playstore-zygote-probe-v31",
+  "selinux": "Enforcing",
+  "verity_mode": "enforcing",
+  "vbmeta_digest": "599a57025357b46f60cbe5f1f2428c1f5b5ad027445cb4283d641b22f8e063a6",
+  "build_type": "user",
+  "debuggable": "0",
+  "zygote_service": "running",
+  "root_mount": "/dev/block/dm-5 / ext4 ro,seclabel,relatime 0 0"
+}

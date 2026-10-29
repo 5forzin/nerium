@@ -1,0 +1,9 @@
+{
+  "schema_version": 1,
+  "test": "requester_tls_pin_rejection",
+  "passed": true,
+  "code": "TLS_REJECTED",
+  "receipts_before": 4,
+  "receipts_after": 4,
+  "restored_hash_match": true
+}

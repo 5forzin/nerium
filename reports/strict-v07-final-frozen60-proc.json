@@ -1,0 +1,314 @@
+{
+  "abi": "x86_64",
+  "transport": "inline-syscall",
+  "checks": [
+    {
+      "id": "capability.openat2",
+      "status": "unavailable",
+      "detail": "result=-10031"
+    },
+    {
+      "id": "capability.statx",
+      "status": "clear",
+      "detail": ""
+    },
+    {
+      "id": "maps.open.nofollow",
+      "status": "clear",
+      "detail": "bytes=227583"
+    },
+    {
+      "id": "maps.open.noctty",
+      "status": "clear",
+      "detail": "bytes=228065"
+    },
+    {
+      "id": "maps.open.noatime",
+      "status": "clear",
+      "detail": "bytes=228065"
+    },
+    {
+      "id": "maps.legacy_stat",
+      "status": "clear",
+      "detail": "size=0"
+    },
+    {
+      "id": "maps.statfs_alias",
+      "status": "clear",
+      "detail": "type=40864"
+    },
+    {
+      "id": "maps.statx_alias",
+      "status": "clear",
+      "detail": "mnt_id=76800;expected=76800"
+    },
+    {
+      "id": "maps.statx_empty",
+      "status": "clear",
+      "detail": "mnt_id=76800;expected=76800"
+    },
+    {
+      "id": "maps.fdinfo_inode",
+      "status": "clear",
+      "detail": "pos:64flags:02100000mnt_id:76800ino:59802"
+    },
+    {
+      "id": "maps.fdinfo_position",
+      "status": "clear",
+      "detail": ""
+    },
+    {
+      "id": "maps.fdinfo_mount",
+      "status": "clear",
+      "detail": ""
+    },
+    {
+      "id": "maps.mmap_denied",
+      "status": "clear",
+      "detail": "result=-19"
+    },
+    {
+      "id": "maps.readv",
+      "status": "clear",
+      "detail": ""
+    },
+    {
+      "id": "maps.preadv",
+      "status": "clear",
+      "detail": ""
+    },
+    {
+      "id": "maps.dup_offset",
+      "status": "clear",
+      "detail": ""
+    },
+    {
+      "id": "smaps.open.nofollow",
+      "status": "clear",
+      "detail": "bytes=1568800"
+    },
+    {
+      "id": "smaps.open.noctty",
+      "status": "clear",
+      "detail": "bytes=1572291"
+    },
+    {
+      "id": "smaps.open.noatime",
+      "status": "clear",
+      "detail": "bytes=1572291"
+    },
+    {
+      "id": "smaps.legacy_stat",
+      "status": "clear",
+      "detail": "size=0"
+    },
+    {
+      "id": "smaps.statfs_alias",
+      "status": "clear",
+      "detail": "type=40864"
+    },
+    {
+      "id": "smaps.statx_alias",
+      "status": "clear",
+      "detail": "mnt_id=76800;expected=76800"
+    },
+    {
+      "id": "smaps.statx_empty",
+      "status": "clear",
+      "detail": "mnt_id=76800;expected=76800"
+    },
+    {
+      "id": "smaps.fdinfo_inode",
+      "status": "clear",
+      "detail": "pos:64flags:02100000mnt_id:76800ino:60055"
+    },
+    {
+      "id": "smaps.fdinfo_position",
+      "status": "clear",
+      "detail": ""
+    },
+    {
+      "id": "smaps.fdinfo_mount",
+      "status": "clear",
+      "detail": ""
+    },
+    {
+      "id": "smaps.mmap_denied",
+      "status": "clear",
+      "detail": "result=-19"
+    },
+    {
+      "id": "smaps.readv",
+      "status": "clear",
+      "detail": ""
+    },
+    {
+      "id": "smaps.preadv",
+      "status": "clear",
+      "detail": ""
+    },
+    {
+      "id": "smaps.dup_offset",
+      "status": "clear",
+      "detail": ""
+    },
+    {
+      "id": "mountinfo.open.nofollow",
+      "status": "clear",
+      "detail": "bytes=144569"
+    },
+    {
+      "id": "mountinfo.open.noctty",
+      "status": "clear",
+      "detail": "bytes=144569"
+    },
+    {
+      "id": "mountinfo.open.noatime",
+      "status": "clear",
+      "detail": "bytes=144569"
+    },
+    {
+      "id": "mountinfo.legacy_stat",
+      "status": "clear",
+      "detail": "size=0"
+    },
+    {
+      "id": "mountinfo.statfs_alias",
+      "status": "clear",
+      "detail": "type=40864"
+    },
+    {
+      "id": "mountinfo.statx_alias",
+      "status": "clear",
+      "detail": "mnt_id=76800;expected=76800"
+    },
+    {
+      "id": "mountinfo.statx_empty",
+      "status": "clear",
+      "detail": "mnt_id=76800;expected=76800"
+    },
+    {
+      "id": "mountinfo.fdinfo_inode",
+      "status": "clear",
+      "detail": "pos:64flags:02100000mnt_id:76800ino:59826"
+    },
+    {
+      "id": "mountinfo.fdinfo_position",
+      "status": "clear",
+      "detail": ""
+    },
+    {
+      "id": "mountinfo.fdinfo_mount",
+      "status": "clear",
+      "detail": ""
+    },
+    {
+      "id": "mountinfo.mmap_denied",
+      "status": "clear",
+      "detail": "result=-19"
+    },
+    {
+      "id": "mountinfo.readv",
+      "status": "clear",
+      "detail": ""
+    },
+    {
+      "id": "mountinfo.preadv",
+      "status": "clear",
+      "detail": ""
+    },
+    {
+      "id": "mountinfo.dup_offset",
+      "status": "clear",
+      "detail": ""
+    },
+    {
+      "id": "mounts.open.nofollow",
+      "status": "clear",
+      "detail": "bytes=90313"
+    },
+    {
+      "id": "mounts.open.noctty",
+      "status": "clear",
+      "detail": "bytes=90313"
+    },
+    {
+      "id": "mounts.open.noatime",
+      "status": "clear",
+      "detail": "bytes=90313"
+    },
+    {
+      "id": "mounts.legacy_stat",
+      "status": "clear",
+      "detail": "size=0"
+    },
+    {
+      "id": "mounts.statfs_alias",
+      "status": "clear",
+      "detail": "type=40864"
+    },
+    {
+      "id": "mounts.statx_alias",
+      "status": "clear",
+      "detail": "mnt_id=76800;expected=76800"
+    },
+    {
+      "id": "mounts.statx_empty",
+      "status": "clear",
+      "detail": "mnt_id=76800;expected=76800"
+    },
+    {
+      "id": "mounts.fdinfo_inode",
+      "status": "clear",
+      "detail": "pos:64flags:02100000mnt_id:76800ino:60609"
+    },
+    {
+      "id": "mounts.fdinfo_position",
+      "status": "clear",
+      "detail": ""
+    },
+    {
+      "id": "mounts.fdinfo_mount",
+      "status": "clear",
+      "detail": ""
+    },
+    {
+      "id": "mounts.mmap_denied",
+      "status": "clear",
+      "detail": "result=-19"
+    },
+    {
+      "id": "mounts.readv",
+      "status": "clear",
+      "detail": ""
+    },
+    {
+      "id": "mounts.preadv",
+      "status": "clear",
+      "detail": ""
+    },
+    {
+      "id": "mounts.dup_offset",
+      "status": "clear",
+      "detail": ""
+    },
+    {
+      "id": "proc.numa_maps",
+      "status": "unavailable",
+      "detail": "result=-2"
+    },
+    {
+      "id": "proc.map_files",
+      "status": "clear",
+      "detail": "entries=1500;readable=1500;artifacts=0;"
+    }
+  ],
+  "schema_version": 1,
+  "summary": {
+    "detected": 0,
+    "unavailable": 2,
+    "total": 60
+  },
+  "apk_sha256": "504d14fb0cbbb36ad9506e2655b5d4ecba20f290e6963a081668331ebf9a25dd",
+  "installed_abi": "x86_64"
+}

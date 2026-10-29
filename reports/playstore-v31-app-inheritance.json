@@ -1,0 +1,101 @@
+{
+  "source": "read-only run-as observations of unchanged debuggable diagnostic APKs",
+  "applications": [
+    {
+      "package": "dev.androidlab.probe",
+      "pid": 4144,
+      "maps_read_success": true,
+      "library_mapping_visible": true,
+      "library_mapping_lines": [
+        "7a7f08499000-7a7f0849a000 r--p 00000000 fe:05 2732                       /system/lib64/libdevice_lab_boot_probe.so",
+        "7a7f0849a000-7a7f0849c000 r-xp 00000000 fe:05 2732                       /system/lib64/libdevice_lab_boot_probe.so",
+        "7a7f0849c000-7a7f0849d000 r--p 00001000 fe:05 2732                       /system/lib64/libdevice_lab_boot_probe.so",
+        "7a7f0849d000-7a7f0849e000 rw-p 00001000 fe:05 2732                       /system/lib64/libdevice_lab_boot_probe.so"
+      ],
+      "initial_environment_read_success": true,
+      "initial_environment_preload_entries": [
+        "LD_PRELOAD=/system/lib64/libdevice_lab_boot_probe.so"
+      ],
+      "status_read_success": true,
+      "status": {
+        "TracerPid": "0",
+        "Uid": "10191\t10191\t10191\t10191",
+        "Gid": "10191\t10191\t10191\t10191",
+        "CapInh": "0000000000000000",
+        "CapPrm": "0000000000000000",
+        "CapEff": "0000000000000000",
+        "CapBnd": "0000000000000000",
+        "CapAmb": "0000000000000000",
+        "NoNewPrivs": "0",
+        "Seccomp": "2",
+        "Seccomp_filters": "1"
+      },
+      "context_read_success": true,
+      "context": "cat: /proc/4144/attr/current: Permission denied"
+    },
+    {
+      "package": "dev.androidlab.rawprobe",
+      "pid": 4213,
+      "maps_read_success": true,
+      "library_mapping_visible": true,
+      "library_mapping_lines": [
+        "7a7f08499000-7a7f0849a000 r--p 00000000 fe:05 2732                       /system/lib64/libdevice_lab_boot_probe.so",
+        "7a7f0849a000-7a7f0849c000 r-xp 00000000 fe:05 2732                       /system/lib64/libdevice_lab_boot_probe.so",
+        "7a7f0849c000-7a7f0849d000 r--p 00001000 fe:05 2732                       /system/lib64/libdevice_lab_boot_probe.so",
+        "7a7f0849d000-7a7f0849e000 rw-p 00001000 fe:05 2732                       /system/lib64/libdevice_lab_boot_probe.so"
+      ],
+      "initial_environment_read_success": true,
+      "initial_environment_preload_entries": [
+        "LD_PRELOAD=/system/lib64/libdevice_lab_boot_probe.so"
+      ],
+      "status_read_success": true,
+      "status": {
+        "TracerPid": "0",
+        "Uid": "10192\t10192\t10192\t10192",
+        "Gid": "10192\t10192\t10192\t10192",
+        "CapInh": "0000000000000000",
+        "CapPrm": "0000000000000000",
+        "CapEff": "0000000000000000",
+        "CapBnd": "0000000000000000",
+        "CapAmb": "0000000000000000",
+        "NoNewPrivs": "0",
+        "Seccomp": "2",
+        "Seccomp_filters": "1"
+      },
+      "context_read_success": true,
+      "context": "cat: /proc/4213/attr/current: Permission denied"
+    },
+    {
+      "package": "dev.androidlab.procprobe",
+      "pid": 4271,
+      "maps_read_success": true,
+      "library_mapping_visible": true,
+      "library_mapping_lines": [
+        "7a7f08499000-7a7f0849a000 r--p 00000000 fe:05 2732                       /system/lib64/libdevice_lab_boot_probe.so",
+        "7a7f0849a000-7a7f0849c000 r-xp 00000000 fe:05 2732                       /system/lib64/libdevice_lab_boot_probe.so",
+        "7a7f0849c000-7a7f0849d000 r--p 00001000 fe:05 2732                       /system/lib64/libdevice_lab_boot_probe.so",
+        "7a7f0849d000-7a7f0849e000 rw-p 00001000 fe:05 2732                       /system/lib64/libdevice_lab_boot_probe.so"
+      ],
+      "initial_environment_read_success": true,
+      "initial_environment_preload_entries": [
+        "LD_PRELOAD=/system/lib64/libdevice_lab_boot_probe.so"
+      ],
+      "status_read_success": true,
+      "status": {
+        "TracerPid": "0",
+        "Uid": "10193\t10193\t10193\t10193",
+        "Gid": "10193\t10193\t10193\t10193",
+        "CapInh": "0000000000000000",
+        "CapPrm": "0000000000000000",
+        "CapEff": "0000000000000000",
+        "CapBnd": "0000000000000000",
+        "CapAmb": "0000000000000000",
+        "NoNewPrivs": "0",
+        "Seccomp": "2",
+        "Seccomp_filters": "1"
+      },
+      "context_read_success": true,
+      "context": "cat: /proc/4271/attr/current: Permission denied"
+    }
+  ]
+}

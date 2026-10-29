@@ -1,0 +1,70 @@
+{
+  "schema_version": 2,
+  "experiments": [
+    {
+      "variant": "emulator_google_play_api34",
+      "request_report": "play-integrity-playstore-api34-retry1.json",
+      "verdict_report": "play-integrity-playstore-api34-retry1-verdict.json",
+      "apk_sha256": "676e2aa8ed58aaeca6b9babaaf7d88a141b10e35a09206afe87bb2199edeb070",
+      "token_received": true,
+      "nonce_matches": true,
+      "device_recognition_verdict": []
+    },
+    {
+      "variant": "emulator_google_play_api34_numa",
+      "request_report": "play-integrity-playstore-numa-hybrid2.json",
+      "verdict_report": "play-integrity-playstore-numa-hybrid2-verdict.json",
+      "apk_sha256": "676e2aa8ed58aaeca6b9babaaf7d88a141b10e35a09206afe87bb2199edeb070",
+      "token_received": true,
+      "nonce_matches": true,
+      "device_recognition_verdict": []
+    },
+    {
+      "variant": "emulator_google_play_api35",
+      "request_report": "play-integrity-playstore-api35-fresh.json",
+      "verdict_report": "play-integrity-playstore-api35-fresh-verdict.json",
+      "apk_sha256": "676e2aa8ed58aaeca6b9babaaf7d88a141b10e35a09206afe87bb2199edeb070",
+      "token_received": true,
+      "nonce_matches": true,
+      "device_recognition_verdict": []
+    },
+    {
+      "variant": "physical_pixel8_api34",
+      "request_report": "play-integrity-physical-pixel8-api34.json",
+      "verdict_report": "play-integrity-physical-pixel8-api34-verdict.json",
+      "apk_sha256": "676e2aa8ed58aaeca6b9babaaf7d88a141b10e35a09206afe87bb2199edeb070",
+      "token_received": true,
+      "nonce_matches": true,
+      "device_recognition_verdict": [],
+      "verified_boot_state": "orange",
+      "bootloader_locked": false
+    },
+    {
+      "variant": "physical_galaxy_s23_ultra_api34",
+      "request_report": "play-integrity-physical-galaxy-s23-ultra-api34.json",
+      "verdict_report": "play-integrity-physical-galaxy-s23-ultra-api34-verdict.json",
+      "apk_sha256": "676e2aa8ed58aaeca6b9babaaf7d88a141b10e35a09206afe87bb2199edeb070",
+      "token_received": true,
+      "nonce_matches": true,
+      "device_recognition_verdict": [],
+      "verified_boot_state": "orange",
+      "bootloader_locked": false
+    },
+    {
+      "variant": "physical_galaxy_s25_ultra_api35",
+      "request_report": "play-integrity-physical-galaxy-s25-ultra-api35.json",
+      "verdict_report": "play-integrity-physical-galaxy-s25-ultra-api35-verdict.json",
+      "apk_sha256": "676e2aa8ed58aaeca6b9babaaf7d88a141b10e35a09206afe87bb2199edeb070",
+      "token_received": true,
+      "nonce_matches": true,
+      "device_recognition_verdict": [
+        "MEETS_DEVICE_INTEGRITY"
+      ],
+      "verified_boot_state": "green",
+      "bootloader_locked": true
+    }
+  ],
+  "same_apk_all_experiments": true,
+  "all_nonces_match": true,
+  "positive_physical_control_observed": true
+}

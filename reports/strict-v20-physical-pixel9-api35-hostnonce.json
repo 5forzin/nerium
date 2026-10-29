@@ -1,0 +1,139 @@
+﻿{
+    "schema_version":  1,
+    "captured_at_ms":  1792904321286,
+    "api":  35,
+    "challenge_source":  "external",
+    "hardware_attestation_feature":  true,
+    "strongbox_feature":  true,
+    "default_keystore":  {
+                             "generation_ms":  38.316162,
+                             "keyinfo_inside_secure_hardware":  true,
+                             "keyinfo_security_level":  1,
+                             "certificates":  [
+                                                  {
+                                                      "subject":  "CN=Android Keystore Key",
+                                                      "issuer":  "CN=c354ae5fa3f8aac02ee5e5d6a7ed8215,O=TEE",
+                                                      "sha256":  "c9b9eecc02b7d154f11acf45f94d642701227f01bdfbdc3ded2692cd8c08b2e9",
+                                                      "der_base64":  "MIICsDCCAlagAwIBAgIBATAKBggqhkjOPQQDAjA5MQwwCgYDVQQKEwNURUUxKTAnBgNVBAMTIGMzNTRhZTVmYTNmOGFhYzAyZWU1ZTVkNmE3ZWQ4MjE1MB4XDTcwMDEwMTAwMDAwMFoXDTQ4MDEwMTAwMDAwMFowHzEdMBsGA1UEAxMUQW5kcm9pZCBLZXlzdG9yZSBLZXkwWTATBgcqhkjOPQIBBggqhkjOPQMBBwNCAASPfHSZlChNXuMplkyFxFCC22DOUwPDKTkC834igquVN/68ET12vOrn7ys/zb/Iea7TijurJmGCZruXzx4ni2CNo4IBZzCCAWMwDgYDVR0PAQH/BAQDAgeAMIIBTwYKKwYBBAHWeQIBEQSCAT8wggE7AgIBLAoBAQICASwKAQEEIKa3zWM8PPmgJNChVTKRNr673pz0X0+14VWmVV7JJv8SBAAwYL+FPQgCBgGhcWzZJL+FRVAETjBMMSYwJAQfZGV2LmFuZHJvaWRsYWIuYXR0ZXN0YXRpb25wcm9iZQIBAzEiBCCNpz6IMnyw5mGS7f8jzamrkBBZC48C5miBvn0fUo4U9jCBpKEIMQYCAQICAQOiAwIBA6MEAgIBAKUFMQMCAQSqAwIBAb+DdwIFAL+FPgMCAQC/hUBMMEoEIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQEACgECBCAG45rtTha1Nc1DYh9WAkO4nkevvK6ComOIvmzG658csr+FQQUCAwJJ8L+FQgUCAwMXCb+FTgYCBAE0/4m/hU8GAgQBNP+JMAoGCCqGSM49BAMCA0gAMEUCIQCaFuJQogODEulzTXbHU/G2e4NnnDEFDJYZKBPQdeOE7wIgIpOsxzjgu9JUOuzIdhypLZ02VxdtKmanFVaC2WjZavQ=",
+                                                      "valid_now":  true
+                                                  },
+                                                  {
+                                                      "subject":  "CN=c354ae5fa3f8aac02ee5e5d6a7ed8215,O=TEE",
+                                                      "issuer":  "CN=Droid CA3,O=Google LLC",
+                                                      "sha256":  "0f2252135465bb9bb372528897bb5ae8ab4ab3137568fc07318badf937a290e7",
+                                                      "der_base64":  "MIICgzCCAimgAwIBAgIRAMNUrl+j+KrALuXl1qftghUwCgYIKoZIzj0EAwIwKTETMBEGA1UEChMKR29vZ2xlIExMQzESMBAGA1UEAxMJRHJvaWQgQ0EzMB4XDTI2MTAyMTE4MDgxOFoXDTI2MTEwMjIzNTgyNVowOTEMMAoGA1UEChMDVEVFMSkwJwYDVQQDEyBjMzU0YWU1ZmEzZjhhYWMwMmVlNWU1ZDZhN2VkODIxNTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABJ2+qoXzeKLGuwJnJl2dF5HO20y2cnQffV5vdOitIkNX7t97Ai5b6PsKSE0XkKlcC0x5ZMF1u3t7p+U60ubWaWujggEgMIIBHDAdBgNVHQ4EFgQUh7peHWQLznsyWCqss1UaUmxpesIwHwYDVR0jBBgwFoAURpNdx+SLMu2eUX1kMOdCDJph3+4wDwYDVR0TAQH/BAUwAwEB/zAOBgNVHQ8BAf8EBAMCAgQwgbgGCisGAQQB1nkCAR4EgamjARkIAANmR29vZ2xlBaQBaEFQUFJPVkVEAnhAMDZlMzlhZWQ0ZTE2YjUzNWNkNDM2MjFmNTYwMjQzYjg5ZTQ3YWZiY2FlODJhMjYzODhiZTZjYzZlYjlmMWNiMgNoQVBQUk9WRUQEeEBnb29nbGUvdG9rYXkvdG9rYXk6MTUvQlAxQS4yNTA1MDUuMDA1LzEzMjc3NTI0OnVzZXIvcmVsZWFzZS1rZXlzMAoGCCqGSM49BAMCA0gAMEUCIQDeNbIkjxOwWcfjE1pJ0YOb03F/hODEz0A98fll8G4PTAIgf2UkEd2IiiHX6EGjCKAPaAPEZJREpA1JIFS9+KkJppg=",
+                                                      "valid_now":  true
+                                                  },
+                                                  {
+                                                      "subject":  "CN=Droid CA3,O=Google LLC",
+                                                      "issuer":  "CN=Droid CA2,O=Google LLC",
+                                                      "sha256":  "32a30f39ab4e1d3ac671c5671d3339eb4c8bd2e93eb8e6ad7f1bf7aca306dcd0",
+                                                      "der_base64":  "MIIC7zCCAnWgAwIBAgITT4GXINvrz0SmRUpdc6FeQ8Bn7TAKBggqhkjOPQQDAzApMRMwEQYDVQQKEwpHb29nbGUgTExDMRIwEAYDVQQDEwlEcm9pZCBDQTIwHhcNMjYwOTMwMTEzNzQyWhcNMjYxMjA5MTEzNzQxWjApMRMwEQYDVQQKEwpHb29nbGUgTExDMRIwEAYDVQQDEwlEcm9pZCBDQTMwWTATBgcqhkjOPQIBBggqhkjOPQMBBwNCAAQnHxNJS6CaMLpJskkfKMVqBz4MaMcCS0Swqw+TshW4S8iRpwPESn+CjM52nIgXOdVMG+YrxnzgqgOmVZkqiw2Ao4IBejCCAXYwDgYDVR0PAQH/BAQDAgIEMA8GA1UdEwEB/wQFMAMBAf8wHQYDVR0OBBYEFEaTXcfkizLtnlF9ZDDnQgyaYd/uMB8GA1UdIwQYMBaAFMzKUIZMa9tKBuql7EwrS2Js212TMIGNBggrBgEFBQcBAQSBgDB+MHwGCCsGAQUFBzAChnBodHRwOi8vcHJpdmF0ZWNhLWNvbnRlbnQtNjllZmZiMTItMDAwMC0yZTE2LTkyN2UtYzgyYWRkNmJhNTA4LnN0b3JhZ2UuZ29vZ2xlYXBpcy5jb20vNGE4YmM2ZGY4NGQzNjYxMzc1MTMvY2EuY3J0MIGCBgNVHR8EezB5MHegdaBzhnFodHRwOi8vcHJpdmF0ZWNhLWNvbnRlbnQtNjllZmZiMTItMDAwMC0yZTE2LTkyN2UtYzgyYWRkNmJhNTA4LnN0b3JhZ2UuZ29vZ2xlYXBpcy5jb20vNGE4YmM2ZGY4NGQzNjYxMzc1MTMvY3JsLmNybDAKBggqhkjOPQQDAwNoADBlAjBh4cBiw8lsFtCKcLHi9aC1qDI2dk6c86oZCD/S1qOLIFL7ouXj7JFB6LLxFCNHPcACMQCxGgVcq5ivtZhqqFAaOOYyu14OlFrAY36HWwwbhfgl4tSPow6U7gVnfRNOOA05OPM=",
+                                                      "valid_now":  true
+                                                  },
+                                                  {
+                                                      "subject":  "CN=Droid CA2,O=Google LLC",
+                                                      "issuer":  "C=US,O=Google LLC,OU=Android,CN=Key Attestation CA1",
+                                                      "sha256":  "b8b0741e7a5ad98c996cf81eb46ac2d3fb1c28a3bdb2b89eaa930a64ad871632",
+                                                      "der_base64":  "MIICZjCCAeugAwIBAgIRAJJCUBkZA+O6ZTIO/WoghfswCgYIKoZIzj0EAwMwUjEcMBoGA1UEAwwTS2V5IEF0dGVzdGF0aW9uIENBMTEQMA4GA1UECwwHQW5kcm9pZDETMBEGA1UECgwKR29vZ2xlIExMQzELMAkGA1UEBhMCVVMwHhcNMjYwMjA5MTk1OTE4WhcNMjkwMjA4MTk1OTE4WjApMRMwEQYDVQQKEwpHb29nbGUgTExDMRIwEAYDVQQDEwlEcm9pZCBDQTIwdjAQBgcqhkjOPQIBBgUrgQQAIgNiAARC/mEw6jlnw7u6Y3iPUoD+niBmQFeHqMWXxFO+uTvgfD3YGRzTqP8Z2XPFg6PFuS1cAmLULwQWegHx10nmqBn7u0IgjwDxFCQRV1oAGLDqvOxBNS5j/oYHAn9qyT+vsLWjga0wgaowHwYDVR0jBBgwFoAUUjK7LPtGQ5vc1oGpDmVm4DRB6kAwRwYDVR0fBEAwPjA8oDqgOIY2aHR0cHM6Ly9hbmRyb2lkLmdvb2dsZWFwaXMuY29tL2F0dGVzdGF0aW9uL2tleV9jYTEuY3JsMA4GA1UdDwEB/wQEAwIBBjAdBgNVHQ4EFgQUzMpQhkxr20oG6qXsTCtLYmzbXZMwDwYDVR0TAQH/BAUwAwEB/zAKBggqhkjOPQQDAwNpADBmAjEA9NvAWPq1mST9Uj/1NzxJOcBNWj3lBKBS0ww1CsdIx17MPWJV9+LsbjeSz6QYc1SOAjEAsBfNai09FaG9SgfRCCk3UDT9scDP7+DYqvoQMTGR4/68u32l2b1oEkEukrwYXHsi",
+                                                      "valid_now":  true
+                                                  },
+                                                  {
+                                                      "subject":  "C=US,O=Google LLC,OU=Android,CN=Key Attestation CA1",
+                                                      "issuer":  "C=US,O=Google LLC,OU=Android,CN=Key Attestation CA1",
+                                                      "sha256":  "6d9db4ce6c5c0b293166d08986e05774a8776ceb525d9e4329520de12ba4bcc0",
+                                                      "der_base64":  "MIICIjCCAaigAwIBAgIRAISp0Cl7DrWK5/8OgN52BgUwCgYIKoZIzj0EAwMwUjEcMBoGA1UEAwwTS2V5IEF0dGVzdGF0aW9uIENBMTEQMA4GA1UECwwHQW5kcm9pZDETMBEGA1UECgwKR29vZ2xlIExMQzELMAkGA1UEBhMCVVMwHhcNMjUwNzE3MjIzMjE4WhcNMzUwNzE1MjIzMjE4WjBSMRwwGgYDVQQDDBNLZXkgQXR0ZXN0YXRpb24gQ0ExMRAwDgYDVQQLDAdBbmRyb2lkMRMwEQYDVQQKDApHb29nbGUgTExDMQswCQYDVQQGEwJVUzB2MBAGByqGSM49AgEGBSuBBAAiA2IABCPaI3FO3z5bBQo8cuiEas4HjqCtG/mLFfRT0MsIssPBEEU5Cfbt6sH5yOAxqEi5QagpU1yX4HwnGb7OtBYpDTB57uH5Eczm34A5FNijV3s0/f0UPl7zbJcTx6xwqMIRq6NCMEAwDwYDVR0TAQH/BAUwAwEB/zAOBgNVHQ8BAf8EBAMCAQYwHQYDVR0OBBYEFFIyuyz7RkOb3NaBqQ5lZuA0QepAMAoGCCqGSM49BAMDA2gAMGUCMETfjPO/HwqReR2CS7p0ZWoD/LHs6hDi422opifHEUaYLxwGlT9SLdjkVpz0UUOR5wIxAIoGyxGKRHVTpqpGRFiJtQEOOTp/+s1GcxeYuR2zh/80lQyu9vAFCj6E4AXc+osmRg==",
+                                                      "valid_now":  true
+                                                  }
+                                              ],
+                             "chain_signatures_valid":  true,
+                             "chain_valid_now":  true,
+                             "leaf_matches_generated_key":  true,
+                             "key_possession_verified":  true,
+                             "payload_base64":  "RGV2aWNlIExhYiBpbmRlcGVuZGVudCBrZXkgcG9zc2Vzc2lvbiBjaGVjaw==",
+                             "signature_base64":  "MEYCIQCkg41UOb0nXhcyrTnfQ4MaP9+HN0Bi9AkItd6HDOpz4wIhAM1h7ZaEon0bufmJA3C9riJ/8dtr3NKNTeP/wNg1MXyY",
+                             "challenge_base64":  "prfNYzw8+aAk0KFVMpE2vrvenPRfT7XhVaZVXskm/xI=",
+                             "attestation":  {
+                                                 "attestation_version":  300,
+                                                 "attestation_security_level":  1,
+                                                 "keymaster_version":  300,
+                                                 "keymaster_security_level":  1,
+                                                 "challenge_matches":  true,
+                                                 "root_of_trust":  {
+                                                                       "authorization_list":  "hardware",
+                                                                       "verified_boot_key":  "0000000000000000000000000000000000000000000000000000000000000000",
+                                                                       "device_locked":  false,
+                                                                       "verified_boot_state":  2,
+                                                                       "verified_boot_hash":  "06e39aed4e16b535cd43621f560243b89e47afbcae82a26388be6cc6eb9f1cb2"
+                                                                   }
+                                             },
+                             "status":  "complete"
+                         },
+    "strongbox":  {
+                      "generation_ms":  133.241578,
+                      "keyinfo_inside_secure_hardware":  true,
+                      "keyinfo_security_level":  2,
+                      "certificates":  [
+                                           {
+                                               "subject":  "CN=Android Keystore Key",
+                                               "issuer":  "CN=0698af3fdb34735e1462489025b6cf2e,O=StrongBox",
+                                               "sha256":  "333723b6183af863ff3ac4a0f915878c85b3aae2089d0c7fc18087b05399c2cb",
+                                               "der_base64":  "MIICtzCCAlygAwIBAgIBATAKBggqhkjOPQQDAjA/MRIwEAYDVQQKEwlTdHJvbmdCb3gxKTAnBgNVBAMTIDA2OThhZjNmZGIzNDczNWUxNDYyNDg5MDI1YjZjZjJlMB4XDTcwMDEwMTAwMDAwMFoXDTQ4MDEwMTAwMDAwMFowHzEdMBsGA1UEAxMUQW5kcm9pZCBLZXlzdG9yZSBLZXkwWTATBgcqhkjOPQIBBggqhkjOPQMBBwNCAAQAInzTnyuC7UwHM0o0J6qIV3tctEHusCPXK/omICz5wyDpC+QmktdN97GlN2qVRaDGuAvHzVno9Mje3vtQ4iDbo4IBZzCCAWMwDgYDVR0PAQH/BAQDAgeAMIIBTwYKKwYBBAHWeQIBEQSCAT8wggE7AgIBLAoBAgICASwKAQIEIKa3zWM8PPmgJNChVTKRNr673pz0X0+14VWmVV7JJv8SBAAwYL+FPQgCBgGhcWzZhb+FRVAETjBMMSYwJAQfZGV2LmFuZHJvaWRsYWIuYXR0ZXN0YXRpb25wcm9iZQIBAzEiBCCNpz6IMnyw5mGS7f8jzamrkBBZC48C5miBvn0fUo4U9jCBpKEIMQYCAQICAQOiAwIBA6MEAgIBAKUFMQMCAQSqAwIBAb+DdwIFAL+FPgMCAQC/hUBMMEoEIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQEACgECBCAG45rtTha1Nc1DYh9WAkO4nkevvK6ComOIvmzG658csr+FQQUCAwJJ8L+FQgUCAwMXCb+FTgYCBAE0/4m/hU8GAgQBNP+JMAoGCCqGSM49BAMCA0kAMEYCIQDHKrv9xgsDveAPtCanXJcrXhoM3dNw1P4YAuZV3UAVzwIhAKDinsq5kbJeNvj/E7HMPuz7o5mhUJMuhoe6i+mvJ0nu",
+                                               "valid_now":  true
+                                           },
+                                           {
+                                               "subject":  "CN=0698af3fdb34735e1462489025b6cf2e,O=StrongBox",
+                                               "issuer":  "CN=Droid CA3,O=Google LLC",
+                                               "sha256":  "db245e13a6e0c38a23cadd887bd0747ac3b1fbec63dd38a62f13d9bc2dffb0f1",
+                                               "der_base64":  "MIICiTCCAi6gAwIBAgIQBpivP9s0c14UYkiQJbbPLjAKBggqhkjOPQQDAjApMRMwEQYDVQQKEwpHb29nbGUgTExDMRIwEAYDVQQDEwlEcm9pZCBDQTMwHhcNMjYxMDIxMTgwMDAyWhcNMjYxMTAzMjAwNDA0WjA/MRIwEAYDVQQKEwlTdHJvbmdCb3gxKTAnBgNVBAMTIDA2OThhZjNmZGIzNDczNWUxNDYyNDg5MDI1YjZjZjJlMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEW4qzMTGQf/AGWS7IPx6meHYuyYegUeJREc+aErlcvPMPI0UCenfEzi2KcDZzPhKSttG7ueqx8BmHG5TPT6tzp6OCASAwggEcMB0GA1UdDgQWBBSlW37MsKGKNkKc83PeUYGR8n1hdzAfBgNVHSMEGDAWgBRGk13H5Isy7Z5RfWQw50IMmmHf7jAPBgNVHRMBAf8EBTADAQH/MA4GA1UdDwEB/wQEAwICBDCBuAYKKwYBBAHWeQIBHgSBqaMBGQgAA2ZHb29nbGUFpAFoQVBQUk9WRUQCeEAwNmUzOWFlZDRlMTZiNTM1Y2Q0MzYyMWY1NjAyNDNiODllNDdhZmJjYWU4MmEyNjM4OGJlNmNjNmViOWYxY2IyA2hBUFBST1ZFRAR4QGdvb2dsZS90b2theS90b2theToxNS9CUDFBLjI1MDUwNS4wMDUvMTMyNzc1MjQ6dXNlci9yZWxlYXNlLWtleXMwCgYIKoZIzj0EAwIDSQAwRgIhAOhGvniqZh7HloSCtmnkAStX/OySOBWDuav1MTuQUmOTAiEA8Y/qbbmOyAjvWiv+1KUFxW85BbCJ7BLacl33MXOVJt0=",
+                                               "valid_now":  true
+                                           },
+                                           {
+                                               "subject":  "CN=Droid CA3,O=Google LLC",
+                                               "issuer":  "CN=Droid CA2,O=Google LLC",
+                                               "sha256":  "32a30f39ab4e1d3ac671c5671d3339eb4c8bd2e93eb8e6ad7f1bf7aca306dcd0",
+                                               "der_base64":  "MIIC7zCCAnWgAwIBAgITT4GXINvrz0SmRUpdc6FeQ8Bn7TAKBggqhkjOPQQDAzApMRMwEQYDVQQKEwpHb29nbGUgTExDMRIwEAYDVQQDEwlEcm9pZCBDQTIwHhcNMjYwOTMwMTEzNzQyWhcNMjYxMjA5MTEzNzQxWjApMRMwEQYDVQQKEwpHb29nbGUgTExDMRIwEAYDVQQDEwlEcm9pZCBDQTMwWTATBgcqhkjOPQIBBggqhkjOPQMBBwNCAAQnHxNJS6CaMLpJskkfKMVqBz4MaMcCS0Swqw+TshW4S8iRpwPESn+CjM52nIgXOdVMG+YrxnzgqgOmVZkqiw2Ao4IBejCCAXYwDgYDVR0PAQH/BAQDAgIEMA8GA1UdEwEB/wQFMAMBAf8wHQYDVR0OBBYEFEaTXcfkizLtnlF9ZDDnQgyaYd/uMB8GA1UdIwQYMBaAFMzKUIZMa9tKBuql7EwrS2Js212TMIGNBggrBgEFBQcBAQSBgDB+MHwGCCsGAQUFBzAChnBodHRwOi8vcHJpdmF0ZWNhLWNvbnRlbnQtNjllZmZiMTItMDAwMC0yZTE2LTkyN2UtYzgyYWRkNmJhNTA4LnN0b3JhZ2UuZ29vZ2xlYXBpcy5jb20vNGE4YmM2ZGY4NGQzNjYxMzc1MTMvY2EuY3J0MIGCBgNVHR8EezB5MHegdaBzhnFodHRwOi8vcHJpdmF0ZWNhLWNvbnRlbnQtNjllZmZiMTItMDAwMC0yZTE2LTkyN2UtYzgyYWRkNmJhNTA4LnN0b3JhZ2UuZ29vZ2xlYXBpcy5jb20vNGE4YmM2ZGY4NGQzNjYxMzc1MTMvY3JsLmNybDAKBggqhkjOPQQDAwNoADBlAjBh4cBiw8lsFtCKcLHi9aC1qDI2dk6c86oZCD/S1qOLIFL7ouXj7JFB6LLxFCNHPcACMQCxGgVcq5ivtZhqqFAaOOYyu14OlFrAY36HWwwbhfgl4tSPow6U7gVnfRNOOA05OPM=",
+                                               "valid_now":  true
+                                           },
+                                           {
+                                               "subject":  "CN=Droid CA2,O=Google LLC",
+                                               "issuer":  "C=US,O=Google LLC,OU=Android,CN=Key Attestation CA1",
+                                               "sha256":  "b8b0741e7a5ad98c996cf81eb46ac2d3fb1c28a3bdb2b89eaa930a64ad871632",
+                                               "der_base64":  "MIICZjCCAeugAwIBAgIRAJJCUBkZA+O6ZTIO/WoghfswCgYIKoZIzj0EAwMwUjEcMBoGA1UEAwwTS2V5IEF0dGVzdGF0aW9uIENBMTEQMA4GA1UECwwHQW5kcm9pZDETMBEGA1UECgwKR29vZ2xlIExMQzELMAkGA1UEBhMCVVMwHhcNMjYwMjA5MTk1OTE4WhcNMjkwMjA4MTk1OTE4WjApMRMwEQYDVQQKEwpHb29nbGUgTExDMRIwEAYDVQQDEwlEcm9pZCBDQTIwdjAQBgcqhkjOPQIBBgUrgQQAIgNiAARC/mEw6jlnw7u6Y3iPUoD+niBmQFeHqMWXxFO+uTvgfD3YGRzTqP8Z2XPFg6PFuS1cAmLULwQWegHx10nmqBn7u0IgjwDxFCQRV1oAGLDqvOxBNS5j/oYHAn9qyT+vsLWjga0wgaowHwYDVR0jBBgwFoAUUjK7LPtGQ5vc1oGpDmVm4DRB6kAwRwYDVR0fBEAwPjA8oDqgOIY2aHR0cHM6Ly9hbmRyb2lkLmdvb2dsZWFwaXMuY29tL2F0dGVzdGF0aW9uL2tleV9jYTEuY3JsMA4GA1UdDwEB/wQEAwIBBjAdBgNVHQ4EFgQUzMpQhkxr20oG6qXsTCtLYmzbXZMwDwYDVR0TAQH/BAUwAwEB/zAKBggqhkjOPQQDAwNpADBmAjEA9NvAWPq1mST9Uj/1NzxJOcBNWj3lBKBS0ww1CsdIx17MPWJV9+LsbjeSz6QYc1SOAjEAsBfNai09FaG9SgfRCCk3UDT9scDP7+DYqvoQMTGR4/68u32l2b1oEkEukrwYXHsi",
+                                               "valid_now":  true
+                                           },
+                                           {
+                                               "subject":  "C=US,O=Google LLC,OU=Android,CN=Key Attestation CA1",
+                                               "issuer":  "C=US,O=Google LLC,OU=Android,CN=Key Attestation CA1",
+                                               "sha256":  "6d9db4ce6c5c0b293166d08986e05774a8776ceb525d9e4329520de12ba4bcc0",
+                                               "der_base64":  "MIICIjCCAaigAwIBAgIRAISp0Cl7DrWK5/8OgN52BgUwCgYIKoZIzj0EAwMwUjEcMBoGA1UEAwwTS2V5IEF0dGVzdGF0aW9uIENBMTEQMA4GA1UECwwHQW5kcm9pZDETMBEGA1UECgwKR29vZ2xlIExMQzELMAkGA1UEBhMCVVMwHhcNMjUwNzE3MjIzMjE4WhcNMzUwNzE1MjIzMjE4WjBSMRwwGgYDVQQDDBNLZXkgQXR0ZXN0YXRpb24gQ0ExMRAwDgYDVQQLDAdBbmRyb2lkMRMwEQYDVQQKDApHb29nbGUgTExDMQswCQYDVQQGEwJVUzB2MBAGByqGSM49AgEGBSuBBAAiA2IABCPaI3FO3z5bBQo8cuiEas4HjqCtG/mLFfRT0MsIssPBEEU5Cfbt6sH5yOAxqEi5QagpU1yX4HwnGb7OtBYpDTB57uH5Eczm34A5FNijV3s0/f0UPl7zbJcTx6xwqMIRq6NCMEAwDwYDVR0TAQH/BAUwAwEB/zAOBgNVHQ8BAf8EBAMCAQYwHQYDVR0OBBYEFFIyuyz7RkOb3NaBqQ5lZuA0QepAMAoGCCqGSM49BAMDA2gAMGUCMETfjPO/HwqReR2CS7p0ZWoD/LHs6hDi422opifHEUaYLxwGlT9SLdjkVpz0UUOR5wIxAIoGyxGKRHVTpqpGRFiJtQEOOTp/+s1GcxeYuR2zh/80lQyu9vAFCj6E4AXc+osmRg==",
+                                               "valid_now":  true
+                                           }
+                                       ],
+                      "chain_signatures_valid":  true,
+                      "chain_valid_now":  true,
+                      "leaf_matches_generated_key":  true,
+                      "key_possession_verified":  true,
+                      "payload_base64":  "RGV2aWNlIExhYiBpbmRlcGVuZGVudCBrZXkgcG9zc2Vzc2lvbiBjaGVjaw==",
+                      "signature_base64":  "MEQCIG0APy+nU6ArMLVYAFwXOo5r/qRTK7DyOJ0oOQbpUBmkAiAX/typRHPTnjkauGYzLop+vkB+JGTEouQ3SGDvLSu3QA==",
+                      "challenge_base64":  "prfNYzw8+aAk0KFVMpE2vrvenPRfT7XhVaZVXskm/xI=",
+                      "attestation":  {
+                                          "attestation_version":  300,
+                                          "attestation_security_level":  2,
+                                          "keymaster_version":  300,
+                                          "keymaster_security_level":  2,
+                                          "challenge_matches":  true,
+                                          "root_of_trust":  {
+                                                                "authorization_list":  "hardware",
+                                                                "verified_boot_key":  "0000000000000000000000000000000000000000000000000000000000000000",
+                                                                "device_locked":  false,
+                                                                "verified_boot_state":  2,
+                                                                "verified_boot_hash":  "06e39aed4e16b535cd43621f560243b89e47afbcae82a26388be6cc6eb9f1cb2"
+                                                            }
+                                      },
+                      "status":  "complete"
+                  },
+    "interpretation":  "Valid signatures and nonce binding do not establish manufacturer trust or hardware-backed storage.",
+    "apk_sha256":  "05134a6553113dac356a799c3fffbe9a4a71de8d464ece7fd4c8c3a10bb645e9",
+    "package":  "dev.androidlab.attestationprobe"
+}

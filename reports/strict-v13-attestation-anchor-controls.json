@@ -1,0 +1,22 @@
+{
+  "cases": [
+    {
+      "case": "test_ca_not_google_anchor",
+      "passed": true
+    },
+    {
+      "case": "matching_test_anchor_does_not_establish_hardware_trust",
+      "passed": true
+    },
+    {
+      "case": "unsigned_hardware_claim_rejected",
+      "passed": true
+    },
+    {
+      "case": "empty_anchor_snapshot_rejected",
+      "passed": true
+    }
+  ],
+  "passed": 4,
+  "failed": 0
+}

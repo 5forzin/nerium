@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "decoded_at": "2026-10-25T06:09:46.0445892+00:00",
+  "source_report": "play-integrity-physical-galaxy-s23-ultra-api34.json",
+  "token_sha256": "5d579a344850ea21e8a2d0b4dd8ffc692c004913a8b24297c26b4dc8078078b4",
+  "request_package_name": "dev.androidlab.integrityprobe",
+  "nonce_matches": true,
+  "request_timestamp_ms": "1792908577469",
+  "app_recognition_verdict": "UNEVALUATED",
+  "device_recognition_verdict": [],
+  "app_licensing_verdict": "UNEVALUATED"
+}

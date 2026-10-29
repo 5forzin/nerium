@@ -1,0 +1,13 @@
+{
+  "captured_at": "2026-10-25T23:59:15.4372906+00:00",
+  "avd": "device-lab-playstore-serviceprobe-v27",
+  "serial": "emulator-5568",
+  "boot_completed": "1",
+  "build_type": "user",
+  "debuggable": "0",
+  "selinux": "Enforcing",
+  "service_state": "running",
+  "process": "u:r:device_lab_vendor_probe:s0 u:r:device_lab_vendor_probe:s0 nobody        1315 device-lab-vendor-probe",
+  "magisk_binary_present": false,
+  "play_store_path": "package:/product/priv-app/Phonesky/Phonesky.apk"
+}

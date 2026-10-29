@@ -1,0 +1,14 @@
+[
+  {
+    "name": "device-lab-relay-control-v36",
+    "serial": "emulator-5582",
+    "pid": 27632,
+    "started_at": "2026-10-26T18:43:51.1294885+00:00"
+  },
+  {
+    "name": "device-lab-requester-v37",
+    "serial": "emulator-5584",
+    "pid": 22980,
+    "started_at": "2026-10-26T18:43:51.1383970+00:00"
+  }
+]

@@ -1,0 +1,137 @@
+--------- beginning of main
+10-25 04:18:58.284  7354  7354 I artd    : Starting artd
+10-25 04:18:58.284  7354  7354 I AidlLazyServiceRegistrar: Registering service artd
+10-25 04:18:58.539  3022  3287 I ProtoXDBBufferWrapper: ProtoXDBBufferWrapper.flushToStorage():153 Flushed 7 data item(s) to storage.
+10-25 04:18:59.147  1530  1976 I MediaProvider: Deleted 0 0 0 0 0 0 1 items on external_primary due to com.android.shell
+10-25 04:18:59.329  5077  6247 I NetworkScheduler.Stats: (REDACTED) Task %s/%s started execution. cause:%s exec_start_elapsed_seconds: %s
+10-25 04:18:59.381  5077  6244 I NetworkScheduler.Stats: (REDACTED) Task %s/%s finished executing. cause:%s result: %s elapsed_millis: %s uptime_millis: %s exec_start_elapsed_seconds: %s
+10-25 04:18:59.464  7365  7365 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+10-25 04:18:59.484  7365  7365 I AndroidRuntime: Using default boot image
+10-25 04:18:59.484  7365  7365 I AndroidRuntime: Leaving lock profiling enabled
+10-25 04:18:59.494  7365  7365 I app_process: Using CollectorTypeCC GC.
+10-25 04:18:59.727  7365  7365 D nativeloader: InitDefaultPublicLibraries for_preload=1: libandroid.so:libaaudio.so:libamidi.so:libbinder_ndk.so:libc.so:libcamera2ndk.so:libdl.so:libEGL.so:libGLESv1_CM.so:libGLESv2.so:libGLESv3.so:libicu.so:libicui18n.so:libicuuc.so:libjnigraphics.so:liblog.so:libmediandk.so:libm.so:libnativehelper.so:libnativewindow.so:libOpenMAXAL.so:libOpenSLES.so:libRS.so:libstdc++.so:libsync.so:libvulkan.so:libwebviewchromium_plat_support.so:libz.so
+10-25 04:18:59.756  7365  7365 D app_process: Time zone APEX ICU file found: /apex/com.android.tzdata/etc/icu/icu_tzdata.dat
+10-25 04:18:59.756  7365  7365 D app_process: I18n APEX ICU file found: /apex/com.android.i18n/etc/icu/icudt72l.dat
+10-25 04:18:59.771  7365  7365 W app_process: Unexpected CPU variant for x86: x86_64.
+10-25 04:18:59.771  7365  7365 W app_process: Known variants: atom, sandybridge, silvermont, goldmont, goldmont-plus, tremont, kabylake, default
+10-25 04:18:59.773  7365  7365 W app_process: ClassLoaderContext shared library size mismatch. Expected=2, found=0 (PCL[]{PCL[/system/framework/android.test.base.jar*836642756]#PCL[/system/framework/android.test.mock.jar*3186112116]} | PCL[])
+10-25 04:18:59.774  7365  7365 W app_process: ClassLoaderContext classpath size mismatch. expected=0, found=1 (PCL[]{PCL[/system/framework/android.test.runner.jar*4168958247]{PCL[/system/framework/android.test.base.jar*836642756]#PCL[/system/framework/android.test.mock.jar*3186112116]}#PCL[/system/framework/android.test.base.jar*836642756]} | PCL[/system/framework/android.test.runner.jar*4168958247])
+10-25 04:18:59.827  7365  7365 W libc    : Access denied finding property "ro.product.name_for_attestation"
+10-25 04:18:59.827  7365  7365 W libc    : Access denied finding property "ro.product.brand_for_attestation"
+10-25 04:18:59.827  7365  7365 W libc    : Access denied finding property "ro.product.model_for_attestation"
+10-25 04:18:59.829  7365  7365 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+10-25 04:18:59.842  7365  7365 D UiAutomationConnection: Created on user UserHandle{0}
+10-25 04:18:59.842  7365  7365 I UiAutomation: Initialized for user 0 on display 0
+10-25 04:18:59.842  7365  7365 W UiAutomation: Created with deprecatead constructor, assumes DEFAULT_DISPLAY
+10-25 04:18:59.816  7365  7365 W main    : type=1400 audit(0.0:1239): avc:  denied  { read } for  name="u:object_r:build_attestation_prop:s0" dev="tmpfs" ino=87 scontext=u:r:shell:s0 tcontext=u:object_r:build_attestation_prop:s0 tclass=file permissive=0
+--------- beginning of system
+10-25 04:18:59.853   616   883 D AccessibilityManagerService: changeCurrentUserForTestAutomationIfNeededLocked(0): ignoring because device doesn't support visible background users
+10-25 04:18:59.853   616   883 I UiAutomationManager: Registering UiTestAutomationService (id=com.android.server.accessibility/UiAutomation) when called by user 0
+10-25 04:18:59.824  7365  7365 W main    : type=1400 audit(0.0:1240): avc:  denied  { read } for  name="u:object_r:build_attestation_prop:s0" dev="tmpfs" ino=87 scontext=u:r:shell:s0 tcontext=u:object_r:build_attestation_prop:s0 tclass=file permissive=0
+10-25 04:18:59.869   616   883 W WindowMagnificationMgr: requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+10-25 04:18:59.824  7365  7365 W main    : type=1400 audit(0.0:1241): avc:  denied  { read } for  name="u:object_r:build_attestation_prop:s0" dev="tmpfs" ino=87 scontext=u:r:shell:s0 tcontext=u:object_r:build_attestation_prop:s0 tclass=file permissive=0
+10-25 04:18:59.870  3139  3186 I AiAiEcho: Settings changed for uri: content://settings/secure/accessibility_enabled
+10-25 04:18:59.876  3139  3393 I AiAiEcho: Predicting[0]: 
+10-25 04:18:59.876  3139  3393 I AiAiEcho: EchoTargets: 
+10-25 04:18:59.876  3139  3393 I AiAiEcho: Filtered by AiAi flag check: 
+10-25 04:18:59.877  3139  3393 I AiAiEcho: Ranked targets strategy: SORT, count: 0, ranking metadata: 
+10-25 04:18:59.892  3139  3393 I AiAiEcho: Predicting[0]: 
+10-25 04:18:59.892  3139  3393 I AiAiEcho: EchoTargets: 
+10-25 04:18:59.892  3139  3393 I AiAiEcho: Filtered by AiAi flag check: 
+10-25 04:18:59.892  3139  3393 I AiAiEcho: Ranked targets strategy: SORT, count: 0, ranking metadata: 
+10-25 04:18:59.894   616   616 D BatterySaverPolicy: accessibility changed to true, updating policy.
+10-25 04:18:59.900  3139  3393 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface home with targets# 0 (types=[])
+10-25 04:18:59.900  3139  3393 I AiAiEcho: Predicting[0]: 
+10-25 04:18:59.903  3139  3393 I AiAiEcho: EchoTargets: 
+10-25 04:18:59.903  3139  3393 I AiAiEcho: Filtered by AiAi flag check: 
+10-25 04:18:59.924  3139  3393 I AiAiEcho: Ranked targets strategy: SORT, count: 0, ranking metadata: 
+10-25 04:18:59.925  3139  3393 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface media_data_manager with targets# 0 (types=[])
+10-25 04:18:59.926  3139  3393 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface lockscreen with targets# 0 (types=[])
+10-25 04:18:59.994   616   883 W WindowMagnificationMgr: requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+10-25 04:19:00.000  3139  3169 I AiAiEcho: Settings changed for uri: content://settings/secure/accessibility_enabled
+10-25 04:19:00.001  3139  3393 I AiAiEcho: Predicting[0]: 
+10-25 04:19:00.001  3139  3393 I AiAiEcho: EchoTargets: 
+10-25 04:19:00.001  3139  3393 I AiAiEcho: Filtered by AiAi flag check: 
+10-25 04:19:00.001  3139  3393 I AiAiEcho: Ranked targets strategy: SORT, count: 0, ranking metadata: 
+10-25 04:19:00.001  3139  3393 I AiAiEcho: Predicting[0]: 
+10-25 04:19:00.002  3139  3393 I AiAiEcho: EchoTargets: 
+10-25 04:19:00.002  3139  3393 I AiAiEcho: Filtered by AiAi flag check: 
+10-25 04:19:00.002  3139  3393 I AiAiEcho: Ranked targets strategy: SORT, count: 0, ranking metadata: 
+10-25 04:19:00.002  3139  3393 I AiAiEcho: Predicting[0]: 
+10-25 04:19:00.002  3139  3393 I AiAiEcho: EchoTargets: 
+10-25 04:19:00.002  3139  3393 I AiAiEcho: Filtered by AiAi flag check: 
+10-25 04:19:00.002  3139  3393 I AiAiEcho: Ranked targets strategy: SORT, count: 0, ranking metadata: 
+10-25 04:19:00.009  3139  3393 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface home with targets# 0 (types=[])
+10-25 04:19:00.026  3139  3393 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface media_data_manager with targets# 0 (types=[])
+10-25 04:19:00.026  3139  3393 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface lockscreen with targets# 0 (types=[])
+10-25 04:19:00.067   898   898 W PageIndicator: Total number of pages invalid: 0. Assuming 1 page.
+10-25 04:19:00.067   898   898 D SsMediaDataProvider: Forwarding Smartspace updates []
+10-25 04:19:00.086   898   898 D SsMediaDataProvider: Forwarding Smartspace updates []
+10-25 04:19:00.087   898   898 W PageIndicator: Total number of pages invalid: 0. Assuming 1 page.
+10-25 04:19:00.094  3139  3393 I AiAiEcho: Predicting[0]: 
+10-25 04:19:00.102  3139  3393 I AiAiEcho: EchoTargets: 
+10-25 04:19:00.102  3139  3393 I AiAiEcho: Filtered by AiAi flag check: 
+10-25 04:19:00.103  3139  3393 I AiAiEcho: Ranked targets strategy: SORT, count: 0, ranking metadata: 
+10-25 04:19:00.104  3139  3393 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface lockscreen with targets# 0 (types=[])
+10-25 04:19:00.149   898   898 W PageIndicator: Total number of pages invalid: 0. Assuming 1 page.
+10-25 04:19:00.150   898   993 D EGL_emulation: app_time_stats: avg=57069.92ms min=57069.92ms max=57069.92ms count=1
+10-25 04:19:00.467   898   911 W System  : A resource failed to call HardwareBuffer.close. 
+10-25 04:19:00.467   898   911 W System  : A resource failed to call HardwareBuffer.close. 
+10-25 04:19:00.467   898   911 W System  : A resource failed to call release. 
+10-25 04:19:00.467   898   911 W System  : A resource failed to call release. 
+10-25 04:19:00.480   898   911 W System  : A resource failed to call HardwareBuffer.close. 
+10-25 04:19:00.480   898   911 W System  : A resource failed to call HardwareBuffer.close. 
+10-25 04:19:00.512   898   911 W System  : A resource failed to call release. 
+10-25 04:19:00.512   898   911 W System  : A resource failed to call release. 
+10-25 04:19:00.943  2993  2993 D BoundBrokerSvc: onUnbind: Intent { act=com.google.firebase.dynamiclinks.service.START pkg=com.google.android.gms }
+10-25 04:19:00.989  1530  1976 W MediaProvider: isAppCloneUserPair for user 0: false
+10-25 04:19:01.116   898   898 D StatusBarIconController: ignoring old pipeline callback because the new wifi icon is enabled
+10-25 04:19:01.247  7365  7365 I AccessibilityNodeInfoDumper: Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@989e; boundsInParent: Rect(0, 0 - 0, 0); boundsInScreen: Rect(747, 2163 - 873, 2279); boundsInWindow: Rect(747, 2163 - 873, 2279); packageName: com.eltavine.duckdetector; className: android.view.View; text: null; error: null; maxTextLength: -1; stateDescription: null; contentDescription: null; tooltipText: null; containerTitle: null; viewIdResName: null; uniqueId: null; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: false; visible: false; actions: [AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null]; isTextSelectable: false
+10-25 04:19:01.253  7365  7365 I AccessibilityNodeInfoDumper: Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@8408; boundsInParent: Rect(0, 0 - 1, 1); boundsInScreen: Rect(0, 0 - 1, 1); boundsInWindow: Rect(0, 0 - 1, 1); packageName: com.eltavine.duckdetector; className: android.webkit.WebView; text: null; error: null; maxTextLength: -1; stateDescription: null; contentDescription: null; tooltipText: null; containerTitle: null; viewIdResName: null; uniqueId: null; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: false; visible: false; actions: null; isTextSelectable: false
+10-25 04:19:01.254  7365  7365 W AccessibilityNodeInfoDumper: Fetch time: 275ms
+10-25 04:19:01.265  3139  3169 I AiAiEcho: Settings changed for uri: content://settings/secure/accessibility_enabled
+10-25 04:19:01.266  3139  3393 I AiAiEcho: Predicting[0]: 
+10-25 04:19:01.266  3139  3393 I AiAiEcho: EchoTargets: 
+10-25 04:19:01.266  3139  3393 I AiAiEcho: Filtered by AiAi flag check: 
+10-25 04:19:01.266  3139  3393 I AiAiEcho: Ranked targets strategy: SORT, count: 0, ranking metadata: 
+10-25 04:19:01.272  3139  3393 I AiAiEcho: Predicting[0]: 
+10-25 04:19:01.273  3139  3393 I AiAiEcho: EchoTargets: 
+10-25 04:19:01.273  3139  3393 I AiAiEcho: Filtered by AiAi flag check: 
+10-25 04:19:01.273  3139  3393 I AiAiEcho: Ranked targets strategy: SORT, count: 0, ranking metadata: 
+10-25 04:19:01.274  3139  3393 I AiAiEcho: Predicting[0]: 
+10-25 04:19:01.274  3139  3393 I AiAiEcho: EchoTargets: 
+10-25 04:19:01.274  3139  3393 I AiAiEcho: Filtered by AiAi flag check: 
+10-25 04:19:01.274  3139  3393 I AiAiEcho: Ranked targets strategy: SORT, count: 0, ranking metadata: 
+10-25 04:19:01.280  3139  3393 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface home with targets# 0 (types=[])
+10-25 04:19:01.281  3139  3393 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface media_data_manager with targets# 0 (types=[])
+10-25 04:19:01.281  3139  3393 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface lockscreen with targets# 0 (types=[])
+10-25 04:19:01.282   616  2509 W WindowMagnificationMgr: requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+10-25 04:19:01.282   616  2509 D AccessibilityManagerService: restoreCurrentUserForTestAutomationIfNeededLocked(): ignoring because device doesn't support visible background users
+10-25 04:19:01.314   616   616 D BatterySaverPolicy: accessibility changed to false, updating policy.
+10-25 04:19:01.373  7365  7365 D AndroidRuntime: Shutting down VM
+10-25 04:19:01.376   898   898 D SsMediaDataProvider: Forwarding Smartspace updates []
+10-25 04:19:01.376   898   898 W PageIndicator: Total number of pages invalid: 0. Assuming 1 page.
+10-25 04:19:01.473  5077  6247 I NetworkScheduler.Stats: (REDACTED) Task %s/%s started execution. cause:%s exec_start_elapsed_seconds: %s
+10-25 04:19:01.543  5077  7367 I NetworkScheduler.Stats: (REDACTED) Task %s/%s finished executing. cause:%s result: %s elapsed_millis: %s uptime_millis: %s exec_start_elapsed_seconds: %s
+10-25 04:19:01.852   616   883 D OomAdjuster: Not killing cached processes
+10-25 04:19:02.535  7354  7355 I AidlLazyServiceRegistrar: Process has 1 (of 1 available) client(s) in use after notification artd has clients: 1
+10-25 04:19:03.098   898   898 D StatusBarIconController: ignoring old pipeline callbacks, because the new mobile icons are enabled
+10-25 04:19:03.516  1530  4964 I MediaProvider: Deleted 0 1 0 0 0 0 0 items on external_primary due to com.android.shell
+10-25 04:19:03.819  5077  6247 I NetworkScheduler.Stats: (REDACTED) Task %s/%s started execution. cause:%s exec_start_elapsed_seconds: %s
+10-25 04:19:03.842  5077  7367 I NetworkScheduler.Stats: (REDACTED) Task %s/%s finished executing. cause:%s result: %s elapsed_millis: %s uptime_millis: %s exec_start_elapsed_seconds: %s
+10-25 04:19:03.986  7392  7392 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+10-25 04:19:03.995  1530  4964 W MediaProvider: isAppCloneUserPair for user 0: false
+10-25 04:19:04.027  7392  7392 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+10-25 04:19:04.060   898   909 I ndroid.systemui: Background young concurrent copying GC freed 187238(8826KB) AllocSpace objects, 1(20KB) LOS objects, 28% free, 21MB/29MB, paused 6.307ms,4.340ms total 136.273ms
+10-25 04:19:04.094   161   161 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+10-25 04:19:04.097  7392  7394 I Gralloc4: mapper 4.x is not supported
+10-25 04:19:04.664  5077  6247 I NetworkScheduler.Stats: (REDACTED) Task %s/%s started execution. cause:%s exec_start_elapsed_seconds: %s
+10-25 04:19:04.714  5077  6673 I NetworkScheduler.Stats: (REDACTED) Task %s/%s finished executing. cause:%s result: %s elapsed_millis: %s uptime_millis: %s exec_start_elapsed_seconds: %s
+10-25 04:19:04.898   616  2334 I ActivityManager: Broadcasting: Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x400000 }
+10-25 04:19:04.899   616  2334 I ActivityManager: Enqueued broadcast Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x400000 }: 0
+10-25 04:19:04.926   616   649 I ActivityManager: Broadcast completed: result=0
+10-25 04:19:04.962  1530  2119 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+10-25 04:19:04.983  1530  2119 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+10-25 04:19:05.161   898   909 I ndroid.systemui: Background young concurrent copying GC freed 181450(8522KB) AllocSpace objects, 0(0B) LOS objects, 28% free, 20MB/29MB, paused 8.323ms,138us total 83.258ms
+10-25 04:19:05.290  5077  7367 I NetworkScheduler.Stats: (REDACTED) Task %s/%s started execution. cause:%s exec_start_elapsed_seconds: %s
+10-25 04:19:05.350  5077  6244 I NetworkScheduler.Stats: (REDACTED) Task %s/%s finished executing. cause:%s result: %s elapsed_millis: %s uptime_millis: %s exec_start_elapsed_seconds: %s

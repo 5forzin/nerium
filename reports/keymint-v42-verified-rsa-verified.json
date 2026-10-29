@@ -1,0 +1,19 @@
+{
+  "certificate_signatures_verified": true,
+  "externally_supplied_challenge_verified": true,
+  "rsa_pss_key_possession_verified": true,
+  "signed_package_and_apk_certificate_verified": true,
+  "signed_package": "dev.androidlab.cngattestationcontrol",
+  "attestation_security_level": 0,
+  "keymaster_security_level": 0,
+  "root_of_trust_present": false,
+  "root_subject": "CN=AndroidLab Software Attestation Root",
+  "root_sha256": "68659387e2c856e9fc95fa736bfa9910779f4b9b2ea0c05396d8651006fc0701",
+  "root_matches_host_backend": true,
+  "root_matches_external_snapshot": false,
+  "manufacturer_trust": "not_established",
+  "full_pkix_path_validation_performed": false,
+  "schema_version": 1,
+  "report_sha256": "00cb04ef8d18a86c457bb4885cdbbdfd55d0b50d1f8c29d55e4d22009b96b817",
+  "external_root_snapshot_sha256": "b79beef96dd68073f1975bab90970ae85d1ae56d451a819ece6bff3d4e253ab4"
+}

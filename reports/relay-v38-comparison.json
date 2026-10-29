@@ -1,0 +1,60 @@
+{
+  "recorded_at": "2026-10-26T18:52:37.3343177+00:00",
+  "scope": "Sequential local emulator controls; descriptive small-sample comparison",
+  "before_report": "relay-v38-latency-once.json",
+  "after_report": "relay-v38-latency-persistent.json",
+  "comparison": [
+    {
+      "operation": "echo_sha256",
+      "before_samples": 2,
+      "after_samples": 2,
+      "before_mean_client_ms": 9302.0,
+      "after_mean_client_ms": 3546.0,
+      "observed_reduction_percent": 61.9
+    },
+    {
+      "operation": "play_integrity",
+      "before_samples": 2,
+      "after_samples": 2,
+      "before_mean_client_ms": 16051.0,
+      "after_mean_client_ms": 7245.0,
+      "observed_reduction_percent": 54.9
+    }
+  ],
+  "startup_before": {
+    "pair_total_ms": 10954,
+    "execution_mode": "once",
+    "service_pid": null,
+    "service_startup_ms": null
+  },
+  "startup_after": {
+    "pair_total_ms": 13530,
+    "execution_mode": "persistent",
+    "service_pid": 27024,
+    "service_startup_ms": 1862
+  },
+  "final_service_metrics": {
+    "cache_hits": 48,
+    "cache_misses": 2,
+    "source_fetches": 1,
+    "source_fetch_ms": 1069,
+    "introspections": 1,
+    "introspection_ms": 319,
+    "exchanges": 1,
+    "exchange_ms": 225,
+    "invalidations": 0,
+    "http_requests": 10,
+    "http_failures": 0,
+    "cache_entries": 2,
+    "host_total_ms": 4089,
+    "oauth_admin_ms": 0,
+    "oauth_decoder_ms": 0,
+    "http_total_ms": 3292,
+    "decode_api_ms": 88,
+    "cleanup_ms": 517,
+    "service_requests_completed": 4
+  },
+  "all_cleanup_confirmed": true,
+  "requester_integrity_verified": false,
+  "zero_detections_achieved": false
+}

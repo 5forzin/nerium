@@ -1,0 +1,52 @@
+{
+  "recorded_at": "2026-10-26T00:27:24.708147+00:00",
+  "compiler": "AOSP android-14.0.0_r1 48691508f03d1b3861522fdbf7536a9c4d325700",
+  "compile_flags": [
+    "-m",
+    "-M",
+    "true",
+    "-G",
+    "-c",
+    "30"
+  ],
+  "original_assertion_inputs": {
+    "plat_sepolicy.cil": {
+      "sha256": "31a6ccb43833929082d2ef87bb5b5caf39b8e6c6ac830bad92813131be17a4db",
+      "neverallow_statements": 4558
+    },
+    "34.0.cil": {
+      "sha256": "53435805ca07e5b0a66bc91b8fab494bb84f6290b7d56ee1ce84057ae2897322",
+      "neverallow_statements": 0
+    },
+    "system_ext_sepolicy.cil": {
+      "sha256": "89ab9a3ab93b411cdf25f2f454e5a042b828058c87686edf010c44ef58366c5f",
+      "neverallow_statements": 0
+    },
+    "plat_pub_versioned.cil": {
+      "sha256": "3f3ae2a6dd30e99f16dbed0ee66e5b10ba07a7e7791f5b11aad0b661fda84534",
+      "neverallow_statements": 1713
+    },
+    "vendor_sepolicy.cil": {
+      "sha256": "8cdae57b2fbd9558bd57674db165d919ce82364ff0068075e7e55a049f282c0d",
+      "neverallow_statements": 20
+    }
+  },
+  "negative_init_ptrace": {
+    "exit_code": 1,
+    "assertion": "neverallow * init:process ptrace",
+    "diagnostics": [
+      "plat_pub_versioned.cil:8860",
+      "plat_sepolicy.cil:12906 from system/sepolicy/public/init.te:689"
+    ],
+    "policy_loaded": false
+  },
+  "root_contract": {
+    "compile_exit_code": 0,
+    "policy_version": 30,
+    "config": "0xc0000001",
+    "sha256": "b676ee5eeb2b29fb1da275bf228cd6b86312d69ef7e9935f13b927789060d3f8",
+    "no_permissive_domain_added": true,
+    "init_ptrace_permission_added": false,
+    "sys_ptrace_capability_added": false
+  }
+}

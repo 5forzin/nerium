@@ -1,0 +1,42 @@
+{
+  "missing_symbols": [
+    "__devm_alloc_percpu",
+    "__devres_alloc_node",
+    "__update_load_avg_blocked_se",
+    "cpu_irqtime",
+    "devm_add_action",
+    "devm_free_pages",
+    "devm_free_percpu",
+    "devm_get_free_pages",
+    "devm_kasprintf",
+    "devm_kfree",
+    "devm_kmalloc",
+    "devm_kmemdup",
+    "devm_krealloc",
+    "devm_kstrdup",
+    "devm_kstrdup_const",
+    "devm_kvasprintf",
+    "devm_release_action",
+    "devm_remove_action",
+    "devres_add",
+    "devres_close_group",
+    "devres_destroy",
+    "devres_find",
+    "devres_for_each_res",
+    "devres_free",
+    "devres_get",
+    "devres_open_group",
+    "devres_release",
+    "devres_release_group",
+    "devres_remove",
+    "devres_remove_group",
+    "pick_highest_pushable_task",
+    "play_idle_precise",
+    "task_cputime_adjusted",
+    "thread_group_cputime_adjusted"
+  ],
+  "objects_requiring_rebuild": [
+    "drivers/base/devres.o",
+    "kernel/sched/build_policy.o"
+  ]
+}

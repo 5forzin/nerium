@@ -1,0 +1,81 @@
+{
+  "recorded_at": "2026-10-26T18:21:29.4616393+00:00",
+  "requester_apk_sha256": "4ad843aca3156d555ce9c3934153c34495bc567144159cffc7faab798f2dd307",
+  "worker_apk_sha256": "af02d68a3b09eb6bd3aa7292116f24e26533cf7055b785eb127a06886eea0d9f",
+  "build": "assembleDebug passed",
+  "lint_errors": 0,
+  "lint_warnings": 8,
+  "broker_records": 12,
+  "broker_passed": true,
+  "host_ownership_scenarios": 4,
+  "host_ownership_passed": true,
+  "pin_rejected_and_configuration_restored": true,
+  "all_worker_sessions_revoked": true,
+  "detector_suites_rerun": false,
+  "physical_requester_path_verified": false,
+  "physical_unavailable_reason": "RESOURCE_EXHAUSTED",
+  "zero_detections_achieved": false,
+  "codex_cli_reviews": {
+    "requested_access_program": "daybreak_blue",
+    "model": "gpt-6-sol",
+    "exit_codes": [
+      0,
+      0
+    ],
+    "completed": 2
+  },
+  "sources": [
+    {
+      "path": "settings.gradle.kts",
+      "sha256": "74bb8390817e312dcd57c1443e966efe93e195a8ff9df73985a6904320e45086"
+    },
+    {
+      "path": "relay/RelayHost.psm1",
+      "sha256": "47aa4f9689a0469e582613d2912a48a3fab48cba9dfa102fed447b68c1adbfac"
+    },
+    {
+      "path": "relay/requester-broker.mjs",
+      "sha256": "45e1617afe911154dee8153a788e5dccdc02dd13440cc302f973abefabef5a94"
+    },
+    {
+      "path": "relayrequester/build.gradle.kts",
+      "sha256": "ff502de9efb0f753e72bae1176100b3aa9838eef1640d2765d1c030882e33167"
+    },
+    {
+      "path": "relayrequester/src/main/AndroidManifest.xml",
+      "sha256": "dc819f10457a5fba756e49ec154b9937d7557636b33358b1456418b635af22e8"
+    },
+    {
+      "path": "relayrequester/src/main/java/dev/androidlab/relayrequester/MainActivity.java",
+      "sha256": "c8f8e2fbc27980ac47e31d80cee38fed81aece854c176554c0f4b5515c8e2991"
+    },
+    {
+      "path": "relayrequester/src/main/java/dev/androidlab/relayrequester/RequesterClient.java",
+      "sha256": "78e0d45c16405994884dca4c7eb4f1d3880be4f001f1d336cc57a6a3c3f883d1"
+    },
+    {
+      "path": "scripts/relay-requester.ps1",
+      "sha256": "a4621da4187d96386321399281f6740143c3a1045bc145b38df2efd772a97c99"
+    },
+    {
+      "path": "scripts/relay-broker-job.ps1",
+      "sha256": "e92bcb670627b1298e98b45b89db18cf89ecbbbede93a288bab0194dd14c7e91"
+    },
+    {
+      "path": "scripts/test-relay-requester-device.ps1",
+      "sha256": "0aaf0e8cc7641b7bd16d232a952d9f25bf034c9091762212543b62b33d07673d"
+    },
+    {
+      "path": "scripts/test-relay-requester-pin.ps1",
+      "sha256": "af3970270e6198b0a38aa2d94b3add88090a8b949235a76609e5f430c292b5e6"
+    },
+    {
+      "path": "scripts/test-requester-broker.mjs",
+      "sha256": "a2b686e677bd7d52dfc9722d73ea28d25dd80660b4b99a8e17501f0428691be8"
+    },
+    {
+      "path": "scripts/test-relay-host-ownership.ps1",
+      "sha256": "36d6207038d0cf764f76598d9ee45157d4e75566f7ffb2a41788e4f49d9ff3e4"
+    }
+  ]
+}

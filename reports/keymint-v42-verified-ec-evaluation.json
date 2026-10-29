@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "recorded_at": "2026-10-26T23:30:00.6458925+00:00",
+  "status": "passed_software_lab_attestation",
+  "apk_sha256": "06feb66b5ea7a8b801afb57b242efe07e014118e92a45aac0d6fbf6f864ccbdc",
+  "software_security_levels_verified": true,
+  "chain_signatures_and_key_possession_verified": true,
+  "certificate_validity_verified_by_host": true,
+  "externally_supplied_challenge_verified": true,
+  "certificate_count": 2,
+  "root_subject": "CN=AndroidLab Software Attestation Root",
+  "root_of_trust_omitted": true,
+  "manufacturer_trust": "not_established",
+  "root_matches_host_backend": true,
+  "root_sha256": "68659387e2c856e9fc95fa736bfa9910779f4b9b2ea0c05396d8651006fc0701",
+  "hardware_trust_established": false,
+  "external_root_snapshot_sha256": "b79beef96dd68073f1975bab90970ae85d1ae56d451a819ece6bff3d4e253ab4",
+  "independent_probe_report": "keymint-v42-verified-ec.json",
+  "independent_verifier_report": "keymint-v42-verified-ec-verified.json",
+  "external_trust_report": "keymint-v42-verified-ec-trust.json"
+}

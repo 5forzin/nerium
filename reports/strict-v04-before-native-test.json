@@ -1,0 +1,19 @@
+{
+  "captured_at": "2026-10-24T16:08:41.9787519+00:00",
+  "detector": "native-test",
+  "version": "30 (Mean Minotaur)",
+  "package": "icu.nullptr.nativetest",
+  "release": "https://github.com/Dr-TSNG/NativeDetector/releases/tag/Mean-Minotaur",
+  "apk_sha256": "5b2cb3b3203cb0cb4e59235fca7d728dfeaba1467e045699625671bc1ede4f67",
+  "installed_abi": "arm64-v8a",
+  "status": "unavailable",
+  "detected": null,
+  "reason": "Process exited before a result was collected.",
+  "process_id": null,
+  "foreground": "topResumedActivity=ActivityRecord{de41643 u0 com.felhr.emulatordetector/.MainActivity t112}",
+  "launch": "Starting: Intent { cmp=icu.nullptr.nativetest/android.app.NativeActivity }\nStatus: ok\nLaunchState: UNKNOWN (0)\nActivity: icu.nullptr.nativetest/android.app.NativeActivity\nWaitTime: 1151\nComplete",
+  "ui_result": null,
+  "visible_text": [],
+  "screenshot": "strict-v04-before-native-test.png",
+  "log": "strict-v04-before-native-test.log"
+}

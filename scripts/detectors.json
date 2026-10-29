@@ -1,0 +1,82 @@
+[
+  {
+    "id": "duck",
+    "name": "Duck Detector",
+    "version": "2026.10.24-b5305070468a (1084)",
+    "export_version": "2026.10.24-b5305070468a (Build 1084)",
+    "build_commit": "b5305070468a",
+    "ready_modules": 20,
+    "package": "com.eltavine.duckdetector",
+    "activity": "android.app.NativeActivity",
+    "sha256": "9d0bbdab9c0b14334c9ec0d319758c5f9085260a09388486482b2ac497c81ffc",
+    "abi": "x86_64",
+    "release": "https://github.com/eltavine/Duck-Detector-Refactoring/releases/tag/nightly-2026-10-24-b5305070",
+    "capture": "duck"
+  },
+  {
+    "id": "reveny-emulator",
+    "name": "reveny Emulator Detection",
+    "version": "1.5.0",
+    "package": "com.reveny.emulator.detection.sample",
+    "activity": "com.reveny.emulatordetector.ui.activity.MainActivity",
+    "sha256": "9f064f3968e9a224612810ec2b6078872f479930ce4dd0fc1f7132b08c6b3f5b",
+    "abi": "x86_64",
+    "release": "https://github.com/reveny/Android-Emulator-Detection/releases/tag/v1.5.0",
+    "capture": "reveny-emulator"
+  },
+  {
+    "id": "framgia",
+    "name": "Framgia Emulator Detector",
+    "version": "1.4.0",
+    "package": "com.framgia.example.emulatordetector",
+    "activity": "com.framgia.example.emulatordetector.MainActivity",
+    "sha256": "4f627a722df412fd12922c0043cd9c1f5b720e31010c9b8d3dd136a9a16e1382",
+    "abi": "null",
+    "release": "https://github.com/framgia/android-emulator-detector/releases/tag/1.4.0",
+    "capture": "framgia"
+  },
+  {
+    "id": "spotter",
+    "name": "Emulator Spotter",
+    "version": "1.3",
+    "package": "com.felhr.emulatordetector",
+    "activity": "com.felhr.emulatordetector.MainActivity",
+    "sha256": "2c5967348de302c87af03de3e42724ed5b29babdeb64ef0e878f03d71d8375a9",
+    "abi": "arm64-v8a",
+    "release": "https://github.com/Emulator-Spotter/Android-Emulator-Detector/releases/tag/1.3",
+    "capture": "spotter"
+  },
+  {
+    "id": "native-root",
+    "name": "Native Root Detector",
+    "version": "7.7.0",
+    "package": "com.reveny.nativecheck",
+    "activity": "com.reveny.nativecheck.ui.activity.MainActivity",
+    "sha256": "1033d24102af2632fe5c379e28c9ea9a20bc1d570e171ac3e50f8afd35fc4bd6",
+    "abi": "arm64-v8a",
+    "release": "https://github.com/reveny/Android-Native-Root-Detector/releases/tag/v7.7.0",
+    "capture": "compose"
+  },
+  {
+    "id": "native-test",
+    "name": "NativeTest",
+    "version": "30 (Mean Minotaur)",
+    "package": "icu.nullptr.nativetest",
+    "activity": "android.app.NativeActivity",
+    "sha256": "5b2cb3b3203cb0cb4e59235fca7d728dfeaba1467e045699625671bc1ede4f67",
+    "abi": "arm64-v8a",
+    "release": "https://github.com/Dr-TSNG/NativeDetector/releases/tag/Mean-Minotaur",
+    "capture": "native-canvas"
+  },
+  {
+    "id": "lsposed-native",
+    "name": "LSPosed Native Detector",
+    "version": "2.2",
+    "package": "io.github.vvb2060.nativedetector",
+    "activity": "io.github.vvb2060.nativedetector.zygisk",
+    "sha256": "bccff3df297f9a9f03a9b4e5055a5d6dea1aa06aa33511e9210fbb25fd672b41",
+    "abi": "x86_64",
+    "release": "https://github.com/LSPosed/NativeDetector/releases/tag/v2.2",
+    "capture": "native-canvas"
+  }
+]

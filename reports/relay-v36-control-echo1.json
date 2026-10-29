@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "operation": "echo_sha256",
+  "job_id": "4dab85c61c8c4764b85e68f9073be285",
+  "session_id": "568b8416f0a14ff3aa5c8d02c36ab04d",
+  "worker_uid": "worker_f21c8e1d34ed4226b778be90",
+  "request_sha256": "356a49a662bf541cfb5434bbdf768750cf94a10bef41d2ae69a00d77287544ac",
+  "origin": "cooperative_remote_worker",
+  "requester_integrity_verified": false,
+  "worker_package": "dev.androidlab.relayworker",
+  "created_at_ms": 1793031134655,
+  "expires_at_ms": 1793031164655,
+  "status": "completed",
+  "challenge_sha256": "f228b61f74eb3eb95f61ef02d8edd9f8e3b8e1f32cafc748f7737ab60a2cf072",
+  "lease_id": "4c600009d26144daa55c0f9f780a1fb6",
+  "attempt": 1,
+  "worker_version_code": 1,
+  "worker_apk_cert_sha256": "8da73e88327cb0e66192edff23cda9ab9010590b8f02e66881be7d1f528e14f6",
+  "execution_elapsed_ms": 6,
+  "completed_at_ms": 1793031135527
+}

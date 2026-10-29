@@ -1,0 +1,275 @@
+{
+  "name": "synthetic_protocol_rules_fixtures_not_apk_execution_or_attestation",
+  "passed": false,
+  "tests": [
+    {
+      "name": "deployed_rules_match_local",
+      "status_code": 200,
+      "expected_codes": [
+        200
+      ],
+      "passed": true,
+      "elapsed_ms": 465,
+      "request_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "response_sha256": "2f2c364bd7ad5d5c3f3fdb4d13206ace7e967db4dbaa2ffcdcfe7619b089194d"
+    },
+    {
+      "name": "fixture_session_create",
+      "status_code": 200,
+      "expected_codes": [
+        200
+      ],
+      "passed": true,
+      "elapsed_ms": 190,
+      "request_sha256": "c6dafd895696711534d29609a49c0426d956746d3d39e48b2d33c615e3598401",
+      "response_sha256": "c6dafd895696711534d29609a49c0426d956746d3d39e48b2d33c615e3598401"
+    },
+    {
+      "name": "fixture_session_create",
+      "status_code": 200,
+      "expected_codes": [
+        200
+      ],
+      "passed": true,
+      "elapsed_ms": 178,
+      "request_sha256": "a15661a31f347c2234d4fa1f9494277e8f3fc1064d32845c53a171605dc6e0ce",
+      "response_sha256": "a15661a31f347c2234d4fa1f9494277e8f3fc1064d32845c53a171605dc6e0ce"
+    },
+    {
+      "name": "fixture_job_create",
+      "status_code": 200,
+      "expected_codes": [
+        200
+      ],
+      "passed": true,
+      "elapsed_ms": 224,
+      "request_sha256": "e4dcb9c1af73813034342dd2743978087c67f24787c4d3d51f79668b0277f524",
+      "response_sha256": "e4dcb9c1af73813034342dd2743978087c67f24787c4d3d51f79668b0277f524"
+    },
+    {
+      "name": "unauthenticated_read_denied",
+      "status_code": 401,
+      "expected_codes": [
+        401,
+        403
+      ],
+      "passed": true,
+      "elapsed_ms": 149,
+      "request_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "response_sha256": "2c31c3cd9a960d6a78ff9728ec9210fe6cf8e51c08ab8f9c17b81cbb78981674"
+    },
+    {
+      "name": "wrong_uid_read_denied",
+      "status_code": 401,
+      "expected_codes": [
+        401,
+        403
+      ],
+      "passed": true,
+      "elapsed_ms": 145,
+      "request_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "response_sha256": "2c31c3cd9a960d6a78ff9728ec9210fe6cf8e51c08ab8f9c17b81cbb78981674"
+    },
+    {
+      "name": "correct_worker_read_allowed",
+      "status_code": 200,
+      "expected_codes": [
+        200
+      ],
+      "passed": true,
+      "elapsed_ms": 198,
+      "request_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "response_sha256": "e4dcb9c1af73813034342dd2743978087c67f24787c4d3d51f79668b0277f524"
+    },
+    {
+      "name": "worker_inbox_write_denied",
+      "status_code": 401,
+      "expected_codes": [
+        401,
+        403
+      ],
+      "passed": true,
+      "elapsed_ms": 145,
+      "request_sha256": "e4dcb9c1af73813034342dd2743978087c67f24787c4d3d51f79668b0277f524",
+      "response_sha256": "2c31c3cd9a960d6a78ff9728ec9210fe6cf8e51c08ab8f9c17b81cbb78981674"
+    },
+    {
+      "name": "worker_session_write_denied",
+      "status_code": 401,
+      "expected_codes": [
+        401,
+        403
+      ],
+      "passed": true,
+      "elapsed_ms": 496,
+      "request_sha256": "e35edb6495ef7fcd38ccf18e6c6c94401834abaa9e3f19a9ad43fe82eb2a828b",
+      "response_sha256": "2c31c3cd9a960d6a78ff9728ec9210fe6cf8e51c08ab8f9c17b81cbb78981674"
+    },
+    {
+      "name": "wrong_session_claim_denied",
+      "status_code": 401,
+      "expected_codes": [
+        401,
+        403
+      ],
+      "passed": true,
+      "elapsed_ms": 144,
+      "request_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "response_sha256": "2c31c3cd9a960d6a78ff9728ec9210fe6cf8e51c08ab8f9c17b81cbb78981674"
+    },
+    {
+      "name": "expired_session_claim_denied",
+      "status_code": 401,
+      "expected_codes": [
+        401,
+        403
+      ],
+      "passed": true,
+      "elapsed_ms": 147,
+      "request_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "response_sha256": "2c31c3cd9a960d6a78ff9728ec9210fe6cf8e51c08ab8f9c17b81cbb78981674"
+    },
+    {
+      "name": "fixture_revoke_session",
+      "status_code": 200,
+      "expected_codes": [
+        200
+      ],
+      "passed": true,
+      "elapsed_ms": 177,
+      "request_sha256": "e35edb6495ef7fcd38ccf18e6c6c94401834abaa9e3f19a9ad43fe82eb2a828b",
+      "response_sha256": "e35edb6495ef7fcd38ccf18e6c6c94401834abaa9e3f19a9ad43fe82eb2a828b"
+    },
+    {
+      "name": "fixture_job_create",
+      "status_code": 200,
+      "expected_codes": [
+        200
+      ],
+      "passed": true,
+      "elapsed_ms": 175,
+      "request_sha256": "a9139e231e45e013bb07455e9e4514a7d071b7b97098facdb5439f9a7e963c37",
+      "response_sha256": "a9139e231e45e013bb07455e9e4514a7d071b7b97098facdb5439f9a7e963c37"
+    },
+    {
+      "name": "revoked_session_read_denied",
+      "status_code": 401,
+      "expected_codes": [
+        401,
+        403
+      ],
+      "passed": true,
+      "elapsed_ms": 144,
+      "request_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "response_sha256": "2c31c3cd9a960d6a78ff9728ec9210fe6cf8e51c08ab8f9c17b81cbb78981674"
+    },
+    {
+      "name": "execution_initially_absent",
+      "status_code": 200,
+      "expected_codes": [
+        200
+      ],
+      "passed": false,
+      "elapsed_ms": 147,
+      "request_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "response_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b"
+    },
+    {
+      "name": "TEST_FAILED_execution_initially_absent",
+      "status_code": 0,
+      "expected_codes": [],
+      "passed": false,
+      "elapsed_ms": 0,
+      "request_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "exception_type": "System.Management.Automation.RuntimeException",
+      "script_stack_trace": [
+        "at Add-Test, test-relay-rules.ps1: line 81",
+        "at <ScriptBlock>, test-relay-rules.ps1: line 273",
+        "at <ScriptBlock>, [script]: line 2"
+      ]
+    },
+    {
+      "name": "cleanup_owned_fixture",
+      "status_code": 200,
+      "expected_codes": [
+        200
+      ],
+      "passed": true,
+      "elapsed_ms": 184,
+      "request_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "response_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b"
+    },
+    {
+      "name": "cleanup_owned_fixture",
+      "status_code": 200,
+      "expected_codes": [
+        200
+      ],
+      "passed": true,
+      "elapsed_ms": 179,
+      "request_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "response_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b"
+    },
+    {
+      "name": "cleanup_owned_fixture",
+      "status_code": 200,
+      "expected_codes": [
+        200
+      ],
+      "passed": true,
+      "elapsed_ms": 186,
+      "request_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "response_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b"
+    },
+    {
+      "name": "cleanup_owned_fixture",
+      "status_code": 200,
+      "expected_codes": [
+        200
+      ],
+      "passed": true,
+      "elapsed_ms": 191,
+      "request_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "response_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b"
+    },
+    {
+      "name": "cleanup_owned_fixture",
+      "status_code": 200,
+      "expected_codes": [
+        200
+      ],
+      "passed": true,
+      "elapsed_ms": 180,
+      "request_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "response_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b"
+    },
+    {
+      "name": "cleanup_owned_fixture",
+      "status_code": 200,
+      "expected_codes": [
+        200
+      ],
+      "passed": true,
+      "elapsed_ms": 182,
+      "request_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "response_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b"
+    },
+    {
+      "name": "cleanup_synthetic_auth_user",
+      "count": 1,
+      "status_code": 200,
+      "passed": true,
+      "elapsed_ms": 394,
+      "uid_sha256": "6db59a34556fb06f68bef04dc14a1f5e82968540c9c8ab1a8c51032eecf329da"
+    },
+    {
+      "name": "cleanup_synthetic_auth_user",
+      "count": 1,
+      "status_code": 200,
+      "passed": true,
+      "elapsed_ms": 399,
+      "uid_sha256": "e65f2847588708c05c1364a62b977540506afd8e15a95ac99eba2a5d522652bc"
+    }
+  ]
+}

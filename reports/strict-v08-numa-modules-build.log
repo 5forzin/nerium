@@ -1,0 +1,3024 @@
+Using /work/out/.config as base
+Merging /artifacts/virtual-device/virtual_device_core.fragment
+Value of CONFIG_DRM_VIRTIO_GPU is redefined by fragment /artifacts/virtual-device/virtual_device_core.fragment:
+Previous value: # CONFIG_DRM_VIRTIO_GPU is not set
+New value: CONFIG_DRM_VIRTIO_GPU=m
+
+Value of CONFIG_HW_RANDOM_VIRTIO is redefined by fragment /artifacts/virtual-device/virtual_device_core.fragment:
+Previous value: # CONFIG_HW_RANDOM_VIRTIO is not set
+New value: CONFIG_HW_RANDOM_VIRTIO=m
+
+Value of CONFIG_SND_VIRTIO is redefined by fragment /artifacts/virtual-device/virtual_device_core.fragment:
+Previous value: # CONFIG_SND_VIRTIO is not set
+New value: CONFIG_SND_VIRTIO=m
+
+Value of CONFIG_VIRTIO_BLK is redefined by fragment /artifacts/virtual-device/virtual_device_core.fragment:
+Previous value: # CONFIG_VIRTIO_BLK is not set
+New value: CONFIG_VIRTIO_BLK=m
+
+Value of CONFIG_VIRTIO_CONSOLE is redefined by fragment /artifacts/virtual-device/virtual_device_core.fragment:
+Previous value: # CONFIG_VIRTIO_CONSOLE is not set
+New value: CONFIG_VIRTIO_CONSOLE=m
+
+Value of CONFIG_VIRTIO_INPUT is redefined by fragment /artifacts/virtual-device/virtual_device_core.fragment:
+Previous value: # CONFIG_VIRTIO_INPUT is not set
+New value: CONFIG_VIRTIO_INPUT=m
+
+Value of CONFIG_VIRTIO_NET is redefined by fragment /artifacts/virtual-device/virtual_device_core.fragment:
+Previous value: # CONFIG_VIRTIO_NET is not set
+New value: CONFIG_VIRTIO_NET=m
+
+Value of CONFIG_VIRTIO_PCI is redefined by fragment /artifacts/virtual-device/virtual_device_core.fragment:
+Previous value: # CONFIG_VIRTIO_PCI is not set
+New value: CONFIG_VIRTIO_PCI=m
+
+Value of CONFIG_VIRTIO_VSOCKETS is redefined by fragment /artifacts/virtual-device/virtual_device_core.fragment:
+Previous value: # CONFIG_VIRTIO_VSOCKETS is not set
+New value: CONFIG_VIRTIO_VSOCKETS=m
+
+Merging /artifacts/virtual-device/virtual_device.fragment
+Value of CONFIG_BATTERY_GOLDFISH is redefined by fragment /artifacts/virtual-device/virtual_device.fragment:
+Previous value: # CONFIG_BATTERY_GOLDFISH is not set
+New value: CONFIG_BATTERY_GOLDFISH=m
+
+Value of CONFIG_BT_HCIVHCI is redefined by fragment /artifacts/virtual-device/virtual_device.fragment:
+Previous value: # CONFIG_BT_HCIVHCI is not set
+New value: CONFIG_BT_HCIVHCI=m
+
+Value of CONFIG_BT_HCIUART is redefined by fragment /artifacts/virtual-device/virtual_device.fragment:
+Previous value: CONFIG_BT_HCIUART=m
+New value: CONFIG_BT_HCIUART=m
+
+Value of CONFIG_CPUFREQ_DUMMY is redefined by fragment /artifacts/virtual-device/virtual_device.fragment:
+Previous value: # CONFIG_CPUFREQ_DUMMY is not set
+New value: CONFIG_CPUFREQ_DUMMY=m
+
+Value of CONFIG_DMABUF_HEAPS_SYSTEM is redefined by fragment /artifacts/virtual-device/virtual_device.fragment:
+Previous value: # CONFIG_DMABUF_HEAPS_SYSTEM is not set
+New value: CONFIG_DMABUF_HEAPS_SYSTEM=m
+
+Value of CONFIG_DRM_VKMS is redefined by fragment /artifacts/virtual-device/virtual_device.fragment:
+Previous value: # CONFIG_DRM_VKMS is not set
+New value: CONFIG_DRM_VKMS=m
+
+Value of CONFIG_MAC80211_HWSIM is redefined by fragment /artifacts/virtual-device/virtual_device.fragment:
+Previous value: # CONFIG_MAC80211_HWSIM is not set
+New value: CONFIG_MAC80211_HWSIM=m
+
+Value of CONFIG_RTC_DRV_TEST is redefined by fragment /artifacts/virtual-device/virtual_device.fragment:
+Previous value: # CONFIG_RTC_DRV_TEST is not set
+New value: CONFIG_RTC_DRV_TEST=m
+
+Value of CONFIG_USB_DUMMY_HCD is redefined by fragment /artifacts/virtual-device/virtual_device.fragment:
+Previous value: # CONFIG_USB_DUMMY_HCD is not set
+New value: CONFIG_USB_DUMMY_HCD=m
+
+Value of CONFIG_VIRTIO_BALLOON is redefined by fragment /artifacts/virtual-device/virtual_device.fragment:
+Previous value: # CONFIG_VIRTIO_BALLOON is not set
+New value: CONFIG_VIRTIO_BALLOON=m
+
+Value of CONFIG_VIRTIO_PMEM is redefined by fragment /artifacts/virtual-device/virtual_device.fragment:
+Previous value: # CONFIG_VIRTIO_PMEM is not set
+New value: CONFIG_VIRTIO_PMEM=m
+
+Value of CONFIG_USBIP_CORE is redefined by fragment /artifacts/virtual-device/virtual_device.fragment:
+Previous value: # CONFIG_USBIP_CORE is not set
+New value: CONFIG_USBIP_CORE=m
+
+Value of CONFIG_TEST_MEMINIT is redefined by fragment /artifacts/virtual-device/virtual_device.fragment:
+Previous value: # CONFIG_TEST_MEMINIT is not set
+New value: CONFIG_TEST_MEMINIT=m
+
+Value of CONFIG_VIRT_WIFI is redefined by fragment /artifacts/virtual-device/virtual_device.fragment:
+Previous value: # CONFIG_VIRT_WIFI is not set
+New value: CONFIG_VIRT_WIFI=m
+
+Value of CONFIG_BT_HCIBTUSB is redefined by fragment /artifacts/virtual-device/virtual_device.fragment:
+Previous value: # CONFIG_BT_HCIBTUSB is not set
+New value: CONFIG_BT_HCIBTUSB=m
+
+Value of CONFIG_CAN_GS_USB is redefined by fragment /artifacts/virtual-device/virtual_device.fragment:
+Previous value: # CONFIG_CAN_GS_USB is not set
+New value: CONFIG_CAN_GS_USB=m
+
+Value of CONFIG_WLAN_VENDOR_MEDIATEK is redefined by fragment /artifacts/virtual-device/virtual_device.fragment:
+Previous value: # CONFIG_WLAN_VENDOR_MEDIATEK is not set
+New value: CONFIG_WLAN_VENDOR_MEDIATEK=y
+
+Value of CONFIG_USB_PULSE8_CEC is redefined by fragment /artifacts/virtual-device/virtual_device.fragment:
+Previous value: # CONFIG_USB_PULSE8_CEC is not set
+New value: CONFIG_USB_PULSE8_CEC=m
+
+#
+# merged configuration written to /work/vendor-out/.config (needs make)
+#
+make: Entering directory '/work/src'
+make[1]: Entering directory '/work/vendor-out'
+  GEN     Makefile
+  HOSTCC  scripts/basic/fixdep
+  HOSTCC  scripts/kconfig/conf.o
+  HOSTCC  scripts/kconfig/confdata.o
+  HOSTCC  scripts/kconfig/expr.o
+  LEX     scripts/kconfig/lexer.lex.c
+  YACC    scripts/kconfig/parser.tab.[ch]
+  HOSTCC  scripts/kconfig/lexer.lex.o
+  HOSTCC  scripts/kconfig/menu.o
+  HOSTCC  scripts/kconfig/parser.tab.o
+  HOSTCC  scripts/kconfig/preprocess.o
+  HOSTCC  scripts/kconfig/symbol.o
+  HOSTCC  scripts/kconfig/util.o
+  HOSTLD  scripts/kconfig/conf
+.config:7395:warning: override: reassigning to symbol MODULE_SIG_ALL
+#
+# configuration written to .config
+#
+make[1]: Leaving directory '/work/vendor-out'
+make: Leaving directory '/work/src'
+make: Entering directory '/work/src'
+make[1]: Entering directory '/work/vendor-out'
+  GEN     Makefile
+  SYSHDR  arch/x86/include/generated/uapi/asm/unistd_32.h
+  SYSHDR  arch/x86/include/generated/uapi/asm/unistd_64.h
+  WRAP    arch/x86/include/generated/uapi/asm/bpf_perf_event.h
+  WRAP    arch/x86/include/generated/uapi/asm/errno.h
+  WRAP    arch/x86/include/generated/uapi/asm/fcntl.h
+  WRAP    arch/x86/include/generated/uapi/asm/ioctl.h
+  WRAP    arch/x86/include/generated/uapi/asm/ioctls.h
+  WRAP    arch/x86/include/generated/uapi/asm/ipcbuf.h
+  WRAP    arch/x86/include/generated/uapi/asm/param.h
+  WRAP    arch/x86/include/generated/uapi/asm/poll.h
+  WRAP    arch/x86/include/generated/uapi/asm/resource.h
+  WRAP    arch/x86/include/generated/uapi/asm/socket.h
+  SYSHDR  arch/x86/include/generated/uapi/asm/unistd_x32.h
+  WRAP    arch/x86/include/generated/uapi/asm/sockios.h
+  WRAP    arch/x86/include/generated/uapi/asm/termbits.h
+  WRAP    arch/x86/include/generated/uapi/asm/termios.h
+  WRAP    arch/x86/include/generated/uapi/asm/types.h
+  SYSTBL  arch/x86/include/generated/asm/syscalls_32.h
+  SYSHDR  arch/x86/include/generated/asm/unistd_32_ia32.h
+  SYSHDR  arch/x86/include/generated/asm/unistd_64_x32.h
+  SYSTBL  arch/x86/include/generated/asm/syscalls_64.h
+  HOSTCC  arch/x86/tools/relocs_32.o
+  UPD     include/config/kernel.release
+  WRAP    arch/x86/include/generated/asm/early_ioremap.h
+  WRAP    arch/x86/include/generated/asm/export.h
+  WRAP    arch/x86/include/generated/asm/mcs_spinlock.h
+  WRAP    arch/x86/include/generated/asm/irq_regs.h
+  WRAP    arch/x86/include/generated/asm/kmap_size.h
+  WRAP    arch/x86/include/generated/asm/local64.h
+  WRAP    arch/x86/include/generated/asm/mmiowb.h
+  WRAP    arch/x86/include/generated/asm/module.lds.h
+  WRAP    arch/x86/include/generated/asm/rwonce.h
+  WRAP    arch/x86/include/generated/asm/unaligned.h
+  UPD     include/generated/uapi/linux/version.h
+  HOSTCC  arch/x86/tools/relocs_64.o
+  HOSTCC  arch/x86/tools/relocs_common.o
+  UPD     include/generated/utsrelease.h
+  HOSTLD  arch/x86/tools/relocs
+  UPD     include/generated/compile.h
+  HOSTCC  scripts/genksyms/genksyms.o
+  HOSTCC  scripts/unifdef
+  YACC    scripts/genksyms/parse.tab.[ch]
+  LEX     scripts/genksyms/lex.lex.c
+  HOSTCC  scripts/genksyms/parse.tab.o
+  DESCEND objtool
+  HOSTCC  scripts/genksyms/lex.lex.o
+  HOSTCC  /work/vendor-out/tools/objtool/fixdep.o
+  HOSTLD  /work/vendor-out/tools/objtool/fixdep-in.o
+  LINK    /work/vendor-out/tools/objtool/fixdep
+  CC      /work/vendor-out/tools/objtool/exec-cmd.o
+  CC      /work/vendor-out/tools/objtool/help.o
+  HOSTLD  scripts/genksyms/genksyms
+  HOSTCC  scripts/selinux/genheaders/genheaders
+  CC      /work/vendor-out/tools/objtool/pager.o
+  HOSTCC  scripts/selinux/mdp/mdp
+  CC      /work/vendor-out/tools/objtool/parse-options.o
+  HOSTCC  scripts/kallsyms
+  CC      /work/vendor-out/tools/objtool/run-command.o
+  HOSTCC  scripts/sorttable
+  CC      /work/vendor-out/tools/objtool/sigchain.o
+  CC      /work/vendor-out/tools/objtool/subcmd-config.o
+  LD      /work/vendor-out/tools/objtool/libsubcmd-in.o
+  AR      /work/vendor-out/tools/objtool/libsubcmd.a
+  MKDIR   /work/vendor-out/tools/objtool/arch/x86/
+  CC      /work/vendor-out/tools/objtool/arch/x86/special.o
+  HOSTCC  scripts/asn1_compiler
+  MKDIR   /work/vendor-out/tools/objtool/arch/x86/lib/
+  GEN     /work/vendor-out/tools/objtool/arch/x86/lib/inat-tables.c
+  CC      /work/vendor-out/tools/objtool/arch/x86/decode.o
+  HOSTCC  scripts/sign-file
+  LD      /work/vendor-out/tools/objtool/arch/x86/objtool-in.o
+  CC      /work/vendor-out/tools/objtool/weak.o
+  CC      /work/vendor-out/tools/objtool/check.o
+  DESCEND bpf/resolve_btfids
+  MKDIR     /work/vendor-out/tools/bpf/resolve_btfids/libbpf/
+  HOSTCC  /work/vendor-out/tools/bpf/resolve_btfids/fixdep.o
+  HOSTLD  /work/vendor-out/tools/bpf/resolve_btfids/fixdep-in.o
+  LINK    /work/vendor-out/tools/bpf/resolve_btfids/fixdep
+  MKDIR     /work/vendor-out/tools/bpf/resolve_btfids//libsubcmd
+  GEN     /work/vendor-out/tools/bpf/resolve_btfids/libbpf/bpf_helper_defs.h
+/work/src/scripts/bpf_doc.py:62: SyntaxWarning: invalid escape sequence '\w'
+  arg_re = re.compile('((\w+ )*?(\w+|...))( (\**)(\w+))?$')
+/work/src/scripts/bpf_doc.py:64: SyntaxWarning: invalid escape sequence '\*'
+  proto_re = re.compile('(.+) (\**)(\w+)\(((([^,]+)(, )?){1,5})\)$')
+/work/src/scripts/bpf_doc.py:116: SyntaxWarning: invalid escape sequence '\*'
+  p = re.compile(' \* ?(BPF\w+)$')
+/work/src/scripts/bpf_doc.py:120: SyntaxWarning: invalid escape sequence '\*'
+  end_re = re.compile(' \* ?NOTES$')
+/work/src/scripts/bpf_doc.py:135: SyntaxWarning: invalid escape sequence '\*'
+  p = re.compile(' \* ?((.+) \**\w+\((((const )?(struct )?(\w+|\.\.\.)( \**\w+)?)(, )?){1,5}\))$')
+/work/src/scripts/bpf_doc.py:143: SyntaxWarning: invalid escape sequence '\*'
+  p = re.compile(' \* ?(?:\t| {5,8})Description$')
+/work/src/scripts/bpf_doc.py:156: SyntaxWarning: invalid escape sequence '\*'
+  p = re.compile(' \* ?(?:\t| {5,8})(?:\t| {8})(.*)')
+/work/src/scripts/bpf_doc.py:169: SyntaxWarning: invalid escape sequence '\*'
+  p = re.compile(' \* ?(?:\t| {5,8})Return$')
+/work/src/scripts/bpf_doc.py:182: SyntaxWarning: invalid escape sequence '\*'
+  p = re.compile(' \* ?(?:\t| {5,8})(?:\t| {8})(.*)')
+/work/src/scripts/bpf_doc.py:221: SyntaxWarning: invalid escape sequence '\s'
+  bpf_p = re.compile('\s*(BPF\w+)+')
+/work/src/scripts/bpf_doc.py:226: SyntaxWarning: invalid escape sequence '\s'
+  assign_p = re.compile('\s*(BPF\w+)\s*=\s*(BPF\w+)')
+/work/src/scripts/bpf_doc.py:241: SyntaxWarning: invalid escape sequence '\w'
+  self.enum_syscalls = re.findall('(BPF\w+)+', bpf_cmd_str)
+/work/src/scripts/bpf_doc.py:264: SyntaxWarning: invalid escape sequence '\s'
+  p = re.compile('\s*FN\((\w+)\)|\\\\')
+/work/src/scripts/bpf_doc.py:277: SyntaxWarning: invalid escape sequence '\('
+  self.define_unique_helpers = re.findall('FN\(\w+\)', fn_defines_str)
+/work/src/scripts/bpf_doc.py:410: SyntaxWarning: invalid escape sequence '\*'
+  '/{}/,/\*\//:include/uapi/linux/bpf.h'.format(delimiter)]
+/work/src/scripts/bpf_doc.py:481: SyntaxWarning: invalid escape sequence '\ '
+  footer = '''
+/work/src/scripts/bpf_doc.py:583: SyntaxWarning: invalid escape sequence '\ '
+  one_arg += ' {}**\ '.format(a['star'].replace('*', '\\*'))
+  INSTALL /work/vendor-out/tools/bpf/resolve_btfids/libbpf//include/bpf/bpf.h
+  INSTALL /work/vendor-out/tools/bpf/resolve_btfids/libbpf//include/bpf/libbpf.h
+  INSTALL /work/vendor-out/tools/bpf/resolve_btfids/libbpf//include/bpf/btf.h
+  INSTALL /work/vendor-out/tools/bpf/resolve_btfids/libbpf//include/bpf/libbpf_common.h
+  INSTALL /work/vendor-out/tools/bpf/resolve_btfids/libbpf//include/bpf/libbpf_legacy.h
+  INSTALL /work/vendor-out/tools/bpf/resolve_btfids/libbpf//include/bpf/bpf_helpers.h
+  INSTALL /work/vendor-out/tools/bpf/resolve_btfids/libbpf//include/bpf/bpf_tracing.h
+  INSTALL /work/vendor-out/tools/bpf/resolve_btfids/libbpf//include/bpf/bpf_endian.h
+  INSTALL /work/vendor-out/tools/bpf/resolve_btfids/libbpf//include/bpf/bpf_core_read.h
+  INSTALL /work/vendor-out/tools/bpf/resolve_btfids/libbpf//include/bpf/skel_internal.h
+  INSTALL /work/vendor-out/tools/bpf/resolve_btfids/libbpf//include/bpf/libbpf_version.h
+  INSTALL /work/vendor-out/tools/bpf/resolve_btfids/libbpf//include/bpf/usdt.bpf.h
+  INSTALL /work/vendor-out/tools/bpf/resolve_btfids/libbpf//include/bpf/bpf_helper_defs.h
+  MKDIR   /work/vendor-out/tools/bpf/resolve_btfids/libbpf/staticobjs/
+  CC      /work/vendor-out/tools/bpf/resolve_btfids/libbpf/staticobjs/libbpf.o
+  CC      /work/vendor-out/tools/objtool/special.o
+  CC      /work/vendor-out/tools/objtool/builtin-check.o
+  CC      /work/vendor-out/tools/objtool/elf.o
+  CC      /work/vendor-out/tools/objtool/objtool.o
+  CC      /work/vendor-out/tools/objtool/orc_gen.o
+  CC      /work/vendor-out/tools/objtool/orc_dump.o
+  CC      /work/vendor-out/tools/objtool/libstring.o
+  CC      /work/vendor-out/tools/objtool/libctype.o
+  CC      /work/vendor-out/tools/objtool/str_error_r.o
+  CC      /work/vendor-out/tools/objtool/librbtree.o
+  LD      /work/vendor-out/tools/objtool/objtool-in.o
+  LINK    /work/vendor-out/tools/objtool/objtool
+  MKDIR   /work/vendor-out/tools/bpf/resolve_btfids/libbpf/staticobjs/
+  CC      /work/vendor-out/tools/bpf/resolve_btfids/libbpf/staticobjs/bpf.o
+  CC      /work/vendor-out/tools/bpf/resolve_btfids/libbpf/staticobjs/nlattr.o
+  CC      /work/vendor-out/tools/bpf/resolve_btfids/libbpf/staticobjs/btf.o
+  CC      /work/vendor-out/tools/bpf/resolve_btfids/libbpf/staticobjs/libbpf_errno.o
+  CC      /work/vendor-out/tools/bpf/resolve_btfids/libbpf/staticobjs/str_error.o
+  CC      /work/vendor-out/tools/bpf/resolve_btfids/libbpf/staticobjs/netlink.o
+  CC      /work/vendor-out/tools/bpf/resolve_btfids/libbpf/staticobjs/bpf_prog_linfo.o
+  CC      /work/vendor-out/tools/bpf/resolve_btfids/libbpf/staticobjs/libbpf_probes.o
+  CC      /work/vendor-out/tools/bpf/resolve_btfids/libbpf/staticobjs/hashmap.o
+  CC      /work/vendor-out/tools/bpf/resolve_btfids/libbpf/staticobjs/btf_dump.o
+  HDRINST usr/include/asm-generic/int-ll64.h
+  HDRINST usr/include/asm-generic/unistd.h
+  HDRINST usr/include/asm-generic/bpf_perf_event.h
+  HDRINST usr/include/asm-generic/ucontext.h
+  HDRINST usr/include/asm-generic/posix_types.h
+  HDRINST usr/include/asm-generic/ipcbuf.h
+  HDRINST usr/include/asm-generic/termbits-common.h
+  HDRINST usr/include/asm-generic/ioctls.h
+  HDRINST usr/include/asm-generic/mman-common.h
+  HDRINST usr/include/asm-generic/shmbuf.h
+  HDRINST usr/include/asm-generic/swab.h
+  HDRINST usr/include/asm-generic/auxvec.h
+  HDRINST usr/include/asm-generic/statfs.h
+  HDRINST usr/include/asm-generic/types.h
+  HDRINST usr/include/asm-generic/termbits.h
+  HDRINST usr/include/asm-generic/int-l64.h
+  HDRINST usr/include/asm-generic/signal.h
+  HDRINST usr/include/asm-generic/siginfo.h
+  HDRINST usr/include/asm-generic/hugetlb_encode.h
+  HDRINST usr/include/asm-generic/mman.h
+  HDRINST usr/include/asm-generic/param.h
+  HDRINST usr/include/asm-generic/setup.h
+  HDRINST usr/include/asm-generic/bitsperlong.h
+  HDRINST usr/include/asm-generic/errno.h
+  HDRINST usr/include/asm-generic/sockios.h
+  HDRINST usr/include/asm-generic/stat.h
+  HDRINST usr/include/asm-generic/termios.h
+  HDRINST usr/include/asm-generic/poll.h
+  HDRINST usr/include/asm-generic/sembuf.h
+  HDRINST usr/include/asm-generic/signal-defs.h
+  HDRINST usr/include/asm-generic/resource.h
+  HDRINST usr/include/asm-generic/socket.h
+  HDRINST usr/include/asm-generic/ioctl.h
+  HDRINST usr/include/asm-generic/fcntl.h
+  HDRINST usr/include/asm-generic/msgbuf.h
+  HDRINST usr/include/asm-generic/kvm_para.h
+  HDRINST usr/include/asm-generic/errno-base.h
+  HDRINST usr/include/drm/msm_drm.h
+  HDRINST usr/include/drm/v3d_drm.h
+  HDRINST usr/include/drm/armada_drm.h
+  HDRINST usr/include/drm/exynos_drm.h
+  HDRINST usr/include/drm/qxl_drm.h
+  HDRINST usr/include/drm/radeon_drm.h
+  HDRINST usr/include/drm/lima_drm.h
+  HDRINST usr/include/drm/tegra_drm.h
+  HDRINST usr/include/drm/drm_sarea.h
+  HDRINST usr/include/drm/drm.h
+  HDRINST usr/include/drm/vc4_drm.h
+  HDRINST usr/include/drm/i915_drm.h
+  HDRINST usr/include/drm/vgem_drm.h
+  HDRINST usr/include/drm/i810_drm.h
+  CC      /work/vendor-out/tools/bpf/resolve_btfids/libbpf/staticobjs/ringbuf.o
+  HDRINST usr/include/drm/drm_mode.h
+  HDRINST usr/include/drm/omap_drm.h
+  HDRINST usr/include/drm/mga_drm.h
+  HDRINST usr/include/drm/etnaviv_drm.h
+  HDRINST usr/include/drm/r128_drm.h
+  HDRINST usr/include/drm/nouveau_drm.h
+  HDRINST usr/include/drm/drm_fourcc.h
+  HDRINST usr/include/drm/savage_drm.h
+  HDRINST usr/include/drm/panfrost_drm.h
+  HDRINST usr/include/drm/vmwgfx_drm.h
+  HDRINST usr/include/drm/amdgpu_drm.h
+  HDRINST usr/include/drm/virtgpu_drm.h
+  HDRINST usr/include/drm/via_drm.h
+  HDRINST usr/include/drm/sis_drm.h
+  HDRINST usr/include/linux/fscrypt.h
+  HDRINST usr/include/linux/qemu_fw_cfg.h
+  HDRINST usr/include/linux/tipc_netlink.h
+  HDRINST usr/include/linux/nfs_fs.h
+  HDRINST usr/include/linux/msdos_fs.h
+  HDRINST usr/include/linux/unistd.h
+  CC      /work/vendor-out/tools/bpf/resolve_btfids/libbpf/staticobjs/strset.o
+  HDRINST usr/include/linux/mpls_iptunnel.h
+  HDRINST usr/include/linux/virtio_gpu.h
+  HDRINST usr/include/linux/bpf_perf_event.h
+  HDRINST usr/include/linux/v4l2-mediabus.h
+  HDRINST usr/include/linux/seg6_genl.h
+  HDRINST usr/include/linux/hash_info.h
+  HDRINST usr/include/linux/firewire-cdev.h
+  HDRINST usr/include/linux/a.out.h
+  HDRINST usr/include/linux/if_bridge.h
+  HDRINST usr/include/linux/cm4000_cs.h
+  CC      /work/vendor-out/tools/bpf/resolve_btfids/libbpf/staticobjs/linker.o
+  HDRINST usr/include/linux/atmlec.h
+  HDRINST usr/include/linux/mmc/ioctl.h
+  HDRINST usr/include/linux/input.h
+  HDRINST usr/include/linux/fou.h
+  HDRINST usr/include/linux/inotify.h
+  HDRINST usr/include/linux/mempolicy.h
+  HDRINST usr/include/linux/lp.h
+  HDRINST usr/include/linux/loop.h
+  HDRINST usr/include/linux/in_route.h
+  HDRINST usr/include/linux/atm.h
+  HDRINST usr/include/linux/fiemap.h
+  HDRINST usr/include/linux/can.h
+  HDRINST usr/include/linux/dlm_plock.h
+  HDRINST usr/include/linux/netfilter.h
+  HDRINST usr/include/linux/binfmts.h
+  HDRINST usr/include/linux/atmioc.h
+  HDRINST usr/include/linux/ioam6.h
+  HDRINST usr/include/linux/mqueue.h
+  HDRINST usr/include/linux/counter.h
+  HDRINST usr/include/linux/keyctl.h
+  HDRINST usr/include/linux/caif/caif_socket.h
+  HDRINST usr/include/linux/caif/if_caif.h
+  HDRINST usr/include/linux/mount.h
+  HDRINST usr/include/linux/tee.h
+  HDRINST usr/include/linux/android/binder.h
+  HDRINST usr/include/linux/android/binderfs.h
+  HDRINST usr/include/linux/serial_reg.h
+  HDRINST usr/include/linux/nfc.h
+  HDRINST usr/include/linux/uio.h
+  HDRINST usr/include/linux/selinux_netlink.h
+  HDRINST usr/include/linux/byteorder/little_endian.h
+  HDRINST usr/include/linux/byteorder/big_endian.h
+  HDRINST usr/include/linux/elf-em.h
+  HDRINST usr/include/linux/hdreg.h
+  HDRINST usr/include/linux/synclink.h
+  HDRINST usr/include/linux/serial_core.h
+  HDRINST usr/include/linux/virtio_vsock.h
+  HDRINST usr/include/linux/v4l2-controls.h
+  HDRINST usr/include/linux/eventpoll.h
+  HDRINST usr/include/linux/sound.h
+  HDRINST usr/include/linux/genetlink.h
+  HDRINST usr/include/linux/mdio.h
+  HDRINST usr/include/linux/if_pppol2tp.h
+  HDRINST usr/include/linux/v4l2-dv-timings.h
+  HDRINST usr/include/linux/romfs_fs.h
+  HDRINST usr/include/linux/major.h
+  HDRINST usr/include/linux/posix_types.h
+  HDRINST usr/include/linux/wait.h
+  HDRINST usr/include/linux/irqnr.h
+  HDRINST usr/include/linux/netfilter_ipv6/ip6t_srh.h
+  HDRINST usr/include/linux/netfilter_ipv6/ip6t_LOG.h
+  HDRINST usr/include/linux/netfilter_ipv6/ip6t_ah.h
+  HDRINST usr/include/linux/netfilter_ipv6/ip6t_NPT.h
+  HDRINST usr/include/linux/netfilter_ipv6/ip6t_frag.h
+  HDRINST usr/include/linux/netfilter_ipv6/ip6t_HL.h
+  HDRINST usr/include/linux/netfilter_ipv6/ip6t_ipv6header.h
+  HDRINST usr/include/linux/netfilter_ipv6/ip6t_hl.h
+  HDRINST usr/include/linux/netfilter_ipv6/ip6t_rt.h
+  HDRINST usr/include/linux/netfilter_ipv6/ip6t_opts.h
+  HDRINST usr/include/linux/netfilter_ipv6/ip6t_REJECT.h
+  HDRINST usr/include/linux/netfilter_ipv6/ip6t_mh.h
+  HDRINST usr/include/linux/netfilter_ipv6/ip6_tables.h
+  HDRINST usr/include/linux/utsname.h
+  HDRINST usr/include/linux/close_range.h
+  HDRINST usr/include/linux/virtio_input.h
+  HDRINST usr/include/linux/pps.h
+  HDRINST usr/include/linux/seg6_iptunnel.h
+  HDRINST usr/include/linux/virtio_console.h
+  HDRINST usr/include/linux/tc_ematch/tc_em_nbyte.h
+  HDRINST usr/include/linux/tc_ematch/tc_em_ipt.h
+  HDRINST usr/include/linux/tc_ematch/tc_em_text.h
+  HDRINST usr/include/linux/tc_ematch/tc_em_cmp.h
+  HDRINST usr/include/linux/tc_ematch/tc_em_meta.h
+  HDRINST usr/include/linux/bpqether.h
+  HDRINST usr/include/linux/affs_hardblocks.h
+  HDRINST usr/include/linux/nbd-netlink.h
+  HDRINST usr/include/linux/virtio_ring.h
+  HDRINST usr/include/linux/cdrom.h
+  HDRINST usr/include/linux/if_phonet.h
+  HDRINST usr/include/linux/qnx4_fs.h
+  HDRINST usr/include/linux/hidraw.h
+  HDRINST usr/include/linux/suspend_ioctls.h
+  HDRINST usr/include/linux/string.h
+  HDRINST usr/include/linux/aspeed-p2a-ctrl.h
+  HDRINST usr/include/linux/tipc.h
+  HDRINST usr/include/linux/reiserfs_fs.h
+  HDRINST usr/include/linux/nl80211.h
+  CC      /work/vendor-out/tools/bpf/resolve_btfids/libbpf/staticobjs/gen_loader.o
+  HDRINST usr/include/linux/ipc.h
+  HDRINST usr/include/linux/keyboard.h
+  HDRINST usr/include/linux/virtio_net.h
+  HDRINST usr/include/linux/nfsd/stats.h
+  HDRINST usr/include/linux/nfsd/cld.h
+  HDRINST usr/include/linux/nfsd/export.h
+  HDRINST usr/include/linux/nfsd/debug.h
+  HDRINST usr/include/linux/gpio.h
+  HDRINST usr/include/linux/if_ppp.h
+  HDRINST usr/include/linux/tty_flags.h
+  HDRINST usr/include/linux/if_fddi.h
+  HDRINST usr/include/linux/magic.h
+  HDRINST usr/include/linux/x25.h
+  HDRINST usr/include/linux/atmsap.h
+  HDRINST usr/include/linux/nfs_mount.h
+  HDRINST usr/include/linux/if_tunnel.h
+  HDRINST usr/include/linux/vtpm_proxy.h
+  HDRINST usr/include/linux/android_fuse.h
+  HDRINST usr/include/linux/posix_acl.h
+  HDRINST usr/include/linux/icmpv6.h
+  HDRINST usr/include/linux/hdlc/ioctl.h
+  HDRINST usr/include/linux/batadv_packet.h
+  HDRINST usr/include/linux/rpl_iptunnel.h
+  HDRINST usr/include/linux/ultrasound.h
+  HDRINST usr/include/linux/sysinfo.h
+  HDRINST usr/include/linux/bcm933xx_hcs.h
+  HDRINST usr/include/linux/if_alg.h
+  HDRINST usr/include/linux/if_tun.h
+  HDRINST usr/include/linux/v4l2-common.h
+  HDRINST usr/include/linux/omap3isp.h
+  HDRINST usr/include/linux/vboxguest.h
+  HDRINST usr/include/linux/uvcvideo.h
+  HDRINST usr/include/linux/nfs4.h
+  HDRINST usr/include/linux/dqblk_xfs.h
+  HDRINST usr/include/linux/bfs_fs.h
+  HDRINST usr/include/linux/parport.h
+  HDRINST usr/include/linux/toshiba.h
+  HDRINST usr/include/linux/filter.h
+  HDRINST usr/include/linux/atm_eni.h
+  HDRINST usr/include/linux/if_fc.h
+  HDRINST usr/include/linux/futex.h
+  HDRINST usr/include/linux/ivtv.h
+  HDRINST usr/include/linux/ppdev.h
+  HDRINST usr/include/linux/msg.h
+  HDRINST usr/include/linux/scif_ioctl.h
+  HDRINST usr/include/linux/dlm.h
+  HDRINST usr/include/linux/hdlcdrv.h
+  HDRINST usr/include/linux/serio.h
+  HDRINST usr/include/linux/baycom.h
+  HDRINST usr/include/linux/virtio_rng.h
+  HDRINST usr/include/linux/scc.h
+  HDRINST usr/include/linux/kdev_t.h
+  HDRINST usr/include/linux/ppp_defs.h
+  HDRINST usr/include/linux/sonet.h
+  HDRINST usr/include/linux/xilinx-v4l2-controls.h
+  HDRINST usr/include/linux/icmp.h
+  HDRINST usr/include/linux/nfs.h
+  HDRINST usr/include/linux/virtio_pci.h
+  HDRINST usr/include/linux/dm-ioctl.h
+  HDRINST usr/include/linux/phonet.h
+  HDRINST usr/include/linux/nilfs2_api.h
+  HDRINST usr/include/linux/pkt_cls.h
+  HDRINST usr/include/linux/ublk_cmd.h
+  HDRINST usr/include/linux/atmclip.h
+  HDRINST usr/include/linux/devlink.h
+  HDRINST usr/include/linux/ipmi.h
+  HDRINST usr/include/linux/can/vxcan.h
+  HDRINST usr/include/linux/can/raw.h
+  HDRINST usr/include/linux/can/bcm.h
+  HDRINST usr/include/linux/can/error.h
+  HDRINST usr/include/linux/can/gw.h
+  HDRINST usr/include/linux/can/j1939.h
+  HDRINST usr/include/linux/can/netlink.h
+  HDRINST usr/include/linux/can/isotp.h
+  HDRINST usr/include/linux/time.h
+  HDRINST usr/include/linux/vduse.h
+  HDRINST usr/include/linux/connector.h
+  HDRINST usr/include/linux/rds.h
+  HDRINST usr/include/linux/taskstats.h
+  HDRINST usr/include/linux/ipsec.h
+  HDRINST usr/include/linux/udp.h
+  HDRINST usr/include/linux/virtio_scsi.h
+  HDRINST usr/include/linux/const.h
+  HDRINST usr/include/linux/swab.h
+  HDRINST usr/include/linux/mctp.h
+  HDRINST usr/include/linux/raid/md_u.h
+  HDRINST usr/include/linux/raid/md_p.h
+  HDRINST usr/include/linux/acrn.h
+  HDRINST usr/include/linux/sched.h
+  CC      /work/vendor-out/tools/bpf/resolve_btfids/libbpf/staticobjs/relo_core.o
+  HDRINST usr/include/linux/loadpin.h
+  HDRINST usr/include/linux/seccomp.h
+  HDRINST usr/include/linux/i2c.h
+  HDRINST usr/include/linux/dns_resolver.h
+  HDRINST usr/include/linux/virtio_mmio.h
+  HDRINST usr/include/linux/posix_acl_xattr.h
+  HDRINST usr/include/linux/mroute.h
+  HDRINST usr/include/linux/gameport.h
+  HDRINST usr/include/linux/ip6_tunnel.h
+  HDRINST usr/include/linux/erspan.h
+  HDRINST usr/include/linux/vt.h
+  HDRINST usr/include/linux/atmbr2684.h
+  HDRINST usr/include/linux/usbdevice_fs.h
+  HDRINST usr/include/linux/soundcard.h
+  HDRINST usr/include/linux/stm.h
+  HDRINST usr/include/linux/cifs/cifs_mount.h
+  HDRINST usr/include/linux/cifs/cifs_netlink.h
+  HDRINST usr/include/linux/netlink_diag.h
+  HDRINST usr/include/linux/pfrut.h
+  HDRINST usr/include/linux/virtio_pmem.h
+  HDRINST usr/include/linux/incrementalfs.h
+  HDRINST usr/include/linux/firewire-constants.h
+  HDRINST usr/include/linux/sunrpc/debug.h
+  HDRINST usr/include/linux/openat2.h
+  HDRINST usr/include/linux/pidfd.h
+  HDRINST usr/include/linux/mptcp.h
+  HDRINST usr/include/linux/ipv6.h
+  HDRINST usr/include/linux/falloc.h
+  HDRINST usr/include/linux/rose.h
+  HDRINST usr/include/linux/lwtunnel.h
+  HDRINST usr/include/linux/auxvec.h
+  HDRINST usr/include/linux/un.h
+  HDRINST usr/include/linux/batman_adv.h
+  HDRINST usr/include/linux/pktcdvd.h
+  HDRINST usr/include/linux/types.h
+  HDRINST usr/include/linux/um_timetravel.h
+  HDRINST usr/include/linux/netdevice.h
+  HDRINST usr/include/linux/dvb/dmx.h
+  HDRINST usr/include/linux/dvb/frontend.h
+  CC      /work/vendor-out/tools/bpf/resolve_btfids/libbpf/staticobjs/usdt.o
+  HDRINST usr/include/linux/dvb/audio.h
+  HDRINST usr/include/linux/dvb/net.h
+  HDRINST usr/include/linux/dvb/osd.h
+  HDRINST usr/include/linux/dvb/video.h
+  HDRINST usr/include/linux/dvb/version.h
+  HDRINST usr/include/linux/dvb/ca.h
+  HDRINST usr/include/linux/netfilter_bridge.h
+  HDRINST usr/include/linux/kvm.h
+  HDRINST usr/include/linux/chio.h
+  HDRINST usr/include/linux/random.h
+  HDRINST usr/include/linux/dma-heap.h
+  HDRINST usr/include/linux/jffs2.h
+  HDRINST usr/include/linux/ioam6_genl.h
+  HDRINST usr/include/linux/if_pppox.h
+  HDRINST usr/include/linux/ppp-comp.h
+  HDRINST usr/include/linux/patchkey.h
+  HDRINST usr/include/linux/iommu.h
+  HDRINST usr/include/linux/if_addr.h
+  HDRINST usr/include/linux/nvme_ioctl.h
+  HDRINST usr/include/linux/ethtool_netlink.h
+  HDRINST usr/include/linux/cec-funcs.h
+  HDRINST usr/include/linux/if_ltalk.h
+  HDRINST usr/include/linux/fpga-dfl.h
+  HDRINST usr/include/linux/if_plip.h
+  HDRINST usr/include/linux/time_types.h
+  HDRINST usr/include/linux/net_namespace.h
+  HDRINST usr/include/linux/vbox_err.h
+  HDRINST usr/include/linux/pg.h
+  HDRINST usr/include/linux/in6.h
+  HDRINST usr/include/linux/prctl.h
+  HDRINST usr/include/linux/elf-fdpic.h
+  HDRINST usr/include/linux/utime.h
+  HDRINST usr/include/linux/veth.h
+  LD      /work/vendor-out/tools/bpf/resolve_btfids/libbpf/staticobjs/libbpf-in.o
+  HDRINST usr/include/linux/efs_fs_sb.h
+  HDRINST usr/include/linux/atmapi.h
+  HDRINST usr/include/linux/errqueue.h
+  LINK    /work/vendor-out/tools/bpf/resolve_btfids/libbpf/libbpf.a
+  HDRINST usr/include/linux/tcp_metrics.h
+  HDRINST usr/include/linux/virtio_balloon.h
+  HDRINST usr/include/linux/reiserfs_xattr.h
+  HDRINST usr/include/linux/cryptouser.h
+  HDRINST usr/include/linux/meye.h
+  CC      /work/vendor-out/tools/bpf/resolve_btfids/libsubcmd/exec-cmd.o
+  HDRINST usr/include/linux/igmp.h
+  HDRINST usr/include/linux/hdlc.h
+  HDRINST usr/include/linux/fsmap.h
+  HDRINST usr/include/linux/ax25.h
+  HDRINST usr/include/linux/hw_breakpoint.h
+  HDRINST usr/include/linux/nexthop.h
+  HDRINST usr/include/linux/netfilter_ipv4.h
+  HDRINST usr/include/linux/nl80211-vnd-intel.h
+  HDRINST usr/include/linux/cciss_defs.h
+  HDRINST usr/include/linux/signal.h
+  CC      /work/vendor-out/tools/bpf/resolve_btfids/libsubcmd/help.o
+  HDRINST usr/include/linux/pfkeyv2.h
+  HDRINST usr/include/linux/quota.h
+  HDRINST usr/include/linux/rtc.h
+  HDRINST usr/include/linux/route.h
+  HDRINST usr/include/linux/if_arp.h
+  HDRINST usr/include/linux/media-bus-format.h
+  HDRINST usr/include/linux/fsverity.h
+  HDRINST usr/include/linux/gtp.h
+  HDRINST usr/include/linux/acct.h
+  HDRINST usr/include/linux/sem.h
+  HDRINST usr/include/linux/cgroupstats.h
+  HDRINST usr/include/linux/fib_rules.h
+  HDRINST usr/include/linux/netfilter_bridge/ebt_redirect.h
+  HDRINST usr/include/linux/netfilter_bridge/ebt_arpreply.h
+  HDRINST usr/include/linux/netfilter_bridge/ebt_ip6.h
+  HDRINST usr/include/linux/netfilter_bridge/ebt_vlan.h
+  HDRINST usr/include/linux/netfilter_bridge/ebt_802_3.h
+  HDRINST usr/include/linux/netfilter_bridge/ebt_log.h
+  HDRINST usr/include/linux/netfilter_bridge/ebt_mark_m.h
+  CC      /work/vendor-out/tools/bpf/resolve_btfids/libsubcmd/pager.o
+  HDRINST usr/include/linux/netfilter_bridge/ebt_nflog.h
+  HDRINST usr/include/linux/netfilter_bridge/ebt_among.h
+  HDRINST usr/include/linux/netfilter_bridge/ebt_limit.h
+  HDRINST usr/include/linux/netfilter_bridge/ebt_stp.h
+  HDRINST usr/include/linux/netfilter_bridge/ebt_nat.h
+  HDRINST usr/include/linux/netfilter_bridge/ebt_ip.h
+  HDRINST usr/include/linux/netfilter_bridge/ebt_pkttype.h
+  HDRINST usr/include/linux/netfilter_bridge/ebt_mark_t.h
+  CC      /work/vendor-out/tools/bpf/resolve_btfids/libsubcmd/parse-options.o
+  HDRINST usr/include/linux/netfilter_bridge/ebt_arp.h
+  HDRINST usr/include/linux/netfilter_bridge/ebtables.h
+  HDRINST usr/include/linux/if_addrlabel.h
+  HDRINST usr/include/linux/ioam6_iptunnel.h
+  HDRINST usr/include/linux/if_slip.h
+  HDRINST usr/include/linux/shm.h
+  HDRINST usr/include/linux/nitro_enclaves.h
+  HDRINST usr/include/linux/rpmsg_types.h
+  HDRINST usr/include/linux/sync_file.h
+  HDRINST usr/include/linux/if_vlan.h
+  HDRINST usr/include/linux/dcbnl.h
+  HDRINST usr/include/linux/if_arcnet.h
+  HDRINST usr/include/linux/pcitest.h
+  HDRINST usr/include/linux/virtio_blk.h
+  HDRINST usr/include/linux/atmppp.h
+  HDRINST usr/include/linux/netfilter_arp/arpt_mangle.h
+  HDRINST usr/include/linux/netfilter_arp/arp_tables.h
+  HDRINST usr/include/linux/vhost.h
+  HDRINST usr/include/linux/if_ether.h
+  HDRINST usr/include/linux/cxl_mem.h
+  HDRINST usr/include/linux/snmp.h
+  HDRINST usr/include/linux/rfkill.h
+  HDRINST usr/include/linux/hiddev.h
+  HDRINST usr/include/linux/dlm_device.h
+  HDRINST usr/include/linux/ndctl.h
+  HDRINST usr/include/linux/coff.h
+  HDRINST usr/include/linux/rseq.h
+  HDRINST usr/include/linux/xattr.h
+  HDRINST usr/include/linux/gsmmux.h
+  HDRINST usr/include/linux/netfilter/xt_multiport.h
+  HDRINST usr/include/linux/netfilter/xt_DSCP.h
+  HDRINST usr/include/linux/netfilter/nf_conntrack_common.h
+  HDRINST usr/include/linux/netfilter/xt_NFLOG.h
+  HDRINST usr/include/linux/netfilter/xt_physdev.h
+  HDRINST usr/include/linux/netfilter/xt_CONNSECMARK.h
+  HDRINST usr/include/linux/netfilter/xt_helper.h
+  HDRINST usr/include/linux/netfilter/xt_realm.h
+  CC      /work/vendor-out/tools/bpf/resolve_btfids/libsubcmd/run-command.o
+  HDRINST usr/include/linux/netfilter/xt_connmark.h
+  HDRINST usr/include/linux/netfilter/xt_dccp.h
+  HDRINST usr/include/linux/netfilter/nfnetlink_queue.h
+  HDRINST usr/include/linux/netfilter/x_tables.h
+  HDRINST usr/include/linux/netfilter/xt_time.h
+  HDRINST usr/include/linux/netfilter/xt_ipcomp.h
+  HDRINST usr/include/linux/netfilter/xt_osf.h
+  HDRINST usr/include/linux/netfilter/xt_LED.h
+  HDRINST usr/include/linux/netfilter/xt_connlabel.h
+  HDRINST usr/include/linux/netfilter/xt_cpu.h
+  HDRINST usr/include/linux/netfilter/nf_conntrack_tuple_common.h
+  CC      /work/vendor-out/tools/bpf/resolve_btfids/libsubcmd/sigchain.o
+  HDRINST usr/include/linux/netfilter/xt_TCPMSS.h
+  HDRINST usr/include/linux/netfilter/xt_MARK.h
+  HDRINST usr/include/linux/netfilter/xt_AUDIT.h
+  HDRINST usr/include/linux/netfilter/xt_connlimit.h
+  HDRINST usr/include/linux/netfilter/nfnetlink_cthelper.h
+  HDRINST usr/include/linux/netfilter/xt_TEE.h
+  HDRINST usr/include/linux/netfilter/ipset/ip_set_hash.h
+  HDRINST usr/include/linux/netfilter/ipset/ip_set.h
+  HDRINST usr/include/linux/netfilter/ipset/ip_set_list.h
+  CC      /work/vendor-out/tools/bpf/resolve_btfids/libsubcmd/subcmd-config.o
+  HDRINST usr/include/linux/netfilter/ipset/ip_set_bitmap.h
+  HDRINST usr/include/linux/netfilter/xt_tcpmss.h
+  HDRINST usr/include/linux/netfilter/nfnetlink_acct.h
+  LD      /work/vendor-out/tools/bpf/resolve_btfids/libsubcmd/libsubcmd-in.o
+  HDRINST usr/include/linux/netfilter/xt_addrtype.h
+  HDRINST usr/include/linux/netfilter/xt_NFQUEUE.h
+  AR      /work/vendor-out/tools/bpf/resolve_btfids/libsubcmd/libsubcmd.a
+  HDRINST usr/include/linux/netfilter/xt_cgroup.h
+  HDRINST usr/include/linux/netfilter/nf_tables.h
+  CC      /work/vendor-out/tools/bpf/resolve_btfids/main.o
+  HDRINST usr/include/linux/netfilter/xt_limit.h
+  HDRINST usr/include/linux/netfilter/nf_conntrack_tcp.h
+  HDRINST usr/include/linux/netfilter/xt_TPROXY.h
+  HDRINST usr/include/linux/netfilter/xt_set.h
+  HDRINST usr/include/linux/netfilter/xt_LOG.h
+  HDRINST usr/include/linux/netfilter/xt_statistic.h
+  HDRINST usr/include/linux/netfilter/xt_mark.h
+  HDRINST usr/include/linux/netfilter/xt_iprange.h
+  HDRINST usr/include/linux/netfilter/xt_RATEEST.h
+  HDRINST usr/include/linux/netfilter/nf_conntrack_sctp.h
+  HDRINST usr/include/linux/netfilter/xt_policy.h
+  HDRINST usr/include/linux/netfilter/xt_cluster.h
+  HDRINST usr/include/linux/netfilter/xt_IDLETIMER.h
+  HDRINST usr/include/linux/netfilter/nfnetlink_compat.h
+  HDRINST usr/include/linux/netfilter/nfnetlink_conntrack.h
+  HDRINST usr/include/linux/netfilter/xt_CT.h
+  HDRINST usr/include/linux/netfilter/nf_conntrack_ftp.h
+  HDRINST usr/include/linux/netfilter/xt_esp.h
+  HDRINST usr/include/linux/netfilter/xt_owner.h
+  HDRINST usr/include/linux/netfilter/xt_rateest.h
+  HDRINST usr/include/linux/netfilter/xt_mac.h
+  HDRINST usr/include/linux/netfilter/nf_tables_compat.h
+  HDRINST usr/include/linux/netfilter/xt_dscp.h
+  CC      /work/vendor-out/tools/bpf/resolve_btfids/rbtree.o
+  HDRINST usr/include/linux/netfilter/xt_tcpudp.h
+  HDRINST usr/include/linux/netfilter/nf_synproxy.h
+  HDRINST usr/include/linux/netfilter/xt_HMARK.h
+  HDRINST usr/include/linux/netfilter/nfnetlink_osf.h
+  HDRINST usr/include/linux/netfilter/xt_conntrack.h
+  HDRINST usr/include/linux/netfilter/xt_recent.h
+  HDRINST usr/include/linux/netfilter/xt_SECMARK.h
+  HDRINST usr/include/linux/netfilter/xt_hashlimit.h
+  HDRINST usr/include/linux/netfilter/xt_comment.h
+  HDRINST usr/include/linux/netfilter/xt_l2tp.h
+  HDRINST usr/include/linux/netfilter/xt_CONNMARK.h
+  HDRINST usr/include/linux/netfilter/xt_TCPOPTSTRIP.h
+  HDRINST usr/include/linux/netfilter/nfnetlink_log.h
+  HDRINST usr/include/linux/netfilter/xt_CLASSIFY.h
+  HDRINST usr/include/linux/netfilter/xt_socket.h
+  HDRINST usr/include/linux/netfilter/xt_nfacct.h
+  HDRINST usr/include/linux/netfilter/xt_u32.h
+  HDRINST usr/include/linux/netfilter/nfnetlink.h
+  HDRINST usr/include/linux/netfilter/xt_quota.h
+  CC      /work/vendor-out/tools/bpf/resolve_btfids/zalloc.o
+  HDRINST usr/include/linux/netfilter/nf_nat.h
+  HDRINST usr/include/linux/netfilter/xt_CHECKSUM.h
+  HDRINST usr/include/linux/netfilter/xt_connbytes.h
+  HDRINST usr/include/linux/netfilter/xt_bpf.h
+  HDRINST usr/include/linux/netfilter/xt_devgroup.h
+  CC      /work/vendor-out/tools/bpf/resolve_btfids/string.o
+  HDRINST usr/include/linux/netfilter/xt_rpfilter.h
+  HDRINST usr/include/linux/netfilter/xt_SYNPROXY.h
+  HDRINST usr/include/linux/netfilter/xt_pkttype.h
+  HDRINST usr/include/linux/netfilter/xt_length.h
+  HDRINST usr/include/linux/netfilter/xt_ecn.h
+  HDRINST usr/include/linux/netfilter/xt_ipvs.h
+  HDRINST usr/include/linux/netfilter/xt_string.h
+  HDRINST usr/include/linux/netfilter/xt_sctp.h
+  HDRINST usr/include/linux/netfilter/nf_log.h
+  HDRINST usr/include/linux/netfilter/xt_state.h
+  HDRINST usr/include/linux/netfilter/nfnetlink_hook.h
+  CC      /work/vendor-out/tools/bpf/resolve_btfids/ctype.o
+  HDRINST usr/include/linux/netfilter/nfnetlink_cttimeout.h
+  HDRINST usr/include/linux/smc.h
+  HDRINST usr/include/linux/dccp.h
+  CC      /work/vendor-out/tools/bpf/resolve_btfids/str_error_r.o
+  HDRINST usr/include/linux/seg6.h
+  HDRINST usr/include/linux/idxd.h
+  HDRINST usr/include/linux/net.h
+  HDRINST usr/include/linux/aio_abi.h
+  HDRINST usr/include/linux/ip_vs.h
+  LD      /work/vendor-out/tools/bpf/resolve_btfids/resolve_btfids-in.o
+  HDRINST usr/include/linux/max2175.h
+  HDRINST usr/include/linux/sock_diag.h
+  LINK     resolve_btfids
+  HDRINST usr/include/linux/vhost_types.h
+  HDRINST usr/include/linux/reboot.h
+  HDRINST usr/include/linux/virtio_fs.h
+  HDRINST usr/include/linux/seg6_hmac.h
+  HDRINST usr/include/linux/ccs.h
+  HDRINST usr/include/linux/f2fs.h
+  HDRINST usr/include/linux/atmmpc.h
+  HDRINST usr/include/linux/genwqe/genwqe_card.h
+  CC      scripts/mod/empty.o
+  HDRINST usr/include/linux/pci.h
+  HDRINST usr/include/linux/cciss_ioctl.h
+  HDRINST usr/include/linux/cycx_cfm.h
+  HDRINST usr/include/linux/bpf.h
+  HOSTCC  scripts/mod/mk_elfconfig
+  HDRINST usr/include/linux/personality.h
+  HDRINST usr/include/linux/userio.h
+  HDRINST usr/include/linux/udmabuf.h
+  HDRINST usr/include/linux/hpet.h
+  HDRINST usr/include/linux/sched/types.h
+  HDRINST usr/include/linux/tipc_config.h
+  HDRINST usr/include/linux/timex.h
+  HDRINST usr/include/linux/kernelcapi.h
+  HDRINST usr/include/linux/pci_regs.h
+  CC      scripts/mod/devicetable-offsets.s
+  HDRINST usr/include/linux/smc_diag.h
+  HDRINST usr/include/linux/netlink.h
+  HDRINST usr/include/linux/virtio_bt.h
+  HDRINST usr/include/linux/spi/spidev.h
+  HDRINST usr/include/linux/spi/spi.h
+  HDRINST usr/include/linux/virtio_config.h
+  HDRINST usr/include/linux/omapfb.h
+  MKELF   scripts/mod/elfconfig.h
+  HDRINST usr/include/linux/sed-opal.h
+  HOSTCC  scripts/mod/modpost.o
+  HDRINST usr/include/linux/minix_fs.h
+  HDRINST usr/include/linux/nubus.h
+  HDRINST usr/include/linux/ila.h
+  HDRINST usr/include/linux/membarrier.h
+  HDRINST usr/include/linux/cn_proc.h
+  HDRINST usr/include/linux/xdp_diag.h
+  HDRINST usr/include/linux/auto_fs4.h
+  HDRINST usr/include/linux/pr.h
+  HDRINST usr/include/linux/virtio_pcidev.h
+  HDRINST usr/include/linux/uleds.h
+  HDRINST usr/include/linux/mman.h
+  HDRINST usr/include/linux/dlmconstants.h
+  HDRINST usr/include/linux/isst_if.h
+  HDRINST usr/include/linux/psp-sev.h
+  HDRINST usr/include/linux/kcmp.h
+  HDRINST usr/include/linux/iio/events.h
+  HDRINST usr/include/linux/iio/types.h
+  HDRINST usr/include/linux/iio/buffer.h
+  HDRINST usr/include/linux/virtio_crypto.h
+  HDRINST usr/include/linux/aspeed-lpc-ctrl.h
+  HDRINST usr/include/linux/unix_diag.h
+  HDRINST usr/include/linux/param.h
+  HDRINST usr/include/linux/sctp.h
+  HDRINST usr/include/linux/kd.h
+  HDRINST usr/include/linux/auto_fs.h
+  HDRINST usr/include/linux/if_xdp.h
+  HDRINST usr/include/linux/hid.h
+  HDRINST usr/include/linux/arm_sdei.h
+  HDRINST usr/include/linux/gunyah.h
+  HDRINST usr/include/linux/psci.h
+  HDRINST usr/include/linux/cramfs_fs.h
+  HDRINST usr/include/linux/if_link.h
+  HDRINST usr/include/linux/virtio_ids.h
+  HDRINST usr/include/linux/virtio_snd.h
+  HDRINST usr/include/linux/blktrace_api.h
+  HDRINST usr/include/linux/if_team.h
+  HDRINST usr/include/linux/mmtimer.h
+  HDRINST usr/include/linux/serial.h
+  HDRINST usr/include/linux/mii.h
+  HDRINST usr/include/linux/elf.h
+  HDRINST usr/include/linux/i8k.h
+  HDRINST usr/include/linux/tcp.h
+  HDRINST usr/include/linux/memfd.h
+  HDRINST usr/include/linux/virtio_scmi.h
+  HDRINST usr/include/linux/udf_fs_i.h
+  HDRINST usr/include/linux/edd.h
+  HDRINST usr/include/linux/qrtr.h
+  HDRINST usr/include/linux/kernel-page-flags.h
+  HDRINST usr/include/linux/watch_queue.h
+  HDRINST usr/include/linux/net_dropmon.h
+  HDRINST usr/include/linux/vdpa.h
+  HDRINST usr/include/linux/hyperv.h
+  HDRINST usr/include/linux/nilfs2_ondisk.h
+  HDRINST usr/include/linux/dm-user.h
+  HDRINST usr/include/linux/sysctl.h
+  HDRINST usr/include/linux/wireless.h
+  HDRINST usr/include/linux/screen_info.h
+  HDRINST usr/include/linux/virtio_iommu.h
+  HDRINST usr/include/linux/matroxfb.h
+  HDRINST usr/include/linux/if_infiniband.h
+  HDRINST usr/include/linux/io_uring.h
+  HDRINST usr/include/linux/packet_diag.h
+  UPD     scripts/mod/devicetable-offsets.h
+  HDRINST usr/include/linux/nfs4_mount.h
+  HOSTCC  scripts/mod/sumversion.o
+  HDRINST usr/include/linux/ivtvfb.h
+  HDRINST usr/include/linux/coresight-stm.h
+  HDRINST usr/include/linux/blkpg.h
+  HDRINST usr/include/linux/timerfd.h
+  HDRINST usr/include/linux/fsl_mc.h
+  HDRINST usr/include/linux/errno.h
+  HDRINST usr/include/linux/sockios.h
+  HDRINST usr/include/linux/ipv6_route.h
+  HDRINST usr/include/linux/dlm_netlink.h
+  HDRINST usr/include/linux/virtio_gpio.h
+  HDRINST usr/include/linux/btrfs.h
+  HDRINST usr/include/linux/ip.h
+  HDRINST usr/include/linux/ncsi.h
+  HDRINST usr/include/linux/hsr_netlink.h
+  HDRINST usr/include/linux/nfsacl.h
+  HDRINST usr/include/linux/if_macsec.h
+  HDRINST usr/include/linux/ioprio.h
+  HDRINST usr/include/linux/gen_stats.h
+  HDRINST usr/include/linux/net_tstamp.h
+  HDRINST usr/include/linux/vbox_vmmdev_types.h
+  HDRINST usr/include/linux/stat.h
+  HOSTCC  scripts/mod/file2alias.o
+  HDRINST usr/include/linux/thermal.h
+  HDRINST usr/include/linux/tls.h
+  HDRINST usr/include/linux/seg6_local.h
+  HDRINST usr/include/linux/target_core_user.h
+  HDRINST usr/include/linux/virtio_mem.h
+  HDRINST usr/include/linux/securebits.h
+  HDRINST usr/include/linux/adfs_fs.h
+  HDRINST usr/include/linux/userfaultfd.h
+  HDRINST usr/include/linux/atmdev.h
+  HDRINST usr/include/linux/atmsvc.h
+  HDRINST usr/include/linux/fsl_hypervisor.h
+  HDRINST usr/include/linux/tc_act/tc_ctinfo.h
+  HDRINST usr/include/linux/tc_act/tc_vlan.h
+  HDRINST usr/include/linux/tc_act/tc_defact.h
+  HDRINST usr/include/linux/tc_act/tc_skbmod.h
+  HDRINST usr/include/linux/tc_act/tc_tunnel_key.h
+  HDRINST usr/include/linux/tc_act/tc_mirred.h
+  HDRINST usr/include/linux/tc_act/tc_gate.h
+  HDRINST usr/include/linux/tc_act/tc_nat.h
+  HDRINST usr/include/linux/tc_act/tc_mpls.h
+  HDRINST usr/include/linux/tc_act/tc_csum.h
+  HDRINST usr/include/linux/tc_act/tc_bpf.h
+  HDRINST usr/include/linux/tc_act/tc_pedit.h
+  HDRINST usr/include/linux/tc_act/tc_ife.h
+  HDRINST usr/include/linux/tc_act/tc_sample.h
+  HDRINST usr/include/linux/tc_act/tc_ipt.h
+  HDRINST usr/include/linux/tc_act/tc_skbedit.h
+  HDRINST usr/include/linux/tc_act/tc_gact.h
+  HDRINST usr/include/linux/tc_act/tc_ct.h
+  HDRINST usr/include/linux/tc_act/tc_connmark.h
+  HDRINST usr/include/linux/kfd_ioctl.h
+  HDRINST usr/include/linux/if_eql.h
+  HDRINST usr/include/linux/bpfilter.h
+  HDRINST usr/include/linux/libc-compat.h
+  HDRINST usr/include/linux/blkzoned.h
+  HDRINST usr/include/linux/cfm_bridge.h
+  HDRINST usr/include/linux/switchtec_ioctl.h
+  HDRINST usr/include/linux/virtio_9p.h
+  HDRINST usr/include/linux/usbip.h
+  HDRINST usr/include/linux/ptrace.h
+  HDRINST usr/include/linux/ptp_clock.h
+  HDRINST usr/include/linux/if_packet.h
+  HDRINST usr/include/linux/capi.h
+  HDRINST usr/include/linux/capability.h
+  HDRINST usr/include/linux/netfilter_ipv6.h
+  HDRINST usr/include/linux/if_cablemodem.h
+  HOSTLD  scripts/mod/modpost
+  HDRINST usr/include/linux/nfs2.h
+  HDRINST usr/include/linux/lirc.h
+  HDRINST usr/include/linux/smiapp.h
+  HDRINST usr/include/linux/termios.h
+  HDRINST usr/include/linux/rtnetlink.h
+  HDRINST usr/include/linux/inet_diag.h
+  UPD     include/generated/timeconst.h
+  CC      kernel/bounds.s
+  HDRINST usr/include/linux/pkt_sched.h
+  HDRINST usr/include/linux/virtio_i2c.h
+  HDRINST usr/include/linux/i2o-dev.h
+  HDRINST usr/include/linux/isdn/capicmd.h
+  HDRINST usr/include/linux/netfilter_ipv4/ipt_CLUSTERIP.h
+  HDRINST usr/include/linux/netfilter_ipv4/ipt_REJECT.h
+  HDRINST usr/include/linux/netfilter_ipv4/ip_tables.h
+  CHKSHA1 /work/src/include/linux/atomic/atomic-arch-fallback.h
+  HDRINST usr/include/linux/netfilter_ipv4/ipt_ah.h
+  CHKSHA1 /work/src/include/linux/atomic/atomic-instrumented.h
+  CHKSHA1 /work/src/include/linux/atomic/atomic-long.h
+  HDRINST usr/include/linux/netfilter_ipv4/ipt_TTL.h
+  UPD     include/generated/bounds.h
+  HDRINST usr/include/linux/netfilter_ipv4/ipt_ttl.h
+  CC      arch/x86/kernel/asm-offsets.s
+  HDRINST usr/include/linux/netfilter_ipv4/ipt_ecn.h
+  HDRINST usr/include/linux/netfilter_ipv4/ipt_LOG.h
+  HDRINST usr/include/linux/netfilter_ipv4/ipt_ECN.h
+  HDRINST usr/include/linux/atmarp.h
+  HDRINST usr/include/linux/coda.h
+  HDRINST usr/include/linux/surface_aggregator/dtx.h
+  HDRINST usr/include/linux/surface_aggregator/cdev.h
+  HDRINST usr/include/linux/tty.h
+  HDRINST usr/include/linux/poll.h
+  HDRINST usr/include/linux/fd.h
+  HDRINST usr/include/linux/tiocl.h
+  HDRINST usr/include/linux/vfio_zdev.h
+  HDRINST usr/include/linux/iso_fs.h
+  HDRINST usr/include/linux/mpls.h
+  HDRINST usr/include/linux/nvram.h
+  HDRINST usr/include/linux/auto_dev-ioctl.h
+  HDRINST usr/include/linux/nfs3.h
+  HDRINST usr/include/linux/phantom.h
+  HDRINST usr/include/linux/ife.h
+  HDRINST usr/include/linux/watchdog.h
+  HDRINST usr/include/linux/stddef.h
+  HDRINST usr/include/linux/usb/audio.h
+  HDRINST usr/include/linux/usb/tmc.h
+  HDRINST usr/include/linux/usb/functionfs.h
+  HDRINST usr/include/linux/usb/cdc-wdm.h
+  HDRINST usr/include/linux/usb/gadgetfs.h
+  HDRINST usr/include/linux/usb/g_printer.h
+  HDRINST usr/include/linux/usb/ch11.h
+  HDRINST usr/include/linux/usb/charger.h
+  HDRINST usr/include/linux/usb/video.h
+  HDRINST usr/include/linux/usb/g_uvc.h
+  HDRINST usr/include/linux/usb/f_accessory.h
+  HDRINST usr/include/linux/usb/midi.h
+  HDRINST usr/include/linux/usb/cdc.h
+  HDRINST usr/include/linux/usb/ch9.h
+  HDRINST usr/include/linux/usb/raw_gadget.h
+  HDRINST usr/include/linux/if.h
+  HDRINST usr/include/linux/agpgart.h
+  HDRINST usr/include/linux/kcm.h
+  HDRINST usr/include/linux/map_to_14segment.h
+  HDRINST usr/include/linux/apm_bios.h
+  HDRINST usr/include/linux/joystick.h
+  HDRINST usr/include/linux/vm_sockets_diag.h
+  HDRINST usr/include/linux/qnxtypes.h
+  HDRINST usr/include/linux/netrom.h
+  HDRINST usr/include/linux/atm_idt77105.h
+  HDRINST usr/include/linux/atm_zatm.h
+  HDRINST usr/include/linux/fadvise.h
+  HDRINST usr/include/linux/nfs_idmap.h
+  HDRINST usr/include/linux/cyclades.h
+  HDRINST usr/include/linux/landlock.h
+  HDRINST usr/include/linux/nsfs.h
+  HDRINST usr/include/linux/oom.h
+  HDRINST usr/include/linux/psample.h
+  HDRINST usr/include/linux/uhid.h
+  HDRINST usr/include/linux/am437x-vpfe.h
+  HDRINST usr/include/linux/bsg.h
+  HDRINST usr/include/linux/gfs2_ondisk.h
+  HDRINST usr/include/linux/l2tp.h
+  HDRINST usr/include/linux/fb.h
+  HDRINST usr/include/linux/wwan.h
+  HDRINST usr/include/linux/if_bonding.h
+  HDRINST usr/include/linux/mroute6.h
+  HDRINST usr/include/linux/kfd_sysfs.h
+  HDRINST usr/include/linux/vm_sockets.h
+  HDRINST usr/include/linux/resource.h
+  HDRINST usr/include/linux/perf_event.h
+  HDRINST usr/include/linux/fuse.h
+  HDRINST usr/include/linux/rio_mport_cdev.h
+  HDRINST usr/include/linux/btrfs_tree.h
+  HDRINST usr/include/linux/llc.h
+  HDRINST usr/include/linux/audit.h
+  UPD     include/generated/asm-offsets.h
+  CALL    /work/src/scripts/checksyscalls.sh
+  HDRINST usr/include/linux/wmi.h
+  HDRINST usr/include/linux/socket.h
+  HDRINST usr/include/linux/rpl.h
+  HDRINST usr/include/linux/atm_he.h
+  HDRINST usr/include/linux/btf.h
+  HDRINST usr/include/linux/vmcore.h
+  HDRINST usr/include/linux/arcfb.h
+  HDRINST usr/include/linux/wireguard.h
+  HDRINST usr/include/linux/ipmi_msgdefs.h
+  HDRINST usr/include/linux/dma-buf.h
+  HDRINST usr/include/linux/limits.h
+  HDRINST usr/include/linux/times.h
+  HDRINST usr/include/linux/uuid.h
+  HDRINST usr/include/linux/fsi.h
+  HDRINST usr/include/linux/sev-guest.h
+  HDRINST usr/include/linux/neighbour.h
+  HDRINST usr/include/linux/dw100.h
+  HDRINST usr/include/linux/sonypi.h
+  HDRINST usr/include/linux/if_hippi.h
+  HDRINST usr/include/linux/kcov.h
+  HDRINST usr/include/linux/remoteproc_cdev.h
+  HDRINST usr/include/linux/mtio.h
+  HDRINST usr/include/linux/kernel.h
+  HDRINST usr/include/linux/comedi.h
+  HDRINST usr/include/linux/ppp-ioctl.h
+  HDRINST usr/include/linux/media.h
+  HDRINST usr/include/linux/atalk.h
+  HDRINST usr/include/linux/mrp_bridge.h
+  HDRINST usr/include/linux/cuda.h
+  HDRINST usr/include/linux/ioctl.h
+  HDRINST usr/include/linux/dm-log-userspace.h
+  HDRINST usr/include/linux/fcntl.h
+  HDRINST usr/include/linux/cachefiles.h
+  HDRINST usr/include/linux/tipc_sockets_diag.h
+  HDRINST usr/include/linux/map_to_7segment.h
+  HDRINST usr/include/linux/netfilter_arp.h
+  HDRINST usr/include/linux/kexec.h
+  HDRINST usr/include/linux/rpmsg.h
+  HDRINST usr/include/linux/openvswitch.h
+  HDRINST usr/include/linux/fdreg.h
+  HDRINST usr/include/linux/fanotify.h
+  HDRINST usr/include/linux/if_x25.h
+  HDRINST usr/include/linux/atm_nicstar.h
+  HDRINST usr/include/linux/cec.h
+  HDRINST usr/include/linux/rxrpc.h
+  HDRINST usr/include/linux/module.h
+  HDRINST usr/include/linux/in.h
+  HDRINST usr/include/linux/vsockmon.h
+  HDRINST usr/include/linux/uinput.h
+  HDRINST usr/include/linux/v4l2-subdev.h
+  HDRINST usr/include/linux/atm_tcp.h
+  HDRINST usr/include/linux/fs.h
+  HDRINST usr/include/linux/ethtool.h
+  HDRINST usr/include/linux/rio_cm_cdev.h
+  HDRINST usr/include/linux/signalfd.h
+  HDRINST usr/include/linux/rkisp1-config.h
+  HDRINST usr/include/linux/adb.h
+  HDRINST usr/include/linux/kvm_para.h
+  HDRINST usr/include/linux/zorro.h
+  HDRINST usr/include/linux/hsi/hsi_char.h
+  HDRINST usr/include/linux/hsi/cs-protocol.h
+  HDRINST usr/include/linux/misc/bcm_vk.h
+  HDRINST usr/include/linux/nbd.h
+  HDRINST usr/include/linux/videodev2.h
+  HDRINST usr/include/linux/radeonfb.h
+  HDRINST usr/include/linux/i2c-dev.h
+  HDRINST usr/include/linux/bpf_common.h
+  HDRINST usr/include/linux/xfrm.h
+  HDRINST usr/include/linux/pmu.h
+  HDRINST usr/include/linux/vfio.h
+  HDRINST usr/include/linux/virtio_types.h
+  HDRINST usr/include/linux/mei.h
+  HDRINST usr/include/linux/bt-bmc.h
+  HDRINST usr/include/linux/zorro_ids.h
+  HDRINST usr/include/linux/ipmi_bmc.h
+  HDRINST usr/include/linux/input-event-codes.h
+  HDRINST usr/include/linux/vfio_ccw.h
+  HDRINST usr/include/linux/netconf.h
+  HDRINST usr/include/linux/amt.h
+  HDRINST usr/include/misc/xilinx_sdfec.h
+  HDRINST usr/include/misc/habanalabs.h
+  HDRINST usr/include/misc/pvpanic.h
+  HDRINST usr/include/misc/uacce/hisi_qm.h
+  HDRINST usr/include/misc/uacce/uacce.h
+  HDRINST usr/include/misc/cxl.h
+  HDRINST usr/include/misc/ocxl.h
+  HDRINST usr/include/misc/fastrpc.h
+  HDRINST usr/include/mtd/ubi-user.h
+  HDRINST usr/include/mtd/inftl-user.h
+  HDRINST usr/include/mtd/mtd-abi.h
+  HDRINST usr/include/mtd/nftl-user.h
+  HDRINST usr/include/mtd/mtd-user.h
+  HDRINST usr/include/rdma/rdma_user_ioctl.h
+  HDRINST usr/include/rdma/erdma-abi.h
+  HDRINST usr/include/rdma/hns-abi.h
+  HDRINST usr/include/rdma/qedr-abi.h
+  HDRINST usr/include/rdma/ib_user_verbs.h
+  HDRINST usr/include/rdma/rdma_netlink.h
+  HDRINST usr/include/rdma/bnxt_re-abi.h
+  HDRINST usr/include/rdma/siw-abi.h
+  HDRINST usr/include/rdma/rvt-abi.h
+  HDRINST usr/include/rdma/mlx5-abi.h
+  HDRINST usr/include/rdma/mlx5_user_ioctl_cmds.h
+  HDRINST usr/include/rdma/ib_user_sa.h
+  HDRINST usr/include/rdma/rdma_user_ioctl_cmds.h
+  HDRINST usr/include/rdma/mlx4-abi.h
+  HDRINST usr/include/rdma/rdma_user_rxe.h
+  HDRINST usr/include/rdma/ib_user_mad.h
+  HDRINST usr/include/rdma/irdma-abi.h
+  HDRINST usr/include/rdma/ib_user_ioctl_verbs.h
+  HDRINST usr/include/rdma/mlx5_user_ioctl_verbs.h
+  HDRINST usr/include/rdma/mthca-abi.h
+  HDRINST usr/include/rdma/ib_user_ioctl_cmds.h
+  HDRINST usr/include/rdma/ocrdma-abi.h
+  HDRINST usr/include/rdma/hfi/hfi1_user.h
+  HDRINST usr/include/rdma/hfi/hfi1_ioctl.h
+  HDRINST usr/include/rdma/efa-abi.h
+  HDRINST usr/include/rdma/cxgb4-abi.h
+  HDRINST usr/include/rdma/rdma_user_cm.h
+  HDRINST usr/include/rdma/vmw_pvrdma-abi.h
+  HDRINST usr/include/scsi/cxlflash_ioctl.h
+  HDRINST usr/include/scsi/scsi_bsg_fc.h
+  HDRINST usr/include/scsi/fc/fc_gs.h
+  HDRINST usr/include/scsi/fc/fc_els.h
+  HDRINST usr/include/scsi/fc/fc_fs.h
+  HDRINST usr/include/scsi/fc/fc_ns.h
+  HDRINST usr/include/scsi/scsi_netlink_fc.h
+  HDRINST usr/include/scsi/scsi_bsg_mpi3mr.h
+  HDRINST usr/include/scsi/scsi_bsg_ufs.h
+  HDRINST usr/include/scsi/scsi_netlink.h
+  HDRINST usr/include/sound/tlv.h
+  HDRINST usr/include/sound/skl-tplg-interface.h
+  HDRINST usr/include/sound/asound.h
+  HDRINST usr/include/sound/snd_sst_tokens.h
+  HDRINST usr/include/sound/sof/abi.h
+  HDRINST usr/include/sound/sof/fw.h
+  HDRINST usr/include/sound/sof/header.h
+  HDRINST usr/include/sound/sof/tokens.h
+  HDRINST usr/include/sound/intel/avs/tokens.h
+  HDRINST usr/include/sound/compress_offload.h
+  HDRINST usr/include/sound/asequencer.h
+  HDRINST usr/include/sound/asoc.h
+  HDRINST usr/include/sound/usb_stream.h
+  HDRINST usr/include/sound/snd_ar_tokens.h
+  HDRINST usr/include/sound/firewire.h
+  HDRINST usr/include/sound/asound_fm.h
+  HDRINST usr/include/sound/sb16_csp.h
+  HDRINST usr/include/sound/compress_params.h
+  HDRINST usr/include/sound/emu10k1.h
+  HDRINST usr/include/sound/hdsp.h
+  HDRINST usr/include/sound/sfnt_info.h
+  HDRINST usr/include/sound/hdspm.h
+  HDRINST usr/include/video/uvesafb.h
+  HDRINST usr/include/video/sisfb.h
+  HDRINST usr/include/video/edid.h
+  HDRINST usr/include/xen/gntalloc.h
+  HDRINST usr/include/xen/gntdev.h
+  HDRINST usr/include/xen/privcmd.h
+  HDRINST usr/include/xen/evtchn.h
+  HDRINST usr/include/linux/version.h
+  HDRINST usr/include/asm/unistd.h
+  HDRINST usr/include/asm/a.out.h
+  HDRINST usr/include/asm/ucontext.h
+  HDRINST usr/include/asm/posix_types.h
+  HDRINST usr/include/asm/processor-flags.h
+  HDRINST usr/include/asm/byteorder.h
+  HDRINST usr/include/asm/shmbuf.h
+  HDRINST usr/include/asm/ist.h
+  HDRINST usr/include/asm/boot.h
+  HDRINST usr/include/asm/swab.h
+  HDRINST usr/include/asm/ptrace-abi.h
+  HDRINST usr/include/asm/auxvec.h
+  HDRINST usr/include/asm/statfs.h
+  HDRINST usr/include/asm/kvm.h
+  HDRINST usr/include/asm/bootparam.h
+  HDRINST usr/include/asm/prctl.h
+  HDRINST usr/include/asm/hw_breakpoint.h
+  HDRINST usr/include/asm/signal.h
+  HDRINST usr/include/asm/vm86.h
+  HDRINST usr/include/asm/perf_regs.h
+  HDRINST usr/include/asm/posix_types_64.h
+  HDRINST usr/include/asm/sigcontext32.h
+  HDRINST usr/include/asm/mtrr.h
+  HDRINST usr/include/asm/hwcap2.h
+  HDRINST usr/include/asm/msr.h
+  HDRINST usr/include/asm/siginfo.h
+  HDRINST usr/include/asm/mman.h
+  HDRINST usr/include/asm/setup.h
+  HDRINST usr/include/asm/ldt.h
+  HDRINST usr/include/asm/bitsperlong.h
+  HDRINST usr/include/asm/vsyscall.h
+  HDRINST usr/include/asm/amd_hsmp.h
+  HDRINST usr/include/asm/posix_types_32.h
+  HDRINST usr/include/asm/posix_types_x32.h
+  HDRINST usr/include/asm/stat.h
+  HDRINST usr/include/asm/ptrace.h
+  HDRINST usr/include/asm/sgx.h
+  HDRINST usr/include/asm/sembuf.h
+  HDRINST usr/include/asm/kvm_perf.h
+  HDRINST usr/include/asm/sigcontext.h
+  HDRINST usr/include/asm/svm.h
+  HDRINST usr/include/asm/vmx.h
+  HDRINST usr/include/asm/msgbuf.h
+  HDRINST usr/include/asm/debugreg.h
+  HDRINST usr/include/asm/mce.h
+  HDRINST usr/include/asm/kvm_para.h
+  HDRINST usr/include/asm/e820.h
+  HDRINST usr/include/asm/bpf_perf_event.h
+  HDRINST usr/include/asm/unistd_64.h
+  HDRINST usr/include/asm/ipcbuf.h
+  HDRINST usr/include/asm/ioctls.h
+  HDRINST usr/include/asm/types.h
+  HDRINST usr/include/asm/termbits.h
+  HDRINST usr/include/asm/unistd_32.h
+  HDRINST usr/include/asm/param.h
+  HDRINST usr/include/asm/errno.h
+  HDRINST usr/include/asm/sockios.h
+  HDRINST usr/include/asm/termios.h
+  HDRINST usr/include/asm/poll.h
+  HDRINST usr/include/asm/resource.h
+  HDRINST usr/include/asm/socket.h
+  HDRINST usr/include/asm/ioctl.h
+  HDRINST usr/include/asm/fcntl.h
+  HDRINST usr/include/asm/unistd_x32.h
+  LDS     scripts/module.lds
+  HDRTEST usr/include/asm-generic/int-ll64.h
+  HDRTEST usr/include/asm-generic/unistd.h
+  HDRTEST usr/include/asm-generic/bpf_perf_event.h
+  HDRTEST usr/include/asm-generic/ucontext.h
+  LDS     arch/x86/kernel/vmlinux.lds
+  HDRTEST usr/include/asm-generic/posix_types.h
+  HDRTEST usr/include/asm-generic/ipcbuf.h
+  HDRTEST usr/include/asm-generic/termbits-common.h
+  HDRTEST usr/include/asm-generic/ioctls.h
+  HDRTEST usr/include/asm-generic/mman-common.h
+  HDRTEST usr/include/asm-generic/shmbuf.h
+  HDRTEST usr/include/asm-generic/swab.h
+  HDRTEST usr/include/asm-generic/auxvec.h
+  HDRTEST usr/include/asm-generic/statfs.h
+  HDRTEST usr/include/asm-generic/types.h
+  HDRTEST usr/include/asm-generic/termbits.h
+  HDRTEST usr/include/asm-generic/int-l64.h
+  CC [M]  mm/zsmalloc.o
+  HDRTEST usr/include/asm-generic/signal.h
+  HDRTEST usr/include/asm-generic/siginfo.h
+  HDRTEST usr/include/asm-generic/hugetlb_encode.h
+  HDRTEST usr/include/asm-generic/mman.h
+  HDRTEST usr/include/asm-generic/param.h
+  HDRTEST usr/include/asm-generic/setup.h
+  HDRTEST usr/include/asm-generic/bitsperlong.h
+  HDRTEST usr/include/asm-generic/errno.h
+  HDRTEST usr/include/asm-generic/sockios.h
+  HDRTEST usr/include/asm-generic/stat.h
+  HDRTEST usr/include/asm-generic/termios.h
+  HDRTEST usr/include/asm-generic/poll.h
+  HDRTEST usr/include/asm-generic/sembuf.h
+  HDRTEST usr/include/asm-generic/signal-defs.h
+  HDRTEST usr/include/asm-generic/resource.h
+  HDRTEST usr/include/asm-generic/socket.h
+  HDRTEST usr/include/asm-generic/ioctl.h
+  HDRTEST usr/include/asm-generic/fcntl.h
+  HDRTEST usr/include/asm-generic/msgbuf.h
+  HDRTEST usr/include/asm-generic/kvm_para.h
+  HDRTEST usr/include/asm-generic/errno-base.h
+  HDRTEST usr/include/video/uvesafb.h
+  HDRTEST usr/include/video/sisfb.h
+  HDRTEST usr/include/video/edid.h
+  HDRTEST usr/include/drm/msm_drm.h
+  HDRTEST usr/include/drm/v3d_drm.h
+  HDRTEST usr/include/drm/armada_drm.h
+  HDRTEST usr/include/drm/exynos_drm.h
+  HDRTEST usr/include/drm/qxl_drm.h
+  HDRTEST usr/include/drm/radeon_drm.h
+  HDRTEST usr/include/drm/lima_drm.h
+  HDRTEST usr/include/drm/tegra_drm.h
+  HDRTEST usr/include/drm/drm_sarea.h
+  HDRTEST usr/include/drm/drm.h
+  HDRTEST usr/include/drm/vc4_drm.h
+  HDRTEST usr/include/drm/i915_drm.h
+  HDRTEST usr/include/drm/vgem_drm.h
+  HDRTEST usr/include/drm/i810_drm.h
+  HDRTEST usr/include/drm/drm_mode.h
+  HDRTEST usr/include/drm/omap_drm.h
+  HDRTEST usr/include/drm/mga_drm.h
+  HDRTEST usr/include/drm/etnaviv_drm.h
+  HDRTEST usr/include/drm/r128_drm.h
+  HDRTEST usr/include/drm/nouveau_drm.h
+  HDRTEST usr/include/drm/drm_fourcc.h
+  HDRTEST usr/include/drm/savage_drm.h
+  HDRTEST usr/include/drm/panfrost_drm.h
+  HDRTEST usr/include/drm/vmwgfx_drm.h
+  HDRTEST usr/include/drm/amdgpu_drm.h
+  HDRTEST usr/include/drm/virtgpu_drm.h
+  HDRTEST usr/include/drm/via_drm.h
+  HDRTEST usr/include/drm/sis_drm.h
+  HDRTEST usr/include/xen/gntalloc.h
+  CC [M]  lib/crypto/arc4.o
+  HDRTEST usr/include/xen/gntdev.h
+  HDRTEST usr/include/xen/privcmd.h
+  HDRTEST usr/include/xen/evtchn.h
+  HDRTEST usr/include/sound/tlv.h
+  HDRTEST usr/include/sound/skl-tplg-interface.h
+  HDRTEST usr/include/sound/asound.h
+  HDRTEST usr/include/sound/snd_sst_tokens.h
+  HDRTEST usr/include/sound/sof/abi.h
+  HDRTEST usr/include/sound/sof/fw.h
+  HDRTEST usr/include/sound/sof/header.h
+  HDRTEST usr/include/sound/sof/tokens.h
+  HDRTEST usr/include/sound/intel/avs/tokens.h
+  HDRTEST usr/include/sound/compress_offload.h
+  HDRTEST usr/include/sound/asequencer.h
+  HDRTEST usr/include/sound/asoc.h
+  HDRTEST usr/include/sound/usb_stream.h
+  HDRTEST usr/include/sound/snd_ar_tokens.h
+  LD [M]  lib/crypto/libarc4.o
+  HDRTEST usr/include/sound/firewire.h
+  HDRTEST usr/include/sound/asound_fm.h
+  CC      lib/argv_split.o
+  HDRTEST usr/include/sound/sb16_csp.h
+  HDRTEST usr/include/sound/compress_params.h
+  HDRTEST usr/include/sound/emu10k1.h
+  HDRTEST usr/include/sound/hdsp.h
+  HDRTEST usr/include/sound/sfnt_info.h
+  HDRTEST usr/include/sound/hdspm.h
+  HDRTEST usr/include/asm/unistd.h
+  HDRTEST usr/include/asm/bpf_perf_event.h
+  HDRTEST usr/include/asm/a.out.h
+  HDRTEST usr/include/asm/ucontext.h
+  HDRTEST usr/include/asm/posix_types.h
+  HDRTEST usr/include/asm/unistd_64.h
+  HDRTEST usr/include/asm/processor-flags.h
+  HDRTEST usr/include/asm/ipcbuf.h
+  CC      lib/bug.o
+  HDRTEST usr/include/asm/byteorder.h
+  HDRTEST usr/include/asm/ioctls.h
+  HDRTEST usr/include/asm/shmbuf.h
+  HDRTEST usr/include/asm/ist.h
+  HDRTEST usr/include/asm/boot.h
+  HDRTEST usr/include/asm/swab.h
+  HDRTEST usr/include/asm/ptrace-abi.h
+  HDRTEST usr/include/asm/auxvec.h
+  HDRTEST usr/include/asm/statfs.h
+  HDRTEST usr/include/asm/types.h
+  HDRTEST usr/include/asm/kvm.h
+  HDRTEST usr/include/asm/termbits.h
+  HDRTEST usr/include/asm/unistd_32.h
+  HDRTEST usr/include/asm/bootparam.h
+  HDRTEST usr/include/asm/prctl.h
+  HDRTEST usr/include/asm/hw_breakpoint.h
+  HDRTEST usr/include/asm/signal.h
+  HDRTEST usr/include/asm/vm86.h
+  HDRTEST usr/include/asm/perf_regs.h
+  HDRTEST usr/include/asm/posix_types_64.h
+  HDRTEST usr/include/asm/sigcontext32.h
+  CC      lib/buildid.o
+  HDRTEST usr/include/asm/mtrr.h
+  HDRTEST usr/include/asm/hwcap2.h
+  HDRTEST usr/include/asm/msr.h
+  HDRTEST usr/include/asm/siginfo.h
+  HDRTEST usr/include/asm/mman.h
+  HDRTEST usr/include/asm/param.h
+  HDRTEST usr/include/asm/setup.h
+  HDRTEST usr/include/asm/ldt.h
+  HDRTEST usr/include/asm/bitsperlong.h
+  HDRTEST usr/include/asm/vsyscall.h
+  HDRTEST usr/include/asm/amd_hsmp.h
+  HDRTEST usr/include/asm/posix_types_32.h
+  HDRTEST usr/include/asm/errno.h
+  HDRTEST usr/include/asm/sockios.h
+  HDRTEST usr/include/asm/posix_types_x32.h
+  HDRTEST usr/include/asm/stat.h
+  HDRTEST usr/include/asm/ptrace.h
+  HDRTEST usr/include/asm/sgx.h
+  HDRTEST usr/include/asm/termios.h
+  CC      lib/clz_tab.o
+  HDRTEST usr/include/asm/poll.h
+  HDRTEST usr/include/asm/sembuf.h
+  CC      lib/cmdline.o
+  HDRTEST usr/include/asm/kvm_perf.h
+  HDRTEST usr/include/asm/sigcontext.h
+  HDRTEST usr/include/asm/svm.h
+  HDRTEST usr/include/asm/resource.h
+  HDRTEST usr/include/asm/vmx.h
+  HDRTEST usr/include/asm/socket.h
+  CC      lib/cpumask.o
+  HDRTEST usr/include/asm/ioctl.h
+  HDRTEST usr/include/asm/fcntl.h
+  HDRTEST usr/include/asm/msgbuf.h
+  HDRTEST usr/include/asm/debugreg.h
+  HDRTEST usr/include/asm/unistd_x32.h
+  HDRTEST usr/include/asm/mce.h
+  HDRTEST usr/include/asm/kvm_para.h
+  HDRTEST usr/include/asm/e820.h
+  HDRTEST usr/include/scsi/cxlflash_ioctl.h
+  HDRTEST usr/include/scsi/scsi_bsg_fc.h
+  HDRTEST usr/include/scsi/fc/fc_gs.h
+  HDRTEST usr/include/scsi/fc/fc_els.h
+  HDRTEST usr/include/scsi/fc/fc_fs.h
+  HDRTEST usr/include/scsi/fc/fc_ns.h
+  HDRTEST usr/include/scsi/scsi_netlink_fc.h
+  HDRTEST usr/include/scsi/scsi_bsg_mpi3mr.h
+  HDRTEST usr/include/scsi/scsi_bsg_ufs.h
+  HDRTEST usr/include/scsi/scsi_netlink.h
+  HDRTEST usr/include/mtd/ubi-user.h
+  HDRTEST usr/include/mtd/inftl-user.h
+  HDRTEST usr/include/mtd/mtd-abi.h
+  HDRTEST usr/include/mtd/nftl-user.h
+  HDRTEST usr/include/mtd/mtd-user.h
+  HDRTEST usr/include/rdma/rdma_user_ioctl.h
+  HDRTEST usr/include/rdma/erdma-abi.h
+  CC      lib/ctype.o
+  HDRTEST usr/include/rdma/hns-abi.h
+  HDRTEST usr/include/rdma/qedr-abi.h
+  CC      lib/dec_and_lock.o
+  HDRTEST usr/include/rdma/ib_user_verbs.h
+  HDRTEST usr/include/rdma/rdma_netlink.h
+  HDRTEST usr/include/rdma/bnxt_re-abi.h
+  HDRTEST usr/include/rdma/siw-abi.h
+  HDRTEST usr/include/rdma/rvt-abi.h
+  HDRTEST usr/include/rdma/mlx5-abi.h
+  HDRTEST usr/include/rdma/mlx5_user_ioctl_cmds.h
+  HDRTEST usr/include/rdma/ib_user_sa.h
+  HDRTEST usr/include/rdma/rdma_user_ioctl_cmds.h
+  CC      lib/decompress.o
+  HDRTEST usr/include/rdma/mlx4-abi.h
+  HDRTEST usr/include/rdma/rdma_user_rxe.h
+  HDRTEST usr/include/rdma/ib_user_mad.h
+  CC      lib/decompress_inflate.o
+  HDRTEST usr/include/rdma/irdma-abi.h
+  HDRTEST usr/include/rdma/ib_user_ioctl_verbs.h
+  HDRTEST usr/include/rdma/mlx5_user_ioctl_verbs.h
+  HDRTEST usr/include/rdma/mthca-abi.h
+  HDRTEST usr/include/rdma/ib_user_ioctl_cmds.h
+  HDRTEST usr/include/rdma/ocrdma-abi.h
+  HDRTEST usr/include/rdma/hfi/hfi1_user.h
+  HDRTEST usr/include/rdma/hfi/hfi1_ioctl.h
+  HDRTEST usr/include/rdma/efa-abi.h
+  HDRTEST usr/include/rdma/cxgb4-abi.h
+  HDRTEST usr/include/rdma/rdma_user_cm.h
+  HDRTEST usr/include/rdma/vmw_pvrdma-abi.h
+  HDRTEST usr/include/linux/fscrypt.h
+  HDRTEST usr/include/linux/qemu_fw_cfg.h
+  CC      lib/decompress_unlz4.o
+  HDRTEST usr/include/linux/tipc_netlink.h
+  HDRTEST usr/include/linux/nfs_fs.h
+  HDRTEST usr/include/linux/msdos_fs.h
+  HDRTEST usr/include/linux/unistd.h
+  HDRTEST usr/include/linux/mpls_iptunnel.h
+  HDRTEST usr/include/linux/virtio_gpu.h
+  HDRTEST usr/include/linux/bpf_perf_event.h
+  HDRTEST usr/include/linux/v4l2-mediabus.h
+  HDRTEST usr/include/linux/seg6_genl.h
+  HDRTEST usr/include/linux/hash_info.h
+  HDRTEST usr/include/linux/firewire-cdev.h
+  HDRTEST usr/include/linux/a.out.h
+  HDRTEST usr/include/linux/if_bridge.h
+  HDRTEST usr/include/linux/cm4000_cs.h
+  HDRTEST usr/include/linux/atmlec.h
+  CC      lib/decompress_unzstd.o
+  HDRTEST usr/include/linux/mmc/ioctl.h
+  HDRTEST usr/include/linux/input.h
+  HDRTEST usr/include/linux/fou.h
+  HDRTEST usr/include/linux/inotify.h
+  HDRTEST usr/include/linux/mempolicy.h
+  HDRTEST usr/include/linux/lp.h
+  HDRTEST usr/include/linux/loop.h
+  HDRTEST usr/include/linux/in_route.h
+  HDRTEST usr/include/linux/atm.h
+  HDRTEST usr/include/linux/fiemap.h
+  HDRTEST usr/include/linux/can.h
+  HDRTEST usr/include/linux/dlm_plock.h
+  HDRTEST usr/include/linux/netfilter.h
+  HDRTEST usr/include/linux/binfmts.h
+  CC      lib/dump_stack.o
+  HDRTEST usr/include/linux/atmioc.h
+  HDRTEST usr/include/linux/ioam6.h
+  HDRTEST usr/include/linux/mqueue.h
+  HDRTEST usr/include/linux/counter.h
+  HDRTEST usr/include/linux/keyctl.h
+  HDRTEST usr/include/linux/caif/caif_socket.h
+  HDRTEST usr/include/linux/caif/if_caif.h
+  HDRTEST usr/include/linux/mount.h
+  HDRTEST usr/include/linux/tee.h
+  HDRTEST usr/include/linux/android/binder.h
+  HDRTEST usr/include/linux/android/binderfs.h
+  HDRTEST usr/include/linux/serial_reg.h
+  HDRTEST usr/include/linux/nfc.h
+  HDRTEST usr/include/linux/uio.h
+  HDRTEST usr/include/linux/selinux_netlink.h
+  HDRTEST usr/include/linux/byteorder/little_endian.h
+  HDRTEST usr/include/linux/byteorder/big_endian.h
+  HDRTEST usr/include/linux/elf-em.h
+  HDRTEST usr/include/linux/hdreg.h
+  HDRTEST usr/include/linux/synclink.h
+  HDRTEST usr/include/linux/serial_core.h
+  HDRTEST usr/include/linux/virtio_vsock.h
+  HDRTEST usr/include/linux/v4l2-controls.h
+  HDRTEST usr/include/linux/eventpoll.h
+  CC      lib/earlycpio.o
+  HDRTEST usr/include/linux/sound.h
+  HDRTEST usr/include/linux/genetlink.h
+  HDRTEST usr/include/linux/mdio.h
+  HDRTEST usr/include/linux/if_pppol2tp.h
+  CC      lib/extable.o
+  HDRTEST usr/include/linux/v4l2-dv-timings.h
+  HDRTEST usr/include/linux/romfs_fs.h
+  HDRTEST usr/include/linux/major.h
+  HDRTEST usr/include/linux/posix_types.h
+  HDRTEST usr/include/linux/wait.h
+  HDRTEST usr/include/linux/irqnr.h
+  HDRTEST usr/include/linux/netfilter_ipv6/ip6t_srh.h
+  HDRTEST usr/include/linux/netfilter_ipv6/ip6t_LOG.h
+  HDRTEST usr/include/linux/netfilter_ipv6/ip6t_ah.h
+  HDRTEST usr/include/linux/netfilter_ipv6/ip6t_NPT.h
+  HDRTEST usr/include/linux/netfilter_ipv6/ip6t_frag.h
+  HDRTEST usr/include/linux/netfilter_ipv6/ip6t_HL.h
+  HDRTEST usr/include/linux/netfilter_ipv6/ip6t_ipv6header.h
+  CC      lib/flex_proportions.o
+  HDRTEST usr/include/linux/netfilter_ipv6/ip6t_hl.h
+  HDRTEST usr/include/linux/netfilter_ipv6/ip6t_rt.h
+  HDRTEST usr/include/linux/netfilter_ipv6/ip6t_opts.h
+  HDRTEST usr/include/linux/netfilter_ipv6/ip6t_REJECT.h
+  HDRTEST usr/include/linux/netfilter_ipv6/ip6t_mh.h
+  HDRTEST usr/include/linux/netfilter_ipv6/ip6_tables.h
+  HDRTEST usr/include/linux/utsname.h
+  HDRTEST usr/include/linux/close_range.h
+  HDRTEST usr/include/linux/virtio_input.h
+  HDRTEST usr/include/linux/pps.h
+  HDRTEST usr/include/linux/seg6_iptunnel.h
+  CC      lib/idr.o
+  HDRTEST usr/include/linux/virtio_console.h
+  HDRTEST usr/include/linux/tc_ematch/tc_em_nbyte.h
+  HDRTEST usr/include/linux/tc_ematch/tc_em_ipt.h
+  HDRTEST usr/include/linux/tc_ematch/tc_em_text.h
+  HDRTEST usr/include/linux/tc_ematch/tc_em_cmp.h
+  HDRTEST usr/include/linux/tc_ematch/tc_em_meta.h
+  HDRTEST usr/include/linux/bpqether.h
+  HDRTEST usr/include/linux/affs_hardblocks.h
+  HDRTEST usr/include/linux/nbd-netlink.h
+  HDRTEST usr/include/linux/virtio_ring.h
+  HDRTEST usr/include/linux/cdrom.h
+  HDRTEST usr/include/linux/if_phonet.h
+  HDRTEST usr/include/linux/qnx4_fs.h
+  HDRTEST usr/include/linux/hidraw.h
+  HDRTEST usr/include/linux/suspend_ioctls.h
+  HDRTEST usr/include/linux/string.h
+  HDRTEST usr/include/linux/aspeed-p2a-ctrl.h
+  HDRTEST usr/include/linux/tipc.h
+  HDRTEST usr/include/linux/reiserfs_fs.h
+  HDRTEST usr/include/linux/nl80211.h
+  CC      lib/irq_regs.o
+  HDRTEST usr/include/linux/ipc.h
+  HDRTEST usr/include/linux/keyboard.h
+  HDRTEST usr/include/linux/virtio_net.h
+  HDRTEST usr/include/linux/nfsd/stats.h
+  HDRTEST usr/include/linux/nfsd/cld.h
+  HDRTEST usr/include/linux/nfsd/export.h
+  HDRTEST usr/include/linux/nfsd/debug.h
+  CC      lib/is_single_threaded.o
+  HDRTEST usr/include/linux/gpio.h
+  HDRTEST usr/include/linux/if_ppp.h
+  HDRTEST usr/include/linux/tty_flags.h
+  HDRTEST usr/include/linux/if_fddi.h
+  HDRTEST usr/include/linux/magic.h
+  HDRTEST usr/include/linux/x25.h
+  HDRTEST usr/include/linux/atmsap.h
+  HDRTEST usr/include/linux/nfs_mount.h
+  HDRTEST usr/include/linux/if_tunnel.h
+  HDRTEST usr/include/linux/vtpm_proxy.h
+  HDRTEST usr/include/linux/android_fuse.h
+  CC      lib/klist.o
+  HDRTEST usr/include/linux/posix_acl.h
+  HDRTEST usr/include/linux/icmpv6.h
+  HDRTEST usr/include/linux/hdlc/ioctl.h
+  HDRTEST usr/include/linux/batadv_packet.h
+  HDRTEST usr/include/linux/rpl_iptunnel.h
+  HDRTEST usr/include/linux/ultrasound.h
+  HDRTEST usr/include/linux/sysinfo.h
+  HDRTEST usr/include/linux/bcm933xx_hcs.h
+  HDRTEST usr/include/linux/if_alg.h
+  HDRTEST usr/include/linux/if_tun.h
+  HDRTEST usr/include/linux/v4l2-common.h
+  HDRTEST usr/include/linux/omap3isp.h
+  HDRTEST usr/include/linux/vboxguest.h
+  HDRTEST usr/include/linux/uvcvideo.h
+  HDRTEST usr/include/linux/nfs4.h
+  CC      lib/kobject.o
+  HDRTEST usr/include/linux/dqblk_xfs.h
+  HDRTEST usr/include/linux/bfs_fs.h
+  HDRTEST usr/include/linux/parport.h
+  HDRTEST usr/include/linux/toshiba.h
+  HDRTEST usr/include/linux/filter.h
+  HDRTEST usr/include/linux/atm_eni.h
+  HDRTEST usr/include/linux/if_fc.h
+  HDRTEST usr/include/linux/futex.h
+  HDRTEST usr/include/linux/ivtv.h
+  HDRTEST usr/include/linux/ppdev.h
+  HDRTEST usr/include/linux/msg.h
+  HDRTEST usr/include/linux/scif_ioctl.h
+  HDRTEST usr/include/linux/dlm.h
+  HDRTEST usr/include/linux/hdlcdrv.h
+  HDRTEST usr/include/linux/serio.h
+  HDRTEST usr/include/linux/baycom.h
+  HDRTEST usr/include/linux/virtio_rng.h
+  HDRTEST usr/include/linux/scc.h
+  HDRTEST usr/include/linux/kdev_t.h
+  HDRTEST usr/include/linux/ppp_defs.h
+  HDRTEST usr/include/linux/sonet.h
+  HDRTEST usr/include/linux/xilinx-v4l2-controls.h
+  HDRTEST usr/include/linux/icmp.h
+  HDRTEST usr/include/linux/nfs.h
+  CC      lib/kobject_uevent.o
+  HDRTEST usr/include/linux/virtio_pci.h
+  HDRTEST usr/include/linux/dm-ioctl.h
+  HDRTEST usr/include/linux/phonet.h
+  HDRTEST usr/include/linux/nilfs2_api.h
+  HDRTEST usr/include/linux/pkt_cls.h
+  HDRTEST usr/include/linux/ublk_cmd.h
+  HDRTEST usr/include/linux/atmclip.h
+  HDRTEST usr/include/linux/devlink.h
+  HDRTEST usr/include/linux/ipmi.h
+  HDRTEST usr/include/linux/can/vxcan.h
+  HDRTEST usr/include/linux/can/raw.h
+  HDRTEST usr/include/linux/can/bcm.h
+  HDRTEST usr/include/linux/can/error.h
+  HDRTEST usr/include/linux/can/gw.h
+  HDRTEST usr/include/linux/can/j1939.h
+  HDRTEST usr/include/linux/can/netlink.h
+  HDRTEST usr/include/linux/can/isotp.h
+  HDRTEST usr/include/linux/time.h
+  HDRTEST usr/include/linux/vduse.h
+  HDRTEST usr/include/linux/connector.h
+  HDRTEST usr/include/linux/rds.h
+  HDRTEST usr/include/linux/taskstats.h
+  HDRTEST usr/include/linux/ipsec.h
+  HDRTEST usr/include/linux/udp.h
+  HDRTEST usr/include/linux/virtio_scsi.h
+  HDRTEST usr/include/linux/const.h
+  HDRTEST usr/include/linux/swab.h
+  HDRTEST usr/include/linux/mctp.h
+  HDRTEST usr/include/linux/raid/md_u.h
+  HDRTEST usr/include/linux/raid/md_p.h
+  HDRTEST usr/include/linux/acrn.h
+  HDRTEST usr/include/linux/sched.h
+  HDRTEST usr/include/linux/loadpin.h
+  HDRTEST usr/include/linux/seccomp.h
+  HDRTEST usr/include/linux/i2c.h
+  HDRTEST usr/include/linux/dns_resolver.h
+  HDRTEST usr/include/linux/virtio_mmio.h
+  HDRTEST usr/include/linux/posix_acl_xattr.h
+  HDRTEST usr/include/linux/mroute.h
+  CC      lib/logic_pio.o
+  HDRTEST usr/include/linux/gameport.h
+  HDRTEST usr/include/linux/ip6_tunnel.h
+  HDRTEST usr/include/linux/erspan.h
+  HDRTEST usr/include/linux/vt.h
+  HDRTEST usr/include/linux/atmbr2684.h
+  HDRTEST usr/include/linux/usbdevice_fs.h
+  HDRTEST usr/include/linux/soundcard.h
+  HDRTEST usr/include/linux/stm.h
+  HDRTEST usr/include/linux/cifs/cifs_mount.h
+  HDRTEST usr/include/linux/cifs/cifs_netlink.h
+  HDRTEST usr/include/linux/netlink_diag.h
+  HDRTEST usr/include/linux/pfrut.h
+  HDRTEST usr/include/linux/virtio_pmem.h
+  HDRTEST usr/include/linux/incrementalfs.h
+  HDRTEST usr/include/linux/firewire-constants.h
+  HDRTEST usr/include/linux/sunrpc/debug.h
+  HDRTEST usr/include/linux/openat2.h
+  HDRTEST usr/include/linux/pidfd.h
+  CC      lib/maple_tree.o
+  HDRTEST usr/include/linux/mptcp.h
+  HDRTEST usr/include/linux/ipv6.h
+  HDRTEST usr/include/linux/falloc.h
+  HDRTEST usr/include/linux/rose.h
+  HDRTEST usr/include/linux/lwtunnel.h
+  HDRTEST usr/include/linux/auxvec.h
+  HDRTEST usr/include/linux/un.h
+  HDRTEST usr/include/linux/batman_adv.h
+  HDRTEST usr/include/linux/pktcdvd.h
+  HDRTEST usr/include/linux/types.h
+  HDRTEST usr/include/linux/um_timetravel.h
+  HDRTEST usr/include/linux/netdevice.h
+  HDRTEST usr/include/linux/dvb/dmx.h
+  HDRTEST usr/include/linux/dvb/frontend.h
+  HDRTEST usr/include/linux/dvb/audio.h
+  HDRTEST usr/include/linux/dvb/net.h
+  HDRTEST usr/include/linux/dvb/osd.h
+  HDRTEST usr/include/linux/dvb/video.h
+  HDRTEST usr/include/linux/dvb/version.h
+  HDRTEST usr/include/linux/dvb/ca.h
+  HDRTEST usr/include/linux/netfilter_bridge.h
+  HDRTEST usr/include/linux/kvm.h
+  HDRTEST usr/include/linux/chio.h
+  HDRTEST usr/include/linux/random.h
+  HDRTEST usr/include/linux/dma-heap.h
+  HDRTEST usr/include/linux/jffs2.h
+  HDRTEST usr/include/linux/ioam6_genl.h
+  HDRTEST usr/include/linux/if_pppox.h
+  HDRTEST usr/include/linux/ppp-comp.h
+  HDRTEST usr/include/linux/patchkey.h
+  HDRTEST usr/include/linux/iommu.h
+  HDRTEST usr/include/linux/if_addr.h
+  HDRTEST usr/include/linux/nvme_ioctl.h
+  HDRTEST usr/include/linux/ethtool_netlink.h
+  HDRTEST usr/include/linux/cec-funcs.h
+  HDRTEST usr/include/linux/if_ltalk.h
+  HDRTEST usr/include/linux/fpga-dfl.h
+  HDRTEST usr/include/linux/if_plip.h
+  HDRTEST usr/include/linux/time_types.h
+  HDRTEST usr/include/linux/net_namespace.h
+  HDRTEST usr/include/linux/vbox_err.h
+  HDRTEST usr/include/linux/pg.h
+  HDRTEST usr/include/linux/in6.h
+  HDRTEST usr/include/linux/prctl.h
+  HDRTEST usr/include/linux/elf-fdpic.h
+  HDRTEST usr/include/linux/utime.h
+  HDRTEST usr/include/linux/veth.h
+  HDRTEST usr/include/linux/efs_fs_sb.h
+  HDRTEST usr/include/linux/atmapi.h
+  HDRTEST usr/include/linux/errqueue.h
+  HDRTEST usr/include/linux/tcp_metrics.h
+  HDRTEST usr/include/linux/virtio_balloon.h
+  HDRTEST usr/include/linux/reiserfs_xattr.h
+  HDRTEST usr/include/linux/cryptouser.h
+  HDRTEST usr/include/linux/meye.h
+  HDRTEST usr/include/linux/igmp.h
+  HDRTEST usr/include/linux/hdlc.h
+  HDRTEST usr/include/linux/fsmap.h
+  HDRTEST usr/include/linux/ax25.h
+  HDRTEST usr/include/linux/hw_breakpoint.h
+  HDRTEST usr/include/linux/nexthop.h
+  HDRTEST usr/include/linux/netfilter_ipv4.h
+  HDRTEST usr/include/linux/nl80211-vnd-intel.h
+  HDRTEST usr/include/linux/cciss_defs.h
+  HDRTEST usr/include/linux/signal.h
+  HDRTEST usr/include/linux/pfkeyv2.h
+  HDRTEST usr/include/linux/quota.h
+  HDRTEST usr/include/linux/rtc.h
+  HDRTEST usr/include/linux/route.h
+  HDRTEST usr/include/linux/if_arp.h
+  HDRTEST usr/include/linux/media-bus-format.h
+  HDRTEST usr/include/linux/fsverity.h
+  HDRTEST usr/include/linux/gtp.h
+  HDRTEST usr/include/linux/acct.h
+  HDRTEST usr/include/linux/sem.h
+  HDRTEST usr/include/linux/cgroupstats.h
+  HDRTEST usr/include/linux/fib_rules.h
+  HDRTEST usr/include/linux/netfilter_bridge/ebt_redirect.h
+  HDRTEST usr/include/linux/netfilter_bridge/ebt_arpreply.h
+  HDRTEST usr/include/linux/netfilter_bridge/ebt_ip6.h
+  HDRTEST usr/include/linux/netfilter_bridge/ebt_vlan.h
+  HDRTEST usr/include/linux/netfilter_bridge/ebt_802_3.h
+  HDRTEST usr/include/linux/netfilter_bridge/ebt_log.h
+  HDRTEST usr/include/linux/netfilter_bridge/ebt_mark_m.h
+  HDRTEST usr/include/linux/netfilter_bridge/ebt_nflog.h
+  HDRTEST usr/include/linux/netfilter_bridge/ebt_among.h
+  HDRTEST usr/include/linux/netfilter_bridge/ebt_limit.h
+  HDRTEST usr/include/linux/netfilter_bridge/ebt_stp.h
+  HDRTEST usr/include/linux/netfilter_bridge/ebt_nat.h
+  HDRTEST usr/include/linux/netfilter_bridge/ebt_ip.h
+  HDRTEST usr/include/linux/netfilter_bridge/ebt_pkttype.h
+  HDRTEST usr/include/linux/netfilter_bridge/ebt_mark_t.h
+  HDRTEST usr/include/linux/netfilter_bridge/ebt_arp.h
+  HDRTEST usr/include/linux/netfilter_bridge/ebtables.h
+  HDRTEST usr/include/linux/if_addrlabel.h
+  HDRTEST usr/include/linux/ioam6_iptunnel.h
+  HDRTEST usr/include/linux/if_slip.h
+  HDRTEST usr/include/linux/shm.h
+  CC      lib/memcat_p.o
+  HDRTEST usr/include/linux/nitro_enclaves.h
+  HDRTEST usr/include/linux/rpmsg_types.h
+  HDRTEST usr/include/linux/sync_file.h
+  HDRTEST usr/include/linux/if_vlan.h
+  HDRTEST usr/include/linux/dcbnl.h
+  HDRTEST usr/include/linux/if_arcnet.h
+  HDRTEST usr/include/linux/pcitest.h
+  HDRTEST usr/include/linux/virtio_blk.h
+  HDRTEST usr/include/linux/atmppp.h
+  HDRTEST usr/include/linux/netfilter_arp/arpt_mangle.h
+  HDRTEST usr/include/linux/netfilter_arp/arp_tables.h
+  HDRTEST usr/include/linux/vhost.h
+  HDRTEST usr/include/linux/if_ether.h
+  CC      lib/nmi_backtrace.o
+  HDRTEST usr/include/linux/cxl_mem.h
+  HDRTEST usr/include/linux/snmp.h
+  HDRTEST usr/include/linux/rfkill.h
+  HDRTEST usr/include/linux/hiddev.h
+  HDRTEST usr/include/linux/dlm_device.h
+  HDRTEST usr/include/linux/ndctl.h
+  HDRTEST usr/include/linux/coff.h
+  HDRTEST usr/include/linux/rseq.h
+  HDRTEST usr/include/linux/xattr.h
+  HDRTEST usr/include/linux/gsmmux.h
+  HDRTEST usr/include/linux/netfilter/xt_multiport.h
+  HDRTEST usr/include/linux/netfilter/xt_DSCP.h
+  HDRTEST usr/include/linux/netfilter/nf_conntrack_common.h
+  HDRTEST usr/include/linux/netfilter/xt_NFLOG.h
+  HDRTEST usr/include/linux/netfilter/xt_physdev.h
+  HDRTEST usr/include/linux/netfilter/xt_CONNSECMARK.h
+  HDRTEST usr/include/linux/netfilter/xt_helper.h
+  HDRTEST usr/include/linux/netfilter/xt_realm.h
+  HDRTEST usr/include/linux/netfilter/xt_connmark.h
+  HDRTEST usr/include/linux/netfilter/xt_dccp.h
+  CC      lib/plist.o
+  HDRTEST usr/include/linux/netfilter/nfnetlink_queue.h
+  HDRTEST usr/include/linux/netfilter/x_tables.h
+  HDRTEST usr/include/linux/netfilter/xt_time.h
+  CC      lib/radix-tree.o
+  HDRTEST usr/include/linux/netfilter/xt_ipcomp.h
+  HDRTEST usr/include/linux/netfilter/xt_osf.h
+  HDRTEST usr/include/linux/netfilter/xt_LED.h
+  HDRTEST usr/include/linux/netfilter/xt_connlabel.h
+  HDRTEST usr/include/linux/netfilter/xt_cpu.h
+  HDRTEST usr/include/linux/netfilter/nf_conntrack_tuple_common.h
+  HDRTEST usr/include/linux/netfilter/xt_TCPMSS.h
+  HDRTEST usr/include/linux/netfilter/xt_MARK.h
+  HDRTEST usr/include/linux/netfilter/xt_AUDIT.h
+  HDRTEST usr/include/linux/netfilter/xt_connlimit.h
+  HDRTEST usr/include/linux/netfilter/nfnetlink_cthelper.h
+  HDRTEST usr/include/linux/netfilter/xt_TEE.h
+  HDRTEST usr/include/linux/netfilter/ipset/ip_set_hash.h
+  HDRTEST usr/include/linux/netfilter/ipset/ip_set.h
+  HDRTEST usr/include/linux/netfilter/ipset/ip_set_list.h
+  HDRTEST usr/include/linux/netfilter/ipset/ip_set_bitmap.h
+  HDRTEST usr/include/linux/netfilter/xt_tcpmss.h
+  HDRTEST usr/include/linux/netfilter/nfnetlink_acct.h
+  HDRTEST usr/include/linux/netfilter/xt_addrtype.h
+  HDRTEST usr/include/linux/netfilter/xt_NFQUEUE.h
+  HDRTEST usr/include/linux/netfilter/xt_cgroup.h
+  HDRTEST usr/include/linux/netfilter/nf_tables.h
+  HDRTEST usr/include/linux/netfilter/xt_limit.h
+  HDRTEST usr/include/linux/netfilter/nf_conntrack_tcp.h
+  HDRTEST usr/include/linux/netfilter/xt_TPROXY.h
+  HDRTEST usr/include/linux/netfilter/xt_set.h
+  HDRTEST usr/include/linux/netfilter/xt_LOG.h
+  HDRTEST usr/include/linux/netfilter/xt_statistic.h
+  HDRTEST usr/include/linux/netfilter/xt_mark.h
+  HDRTEST usr/include/linux/netfilter/xt_iprange.h
+  CC      lib/ratelimit.o
+  HDRTEST usr/include/linux/netfilter/xt_RATEEST.h
+  HDRTEST usr/include/linux/netfilter/nf_conntrack_sctp.h
+  HDRTEST usr/include/linux/netfilter/xt_policy.h
+  HDRTEST usr/include/linux/netfilter/xt_cluster.h
+  HDRTEST usr/include/linux/netfilter/xt_IDLETIMER.h
+  HDRTEST usr/include/linux/netfilter/nfnetlink_compat.h
+  HDRTEST usr/include/linux/netfilter/nfnetlink_conntrack.h
+  HDRTEST usr/include/linux/netfilter/xt_CT.h
+  HDRTEST usr/include/linux/netfilter/nf_conntrack_ftp.h
+  HDRTEST usr/include/linux/netfilter/xt_esp.h
+  HDRTEST usr/include/linux/netfilter/xt_owner.h
+  HDRTEST usr/include/linux/netfilter/xt_rateest.h
+  CC      lib/rbtree.o
+  HDRTEST usr/include/linux/netfilter/xt_mac.h
+  HDRTEST usr/include/linux/netfilter/nf_tables_compat.h
+  HDRTEST usr/include/linux/netfilter/xt_dscp.h
+  HDRTEST usr/include/linux/netfilter/xt_tcpudp.h
+  HDRTEST usr/include/linux/netfilter/nf_synproxy.h
+  HDRTEST usr/include/linux/netfilter/xt_HMARK.h
+  HDRTEST usr/include/linux/netfilter/nfnetlink_osf.h
+  HDRTEST usr/include/linux/netfilter/xt_conntrack.h
+  HDRTEST usr/include/linux/netfilter/xt_recent.h
+  HDRTEST usr/include/linux/netfilter/xt_SECMARK.h
+  CC      lib/seq_buf.o
+  HDRTEST usr/include/linux/netfilter/xt_hashlimit.h
+  HDRTEST usr/include/linux/netfilter/xt_comment.h
+  HDRTEST usr/include/linux/netfilter/xt_l2tp.h
+  HDRTEST usr/include/linux/netfilter/xt_CONNMARK.h
+  HDRTEST usr/include/linux/netfilter/xt_TCPOPTSTRIP.h
+  HDRTEST usr/include/linux/netfilter/nfnetlink_log.h
+  HDRTEST usr/include/linux/netfilter/xt_CLASSIFY.h
+  HDRTEST usr/include/linux/netfilter/xt_socket.h
+  HDRTEST usr/include/linux/netfilter/xt_nfacct.h
+  HDRTEST usr/include/linux/netfilter/xt_u32.h
+  HDRTEST usr/include/linux/netfilter/nfnetlink.h
+  HDRTEST usr/include/linux/netfilter/xt_quota.h
+  HDRTEST usr/include/linux/netfilter/nf_nat.h
+  HDRTEST usr/include/linux/netfilter/xt_CHECKSUM.h
+  HDRTEST usr/include/linux/netfilter/xt_connbytes.h
+  HDRTEST usr/include/linux/netfilter/xt_bpf.h
+  HDRTEST usr/include/linux/netfilter/xt_devgroup.h
+  HDRTEST usr/include/linux/netfilter/xt_rpfilter.h
+  HDRTEST usr/include/linux/netfilter/xt_SYNPROXY.h
+  HDRTEST usr/include/linux/netfilter/xt_pkttype.h
+  HDRTEST usr/include/linux/netfilter/xt_length.h
+  HDRTEST usr/include/linux/netfilter/xt_ecn.h
+  CC      lib/show_mem.o
+  HDRTEST usr/include/linux/netfilter/xt_ipvs.h
+  HDRTEST usr/include/linux/netfilter/xt_string.h
+  HDRTEST usr/include/linux/netfilter/xt_sctp.h
+  HDRTEST usr/include/linux/netfilter/nf_log.h
+  HDRTEST usr/include/linux/netfilter/xt_state.h
+  HDRTEST usr/include/linux/netfilter/nfnetlink_hook.h
+  HDRTEST usr/include/linux/netfilter/nfnetlink_cttimeout.h
+  HDRTEST usr/include/linux/smc.h
+  HDRTEST usr/include/linux/dccp.h
+  HDRTEST usr/include/linux/seg6.h
+  HDRTEST usr/include/linux/idxd.h
+  HDRTEST usr/include/linux/net.h
+  HDRTEST usr/include/linux/aio_abi.h
+  HDRTEST usr/include/linux/ip_vs.h
+  HDRTEST usr/include/linux/max2175.h
+  CC      lib/siphash.o
+  HDRTEST usr/include/linux/sock_diag.h
+  HDRTEST usr/include/linux/vhost_types.h
+  HDRTEST usr/include/linux/reboot.h
+  HDRTEST usr/include/linux/virtio_fs.h
+  HDRTEST usr/include/linux/seg6_hmac.h
+  HDRTEST usr/include/linux/ccs.h
+  HDRTEST usr/include/linux/f2fs.h
+  HDRTEST usr/include/linux/atmmpc.h
+  HDRTEST usr/include/linux/genwqe/genwqe_card.h
+  HDRTEST usr/include/linux/pci.h
+  HDRTEST usr/include/linux/cciss_ioctl.h
+  HDRTEST usr/include/linux/cycx_cfm.h
+  HDRTEST usr/include/linux/bpf.h
+  HDRTEST usr/include/linux/personality.h
+  HDRTEST usr/include/linux/userio.h
+  HDRTEST usr/include/linux/udmabuf.h
+  TEST    lib/test_fortify/read_overflow-memchr.log
+  HDRTEST usr/include/linux/hpet.h
+  HDRTEST usr/include/linux/sched/types.h
+  HDRTEST usr/include/linux/tipc_config.h
+  HDRTEST usr/include/linux/timex.h
+  HDRTEST usr/include/linux/kernelcapi.h
+  HDRTEST usr/include/linux/pci_regs.h
+  HDRTEST usr/include/linux/smc_diag.h
+  HDRTEST usr/include/linux/netlink.h
+  TEST    lib/test_fortify/read_overflow-memchr_inv.log
+  HDRTEST usr/include/linux/virtio_bt.h
+  HDRTEST usr/include/linux/spi/spidev.h
+  HDRTEST usr/include/linux/spi/spi.h
+  HDRTEST usr/include/linux/virtio_config.h
+  HDRTEST usr/include/linux/omapfb.h
+  HDRTEST usr/include/linux/sed-opal.h
+  HDRTEST usr/include/linux/minix_fs.h
+  HDRTEST usr/include/linux/nubus.h
+  TEST    lib/test_fortify/read_overflow-memcmp.log
+  HDRTEST usr/include/linux/ila.h
+  HDRTEST usr/include/linux/membarrier.h
+  HDRTEST usr/include/linux/cn_proc.h
+  HDRTEST usr/include/linux/xdp_diag.h
+  HDRTEST usr/include/linux/auto_fs4.h
+  HDRTEST usr/include/linux/pr.h
+  HDRTEST usr/include/linux/virtio_pcidev.h
+  HDRTEST usr/include/linux/uleds.h
+  HDRTEST usr/include/linux/mman.h
+  TEST    lib/test_fortify/read_overflow-memscan.log
+  HDRTEST usr/include/linux/dlmconstants.h
+  HDRTEST usr/include/linux/isst_if.h
+  HDRTEST usr/include/linux/psp-sev.h
+  HDRTEST usr/include/linux/kcmp.h
+  HDRTEST usr/include/linux/iio/events.h
+  HDRTEST usr/include/linux/iio/types.h
+  HDRTEST usr/include/linux/iio/buffer.h
+  HDRTEST usr/include/linux/virtio_crypto.h
+  TEST    lib/test_fortify/read_overflow2-memcmp.log
+  HDRTEST usr/include/linux/aspeed-lpc-ctrl.h
+  HDRTEST usr/include/linux/unix_diag.h
+  HDRTEST usr/include/linux/param.h
+  HDRTEST usr/include/linux/sctp.h
+  HDRTEST usr/include/linux/kd.h
+  HDRTEST usr/include/linux/auto_fs.h
+  HDRTEST usr/include/linux/if_xdp.h
+  HDRTEST usr/include/linux/hid.h
+  TEST    lib/test_fortify/read_overflow2-memcpy.log
+  HDRTEST usr/include/linux/arm_sdei.h
+  HDRTEST usr/include/linux/gunyah.h
+  HDRTEST usr/include/linux/psci.h
+  HDRTEST usr/include/linux/cramfs_fs.h
+  HDRTEST usr/include/linux/if_link.h
+  HDRTEST usr/include/linux/virtio_ids.h
+  HDRTEST usr/include/linux/virtio_snd.h
+  HDRTEST usr/include/linux/blktrace_api.h
+  TEST    lib/test_fortify/read_overflow2-memmove.log
+  HDRTEST usr/include/linux/if_team.h
+  HDRTEST usr/include/linux/mmtimer.h
+  HDRTEST usr/include/linux/serial.h
+  HDRTEST usr/include/linux/mii.h
+  HDRTEST usr/include/linux/elf.h
+  HDRTEST usr/include/linux/i8k.h
+  HDRTEST usr/include/linux/tcp.h
+  HDRTEST usr/include/linux/memfd.h
+  HDRTEST usr/include/linux/virtio_scmi.h
+  TEST    lib/test_fortify/read_overflow2_field-memcpy.log
+  HDRTEST usr/include/linux/udf_fs_i.h
+  HDRTEST usr/include/linux/edd.h
+  HDRTEST usr/include/linux/qrtr.h
+  HDRTEST usr/include/linux/kernel-page-flags.h
+  HDRTEST usr/include/linux/watch_queue.h
+  HDRTEST usr/include/linux/net_dropmon.h
+  HDRTEST usr/include/linux/vdpa.h
+  HDRTEST usr/include/linux/hyperv.h
+  TEST    lib/test_fortify/read_overflow2_field-memmove.log
+  HDRTEST usr/include/linux/nilfs2_ondisk.h
+  HDRTEST usr/include/linux/dm-user.h
+  HDRTEST usr/include/linux/sysctl.h
+  HDRTEST usr/include/linux/wireless.h
+  HDRTEST usr/include/linux/screen_info.h
+  HDRTEST usr/include/linux/virtio_iommu.h
+  HDRTEST usr/include/linux/matroxfb.h
+  HDRTEST usr/include/linux/if_infiniband.h
+  TEST    lib/test_fortify/write_overflow-memcpy.log
+  HDRTEST usr/include/linux/io_uring.h
+  HDRTEST usr/include/linux/packet_diag.h
+  HDRTEST usr/include/linux/nfs4_mount.h
+  HDRTEST usr/include/linux/ivtvfb.h
+  HDRTEST usr/include/linux/coresight-stm.h
+  HDRTEST usr/include/linux/blkpg.h
+  HDRTEST usr/include/linux/timerfd.h
+  HDRTEST usr/include/linux/fsl_mc.h
+  HDRTEST usr/include/linux/errno.h
+  TEST    lib/test_fortify/write_overflow-memmove.log
+  HDRTEST usr/include/linux/sockios.h
+  HDRTEST usr/include/linux/ipv6_route.h
+  HDRTEST usr/include/linux/dlm_netlink.h
+  HDRTEST usr/include/linux/virtio_gpio.h
+  HDRTEST usr/include/linux/btrfs.h
+  HDRTEST usr/include/linux/ip.h
+  HDRTEST usr/include/linux/ncsi.h
+  HDRTEST usr/include/linux/hsr_netlink.h
+  TEST    lib/test_fortify/write_overflow-memset.log
+  HDRTEST usr/include/linux/nfsacl.h
+  HDRTEST usr/include/linux/if_macsec.h
+  HDRTEST usr/include/linux/ioprio.h
+  HDRTEST usr/include/linux/gen_stats.h
+  HDRTEST usr/include/linux/net_tstamp.h
+  HDRTEST usr/include/linux/vbox_vmmdev_types.h
+  HDRTEST usr/include/linux/stat.h
+  HDRTEST usr/include/linux/thermal.h
+  TEST    lib/test_fortify/write_overflow-strcpy-lit.log
+  HDRTEST usr/include/linux/tls.h
+  HDRTEST usr/include/linux/seg6_local.h
+  HDRTEST usr/include/linux/target_core_user.h
+  HDRTEST usr/include/linux/virtio_mem.h
+  HDRTEST usr/include/linux/securebits.h
+  HDRTEST usr/include/linux/adfs_fs.h
+  HDRTEST usr/include/linux/userfaultfd.h
+  HDRTEST usr/include/linux/atmdev.h
+  HDRTEST usr/include/linux/atmsvc.h
+  TEST    lib/test_fortify/write_overflow-strcpy.log
+  HDRTEST usr/include/linux/fsl_hypervisor.h
+  HDRTEST usr/include/linux/tc_act/tc_ctinfo.h
+  HDRTEST usr/include/linux/tc_act/tc_vlan.h
+  HDRTEST usr/include/linux/tc_act/tc_defact.h
+  HDRTEST usr/include/linux/tc_act/tc_skbmod.h
+  HDRTEST usr/include/linux/tc_act/tc_tunnel_key.h
+  HDRTEST usr/include/linux/tc_act/tc_mirred.h
+  HDRTEST usr/include/linux/tc_act/tc_gate.h
+  TEST    lib/test_fortify/write_overflow-strlcpy-src.log
+  HDRTEST usr/include/linux/tc_act/tc_nat.h
+  HDRTEST usr/include/linux/tc_act/tc_mpls.h
+  HDRTEST usr/include/linux/tc_act/tc_csum.h
+  HDRTEST usr/include/linux/tc_act/tc_bpf.h
+  HDRTEST usr/include/linux/tc_act/tc_pedit.h
+  HDRTEST usr/include/linux/tc_act/tc_ife.h
+  HDRTEST usr/include/linux/tc_act/tc_sample.h
+  HDRTEST usr/include/linux/tc_act/tc_ipt.h
+  TEST    lib/test_fortify/write_overflow-strlcpy.log
+  HDRTEST usr/include/linux/tc_act/tc_skbedit.h
+  HDRTEST usr/include/linux/tc_act/tc_gact.h
+  HDRTEST usr/include/linux/tc_act/tc_ct.h
+  HDRTEST usr/include/linux/tc_act/tc_connmark.h
+  HDRTEST usr/include/linux/kfd_ioctl.h
+  HDRTEST usr/include/linux/if_eql.h
+  HDRTEST usr/include/linux/bpfilter.h
+  HDRTEST usr/include/linux/libc-compat.h
+  TEST    lib/test_fortify/write_overflow-strncpy-src.log
+  HDRTEST usr/include/linux/blkzoned.h
+  HDRTEST usr/include/linux/cfm_bridge.h
+  HDRTEST usr/include/linux/switchtec_ioctl.h
+  HDRTEST usr/include/linux/virtio_9p.h
+  HDRTEST usr/include/linux/usbip.h
+  HDRTEST usr/include/linux/ptrace.h
+  HDRTEST usr/include/linux/ptp_clock.h
+  HDRTEST usr/include/linux/if_packet.h
+  TEST    lib/test_fortify/write_overflow-strncpy.log
+  HDRTEST usr/include/linux/capi.h
+  HDRTEST usr/include/linux/capability.h
+  HDRTEST usr/include/linux/netfilter_ipv6.h
+  HDRTEST usr/include/linux/if_cablemodem.h
+  HDRTEST usr/include/linux/nfs2.h
+  HDRTEST usr/include/linux/lirc.h
+  HDRTEST usr/include/linux/smiapp.h
+  HDRTEST usr/include/linux/termios.h
+  TEST    lib/test_fortify/write_overflow-strscpy.log
+  HDRTEST usr/include/linux/rtnetlink.h
+  HDRTEST usr/include/linux/inet_diag.h
+  HDRTEST usr/include/linux/pkt_sched.h
+  HDRTEST usr/include/linux/virtio_i2c.h
+  HDRTEST usr/include/linux/i2o-dev.h
+  HDRTEST usr/include/linux/isdn/capicmd.h
+  HDRTEST usr/include/linux/netfilter_ipv4/ipt_CLUSTERIP.h
+  HDRTEST usr/include/linux/netfilter_ipv4/ipt_REJECT.h
+  HDRTEST usr/include/linux/netfilter_ipv4/ip_tables.h
+  TEST    lib/test_fortify/write_overflow_field-memcpy.log
+  HDRTEST usr/include/linux/netfilter_ipv4/ipt_ah.h
+  HDRTEST usr/include/linux/netfilter_ipv4/ipt_TTL.h
+  HDRTEST usr/include/linux/netfilter_ipv4/ipt_ttl.h
+  HDRTEST usr/include/linux/netfilter_ipv4/ipt_ecn.h
+  HDRTEST usr/include/linux/netfilter_ipv4/ipt_LOG.h
+  HDRTEST usr/include/linux/netfilter_ipv4/ipt_ECN.h
+  HDRTEST usr/include/linux/atmarp.h
+  HDRTEST usr/include/linux/coda.h
+  TEST    lib/test_fortify/write_overflow_field-memmove.log
+  HDRTEST usr/include/linux/surface_aggregator/dtx.h
+  HDRTEST usr/include/linux/surface_aggregator/cdev.h
+  HDRTEST usr/include/linux/tty.h
+  HDRTEST usr/include/linux/poll.h
+  HDRTEST usr/include/linux/fd.h
+  HDRTEST usr/include/linux/tiocl.h
+  HDRTEST usr/include/linux/version.h
+  HDRTEST usr/include/linux/vfio_zdev.h
+  HDRTEST usr/include/linux/iso_fs.h
+  TEST    lib/test_fortify/write_overflow_field-memset.log
+  HDRTEST usr/include/linux/mpls.h
+  HDRTEST usr/include/linux/nvram.h
+  HDRTEST usr/include/linux/auto_dev-ioctl.h
+  HDRTEST usr/include/linux/nfs3.h
+  HDRTEST usr/include/linux/phantom.h
+  HDRTEST usr/include/linux/ife.h
+  HDRTEST usr/include/linux/watchdog.h
+  HDRTEST usr/include/linux/stddef.h
+  CC      lib/timerqueue.o
+  HDRTEST usr/include/linux/usb/audio.h
+  HDRTEST usr/include/linux/usb/tmc.h
+  HDRTEST usr/include/linux/usb/functionfs.h
+  HDRTEST usr/include/linux/usb/cdc-wdm.h
+  HDRTEST usr/include/linux/usb/gadgetfs.h
+  HDRTEST usr/include/linux/usb/g_printer.h
+  HDRTEST usr/include/linux/usb/ch11.h
+  HDRTEST usr/include/linux/usb/charger.h
+  HDRTEST usr/include/linux/usb/video.h
+  CC      lib/vsprintf.o
+  HDRTEST usr/include/linux/usb/g_uvc.h
+  HDRTEST usr/include/linux/usb/f_accessory.h
+  HDRTEST usr/include/linux/usb/midi.h
+  HDRTEST usr/include/linux/usb/cdc.h
+  HDRTEST usr/include/linux/usb/ch9.h
+  HDRTEST usr/include/linux/usb/raw_gadget.h
+  HDRTEST usr/include/linux/if.h
+  HDRTEST usr/include/linux/agpgart.h
+  HDRTEST usr/include/linux/kcm.h
+  HDRTEST usr/include/linux/map_to_14segment.h
+  HDRTEST usr/include/linux/apm_bios.h
+  HDRTEST usr/include/linux/joystick.h
+  HDRTEST usr/include/linux/vm_sockets_diag.h
+  HDRTEST usr/include/linux/qnxtypes.h
+  HDRTEST usr/include/linux/netrom.h
+  HDRTEST usr/include/linux/atm_idt77105.h
+  HDRTEST usr/include/linux/atm_zatm.h
+  HDRTEST usr/include/linux/fadvise.h
+  HDRTEST usr/include/linux/nfs_idmap.h
+  HDRTEST usr/include/linux/cyclades.h
+  HDRTEST usr/include/linux/landlock.h
+  HDRTEST usr/include/linux/nsfs.h
+  HDRTEST usr/include/linux/oom.h
+  HDRTEST usr/include/linux/psample.h
+  HDRTEST usr/include/linux/uhid.h
+  HDRTEST usr/include/linux/am437x-vpfe.h
+  HDRTEST usr/include/linux/bsg.h
+  HDRTEST usr/include/linux/gfs2_ondisk.h
+  HDRTEST usr/include/linux/l2tp.h
+  HDRTEST usr/include/linux/fb.h
+  HDRTEST usr/include/linux/wwan.h
+  HDRTEST usr/include/linux/if_bonding.h
+  HDRTEST usr/include/linux/mroute6.h
+  HDRTEST usr/include/linux/kfd_sysfs.h
+  HDRTEST usr/include/linux/vm_sockets.h
+  HDRTEST usr/include/linux/resource.h
+  HDRTEST usr/include/linux/perf_event.h
+  HDRTEST usr/include/linux/fuse.h
+  HDRTEST usr/include/linux/rio_mport_cdev.h
+  HDRTEST usr/include/linux/btrfs_tree.h
+  HDRTEST usr/include/linux/llc.h
+  HDRTEST usr/include/linux/audit.h
+  HDRTEST usr/include/linux/wmi.h
+  HDRTEST usr/include/linux/socket.h
+  HDRTEST usr/include/linux/rpl.h
+  HDRTEST usr/include/linux/atm_he.h
+  HDRTEST usr/include/linux/btf.h
+  HDRTEST usr/include/linux/vmcore.h
+  HDRTEST usr/include/linux/arcfb.h
+  HDRTEST usr/include/linux/wireguard.h
+  HDRTEST usr/include/linux/ipmi_msgdefs.h
+  HDRTEST usr/include/linux/dma-buf.h
+  HDRTEST usr/include/linux/limits.h
+  HDRTEST usr/include/linux/times.h
+  HDRTEST usr/include/linux/uuid.h
+  HDRTEST usr/include/linux/fsi.h
+  HDRTEST usr/include/linux/sev-guest.h
+  HDRTEST usr/include/linux/neighbour.h
+  HDRTEST usr/include/linux/dw100.h
+  HDRTEST usr/include/linux/sonypi.h
+  HDRTEST usr/include/linux/if_hippi.h
+  HDRTEST usr/include/linux/kcov.h
+  HDRTEST usr/include/linux/remoteproc_cdev.h
+  HDRTEST usr/include/linux/mtio.h
+  HDRTEST usr/include/linux/kernel.h
+  HDRTEST usr/include/linux/comedi.h
+  HDRTEST usr/include/linux/ppp-ioctl.h
+  HDRTEST usr/include/linux/media.h
+  HDRTEST usr/include/linux/atalk.h
+  HDRTEST usr/include/linux/mrp_bridge.h
+  HDRTEST usr/include/linux/cuda.h
+  HDRTEST usr/include/linux/ioctl.h
+  HDRTEST usr/include/linux/dm-log-userspace.h
+  HDRTEST usr/include/linux/fcntl.h
+  HDRTEST usr/include/linux/cachefiles.h
+  HDRTEST usr/include/linux/tipc_sockets_diag.h
+  CC      lib/win_minmax.o
+  HDRTEST usr/include/linux/map_to_7segment.h
+  HDRTEST usr/include/linux/netfilter_arp.h
+  HDRTEST usr/include/linux/kexec.h
+  HDRTEST usr/include/linux/rpmsg.h
+  HDRTEST usr/include/linux/openvswitch.h
+  HDRTEST usr/include/linux/fdreg.h
+  HDRTEST usr/include/linux/fanotify.h
+  HDRTEST usr/include/linux/if_x25.h
+  HDRTEST usr/include/linux/atm_nicstar.h
+  HDRTEST usr/include/linux/cec.h
+  HDRTEST usr/include/linux/rxrpc.h
+  HDRTEST usr/include/linux/module.h
+  HDRTEST usr/include/linux/in.h
+  HDRTEST usr/include/linux/vsockmon.h
+  HDRTEST usr/include/linux/uinput.h
+  HDRTEST usr/include/linux/v4l2-subdev.h
+  CC      lib/xarray.o
+  HDRTEST usr/include/linux/atm_tcp.h
+  HDRTEST usr/include/linux/fs.h
+  HDRTEST usr/include/linux/ethtool.h
+  HDRTEST usr/include/linux/rio_cm_cdev.h
+  HDRTEST usr/include/linux/signalfd.h
+  HDRTEST usr/include/linux/rkisp1-config.h
+  HDRTEST usr/include/linux/adb.h
+  HDRTEST usr/include/linux/kvm_para.h
+  HDRTEST usr/include/linux/zorro.h
+  HDRTEST usr/include/linux/hsi/hsi_char.h
+  HDRTEST usr/include/linux/hsi/cs-protocol.h
+  HDRTEST usr/include/linux/misc/bcm_vk.h
+  HDRTEST usr/include/linux/nbd.h
+  HDRTEST usr/include/linux/videodev2.h
+  HDRTEST usr/include/linux/radeonfb.h
+  HDRTEST usr/include/linux/i2c-dev.h
+  HDRTEST usr/include/linux/bpf_common.h
+  HDRTEST usr/include/linux/xfrm.h
+  HDRTEST usr/include/linux/pmu.h
+  HDRTEST usr/include/linux/vfio.h
+  HDRTEST usr/include/linux/virtio_types.h
+  HDRTEST usr/include/linux/mei.h
+  HDRTEST usr/include/linux/bt-bmc.h
+  HDRTEST usr/include/linux/zorro_ids.h
+  HDRTEST usr/include/linux/ipmi_bmc.h
+  HDRTEST usr/include/linux/input-event-codes.h
+  HDRTEST usr/include/linux/vfio_ccw.h
+  HDRTEST usr/include/linux/netconf.h
+  HDRTEST usr/include/linux/amt.h
+  HDRTEST usr/include/misc/xilinx_sdfec.h
+  HDRTEST usr/include/misc/habanalabs.h
+  HDRTEST usr/include/misc/pvpanic.h
+  HDRTEST usr/include/misc/uacce/hisi_qm.h
+  HDRTEST usr/include/misc/uacce/uacce.h
+  HDRTEST usr/include/misc/cxl.h
+  CC [M]  lib/test_meminit.o
+  HDRTEST usr/include/misc/ocxl.h
+  HDRTEST usr/include/misc/fastrpc.h
+  AS      arch/x86/lib/clear_page_64.o
+  CC      arch/x86/lib/cmdline.o
+  AS      arch/x86/lib/cmpxchg16b_emu.o
+  CC      arch/x86/lib/copy_mc.o
+  GEN     lib/test_fortify.log
+  CC      lib/string.o
+  AS      arch/x86/lib/copy_mc_64.o
+  AS      arch/x86/lib/copy_page_64.o
+  AS      arch/x86/lib/copy_user_64.o
+  AR      lib/lib.a
+  CC      arch/x86/lib/cpu.o
+  CC [M]  drivers/virtio/virtio_pci_modern_dev.o
+  AS      arch/x86/lib/csum-copy_64.o
+  CC      arch/x86/lib/csum-partial_64.o
+  CC      arch/x86/lib/csum-wrappers_64.o
+  CC [M]  drivers/virtio/virtio_pci_legacy_dev.o
+  CC      arch/x86/lib/delay.o
+  AS      arch/x86/lib/getuser.o
+  GEN     arch/x86/lib/inat-tables.c
+  CC      arch/x86/lib/insn-eval.o
+  CC [M]  drivers/virtio/virtio_pci_modern.o
+  CC      arch/x86/lib/insn.o
+  CC [M]  drivers/virtio/virtio_pci_common.o
+  CC      arch/x86/lib/kaslr.o
+  AS      arch/x86/lib/memcpy_64.o
+  AS      arch/x86/lib/memmove_64.o
+  CC [M]  drivers/virtio/virtio_pci_legacy.o
+  AS      arch/x86/lib/memset_64.o
+  CC      arch/x86/lib/misc.o
+  CC      arch/x86/lib/pc-conf-reg.o
+  AS      arch/x86/lib/putuser.o
+  CC [M]  drivers/virtio/virtio_balloon.o
+  AS      arch/x86/lib/retpoline.o
+  CC      arch/x86/lib/usercopy.o
+  CC [M]  drivers/virtio/virtio_input.o
+  CC      arch/x86/lib/usercopy_64.o
+  CC [M]  drivers/virtio/virtio_dma_buf.o
+  CC      arch/x86/lib/inat.o
+  AR      arch/x86/lib/lib.a
+  LD [M]  drivers/virtio/virtio_pci.o
+  CC [M]  drivers/char/hw_random/virtio-rng.o
+  CC [M]  sound/virtio/virtio_card.o
+  CC [M]  drivers/char/virtio_console.o
+  CC [M]  sound/virtio/virtio_chmap.o
+  CC [M]  sound/virtio/virtio_ctl_msg.o
+  CC [M]  drivers/gpu/drm/vkms/vkms_drv.o
+  CC [M]  sound/virtio/virtio_jack.o
+  CC [M]  drivers/gpu/drm/vkms/vkms_plane.o
+  CC [M]  sound/virtio/virtio_pcm.o
+  CC [M]  drivers/gpu/drm/vkms/vkms_output.o
+  CC [M]  sound/virtio/virtio_pcm_msg.o
+  CC [M]  drivers/gpu/drm/vkms/vkms_formats.o
+  CC [M]  sound/virtio/virtio_pcm_ops.o
+  LD [M]  sound/virtio/virtio_snd.o
+  CC [M]  drivers/gpu/drm/virtio/virtgpu_drv.o
+  CC [M]  drivers/gpu/drm/vkms/vkms_crtc.o
+  CC [M]  drivers/gpu/drm/vkms/vkms_composer.o
+  CC [M]  drivers/gpu/drm/virtio/virtgpu_kms.o
+  CC [M]  drivers/gpu/drm/vkms/vkms_writeback.o
+  CC [M]  drivers/gpu/drm/virtio/virtgpu_gem.o
+  LD [M]  drivers/gpu/drm/vkms/vkms.o
+  CC [M]  drivers/gpu/drm/virtio/virtgpu_vram.o
+  CC [M]  net/core/failover.o
+  CC [M]  drivers/gpu/drm/virtio/virtgpu_display.o
+  CC [M]  net/8021q/vlan.o
+  CC [M]  drivers/gpu/drm/virtio/virtgpu_vq.o
+  CC [M]  net/8021q/vlan_dev.o
+  CC [M]  drivers/gpu/drm/virtio/virtgpu_fence.o
+  CC [M]  net/8021q/vlan_netlink.o
+  CC [M]  drivers/gpu/drm/virtio/virtgpu_object.o
+  CC [M]  net/8021q/vlanproc.o
+  CC [M]  drivers/gpu/drm/virtio/virtgpu_debugfs.o
+  LD [M]  net/8021q/8021q.o
+  CC [M]  drivers/gpu/drm/virtio/virtgpu_plane.o
+  CC [M]  net/wireless/core.o
+  CC [M]  drivers/gpu/drm/virtio/virtgpu_ioctl.o
+  CC [M]  drivers/gpu/drm/virtio/virtgpu_prime.o
+  CC [M]  net/wireless/sysfs.o
+  CC [M]  drivers/gpu/drm/virtio/virtgpu_trace_points.o
+  LD [M]  drivers/gpu/drm/virtio/virtio-gpu.o
+  CC [M]  drivers/block/zram/zcomp.o
+  CC [M]  net/wireless/radiotap.o
+  CC [M]  drivers/block/zram/zram_drv.o
+  CC [M]  net/wireless/util.o
+  LD [M]  drivers/block/zram/zram.o
+  CC [M]  drivers/block/virtio_blk.o
+  CC [M]  drivers/nvdimm/virtio_pmem.o
+  CC [M]  drivers/nvdimm/nd_virtio.o
+  CC [M]  net/wireless/reg.o
+  CC [M]  drivers/dma-buf/heaps/system_heap.o
+  CC [M]  drivers/net/wireless/mediatek/mt76/mt76x0/usb.o
+  CC [M]  drivers/net/wireless/mediatek/mt76/mt76x0/usb_mcu.o
+  CC [M]  net/wireless/scan.o
+  CC [M]  drivers/net/wireless/mediatek/mt76/mt76x0/init.o
+  CC [M]  drivers/net/wireless/mediatek/mt76/mt76x0/main.o
+  CC [M]  net/wireless/nl80211.o
+  CC [M]  drivers/net/wireless/mediatek/mt76/mt76x0/eeprom.o
+  CC [M]  drivers/net/wireless/mediatek/mt76/mt76x0/phy.o
+  LD [M]  drivers/net/wireless/mediatek/mt76/mt76x0/mt76x0u.o
+  LD [M]  drivers/net/wireless/mediatek/mt76/mt76x0/mt76x0-common.o
+  CC [M]  drivers/net/wireless/mediatek/mt76/mt76x2/eeprom.o
+  CC [M]  drivers/net/wireless/mediatek/mt76/mt76x2/mac.o
+  CC [M]  drivers/net/wireless/mediatek/mt76/mt76x2/init.o
+  CC [M]  drivers/net/wireless/mediatek/mt76/mt76x2/phy.o
+  CC [M]  net/wireless/mlme.o
+  CC [M]  drivers/net/wireless/mediatek/mt76/mt76x2/mcu.o
+  CC [M]  drivers/net/wireless/mediatek/mt76/mt76x2/usb.o
+  CC [M]  net/wireless/ibss.o
+  CC [M]  drivers/net/wireless/mediatek/mt76/mt76x2/usb_init.o
+  CC [M]  drivers/net/wireless/mediatek/mt76/mt76x2/usb_main.o
+  CC [M]  net/wireless/sme.o
+  CC [M]  drivers/net/wireless/mediatek/mt76/mt76x2/usb_mac.o
+  CC [M]  drivers/net/wireless/mediatek/mt76/mt76x2/usb_mcu.o
+  CC [M]  drivers/net/wireless/mediatek/mt76/mt76x2/usb_phy.o
+  CC [M]  net/wireless/chan.o
+  LD [M]  drivers/net/wireless/mediatek/mt76/mt76x2/mt76x2-common.o
+  LD [M]  drivers/net/wireless/mediatek/mt76/mt76x2/mt76x2u.o
+  CC [M]  drivers/net/wireless/mediatek/mt76/mmio.o
+  CC [M]  drivers/net/wireless/mediatek/mt76/util.o
+  CC [M]  net/wireless/ethtool.o
+  CC [M]  drivers/net/wireless/mediatek/mt76/trace.o
+  CC [M]  net/wireless/mesh.o
+  CC [M]  drivers/net/wireless/mediatek/mt76/dma.o
+  CC [M]  net/wireless/ap.o
+  CC [M]  drivers/net/wireless/mediatek/mt76/mac80211.o
+  CC [M]  net/wireless/trace.o
+  CC [M]  drivers/net/wireless/mediatek/mt76/debugfs.o
+  CC [M]  drivers/net/wireless/mediatek/mt76/eeprom.o
+  CC [M]  drivers/net/wireless/mediatek/mt76/tx.o
+  CC [M]  drivers/net/wireless/mediatek/mt76/agg-rx.o
+  CC [M]  drivers/net/wireless/mediatek/mt76/mcu.o
+  CC [M]  drivers/net/wireless/mediatek/mt76/pci.o
+  CC [M]  drivers/net/wireless/mediatek/mt76/testmode.o
+  CC [M]  net/wireless/ocb.o
+  CC [M]  net/wireless/pmsr.o
+  CC [M]  drivers/net/wireless/mediatek/mt76/usb.o
+  CC [M]  drivers/net/wireless/mediatek/mt76/usb_trace.o
+  CC [M]  net/wireless/of.o
+  CC [M]  drivers/net/wireless/mediatek/mt76/mt76x02_util.o
+  GEN     net/wireless/shipped-certs.c
+  CC [M]  net/wireless/shipped-certs.o
+  LD [M]  net/wireless/cfg80211.o
+  CC [M]  net/vmw_vsock/virtio_transport.o
+  CC [M]  drivers/net/wireless/mediatek/mt76/mt76x02_mac.o
+  LD [M]  net/vmw_vsock/vmw_vsock_virtio_transport.o
+  CC [M]  net/can/af_can.o
+  CC [M]  drivers/net/wireless/mediatek/mt76/mt76x02_mcu.o
+  CC [M]  net/can/proc.o
+  CC [M]  drivers/net/wireless/mediatek/mt76/mt76x02_eeprom.o
+  CC [M]  net/can/raw.o
+  CC [M]  net/can/bcm.o
+  CC [M]  drivers/net/wireless/mediatek/mt76/mt76x02_phy.o
+  CC [M]  net/can/gw.o
+  CC [M]  drivers/net/wireless/mediatek/mt76/mt76x02_mmio.o
+  LD [M]  net/can/can.o
+  LD [M]  net/can/can-raw.o
+  LD [M]  net/can/can-bcm.o
+  LD [M]  net/can/can-gw.o
+  CC [M]  net/bluetooth/rfcomm/core.o
+  CC [M]  drivers/net/wireless/mediatek/mt76/mt76x02_txrx.o
+  CC [M]  drivers/net/wireless/mediatek/mt76/mt76x02_trace.o
+  CC [M]  net/bluetooth/rfcomm/sock.o
+  CC [M]  drivers/net/wireless/mediatek/mt76/mt76x02_debugfs.o
+  CC [M]  net/bluetooth/rfcomm/tty.o
+  CC [M]  drivers/net/wireless/mediatek/mt76/mt76x02_dfs.o
+  LD [M]  net/bluetooth/rfcomm/rfcomm.o
+  CC [M]  net/bluetooth/hidp/core.o
+  CC [M]  drivers/net/wireless/mediatek/mt76/mt76x02_beacon.o
+  CC [M]  net/bluetooth/hidp/sock.o
+  CC [M]  drivers/net/wireless/mediatek/mt76/mt76x02_usb_mcu.o
+  LD [M]  net/bluetooth/hidp/hidp.o
+  CC [M]  net/bluetooth/af_bluetooth.o
+  CC [M]  drivers/net/wireless/mediatek/mt76/mt76x02_usb_core.o
+  CC [M]  net/bluetooth/hci_core.o
+  LD [M]  drivers/net/wireless/mediatek/mt76/mt76.o
+  LD [M]  drivers/net/wireless/mediatek/mt76/mt76-usb.o
+  LD [M]  drivers/net/wireless/mediatek/mt76/mt76x02-lib.o
+  LD [M]  drivers/net/wireless/mediatek/mt76/mt76x02-usb.o
+  CC [M]  drivers/net/wireless/mac80211_hwsim.o
+  CC [M]  net/bluetooth/hci_conn.o
+  CC [M]  drivers/net/wireless/virt_wifi.o
+  CC [M]  drivers/net/can/dev/skb.o
+  CC [M]  net/bluetooth/hci_event.o
+  CC [M]  drivers/net/can/dev/calc_bittiming.o
+  CC [M]  drivers/net/can/dev/bittiming.o
+  CC [M]  drivers/net/can/dev/dev.o
+  CC [M]  net/bluetooth/mgmt.o
+  CC [M]  drivers/net/can/dev/length.o
+  CC [M]  drivers/net/can/dev/netlink.o
+  CC [M]  drivers/net/can/dev/rx-offload.o
+  CC [M]  net/bluetooth/hci_sock.o
+  LD [M]  drivers/net/can/dev/can-dev.o
+  CC [M]  drivers/net/can/usb/gs_usb.o
+  CC [M]  net/bluetooth/hci_sysfs.o
+  CC [M]  drivers/net/can/slcan/slcan-core.o
+  CC [M]  net/bluetooth/l2cap_core.o
+  CC [M]  drivers/net/can/slcan/slcan-ethtool.o
+  LD [M]  drivers/net/can/slcan/slcan.o
+  CC [M]  drivers/net/can/vcan.o
+  CC [M]  drivers/net/ppp/ppp_generic.o
+  CC [M]  net/bluetooth/l2cap_sock.o
+  CC [M]  drivers/net/ppp/bsd_comp.o
+  CC [M]  drivers/net/ppp/ppp_deflate.o
+  CC [M]  drivers/net/ppp/ppp_mppe.o
+  CC [M]  net/bluetooth/smp.o
+  CC [M]  drivers/net/ppp/pppox.o
+  CC [M]  drivers/net/ppp/pptp.o
+  CC [M]  net/bluetooth/lib.o
+  CC [M]  drivers/net/slip/slhc.o
+  CC [M]  net/bluetooth/ecdh_helper.o
+  CC [M]  net/bluetooth/hci_request.o
+  CC [M]  drivers/net/virtio_net.o
+  CC [M]  net/bluetooth/mgmt_util.o
+  CC [M]  net/bluetooth/mgmt_config.o
+  CC [M]  net/bluetooth/hci_codec.o
+  CC [M]  drivers/net/net_failover.o
+  CC [M]  net/bluetooth/eir.o
+  CC [M]  drivers/usb/gadget/udc/dummy_hcd.o
+  CC [M]  net/bluetooth/hci_sync.o
+  CC [M]  drivers/usb/class/cdc-acm.o
+  CC [M]  drivers/usb/serial/usb-serial.o
+  CC [M]  drivers/usb/serial/generic.o
+  CC [M]  net/bluetooth/sco.o
+  CC [M]  drivers/usb/serial/bus.o
+  CC [M]  net/bluetooth/iso.o
+  CC [M]  drivers/usb/serial/ftdi_sio.o
+  LD [M]  drivers/usb/serial/usbserial.o
+  CC [M]  drivers/usb/usbip/usbip_common.o
+  CC [M]  net/bluetooth/hci_debugfs.o
+  CC [M]  drivers/usb/usbip/usbip_event.o
+  LD [M]  net/bluetooth/bluetooth.o
+  CC [M]  net/l2tp/l2tp_core.o
+  CC [M]  drivers/usb/usbip/vhci_sysfs.o
+  CC [M]  drivers/usb/usbip/vhci_tx.o
+  CC [M]  drivers/usb/usbip/vhci_rx.o
+  CC [M]  net/l2tp/l2tp_ppp.o
+  CC [M]  drivers/usb/usbip/vhci_hcd.o
+  CC [M]  net/mac80211/main.o
+  LD [M]  drivers/usb/usbip/usbip-core.o
+  LD [M]  drivers/usb/usbip/vhci-hcd.o
+  CC [M]  drivers/rtc/rtc-test.o
+  CC [M]  drivers/media/cec/usb/pulse8/pulse8-cec.o
+  CC [M]  net/mac80211/status.o
+  CC [M]  drivers/power/supply/goldfish_battery.o
+  CC [M]  drivers/cpufreq/dummy-cpufreq.o
+  CC [M]  net/mac80211/driver-ops.o
+  CC [M]  drivers/bluetooth/hci_vhci.o
+  CC [M]  drivers/bluetooth/hci_ldisc.o
+  CC [M]  net/mac80211/sta_info.o
+  CC [M]  drivers/bluetooth/hci_serdev.o
+  CC [M]  drivers/bluetooth/hci_h4.o
+  CC [M]  net/mac80211/wep.o
+  CC [M]  drivers/bluetooth/hci_ll.o
+  CC [M]  net/mac80211/aead_api.o
+  CC [M]  drivers/bluetooth/hci_bcm.o
+  CC [M]  net/mac80211/wpa.o
+  CC [M]  drivers/bluetooth/hci_qca.o
+  CC [M]  net/mac80211/scan.o
+  CC [M]  drivers/bluetooth/btusb.o
+  CC [M]  net/mac80211/offchannel.o
+  CC [M]  drivers/bluetooth/btsdio.o
+  CC [M]  drivers/bluetooth/btintel.o
+  CC [M]  net/mac80211/ht.o
+  CC [M]  drivers/bluetooth/btbcm.o
+  CC [M]  net/mac80211/agg-tx.o
+  CC [M]  drivers/bluetooth/btrtl.o
+  CC [M]  drivers/bluetooth/btqca.o
+  CC [M]  net/mac80211/agg-rx.o
+  LD [M]  drivers/bluetooth/hci_uart.o
+  CC [M]  net/mac80211/vht.o
+  CC [M]  net/mac80211/he.o
+  CC [M]  net/mac80211/s1g.o
+  CC [M]  net/mac80211/ibss.o
+  CC [M]  net/mac80211/iface.o
+  CC [M]  net/mac80211/link.o
+  CC [M]  net/mac80211/rate.o
+  CC [M]  net/mac80211/michael.o
+  CC [M]  net/tipc/addr.o
+  CC [M]  net/mac80211/tkip.o
+  CC [M]  net/tipc/bcast.o
+  CC [M]  net/tipc/bearer.o
+  CC [M]  net/mac80211/aes_cmac.o
+  CC [M]  net/mac80211/aes_gmac.o
+  CC [M]  net/tipc/core.o
+  CC [M]  net/mac80211/fils_aead.o
+  CC [M]  net/tipc/link.o
+  CC [M]  net/mac80211/cfg.o
+  CC [M]  net/tipc/discover.o
+  CC [M]  net/tipc/msg.o
+  CC [M]  net/mac80211/ethtool.o
+  CC [M]  net/tipc/name_distr.o
+  CC [M]  net/tipc/subscr.o
+  CC [M]  net/mac80211/rx.o
+  CC [M]  net/tipc/monitor.o
+  CC [M]  net/tipc/name_table.o
+  CC [M]  net/tipc/net.o
+  CC [M]  net/mac80211/spectmgmt.o
+  CC [M]  net/tipc/netlink.o
+  CC [M]  net/mac80211/tx.o
+  CC [M]  net/tipc/netlink_compat.o
+  CC [M]  net/tipc/node.o
+  CC [M]  net/tipc/socket.o
+  CC [M]  net/mac80211/key.o
+  CC [M]  net/mac80211/util.o
+  CC [M]  net/tipc/eth_media.o
+  CC [M]  net/tipc/topsrv.o
+  CC [M]  net/tipc/group.o
+  CC [M]  net/mac80211/wme.o
+  CC [M]  net/tipc/trace.o
+  CC [M]  net/mac80211/chan.o
+  CC [M]  net/tipc/udp_media.o
+  CC [M]  net/tipc/sysctl.o
+  CC [M]  net/mac80211/trace.o
+  CC [M]  net/tipc/crypto.o
+  CC [M]  net/tipc/diag.o
+  LD [M]  net/tipc/tipc.o
+  CC [M]  net/mac80211/mlme.o
+  CC [M]  net/mac80211/tdls.o
+  CC [M]  net/mac80211/ocb.o
+  CC [M]  net/mac80211/airtime.o
+  CC [M]  net/mac80211/eht.o
+  CC [M]  net/rfkill/core.o
+  LD [M]  net/rfkill/rfkill.o
+  CC [M]  net/6lowpan/core.o
+  CC [M]  net/mac80211/pm.o
+  CC [M]  net/6lowpan/iphc.o
+  CC [M]  net/6lowpan/nhc.o
+  CC [M]  net/mac80211/rc80211_minstrel_ht.o
+  CC [M]  net/6lowpan/ndisc.o
+  CC [M]  net/6lowpan/nhc_dest.o
+  LD [M]  net/mac80211/mac80211.o
+  CC [M]  net/6lowpan/nhc_fragment.o
+  CC [M]  net/6lowpan/nhc_hop.o
+  CC [M]  net/6lowpan/nhc_ipv6.o
+  CC [M]  net/6lowpan/nhc_mobility.o
+  CC [M]  net/6lowpan/nhc_routing.o
+  CC [M]  net/6lowpan/nhc_udp.o
+  CC [M]  net/ieee802154/6lowpan/core.o
+  LD [M]  net/6lowpan/6lowpan.o
+  CC [M]  net/mac802154/main.o
+  CC [M]  net/ieee802154/6lowpan/rx.o
+  CC [M]  net/ieee802154/6lowpan/reassembly.o
+  CC [M]  net/mac802154/rx.o
+  CC [M]  net/ieee802154/6lowpan/tx.o
+  CC [M]  net/mac802154/tx.o
+  CC [M]  net/mac802154/mac_cmd.o
+  LD [M]  net/ieee802154/6lowpan/ieee802154_6lowpan.o
+  CC [M]  net/ieee802154/netlink.o
+  CC [M]  net/ieee802154/nl-mac.o
+  CC [M]  net/mac802154/mib.o
+  CC [M]  net/mac802154/iface.o
+  CC [M]  net/ieee802154/nl-phy.o
+  CC [M]  net/mac802154/llsec.o
+  CC [M]  net/ieee802154/nl_policy.o
+  CC [M]  net/ieee802154/core.o
+  CC [M]  net/mac802154/util.o
+  CC [M]  net/ieee802154/header_ops.o
+  CC [M]  net/mac802154/cfg.o
+  CC [M]  net/ieee802154/sysfs.o
+  CC [M]  net/mac802154/trace.o
+  CC [M]  net/ieee802154/nl802154.o
+  LD [M]  net/mac802154/mac802154.o
+  CC [M]  net/nfc/core.o
+  CC [M]  net/ieee802154/trace.o
+  CC [M]  net/nfc/netlink.o
+  CC [M]  net/ieee802154/socket.o
+  CC [M]  net/nfc/af_nfc.o
+  LD [M]  net/ieee802154/ieee802154.o
+  LD [M]  net/ieee802154/ieee802154_socket.o
+  CC [M]  net/nfc/rawsock.o
+  CC [M]  net/nfc/llcp_core.o
+  CC [M]  net/nfc/llcp_commands.o
+  CC [M]  net/nfc/llcp_sock.o
+  LD [M]  net/nfc/nfc.o
+  MODPOST modules-only.symvers
+  GEN     Module.symvers
+  CC [M]  drivers/block/virtio_blk.mod.o
+  CC [M]  drivers/block/zram/zram.mod.o
+  CC [M]  drivers/bluetooth/btbcm.mod.o
+  CC [M]  drivers/bluetooth/btintel.mod.o
+  CC [M]  drivers/bluetooth/btqca.mod.o
+  CC [M]  drivers/bluetooth/btrtl.mod.o
+  CC [M]  drivers/bluetooth/btsdio.mod.o
+  CC [M]  drivers/bluetooth/btusb.mod.o
+  CC [M]  drivers/bluetooth/hci_uart.mod.o
+  CC [M]  drivers/bluetooth/hci_vhci.mod.o
+  CC [M]  drivers/char/hw_random/virtio-rng.mod.o
+  CC [M]  drivers/char/virtio_console.mod.o
+  CC [M]  drivers/cpufreq/dummy-cpufreq.mod.o
+  CC [M]  drivers/dma-buf/heaps/system_heap.mod.o
+  CC [M]  drivers/gpu/drm/virtio/virtio-gpu.mod.o
+  CC [M]  drivers/gpu/drm/vkms/vkms.mod.o
+  CC [M]  drivers/media/cec/usb/pulse8/pulse8-cec.mod.o
+  CC [M]  drivers/net/can/dev/can-dev.mod.o
+  CC [M]  drivers/net/can/slcan/slcan.mod.o
+  CC [M]  drivers/net/can/usb/gs_usb.mod.o
+  CC [M]  drivers/net/can/vcan.mod.o
+  CC [M]  drivers/net/net_failover.mod.o
+  CC [M]  drivers/net/ppp/bsd_comp.mod.o
+  CC [M]  drivers/net/ppp/ppp_deflate.mod.o
+  CC [M]  drivers/net/ppp/ppp_generic.mod.o
+  CC [M]  drivers/net/ppp/ppp_mppe.mod.o
+  CC [M]  drivers/net/ppp/pppox.mod.o
+  CC [M]  drivers/net/ppp/pptp.mod.o
+  CC [M]  drivers/net/slip/slhc.mod.o
+  CC [M]  drivers/net/virtio_net.mod.o
+  CC [M]  drivers/net/wireless/mac80211_hwsim.mod.o
+  CC [M]  drivers/net/wireless/mediatek/mt76/mt76-usb.mod.o
+  CC [M]  drivers/net/wireless/mediatek/mt76/mt76.mod.o
+  CC [M]  drivers/net/wireless/mediatek/mt76/mt76x0/mt76x0-common.mod.o
+  CC [M]  drivers/net/wireless/mediatek/mt76/mt76x0/mt76x0u.mod.o
+  CC [M]  drivers/net/wireless/mediatek/mt76/mt76x02-lib.mod.o
+  CC [M]  drivers/net/wireless/mediatek/mt76/mt76x02-usb.mod.o
+  CC [M]  drivers/net/wireless/mediatek/mt76/mt76x2/mt76x2-common.mod.o
+  CC [M]  drivers/net/wireless/mediatek/mt76/mt76x2/mt76x2u.mod.o
+  CC [M]  drivers/net/wireless/virt_wifi.mod.o
+  CC [M]  drivers/nvdimm/nd_virtio.mod.o
+  CC [M]  drivers/nvdimm/virtio_pmem.mod.o
+  CC [M]  drivers/power/supply/goldfish_battery.mod.o
+  CC [M]  drivers/rtc/rtc-test.mod.o
+  CC [M]  drivers/usb/class/cdc-acm.mod.o
+  CC [M]  drivers/usb/gadget/udc/dummy_hcd.mod.o
+  CC [M]  drivers/usb/serial/ftdi_sio.mod.o
+  CC [M]  drivers/usb/serial/usbserial.mod.o
+  CC [M]  drivers/usb/usbip/usbip-core.mod.o
+  CC [M]  drivers/usb/usbip/vhci-hcd.mod.o
+  CC [M]  drivers/virtio/virtio_balloon.mod.o
+  CC [M]  drivers/virtio/virtio_dma_buf.mod.o
+  CC [M]  drivers/virtio/virtio_input.mod.o
+  CC [M]  drivers/virtio/virtio_pci.mod.o
+  CC [M]  drivers/virtio/virtio_pci_legacy_dev.mod.o
+  CC [M]  drivers/virtio/virtio_pci_modern_dev.mod.o
+  CC [M]  lib/crypto/libarc4.mod.o
+  CC [M]  lib/test_meminit.mod.o
+  CC [M]  mm/zsmalloc.mod.o
+  CC [M]  net/6lowpan/6lowpan.mod.o
+  CC [M]  net/6lowpan/nhc_dest.mod.o
+  CC [M]  net/6lowpan/nhc_fragment.mod.o
+  CC [M]  net/6lowpan/nhc_hop.mod.o
+  CC [M]  net/6lowpan/nhc_ipv6.mod.o
+  CC [M]  net/6lowpan/nhc_mobility.mod.o
+  CC [M]  net/6lowpan/nhc_routing.mod.o
+  CC [M]  net/6lowpan/nhc_udp.mod.o
+  CC [M]  net/8021q/8021q.mod.o
+  CC [M]  net/bluetooth/bluetooth.mod.o
+  CC [M]  net/bluetooth/hidp/hidp.mod.o
+  CC [M]  net/bluetooth/rfcomm/rfcomm.mod.o
+  CC [M]  net/can/can-bcm.mod.o
+  CC [M]  net/can/can-gw.mod.o
+  CC [M]  net/can/can-raw.mod.o
+  CC [M]  net/can/can.mod.o
+  CC [M]  net/core/failover.mod.o
+  CC [M]  net/ieee802154/6lowpan/ieee802154_6lowpan.mod.o
+  CC [M]  net/ieee802154/ieee802154.mod.o
+  CC [M]  net/ieee802154/ieee802154_socket.mod.o
+  CC [M]  net/l2tp/l2tp_core.mod.o
+  CC [M]  net/l2tp/l2tp_ppp.mod.o
+  CC [M]  net/mac80211/mac80211.mod.o
+  CC [M]  net/mac802154/mac802154.mod.o
+  CC [M]  net/nfc/nfc.mod.o
+  CC [M]  net/rfkill/rfkill.mod.o
+  CC [M]  net/tipc/diag.mod.o
+  CC [M]  net/tipc/tipc.mod.o
+  CC [M]  net/vmw_vsock/vmw_vsock_virtio_transport.mod.o
+  CC [M]  net/wireless/cfg80211.mod.o
+  CC [M]  sound/virtio/virtio_snd.mod.o
+  LD [M]  drivers/block/virtio_blk.ko
+  LD [M]  drivers/block/zram/zram.ko
+  BTF [M] drivers/block/virtio_blk.ko
+  BTF [M] drivers/block/zram/zram.ko
+  LD [M]  drivers/bluetooth/btbcm.ko
+  LD [M]  drivers/bluetooth/btintel.ko
+  BTF [M] drivers/bluetooth/btbcm.ko
+  BTF [M] drivers/bluetooth/btintel.ko
+  LD [M]  drivers/bluetooth/btqca.ko
+  LD [M]  drivers/bluetooth/btrtl.ko
+  BTF [M] drivers/bluetooth/btqca.ko
+  BTF [M] drivers/bluetooth/btrtl.ko
+  LD [M]  drivers/bluetooth/btsdio.ko
+  LD [M]  drivers/bluetooth/btusb.ko
+  BTF [M] drivers/bluetooth/btsdio.ko
+  BTF [M] drivers/bluetooth/btusb.ko
+  LD [M]  drivers/bluetooth/hci_uart.ko
+  LD [M]  drivers/bluetooth/hci_vhci.ko
+  BTF [M] drivers/bluetooth/hci_uart.ko
+  BTF [M] drivers/bluetooth/hci_vhci.ko
+  LD [M]  drivers/char/hw_random/virtio-rng.ko
+  BTF [M] drivers/char/hw_random/virtio-rng.ko
+  LD [M]  drivers/char/virtio_console.ko
+  BTF [M] drivers/char/virtio_console.ko
+  LD [M]  drivers/cpufreq/dummy-cpufreq.ko
+  BTF [M] drivers/cpufreq/dummy-cpufreq.ko
+  LD [M]  drivers/dma-buf/heaps/system_heap.ko
+  BTF [M] drivers/dma-buf/heaps/system_heap.ko
+  LD [M]  drivers/gpu/drm/virtio/virtio-gpu.ko
+  LD [M]  drivers/gpu/drm/vkms/vkms.ko
+  BTF [M] drivers/gpu/drm/virtio/virtio-gpu.ko
+  BTF [M] drivers/gpu/drm/vkms/vkms.ko
+  LD [M]  drivers/media/cec/usb/pulse8/pulse8-cec.ko
+  LD [M]  drivers/net/can/dev/can-dev.ko
+  BTF [M] drivers/media/cec/usb/pulse8/pulse8-cec.ko
+  BTF [M] drivers/net/can/dev/can-dev.ko
+  LD [M]  drivers/net/can/slcan/slcan.ko
+  BTF [M] drivers/net/can/slcan/slcan.ko
+  LD [M]  drivers/net/can/usb/gs_usb.ko
+  BTF [M] drivers/net/can/usb/gs_usb.ko
+  LD [M]  drivers/net/can/vcan.ko
+  BTF [M] drivers/net/can/vcan.ko
+  LD [M]  drivers/net/net_failover.ko
+  BTF [M] drivers/net/net_failover.ko
+  LD [M]  drivers/net/ppp/bsd_comp.ko
+  BTF [M] drivers/net/ppp/bsd_comp.ko
+  LD [M]  drivers/net/ppp/ppp_deflate.ko
+  BTF [M] drivers/net/ppp/ppp_deflate.ko
+  LD [M]  drivers/net/ppp/ppp_generic.ko
+  BTF [M] drivers/net/ppp/ppp_generic.ko
+  LD [M]  drivers/net/ppp/ppp_mppe.ko
+  BTF [M] drivers/net/ppp/ppp_mppe.ko
+  LD [M]  drivers/net/ppp/pppox.ko
+  BTF [M] drivers/net/ppp/pppox.ko
+  LD [M]  drivers/net/ppp/pptp.ko
+  BTF [M] drivers/net/ppp/pptp.ko
+  LD [M]  drivers/net/slip/slhc.ko
+  BTF [M] drivers/net/slip/slhc.ko
+  LD [M]  drivers/net/virtio_net.ko
+  BTF [M] drivers/net/virtio_net.ko
+  LD [M]  drivers/net/wireless/mac80211_hwsim.ko
+  BTF [M] drivers/net/wireless/mac80211_hwsim.ko
+  LD [M]  drivers/net/wireless/mediatek/mt76/mt76-usb.ko
+  BTF [M] drivers/net/wireless/mediatek/mt76/mt76-usb.ko
+  LD [M]  drivers/net/wireless/mediatek/mt76/mt76.ko
+  BTF [M] drivers/net/wireless/mediatek/mt76/mt76.ko
+  LD [M]  drivers/net/wireless/mediatek/mt76/mt76x0/mt76x0-common.ko
+  BTF [M] drivers/net/wireless/mediatek/mt76/mt76x0/mt76x0-common.ko
+  LD [M]  drivers/net/wireless/mediatek/mt76/mt76x0/mt76x0u.ko
+  LD [M]  drivers/net/wireless/mediatek/mt76/mt76x02-lib.ko
+  BTF [M] drivers/net/wireless/mediatek/mt76/mt76x0/mt76x0u.ko
+  BTF [M] drivers/net/wireless/mediatek/mt76/mt76x02-lib.ko
+  LD [M]  drivers/net/wireless/mediatek/mt76/mt76x02-usb.ko
+  BTF [M] drivers/net/wireless/mediatek/mt76/mt76x02-usb.ko
+  LD [M]  drivers/net/wireless/mediatek/mt76/mt76x2/mt76x2-common.ko
+  BTF [M] drivers/net/wireless/mediatek/mt76/mt76x2/mt76x2-common.ko
+  LD [M]  drivers/net/wireless/mediatek/mt76/mt76x2/mt76x2u.ko
+  BTF [M] drivers/net/wireless/mediatek/mt76/mt76x2/mt76x2u.ko
+  LD [M]  drivers/net/wireless/virt_wifi.ko
+  BTF [M] drivers/net/wireless/virt_wifi.ko
+  LD [M]  drivers/nvdimm/nd_virtio.ko
+  BTF [M] drivers/nvdimm/nd_virtio.ko
+  LD [M]  drivers/nvdimm/virtio_pmem.ko
+  BTF [M] drivers/nvdimm/virtio_pmem.ko
+  LD [M]  drivers/power/supply/goldfish_battery.ko
+  BTF [M] drivers/power/supply/goldfish_battery.ko
+  LD [M]  drivers/rtc/rtc-test.ko
+  BTF [M] drivers/rtc/rtc-test.ko
+  LD [M]  drivers/usb/class/cdc-acm.ko
+  BTF [M] drivers/usb/class/cdc-acm.ko
+  LD [M]  drivers/usb/gadget/udc/dummy_hcd.ko
+  BTF [M] drivers/usb/gadget/udc/dummy_hcd.ko
+  LD [M]  drivers/usb/serial/ftdi_sio.ko
+  BTF [M] drivers/usb/serial/ftdi_sio.ko
+  LD [M]  drivers/usb/serial/usbserial.ko
+  BTF [M] drivers/usb/serial/usbserial.ko
+  LD [M]  drivers/usb/usbip/usbip-core.ko
+  BTF [M] drivers/usb/usbip/usbip-core.ko
+  LD [M]  drivers/usb/usbip/vhci-hcd.ko
+  BTF [M] drivers/usb/usbip/vhci-hcd.ko
+  LD [M]  drivers/virtio/virtio_balloon.ko
+  BTF [M] drivers/virtio/virtio_balloon.ko
+  LD [M]  drivers/virtio/virtio_dma_buf.ko
+  BTF [M] drivers/virtio/virtio_dma_buf.ko
+  LD [M]  drivers/virtio/virtio_input.ko
+  BTF [M] drivers/virtio/virtio_input.ko
+  LD [M]  drivers/virtio/virtio_pci.ko
+  BTF [M] drivers/virtio/virtio_pci.ko
+  LD [M]  drivers/virtio/virtio_pci_legacy_dev.ko
+  BTF [M] drivers/virtio/virtio_pci_legacy_dev.ko
+  LD [M]  drivers/virtio/virtio_pci_modern_dev.ko
+  BTF [M] drivers/virtio/virtio_pci_modern_dev.ko
+  LD [M]  lib/crypto/libarc4.ko
+  BTF [M] lib/crypto/libarc4.ko
+  LD [M]  lib/test_meminit.ko
+  BTF [M] lib/test_meminit.ko
+  LD [M]  mm/zsmalloc.ko
+  BTF [M] mm/zsmalloc.ko
+  LD [M]  net/6lowpan/6lowpan.ko
+  BTF [M] net/6lowpan/6lowpan.ko
+  LD [M]  net/6lowpan/nhc_dest.ko
+  BTF [M] net/6lowpan/nhc_dest.ko
+  LD [M]  net/6lowpan/nhc_fragment.ko
+  BTF [M] net/6lowpan/nhc_fragment.ko
+  LD [M]  net/6lowpan/nhc_hop.ko
+  BTF [M] net/6lowpan/nhc_hop.ko
+  LD [M]  net/6lowpan/nhc_ipv6.ko
+  BTF [M] net/6lowpan/nhc_ipv6.ko
+  LD [M]  net/6lowpan/nhc_mobility.ko
+  BTF [M] net/6lowpan/nhc_mobility.ko
+  LD [M]  net/6lowpan/nhc_routing.ko
+  BTF [M] net/6lowpan/nhc_routing.ko
+  LD [M]  net/6lowpan/nhc_udp.ko
+  BTF [M] net/6lowpan/nhc_udp.ko
+  LD [M]  net/8021q/8021q.ko
+  BTF [M] net/8021q/8021q.ko
+  LD [M]  net/bluetooth/bluetooth.ko
+  BTF [M] net/bluetooth/bluetooth.ko
+  LD [M]  net/bluetooth/hidp/hidp.ko
+  BTF [M] net/bluetooth/hidp/hidp.ko
+  LD [M]  net/bluetooth/rfcomm/rfcomm.ko
+  LD [M]  net/can/can-bcm.ko
+  BTF [M] net/can/can-bcm.ko
+  BTF [M] net/bluetooth/rfcomm/rfcomm.ko
+  LD [M]  net/can/can-gw.ko
+  LD [M]  net/can/can-raw.ko
+  BTF [M] net/can/can-gw.ko
+  BTF [M] net/can/can-raw.ko
+  LD [M]  net/can/can.ko
+  LD [M]  net/core/failover.ko
+  BTF [M] net/can/can.ko
+  BTF [M] net/core/failover.ko
+  LD [M]  net/ieee802154/6lowpan/ieee802154_6lowpan.ko
+  LD [M]  net/ieee802154/ieee802154.ko
+  BTF [M] net/ieee802154/6lowpan/ieee802154_6lowpan.ko
+  BTF [M] net/ieee802154/ieee802154.ko
+  LD [M]  net/ieee802154/ieee802154_socket.ko
+  BTF [M] net/ieee802154/ieee802154_socket.ko
+  LD [M]  net/l2tp/l2tp_core.ko
+  BTF [M] net/l2tp/l2tp_core.ko
+  LD [M]  net/l2tp/l2tp_ppp.ko
+  BTF [M] net/l2tp/l2tp_ppp.ko
+  LD [M]  net/mac80211/mac80211.ko
+  BTF [M] net/mac80211/mac80211.ko
+  LD [M]  net/mac802154/mac802154.ko
+  BTF [M] net/mac802154/mac802154.ko
+  LD [M]  net/nfc/nfc.ko
+  BTF [M] net/nfc/nfc.ko
+  LD [M]  net/rfkill/rfkill.ko
+  BTF [M] net/rfkill/rfkill.ko
+  LD [M]  net/tipc/diag.ko
+  BTF [M] net/tipc/diag.ko
+  LD [M]  net/tipc/tipc.ko
+  BTF [M] net/tipc/tipc.ko
+  LD [M]  net/vmw_vsock/vmw_vsock_virtio_transport.ko
+  BTF [M] net/vmw_vsock/vmw_vsock_virtio_transport.ko
+  LD [M]  net/wireless/cfg80211.ko
+  LD [M]  sound/virtio/virtio_snd.ko
+  BTF [M] sound/virtio/virtio_snd.ko
+  BTF [M] net/wireless/cfg80211.ko
+make[1]: Leaving directory '/work/vendor-out'
+make: Leaving directory '/work/src'
+make: Entering directory '/work/src'
+make[1]: Entering directory '/work/vendor-out'
+  CC [M]  /work/goldfish/goldfish_address_space.o
+  CC [M]  /work/goldfish/goldfish_pipe_base.o
+  CC [M]  /work/goldfish/goldfish_pipe_v1.o
+  CC [M]  /work/goldfish/goldfish_pipe_v2.o
+  CC [M]  /work/goldfish/goldfish_sync.o
+  LD [M]  /work/goldfish/goldfish_pipe.o
+  MODPOST /work/goldfish/Module.symvers
+  CC [M]  /work/goldfish/goldfish_address_space.mod.o
+  CC [M]  /work/goldfish/goldfish_pipe.mod.o
+  CC [M]  /work/goldfish/goldfish_sync.mod.o
+  LD [M]  /work/goldfish/goldfish_address_space.ko
+  LD [M]  /work/goldfish/goldfish_pipe.ko
+  BTF [M] /work/goldfish/goldfish_address_space.ko
+Skipping BTF generation for /work/goldfish/goldfish_address_space.ko due to unavailability of vmlinux
+  BTF [M] /work/goldfish/goldfish_pipe.ko
+Skipping BTF generation for /work/goldfish/goldfish_pipe.ko due to unavailability of vmlinux
+  LD [M]  /work/goldfish/goldfish_sync.ko
+  BTF [M] /work/goldfish/goldfish_sync.ko
+Skipping BTF generation for /work/goldfish/goldfish_sync.ko due to unavailability of vmlinux
+make[1]: Leaving directory '/work/vendor-out'
+make: Leaving directory '/work/src'

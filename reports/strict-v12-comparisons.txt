@@ -1,0 +1,198 @@
+Device identity changes:
+
+Changed identity fields: 0
+
+Check changes:
+  maps.fdinfo_inode: clear -> clear
+    before: pos:64flags:02100000mnt_id:74658ino:59010
+    after:  pos:64flags:02100000mnt_id:74378ino:73595
+  maps.open.noatime: clear -> clear
+    before: bytes=218562
+    after:  bytes=219912
+  maps.open.noctty: clear -> clear
+    before: bytes=218562
+    after:  bytes=219912
+  maps.open.nofollow: clear -> clear
+    before: bytes=218174
+    after:  bytes=219524
+  maps.openat2: clear -> clear
+    before: bytes=218562
+    after:  bytes=219912
+  maps.statx_alias: clear -> clear
+    before: mnt_id=74658;expected=74658
+    after:  mnt_id=74378;expected=74378
+  maps.statx_empty: clear -> clear
+    before: mnt_id=74658;expected=74658
+    after:  mnt_id=74378;expected=74378
+  mountinfo.fdinfo_inode: clear -> clear
+    before: pos:64flags:02100000mnt_id:74658ino:59011
+    after:  pos:64flags:02100000mnt_id:74378ino:72263
+  mountinfo.statx_alias: clear -> clear
+    before: mnt_id=74658;expected=74658
+    after:  mnt_id=74378;expected=74378
+  mountinfo.statx_empty: clear -> clear
+    before: mnt_id=74658;expected=74658
+    after:  mnt_id=74378;expected=74378
+  mounts.fdinfo_inode: clear -> clear
+    before: pos:64flags:02100000mnt_id:74658ino:60410
+    after:  pos:64flags:02100000mnt_id:74378ino:73670
+  mounts.statx_alias: clear -> clear
+    before: mnt_id=74658;expected=74658
+    after:  mnt_id=74378;expected=74378
+  mounts.statx_empty: clear -> clear
+    before: mnt_id=74658;expected=74658
+    after:  mnt_id=74378;expected=74378
+  proc.map_files: clear -> clear
+    before: entries=1470;readable=1470;artifacts=0;
+    after:  entries=1473;readable=1473;artifacts=0;
+  proc.numa_maps: clear -> clear
+    before: bytes=152178
+    after:  bytes=153683
+  smaps.fdinfo_inode: clear -> clear
+    before: pos:64flags:02100000mnt_id:74658ino:60397
+    after:  pos:64flags:02100000mnt_id:74378ino:73658
+  smaps.open.noatime: clear -> clear
+    before: bytes=1511842
+    after:  bytes=1509820
+  smaps.open.noctty: clear -> clear
+    before: bytes=1507544
+    after:  bytes=1509820
+  smaps.open.nofollow: clear -> clear
+    before: bytes=1502699
+    after:  bytes=1503568
+  smaps.openat2: clear -> clear
+    before: bytes=1514610
+    after:  bytes=1509820
+  smaps.statx_alias: clear -> clear
+    before: mnt_id=74658;expected=74658
+    after:  mnt_id=74378;expected=74378
+  smaps.statx_empty: clear -> clear
+    before: mnt_id=74658;expected=74658
+    after:  mnt_id=74378;expected=74378
+
+Remaining detected signals (0):
+
+Unavailable checks (0):
+
+These are heuristic observations, not proof of a physical device or an integrity verdict.
+Device identity changes:
+
+Changed identity fields: 0
+
+Check changes:
+  control.maps.fd_alias: clear -> clear
+    before: /proc/4691/maps
+    after:  /proc/5591/maps
+  control.mountinfo.fd_alias: clear -> clear
+    before: /proc/4691/mountinfo
+    after:  /proc/5591/mountinfo
+  libc.maps.task: clear -> clear
+    before: bytes=218962;
+    after:  bytes=220482;
+  libc.smaps.task: clear -> clear
+    before: bytes=1525939;
+    after:  bytes=1534019;
+  raw.maps.dirfd: clear -> clear
+    before: bytes=218962;
+    after:  bytes=220971;
+  raw.maps.legacy_open: clear -> clear
+    before: bytes=218962;
+    after:  bytes=220482;
+  raw.maps.normalized: clear -> clear
+    before: bytes=218962;
+    after:  bytes=220482;
+  raw.maps.pid: clear -> clear
+    before: bytes=218263;
+    after:  bytes=220373;
+  raw.maps.root_alias: clear -> clear
+    before: bytes=219107;
+    after:  bytes=220482;
+  raw.maps.self: clear -> clear
+    before: bytes=217743;
+    after:  bytes=219853;
+  raw.maps.task: clear -> clear
+    before: bytes=218861;
+    after:  bytes=220482;
+  raw.maps.thread_self: clear -> clear
+    before: bytes=218372;
+    after:  bytes=220482;
+  raw.maps.tid: clear -> clear
+    before: bytes=218263;
+    after:  bytes=220482;
+  raw.smaps.dirfd: clear -> clear
+    before: bytes=1525939;
+    after:  bytes=1534019;
+  raw.smaps.legacy_open: clear -> clear
+    before: bytes=1525939;
+    after:  bytes=1534019;
+  raw.smaps.normalized: clear -> clear
+    before: bytes=1525939;
+    after:  bytes=1534019;
+  raw.smaps.pid: clear -> clear
+    before: bytes=1506115;
+    after:  bytes=1513447;
+  raw.smaps.root_alias: clear -> clear
+    before: bytes=1525939;
+    after:  bytes=1534019;
+  raw.smaps.self: clear -> clear
+    before: bytes=1498379;
+    after:  bytes=1510633;
+  raw.smaps.task: clear -> clear
+    before: bytes=1525939;
+    after:  bytes=1534019;
+  raw.smaps.thread_self: clear -> clear
+    before: bytes=1521714;
+    after:  bytes=1518375;
+  raw.smaps.tid: clear -> clear
+    before: bytes=1511708;
+    after:  bytes=1513447;
+
+Remaining detected signals (0):
+
+Unavailable checks (0):
+
+These are heuristic observations, not proof of a physical device or an integrity verdict.
+Device identity changes:
+
+Changed identity fields: 0
+
+Check changes:
+
+Remaining detected signals (0):
+
+Unavailable checks (0):
+
+These are heuristic observations, not proof of a physical device or an integrity verdict.
+Detector: com.reveny.emulator.detection.sample (same APK checksum)
+Findings: 0 -> 0
+Detected: False -> False
+Detector: duck (same APK checksum and ABI)
+Status: complete -> complete
+Detected: True -> True
+Before: Built-in report from the pinned APK corroborated by its current process and dashboard.
+After: Built-in report from the pinned APK corroborated by its current process and dashboard.
+Danger modules: 2 -> 2
+Warning modules: 5 -> 3
+Ready modules: 20 -> 20
+Pending modules: 0 -> 0
+  Native Root: WARNING: 1 native signal(s) need review
+    -> INFO: Native root scan has reduced coverage
+  System Properties: WARNING: 1 property signal(s) need review
+    -> INFO: System property scan has reduced coverage
+Detector: duck (same APK checksum and ABI)
+Status: complete -> complete
+Detected: True -> True
+Before: Built-in report from the pinned APK corroborated by its current process and dashboard.
+After: Built-in report from the pinned APK corroborated by its current process and dashboard.
+Danger modules: 2 -> 2
+Warning modules: 5 -> 2
+Ready modules: 20 -> 20
+Pending modules: 0 -> 0
+  ADB Runtime: WARNING: ADB enabled
+    -> CLEAR: ADB state consistent
+  Mount: CLEAR: No suspicious mount-layer signal
+    -> INFO: Mount observation coverage is limited
+  Native Root: WARNING: 1 native signal(s) need review
+    -> INFO: Native root scan has reduced coverage
+  System Properties: WARNING: 1 property signal(s) need review
+    -> INFO: System property scan has reduced coverage

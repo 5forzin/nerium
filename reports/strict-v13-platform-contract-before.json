@@ -1,0 +1,1 @@
+{"platform_domain_supported":false,"platform_probe_errno":22,"cases":[{"name":"standard_listener_capacity","passed":true,"platform_notifications":0,"application_notifications":0,"errno":16},{"name":"unprivileged_platform_flag_rejected","passed":true,"platform_notifications":0,"application_notifications":0,"errno":16}],"passed":2,"failed":0,"unavailable":9}

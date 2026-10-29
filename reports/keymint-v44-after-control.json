@@ -1,0 +1,100 @@
+{
+  "schema_version": 1,
+  "run_id": "f794e365dfcf41af9cd1e73cbac822b2",
+  "sdk_int": 34,
+  "status": "passed",
+  "controls": {
+    "rsa_pss_sha256": {
+      "status": "passed",
+      "private_encoding_null": true,
+      "key_info": {
+        "inside_secure_hardware": false,
+        "key_size": 2048,
+        "user_authentication_required": false,
+        "security_level": 0,
+        "security_level_consistent": true
+      },
+      "signer_provider": "AndroidKeyStoreBCWorkaround",
+      "valid_signature_verified": true,
+      "public_verifier_provider": "AndroidOpenSSL",
+      "digest": "SHA-256",
+      "mgf1_digest": "SHA-256",
+      "salt_length": 32,
+      "tampered_signature_rejected": true,
+      "certificate_decoded": true,
+      "certificate_subject_matches": true,
+      "certificate_spki_matches": true,
+      "certificate_self_signature_verified": true,
+      "certificate_self_signature_error_class": "none",
+      "certificate_self_signature_classification": "observation",
+      "public_evidence": {
+        "certificate_der_base64": "MIIDPzCCAfOgAwIBAgIBATBBBgkqhkiG9w0BAQowNKAPMA0GCWCGSAFlAwQCAQUAoRwwGgYJKoZIhvcNAQEIMA0GCWCGSAFlAwQCAQUAogMCASAwJTEjMCEGA1UEAxMaQW5kcm9pZExhYiBLZXlNaW50IENvbnRyb2wwHhcNMjQwMTAxMDAwMDAwWhcNNDAwMTAxMDAwMDAwWjAlMSMwIQYDVQQDExpBbmRyb2lkTGFiIEtleU1pbnQgQ29udHJvbDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMuAZgq2fDSRPGG6s6wxWVVgTomS06PxUJporfPzoOQfqVpvplzj9sByewckWUhR0miLyDvYJAqlbim+sKeWJRZ6TA49z1FWU2up4SB+NnAKONifmQYWKItFcfsjIalt6pj4wBif8ndKMqlyiOEJKAWD7ajyJFcFBQBj1hHXOOBWLed8vttPKKW4e9NGTHS7RkgZ6C15t06Q+oixDmYzv60V72mMsrVIvQaeYAyX/t5DIRf3m9X6SW2dH8I9kZsR8IHxFB71B3YJYvAROZJnAeQ/4tqjy+arfozwAMX3ONzQ0RoDIbx3YMvzsPGR4ggDlouVJcNDsS6JyBqKc+wQOcUCAwEAAaMSMBAwDgYDVR0PAQH/BAQDAgeAMEEGCSqGSIb3DQEBCjA0oA8wDQYJYIZIAWUDBAIBBQChHDAaBgkqhkiG9w0BAQgwDQYJYIZIAWUDBAIBBQCiAwIBIAOCAQEAbWWQr6IPyUYEKefxmq35AVDn3QlrT1fVvSMd6FExHi7uviH7eZHhMwUvcT3kMSUKwuKiFuE8OHvfKl8X8h2zY3j/KCKHQUUHASUYtjX2aHl6s/XXHxPEesAPQ8TxAo7weRyGZ7Oaf933yMtWu6CvIecTAzEmus7+pn7vAyeli55N1BNnXOBKQW+R+BzCUeH49nWuj03AkKNjB2BZmyGyQ0hx9tnJvVlt7hgK46jlUcZiV+a8WzC/k+O1uBpyyHMTRaK+o+eJNazLj7bCTKHClt4vnQyQk4M0ysrq5DZcg5NcAhIfJtgCyg86QizJpsOCz+IOcg2qCkx4fmTODSvztg==",
+        "spki_base64": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAy4BmCrZ8NJE8YbqzrDFZVWBOiZLTo/FQmmit8/Og5B+pWm+mXOP2wHJ7ByRZSFHSaIvIO9gkCqVuKb6wp5YlFnpMDj3PUVZTa6nhIH42cAo42J+ZBhYoi0Vx+yMhqW3qmPjAGJ/yd0oyqXKI4QkoBYPtqPIkVwUFAGPWEdc44FYt53y+208opbh700ZMdLtGSBnoLXm3TpD6iLEOZjO/rRXvaYyytUi9Bp5gDJf+3kMhF/eb1fpJbZ0fwj2RmxHwgfEUHvUHdgli8BE5kmcB5D/i2qPL5qt+jPAAxfc43NDRGgMhvHdgy/Ow8ZHiCAOWi5Ulw0OxLonIGopz7BA5xQIDAQAB",
+        "payload_base64": "QW5kcm9pZExhYiBwdWJsaWMgS2V5TWludCBjb250cm9sIHBheWxvYWQgdjE=",
+        "signature_base64": "uk5ftfDCqSPEnQ/Nu63n8SVGKWo3x7b7Zn58FY7LE+U2Ido2QJcjSlsfFKVjs/H61sYhX6UuA1mQZlz2Il8uet5wjxRjxSy0Gqz+C+eqqbc2+1EJakIiqnAoAm+hGE1UQ8zX/DoU88SPCcVf8yM1JnkZsjHpEnWTVMtyAFYhzO3ZV9j5DMa5u8Ih8Lw/WXK2M1YEyseKG9Zf19FcA3aHidByVofB/BgrrAUJo7JSUOihimzGZzcoBhApw9HXKwJiErU4y36dKX2IMpYF5fi9Y7CNZzzA+a2ZFEStO3M2SSJf6OCmBA/xX03VtQnacVyv9jiGTkV6Fc8mgwUmnRNmZg=="
+      },
+      "deleted_key_rejected": true
+    },
+    "ec_p256_sha256": {
+      "status": "passed",
+      "private_encoding_null": true,
+      "key_info": {
+        "inside_secure_hardware": false,
+        "key_size": 256,
+        "user_authentication_required": false,
+        "security_level": 0,
+        "security_level_consistent": true
+      },
+      "valid_signature_verified": true,
+      "changed_payload_rejected": true,
+      "deleted_key_rejected": true
+    },
+    "aes_256_gcm": {
+      "status": "passed",
+      "private_encoding_null": true,
+      "key_info": {
+        "inside_secure_hardware": false,
+        "key_size": 256,
+        "user_authentication_required": false,
+        "security_level": 0,
+        "security_level_consistent": true
+      },
+      "roundtrip_verified": true,
+      "altered_ciphertext_rejected": true,
+      "deleted_key_rejected": true
+    },
+    "hmac_sha256": {
+      "status": "passed",
+      "private_encoding_null": true,
+      "key_info": {
+        "inside_secure_hardware": false,
+        "key_size": 256,
+        "user_authentication_required": false,
+        "security_level": 0,
+        "security_level_consistent": true
+      },
+      "same_input_matches": true,
+      "changed_input_differs": true,
+      "deleted_key_rejected": true
+    }
+  },
+  "started_at_ms": 1793069589314,
+  "cleanup": {
+    "owned_count": 4,
+    "removed_count": 4,
+    "remaining_count": 0,
+    "error_count": 0,
+    "all_removed": true
+  },
+  "completed_at_ms": 1793069589754,
+  "capture": {
+    "apk_sha256": "14378c11de162cf1b49024f47db7531e4b840547c4f62b123a74501a01ac926a",
+    "expected_apk_sha256": "14378c11de162cf1b49024f47db7531e4b840547c4f62b123a74501a01ac926a",
+    "package": "dev.androidlab.keymintcontrol",
+    "avd_name": "device-lab-keymint-v42",
+    "serial": "emulator-5586",
+    "button_text": "Run checks",
+    "button_bounds": "[32,274][1048,400]",
+    "captured_at": "2026-10-27T02:53:04.5221994+00:00"
+  }
+}

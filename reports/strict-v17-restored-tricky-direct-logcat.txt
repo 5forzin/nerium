@@ -1,0 +1,35 @@
+--------- beginning of main
+10-25 00:34:14.064  6518  6518 I TrickyStoreOSS: Welcome to TrickyStoreOSS!
+10-25 00:34:14.977  6518  6518 I TrickyStoreOSS: Attestation probe status=AVAILABLE category=none code=none
+10-25 00:34:14.977  6518  6518 I TrickyStoreOSS: Startup attestation probe: AVAILABLE (none)
+10-25 00:34:14.985  6518  6518 D TrickyStoreOSS: Read ro.boot.vbmeta.digest
+10-25 00:34:14.995  6518  6518 D TrickyStoreOSS: Using boot hash from system property
+10-25 00:34:14.995  6518  6518 I TrickyStoreOSS: Using Keystore2Interceptor for Android S+ (SDK 34)
+10-25 00:34:15.020  6518  6518 I TrickyStoreOSS: Trying to register Keystore2Interceptor (attempt 0)...
+10-25 00:34:15.022  6518  6518 D TrickyStoreOSS: Backdoor access denied for binder: android.os.BinderProxy@e8ff028
+10-25 00:34:15.023  6518  6518 I TrickyStoreOSS: Attempting to inject into keystore2...
+10-25 00:34:15.028  6518  6518 D TrickyStoreOSS: Injection command: /system/bin/sh -c exec ./inject `pidof keystore2` libTrickyStoreOSS.so entry
+10-25 00:34:15.093  6548  6548 I TrickyStoreOSS: TrickyStore injector starting...
+10-25 00:34:15.094  6548  6548 I TrickyStoreOSS: Starting injection of /dev/device-lab-attestation/libTrickyStoreOSS.so (entry: entry) into process 176
+10-25 00:34:15.109   176   176 I TrickyStoreOSS: TrickyStore binder interceptor loaded (handle: 0x63979e723b48f6f7)
+10-25 00:34:15.110   176   176 I TrickyStoreOSS: Installing Binder ioctl interception in libbinder.so
+10-25 00:34:15.120   176   176 I TrickyStoreOSS: Binder interception initialized successfully
+10-25 00:34:15.120   176   176 I TrickyStoreOSS: Binder interception entry point completed successfully
+10-25 00:34:15.121  6548  6548 I TrickyStoreOSS: Library injection completed successfully
+10-25 00:34:15.122  6548  6548 I TrickyStoreOSS: Injection completed successfully
+10-25 00:34:15.126  6518  6518 I TrickyStoreOSS: Injection completed successfully
+10-25 00:34:15.126  6518  6518 D TrickyStoreOSS: Retrying interceptor initialization...
+10-25 00:34:16.135  6518  6518 I TrickyStoreOSS: Trying to register Keystore2Interceptor (attempt 1)...
+10-25 00:34:16.142  6518  6518 D TrickyStoreOSS: Backdoor access granted for binder: android.os.BinderProxy@e8ff028
+10-25 00:34:16.145  6518  6518 I TrickyStoreOSS: Registering for android.system.keystore2.IKeystoreService/default: android.os.BinderProxy@e8ff028
+10-25 00:34:16.148   176   176 I TrickyStoreOSS: Registered interceptor for binder 0x7741d35893f8 (7 codes)
+10-25 00:34:16.149  6518  6518 D TrickyStoreOSS: Registered interceptor for target: android.os.BinderProxy@e8ff028
+10-25 00:34:16.150  6518  6518 I TrickyStoreOSS: Registering for TEE SecurityLevel: android.system.keystore2.IKeystoreSecurityLevel$Stub$Proxy@2aa107d
+10-25 00:34:16.163   176   176 I TrickyStoreOSS: Registered interceptor for binder 0x7741d3589bd8 (3 codes)
+10-25 00:34:16.164  6518  6518 D TrickyStoreOSS: Registered interceptor for target: android.os.BinderProxy@11d4b72
+10-25 00:34:16.171  6518  6518 I TrickyStoreOSS: No StrongBox SecurityLevel found
+10-25 00:34:16.185  6518  6518 I TrickyStoreOSS: update target packages: {com.eltavine.duckdetector=GENERATE}
+10-25 00:34:16.323  6518  6518 W TrickyStoreOSS: Keybox algorithm attribute disagrees with parsed key; using parsed key
+10-25 00:34:16.370  6518  6518 I TrickyStoreOSS: Successfully updated 2 keyboxes
+10-25 00:34:16.371  6518  6518 I TrickyStoreOSS: Interceptors initialized successfully
+10-25 00:34:16.372  6518  6518 I TrickyStoreOSS: Service started, entering maintenance mode

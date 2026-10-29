@@ -1,0 +1,60 @@
+{
+  "scope": "factory Android image and fresh userdata control; v32 experimental AVD was not started or modified",
+  "factory_archive_and_all_members_verified": true,
+  "preinstall_observation": "playstore-v34-before-lab-apps.json",
+  "inode_present_before_any_lab_apk": 65538,
+  "same_inode_after_detector_and_integrity_probe": true,
+  "duck_1093": [
+    {
+      "report": "playstore-v34-stock-duck-first-after-consent.json",
+      "statistics": {
+        "Danger": 3,
+        "Warning": 3,
+        "Ready": 20,
+        "Pending": 0
+      },
+      "same_apk_as_candidate": true,
+      "same_abi_as_candidate": true,
+      "module_changes_from_candidate": [],
+      "native_root_warning_observed": true,
+      "app_reported_shell_tmp_matches_preinstall_observation": true
+    },
+    {
+      "report": "playstore-v34-stock-duck-full.json",
+      "statistics": {
+        "Danger": 3,
+        "Warning": 3,
+        "Ready": 20,
+        "Pending": 0
+      },
+      "same_apk_as_candidate": true,
+      "same_abi_as_candidate": true,
+      "module_changes_from_candidate": [],
+      "native_root_warning_observed": true,
+      "app_reported_shell_tmp_matches_preinstall_observation": true
+    }
+  ],
+  "factory_play_integrity": {
+    "report": "playstore-v34-factory-integrity-verdict.json",
+    "nonce_matches": true,
+    "device_labels": []
+  },
+  "physical_positive_control": {
+    "report": "play-integrity-physical-galaxy-s25-ultra-api35-control.json",
+    "model": "Galaxy S25 Ultra",
+    "device_labels": [
+      "MEETS_DEVICE_INTEGRITY"
+    ],
+    "same_probe_apk_as_factory": true
+  },
+  "native_root_warning_introduced_by_lab_changes": false,
+  "cause_of_filesystem_inode_allocation_proven": false,
+  "zero_detections_achieved": false,
+  "factory_google_component_versions": {
+    "android_api": "34",
+    "build_fingerprint": "google/sdk_gphone64_x86_64/emu64xa:14/UE1A.230829.036.A4/12096271:user/release-keys",
+    "play_store_path": "package:/data/app/~~LtA2vJV-o4wg8AbP0jwq2Q==/com.android.vending-EsvLfCQJKaGireT_Al-n8g==/base.apk",
+    "play_store_version": "53.6.15-34 [0] [PR] 996698724",
+    "play_services_version": "26.41.31 (190800-1002748488)"
+  }
+}

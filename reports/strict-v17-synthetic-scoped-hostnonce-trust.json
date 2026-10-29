@@ -1,0 +1,57 @@
+{
+  "report": "strict-v17-synthetic-scoped-hostnonce.json",
+  "report_sha256": "6bf98a274a28d68d62e4fcf518f461c1364cb31b1372e99c4adfa6d7d42c60dd",
+  "external_root_snapshot_sha256": "b79beef96dd68073f1975bab90970ae85d1ae56d451a819ece6bff3d4e253ab4",
+  "external_root_count": 2,
+  "certificate_signatures_verified": true,
+  "nonce_binding_verified": true,
+  "external_nonce_binding_verified": true,
+  "external_challenge": {
+    "file": "strict-v17-synthetic-scoped-hostnonce-challenge.json",
+    "sha256": "b0bb180716b2c013e13d54091e6e7bb62eca666ce14ff6d86c6295c73a2ed5da"
+  },
+  "key_possession_verified": true,
+  "root_sha256": "b96c7a1fefd5ee20b9852cb3dccbbdd2869d1952da663d8bd59a8e163f4d249b",
+  "root_subject": "CN=Device Lab ECDSA Test Root,O=Device Lab Test Only",
+  "signed_claims": {
+    "attestation_version": 300,
+    "attestation_security_level": 1,
+    "keymaster_version": 300,
+    "keymaster_security_level": 1,
+    "root_of_trust": {
+      "authorization_list": "hardware",
+      "verified_boot_key": "bd86fd243de7f5a034327ddf78180d8c4d3e3543a05e04eafb5275be64234da2",
+      "device_locked": true,
+      "verified_boot_state": 0,
+      "verified_boot_hash": "451e57ed688ff746d2c636d52169ade253e2bc5bb30a5c3ff23679ca15d3bcd3"
+    }
+  },
+  "rkp_metadata": {
+    "attestation_certificate_indices_zero_based": [
+      0
+    ],
+    "provisioning_certificate_indices_zero_based": [],
+    "nearest_root_provisioning_adjacent_to_attestation": null,
+    "root_public_key_matches_external_snapshot": false,
+    "scope": "Extension placement and root matching only; provisioning contents are not authenticated here."
+  },
+  "prerequisites": {
+    "root_certificate_in_external_snapshot": false,
+    "root_public_key_in_external_snapshot": false,
+    "attestation_security_level_is_hardware": true,
+    "keymaster_security_level_is_hardware": true,
+    "root_of_trust_is_hardware_enforced": true,
+    "attested_device_is_locked": true,
+    "attested_boot_is_verified": true,
+    "attested_boot_key_is_nonzero": true,
+    "attested_boot_hash_is_nonzero": true
+  },
+  "failed_prerequisites": [
+    "root_certificate_in_external_snapshot",
+    "root_public_key_in_external_snapshot"
+  ],
+  "revocation_checked": false,
+  "full_pkix_path_validation_performed": false,
+  "manufacturer_trust": "not_established",
+  "scope": "Diagnostic prerequisite audit; matching an anchor alone does not establish hardware trust."
+}

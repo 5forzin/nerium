@@ -1,0 +1,24 @@
+id=device_lab_cpu
+name=Device Lab Namespace
+version=0.10.1
+versionCode=11
+author=Android Device Lab
+description=Scoped CPU, properties, uname and proc compatibility for the configured laboratory apps.
+52ba539b9e93346c44d1c5af2e016c95d7d76d5d18df893875e5e7d95dda99c0  /data/adb/modules/device_lab_cpu/zygisk/x86_64.so
+b5d49acc488928dc9263fde66ba66daf6a06eacd3a26ea8c1421f52d81aef193  /data/adb/modules/device_lab_cpu/service.sh
+u:r:system_server:s0 u:r:system_server:s0 process execmem result=-1 errno=13
+u:r:untrusted_app:s0 u:r:magisk:s0 binder call result=-1 errno=13
+u:r:system_server:s0 u:r:system_server:s0 process getattr result=0 errno=0
+-rw------- 1 root root 0 2026-10-24 18:16 /data/misc/device-lab/adb-auth-enabled
+-rw------- 1 root root 0 2026-10-24 18:16 /data/misc/device-lab/hardening-enabled
+-rw------- 1 root root 0 2026-10-24 19:36 /data/misc/device-lab/network-adb-only-enabled
+-rw------- 1 root root 0 2026-10-24 18:46 /data/misc/device-lab/remove-manager-enabled
+1000:2000:2000:771:/data/local/tmp
+65538:0:0:700:/data/local/device-lab-tmp-v12
+40:0:0:770:/data/lost+found
+0
+0
+mtp
+mtp
+1
+1

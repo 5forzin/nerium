@@ -1,0 +1,165 @@
+{
+  "captured_at": "2026-10-24T21:18:30.9644317+00:00",
+  "detector": "duck",
+  "version": "2026.10.24-b5305070468a (1084)",
+  "package": "com.eltavine.duckdetector",
+  "release": "https://github.com/eltavine/Duck-Detector-Refactoring/releases/tag/nightly-2026-10-24-b5305070",
+  "apk_sha256": "9d0bbdab9c0b14334c9ec0d319758c5f9085260a09388486482b2ac497c81ffc",
+  "installed_abi": "x86_64",
+  "status": "complete",
+  "detected": true,
+  "reason": "Built-in report from the pinned APK corroborated by its current process and dashboard.",
+  "process_id": 4936,
+  "foreground": "topResumedActivity=ActivityRecord{ce3cd2e u0 com.eltavine.duckdetector/.MainActivity t335}",
+  "final_foreground": "topResumedActivity=ActivityRecord{ce3cd2e u0 com.eltavine.duckdetector/.MainActivity t335}",
+  "final_process_id": "4936",
+  "launch": "Capturing the explicitly identified scan after its built-in report export.",
+  "ui_result": "[✖ DANGER] Danger",
+  "visible_text": [
+    "Danger",
+    "Start with Bootloader and Mount.",
+    "2026.10.24-b5305070468a (1084)",
+    "Build (UTC) · 2026-10-24 12:53:38",
+    "Tap to export full report",
+    "Scanned at 2026-10-24 18:18:01 · Total time 34s",
+    "4",
+    "Danger",
+    "7",
+    "Warning",
+    "20",
+    "Ready",
+    "0",
+    "Pending",
+    "Bootloader",
+    "High",
+    "6 critical boot integrity signal(s)",
+    "Unlocked state, attestation contradictions, broken certificate trust, or verified-boot failures indicate reduced device trust.",
+    "Mount",
+    "High",
+    "1 critical mount signal(s)",
+    "A visible process mount table contains a direct root-managed mount token.",
+    "Native Root",
+    "High",
+    "1 runtime root signal(s)",
+    "Read-only ksu_driver hits, direct syscall hits, self-process IOC, root-manager paths, curated runtime residue paths, /data/local/tmp metadata drift, cgroup/process leakage, unexpected root processes, or isolated-process namespace drift indicate active native root infrastructure. The read-only ksu_driver probe was blocked by app seccomp on this device, so the verdict falls back to prctl, self-process IOC, path, cgroup, kernel-string, and property evidence.",
+    "Duck Detector",
+    "Home",
+    "Settings",
+    "ALPHA"
+  ],
+  "screenshot": "strict-v11-duck-hardened-retry.png",
+  "log": "strict-v11-duck-hardened-retry.log",
+  "duck": {
+    "scan_statistics": {
+      "Danger": 4,
+      "Warning": 7,
+      "Ready": 20,
+      "Pending": 0
+    },
+    "module_verdicts": [
+      {
+        "severity": "DANGER",
+        "detector": "Bootloader",
+        "verdict": "6 critical boot integrity signal(s)"
+      },
+      {
+        "severity": "DANGER",
+        "detector": "Mount",
+        "verdict": "1 critical mount signal(s)"
+      },
+      {
+        "severity": "DANGER",
+        "detector": "Native Root",
+        "verdict": "1 runtime root signal(s)"
+      },
+      {
+        "severity": "DANGER",
+        "detector": "TEE",
+        "verdict": "Hardware-backed local verification was not established"
+      },
+      {
+        "severity": "WARNING",
+        "detector": "ADB Runtime",
+        "verdict": "ADB enabled"
+      },
+      {
+        "severity": "WARNING",
+        "detector": "Dangerous Apps",
+        "verdict": "Platform behavior mismatch observed"
+      },
+      {
+        "severity": "WARNING",
+        "detector": "Memory",
+        "verdict": "Runtime memory needs review"
+      },
+      {
+        "severity": "WARNING",
+        "detector": "Root Managers",
+        "verdict": "Root manager apps found"
+      },
+      {
+        "severity": "WARNING",
+        "detector": "SELinux",
+        "verdict": "Enforcing with recognized privileged contexts"
+      },
+      {
+        "severity": "WARNING",
+        "detector": "System Properties",
+        "verdict": "1 property signal(s) need review"
+      },
+      {
+        "severity": "WARNING",
+        "detector": "Zygisk",
+        "verdict": "One heuristic family needs review"
+      },
+      {
+        "severity": "INFO",
+        "detector": "Custom ROM",
+        "verdict": "Custom ROM scan has reduced coverage"
+      },
+      {
+        "severity": "INFO",
+        "detector": "Kernel Check",
+        "verdict": "CVE patch state is informational"
+      },
+      {
+        "severity": "INFO",
+        "detector": "LSPosed",
+        "verdict": "LSPosed scan has reduced coverage"
+      },
+      {
+        "severity": "INFO",
+        "detector": "Location Risk",
+        "verdict": "No local contract mismatch observed"
+      },
+      {
+        "severity": "INFO",
+        "detector": "Network Risk",
+        "verdict": "Network context collected"
+      },
+      {
+        "severity": "INFO",
+        "detector": "SU",
+        "verdict": "No root indicators"
+      },
+      {
+        "severity": "INFO",
+        "detector": "Virtualization",
+        "verdict": "Virtualization scan has reduced coverage"
+      },
+      {
+        "severity": "INFO",
+        "detector": "Zygote heap residue",
+        "verdict": "No target trace observed"
+      },
+      {
+        "severity": "CLEAR",
+        "detector": "Play Integrity Fix",
+        "verdict": "No Play Integrity residue surfaced"
+      }
+    ],
+    "export_report": "strict-v11-duck-hardened-retry-export.txt",
+    "export_sha256": "b0a71ca8a3cf8d546b338b44263c8d30066032531ac0dc2f35f8a893affad7be",
+    "exported_report_mtime": 1792876703
+  }
+}

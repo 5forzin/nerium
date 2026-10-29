@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "decoded_at": "2026-10-25T23:27:06.3221748+00:00",
+  "source_report": "playstore-v26-stock-clone-integrity.json",
+  "token_sha256": "64d01af1df87135cf1875fa517847155eeef2655994538309c64840e941f21ac",
+  "request_package_name": "dev.androidlab.integrityprobe",
+  "nonce_matches": true,
+  "request_timestamp_ms": "1792970809603",
+  "app_recognition_verdict": "UNEVALUATED",
+  "device_recognition_verdict": [],
+  "app_licensing_verdict": "UNEVALUATED"
+}

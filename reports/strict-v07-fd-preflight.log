@@ -1,0 +1,4 @@
+pidfd_open=3 errno=0
+pidfd_getfd=4 errno=0
+kcmp_files=0 errno=0
+kernel_null_getdents=-1 errno=14 position=0

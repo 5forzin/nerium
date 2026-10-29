@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "recorded_at": "2026-10-26T19:46:53.9112125+00:00",
+  "status": "passed",
+  "native_controls_passed": 9,
+  "android_controls_passed": 16,
+  "source_hashes_match": true,
+  "private_artifacts_cleared": true,
+  "own_avd_disconnected": true,
+  "own_launcher_still_running": false,
+  "adb_inventory": [
+    "List of devices attached",
+    "emulator-5554\tdevice",
+    ""
+  ],
+  "preserved_platform_system_sha256": "4806fbc745cd9abbfacc358496508f0ce420010e0ddaccef11e52e5da8e92f0a",
+  "preserved_requester_apk_sha256": "4ad843aca3156d555ce9c3934153c34495bc567144159cffc7faab798f2dd307",
+  "preserved_worker_apk_sha256": "af02d68a3b09eb6bd3aa7292116f24e26533cf7055b785eb127a06886eea0d9f",
+  "hostkey_apk_sha256": "55f64c038d50f87e30660a91dd1a30ea54803fc64330ceb3e81009b4f5b1b31b",
+  "build": ":hostkeyprobe:assembleDebug :hostkeyprobe:lintDebug",
+  "lint_errors": 0,
+  "lint_warnings": 11,
+  "transported_private_key": false,
+  "named_keys_created": false,
+  "provider_fallback": false,
+  "selinux_changed": false,
+  "host_security_changed": false,
+  "base_image_changed": false,
+  "external_root_authenticated": false,
+  "android_tee_verified": false,
+  "keymint_integrated": false,
+  "google_attestation_verified": false,
+  "fresh_detector_run": false,
+  "zero_detections_achieved": false,
+  "reports": [
+    "reports/boottee-v40-native-controls.json",
+    "reports/boottee-v40-android-controls.json",
+    "reports/boottee-v40-android-controls-before-restart.json"
+  ]
+}

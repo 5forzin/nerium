@@ -1,0 +1,74 @@
+[
+  {
+    "name": "missing_bearer_denied",
+    "status_code": 401,
+    "passed": true,
+    "request_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "name": "invalid_bearer_denied",
+    "status_code": 401,
+    "passed": true,
+    "request_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "name": "wrong_path_not_found",
+    "status_code": 404,
+    "passed": true,
+    "request_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "name": "wrong_method_rejected",
+    "status_code": 405,
+    "passed": true,
+    "request_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "name": "malformed_json_rejected",
+    "status_code": 400,
+    "passed": true,
+    "request_sha256": "021fb596db81e6d02bf3d2586ee3981fe519f275c0ac9ca76bbcf2ebb4097d96"
+  },
+  {
+    "name": "extra_json_field_rejected",
+    "status_code": 400,
+    "passed": true,
+    "request_sha256": "8346047aaf51eaac322b78591c0e8ef45c225a29a80efcf937977381908b5dd2"
+  },
+  {
+    "name": "oversized_request_rejected",
+    "status_code": 413,
+    "passed": true,
+    "request_sha256": "4f4ead552223cb2905a4828972dfae7740586dabae603924a7810598256dbdd9"
+  },
+  {
+    "name": "thirty_second_echo_accepted",
+    "status_code": 202,
+    "passed": true,
+    "request_sha256": "da79aabbb170ce5a4d86b862260f9891177726e3c1e6d5df28b17af0cd3158c5"
+  },
+  {
+    "name": "identical_inflight_post_is_idempotent",
+    "status_code": 202,
+    "passed": true,
+    "request_sha256": "da79aabbb170ce5a4d86b862260f9891177726e3c1e6d5df28b17af0cd3158c5"
+  },
+  {
+    "name": "changed_request_conflicts",
+    "status_code": 409,
+    "passed": true,
+    "request_sha256": "60d07d29b9f6a1679c15508f648e3d69bc79167324318c989a1f0d21ff235141"
+  },
+  {
+    "name": "thirty_second_echo_completed_and_bound",
+    "status_code": 200,
+    "passed": true,
+    "request_sha256": "da79aabbb170ce5a4d86b862260f9891177726e3c1e6d5df28b17af0cd3158c5"
+  },
+  {
+    "name": "completed_post_returns_cached_receipt",
+    "status_code": 202,
+    "passed": true,
+    "request_sha256": "da79aabbb170ce5a4d86b862260f9891177726e3c1e6d5df28b17af0cd3158c5"
+  }
+]

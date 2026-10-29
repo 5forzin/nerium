@@ -1,0 +1,14 @@
+.gradle/
+**/build/
+**/.cxx/
+local.properties
+*.iml
+.idea/
+
+# Text evidence referenced by README.md and EXPERIMENT.md is committed.
+# Screenshots, frozen APK/ZIP binaries and one-shot measurement state
+# directories stay local.
+reports/**/*.png
+reports/**/*.apk
+reports/**/*.zip
+reports/*/

@@ -1,0 +1,11 @@
+{
+  "captured_at": "2026-10-25T23:46:09.3864256+00:00",
+  "avd": "device-lab-playstore-platform-v26",
+  "serial": "emulator-5566",
+  "adb_enabled": "1",
+  "adb_wifi_enabled": "0",
+  "usb_config": "adb",
+  "adbd_service": "running",
+  "adbd_pid": "434",
+  "helper_sha256": "47fca6a46fb76fb8714e4b978dc8bb11fad7634b3c13d936a8d663b1b1d6e954"
+}

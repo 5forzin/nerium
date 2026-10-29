@@ -1,0 +1,19 @@
+{
+  "captured_at": "2026-10-24T16:51:22.3478891Z",
+  "process_id": 5196,
+  "app_mount_namespace": "mnt:[4026532990]",
+  "zygote_mount_namespace": "mnt:[4026532925]",
+  "outside_has_hypervisor": true,
+  "app_namespace_has_hypervisor": false,
+  "outside_hardware": "ranchu",
+  "outside_qemu": "1",
+  "outside_properties": {
+    "ro.product.cpu.abilist": "x86_64,arm64-v8a",
+    "ro.dalvik.vm.native.bridge": "libndk_translation.so",
+    "ro.dalvik.vm.isa.arm64": "x86_64",
+    "ro.build.fingerprint": "google/sdk_gphone64_x86_64/emu64xa:14/UE1A.230829.050/12077443:userdebug/dev-keys"
+  },
+  "app_namespace_hardware": "shiba",
+  "selinux": "Enforcing",
+  "namespace_log": "--------- beginning of main\n10-24 13:51:16.885  5196  5196 I DeviceLabNamespace: profile mount status=0 pid=5196\n10-24 13:51:16.960  5196  5196 I DeviceLabNamespace: uname broker status=0 pid=5196\n10-24 13:51:17.308  5196  5196 I DeviceLabNamespace: property remap status=0 pid=5196"
+}

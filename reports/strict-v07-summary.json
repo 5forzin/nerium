@@ -1,0 +1,168 @@
+{
+  "captured_at": "2026-10-24T18:25:44.283356+00:00",
+  "module_version": "0.7.0",
+  "avd": "device-lab-api34",
+  "serial": "emulator-5556",
+  "result_scope": "Measured x86_64 proc interfaces and syscalls, unchanged 79-check x86 APK, unchanged 54-check ARM64 APK, unchanged reveny v1.5.0",
+  "frozen_60_pair": {
+    "before_report": "strict-v07-before-proc",
+    "after_report": "strict-v07-final-frozen60-proc",
+    "before": {
+      "detected": 41,
+      "unavailable": 2,
+      "total": 60
+    },
+    "after": {
+      "detected": 0,
+      "unavailable": 2,
+      "total": 60
+    },
+    "apk_sha256": "504d14fb0cbbb36ad9506e2655b5d4ecba20f290e6963a081668331ebf9a25dd",
+    "installed_abi": "x86_64",
+    "same_apk_and_abi": true
+  },
+  "expanded_95_pair": {
+    "before_report": "strict-v07-expanded-before-proc",
+    "after_report": "strict-v07-reboot-proc95",
+    "before": {
+      "detected": 7,
+      "unavailable": 2,
+      "total": 95
+    },
+    "after": {
+      "detected": 0,
+      "unavailable": 2,
+      "total": 95
+    },
+    "apk_sha256": "99901e704d769e519741824d62f15286f68e0654f4223c0681083903ca98c9ab",
+    "installed_abi": "x86_64",
+    "same_apk_and_abi": true
+  },
+  "original_79_pair": {
+    "before_report": "strict-v07-before-raw79",
+    "after_report": "strict-v07-reboot-raw79",
+    "before": {
+      "detected": 0,
+      "unavailable": 0,
+      "total": 79
+    },
+    "after": {
+      "detected": 0,
+      "unavailable": 0,
+      "total": 79
+    },
+    "apk_sha256": "ee4e8cc35ef306e1626472ffb3d9d53fe0b45036a4a89dce31020ed489268f37",
+    "installed_abi": "x86_64",
+    "same_apk_and_abi": true
+  },
+  "original_54_pair": {
+    "before_report": "strict-v07-before-probe54",
+    "after_report": "strict-v07-reboot-probe54",
+    "before": {
+      "detected": 0,
+      "unavailable": 0,
+      "total": 54
+    },
+    "after": {
+      "detected": 0,
+      "unavailable": 0,
+      "total": 54
+    },
+    "apk_sha256": "ab4dafd201527cf0f72a1c2ff4f9bd41fd4dbaa921d336d1983319ac611554ed",
+    "installed_abi": "arm64-v8a",
+    "same_apk_and_abi": true
+  },
+  "new_suite_clear_checks": 93,
+  "new_suite_unavailable_checks": [
+    "capability.openat2",
+    "proc.numa_maps"
+  ],
+  "independent": {
+    "apk_sha256": "9f064f3968e9a224612810ec2b6078872f479930ce4dd0fc1f7132b08c6b3f5b",
+    "enabled_findings": 0,
+    "disabled_findings": 4,
+    "reboot_findings": 0
+  },
+  "disabled": {
+    "proc95": {
+      "detected": 13,
+      "unavailable": 2,
+      "total": 95
+    },
+    "raw79": {
+      "detected": 41,
+      "unavailable": 0,
+      "total": 79
+    },
+    "probe54": {
+      "detected": 28,
+      "unavailable": 1,
+      "total": 54
+    }
+  },
+  "build_and_lint": "passed for all four modules",
+  "runtime_controls": {
+    "original_io_controls_passed": 7,
+    "namespace_elf_sha256": "e88f06fa1b47b85047cf24e8b711b819b8ea193ba9469f36fa1e85a299230d39",
+    "apk_zip_installed_payloads_match": true,
+    "inline_syscall_disassembled": true,
+    "pidfd_getfd_and_kcmp_preflight": "passed",
+    "unfiltered_null_getdents_position": 0,
+    "worker_exited_after_force_stop": true
+  },
+  "boundary": {
+    "captured_at": "2026-10-24T18:24:39.5570464Z",
+    "process_id": 3504,
+    "app_mount_namespace": "mnt:[4026532985]",
+    "zygote_mount_namespace": "mnt:[4026532925]",
+    "outside_has_hypervisor": true,
+    "app_namespace_has_hypervisor": false,
+    "outside_hardware": "ranchu",
+    "outside_qemu": "1",
+    "outside_uname": "x86_64",
+    "unhooked_namespace_uname": "x86_64",
+    "no_new_privs": 0,
+    "seccomp_filters": 2,
+    "kernel_maps_translation_visible": true,
+    "kernel_maps_module_visible": true,
+    "kernel_mountinfo_profile_visible": true,
+    "outside_properties": {
+      "ro.product.cpu.abilist": "x86_64,arm64-v8a",
+      "ro.dalvik.vm.native.bridge": "libndk_translation.so",
+      "ro.dalvik.vm.isa.arm64": "x86_64",
+      "ro.build.fingerprint": "google/sdk_gphone64_x86_64/emu64xa:14/UE1A.230829.050/12077443:userdebug/dev-keys"
+    },
+    "app_namespace_hardware": "shiba",
+    "selinux": "Enforcing",
+    "namespace_log": "--------- beginning of main\n10-24 15:24:33.129  3504  3504 I DeviceLabNamespace: profile mount status=0 pid=3504\n10-24 15:24:33.134  3504  3504 I DeviceLabNamespace: uname broker status=0 pid=3504\n10-24 15:24:33.134  3504  3504 I DeviceLabNamespace: proc broker enabled=1\n10-24 15:24:33.870  3504  3504 I DeviceLabNamespace: property remap status=0 pid=3504"
+  },
+  "artifacts": [
+    {
+      "path": "probe/build/outputs/apk/debug/probe-debug.apk",
+      "sha256": "ab4dafd201527cf0f72a1c2ff4f9bd41fd4dbaa921d336d1983319ac611554ed"
+    },
+    {
+      "path": "rawprobe/build/outputs/apk/debug/rawprobe-debug.apk",
+      "sha256": "ee4e8cc35ef306e1626472ffb3d9d53fe0b45036a4a89dce31020ed489268f37"
+    },
+    {
+      "path": "procprobe/build/outputs/apk/debug/procprobe-debug.apk",
+      "sha256": "99901e704d769e519741824d62f15286f68e0654f4223c0681083903ca98c9ab"
+    },
+    {
+      "path": "module/build/outputs/apk/debug/module-debug.apk",
+      "sha256": "c0be976d3350bfe0bebaa2feb1dfbcd413537ff35f458820a3818c97c0c96b97"
+    },
+    {
+      "path": "module/build/namespace-module.zip",
+      "sha256": "75621adcdd80ee50f4d6ea00a084ac59463bd7c43eb3a9dca5d986fe7c1b2013"
+    }
+  ],
+  "limitations": [
+    "Android seccomp kills openat2 capability children with SIGSYS; syscall 437 is unavailable and not counted as clear.",
+    "This kernel has no numa_maps file; ENOENT is recorded as unavailable, not clear.",
+    "Root observers outside the filter still see real mappings, mounts and x86 kernel state.",
+    "Snapshots reflect open time. Directory concurrency, partially writable output buffers, descriptor transfer, guessed hidden map-file metadata, other ABIs and unsupported flags remain outside measured coverage.",
+    "Hardware attestation and the two previously unavailable ARM detectors were not reclassified as clear."
+  ]
+}

@@ -1,0 +1,528 @@
+----part 1 start----
+[ 2026-10-24T13:09:52.732    10192:  4007:  4007 V/VectorLegacyBridge ] Loading legacy module dev.androidlab.module from /data/app/~~RN-HBB8pQq2meoeMLeXAMg==/dev.androidlab.module-daoTcG9UvoBmyF0CjfyvhQ==/base.apk
+[ 2026-10-24T13:09:52.740    10192:  4007:  4007 V/VectorLegacyBridge ]   Loading class dev.androidlab.module.DeviceHooks
+[ 2026-10-24T13:09:52.800    10192:  4007:  4007 I/VectorLegacyBridge ] DeviceLab: native hooks unavailable for dev.androidlab.probe
+[ 2026-10-24T13:09:52.802    10192:  4007:  4007 E/VectorLegacyBridge ] java.lang.UnsatisfiedLinkError: dlopen failed: "/data/app/~~RN-HBB8pQq2meoeMLeXAMg==/dev.androidlab.module-daoTcG9UvoBmyF0CjfyvhQ==/base.apk!/lib/x86_64/libdevicelab.so" is for EM_X86_64 (62) instead of EM_AARCH64 (183)
+	at java.lang.Runtime.loadLibrary0(Runtime.java:1082)
+	at java.lang.Runtime.loadLibrary0(Runtime.java:1003)
+	at java.lang.System.loadLibrary(System.java:1661)
+	at dev.androidlab.module.DeviceHooks.handleLoadPackage(DeviceHooks.java:62)
+	at ZlCppT.tUopYvkw.WGnJox.IXposedHookLoadPackage$Wrapper.handleLoadPackage(r8-map-id-4e8fef884aca59aee337e225c9e17b9fd6ff1da7e14ff4119d1b2d3bae432287:3)
+	at ZlCppT.tUopYvkw.WGnJox.callbacks.XC_LoadPackage.call(r8-map-id-4e8fef884aca59aee337e225c9e17b9fd6ff1da7e14ff4119d1b2d3bae432287:7)
+	at ZlCppT.tUopYvkw.WGnJox.callbacks.XCallback.callAll(r8-map-id-4e8fef884aca59aee337e225c9e17b9fd6ff1da7e14ff4119d1b2d3bae432287:27)
+	at p.intercept(r8-map-id-4e8fef884aca59aee337e225c9e17b9fd6ff1da7e14ff4119d1b2d3bae432287:100)
+	at e2.b(r8-map-id-4e8fef884aca59aee337e225c9e17b9fd6ff1da7e14ff4119d1b2d3bae432287:58)
+	at e2.proceed(r8-map-id-4e8fef884aca59aee337e225c9e17b9fd6ff1da7e14ff4119d1b2d3bae432287:11)
+	at c3.callback(r8-map-id-4e8fef884aca59aee337e225c9e17b9fd6ff1da7e14ff4119d1b2d3bae432287:106)
+	at Vector_.createOrUpdateClassLoaderLocked(Unknown Source:11)
+	at android.app.LoadedApk.getClassLoader(LoadedApk.java:1126)
+	at android.app.LoadedApk.getResources(LoadedApk.java:1374)
+	at android.app.ContextImpl.createAppContext(ContextImpl.java:3324)
+	at android.app.ContextImpl.createAppContext(ContextImpl.java:3316)
+	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:6879)
+	at android.app.ActivityThread.-$$Nest$mhandleBindApplication(Unknown Source:0)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2236)
+	at android.os.Handler.dispatchMessage(Handler.java:106)
+	at android.os.Looper.loopOnce(Looper.java:205)
+	at android.os.Looper.loop(Looper.java:294)
+	at android.app.ActivityThread.main(ActivityThread.java:8177)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:552)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:971)
+[ 2026-10-24T13:09:52.806    10192:  4007:  4007 I/VectorLegacyBridge ] DeviceLab: Java identity hooks installed for dev.androidlab.probe
+[ 2026-10-24T13:10:02.533    10193:  4179:  4179 V/VectorLegacyBridge ] Loading legacy module dev.androidlab.module from /data/app/~~RN-HBB8pQq2meoeMLeXAMg==/dev.androidlab.module-daoTcG9UvoBmyF0CjfyvhQ==/base.apk
+[ 2026-10-24T13:10:02.543    10193:  4179:  4179 V/VectorLegacyBridge ]   Loading class dev.androidlab.module.DeviceHooks
+[ 2026-10-24T13:10:02.589    10193:  4179:  4179 I/VectorLegacyBridge ] DeviceLab: native hooks for com.reveny.emulator.detection.sample: get=1 callback=1 fopen=1 open=1 openat=1 open_checked=1 openat_checked=1 uname=1 syscall=1 auxval=1 gl=0 cpu_cache=1
+[ 2026-10-24T13:10:02.591    10193:  4179:  4179 I/VectorLegacyBridge ] DeviceLab: Java identity hooks installed for com.reveny.emulator.detection.sample
+[ 2026-10-24T13:10:06.824    10196:  4262:  4262 V/VectorLegacyBridge ] Loading legacy module dev.androidlab.module from /data/app/~~RN-HBB8pQq2meoeMLeXAMg==/dev.androidlab.module-daoTcG9UvoBmyF0CjfyvhQ==/base.apk
+[ 2026-10-24T13:10:06.835    10196:  4262:  4262 V/VectorLegacyBridge ]   Loading class dev.androidlab.module.DeviceHooks
+[ 2026-10-24T13:10:06.905    10196:  4262:  4262 I/VectorLegacyBridge ] DeviceLab: native hooks unavailable for com.felhr.emulatordetector
+[ 2026-10-24T13:10:06.905    10196:  4262:  4262 E/VectorLegacyBridge ] java.lang.UnsatisfiedLinkError: dlopen failed: "/data/app/~~RN-HBB8pQq2meoeMLeXAMg==/dev.androidlab.module-daoTcG9UvoBmyF0CjfyvhQ==/base.apk!/lib/x86_64/libdevicelab.so" is for EM_X86_64 (62) instead of EM_AARCH64 (183)
+	at java.lang.Runtime.loadLibrary0(Runtime.java:1082)
+	at java.lang.Runtime.loadLibrary0(Runtime.java:1003)
+	at java.lang.System.loadLibrary(System.java:1661)
+	at dev.androidlab.module.DeviceHooks.handleLoadPackage(DeviceHooks.java:62)
+	at ZlCppT.tUopYvkw.WGnJox.IXposedHookLoadPackage$Wrapper.handleLoadPackage(r8-map-id-4e8fef884aca59aee337e225c9e17b9fd6ff1da7e14ff4119d1b2d3bae432287:3)
+	at ZlCppT.tUopYvkw.WGnJox.callbacks.XC_LoadPackage.call(r8-map-id-4e8fef884aca59aee337e225c9e17b9fd6ff1da7e14ff4119d1b2d3bae432287:7)
+	at ZlCppT.tUopYvkw.WGnJox.callbacks.XCallback.callAll(r8-map-id-4e8fef884aca59aee337e225c9e17b9fd6ff1da7e14ff4119d1b2d3bae432287:27)
+	at p.intercept(r8-map-id-4e8fef884aca59aee337e225c9e17b9fd6ff1da7e14ff4119d1b2d3bae432287:100)
+	at e2.b(r8-map-id-4e8fef884aca59aee337e225c9e17b9fd6ff1da7e14ff4119d1b2d3bae432287:58)
+	at e2.proceed(r8-map-id-4e8fef884aca59aee337e225c9e17b9fd6ff1da7e14ff4119d1b2d3bae432287:11)
+	at c3.callback(r8-map-id-4e8fef884aca59aee337e225c9e17b9fd6ff1da7e14ff4119d1b2d3bae432287:106)
+	at Vector_.createOrUpdateClassLoaderLocked(Unknown Source:11)
+	at android.app.LoadedApk.getClassLoader(LoadedApk.java:1126)
+	at android.app.LoadedApk.getResources(LoadedApk.java:1374)
+	at android.app.ContextImpl.createAppContext(ContextImpl.java:3324)
+	at android.app.ContextImpl.createAppContext(ContextImpl.java:3316)
+	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:6879)
+	at android.app.ActivityThread.-$$Nest$mhandleBindApplication(Unknown Source:0)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2236)
+	at android.os.Handler.dispatchMessage(Handler.java:106)
+	at android.os.Looper.loopOnce(Looper.java:205)
+	at android.os.Looper.loop(Looper.java:294)
+	at android.app.ActivityThread.main(ActivityThread.java:8177)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:552)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:971)
+[ 2026-10-24T13:10:06.908    10196:  4262:  4262 I/VectorLegacyBridge ] DeviceLab: Java identity hooks installed for com.felhr.emulatordetector
+[ 2026-10-24T13:10:17.441    10197:  4396:  4396 V/VectorLegacyBridge ] Loading legacy module dev.androidlab.module from /data/app/~~RN-HBB8pQq2meoeMLeXAMg==/dev.androidlab.module-daoTcG9UvoBmyF0CjfyvhQ==/base.apk
+[ 2026-10-24T13:10:17.452    10197:  4396:  4396 V/VectorLegacyBridge ]   Loading class dev.androidlab.module.DeviceHooks
+[ 2026-10-24T13:10:17.517    10197:  4396:  4396 I/VectorLegacyBridge ] DeviceLab: native hooks unavailable for com.reveny.nativecheck
+[ 2026-10-24T13:10:17.517    10197:  4396:  4396 E/VectorLegacyBridge ] java.lang.UnsatisfiedLinkError: dlopen failed: "/data/app/~~RN-HBB8pQq2meoeMLeXAMg==/dev.androidlab.module-daoTcG9UvoBmyF0CjfyvhQ==/base.apk!/lib/x86_64/libdevicelab.so" is for EM_X86_64 (62) instead of EM_AARCH64 (183)
+	at java.lang.Runtime.loadLibrary0(Runtime.java:1082)
+	at java.lang.Runtime.loadLibrary0(Runtime.java:1003)
+	at java.lang.System.loadLibrary(System.java:1661)
+	at dev.androidlab.module.DeviceHooks.handleLoadPackage(DeviceHooks.java:62)
+	at ZlCppT.tUopYvkw.WGnJox.IXposedHookLoadPackage$Wrapper.handleLoadPackage(r8-map-id-4e8fef884aca59aee337e225c9e17b9fd6ff1da7e14ff4119d1b2d3bae432287:3)
+	at ZlCppT.tUopYvkw.WGnJox.callbacks.XC_LoadPackage.call(r8-map-id-4e8fef884aca59aee337e225c9e17b9fd6ff1da7e14ff4119d1b2d3bae432287:7)
+	at ZlCppT.tUopYvkw.WGnJox.callbacks.XCallback.callAll(r8-map-id-4e8fef884aca59aee337e225c9e17b9fd6ff1da7e14ff4119d1b2d3bae432287:27)
+	at p.intercept(r8-map-id-4e8fef884aca59aee337e225c9e17b9fd6ff1da7e14ff4119d1b2d3bae432287:100)
+	at e2.b(r8-map-id-4e8fef884aca59aee337e225c9e17b9fd6ff1da7e14ff4119d1b2d3bae432287:58)
+	at e2.proceed(r8-map-id-4e8fef884aca59aee337e225c9e17b9fd6ff1da7e14ff4119d1b2d3bae432287:11)
+	at c3.callback(r8-map-id-4e8fef884aca59aee337e225c9e17b9fd6ff1da7e14ff4119d1b2d3bae432287:106)
+	at Vector_.createOrUpdateClassLoaderLocked(Unknown Source:11)
+	at android.app.LoadedApk.getClassLoader(LoadedApk.java:1126)
+	at android.app.LoadedApk.getResources(LoadedApk.java:1374)
+	at android.app.ContextImpl.createAppContext(ContextImpl.java:3324)
+	at android.app.ContextImpl.createAppContext(ContextImpl.java:3316)
+	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:6879)
+	at android.app.ActivityThread.-$$Nest$mhandleBindApplication(Unknown Source:0)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2236)
+	at android.os.Handler.dispatchMessage(Handler.java:106)
+	at android.os.Looper.loopOnce(Looper.java:205)
+	at android.os.Looper.loop(Looper.java:294)
+	at android.app.ActivityThread.main(ActivityThread.java:8177)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:552)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:971)
+[ 2026-10-24T13:10:17.521    10197:  4396:  4396 I/VectorLegacyBridge ] DeviceLab: Java identity hooks installed for com.reveny.nativecheck
+[ 2026-10-24T13:10:24.573    10198:  4792:  4792 V/VectorLegacyBridge ] Loading legacy module dev.androidlab.module from /data/app/~~RN-HBB8pQq2meoeMLeXAMg==/dev.androidlab.module-daoTcG9UvoBmyF0CjfyvhQ==/base.apk
+[ 2026-10-24T13:10:24.584    10198:  4792:  4792 V/VectorLegacyBridge ]   Loading class dev.androidlab.module.DeviceHooks
+[ 2026-10-24T13:10:24.668    10198:  4792:  4792 I/VectorLegacyBridge ] DeviceLab: native hooks unavailable for icu.nullptr.nativetest
+[ 2026-10-24T13:10:24.669    10198:  4792:  4792 E/VectorLegacyBridge ] java.lang.UnsatisfiedLinkError: dlopen failed: "/data/app/~~RN-HBB8pQq2meoeMLeXAMg==/dev.androidlab.module-daoTcG9UvoBmyF0CjfyvhQ==/base.apk!/lib/x86_64/libdevicelab.so" is for EM_X86_64 (62) instead of EM_AARCH64 (183)
+	at java.lang.Runtime.loadLibrary0(Runtime.java:1082)
+	at java.lang.Runtime.loadLibrary0(Runtime.java:1003)
+	at java.lang.System.loadLibrary(System.java:1661)
+	at dev.androidlab.module.DeviceHooks.handleLoadPackage(DeviceHooks.java:62)
+	at ZlCppT.tUopYvkw.WGnJox.IXposedHookLoadPackage$Wrapper.handleLoadPackage(r8-map-id-4e8fef884aca59aee337e225c9e17b9fd6ff1da7e14ff4119d1b2d3bae432287:3)
+	at ZlCppT.tUopYvkw.WGnJox.callbacks.XC_LoadPackage.call(r8-map-id-4e8fef884aca59aee337e225c9e17b9fd6ff1da7e14ff4119d1b2d3bae432287:7)
+	at ZlCppT.tUopYvkw.WGnJox.callbacks.XCallback.callAll(r8-map-id-4e8fef884aca59aee337e225c9e17b9fd6ff1da7e14ff4119d1b2d3bae432287:27)
+	at p.intercept(r8-map-id-4e8fef884aca59aee337e225c9e17b9fd6ff1da7e14ff4119d1b2d3bae432287:100)
+	at e2.b(r8-map-id-4e8fef884aca59aee337e225c9e17b9fd6ff1da7e14ff4119d1b2d3bae432287:58)
+	at e2.proceed(r8-map-id-4e8fef884aca59aee337e225c9e17b9fd6ff1da7e14ff4119d1b2d3bae432287:11)
+	at c3.callback(r8-map-id-4e8fef884aca59aee337e225c9e17b9fd6ff1da7e14ff4119d1b2d3bae432287:106)
+	at Vector_.createOrUpdateClassLoaderLocked(Unknown Source:11)
+	at android.app.LoadedApk.getClassLoader(LoadedApk.java:1126)
+	at android.app.LoadedApk.getResources(LoadedApk.java:1374)
+	at android.app.ContextImpl.createAppContext(ContextImpl.java:3324)
+	at android.app.ContextImpl.createAppContext(ContextImpl.java:3316)
+	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:6879)
+	at android.app.ActivityThread.-$$Nest$mhandleBindApplication(Unknown Source:0)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2236)
+	at android.os.Handler.dispatchMessage(Handler.java:106)
+	at android.os.Looper.loopOnce(Looper.java:205)
+	at android.os.Looper.loop(Looper.java:294)
+	at android.app.ActivityThread.main(ActivityThread.java:8177)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:552)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:971)
+[ 2026-10-24T13:10:24.672    10198:  4792:  4792 I/VectorLegacyBridge ] DeviceLab: Java identity hooks installed for icu.nullptr.nativetest
+[ 2026-10-24T13:10:29.293    10199:  4882:  4882 V/VectorLegacyBridge ] Loading legacy module dev.androidlab.module from /data/app/~~RN-HBB8pQq2meoeMLeXAMg==/dev.androidlab.module-daoTcG9UvoBmyF0CjfyvhQ==/base.apk
+[ 2026-10-24T13:10:29.302    10199:  4882:  4882 V/VectorLegacyBridge ]   Loading class dev.androidlab.module.DeviceHooks
+[ 2026-10-24T13:10:29.339    10199:  4882:  4882 I/VectorLegacyBridge ] DeviceLab: native hooks for io.github.vvb2060.nativedetector: get=1 callback=1 fopen=1 open=1 openat=1 open_checked=1 openat_checked=1 uname=1 syscall=1 auxval=1 gl=0 cpu_cache=1
+[ 2026-10-24T13:10:29.342    10199:  4882:  4882 I/VectorLegacyBridge ] DeviceLab: Java identity hooks installed for io.github.vvb2060.nativedetector
+----part 1 start----
+[ 2026-10-24T13:09:16.478     1017:   164:   174 I/SELinux         ] SELinux: Loaded keystore2 context from:
+[ 2026-10-24T13:09:16.478     1017:   164:   174 I/SELinux         ] 		/system/etc/selinux/plat_keystore2_key_contexts
+[ 2026-10-24T13:09:18.361        0:   320:   320 I/Magisk          ] Magisk 27.0(27000) daemon started
+[ 2026-10-24T13:09:18.361        0:   320:   320 I/Magisk          ] * Device API level: 34
+[ 2026-10-24T13:09:18.371        0:   320:   322 I/Magisk          ] ** post-fs-data mode running
+[ 2026-10-24T13:09:18.372        0:   320:   322 I/Magisk          ] * Mounting mirrors
+[ 2026-10-24T13:09:18.412        0:   320:   322 I/Magisk          ] * Initializing Magisk environment
+[ 2026-10-24T13:09:18.837        0:   320:   322 I/Magisk          ] * Running post-fs-data.d scripts
+[ 2026-10-24T13:09:18.843        0:   320:   322 I/Magisk          ] Upgrade / New module: device_lab_cpu
+[ 2026-10-24T13:09:18.843        0:   320:   322 I/Magisk          ] * Running module post-fs-data scripts
+[ 2026-10-24T13:09:18.861        0:   320:   322 I/Magisk          ] * Loading modules
+[ 2026-10-24T13:09:20.904        0:   320:   322 I/Magisk          ] ** late_start service mode running
+[ 2026-10-24T13:09:20.904        0:   320:   322 I/Magisk          ] * Running service.d scripts
+[ 2026-10-24T13:09:20.905        0:   320:   322 I/Magisk          ] * Running module service scripts
+[ 2026-10-24T13:09:20.905        0:   320:   322 I/Magisk          ] zygisk_vector: exec [service.sh]
+[ 2026-10-24T13:09:21.090        0:   507:   507 D/AndroidRuntime  ] >>>>>> START com.android.internal.os.RuntimeInit uid 0 <<<<<<
+[ 2026-10-24T13:09:21.095        0:   507:   507 I/AndroidRuntime  ] Using default boot image
+[ 2026-10-24T13:09:21.095        0:   507:   507 I/AndroidRuntime  ] Leaving lock profiling enabled
+[ 2026-10-24T13:09:21.097        0:   507:   507 I/vectord         ] Core platform API reporting enabled, enforcing=false
+[ 2026-10-24T13:09:21.098        0:   507:   507 I/vectord         ] Using CollectorTypeCC GC.
+[ 2026-10-24T13:09:21.398        0:   507:   507 D/nativeloader    ] InitDefaultPublicLibraries for_preload=1: libandroid.so:libaaudio.so:libamidi.so:libbinder_ndk.so:libc.so:libcamera2ndk.so:libdl.so:libEGL.so:libGLESv1_CM.so:libGLESv2.so:libGLESv3.so:libicu.so:libicui18n.so:libicuuc.so:libjnigraphics.so:liblog.so:libmediandk.so:libm.so:libnativehelper.so:libnativewindow.so:libOpenMAXAL.so:libOpenSLES.so:libRS.so:libstdc++.so:libsync.so:libvulkan.so:libwebviewchromium_plat_support.so:libz.so
+[ 2026-10-24T13:09:21.405        0:   507:   507 D/vectord         ] Time zone APEX ICU file found: /apex/com.android.tzdata/etc/icu/icu_tzdata.dat
+[ 2026-10-24T13:09:21.405        0:   507:   507 D/vectord         ] I18n APEX ICU file found: /apex/com.android.i18n/etc/icu/icudt72l.dat
+[ 2026-10-24T13:09:21.441        0:   507:   507 W/vectord         ] Unexpected CPU variant for x86: x86_64.
+Known variants: atom, sandybridge, silvermont, goldmont, goldmont-plus, tremont, kabylake, default
+[ 2026-10-24T13:09:21.472        0:   507:   507 W/ziparchive      ] Unable to open '/data/adb/modules/zygisk_vector/daemon.dm': No such file or directory
+[ 2026-10-24T13:09:21.639        0:   356:   356 I/Magisk          ] zygisk64: replace nativeForkAndSpecialize
+[ 2026-10-24T13:09:21.640        0:   356:   356 I/Magisk          ] zygisk64: replace nativeSpecializeAppProcess
+[ 2026-10-24T13:09:21.640        0:   356:   356 I/Magisk          ] zygisk64: replace nativeForkSystemServer
+[ 2026-10-24T13:09:21.667        0:   507:   507 D/AndroidRuntime  ] Calling main entry org.matrix.vector.daemon.VectorDaemon
+[ 2026-10-24T13:09:21.695        0:   507:   507 I/VectorDaemon    ] Vector daemon started: lateInject=false, proxy=serial
+[ 2026-10-24T13:09:21.695        0:   507:   507 I/VectorDaemon    ] Version 2.2 (3080) commit 88f8e1fa-JingMatrix-Vector
+[ 2026-10-24T13:09:21.703        0:   507:   507 D/nativeloader    ] InitApexLibraries:
+  com_android_art: libnativehelper.so
+  com_android_i18n: libicui18n.so:libicuuc.so:libicu.so
+  com_android_neuralnetworks: libneuralnetworks.so
+[ 2026-10-24T13:09:21.703        0:   507:   507 D/nativeloader    ] InitDefaultPublicLibraries for_preload=0: libandroid.so:libaaudio.so:libamidi.so:libbinder_ndk.so:libc.so:libcamera2ndk.so:libclang_rt.hwasan-aarch64-android.so:libdl.so:libEGL.so:libGLESv1_CM.so:libGLESv2.so:libGLESv3.so:libjnigraphics.so:liblog.so:libmediandk.so:libm.so:libnativewindow.so:libOpenMAXAL.so:libOpenSLES.so:libRS.so:libstdc++.so:libsync.so:libvulkan.so:libwebviewchromium_plat_support.so:libz.so
+[ 2026-10-24T13:09:21.703        0:   507:   507 D/nativeloader    ] Configuring clns-1 for other apk . target_sdk_version=0, uses_libraries=ALL, library_path=/system/lib64:/system_ext/lib64, permitted_path=/data:/mnt/expand
+[ 2026-10-24T13:09:21.703        0:   507:   507 D/nativeloader    ] InitExtendedPublicLibraries: 
+[ 2026-10-24T13:09:21.703        0:   507:   507 I/nativeloader    ] InitVendorPublicLibraries skipped: No such file or directory
+[ 2026-10-24T13:09:21.703        0:   507:   507 D/nativeloader    ] InitProductPublicLibraries: 
+[ 2026-10-24T13:09:21.714        0:   507:   507 I/VectorDex2Oat   ] Detected /apex/com.android.art/bin/dex2oat64 -> Assigned Index 2
+[ 2026-10-24T13:09:21.721        0:   507:   556 I/VectorLogcat    ] Logcat daemon starting
+[ 2026-10-24T13:09:21.722        0:   507:   556 I/VectorLogcat    ] New log file: /data/adb/lspd/log/verbose_2026-10-24T13:09:21.722408.log
+[ 2026-10-24T13:09:21.725        0:   560:   560 I/VectorNativeDaemon ] Enable dex2oat wrapper
+[ 2026-10-24T13:09:21.730        0:   507:   507 E/SELinux         ] avc:  denied  { execute } for  scontext=u:r:untrusted_app:s0 tcontext=u:object_r:dex2oat_exec:s0 tclass=file permissive=0
+[ 2026-10-24T13:09:21.730        0:   507:   507 E/SELinux         ] avc:  denied  { execute_no_trans } for  scontext=u:r:untrusted_app:s0 tcontext=u:object_r:dex2oat_exec:s0 tclass=file permissive=0
+[ 2026-10-24T13:09:21.734        0:   507:   558 I/VectorDex2Oat   ] Dex2oat wrapper daemon start
+[ 2026-10-24T13:09:21.734        0:   507:   558 E/SELinux         ] avc:  denied  { execute_no_trans } for  scontext=u:r:dex2oat:s0 tcontext=u:object_r:dex2oat_exec:s0 tclass=file permissive=0
+[ 2026-10-24T13:09:21.735        0:   507:   557 I/VectorWorkarounds ] SQLiteGlobal.sDefaultSyncMode initialized to NORMAL.
+[ 2026-10-24T13:09:21.735        0:   507:   557 I/VectorWorkarounds ] SQLiteCompatibilityWalFlags successfully bypassed.
+[ 2026-10-24T13:09:21.741        0:   507:   556 I/VectorLogcat    ] New log file: /data/adb/lspd/log/modules_2026-10-24T13:09:21.740992.log
+[ 2026-10-24T13:09:21.973        0:   507:   507 I/VectorDaemon    ] Waiting system service: package for 1s
+[ 2026-10-24T13:09:22.351        0:   320:   322 I/Magisk          ] denylist: initializing internal data structures
+[ 2026-10-24T13:09:22.357        0:   577:   577 I/VectorNative    ] System server process detected. Marking for injection.
+[ 2026-10-24T13:09:22.667     1000:   577:   577 I/VectorNative    ] Got system server binder via serial on attempt 1.
+[ 2026-10-24T13:09:22.676     1000:   577:   577 I/VectorNative    ] IPC Bridge JNI hook installed successfully.
+[ 2026-10-24T13:09:22.692     1000:   577:   577 V/VectorDeopter   ] Skipping deopt for android.app.Instrumentation#newApplication: android.app.Instrumentation.newApplication [class java.lang.ClassLoader, class android.content.Context]
+[ 2026-10-24T13:09:22.706     1000:   577:   577 V/Vector          ] Loading Vector/Xposed for system (UID: 1000)
+[ 2026-10-24T13:09:22.710     1000:   577:   577 I/VectorNative    ] Injected Vector framework into system_server.
+[ 2026-10-24T13:09:22.728     1000:   577:   577 D/Vector          ] Successfully hooked Activity Supervisor for Manager redirection.
+[ 2026-10-24T13:09:22.974        0:   507:   507 I/VectorDaemon    ] Waiting system service: package for 1s
+[ 2026-10-24T13:09:23.831        0:   464:   469 I/SELinux         ] SELinux: Loaded file context from:
+[ 2026-10-24T13:09:23.831        0:   464:   469 I/SELinux         ] 		/system/etc/selinux/plat_file_contexts
+[ 2026-10-24T13:09:23.831        0:   464:   469 I/SELinux         ] 		/system_ext/etc/selinux/system_ext_file_contexts
+[ 2026-10-24T13:09:23.831        0:   464:   469 I/SELinux         ] 		/vendor/etc/selinux/vendor_file_contexts
+[ 2026-10-24T13:09:23.863     1000:   577:   577 I/SELinux         ] SELinux: Loaded file context from:
+[ 2026-10-24T13:09:23.863     1000:   577:   577 I/SELinux         ] 		/system/etc/selinux/plat_file_contexts
+[ 2026-10-24T13:09:23.863     1000:   577:   577 I/SELinux         ] 		/system_ext/etc/selinux/system_ext_file_contexts
+[ 2026-10-24T13:09:23.863     1000:   577:   577 I/SELinux         ] 		/vendor/etc/selinux/vendor_file_contexts
+[ 2026-10-24T13:09:23.976        0:   507:   507 W/System          ] No Compatibility callbacks set! Querying change 263076149
+[ 2026-10-24T13:09:23.976        0:   507:   507 W/System          ] No Compatibility callbacks set! Querying change 263076149
+[ 2026-10-24T13:09:23.976        0:   507:   507 W/System          ] No Compatibility callbacks set! Querying change 263076149
+[ 2026-10-24T13:09:23.979     1000:   577:   607 D/VectorZygiskBridge ] onTransact: action=SEND_BINDER, callerUid=0
+[ 2026-10-24T13:09:23.980     1000:   577:   607 I/VectorZygiskBridge ] Vector daemin service binder linked.
+[ 2026-10-24T13:09:23.980        0:   507:   507 I/VectorDaemon    ] Successfully injected Vector IPC binder for applications.
+[ 2026-10-24T13:09:25.258     1000:   577:   608 D/VectorZygiskBridge ] onTransact: action=GET_BINDER, callerUid=10168
+[ 2026-10-24T13:09:25.258        0:   507:   555 I/VectorConfigCache ] System services are ready. Mapping modules and scopes.
+[ 2026-10-24T13:09:25.259        0:   507:   555 I/VectorConfigCache ] Manager is not installed
+[ 2026-10-24T13:09:25.534     1000:   577:   608 D/VectorZygiskBridge ] onTransact: action=GET_BINDER, callerUid=1073
+[ 2026-10-24T13:09:25.629     1000:   577:   608 D/VectorZygiskBridge ] onTransact: action=GET_BINDER, callerUid=1002
+[ 2026-10-24T13:09:25.759     1000:   577:   652 D/VectorZygiskBridge ] onTransact: action=GET_BINDER, callerUid=1068
+[ 2026-10-24T13:09:25.976     1000:   577:   790 D/VectorZygiskBridge ] onTransact: action=GET_BINDER, callerUid=1001
+[ 2026-10-24T13:09:25.990     1000:   577:   790 D/VectorZygiskBridge ] onTransact: action=GET_BINDER, callerUid=1000
+[ 2026-10-24T13:09:26.134     1000:   577:   901 D/VectorZygiskBridge ] onTransact: action=GET_BINDER, callerUid=10177
+[ 2026-10-24T13:09:26.748     1000:   577:   790 D/VectorZygiskBridge ] onTransact: action=GET_BINDER, callerUid=10181
+[ 2026-10-24T13:09:26.820     1000:   577:   901 D/VectorZygiskBridge ] onTransact: action=GET_BINDER, callerUid=10169
+[ 2026-10-24T13:09:28.099     1000:   577:   903 D/VectorZygiskBridge ] onTransact: action=GET_BINDER, callerUid=10128
+[ 2026-10-24T13:09:28.453     1000:   577:   903 D/VectorZygiskBridge ] onTransact: action=GET_BINDER, callerUid=10174
+[ 2026-10-24T13:09:29.142        0:   320:   322 I/Magisk          ] ** boot-complete triggered
+[ 2026-10-24T13:09:29.187     1000:   577:   903 D/VectorZygiskBridge ] onTransact: action=GET_BINDER, callerUid=10142
+[ 2026-10-24T13:09:29.196     1000:   577:   903 D/VectorZygiskBridge ] onTransact: action=GET_BINDER, callerUid=10122
+[ 2026-10-24T13:09:29.333        0:   507:   557 W/System          ] No Compatibility callbacks set! Querying change 160794467
+[ 2026-10-24T13:09:29.794     1000:   577:   901 D/VectorZygiskBridge ] onTransact: action=GET_BINDER, callerUid=10172
+[ 2026-10-24T13:09:29.805     1000:   577:   901 D/VectorZygiskBridge ] onTransact: action=GET_BINDER, callerUid=10104
+[ 2026-10-24T13:09:29.977     1000:   577:   921 D/VectorZygiskBridge ] onTransact: action=GET_BINDER, callerUid=10127
+[ 2026-10-24T13:09:29.983     1000:   577:   930 D/VectorZygiskBridge ] onTransact: action=GET_BINDER, callerUid=10128
+[ 2026-10-24T13:09:30.000     1000:   577:   754 I/SELinux         ] SELinux: Loaded file context from:
+[ 2026-10-24T13:09:30.000     1000:   577:   754 I/SELinux         ] 		/system/etc/selinux/plat_file_contexts
+[ 2026-10-24T13:09:30.000     1000:   577:   754 I/SELinux         ] 		/system_ext/etc/selinux/system_ext_file_contexts
+[ 2026-10-24T13:09:30.000     1000:   577:   754 I/SELinux         ] 		/vendor/etc/selinux/vendor_file_contexts
+[ 2026-10-24T13:09:30.153     1000:   577:   930 D/VectorZygiskBridge ] onTransact: action=GET_BINDER, callerUid=10132
+[ 2026-10-24T13:09:30.181     1000:   577:   790 D/VectorZygiskBridge ] onTransact: action=GET_BINDER, callerUid=10131
+[ 2026-10-24T13:09:30.397     1000:   577:   901 D/VectorZygiskBridge ] onTransact: action=GET_BINDER, callerUid=1000
+[ 2026-10-24T13:09:30.404     1000:   577:  1074 D/VectorZygiskBridge ] onTransact: action=GET_BINDER, callerUid=10128
+[ 2026-10-24T13:09:30.577     1000:   577:   921 D/VectorZygiskBridge ] onTransact: action=GET_BINDER, callerUid=10083
+[ 2026-10-24T13:09:30.588     1000:   577:   921 D/VectorZygiskBridge ] onTransact: action=GET_BINDER, callerUid=10128
+[ 2026-10-24T13:09:30.654     1000:   577:  1074 D/VectorZygiskBridge ] onTransact: action=GET_BINDER, callerUid=10117
+[ 2026-10-24T13:09:30.919     1000:   577:   921 D/VectorZygiskBridge ] onTransact: action=GET_BINDER, callerUid=10131
+[ 2026-10-24T13:09:31.187     1000:   577:   903 D/VectorZygiskBridge ] onTransact: action=GET_BINDER, callerUid=10156
+[ 2026-10-24T13:09:31.303     1000:   577:   937 D/VectorZygiskBridge ] onTransact: action=GET_BINDER, callerUid=10132
+[ 2026-10-24T13:09:31.380     1000:   577:   790 D/VectorZygiskBridge ] onTransact: action=GET_BINDER, callerUid=1000
+[ 2026-10-24T13:09:31.383     1000:   577:  1074 D/VectorZygiskBridge ] onTransact: action=GET_BINDER, callerUid=10138
+[ 2026-10-24T13:09:31.904     1000:   577:   901 D/VectorZygiskBridge ] onTransact: action=GET_BINDER, callerUid=10120
+[ 2026-10-24T13:09:32.396     1000:   577:   790 D/VectorZygiskBridge ] onTransact: action=GET_BINDER, callerUid=10108
+[ 2026-10-24T13:09:32.686     1000:   577:  1074 D/VectorZygiskBridge ] onTransact: action=GET_BINDER, callerUid=10115
+[ 2026-10-24T13:09:32.969     1000:   577:   903 D/VectorZygiskBridge ] onTransact: action=GET_BINDER, callerUid=10161
+[ 2026-10-24T13:09:33.276     1000:   577:   930 D/VectorZygiskBridge ] onTransact: action=GET_BINDER, callerUid=1000
+[ 2026-10-24T13:09:34.396     1000:   577:   903 D/VectorZygiskBridge ] onTransact: action=GET_BINDER, callerUid=10188
+[ 2026-10-24T13:09:34.556        0:   507:   557 W/System          ] No Compatibility callbacks set! Querying change 160794467
+[ 2026-10-24T13:09:34.566     1000:   577:  2029 D/VectorZygiskBridge ] onTransact: action=GET_BINDER, callerUid=10086
+[ 2026-10-24T13:09:35.207     1000:   577:  2333 D/VectorZygiskBridge ] onTransact: action=GET_BINDER, callerUid=10125
+[ 2026-10-24T13:09:35.956     1000:   577:  2030 D/VectorZygiskBridge ] onTransact: action=GET_BINDER, callerUid=10129
+[ 2026-10-24T13:09:35.987    10129:  2482:  2494 F/libc            ] Fatal signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr 0xd in tid 2494 (.android.dialer), pid 2482 (.android.dialer)
+[ 2026-10-24T13:09:36.731    10129:  2521:  2521 F/DEBUG           ] *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+[ 2026-10-24T13:09:36.731    10129:  2521:  2521 F/DEBUG           ] Build fingerprint: 'google/sdk_gphone64_x86_64/emu64xa:14/UE1A.230829.050/12077443:userdebug/dev-keys'
+[ 2026-10-24T13:09:36.731    10129:  2521:  2521 F/DEBUG           ] Revision: '0'
+[ 2026-10-24T13:09:36.731    10129:  2521:  2521 F/DEBUG           ] ABI: 'x86_64'
+[ 2026-10-24T13:09:36.731    10129:  2521:  2521 F/DEBUG           ] Timestamp: 2026-10-24 13:09:36.449208199-0300
+[ 2026-10-24T13:09:36.731    10129:  2521:  2521 F/DEBUG           ] Process uptime: 2s
+[ 2026-10-24T13:09:36.731    10129:  2521:  2521 F/DEBUG           ] Cmdline: zygote64
+[ 2026-10-24T13:09:36.731    10129:  2521:  2521 F/DEBUG           ] pid: 2482, tid: 2494, name: .android.dialer  >>> zygote64 <<<
+[ 2026-10-24T13:09:36.731    10129:  2521:  2521 F/DEBUG           ] uid: 10129
+[ 2026-10-24T13:09:36.731    10129:  2521:  2521 F/DEBUG           ] signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr 0x000000000000000d
+[ 2026-10-24T13:09:36.731    10129:  2521:  2521 F/DEBUG           ] Cause: null pointer dereference
+[ 2026-10-24T13:09:36.731    10129:  2521:  2521 F/DEBUG           ]     rax 0000000000000000  rbx 00007f022caa9ac0  rcx 00007f022caa9ac0  rdx 00007f022caa9bf0
+[ 2026-10-24T13:09:36.731    10129:  2521:  2521 F/DEBUG           ]     r8  0000000000000000  r9  0000000000000000  r10 0000000000000008  r11 0000000000000246
+[ 2026-10-24T13:09:36.731    10129:  2521:  2521 F/DEBUG           ]     r12 000000000000000b  r13 00007f022c6ef0b0  r14 00007f022caa9bf0  r15 00007eff78b5e0d8
+[ 2026-10-24T13:09:36.731    10129:  2521:  2521 F/DEBUG           ]     rdi 00007eff78b5e0d8  rsi 000000000000000b
+[ 2026-10-24T13:09:36.731    10129:  2521:  2521 F/DEBUG           ]     rbp 000000000000000b  rsp 00007f022caa98b0  rip 00007eff782690f4
+[ 2026-10-24T13:09:36.731    10129:  2521:  2521 F/DEBUG           ] 11 total frames
+[ 2026-10-24T13:09:36.731    10129:  2521:  2521 F/DEBUG           ] backtrace:
+[ 2026-10-24T13:09:36.731    10129:  2521:  2521 F/DEBUG           ]       #00 pc 00000000004690f4  /apex/com.android.art/lib64/libart.so (art::FaultManager::HandleSigsegvFault(int, siginfo*, void*)+52) (BuildId: b6dc79e02101ea00827a35a55ab6597a)
+[ 2026-10-24T13:09:36.731    10129:  2521:  2521 F/DEBUG           ]       #01 pc 00000000000033a8  /apex/com.android.art/lib64/libsigchain.so (art::SignalChain::Handler(int, siginfo*, void*)+568) (BuildId: b254c7222feb6fdfb1ce34ae733cd526)
+[ 2026-10-24T13:09:36.731    10129:  2521:  2521 F/DEBUG           ]       #02 pc 000000000005d9d0  /apex/com.android.runtime/lib64/bionic/libc.so (__restore_rt+0) (BuildId: fa337969c798946280caa45e2d71a2e7)
+[ 2026-10-24T13:09:36.731    10129:  2521:  2521 F/DEBUG           ]       #03 pc 0000000000000000  <unknown>
+[ 2026-10-24T13:09:36.731    10129:  2521:  2521 F/DEBUG           ]       #04 pc 00000000007f9b19  /apex/com.android.art/lib64/libart.so (art::Runtime::AttachCurrentThread(char const*, bool, _jobject*, bool, bool)+57) (BuildId: b6dc79e02101ea00827a35a55ab6597a)
+[ 2026-10-24T13:09:36.731    10129:  2521:  2521 F/DEBUG           ]       #05 pc 00000000000009b2  <unknown>
+[ 2026-10-24T13:09:36.731    10129:  2521:  2521 F/DEBUG           ]       #06 pc 000000000087df53  /apex/com.android.art/lib64/libart.so (art::ThreadPoolWorker::Callback(void*)+115) (BuildId: b6dc79e02101ea00827a35a55ab6597a)
+[ 2026-10-24T13:09:36.731    10129:  2521:  2521 F/DEBUG           ]       #07 pc 000000000000fcef  [anon:stack_and_tls:2494]
+[ 2026-10-24T13:09:36.731    10129:  2521:  2521 F/DEBUG           ]       #08 pc 00000000000cd06a  /apex/com.android.runtime/lib64/bionic/libc.so (__pthread_start(void*)+58) (BuildId: fa337969c798946280caa45e2d71a2e7)
+[ 2026-10-24T13:09:36.731    10129:  2521:  2521 F/DEBUG           ]       #09 pc 00000000000cd02f  /apex/com.android.runtime/lib64/bionic/libc.so (BuildId: fa337969c798946280caa45e2d71a2e7)
+[ 2026-10-24T13:09:36.731    10129:  2521:  2521 F/DEBUG           ]       #10 pc 0000000000062d88  /apex/com.android.runtime/lib64/bionic/libc.so (__start_thread+56) (BuildId: fa337969c798946280caa45e2d71a2e7)
+[ 2026-10-24T13:09:36.940     1000:   577:  2440 D/VectorZygiskBridge ] onTransact: action=GET_BINDER, callerUid=10129
+[ 2026-10-24T13:09:37.137     1000:   577:   607 D/VectorZygiskBridge ] onTransact: action=GET_BINDER, callerUid=10085
+[ 2026-10-24T13:09:37.263     1000:   577:  2440 D/VectorZygiskBridge ] onTransact: action=GET_BINDER, callerUid=10148
+[ 2026-10-24T13:09:38.254     1000:   577:   607 D/VectorZygiskBridge ] onTransact: action=GET_BINDER, callerUid=10147
+[ 2026-10-24T13:09:38.956     1000:   577:  2050 D/VectorZygiskBridge ] onTransact: action=GET_BINDER, callerUid=1000
+[ 2026-10-24T13:09:39.143     1000:   577:  2030 D/VectorZygiskBridge ] onTransact: action=GET_BINDER, callerUid=1000
+[ 2026-10-24T13:09:39.193     1000:   577:  2454 D/VectorZygiskBridge ] onTransact: action=GET_BINDER, callerUid=10099
+[ 2026-10-24T13:09:39.636     1000:   577:   607 D/VectorZygiskBridge ] onTransact: action=GET_BINDER, callerUid=10089
+[ 2026-10-24T13:09:40.402     1000:   577:  2333 D/VectorZygiskBridge ] onTransact: action=GET_BINDER, callerUid=2000
+[ 2026-10-24T13:09:40.414     1000:   577:   607 D/VectorZygiskBridge ] onTransact: action=GET_BINDER, callerUid=10150
+[ 2026-10-24T13:09:40.512     1000:   577:  2210 D/VectorZygiskBridge ] onTransact: action=GET_BINDER, callerUid=10130
+[ 2026-10-24T13:09:40.952     1000:   577:   901 D/VectorZygiskBridge ] onTransact: action=GET_BINDER, callerUid=10155
+[ 2026-10-24T13:09:41.449     1000:   577:  2162 D/VectorZygiskBridge ] onTransact: action=GET_BINDER, callerUid=10145
+[ 2026-10-24T13:09:41.580     1000:   577:  1877 D/VectorZygiskBridge ] onTransact: action=GET_BINDER, callerUid=10095
+[ 2026-10-24T13:09:41.756     1000:   577:  2850 D/VectorZygiskBridge ] onTransact: action=GET_BINDER, callerUid=10124
+[ 2026-10-24T13:09:42.228     1000:   577:  2850 D/VectorZygiskBridge ] onTransact: action=GET_BINDER, callerUid=10123
+[ 2026-10-24T13:09:42.393     1000:   577:  2850 D/VectorZygiskBridge ] onTransact: action=GET_BINDER, callerUid=10171
+[ 2026-10-24T13:09:42.948     1000:   577:  1877 D/VectorZygiskBridge ] onTransact: action=GET_BINDER, callerUid=10118
+[ 2026-10-24T13:09:44.806     1000:   577:  2062 D/VectorZygiskBridge ] onTransact: action=GET_BINDER, callerUid=10166
+[ 2026-10-24T13:09:44.854     1000:   577:  2452 D/VectorZygiskBridge ] onTransact: action=GET_BINDER, callerUid=10128
+[ 2026-10-24T13:09:44.860     1000:   577:  2454 D/VectorZygiskBridge ] onTransact: action=GET_BINDER, callerUid=10175
+[ 2026-10-24T13:09:44.988     1000:   577:  1074 D/VectorZygiskBridge ] onTransact: action=GET_BINDER, callerUid=10139
+[ 2026-10-24T13:09:47.480        0:  3779:  3779 I/VectorCli       ] Core platform API reporting enabled, enforcing=false
+[ 2026-10-24T13:09:47.481        0:  3779:  3779 I/VectorCli       ] Using CollectorTypeCC GC.
+[ 2026-10-24T13:09:47.571        0:  3779:  3779 D/VectorCli       ] Time zone APEX ICU file found: /apex/com.android.tzdata/etc/icu/icu_tzdata.dat
+[ 2026-10-24T13:09:47.571        0:  3779:  3779 D/VectorCli       ] I18n APEX ICU file found: /apex/com.android.i18n/etc/icu/icudt72l.dat
+[ 2026-10-24T13:09:47.579        0:  3779:  3779 W/VectorCli       ] Unexpected CPU variant for x86: x86_64.
+Known variants: atom, sandybridge, silvermont, goldmont, goldmont-plus, tremont, kabylake, default
+[ 2026-10-24T13:09:47.696        0:  3779:  3779 I/VectorCli       ] System.exit called, status: 0
+[ 2026-10-24T13:09:47.853        0:  3801:  3801 I/VectorCli       ] Core platform API reporting enabled, enforcing=false
+[ 2026-10-24T13:09:47.853        0:  3801:  3801 I/VectorCli       ] Using CollectorTypeCC GC.
+[ 2026-10-24T13:09:47.917        0:  3801:  3801 D/VectorCli       ] Time zone APEX ICU file found: /apex/com.android.tzdata/etc/icu/icu_tzdata.dat
+[ 2026-10-24T13:09:47.917        0:  3801:  3801 D/VectorCli       ] I18n APEX ICU file found: /apex/com.android.i18n/etc/icu/icudt72l.dat
+[ 2026-10-24T13:09:47.920        0:  3801:  3801 W/VectorCli       ] Unexpected CPU variant for x86: x86_64.
+Known variants: atom, sandybridge, silvermont, goldmont, goldmont-plus, tremont, kabylake, default
+[ 2026-10-24T13:09:47.934     1000:   577:  1074 D/VectorZygiskBridge ] onTransact: action=GET_BINDER, callerUid=10128
+[ 2026-10-24T13:09:47.992        0:  3801:  3801 I/VectorCli       ] System.exit called, status: 0
+[ 2026-10-24T13:09:52.456        0:  4009:  4009 I/Magisk          ] * Launching zygiskd64
+[ 2026-10-24T13:09:52.700     1000:   577:  2210 D/VectorZygiskBridge ] onTransact: action=GET_BINDER, callerUid=10192
+[ 2026-10-24T13:09:52.722    10192:  4007:  4007 V/VectorDeopter   ] Skipping deopt for android.app.Instrumentation#newApplication: android.app.Instrumentation.newApplication [class java.lang.ClassLoader, class android.content.Context]
+[ 2026-10-24T13:09:52.723    10192:  4007:  4007 V/Vector          ] Loading Vector/Xposed for dev.androidlab.probe (UID: 10192)
+[ 2026-10-24T13:09:52.732    10192:  4007:  4007 V/VectorLegacyBridge ] Loading legacy module dev.androidlab.module from /data/app/~~RN-HBB8pQq2meoeMLeXAMg==/dev.androidlab.module-daoTcG9UvoBmyF0CjfyvhQ==/base.apk
+[ 2026-10-24T13:09:52.735    10192:  4007:  4007 I/VectorNative    ] Native API entries initialized and protected.
+[ 2026-10-24T13:09:52.740    10192:  4007:  4007 V/VectorLegacyBridge ]   Loading class dev.androidlab.module.DeviceHooks
+[ 2026-10-24T13:09:52.800    10192:  4007:  4007 I/VectorLegacyBridge ] DeviceLab: native hooks unavailable for dev.androidlab.probe
+[ 2026-10-24T13:09:52.802    10192:  4007:  4007 E/VectorLegacyBridge ] java.lang.UnsatisfiedLinkError: dlopen failed: "/data/app/~~RN-HBB8pQq2meoeMLeXAMg==/dev.androidlab.module-daoTcG9UvoBmyF0CjfyvhQ==/base.apk!/lib/x86_64/libdevicelab.so" is for EM_X86_64 (62) instead of EM_AARCH64 (183)
+	at java.lang.Runtime.loadLibrary0(Runtime.java:1082)
+	at java.lang.Runtime.loadLibrary0(Runtime.java:1003)
+	at java.lang.System.loadLibrary(System.java:1661)
+	at dev.androidlab.module.DeviceHooks.handleLoadPackage(DeviceHooks.java:62)
+	at ZlCppT.tUopYvkw.WGnJox.IXposedHookLoadPackage$Wrapper.handleLoadPackage(r8-map-id-4e8fef884aca59aee337e225c9e17b9fd6ff1da7e14ff4119d1b2d3bae432287:3)
+	at ZlCppT.tUopYvkw.WGnJox.callbacks.XC_LoadPackage.call(r8-map-id-4e8fef884aca59aee337e225c9e17b9fd6ff1da7e14ff4119d1b2d3bae432287:7)
+	at ZlCppT.tUopYvkw.WGnJox.callbacks.XCallback.callAll(r8-map-id-4e8fef884aca59aee337e225c9e17b9fd6ff1da7e14ff4119d1b2d3bae432287:27)
+	at p.intercept(r8-map-id-4e8fef884aca59aee337e225c9e17b9fd6ff1da7e14ff4119d1b2d3bae432287:100)
+	at e2.b(r8-map-id-4e8fef884aca59aee337e225c9e17b9fd6ff1da7e14ff4119d1b2d3bae432287:58)
+	at e2.proceed(r8-map-id-4e8fef884aca59aee337e225c9e17b9fd6ff1da7e14ff4119d1b2d3bae432287:11)
+	at c3.callback(r8-map-id-4e8fef884aca59aee337e225c9e17b9fd6ff1da7e14ff4119d1b2d3bae432287:106)
+	at Vector_.createOrUpdateClassLoaderLocked(Unknown Source:11)
+	at android.app.LoadedApk.getClassLoader(LoadedApk.java:1126)
+	at android.app.LoadedApk.getResources(LoadedApk.java:1374)
+	at android.app.ContextImpl.createAppContext(ContextImpl.java:3324)
+	at android.app.ContextImpl.createAppContext(ContextImpl.java:3316)
+	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:6879)
+	at android.app.ActivityThread.-$$Nest$mhandleBindApplication(Unknown Source:0)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2236)
+	at android.os.Handler.dispatchMessage(Handler.java:106)
+	at android.os.Looper.loopOnce(Looper.java:205)
+	at android.os.Looper.loop(Looper.java:294)
+	at android.app.ActivityThread.main(ActivityThread.java:8177)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:552)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:971)
+[ 2026-10-24T13:09:52.806    10192:  4007:  4007 I/VectorLegacyBridge ] DeviceLab: Java identity hooks installed for dev.androidlab.probe
+[ 2026-10-24T13:10:02.444     1000:   577:  1877 D/VectorZygiskBridge ] onTransact: action=GET_BINDER, callerUid=10193
+[ 2026-10-24T13:10:02.493    10193:  4179:  4179 V/VectorDeopter   ] Skipping deopt for android.app.Instrumentation#newApplication: android.app.Instrumentation.newApplication [class java.lang.ClassLoader, class android.content.Context]
+[ 2026-10-24T13:10:02.494    10193:  4179:  4179 V/Vector          ] Loading Vector/Xposed for com.reveny.emulator.detection.sample (UID: 10193)
+[ 2026-10-24T13:10:02.533    10193:  4179:  4179 V/VectorLegacyBridge ] Loading legacy module dev.androidlab.module from /data/app/~~RN-HBB8pQq2meoeMLeXAMg==/dev.androidlab.module-daoTcG9UvoBmyF0CjfyvhQ==/base.apk
+[ 2026-10-24T13:10:02.535    10193:  4179:  4179 I/VectorNative    ] Native API entries initialized and protected.
+[ 2026-10-24T13:10:02.543    10193:  4179:  4179 V/VectorLegacyBridge ]   Loading class dev.androidlab.module.DeviceHooks
+[ 2026-10-24T13:10:02.588    10193:  4179:  4179 I/VectorNative    ] Detected registered native module being loaded: '/data/app/~~RN-HBB8pQq2meoeMLeXAMg==/dev.androidlab.module-daoTcG9UvoBmyF0CjfyvhQ==/base.apk!/lib/x86_64/libdevicelab.so'
+[ 2026-10-24T13:10:02.589    10193:  4179:  4179 I/VectorNative    ] Initialized native module '/data/app/~~RN-HBB8pQq2meoeMLeXAMg==/dev.androidlab.module-daoTcG9UvoBmyF0CjfyvhQ==/base.apk!/lib/x86_64/libdevicelab.so' and registered its callback.
+[ 2026-10-24T13:10:02.589    10193:  4179:  4179 I/VectorLegacyBridge ] DeviceLab: native hooks for com.reveny.emulator.detection.sample: get=1 callback=1 fopen=1 open=1 openat=1 open_checked=1 openat_checked=1 uname=1 syscall=1 auxval=1 gl=0 cpu_cache=1
+[ 2026-10-24T13:10:02.591    10193:  4179:  4179 I/VectorLegacyBridge ] DeviceLab: Java identity hooks installed for com.reveny.emulator.detection.sample
+[ 2026-10-24T13:10:06.791     1000:   577:   901 D/VectorZygiskBridge ] onTransact: action=GET_BINDER, callerUid=10196
+[ 2026-10-24T13:10:06.808    10196:  4262:  4262 V/VectorDeopter   ] Skipping deopt for android.app.Instrumentation#newApplication: android.app.Instrumentation.newApplication [class java.lang.ClassLoader, class android.content.Context]
+[ 2026-10-24T13:10:06.808    10196:  4262:  4262 V/Vector          ] Loading Vector/Xposed for com.felhr.emulatordetector (UID: 10196)
+[ 2026-10-24T13:10:06.824    10196:  4262:  4262 V/VectorLegacyBridge ] Loading legacy module dev.androidlab.module from /data/app/~~RN-HBB8pQq2meoeMLeXAMg==/dev.androidlab.module-daoTcG9UvoBmyF0CjfyvhQ==/base.apk
+[ 2026-10-24T13:10:06.827    10196:  4262:  4262 I/VectorNative    ] Native API entries initialized and protected.
+[ 2026-10-24T13:10:06.835    10196:  4262:  4262 V/VectorLegacyBridge ]   Loading class dev.androidlab.module.DeviceHooks
+[ 2026-10-24T13:10:06.905    10196:  4262:  4262 I/VectorLegacyBridge ] DeviceLab: native hooks unavailable for com.felhr.emulatordetector
+[ 2026-10-24T13:10:06.905    10196:  4262:  4262 E/VectorLegacyBridge ] java.lang.UnsatisfiedLinkError: dlopen failed: "/data/app/~~RN-HBB8pQq2meoeMLeXAMg==/dev.androidlab.module-daoTcG9UvoBmyF0CjfyvhQ==/base.apk!/lib/x86_64/libdevicelab.so" is for EM_X86_64 (62) instead of EM_AARCH64 (183)
+	at java.lang.Runtime.loadLibrary0(Runtime.java:1082)
+	at java.lang.Runtime.loadLibrary0(Runtime.java:1003)
+	at java.lang.System.loadLibrary(System.java:1661)
+	at dev.androidlab.module.DeviceHooks.handleLoadPackage(DeviceHooks.java:62)
+	at ZlCppT.tUopYvkw.WGnJox.IXposedHookLoadPackage$Wrapper.handleLoadPackage(r8-map-id-4e8fef884aca59aee337e225c9e17b9fd6ff1da7e14ff4119d1b2d3bae432287:3)
+	at ZlCppT.tUopYvkw.WGnJox.callbacks.XC_LoadPackage.call(r8-map-id-4e8fef884aca59aee337e225c9e17b9fd6ff1da7e14ff4119d1b2d3bae432287:7)
+	at ZlCppT.tUopYvkw.WGnJox.callbacks.XCallback.callAll(r8-map-id-4e8fef884aca59aee337e225c9e17b9fd6ff1da7e14ff4119d1b2d3bae432287:27)
+	at p.intercept(r8-map-id-4e8fef884aca59aee337e225c9e17b9fd6ff1da7e14ff4119d1b2d3bae432287:100)
+	at e2.b(r8-map-id-4e8fef884aca59aee337e225c9e17b9fd6ff1da7e14ff4119d1b2d3bae432287:58)
+	at e2.proceed(r8-map-id-4e8fef884aca59aee337e225c9e17b9fd6ff1da7e14ff4119d1b2d3bae432287:11)
+	at c3.callback(r8-map-id-4e8fef884aca59aee337e225c9e17b9fd6ff1da7e14ff4119d1b2d3bae432287:106)
+	at Vector_.createOrUpdateClassLoaderLocked(Unknown Source:11)
+	at android.app.LoadedApk.getClassLoader(LoadedApk.java:1126)
+	at android.app.LoadedApk.getResources(LoadedApk.java:1374)
+	at android.app.ContextImpl.createAppContext(ContextImpl.java:3324)
+	at android.app.ContextImpl.createAppContext(ContextImpl.java:3316)
+	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:6879)
+	at android.app.ActivityThread.-$$Nest$mhandleBindApplication(Unknown Source:0)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2236)
+	at android.os.Handler.dispatchMessage(Handler.java:106)
+	at android.os.Looper.loopOnce(Looper.java:205)
+	at android.os.Looper.loop(Looper.java:294)
+	at android.app.ActivityThread.main(ActivityThread.java:8177)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:552)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:971)
+[ 2026-10-24T13:10:06.908    10196:  4262:  4262 I/VectorLegacyBridge ] DeviceLab: Java identity hooks installed for com.felhr.emulatordetector
+[ 2026-10-24T13:10:17.376     1000:   577:  2030 D/VectorZygiskBridge ] onTransact: action=GET_BINDER, callerUid=10197
+[ 2026-10-24T13:10:17.421    10197:  4396:  4396 V/VectorDeopter   ] Skipping deopt for android.app.Instrumentation#newApplication: android.app.Instrumentation.newApplication [class java.lang.ClassLoader, class android.content.Context]
+[ 2026-10-24T13:10:17.421    10197:  4396:  4396 V/Vector          ] Loading Vector/Xposed for com.reveny.nativecheck (UID: 10197)
+[ 2026-10-24T13:10:17.441    10197:  4396:  4396 V/VectorLegacyBridge ] Loading legacy module dev.androidlab.module from /data/app/~~RN-HBB8pQq2meoeMLeXAMg==/dev.androidlab.module-daoTcG9UvoBmyF0CjfyvhQ==/base.apk
+[ 2026-10-24T13:10:17.443    10197:  4396:  4396 I/VectorNative    ] Native API entries initialized and protected.
+[ 2026-10-24T13:10:17.452    10197:  4396:  4396 V/VectorLegacyBridge ]   Loading class dev.androidlab.module.DeviceHooks
+[ 2026-10-24T13:10:17.517    10197:  4396:  4396 I/VectorLegacyBridge ] DeviceLab: native hooks unavailable for com.reveny.nativecheck
+[ 2026-10-24T13:10:17.517    10197:  4396:  4396 E/VectorLegacyBridge ] java.lang.UnsatisfiedLinkError: dlopen failed: "/data/app/~~RN-HBB8pQq2meoeMLeXAMg==/dev.androidlab.module-daoTcG9UvoBmyF0CjfyvhQ==/base.apk!/lib/x86_64/libdevicelab.so" is for EM_X86_64 (62) instead of EM_AARCH64 (183)
+	at java.lang.Runtime.loadLibrary0(Runtime.java:1082)
+	at java.lang.Runtime.loadLibrary0(Runtime.java:1003)
+	at java.lang.System.loadLibrary(System.java:1661)
+	at dev.androidlab.module.DeviceHooks.handleLoadPackage(DeviceHooks.java:62)
+	at ZlCppT.tUopYvkw.WGnJox.IXposedHookLoadPackage$Wrapper.handleLoadPackage(r8-map-id-4e8fef884aca59aee337e225c9e17b9fd6ff1da7e14ff4119d1b2d3bae432287:3)
+	at ZlCppT.tUopYvkw.WGnJox.callbacks.XC_LoadPackage.call(r8-map-id-4e8fef884aca59aee337e225c9e17b9fd6ff1da7e14ff4119d1b2d3bae432287:7)
+	at ZlCppT.tUopYvkw.WGnJox.callbacks.XCallback.callAll(r8-map-id-4e8fef884aca59aee337e225c9e17b9fd6ff1da7e14ff4119d1b2d3bae432287:27)
+	at p.intercept(r8-map-id-4e8fef884aca59aee337e225c9e17b9fd6ff1da7e14ff4119d1b2d3bae432287:100)
+	at e2.b(r8-map-id-4e8fef884aca59aee337e225c9e17b9fd6ff1da7e14ff4119d1b2d3bae432287:58)
+	at e2.proceed(r8-map-id-4e8fef884aca59aee337e225c9e17b9fd6ff1da7e14ff4119d1b2d3bae432287:11)
+	at c3.callback(r8-map-id-4e8fef884aca59aee337e225c9e17b9fd6ff1da7e14ff4119d1b2d3bae432287:106)
+	at Vector_.createOrUpdateClassLoaderLocked(Unknown Source:11)
+	at android.app.LoadedApk.getClassLoader(LoadedApk.java:1126)
+	at android.app.LoadedApk.getResources(LoadedApk.java:1374)
+	at android.app.ContextImpl.createAppContext(ContextImpl.java:3324)
+	at android.app.ContextImpl.createAppContext(ContextImpl.java:3316)
+	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:6879)
+	at android.app.ActivityThread.-$$Nest$mhandleBindApplication(Unknown Source:0)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2236)
+	at android.os.Handler.dispatchMessage(Handler.java:106)
+	at android.os.Looper.loopOnce(Looper.java:205)
+	at android.os.Looper.loop(Looper.java:294)
+	at android.app.ActivityThread.main(ActivityThread.java:8177)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:552)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:971)
+[ 2026-10-24T13:10:17.521    10197:  4396:  4396 I/VectorLegacyBridge ] DeviceLab: Java identity hooks installed for com.reveny.nativecheck
+[ 2026-10-24T13:10:21.130    10197:  4396:  4429 F/libc            ] Fatal signal 11 (SIGSEGV), code 128 (SI_KERNEL), fault addr 0x0 in tid 4429 (pool-2-thread-1), pid 4396 (eny.nativecheck)
+[ 2026-10-24T13:10:21.569    10197:  4707:  4707 F/DEBUG           ] *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+[ 2026-10-24T13:10:21.569    10197:  4707:  4707 F/DEBUG           ] Build fingerprint: 'google/shiba/shiba:14/AP1A.240505.005/11677807:user/release-keys'
+[ 2026-10-24T13:10:21.569    10197:  4707:  4707 F/DEBUG           ] Revision: '0'
+[ 2026-10-24T13:10:21.569    10197:  4707:  4707 F/DEBUG           ] ABI: 'x86_64'
+[ 2026-10-24T13:10:21.569    10197:  4707:  4707 F/DEBUG           ] Timestamp: 2026-10-24 13:10:21.209429140-0300
+[ 2026-10-24T13:10:21.569    10197:  4707:  4707 F/DEBUG           ] Process uptime: 5s
+[ 2026-10-24T13:10:21.569    10197:  4707:  4707 F/DEBUG           ] Cmdline: com.reveny.nativecheck
+[ 2026-10-24T13:10:21.569    10197:  4707:  4707 F/DEBUG           ] pid: 4396, tid: 4429, name: pool-2-thread-1  >>> com.reveny.nativecheck <<<
+[ 2026-10-24T13:10:21.569    10197:  4707:  4707 F/DEBUG           ] uid: 10197
+[ 2026-10-24T13:10:21.569    10197:  4707:  4707 F/DEBUG           ] signal 11 (SIGSEGV), code 128 (SI_KERNEL), fault addr 0x0000000000000000
+[ 2026-10-24T13:10:21.569    10197:  4707:  4707 F/DEBUG           ]     rax 00007efefd900578  rbx 00007f0228e83050  rcx 00007f021cc07c1c  rdx 0000000000000002
+[ 2026-10-24T13:10:21.569    10197:  4707:  4707 F/DEBUG           ]     r8  00007eff6b651f01  r9  0000000000000001  r10 0000000000000001  r11 000000000000000e
+[ 2026-10-24T13:10:21.569    10197:  4707:  4707 F/DEBUG           ]     r12 00007eff6b68c010  r13 0000000000900578  r14 00007eff61199f90  r15 0013000100028606
+[ 2026-10-24T13:10:21.570    10197:  4707:  4707 F/DEBUG           ]     rdi 00007f0228e83050  rsi 00007efefc4fff60
+[ 2026-10-24T13:10:21.570    10197:  4707:  4707 F/DEBUG           ]     rbp 00007f0228e83050  rsp 00007eff0240c4a0  rip 00007efefc50002d
+[ 2026-10-24T13:10:21.570    10197:  4707:  4707 F/DEBUG           ] 1 total frames
+[ 2026-10-24T13:10:21.570    10197:  4707:  4707 F/DEBUG           ] backtrace:
+[ 2026-10-24T13:10:21.570    10197:  4707:  4707 F/DEBUG           ]       #00 pc 000000000010002d  <anonymous:7efefc400000>
+[ 2026-10-24T13:10:24.496     1000:   577:  2452 D/VectorZygiskBridge ] onTransact: action=GET_BINDER, callerUid=10198
+[ 2026-10-24T13:10:24.538    10198:  4792:  4792 V/VectorDeopter   ] Skipping deopt for android.app.Instrumentation#newApplication: android.app.Instrumentation.newApplication [class java.lang.ClassLoader, class android.content.Context]
+[ 2026-10-24T13:10:24.539    10198:  4792:  4792 V/Vector          ] Loading Vector/Xposed for icu.nullptr.nativetest (UID: 10198)
+[ 2026-10-24T13:10:24.573    10198:  4792:  4792 V/VectorLegacyBridge ] Loading legacy module dev.androidlab.module from /data/app/~~RN-HBB8pQq2meoeMLeXAMg==/dev.androidlab.module-daoTcG9UvoBmyF0CjfyvhQ==/base.apk
+[ 2026-10-24T13:10:24.575    10198:  4792:  4792 I/VectorNative    ] Native API entries initialized and protected.
+[ 2026-10-24T13:10:24.584    10198:  4792:  4792 V/VectorLegacyBridge ]   Loading class dev.androidlab.module.DeviceHooks
+[ 2026-10-24T13:10:24.668    10198:  4792:  4792 I/VectorLegacyBridge ] DeviceLab: native hooks unavailable for icu.nullptr.nativetest
+[ 2026-10-24T13:10:24.669    10198:  4792:  4792 E/VectorLegacyBridge ] java.lang.UnsatisfiedLinkError: dlopen failed: "/data/app/~~RN-HBB8pQq2meoeMLeXAMg==/dev.androidlab.module-daoTcG9UvoBmyF0CjfyvhQ==/base.apk!/lib/x86_64/libdevicelab.so" is for EM_X86_64 (62) instead of EM_AARCH64 (183)
+	at java.lang.Runtime.loadLibrary0(Runtime.java:1082)
+	at java.lang.Runtime.loadLibrary0(Runtime.java:1003)
+	at java.lang.System.loadLibrary(System.java:1661)
+	at dev.androidlab.module.DeviceHooks.handleLoadPackage(DeviceHooks.java:62)
+	at ZlCppT.tUopYvkw.WGnJox.IXposedHookLoadPackage$Wrapper.handleLoadPackage(r8-map-id-4e8fef884aca59aee337e225c9e17b9fd6ff1da7e14ff4119d1b2d3bae432287:3)
+	at ZlCppT.tUopYvkw.WGnJox.callbacks.XC_LoadPackage.call(r8-map-id-4e8fef884aca59aee337e225c9e17b9fd6ff1da7e14ff4119d1b2d3bae432287:7)
+	at ZlCppT.tUopYvkw.WGnJox.callbacks.XCallback.callAll(r8-map-id-4e8fef884aca59aee337e225c9e17b9fd6ff1da7e14ff4119d1b2d3bae432287:27)
+	at p.intercept(r8-map-id-4e8fef884aca59aee337e225c9e17b9fd6ff1da7e14ff4119d1b2d3bae432287:100)
+	at e2.b(r8-map-id-4e8fef884aca59aee337e225c9e17b9fd6ff1da7e14ff4119d1b2d3bae432287:58)
+	at e2.proceed(r8-map-id-4e8fef884aca59aee337e225c9e17b9fd6ff1da7e14ff4119d1b2d3bae432287:11)
+	at c3.callback(r8-map-id-4e8fef884aca59aee337e225c9e17b9fd6ff1da7e14ff4119d1b2d3bae432287:106)
+	at Vector_.createOrUpdateClassLoaderLocked(Unknown Source:11)
+	at android.app.LoadedApk.getClassLoader(LoadedApk.java:1126)
+	at android.app.LoadedApk.getResources(LoadedApk.java:1374)
+	at android.app.ContextImpl.createAppContext(ContextImpl.java:3324)
+	at android.app.ContextImpl.createAppContext(ContextImpl.java:3316)
+	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:6879)
+	at android.app.ActivityThread.-$$Nest$mhandleBindApplication(Unknown Source:0)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2236)
+	at android.os.Handler.dispatchMessage(Handler.java:106)
+	at android.os.Looper.loopOnce(Looper.java:205)
+	at android.os.Looper.loop(Looper.java:294)
+	at android.app.ActivityThread.main(ActivityThread.java:8177)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:552)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:971)
+[ 2026-10-24T13:10:24.672    10198:  4792:  4792 I/VectorLegacyBridge ] DeviceLab: Java identity hooks installed for icu.nullptr.nativetest
+[ 2026-10-24T13:10:25.207    10198:  4792:  4792 F/libc            ] Fatal signal 11 (SIGSEGV), code 2 (SEGV_ACCERR), fault addr 0x7f0220eb6e50 in tid 4792 (lptr.nativetest), pid 4792 (lptr.nativetest)
+[ 2026-10-24T13:10:25.366    10198:  4831:  4831 F/DEBUG           ] *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+[ 2026-10-24T13:10:25.367    10198:  4831:  4831 F/DEBUG           ] Build fingerprint: 'google/shiba/shiba:14/AP1A.240505.005/11677807:user/release-keys'
+[ 2026-10-24T13:10:25.367    10198:  4831:  4831 F/DEBUG           ] Revision: '0'
+[ 2026-10-24T13:10:25.367    10198:  4831:  4831 F/DEBUG           ] ABI: 'x86_64'
+[ 2026-10-24T13:10:25.367    10198:  4831:  4831 F/DEBUG           ] Timestamp: 2026-10-24 13:10:25.235667935-0300
+[ 2026-10-24T13:10:25.367    10198:  4831:  4831 F/DEBUG           ] Process uptime: 2s
+[ 2026-10-24T13:10:25.367    10198:  4831:  4831 F/DEBUG           ] Cmdline: icu.nullptr.nativetest
+[ 2026-10-24T13:10:25.367    10198:  4831:  4831 F/DEBUG           ] pid: 4792, tid: 4792, name: lptr.nativetest  >>> icu.nullptr.nativetest <<<
+[ 2026-10-24T13:10:25.367    10198:  4831:  4831 F/DEBUG           ] uid: 10198
+[ 2026-10-24T13:10:25.367    10198:  4831:  4831 F/DEBUG           ] signal 11 (SIGSEGV), code 2 (SEGV_ACCERR), fault addr 0x00007f0220eb6e50
+[ 2026-10-24T13:10:25.367    10198:  4831:  4831 F/DEBUG           ]     rax 0000000000000000  rbx 00007f022e7a5000  rcx 00007f0220eadb98  rdx 000000000000000b
+[ 2026-10-24T13:10:25.367    10198:  4831:  4831 F/DEBUG           ]     r8  000000000000000b  r9  000000000000000b  r10 00007fff81e54420  r11 0000000000000246
+[ 2026-10-24T13:10:25.367    10198:  4831:  4831 F/DEBUG           ]     r12 00007eff6b68c010  r13 0000000000eb6e50  r14 00000000000012b8  r15 00007eff6b68bfb8
+[ 2026-10-24T13:10:25.367    10198:  4831:  4831 F/DEBUG           ]     rdi 00000000000012b8  rsi 00000000000012b8
+[ 2026-10-24T13:10:25.367    10198:  4831:  4831 F/DEBUG           ]     rbp 00000000cc3c3e01  rsp 00007fff81e54418  rip 00007f0220eadb98
+[ 2026-10-24T13:10:25.367    10198:  4831:  4831 F/DEBUG           ] 6 total frames
+[ 2026-10-24T13:10:25.367    10198:  4831:  4831 F/DEBUG           ] backtrace:
+[ 2026-10-24T13:10:25.367    10198:  4831:  4831 F/DEBUG           ]       #00 pc 000000000005db98  /apex/com.android.runtime/lib64/bionic/libc.so (syscall+24) (BuildId: fa337969c798946280caa45e2d71a2e7)
+[ 2026-10-24T13:10:25.367    10198:  4831:  4831 F/DEBUG           ]       #01 pc 0000000000208e30  /system/lib64/libndk_translation.so (ndk_translation_HandleNoExec+208) (BuildId: 553ba82b76bb5a11fd1d67b2c7e01b75)
+[ 2026-10-24T13:10:25.367    10198:  4831:  4831 F/DEBUG           ]       #02 pc 000000000018c030  /system/lib64/libndk_translation.so (ndk_translation::ExecuteGuest(ndk_translation::ProcessState*)+224) (BuildId: 553ba82b76bb5a11fd1d67b2c7e01b75)
+[ 2026-10-24T13:10:25.367    10198:  4831:  4831 F/DEBUG           ]       #03 pc 000000000018486b  /system/lib64/libndk_translation.so (ndk_translation::ExecuteGuestCall(ndk_translation::ProcessState*)+123) (BuildId: 553ba82b76bb5a11fd1d67b2c7e01b75)
+[ 2026-10-24T13:10:25.367    10198:  4831:  4831 F/DEBUG           ]       #04 pc 000000000018c1fb  /system/lib64/libndk_translation.so (ndk_translation::RunGuestCall(unsigned long, ndk_translation::GuestArgumentBuffer*)+187) (BuildId: 553ba82b76bb5a11fd1d67b2c7e01b75)
+[ 2026-10-24T13:10:25.367    10198:  4831:  4831 F/DEBUG           ]       #05 pc 00000000000000e8  <anonymous:7eff62270000>
+[ 2026-10-24T13:10:29.240     1000:   577:  2159 D/VectorZygiskBridge ] onTransact: action=GET_BINDER, callerUid=10199
+[ 2026-10-24T13:10:29.273    10199:  4882:  4882 V/VectorDeopter   ] Skipping deopt for android.app.Instrumentation#newApplication: android.app.Instrumentation.newApplication [class java.lang.ClassLoader, class android.content.Context]
+[ 2026-10-24T13:10:29.273    10199:  4882:  4882 V/Vector          ] Loading Vector/Xposed for io.github.vvb2060.nativedetector (UID: 10199)
+[ 2026-10-24T13:10:29.293    10199:  4882:  4882 V/VectorLegacyBridge ] Loading legacy module dev.androidlab.module from /data/app/~~RN-HBB8pQq2meoeMLeXAMg==/dev.androidlab.module-daoTcG9UvoBmyF0CjfyvhQ==/base.apk
+[ 2026-10-24T13:10:29.296    10199:  4882:  4882 I/VectorNative    ] Native API entries initialized and protected.
+[ 2026-10-24T13:10:29.302    10199:  4882:  4882 V/VectorLegacyBridge ]   Loading class dev.androidlab.module.DeviceHooks
+[ 2026-10-24T13:10:29.337    10199:  4882:  4882 I/VectorNative    ] Detected registered native module being loaded: '/data/app/~~RN-HBB8pQq2meoeMLeXAMg==/dev.androidlab.module-daoTcG9UvoBmyF0CjfyvhQ==/base.apk!/lib/x86_64/libdevicelab.so'
+[ 2026-10-24T13:10:29.338    10199:  4882:  4882 I/VectorNative    ] Initialized native module '/data/app/~~RN-HBB8pQq2meoeMLeXAMg==/dev.androidlab.module-daoTcG9UvoBmyF0CjfyvhQ==/base.apk!/lib/x86_64/libdevicelab.so' and registered its callback.
+[ 2026-10-24T13:10:29.339    10199:  4882:  4882 I/VectorLegacyBridge ] DeviceLab: native hooks for io.github.vvb2060.nativedetector: get=1 callback=1 fopen=1 open=1 openat=1 open_checked=1 openat_checked=1 uname=1 syscall=1 auxval=1 gl=0 cpu_cache=1
+[ 2026-10-24T13:10:29.342    10199:  4882:  4882 I/VectorLegacyBridge ] DeviceLab: Java identity hooks installed for io.github.vvb2060.nativedetector

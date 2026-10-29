@@ -1,0 +1,12 @@
+E:\Workstation\projects\android-device-lab\scripts\measure-adb-offline.sh: 1 file pushed, 0 skipped. 3.2 MB/s (3366 bytes in 0.001s)
+E:\Workstation\projects\android-device-lab\scripts\run-platform-worker.sh: 1 file pushed, 0 skipped. 4.5 MB/s (776 bytes in 0.000s)
+Independent platform worker: 6839
+/data/misc/device-lab/offline-v12/before.json: 1 file pulled, 0 skipped. 0.1 MB/s (165 bytes in 0.001s)
+/data/misc/device-lab/offline-v12/offline.json: 1 file pulled, 0 skipped. 0.1 MB/s (165 bytes in 0.001s)
+/data/misc/device-lab/offline-v12/restored.json: 1 file pulled, 0 skipped. 0.1 MB/s (165 bytes in 0.001s)
+/data/misc/device-lab/offline-v12/samples.jsonl: 1 file pulled, 0 skipped. 3.5 MB/s (5940 bytes in 0.002s)
+/data/misc/device-lab/offline-v12/launch.txt: 1 file pulled, 0 skipped. 0.1 MB/s (78 bytes in 0.001s)
+/data/misc/device-lab/offline-v12/app-pid.txt: 1 file pulled, 0 skipped. 0.0 MB/s (5 bytes in 0.001s)
+restarting adbd as non root
+duck: complete; detected=False; checksum and ABI verified.
+E:\Workstation\projects\android-device-lab\reports\strict-v18-mgf-aes-aad-forward-duck-offline.json

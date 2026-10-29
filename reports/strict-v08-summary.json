@@ -1,0 +1,235 @@
+{
+  "module_version": "0.8.0",
+  "stock_kernel_phases": {
+    "before": {
+      "proc": {
+        "report": "strict-v08-before-proc95.json",
+        "apk_sha256": "99901e704d769e519741824d62f15286f68e0654f4223c0681083903ca98c9ab",
+        "detected": 0,
+        "unavailable": 2,
+        "total": 95,
+        "installed_abi": "x86_64"
+      },
+      "raw": {
+        "report": "strict-v08-before-raw79.json",
+        "apk_sha256": "ee4e8cc35ef306e1626472ffb3d9d53fe0b45036a4a89dce31020ed489268f37",
+        "detected": 0,
+        "unavailable": 0,
+        "total": 79,
+        "installed_abi": "x86_64"
+      },
+      "probe": {
+        "report": "strict-v08-before-probe54.json",
+        "apk_sha256": "ab4dafd201527cf0f72a1c2ff4f9bd41fd4dbaa921d336d1983319ac611554ed",
+        "detected": 0,
+        "unavailable": 0,
+        "total": 54,
+        "installed_abi": "arm64-v8a"
+      },
+      "reveny": {
+        "report": "strict-v08-before-reveny.json",
+        "apk_sha256": "9f064f3968e9a224612810ec2b6078872f479930ce4dd0fc1f7132b08c6b3f5b",
+        "findings": 0
+      }
+    },
+    "enabled": {
+      "proc": {
+        "report": "strict-v08-first-proc.json",
+        "apk_sha256": "99901e704d769e519741824d62f15286f68e0654f4223c0681083903ca98c9ab",
+        "detected": 0,
+        "unavailable": 1,
+        "total": 99,
+        "installed_abi": "x86_64"
+      },
+      "raw": {
+        "report": "strict-v08-first-raw79.json",
+        "apk_sha256": "ee4e8cc35ef306e1626472ffb3d9d53fe0b45036a4a89dce31020ed489268f37",
+        "detected": 0,
+        "unavailable": 0,
+        "total": 79,
+        "installed_abi": "x86_64"
+      },
+      "probe": {
+        "report": "strict-v08-first-probe54.json",
+        "apk_sha256": "ab4dafd201527cf0f72a1c2ff4f9bd41fd4dbaa921d336d1983319ac611554ed",
+        "detected": 0,
+        "unavailable": 0,
+        "total": 54,
+        "installed_abi": "arm64-v8a"
+      },
+      "reveny": {
+        "report": "strict-v08-first-reveny.json",
+        "apk_sha256": "9f064f3968e9a224612810ec2b6078872f479930ce4dd0fc1f7132b08c6b3f5b",
+        "findings": 0
+      }
+    },
+    "reboot": {
+      "proc": {
+        "report": "strict-v08-reboot-proc99.json",
+        "apk_sha256": "99901e704d769e519741824d62f15286f68e0654f4223c0681083903ca98c9ab",
+        "detected": 0,
+        "unavailable": 1,
+        "total": 99,
+        "installed_abi": "x86_64"
+      },
+      "raw": {
+        "report": "strict-v08-reboot-raw79.json",
+        "apk_sha256": "ee4e8cc35ef306e1626472ffb3d9d53fe0b45036a4a89dce31020ed489268f37",
+        "detected": 0,
+        "unavailable": 0,
+        "total": 79,
+        "installed_abi": "x86_64"
+      },
+      "probe": {
+        "report": "strict-v08-reboot-probe54.json",
+        "apk_sha256": "ab4dafd201527cf0f72a1c2ff4f9bd41fd4dbaa921d336d1983319ac611554ed",
+        "detected": 0,
+        "unavailable": 0,
+        "total": 54,
+        "installed_abi": "arm64-v8a"
+      },
+      "reveny": {
+        "report": "strict-v08-reboot-reveny.json",
+        "apk_sha256": "9f064f3968e9a224612810ec2b6078872f479930ce4dd0fc1f7132b08c6b3f5b",
+        "findings": 0
+      }
+    }
+  },
+  "original_check_ids_preserved": true,
+  "new_conditional_checks": [
+    "maps.openat2",
+    "mountinfo.openat2",
+    "mounts.openat2",
+    "smaps.openat2"
+  ],
+  "policy_equivalence_report": "strict-v08-policy-equivalence.json",
+  "artifacts_report": "strict-v08-artifacts.json",
+  "numa_experiment": {
+    "status": "validated",
+    "baseline_avd_preserved": true,
+    "kernel_sha256": "21db9b2d2ea2a91cb7f577e563ff8d5eea760531111751da7a63664d71787714",
+    "source_revision": "7e35917775b8b3e3346a87f294e334e258bf15e6",
+    "config_numa": true,
+    "stock_config_numa": false,
+    "phases": {
+      "before": {
+        "proc": {
+          "report": "strict-v08-numa-before-proc99.json",
+          "apk_sha256": "99901e704d769e519741824d62f15286f68e0654f4223c0681083903ca98c9ab",
+          "detected": 1,
+          "unavailable": 0,
+          "total": 99,
+          "installed_abi": "x86_64",
+          "unavailable_ids": []
+        },
+        "raw": {
+          "report": "strict-v08-numa-before-raw79.json",
+          "apk_sha256": "ee4e8cc35ef306e1626472ffb3d9d53fe0b45036a4a89dce31020ed489268f37",
+          "detected": 0,
+          "unavailable": 0,
+          "total": 79,
+          "installed_abi": "x86_64"
+        },
+        "probe": {
+          "report": "strict-v08-numa-before-probe54.json",
+          "apk_sha256": "ab4dafd201527cf0f72a1c2ff4f9bd41fd4dbaa921d336d1983319ac611554ed",
+          "detected": 0,
+          "unavailable": 0,
+          "total": 54,
+          "installed_abi": "arm64-v8a"
+        },
+        "reveny": {
+          "report": "strict-v08-numa-before-reveny.json",
+          "apk_sha256": "9f064f3968e9a224612810ec2b6078872f479930ce4dd0fc1f7132b08c6b3f5b",
+          "findings": 0
+        }
+      },
+      "after": {
+        "proc": {
+          "report": "strict-v08-numa-after-proc99.json",
+          "apk_sha256": "99901e704d769e519741824d62f15286f68e0654f4223c0681083903ca98c9ab",
+          "detected": 0,
+          "unavailable": 0,
+          "total": 99,
+          "installed_abi": "x86_64",
+          "unavailable_ids": []
+        },
+        "raw": {
+          "report": "strict-v08-numa-after-raw79.json",
+          "apk_sha256": "ee4e8cc35ef306e1626472ffb3d9d53fe0b45036a4a89dce31020ed489268f37",
+          "detected": 0,
+          "unavailable": 0,
+          "total": 79,
+          "installed_abi": "x86_64"
+        },
+        "probe": {
+          "report": "strict-v08-numa-after-probe54.json",
+          "apk_sha256": "ab4dafd201527cf0f72a1c2ff4f9bd41fd4dbaa921d336d1983319ac611554ed",
+          "detected": 0,
+          "unavailable": 0,
+          "total": 54,
+          "installed_abi": "arm64-v8a"
+        },
+        "reveny": {
+          "report": "strict-v08-numa-after-reveny.json",
+          "apk_sha256": "9f064f3968e9a224612810ec2b6078872f479930ce4dd0fc1f7132b08c6b3f5b",
+          "findings": 0
+        }
+      },
+      "restart": {
+        "proc": {
+          "report": "strict-v08-numa-restart-proc99.json",
+          "apk_sha256": "99901e704d769e519741824d62f15286f68e0654f4223c0681083903ca98c9ab",
+          "detected": 0,
+          "unavailable": 0,
+          "total": 99,
+          "installed_abi": "x86_64",
+          "unavailable_ids": []
+        },
+        "raw": {
+          "report": "strict-v08-numa-restart-raw79.json",
+          "apk_sha256": "ee4e8cc35ef306e1626472ffb3d9d53fe0b45036a4a89dce31020ed489268f37",
+          "detected": 0,
+          "unavailable": 0,
+          "total": 79,
+          "installed_abi": "x86_64"
+        },
+        "probe": {
+          "report": "strict-v08-numa-restart-probe54.json",
+          "apk_sha256": "ab4dafd201527cf0f72a1c2ff4f9bd41fd4dbaa921d336d1983319ac611554ed",
+          "detected": 0,
+          "unavailable": 0,
+          "total": 54,
+          "installed_abi": "arm64-v8a"
+        },
+        "reveny": {
+          "report": "strict-v08-numa-restart-reveny.json",
+          "apk_sha256": "9f064f3968e9a224612810ec2b6078872f479930ce4dd0fc1f7132b08c6b3f5b",
+          "findings": 0
+        }
+      }
+    },
+    "restart": "full emulator close/open without scope reapplication",
+    "images_report": "strict-v08-numa-images.json",
+    "module_versions_report": "strict-v08-numa-module-versions.json",
+    "kernel_preflight": {
+      "openat2": 3,
+      "openat2_errno": 0,
+      "short_how": -1,
+      "short_how_errno": 22,
+      "numa_maps": 3,
+      "numa_errno": 0,
+      "get_mempolicy": 0,
+      "get_mempolicy_errno": 0
+    },
+    "namespace_sha256": "35c334a9a15d02946438033bcc4e9c5a9981e8b24a9cfcd27b2dda162e061dfd",
+    "scope_missing_attempt_accepted": false
+  },
+  "original_95_checks_preserved_and_clear": true,
+  "all_diagnostic_apks_unchanged": true,
+  "build_and_android_lint": "passed for all four modules",
+  "ui_launch_checks": [
+    "Settings homepage: Status ok",
+    "Nexus Launcher: Status ok"
+  ]
+}

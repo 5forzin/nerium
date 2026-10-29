@@ -1,0 +1,45 @@
+Verification Failed: PathValidationFailure(cause=java.security.cert.CertPathValidatorException: No matching trust anchor found)
+Leaf certificate:
+X.509 Certificate:
+    Version: 3
+    Serial Number: 1
+    Signature Algorithm: SHA256withECDSA
+    Issuer: CN=1fefd9816de6ddbaf063e8964fb78a54, O=TEE
+    Validity:
+        Not Before: 1970-01-01T00:00:00.000Z
+        Not After: 2048-01-01T00:00:00.000Z
+    Subject: CN=Android Keystore Key
+    Public Key Algorithm: EC
+Custom Extensions:
+    Key Description:
+        attestationVersion: 300
+        attestationSecurityLevel: SOFTWARE
+        keyMintVersion: 300
+        keyMintSecurityLevel: SOFTWARE
+        attestationChallenge: cc102fe22080df9ac82577d53e2ef8eb4ad327673fda09e3f6858acee425b077
+        uniqueId: ""
+        softwareEnforced:
+            purposes: [SIGN, VERIFY]
+            algorithms: EC
+            keySize: 256
+            digests: [SHA_2_256]
+            ecCurve: P_256
+            noAuthRequired: true
+            creationDateTime: 2026-10-25T05:05:50.429Z
+            origin: GENERATED
+            rootOfTrust:
+                verifiedBootKey: 0000000000000000000000000000000000000000000000000000000000000000
+                deviceLocked: false
+                verifiedBootState: UNVERIFIED
+                verifiedBootHash: 0000000000000000000000000000000000000000000000000000000000000000
+            osVersion: 140000
+            osPatchLevel: 202309
+            attestationApplicationId:
+                packages:
+                    name: dev.androidlab.attestationprobe, version: 3
+                signatures:
+                    8da73e88327cb0e66192edff23cda9ab9010590b8f02e66881be7d1f528e14f6
+            vendorPatchLevel: 20230905
+            bootPatchLevel: 20230901
+        hardwareEnforced:
+

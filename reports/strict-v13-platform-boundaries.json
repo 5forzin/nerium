@@ -1,0 +1,28 @@
+{
+  "captured_at": "2026-10-24T23:34:58.3650498Z",
+  "process_id": 5460,
+  "app_mount_namespace": "mnt:[4026532997]",
+  "zygote_mount_namespace": "mnt:[4026532924]",
+  "outside_has_hypervisor": true,
+  "app_namespace_has_hypervisor": false,
+  "outside_hardware": "ranchu",
+  "outside_qemu": "1",
+  "outside_uname": "x86_64",
+  "unhooked_namespace_uname": "x86_64",
+  "no_new_privs": 0,
+  "seccomp_filters": 2,
+  "kernel_maps_translation_visible": true,
+  "kernel_maps_module_visible": true,
+  "kernel_maps_staged_runtime_visible": true,
+  "kernel_mountinfo_profile_visible": true,
+  "kernel_mountinfo_magisk_visible": false,
+  "outside_properties": {
+    "ro.product.cpu.abilist": "x86_64,arm64-v8a",
+    "ro.dalvik.vm.native.bridge": "libndk_translation.so",
+    "ro.dalvik.vm.isa.arm64": "x86_64",
+    "ro.build.fingerprint": "google/sdk_gphone64_x86_64/emu64xa:14/UE1A.230829.050/12077443:userdebug/dev-keys"
+  },
+  "app_namespace_hardware": "shiba",
+  "selinux": "Enforcing",
+  "namespace_log": "--------- beginning of main\n10-24 20:34:52.861  5460  5460 I DeviceLabNamespace: profile mount status=0 pid=5460\n10-24 20:34:52.922  5460  5460 I DeviceLabNamespace: uname broker status=0 pid=5460\n10-24 20:34:52.922  5460  5460 I DeviceLabNamespace: notification domain=platform pid=5460\n10-24 20:34:52.922  5460  5460 I DeviceLabNamespace: proc broker enabled=1\n10-24 20:34:53.326  5460  5460 I DeviceLabNamespace: property remap status=0 pid=5460"
+}

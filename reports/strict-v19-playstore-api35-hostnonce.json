@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "captured_at_ms": 1792902838799,
+  "api": 35,
+  "challenge_source": "external",
+  "hardware_attestation_feature": true,
+  "strongbox_feature": false,
+  "default_keystore": {
+    "generation_ms": 359.457226,
+    "keyinfo_inside_secure_hardware": false,
+    "keyinfo_security_level": 0,
+    "certificates": [
+      {
+        "subject": "CN=Android Keystore Key",
+        "issuer": "CN=f899bcdd2ec79c2e281edd75be1c87e3,O=TEE",
+        "sha256": "e4d2998744454c283d7b374f607976076797b0ca8a7b6e9f537e116c3002a1b2",
+        "der_base64": "MIICsTCCAlegAwIBAgIBATAKBggqhkjOPQQDAjA5MQwwCgYDVQQKEwNURUUxKTAnBgNVBAMTIGY4OTliY2RkMmVjNzljMmUyODFlZGQ3NWJlMWM4N2UzMB4XDTcwMDEwMTAwMDAwMFoXDTQ4MDEwMTAwMDAwMFowHzEdMBsGA1UEAxMUQW5kcm9pZCBLZXlzdG9yZSBLZXkwWTATBgcqhkjOPQIBBggqhkjOPQMBBwNCAASnuXeOZ88NMBDhIoI6xgLnUzD+nT7sWyIDIoAWIpXGpYiMEKo9ylEzNsKVGOMJeDYYH3Te16NgQW6L//ud4mCfo4IBaDCCAWQwDgYDVR0PAQH/BAQDAgeAMIIBUAYKKwYBBAHWeQIBEQSCAUAwggE8AgIBLAoBAAICASwKAQAEIFFyOPZmGSfhCBcHBOai5s6iAoqMvBLSmEY0jtkOi7axBAAwggEEoQgxBgIBAgIBA6IDAgEDowQCAgEApQUxAwIBBKoDAgEBv4N3AgUAv4U9CAIGAaFxVjt3v4U+AwIBAL+FQEwwSgQgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAQAKAQIEIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAv4VBBQIDAknwv4VCBQIDAxapv4VFUAROMEwxJjAkBB9kZXYuYW5kcm9pZGxhYi5hdHRlc3RhdGlvbnByb2JlAgEDMSIEII2nPogyfLDmYZLt/yPNqauQEFkLjwLmaIG+fR9SjhT2v4VOBgIEATTaCb+FTwYCBAE02gUwADAKBggqhkjOPQQDAgNIADBFAiBJtZEUjCkNbrzdrrFLzrvEodDL8nsdLSvlc7zAP4AEyQIhAN4Co95BcXQAiuARRPmcKFZrTxnfceeBLjcbxYUaspbT",
+        "valid_now": true
+      },
+      {
+        "subject": "CN=f899bcdd2ec79c2e281edd75be1c87e3,O=TEE",
+        "issuer": "O=Google Test LLC,CN=Droid Unregistered Device CA",
+        "sha256": "948ef55c19692074d57d61a345e30109ab9a33a3d11babdf17378ddd2b2e18f3",
+        "der_base64": "MIIB8DCCAZWgAwIBAgIRAPiZvN0ux5wuKB7ddb4ch+MwCgYIKoZIzj0EAwIwQTElMCMGA1UEAxMcRHJvaWQgVW5yZWdpc3RlcmVkIERldmljZSBDQTEYMBYGA1UEChMPR29vZ2xlIFRlc3QgTExDMB4XDTI2MTAyMzA0NDMwMVoXDTI2MTEwODA0NTA1MlowOTEMMAoGA1UEChMDVEVFMSkwJwYDVQQDEyBmODk5YmNkZDJlYzc5YzJlMjgxZWRkNzViZTFjODdlMzBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABGFt6SUXgXrTejZ4sIgelF1MwTxZZRDlRXGdH5xqMyB7hL2idIJVPzEZg+TyV1SeyxbkpHABl/8RaQ03xgFl9lijdjB0MB0GA1UdDgQWBBTbrBxr2Wtz57LvjDQRY1K+dP6CejAfBgNVHSMEGDAWgBR4tknaP8REghnuQ/216sQt+tpw3jAPBgNVHRMBAf8EBTADAQH/MA4GA1UdDwEB/wQEAwICBDARBgorBgEEAdZ5AgEeBAOhAQgwCgYIKoZIzj0EAwIDSQAwRgIhANb/tapUdhMnmTmVJXqw0nx7DklBqacV05lVP7SICUoZAiEAkRJgurB6TSFF68I5qLgdeD3bJ2U+pNrjRUOVTClH+Nc=",
+        "valid_now": true
+      },
+      {
+        "subject": "O=Google Test LLC,CN=Droid Unregistered Device CA",
+        "issuer": "O=Google Test LLC,CN=Droid Unregistered Device CA",
+        "sha256": "b5e2f738eda20db975ef086f9e616c187a65f33225b85f465d652611d39b8b2a",
+        "der_base64": "MIIB9TCCAZygAwIBAgIQTftdQ5yUIq+JFF6/NX8ORjAKBggqhkjOPQQDAjBBMSUwIwYDVQQDExxEcm9pZCBVbnJlZ2lzdGVyZWQgRGV2aWNlIENBMRgwFgYDVQQKEw9Hb29nbGUgVGVzdCBMTEMwHhcNMjYxMDIyMTg1MjAzWhcNMjcwMTAyMTg1MzMyWjBBMSUwIwYDVQQDExxEcm9pZCBVbnJlZ2lzdGVyZWQgRGV2aWNlIENBMRgwFgYDVQQKEw9Hb29nbGUgVGVzdCBMTEMwWTATBgcqhkjOPQIBBggqhkjOPQMBBwNCAARtOkFh8WXRM4XAVAeRoZYpEo/Q+7dCnv1aHFTcA0E8O8igx1EM6CzxDfDPCJJAjMWMtFWT69F+4aahWO3QBzwFo3YwdDAdBgNVHQ4EFgQUeLZJ2j/ERIIZ7kP9terELfracN4wHwYDVR0jBBgwFoAUeLZJ2j/ERIIZ7kP9terELfracN4wDwYDVR0TAQH/BAUwAwEB/zAOBgNVHQ8BAf8EBAMCAgQwEQYKKwYBBAHWeQIBHgQDoQEAMAoGCCqGSM49BAMCA0cAMEQCIFaj7EK0G6B1hpgOTyCHMkIWstJEaavjY47yT3SSeHzQAiB0eZaL5mV/JtKtRdrUgtSK46hQ27QLhrGCnY6L4qwbqg==",
+        "valid_now": true
+      }
+    ],
+    "chain_signatures_valid": true,
+    "chain_valid_now": true,
+    "leaf_matches_generated_key": true,
+    "key_possession_verified": true,
+    "payload_base64": "RGV2aWNlIExhYiBpbmRlcGVuZGVudCBrZXkgcG9zc2Vzc2lvbiBjaGVjaw==",
+    "signature_base64": "MEQCIAn/xGzlNmKh70qjoej3cETcHVis1BeJcrxnepspKOBXAiBQVfBgbDT3pQF6Tt4n6oDYBh/6tV3hKRAHQltS8lhFww==",
+    "challenge_base64": "UXI49mYZJ+EIFwcE5qLmzqICioy8EtKYRjSO2Q6LtrE=",
+    "attestation": {
+      "attestation_version": 300,
+      "attestation_security_level": 0,
+      "keymaster_version": 300,
+      "keymaster_security_level": 0,
+      "challenge_matches": true,
+      "root_of_trust": {
+        "authorization_list": "software",
+        "verified_boot_key": "0000000000000000000000000000000000000000000000000000000000000000",
+        "device_locked": false,
+        "verified_boot_state": 2,
+        "verified_boot_hash": "0000000000000000000000000000000000000000000000000000000000000000"
+      }
+    },
+    "status": "complete"
+  },
+  "strongbox": {
+    "status": "unavailable",
+    "error_type": "android.security.keystore.StrongBoxUnavailableException",
+    "error": "android.security.keystore.StrongBoxUnavailableException: Failed to generated key pair."
+  },
+  "interpretation": "Valid signatures and nonce binding do not establish manufacturer trust or hardware-backed storage.",
+  "apk_sha256": "05134a6553113dac356a799c3fffbe9a4a71de8d464ece7fd4c8c3a10bb645e9",
+  "package": "dev.androidlab.attestationprobe"
+}

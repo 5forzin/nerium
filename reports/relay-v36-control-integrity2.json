@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "operation": "play_integrity",
+  "job_id": "1bcdc06b46574cd09c40633b5e48ac34",
+  "session_id": "568b8416f0a14ff3aa5c8d02c36ab04d",
+  "worker_uid": "worker_f21c8e1d34ed4226b778be90",
+  "request_sha256": "ed1c5bdf5f9b53def2400203563adb1accfa7dd2fe6ee5c907e0c71503b9594b",
+  "origin": "cooperative_remote_worker",
+  "requester_integrity_verified": false,
+  "worker_package": "dev.androidlab.relayworker",
+  "created_at_ms": 1793031401839,
+  "expires_at_ms": 1793031521839,
+  "status": "timeout",
+  "challenge_sha256": "3da8806dd4325bc26d5be7c9768013a2397f1e9fe9fb4f6a45e6410c7a10be80"
+}

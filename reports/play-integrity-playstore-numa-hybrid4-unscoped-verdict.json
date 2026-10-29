@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "decoded_at": "2026-10-25T06:27:22.2944172+00:00",
+  "source_report": "play-integrity-playstore-numa-hybrid4-unscoped.json",
+  "token_sha256": "33ba539593bec478e4a9959449c45a7c4a65205bd3ac0c65b07b8260e3a8a480",
+  "request_package_name": "dev.androidlab.integrityprobe",
+  "nonce_matches": true,
+  "request_timestamp_ms": "1792909634854",
+  "app_recognition_verdict": "UNEVALUATED",
+  "device_recognition_verdict": [],
+  "app_licensing_verdict": "UNEVALUATED"
+}

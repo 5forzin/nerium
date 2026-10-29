@@ -1,0 +1,164 @@
+{
+  "schema_version": 1,
+  "last_line": 83,
+  "events": [
+    {
+      "event": "request",
+      "command": 0,
+      "payload_bytes": 189
+    },
+    {
+      "event": "generated_key",
+      "storage": "cng_reference"
+    },
+    {
+      "event": "request",
+      "command": 1,
+      "payload_bytes": 92
+    },
+    {
+      "event": "request",
+      "command": 3,
+      "payload_bytes": 72
+    },
+    {
+      "event": "protected_signature",
+      "bytes": 256
+    },
+    {
+      "event": "request",
+      "command": 22,
+      "payload_bytes": 40
+    },
+    {
+      "event": "request",
+      "command": 0,
+      "payload_bytes": 163
+    },
+    {
+      "event": "generated_key",
+      "storage": "software_blob"
+    },
+    {
+      "event": "request",
+      "command": 1,
+      "payload_bytes": 303
+    },
+    {
+      "event": "request",
+      "command": 3,
+      "payload_bytes": 72
+    },
+    {
+      "event": "request",
+      "command": 22,
+      "payload_bytes": 259
+    },
+    {
+      "event": "request",
+      "command": 0,
+      "payload_bytes": 105
+    },
+    {
+      "event": "generated_key",
+      "storage": "software_blob"
+    },
+    {
+      "event": "request",
+      "command": 1,
+      "payload_bytes": 238
+    },
+    {
+      "event": "request",
+      "command": 2,
+      "payload_bytes": 68
+    },
+    {
+      "event": "request",
+      "command": 3,
+      "payload_bytes": 28
+    },
+    {
+      "event": "request",
+      "command": 1,
+      "payload_bytes": 262
+    },
+    {
+      "event": "request",
+      "command": 2,
+      "payload_bytes": 84
+    },
+    {
+      "event": "request",
+      "command": 3,
+      "payload_bytes": 28
+    },
+    {
+      "event": "request",
+      "command": 1,
+      "payload_bytes": 262
+    },
+    {
+      "event": "request",
+      "command": 2,
+      "payload_bytes": 84
+    },
+    {
+      "event": "request",
+      "command": 3,
+      "payload_bytes": 28
+    },
+    {
+      "event": "request",
+      "command": 22,
+      "payload_bytes": 178
+    },
+    {
+      "event": "request",
+      "command": 0,
+      "payload_bytes": 97
+    },
+    {
+      "event": "generated_key",
+      "storage": "software_blob"
+    },
+    {
+      "event": "request",
+      "command": 1,
+      "payload_bytes": 222
+    },
+    {
+      "event": "request",
+      "command": 3,
+      "payload_bytes": 72
+    },
+    {
+      "event": "request",
+      "command": 1,
+      "payload_bytes": 222
+    },
+    {
+      "event": "request",
+      "command": 3,
+      "payload_bytes": 72
+    },
+    {
+      "event": "request",
+      "command": 1,
+      "payload_bytes": 222
+    },
+    {
+      "event": "request",
+      "command": 3,
+      "payload_bytes": 72
+    },
+    {
+      "event": "request",
+      "command": 22,
+      "payload_bytes": 170
+    }
+  ],
+  "control_run_id": "ddcce9bea44e4386ac95de4b85aad3e2",
+  "first_line": 52,
+  "backend_sha256": "b14617702da590c0464c54ed9067e325c38d08df8bf4a76f3fc7c3c083dd2455"
+}

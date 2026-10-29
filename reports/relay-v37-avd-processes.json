@@ -1,0 +1,14 @@
+[
+  {
+    "name": "device-lab-relay-control-v36",
+    "port": 5582,
+    "pid": 23752,
+    "started_at": "2026-10-26T17:46:17.7743919+00:00"
+  },
+  {
+    "name": "device-lab-requester-v37",
+    "port": 5584,
+    "pid": 19260,
+    "started_at": "2026-10-26T17:46:17.7842855+00:00"
+  }
+]

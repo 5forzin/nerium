@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "captured_at": "2026-10-26T14:02:02.6505338+00:00",
+  "scope": "Local Windows TBS device query and optional GetRandom; no keys, certificates, enrollment or persistent TPM changes",
+  "device_query": {
+    "tbs_return_code": "0x00000000",
+    "succeeded": true,
+    "struct_version": 1,
+    "tpm_version": 2,
+    "interface_type": 3,
+    "implementation_revision": 0
+  },
+  "get_random": {
+    "context_return_code": "0x00000000",
+    "succeeded": true,
+    "submit_return_code": "0x00000000",
+    "response_bytes": 28,
+    "tpm_return_code": "0x00000000",
+    "header_valid": true,
+    "requested_bytes": 16,
+    "returned_bytes": 16,
+    "sample_sha256": "edfad81071e03c164e2f9816eec1e1b35ee8fbc3401a7f6f117e1dcb62f0e1a1",
+    "close_return_code": "0x00000000"
+  },
+  "commands_submitted": [
+    "TPM2_GetRandom"
+  ],
+  "android_keymint_verified": false,
+  "google_attestation_verified": false,
+  "zero_detections_achieved": false
+}

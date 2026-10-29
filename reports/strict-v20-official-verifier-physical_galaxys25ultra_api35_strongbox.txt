@@ -1,0 +1,80 @@
+Verification Successful!
+X.509 Certificate:
+    Version: 3
+    Serial Number: 1
+    Signature Algorithm: SHA256withECDSA
+    Issuer: SERIALNUMBER=45b78d15e9a4ce53f0c8e523f69a5475, T=StrongBox
+    Validity:
+        Not Before: 1970-01-01T00:00:00.000Z
+        Not After: 2048-01-01T00:00:00.000Z
+    Subject: CN=Android Keystore Key
+    Public Key Algorithm: EC
+Custom Extensions:
+    Key Description:
+        attestationVersion: 300
+        attestationSecurityLevel: STRONG_BOX
+        keyMintVersion: 300
+        keyMintSecurityLevel: STRONG_BOX
+        attestationChallenge: 68ea8e38f3f2b3786216bdfbe148b8ab52714b6f33515171d0783930808054c6
+        uniqueId: ""
+        softwareEnforced:
+            creationDateTime: 2026-10-25T05:02:56.093Z
+            attestationApplicationId:
+                packages:
+                    name: dev.androidlab.attestationprobe, version: 3
+                signatures:
+                    8da73e88327cb0e66192edff23cda9ab9010590b8f02e66881be7d1f528e14f6
+        hardwareEnforced:
+            purposes: [SIGN, VERIFY]
+            algorithms: EC
+            keySize: 256
+            digests: [SHA_2_256]
+            ecCurve: P_256
+            noAuthRequired: true
+            origin: GENERATED
+            rootOfTrust:
+                verifiedBootKey: b2abe8504d834dc82b782c3ab17a30cbca0b5cd4a156cdec72fc4744e26b4364
+                deviceLocked: true
+                verifiedBootState: VERIFIED
+                verifiedBootHash: 682cdac63d49f2ae3a38aefe383858745a7f7c3e9c003d31f6ad13d2d0819692
+            osVersion: 150000
+            osPatchLevel: 202504
+            vendorPatchLevel: 20250401
+            bootPatchLevel: 20250401
+
+X.509 Certificate:
+    Version: 3
+    Serial Number: c76d0e40e1050bd48b4243a68640ee47
+    Signature Algorithm: SHA256withECDSA
+    Issuer: SERIALNUMBER=1668f283c6dd7982535b5b5bbae5861e, T=StrongBox
+    Validity:
+        Not Before: 2024-09-12T21:46:47.000Z
+        Not After: 2034-09-10T21:46:47.000Z
+    Subject: SERIALNUMBER=45b78d15e9a4ce53f0c8e523f69a5475, T=StrongBox
+    Public Key Algorithm: EC
+Custom Extensions:
+
+X.509 Certificate:
+    Version: 3
+    Serial Number: dea90f73eec5583bdc82603511ed604a
+    Signature Algorithm: SHA256withRSA
+    Issuer: SERIALNUMBER=f92009e853b6b045
+    Validity:
+        Not Before: 2024-09-12T21:46:11.000Z
+        Not After: 2034-09-10T21:46:11.000Z
+    Subject: SERIALNUMBER=1668f283c6dd7982535b5b5bbae5861e, T=StrongBox
+    Public Key Algorithm: EC
+Custom Extensions:
+
+X.509 Certificate:
+    Version: 3
+    Serial Number: f1c172a699eaf51d
+    Signature Algorithm: SHA256withRSA
+    Issuer: SERIALNUMBER=f92009e853b6b045
+    Validity:
+        Not Before: 2022-03-20T18:07:48.000Z
+        Not After: 2042-03-15T18:07:48.000Z
+    Subject: SERIALNUMBER=f92009e853b6b045
+    Public Key Algorithm: RSA
+Custom Extensions:
+

@@ -1,0 +1,117 @@
+{
+  "rules": {
+    ".read": false,
+    ".write": false,
+    "relay": {
+      "v1": {
+        "sessions": {
+          ".read": false,
+          ".write": false
+        },
+        "inboxes": {
+          "$uid": {
+            "$sid": {
+              ".read": "$sid.matches(/^[A-Za-z0-9_-]{1,128}$/) && $uid.matches(/^[A-Za-z0-9_-]{1,128}$/) && auth != null && auth.uid == $uid && auth.token.role == 'worker' && auth.token.session_id == $sid && auth.token.session_expires_at_ms > now && root.child('relay/v1/sessions').child($sid).child('worker_uid').val() == auth.uid && root.child('relay/v1/sessions').child($sid).child('revoked').val() == false && root.child('relay/v1/sessions').child($sid).child('expires_at_ms').val() > now",
+              ".write": false
+            }
+          }
+        },
+        "executions": {
+          "$uid": {
+            "$sid": {
+              "$job": {
+                ".read": "auth != null && auth.uid == $uid && auth.token.role == 'worker' && auth.token.session_id == $sid && auth.token.session_expires_at_ms > now && root.child('relay/v1/sessions').child($sid).child('worker_uid').val() == auth.uid && root.child('relay/v1/sessions').child($sid).child('revoked').val() == false && root.child('relay/v1/sessions').child($sid).child('expires_at_ms').val() > now && root.child('relay/v1/inboxes').child($uid).child($sid).child($job).child('expires_at_ms').val() > now",
+                ".write": "$sid.matches(/^[A-Za-z0-9_-]{1,128}$/) && $uid.matches(/^[A-Za-z0-9_-]{1,128}$/) && $job.matches(/^[A-Za-z0-9_-]{1,128}$/) && auth != null && auth.uid == $uid && auth.token.role == 'worker' && auth.token.session_id == $sid && auth.token.session_expires_at_ms > now && root.child('relay/v1/sessions').child($sid).child('worker_uid').val() == auth.uid && root.child('relay/v1/sessions').child($sid).child('revoked').val() == false && root.child('relay/v1/sessions').child($sid).child('expires_at_ms').val() > now && root.child('relay/v1/inboxes').child($uid).child($sid).child($job).exists() && root.child('relay/v1/inboxes').child($uid).child($sid).child($job).child('schema_version').val() == 1 && root.child('relay/v1/inboxes').child($uid).child($sid).child($job).child('job_id').val() == $job && root.child('relay/v1/inboxes').child($uid).child($sid).child($job).child('session_id').val() == $sid && root.child('relay/v1/inboxes').child($uid).child($sid).child($job).child('worker_uid').val() == auth.uid && root.child('relay/v1/inboxes').child($uid).child($sid).child($job).child('created_at_ms').val() <= now && root.child('relay/v1/inboxes').child($uid).child($sid).child($job).child('expires_at_ms').val() > now && root.child('relay/v1/inboxes').child($uid).child($sid).child($job).child('challenge_base64url').isString() && root.child('relay/v1/inboxes').child($uid).child($sid).child($job).child('challenge_base64url').val().matches(/^[A-Za-z0-9_-]{43}$/) && root.child('relay/v1/inboxes').child($uid).child($sid).child($job).child('cloud_project_number').isNumber() && root.child('relay/v1/inboxes').child($uid).child($sid).child($job).child('cloud_project_number').val() % 1 == 0 && root.child('relay/v1/inboxes').child($uid).child($sid).child($job).child('cloud_project_number').val() >= 1 && root.child('relay/v1/inboxes').child($uid).child($sid).child($job).child('cloud_project_number').val() <= 9007199254740991 && root.child('relay/v1/inboxes').child($uid).child($sid).child($job).child('created_at_ms').isNumber() && root.child('relay/v1/inboxes').child($uid).child($sid).child($job).child('expires_at_ms').isNumber() && newData.exists() && ((!data.exists() && newData.child('state').val() == 'leased' && newData.child('attempt').val() == 1) || (data.exists() && data.child('state').val() == 'leased' && data.child('lease_until_ms').val() <= now && newData.child('state').val() == 'leased' && newData.child('attempt').val() == data.child('attempt').val() + 1 && newData.child('lease_id').val() != data.child('lease_id').val() && newData.child('started_at_ms').val() >= data.child('started_at_ms').val() && newData.child('started_at_ms').val() >= now - 30000) || (data.child('state').val() == 'leased' && data.child('lease_until_ms').val() > now && newData.child('lease_id').val() == data.child('lease_id').val() && newData.child('attempt').val() == data.child('attempt').val() && newData.child('started_at_ms').val() == data.child('started_at_ms').val() && ((newData.child('state').val() == 'leased' && newData.child('lease_until_ms').val() >= data.child('lease_until_ms').val()) || ((newData.child('state').val() == 'completed' || newData.child('state').val() == 'failed') && newData.child('lease_until_ms').val() == data.child('lease_until_ms').val())))) && root.child('relay/v1/inboxes').child($uid).child($sid).child($job).child('created_at_ms').val() % 1 == 0 && root.child('relay/v1/inboxes').child($uid).child($sid).child($job).child('created_at_ms').val() >= 0 && root.child('relay/v1/inboxes').child($uid).child($sid).child($job).child('created_at_ms').val() <= 9007199254740991 && root.child('relay/v1/inboxes').child($uid).child($sid).child($job).child('expires_at_ms').val() % 1 == 0 && root.child('relay/v1/inboxes').child($uid).child($sid).child($job).child('expires_at_ms').val() <= 9007199254740991",
+                ".validate": "newData.hasChildren([\"state\", \"job_id\", \"session_id\", \"worker_uid\", \"operation\", \"request_sha256\", \"lease_id\", \"lease_until_ms\", \"attempt\", \"started_at_ms\"]) && ((newData.child('state').val() == 'leased' && !newData.child('result').exists() && !newData.child('error').exists()) || (newData.child('state').val() == 'completed' && newData.child('result').exists() && !newData.child('error').exists()) || (newData.child('state').val() == 'failed' && newData.child('error').exists() && !newData.child('result').exists()))",
+                "job_id": {
+                  ".validate": "newData.isString() && newData.val() == $job && newData.val() == root.child('relay/v1/inboxes').child($uid).child($sid).child($job).child('job_id').val() && (!data.exists() || newData.val() == data.val())"
+                },
+                "session_id": {
+                  ".validate": "newData.isString() && newData.val() == $sid && newData.val() == root.child('relay/v1/inboxes').child($uid).child($sid).child($job).child('session_id').val() && (!data.exists() || newData.val() == data.val())"
+                },
+                "worker_uid": {
+                  ".validate": "newData.isString() && newData.val() == auth.uid && newData.val() == root.child('relay/v1/inboxes').child($uid).child($sid).child($job).child('worker_uid').val() && (!data.exists() || newData.val() == data.val())"
+                },
+                "operation": {
+                  ".validate": "(newData.val() == 'echo_sha256' || newData.val() == 'play_integrity') && newData.val() == root.child('relay/v1/inboxes').child($uid).child($sid).child($job).child('operation').val() && (!data.exists() || newData.val() == data.val())"
+                },
+                "request_sha256": {
+                  ".validate": "newData.isString() && newData.val().matches(/^[0-9a-f]{64}$/) && newData.val() == root.child('relay/v1/inboxes').child($uid).child($sid).child($job).child('request_sha256').val() && (!data.exists() || newData.val() == data.val())"
+                },
+                "state": {
+                  ".validate": "newData.val() == 'leased' || newData.val() == 'completed' || newData.val() == 'failed'"
+                },
+                "lease_id": {
+                  ".validate": "newData.isString() && newData.val().matches(/^[0-9a-f]{32}$/)"
+                },
+                "lease_until_ms": {
+                  ".validate": "newData.isNumber() && newData.val() % 1 == 0 && newData.val() > now && newData.val() <= now + 120000 && newData.val() <= root.child('relay/v1/inboxes').child($uid).child($sid).child($job).child('expires_at_ms').val() && newData.val() <= root.child('relay/v1/sessions').child($sid).child('expires_at_ms').val() && newData.val() <= auth.token.session_expires_at_ms"
+                },
+                "attempt": {
+                  ".validate": "newData.isNumber() && newData.val() % 1 == 0 && newData.val() >= 1 && newData.val() <= 2147483647"
+                },
+                "started_at_ms": {
+                  ".validate": "newData.isNumber() && newData.val() % 1 == 0 && newData.val() <= now + 30000 && newData.val() >= root.child('relay/v1/inboxes').child($uid).child($sid).child($job).child('created_at_ms').val() && (data.exists() || newData.val() >= now - 30000) && newData.val() < newData.parent().child('lease_until_ms').val()"
+                },
+                "result": {
+                  ".validate": "newData.hasChildren([\"worker_package\", \"worker_version_code\", \"worker_apk_cert_sha256\", \"execution_elapsed_ms\", \"completed_at_ms\"]) && newData.parent().child('state').val() == 'completed' && ((newData.parent().child('operation').val() == 'echo_sha256' && newData.hasChildren(['challenge_sha256']) && !newData.child('token').exists() && !newData.child('token_sha256').exists() && !newData.child('token_length').exists() && !newData.child('nonce_base64url').exists()) || (newData.parent().child('operation').val() == 'play_integrity' && newData.hasChildren(['token', 'token_sha256', 'token_length', 'nonce_base64url']) && !newData.child('challenge_sha256').exists()))",
+                  "worker_package": {
+                    ".validate": "newData.isString() && newData.val().length <= 255 && newData.val().matches(/^[A-Za-z][A-Za-z0-9_]*(\\.[A-Za-z][A-Za-z0-9_]*)+$/)"
+                  },
+                  "worker_version_code": {
+                    ".validate": "newData.isNumber() && newData.val() % 1 == 0 && newData.val() >= 1 && newData.val() <= 9007199254740991"
+                  },
+                  "worker_apk_cert_sha256": {
+                    ".validate": "newData.isString() && newData.val().matches(/^[0-9a-f]{64}$/)"
+                  },
+                  "execution_elapsed_ms": {
+                    ".validate": "newData.isNumber() && newData.val() % 1 == 0 && newData.val() >= 0 && newData.val() <= now - newData.parent().parent().child('started_at_ms').val() + 30000"
+                  },
+                  "completed_at_ms": {
+                    ".validate": "newData.isNumber() && newData.val() % 1 == 0 && newData.val() >= newData.parent().parent().child('started_at_ms').val() && newData.val() >= now - 120000 && newData.val() <= now + 30000"
+                  },
+                  "challenge_sha256": {
+                    ".validate": "newData.isString() && newData.val().matches(/^[0-9a-f]{64}$/)"
+                  },
+                  "token": {
+                    ".validate": "newData.isString() && newData.val().length >= 1 && newData.val().length <= 32768 && newData.val().matches(/^[A-Za-z0-9_+.=:\\/-]+$/)"
+                  },
+                  "token_sha256": {
+                    ".validate": "newData.isString() && newData.val().matches(/^[0-9a-f]{64}$/)"
+                  },
+                  "token_length": {
+                    ".validate": "newData.isNumber() && newData.val() % 1 == 0 && newData.val() == newData.parent().child('token').val().length && newData.val() >= 1 && newData.val() <= 32768"
+                  },
+                  "nonce_base64url": {
+                    ".validate": "newData.isString() && newData.val().matches(/^[A-Za-z0-9_-]{43}$/) && newData.val() == root.child('relay/v1/inboxes').child($uid).child($sid).child($job).child('challenge_base64url').val()"
+                  },
+                  "$other": {
+                    ".validate": "false"
+                  }
+                },
+                "error": {
+                  ".validate": "newData.hasChildren(['code', 'message']) && newData.parent().child('state').val() == 'failed'",
+                  "code": {
+                    ".validate": "newData.isString() && newData.val().matches(/^[A-Z][A-Z0-9_]{0,63}$/)"
+                  },
+                  "message": {
+                    ".validate": "newData.isString() && newData.val().length >= 1 && newData.val().length <= 1024"
+                  },
+                  "error_code": {
+                    ".validate": "newData.isNumber() && newData.val() % 1 == 0 && newData.val() >= -2147483648 && newData.val() <= 2147483647"
+                  },
+                  "$other": {
+                    ".validate": "false"
+                  }
+                },
+                "$other": {
+                  ".validate": "false"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

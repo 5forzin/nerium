@@ -1,0 +1,161 @@
+{
+  "captured_at": "2026-10-25T04:12:25.9397918+00:00",
+  "detector": "duck",
+  "version": "2026.10.24-b5305070468a (1084)",
+  "package": "com.eltavine.duckdetector",
+  "release": "https://github.com/eltavine/Duck-Detector-Refactoring/releases/tag/nightly-2026-10-24-b5305070",
+  "apk_sha256": "9d0bbdab9c0b14334c9ec0d319758c5f9085260a09388486482b2ac497c81ffc",
+  "installed_abi": "x86_64",
+  "status": "complete",
+  "detected": true,
+  "reason": "Built-in report from the pinned APK corroborated by its current process and dashboard.",
+  "process_id": 5480,
+  "foreground": "topResumedActivity=ActivityRecord{6bc2301 u0 com.eltavine.duckdetector/.MainActivity t561}",
+  "final_foreground": "topResumedActivity=ActivityRecord{6bc2301 u0 com.eltavine.duckdetector/.MainActivity t561}",
+  "final_process_id": "5480",
+  "launch": "Capturing the explicitly identified scan after its built-in report export.",
+  "ui_result": "[▲ WARNING] Warning",
+  "visible_text": [
+    "Warning",
+    "Review ADB Runtime and TEE next.",
+    "2026.10.24-b5305070468a (1084)",
+    "Build (UTC) · 2026-10-24 12:53:38",
+    "Tap to export full report",
+    "Scanned at 2026-10-25 01:12:07 · Total time 23s",
+    "0",
+    "Danger",
+    "2",
+    "Warning",
+    "20",
+    "Ready",
+    "0",
+    "Pending",
+    "ADB Runtime",
+    "Medium",
+    "ADB enabled",
+    "ADB is enabled or runtime activity was observed; no persistent hard runtime contradiction was confirmed.",
+    "TEE",
+    "Medium",
+    "Attestation aligned; local probes need review",
+    "updateAad was accepted on a signing operation. AOSP's reference KeyMint rejects it, but the HAL does not require an error, so this can be vendor behaviour. Attestation and trust-path checks still aligned.",
+    "Duck Detector",
+    "Home",
+    "Settings",
+    "ALPHA"
+  ],
+  "screenshot": "strict-v18-mgf-aes-aad-after-duck.png",
+  "log": "strict-v18-mgf-aes-aad-after-duck.log",
+  "duck": {
+    "scan_statistics": {
+      "Danger": 0,
+      "Warning": 2,
+      "Ready": 20,
+      "Pending": 0
+    },
+    "module_verdicts": [
+      {
+        "severity": "WARNING",
+        "detector": "ADB Runtime",
+        "verdict": "ADB enabled"
+      },
+      {
+        "severity": "WARNING",
+        "detector": "TEE",
+        "verdict": "Attestation aligned; local probes need review"
+      },
+      {
+        "severity": "INFO",
+        "detector": "Custom ROM",
+        "verdict": "Custom ROM scan has reduced coverage"
+      },
+      {
+        "severity": "INFO",
+        "detector": "Dangerous Apps",
+        "verdict": "Behavior checks incomplete"
+      },
+      {
+        "severity": "INFO",
+        "detector": "Kernel Check",
+        "verdict": "CVE patch state is informational"
+      },
+      {
+        "severity": "INFO",
+        "detector": "LSPosed",
+        "verdict": "LSPosed scan has reduced coverage"
+      },
+      {
+        "severity": "INFO",
+        "detector": "Location Risk",
+        "verdict": "No local contract mismatch observed"
+      },
+      {
+        "severity": "INFO",
+        "detector": "Native Root",
+        "verdict": "Native root scan has reduced coverage"
+      },
+      {
+        "severity": "INFO",
+        "detector": "Network Risk",
+        "verdict": "Network context collected"
+      },
+      {
+        "severity": "INFO",
+        "detector": "SU",
+        "verdict": "No root indicators"
+      },
+      {
+        "severity": "INFO",
+        "detector": "System Properties",
+        "verdict": "System property scan has reduced coverage"
+      },
+      {
+        "severity": "INFO",
+        "detector": "Virtualization",
+        "verdict": "Virtualization scan has reduced coverage"
+      },
+      {
+        "severity": "INFO",
+        "detector": "Zygote heap residue",
+        "verdict": "No target trace observed"
+      },
+      {
+        "severity": "CLEAR",
+        "detector": "Bootloader",
+        "verdict": "Locked and attested verified"
+      },
+      {
+        "severity": "CLEAR",
+        "detector": "Memory",
+        "verdict": "No hook-like memory signals"
+      },
+      {
+        "severity": "CLEAR",
+        "detector": "Mount",
+        "verdict": "No suspicious mount-layer signal"
+      },
+      {
+        "severity": "CLEAR",
+        "detector": "Play Integrity Fix",
+        "verdict": "No Play Integrity residue surfaced"
+      },
+      {
+        "severity": "CLEAR",
+        "detector": "Root Managers",
+        "verdict": "No root manager apps"
+      },
+      {
+        "severity": "CLEAR",
+        "detector": "SELinux",
+        "verdict": "Enforcing"
+      },
+      {
+        "severity": "CLEAR",
+        "detector": "Zygisk",
+        "verdict": "No Zygisk runtime signal"
+      }
+    ],
+    "export_report": "strict-v18-mgf-aes-aad-after-duck-export.txt",
+    "export_sha256": "8952b0aa75855c060c5abee3a2826a9d0c955c336ea1ef7da219e68ceac6a60f",
+    "exported_report_mtime": 1792901539
+  }
+}

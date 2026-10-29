@@ -1,0 +1,14 @@
+{
+  "captured_at": "2026-10-24T18:25:12.4934727+00:00",
+  "before_pids": [
+    2550
+  ],
+  "running_pids": [
+    2550,
+    4367
+  ],
+  "after_force_stop_pids": [
+    2550
+  ],
+  "worker_exited": true
+}

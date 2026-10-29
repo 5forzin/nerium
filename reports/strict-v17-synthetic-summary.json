@@ -1,0 +1,53 @@
+{
+  "trial": "Synthetic test CA in the isolated four-vCPU AVD",
+  "boot_id": "f9c2ef98-e1c7-4bfd-a9fe-9b861b2a0e1a",
+  "scope_restored_to": ["com.eltavine.duckdetector"],
+  "loaded_selinux_policy_sha256": "725322b8bb21c399e222db65bd9e0ee307a3b603d19d9a3d5f47a93cc8f369c0",
+  "selinux_enforcing": true,
+  "platform_controls": {
+    "selinux_passed": 5,
+    "selinux_failed": 0,
+    "syscall_passed": 12,
+    "syscall_failed": 0,
+    "syscall_unavailable": 0
+  },
+  "probes": {
+    "proc99": {"detected": 0, "unavailable": 0, "total": 99},
+    "raw79": {"detected": 0, "unavailable": 0, "total": 79},
+    "probe54": {"detected": 0, "unavailable": 0, "total": 54},
+    "reveny_detected": false
+  },
+  "duck": {
+    "normal": {"Danger": 1, "Warning": 1, "Ready": 20, "Pending": 0},
+    "offline": {"Danger": 1, "Warning": 0, "Ready": 20, "Pending": 0},
+    "offline_samples": 36,
+    "bootloader": "CLEAR",
+    "tee": "DANGER",
+    "tee_failure": "RSA_OAEP_MGF_DIGEST was not enforced by the selected hardware security level"
+  },
+  "independent_attestation": {
+    "certificate_signatures_verified": true,
+    "external_nonce_binding_verified": true,
+    "official_root_snapshot_revalidated_on": "2026-10-25",
+    "official_root_snapshot_matches_live_array": true,
+    "official_root_count": 2,
+    "root_certificate_in_official_snapshot": false,
+    "root_public_key_in_official_snapshot": false,
+    "manufacturer_trust": "not_established",
+    "revocation_checked": false,
+    "full_pkix_path_validation_performed": false
+  },
+  "hardware_trust_supplied": false,
+  "evidence": [
+    "strict-v17-synthetic-switch.json",
+    "strict-v17-synthetic-normal-duck.json",
+    "strict-v17-synthetic-offline-duck.json",
+    "strict-v17-synthetic-proc99.json",
+    "strict-v17-synthetic-raw79.json",
+    "strict-v17-synthetic-probe54.json",
+    "strict-v17-synthetic-reveny.json",
+    "strict-v17-synthetic-scoped-hostnonce-trust.json",
+    "strict-v17-synthetic-scoped-hostnonce-scope.json",
+    "strict-v17-synthetic-platform-boot.json"
+  ]
+}

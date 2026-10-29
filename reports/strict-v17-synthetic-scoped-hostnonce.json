@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "captured_at_ms": 1792897062914,
+  "api": 34,
+  "challenge_source": "external",
+  "hardware_attestation_feature": true,
+  "strongbox_feature": false,
+  "default_keystore": {
+    "generation_ms": 33.900035,
+    "keyinfo_inside_secure_hardware": true,
+    "keyinfo_security_level": 1,
+    "certificates": [
+      {
+        "subject": "CN=Android Keystore Key",
+        "issuer": "CN=Device Lab ECDSA Test Intermediate,O=Device Lab Test Only",
+        "sha256": "aa85b7668607ebd5b470fe933c935d3c59f853cab0032f3a5dee31a764723a97",
+        "der_base64": "MIICwjCCAmmgAwIBAgIBATAKBggqhkjOPQQDAjBMMR0wGwYDVQQKDBREZXZpY2UgTGFiIFRlc3QgT25seTErMCkGA1UEAwwiRGV2aWNlIExhYiBFQ0RTQSBUZXN0IEludGVybWVkaWF0ZTAeFw03MDAxMDEwMDAwMDBaFw00ODAxMDEwMDAwMDBaMB8xHTAbBgNVBAMMFEFuZHJvaWQgS2V5c3RvcmUgS2V5MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEsD6G++zJzYZLehvwLn9eAi+W7hkFM8pFn0JNsF93xPFAKvAFLs9N8L+rLQx3hLaNiUyGOoGt1D7VBV3TsEQYdqOCAWcwggFjMA4GA1UdDwEB/wQEAwIHgDCCAU8GCisGAQQB1nkCAREEggE/MIIBOwICASwKAQECAgEsCgEBBCAGBR4oCPjotGUN7al4/Z4uqskPEhHM0ZWDUe4yzvYHQwQAMGC/hT0IAgYBoXD+GAe/hUVQBE4wTDEmMCQEH2Rldi5hbmRyb2lkbGFiLmF0dGVzdGF0aW9ucHJvYmUCAQIxIgQgjac+iDJ8sOZhku3/I82pq5AQWQuPAuZogb59H1KOFPYwgaShCDEGAgECAgEDogMCAQOjBAICAQClBTEDAgEEqgMCAQG/g3cCBQC/hT4DAgEAv4VATDBKBCC9hv0kPef1oDQyfd94GA2MTT41Q6BeBOr7UnW+ZCNNogEB/woBAAQgRR5X7WiP90bSxjbVIWmt4lPivFuzClw/8jZ5yhXTvNO/hUEFAgMCIuC/hUIFAgMDFkW/hU4GAgQBNLL5v4VPBgIEATSy+TAKBggqhkjOPQQDAgNHADBEAiArlNiUNpS2apOURipn+gKUwFOeHR4qMpclsAtgBXavugIgG7GKQVvPAboS1wbeeu2DakHL1KO3O5A/Zj2RHxbHbik="
+      },
+      {
+        "subject": "CN=Device Lab ECDSA Test Intermediate,O=Device Lab Test Only",
+        "issuer": "CN=Device Lab ECDSA Test Root,O=Device Lab Test Only",
+        "sha256": "90cdac28273efcb1af1ab24372abad2584b05a6cb969cb39ababc0544fc3b39c",
+        "der_base64": "MIIBqDCCAU6gAwIBAgIUb6xAnjd4x8phZVm9zJqx8Gaqm+swCgYIKoZIzj0EAwIwRDEdMBsGA1UECgwURGV2aWNlIExhYiBUZXN0IE9ubHkxIzAhBgNVBAMMGkRldmljZSBMYWIgRUNEU0EgVGVzdCBSb290MB4XDTI2MDkyNTAyNDk1MVoXDTI4MTAyNDAyNDk1MVowTDEdMBsGA1UECgwURGV2aWNlIExhYiBUZXN0IE9ubHkxKzApBgNVBAMMIkRldmljZSBMYWIgRUNEU0EgVGVzdCBJbnRlcm1lZGlhdGUwWTATBgcqhkjOPQIBBggqhkjOPQMBBwNCAASPOpyIaP9Mjw9yg9UGYq4WghcC58UqgHHB6wPF+N3IWGP3D9wyg+NdFwkHPnrny+72QinluS+fTnsZuo/UzVcHoxYwFDASBgNVHRMBAf8ECDAGAQH/AgEBMAoGCCqGSM49BAMCA0gAMEUCIHwLDvSB/TOWHB6q00jjz/HkmPOXyAtaEjYhl5z9axygAiEAiYhrxEk9+X2V0lk1A2af1d7ldidLpY70/Pg8h10CeGs="
+      },
+      {
+        "subject": "CN=Device Lab ECDSA Test Root,O=Device Lab Test Only",
+        "issuer": "CN=Device Lab ECDSA Test Root,O=Device Lab Test Only",
+        "sha256": "b96c7a1fefd5ee20b9852cb3dccbbdd2869d1952da663d8bd59a8e163f4d249b",
+        "der_base64": "MIIBoTCCAUagAwIBAgIUP2FRdPvAeaSgGMD01Z3Dd5/oPg8wCgYIKoZIzj0EAwIwRDEdMBsGA1UECgwURGV2aWNlIExhYiBUZXN0IE9ubHkxIzAhBgNVBAMMGkRldmljZSBMYWIgRUNEU0EgVGVzdCBSb290MB4XDTI2MDkyNTAyNDk1MVoXDTI4MTAyNDAyNDk1MVowRDEdMBsGA1UECgwURGV2aWNlIExhYiBUZXN0IE9ubHkxIzAhBgNVBAMMGkRldmljZSBMYWIgRUNEU0EgVGVzdCBSb290MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEw61csXSiE/56WDARTHF0bcYmA4zmKRtX5+w5A6eMuI3bbQk5nvYqVQ4GaCvkUt5qGmrfVQ5C1KrfYhqwigkkrqMWMBQwEgYDVR0TAQH/BAgwBgEB/wIBATAKBggqhkjOPQQDAgNJADBGAiEAiyrM5BXPcD4PFL9Fs1cKMcJ2IAU+Rk6eYmDV2P3/iqwCIQCT56qpli1ffTegHqGQVBhtm5xyPOIz2DOtQGr2oNvewQ=="
+      }
+    ],
+    "chain_signatures_valid": true,
+    "leaf_matches_generated_key": true,
+    "key_possession_verified": true,
+    "payload_base64": "RGV2aWNlIExhYiBpbmRlcGVuZGVudCBrZXkgcG9zc2Vzc2lvbiBjaGVjaw==",
+    "signature_base64": "MEUCIFu+OEk1SyyKVX8LsmSBGvywG/UUrCb2e6wa5SCNq5J7AiEA+QByWWMnkU5VkYksxSfR4NP2RHD/W9wcZ04V0jDcjHk=",
+    "challenge_base64": "BgUeKAj46LRlDe2peP2eLqrJDxIRzNGVg1HuMs72B0M=",
+    "attestation": {
+      "attestation_version": 300,
+      "attestation_security_level": 1,
+      "keymaster_version": 300,
+      "keymaster_security_level": 1,
+      "challenge_matches": true,
+      "root_of_trust": {
+        "authorization_list": "hardware",
+        "verified_boot_key": "bd86fd243de7f5a034327ddf78180d8c4d3e3543a05e04eafb5275be64234da2",
+        "device_locked": true,
+        "verified_boot_state": 0,
+        "verified_boot_hash": "451e57ed688ff746d2c636d52169ade253e2bc5bb30a5c3ff23679ca15d3bcd3"
+      }
+    },
+    "status": "complete"
+  },
+  "strongbox": {
+    "status": "unavailable",
+    "error_type": "android.security.keystore.StrongBoxUnavailableException",
+    "error": "android.security.keystore.StrongBoxUnavailableException: Failed to generated key pair."
+  },
+  "interpretation": "Valid signatures and nonce binding do not establish manufacturer trust or hardware-backed storage.",
+  "apk_sha256": "06feb66b5ea7a8b801afb57b242efe07e014118e92a45aac0d6fbf6f864ccbdc",
+  "package": "dev.androidlab.attestationprobe"
+}

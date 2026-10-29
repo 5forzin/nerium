@@ -1,0 +1,7 @@
+4:memory:/
+3:cpuset:/
+2:cpu:/
+1:blkio:/
+0::/device-lab-platform
+TracerPid:	4717
+725322b8bb21c399e222db65bd9e0ee307a3b603d19d9a3d5f47a93cc8f369c0  /sys/fs/selinux/policy

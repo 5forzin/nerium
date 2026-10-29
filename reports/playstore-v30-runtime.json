@@ -1,0 +1,14 @@
+{
+  "captured_at": "2026-10-26T00:58:13.2458334+00:00",
+  "avd": "device-lab-playstore-exec-probe-v30",
+  "selinux": "Enforcing",
+  "verity_mode": "enforcing",
+  "verified_boot_state": "",
+  "vbmeta_digest": "0889a50c7542ba3fdfb15b19589e2e383433d90102646277d4e7fd457383a70b",
+  "vbmeta_size": "6720",
+  "build_type": "user",
+  "debuggable": "0",
+  "zygote_service": "running",
+  "helper_service": "stopped",
+  "root_mount": "/dev/block/dm-5 / ext4 ro,seclabel,relatime 0 0"
+}

@@ -1,0 +1,23 @@
+Detector: duck (same APK checksum and ABI)
+Status: complete -> complete
+Detected: True -> True
+Before: Built-in report from the pinned APK corroborated by its current process and dashboard.
+After: Built-in report from the pinned APK corroborated by its current process and dashboard.
+Danger modules: 6 -> 2
+Warning modules: 6 -> 5
+Ready modules: 20 -> 20
+Pending modules: 0 -> 0
+  LSPosed: WARNING: Dirty SELinux policy signal(s)
+    -> INFO: LSPosed scan has reduced coverage
+  Mount: DANGER: 8 critical mount signal(s)
+    -> CLEAR: No suspicious mount-layer signal
+  Native Root: DANGER: 1 runtime root signal(s)
+    -> WARNING: 1 native signal(s) need review
+  Root Managers: WARNING: Root manager apps found
+    -> CLEAR: No root manager apps
+  SU: DANGER: SU binary detected
+    -> INFO: No root indicators
+  System Properties: DANGER: 1 high-risk property or coherence signal(s)
+    -> WARNING: 1 property signal(s) need review
+  Zygisk: WARNING: One heuristic family needs review
+    -> CLEAR: No Zygisk runtime signal

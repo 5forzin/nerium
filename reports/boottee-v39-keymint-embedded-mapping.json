@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "source_system_img": "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v14\\system-images-platform\\system.img",
+  "source_system_sha256": "4806fbc745cd9abbfacc358496508f0ce420010e0ddaccef11e52e5da8e92f0a",
+  "metadata_tool": "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\tools\\lpunpack\\lpunpack.py",
+  "metadata_tool_sha256": "42e86fd88dfb68d91fe615e92f2b8ef959796a9528d06b8f6a8ca7e838aa8af5",
+  "reader_script": "C:\\Users\\antho\\AppData\\Local\\Packages\\OpenAI.Codex_2p2nqsd0c76g0\\LocalCache\\Local\\android-device-lab\\research-v39-keymint-audit\\extract_platform_v25_keymint.py",
+  "reader_script_sha256": "6754f221f37f9356ce49bd9acc653f0749e6ffd5a0425367f6b6a59b6ff00fbc",
+  "super_gpt_offset": 2097152,
+  "partition_name": "vendor",
+  "partition_offset": 3001024512,
+  "partition_bytes": 100843520,
+  "files": [
+    {
+      "path": "/bin/hw/android.hardware.security.keymint-service",
+      "bytes": 30072,
+      "sha256": "1fdcae411c1c3859c96633ebcb725e3fb57d616478070a59da69e782c3cd9fd3",
+      "matches_external_vendor_file": true
+    },
+    {
+      "path": "/lib64/libpuresoftkeymasterdevice.so",
+      "bytes": 101448,
+      "sha256": "82653197ba002aaf5d2fef9e7df72871e50f418564b2742eaf869649d2f23af5",
+      "matches_external_vendor_file": true
+    },
+    {
+      "path": "/etc/init/android.hardware.security.keymint-service.rc",
+      "bytes": 124,
+      "sha256": "045cd6b62ddcadcc86eb0eac6b94c343eec1588ce45450d6aa592a45ddedd722",
+      "matches_external_vendor_file": true
+    },
+    {
+      "path": "/etc/vintf/manifest/android.hardware.security.keymint-service.xml",
+      "bytes": 400,
+      "sha256": "24ec918774ede35aa77a983650f37397abb2392df765336fe31053a2ded19732",
+      "matches_external_vendor_file": true
+    }
+  ],
+  "all_four_match_external_vendor": true,
+  "runtime_loaded_image_verified": false,
+  "no_runtime_boot_or_image_mutation": true
+}

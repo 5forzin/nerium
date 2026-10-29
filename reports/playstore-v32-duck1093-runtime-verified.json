@@ -1,0 +1,27 @@
+{
+  "source_report": "playstore-v32-duck1093-runtime.json",
+  "scope": "early real-zygote constructor transport",
+  "passed": true,
+  "checks": {
+    "enforcing": true,
+    "verity_enforcing": true,
+    "boot_complete": true,
+    "system_server_running": true,
+    "all_stages_once": true,
+    "real_zygote_pid": true,
+    "root_credentials": true,
+    "zygote_domain": true,
+    "groups_preserved": true,
+    "all_capabilities_preserved": true,
+    "no_new_privs_preserved": true,
+    "first_exec_secure": true,
+    "second_exec_not_secure": true,
+    "preload_configured_at_second_exec": true,
+    "android_runtime_visible": true,
+    "wrapper_arguments_exact": true,
+    "constructor_arguments_exact": true,
+    "constructor_environment_cleanup": true
+  },
+  "runtime_hooks_verified": false,
+  "environment_cleanup_observed": true
+}

@@ -1,0 +1,23 @@
+dalvik-cache
+device-lab-cpu.zip
+device-lab-fd-preflight
+device-lab-kernel-preflight
+device-lab-namespace.zip
+device-lab-probe.png
+device-lab-result.png
+framework-setup.sh
+lsposed-native.png
+magisk-ui.xml
+native-root-current.xml
+native-root.xml
+native-test.png
+spotter-result.xml
+spotter.xml
+Targets in the device-mapper table for vendor:
+0-196960: linear, 253:2 5857280
+Targets in the device-mapper table for system_dlkm:
+0-8248: linear, 253:2 1740800
+61fdf9d27000 default file=/system/bin/toybox mapped=16 active=0 N0=16 kernelpagesize_kB=4
+61fdf9d58000 default file=/system/bin/toybox mapped=34 active=0 N0=34 kernelpagesize_kB=4
+61fdf9da2000 default file=/system/bin/toybox anon=5 dirty=5 active=0 N0=5 kernelpagesize_kB=4
+61fdf9da7000 default file=/system/bin/toybox anon=4 dirty=4 active=0 N0=4 kernelpagesize_kB=4

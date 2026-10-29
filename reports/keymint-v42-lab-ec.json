@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "captured_at_ms": 1793056816219,
+  "api": 34,
+  "challenge_source": "external",
+  "hardware_attestation_feature": true,
+  "strongbox_feature": false,
+  "default_keystore": {
+    "generation_ms": 10015.3265,
+    "keyinfo_inside_secure_hardware": false,
+    "keyinfo_security_level": 0,
+    "certificates": [
+      {
+        "subject": "CN=Android Keystore Key",
+        "issuer": "CN=AndroidLab Software Attestation Root",
+        "sha256": "cbcf2392ddc9b15485d4c55dbf481f591874ad8096de28c23bfefba43d82d30e",
+        "der_base64": "MIICSTCCAe+gAwIBAgIBATAKBggqhkjOPQQDAjAvMS0wKwYDVQQDDCRBbmRyb2lkTGFiIFNvZnR3YXJlIEF0dGVzdGF0aW9uIFJvb3QwHhcNNzAwMTAxMDAwMDAwWhcNNDgwMTAxMDAwMDAwWjAfMR0wGwYDVQQDExRBbmRyb2lkIEtleXN0b3JlIEtleTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABCbpjRAxqDCoxr/OsXY30jQueF1FUtqpuqNK0DOLWioKYkyts33igRpi8IUi4BIeuKKfhQMyyCQ+FxJwpoj53EmjggEKMIIBBjAOBgNVHQ8BAf8EBAMCB4AwgfMGCisGAQQB1nkCAREEgeQwgeECAgEsCgEAAgIBLAoBAAQgnPLcrHyhWtN7HrYRAxRClfuXSFAhQ6whlDeBlm/FsNYEADCBqqEIMQYCAQICAQOiAwIBA6MEAgIBAKUFMQMCAQSqAwIBAb+DdwIFAL+FPQgCBgGheoPjdr+FPgMCAQC/hUEFAgMCIuC/hUIFAgMDFkW/hUVQBE4wTDEmMCQEH2Rldi5hbmRyb2lkbGFiLmF0dGVzdGF0aW9ucHJvYmUCAQIxIgQgjac+iDJ8sOZhku3/I82pq5AQWQuPAuZogb59H1KOFPa/hU4GAgQBNLL5MAAwCgYIKoZIzj0EAwIDSAAwRQIgMFAfqJu6N6JsyERiQI8Kf8D84loIINAAlFKK+vDL9NYCIQC4GHIWi2R1wSlr6eIN2tVW/KImOXn0lDGW10UXh1bVag=="
+      },
+      {
+        "subject": "CN=AndroidLab Software Attestation Root",
+        "issuer": "CN=AndroidLab Software Attestation Root",
+        "sha256": "b1b39cca723d76936f18703d1a9fe3622998ea2d40594cdc18954f007640f5c7",
+        "der_base64": "MIIBhTCCASqgAwIBAgIQe+6TOolgMAydZpv8kCR5ZjAKBggqhkjOPQQDAjAvMS0wKwYDVQQDDCRBbmRyb2lkTGFiIFNvZnR3YXJlIEF0dGVzdGF0aW9uIFJvb3QwIBcNNzAwMTAxMDAwMDAwWhgPOTk5OTEyMzEyMzU5NTlaMC8xLTArBgNVBAMMJEFuZHJvaWRMYWIgU29mdHdhcmUgQXR0ZXN0YXRpb24gUm9vdDBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABCb5urKpUHxJSBW5N+73LxFN6TVMzBqDYnhTd5xFYWnc1pFzHcKMD76tLL7+YrEF8Lb0rGYTH6F3hXOYeFZaxU+jJjAkMBIGA1UdEwEB/wQIMAYBAf8CAQAwDgYDVR0PAQH/BAQDAgEGMAoGCCqGSM49BAMCA0kAMEYCIQCCWORvXMYRHIOR1dmLq9oxiRlsrt+gpXftxNauSt+LqwIhAMUIJMnsfPFxrMMAagR2nDfxMGLAvQ+Rk59ue/7CqyiH"
+      }
+    ],
+    "chain_signatures_valid": true,
+    "leaf_matches_generated_key": true,
+    "key_possession_verified": true,
+    "payload_base64": "RGV2aWNlIExhYiBpbmRlcGVuZGVudCBrZXkgcG9zc2Vzc2lvbiBjaGVjaw==",
+    "signature_base64": "MEUCICTgnMCxO8tVrv9lKNkGieaEqfEC/8553y+/S61nKI0dAiEAhvmaTa+PL8NLXO2DTTiAFBXzJJBlmPJVBhv65BIcAPk=",
+    "challenge_base64": "nPLcrHyhWtN7HrYRAxRClfuXSFAhQ6whlDeBlm/FsNY=",
+    "attestation": {
+      "attestation_version": 300,
+      "attestation_security_level": 0,
+      "keymaster_version": 300,
+      "keymaster_security_level": 0,
+      "challenge_matches": true
+    },
+    "status": "complete"
+  },
+  "strongbox": {
+    "status": "unavailable",
+    "error_type": "android.security.keystore.StrongBoxUnavailableException",
+    "error": "android.security.keystore.StrongBoxUnavailableException: Failed to generated key pair."
+  },
+  "interpretation": "Valid signatures and nonce binding do not establish manufacturer trust or hardware-backed storage.",
+  "apk_sha256": "06feb66b5ea7a8b801afb57b242efe07e014118e92a45aac0d6fbf6f864ccbdc",
+  "package": "dev.androidlab.attestationprobe"
+}

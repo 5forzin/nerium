@@ -1,0 +1,208 @@
+{
+  "schema_version": 1,
+  "captured_at": "2026-10-24T14:24:44.979585Z",
+  "app_version": "0.1.0",
+  "device": {
+    "manufacturer": "Google",
+    "brand": "google",
+    "model": "sdk_gphone64_x86_64",
+    "device": "emu64xa",
+    "product": "sdk_gphone64_x86_64",
+    "hardware": "ranchu",
+    "board": "goldfish_x86_64",
+    "fingerprint": "google/sdk_gphone64_x86_64/emu64xa:14/UE1A.230829.050/12077443:userdebug/dev-keys",
+    "supported_abis": [
+      "x86_64",
+      "arm64-v8a"
+    ],
+    "sdk": 34,
+    "android_release": "14"
+  },
+  "inventory": {
+    "sensors": [
+      {
+        "name": "Goldfish 3-axis Accelerometer",
+        "vendor": "The Android Open Source Project",
+        "type": 1
+      },
+      {
+        "name": "Goldfish 3-axis Gyroscope",
+        "vendor": "The Android Open Source Project",
+        "type": 4
+      },
+      {
+        "name": "Goldfish 3-axis Magnetic field sensor",
+        "vendor": "The Android Open Source Project",
+        "type": 2
+      },
+      {
+        "name": "Goldfish Orientation sensor",
+        "vendor": "The Android Open Source Project",
+        "type": 3
+      },
+      {
+        "name": "Goldfish Ambient Temperature sensor",
+        "vendor": "The Android Open Source Project",
+        "type": 13
+      },
+      {
+        "name": "Goldfish Proximity sensor",
+        "vendor": "The Android Open Source Project",
+        "type": 8
+      },
+      {
+        "name": "Goldfish Light sensor",
+        "vendor": "The Android Open Source Project",
+        "type": 5
+      },
+      {
+        "name": "Goldfish Pressure sensor",
+        "vendor": "The Android Open Source Project",
+        "type": 6
+      },
+      {
+        "name": "Goldfish Humidity sensor",
+        "vendor": "The Android Open Source Project",
+        "type": 12
+      },
+      {
+        "name": "Goldfish 3-axis Magnetic field sensor (uncalibrated)",
+        "vendor": "The Android Open Source Project",
+        "type": 14
+      },
+      {
+        "name": "Goldfish 3-axis Gyroscope (uncalibrated)",
+        "vendor": "The Android Open Source Project",
+        "type": 16
+      },
+      {
+        "name": "Goldfish 3-axis Accelerometer Uncalibrated",
+        "vendor": "The Android Open Source Project",
+        "type": 35
+      },
+      {
+        "name": "Game Rotation Vector Sensor",
+        "vendor": "AOSP",
+        "type": 15
+      },
+      {
+        "name": "GeoMag Rotation Vector Sensor",
+        "vendor": "AOSP",
+        "type": 20
+      },
+      {
+        "name": "Gravity Sensor",
+        "vendor": "AOSP",
+        "type": 9
+      },
+      {
+        "name": "Linear Acceleration Sensor",
+        "vendor": "AOSP",
+        "type": 10
+      },
+      {
+        "name": "Rotation Vector Sensor",
+        "vendor": "AOSP",
+        "type": 11
+      },
+      {
+        "name": "Orientation Sensor",
+        "vendor": "AOSP",
+        "type": 3
+      }
+    ],
+    "battery": {
+      "level": 100,
+      "scale": 100,
+      "temperature": 250,
+      "status": 2
+    }
+  },
+  "checks": [
+    {
+      "id": "java.identity",
+      "layer": "java",
+      "status": "detected",
+      "observed": "sdk_gphone64_x86_64 sdk_gphone64_x86_64 ranchu emu64xa google"
+    },
+    {
+      "id": "java.fingerprint",
+      "layer": "java",
+      "status": "detected",
+      "observed": "google/sdk_gphone64_x86_64/emu64xa:14/UE1A.230829.050/12077443:userdebug/dev-keys"
+    },
+    {
+      "id": "java.abi",
+      "layer": "java",
+      "status": "detected",
+      "observed": "[x86_64, arm64-v8a]"
+    },
+    {
+      "id": "property.java.ro.kernel.qemu",
+      "layer": "java",
+      "status": "detected",
+      "observed": "1"
+    },
+    {
+      "id": "property.java.ro.boot.qemu",
+      "layer": "java",
+      "status": "detected",
+      "observed": "1"
+    },
+    {
+      "id": "property.java.ro.hardware",
+      "layer": "java",
+      "status": "detected",
+      "observed": "ranchu"
+    },
+    {
+      "id": "property.subprocess.ro.kernel.qemu",
+      "layer": "subprocess",
+      "status": "detected",
+      "observed": "1"
+    },
+    {
+      "id": "property.subprocess.ro.boot.qemu",
+      "layer": "subprocess",
+      "status": "detected",
+      "observed": "1"
+    },
+    {
+      "id": "property.subprocess.ro.hardware",
+      "layer": "subprocess",
+      "status": "detected",
+      "observed": "ranchu"
+    },
+    {
+      "id": "file./dev/qemu_pipe",
+      "layer": "filesystem",
+      "status": "clear",
+      "observed": "/dev/qemu_pipe"
+    },
+    {
+      "id": "file./dev/goldfish_pipe",
+      "layer": "filesystem",
+      "status": "clear",
+      "observed": "/dev/goldfish_pipe"
+    },
+    {
+      "id": "file./dev/socket/qemud",
+      "layer": "filesystem",
+      "status": "clear",
+      "observed": "/dev/socket/qemud"
+    },
+    {
+      "id": "sensor.metadata",
+      "layer": "framework",
+      "status": "detected",
+      "observed": "[{\"name\":\"Goldfish 3-axis Accelerometer\",\"vendor\":\"The Android Open Source Project\",\"type\":1},{\"name\":\"Goldfish 3-axis Gyroscope\",\"vendor\":\"The Android Open Source Project\",\"type\":4},{\"name\":\"Goldfish 3-axis Magnetic field sensor\",\"vendor\":\"The Android Open Source Project\",\"type\":2},{\"name\":\"Goldfish Orientation sensor\",\"vendor\":\"The Android Open Source Project\",\"type\":3},{\"name\":\"Goldfish Ambient Temperature sensor\",\"vendor\":\"The Android Open Source Project\",\"type\":13},{\"name\":\"Goldfish Proximity sensor\",\"vendor\":\"The Android Open Source Project\",\"type\":8},{\"name\":\"Goldfish Light sensor\",\"vendor\":\"The Android Open Source Project\",\"type\":5},{\"name\":\"Goldfish Pressure sensor\",\"vendor\":\"The Android Open Source Project\",\"type\":6},{\"name\":\"Goldfish Humidity sensor\",\"vendor\":\"The Android Open Source Project\",\"type\":12},{\"name\":\"Goldfish 3-axis Magnetic field sensor (uncalibrated)\",\"vendor\":\"The Android Open Source Project\",\"type\":14},{\"name\":\"Goldfish 3-axis Gyroscope (uncalibrated)\",\"vendor\":\"The Android Open Source Project\",\"type\":16},{\"name\":\"Goldfish 3-axis Accelerometer Uncalibrated\",\"vendor\":\"The Android Open Source Project\",\"type\":35},{\"name\":\"Game Rotation Vector Sensor\",\"vendor\":\"AOSP\",\"type\":15},{\"name\":\"GeoMag Rotation Vector Sensor\",\"vendor\":\"AOSP\",\"type\":20},{\"name\":\"Gravity Sensor\",\"vendor\":\"AOSP\",\"type\":9},{\"name\":\"Linear Acceleration Sensor\",\"vendor\":\"AOSP\",\"type\":10},{\"name\":\"Rotation Vector Sensor\",\"vendor\":\"AOSP\",\"type\":11},{\"name\":\"Orientation Sensor\",\"vendor\":\"AOSP\",\"type\":3}]"
+    }
+  ],
+  "summary": {
+    "detected": 10,
+    "unavailable": 0,
+    "total": 13
+  },
+  "integrity": "not_tested",
+  "interpretation": "Heuristic signals only. A clear check is not proof of a physical device. File visibility and permissions can limit observations."
+}

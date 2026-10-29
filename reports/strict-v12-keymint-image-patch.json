@@ -1,0 +1,20 @@
+{
+  "source_manifest_version": 2,
+  "measured_interface_versions": {
+    "keymint": 3,
+    "remote_provisioning": 3
+  },
+  "updated_manifest_version": 3,
+  "modified_bytes_per_image": 2,
+  "manifest_size": 400,
+  "manifest_inode_and_xattrs_preserved": true,
+  "vendor_extent_before_sha256": "7116eda46d281949d1dc926bdf6f693a31133c47183608ee590fa5b2a5dfb9a9",
+  "vendor_extent_after_sha256": "ea34aee8412f70edc5d3751646d23299ac5e02bc5a87b5a272805d144a14965b",
+  "fsck": "clean",
+  "modified_images": [
+    "/artifacts/vendor-v3-partition.img",
+    "/artifacts/system-images-v3/vendor.img",
+    "/artifacts/system-images-v3/system.img"
+  ],
+  "manufacturer_attestation_or_security_level_modified": false
+}

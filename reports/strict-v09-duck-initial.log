@@ -1,0 +1,659 @@
+--------- beginning of main
+10-24 17:10:03.378  5211  5226 D EGL_emulation: app_time_stats: avg=1002.23ms min=1002.23ms max=1002.23ms count=1
+10-24 17:10:03.539  5196  5197 W ziparchive: Unable to open '/data/app/~~yxshPE5xSECWDj-f-lUm_Q==/com.eltavine.duckdetector-JbMZcWdKSPgz5AIqbFOafg==/base.dm': No such file or directory
+10-24 17:10:03.539  5196  5197 W ziparchive: Unable to open '/data/app/~~yxshPE5xSECWDj-f-lUm_Q==/com.eltavine.duckdetector-JbMZcWdKSPgz5AIqbFOafg==/base.dm': No such file or directory
+--------- beginning of system
+10-24 17:10:03.612   577   776 I ActivityManager: Force stopping com.eltavine.duckdetector appid=10203 user=0: from pid 5341
+10-24 17:10:03.614   577   609 D DisplayManagerService: Drop pending events for gone uid 10203
+10-24 17:10:03.615   577   776 I ActivityManager: Killing 5211:com.eltavine.duckdetector/u0a203 (adj 0): stop com.eltavine.duckdetector due to from pid 5341
+10-24 17:10:03.616   577   776 D CompatibilityChangeReporter: Compat change id reported: 261072174; UID 10203; state: ENABLED
+10-24 17:10:03.619   577   776 I ActivityManager: Killing 5239:com.google.android.webview:sandboxed_process0:org.chromium.content.app.SandboxedProcessService0:0/u0a203i1 (adj 0): isolated not needed
+10-24 17:10:03.621   577   776 W ActivityTaskManager: Force removing ActivityRecord{f6893c5 u0 com.eltavine.duckdetector/.MainActivity t278 f}}: app died, no saved state
+10-24 17:10:03.623   795   836 V WindowManagerShell: Transition requested: android.os.BinderProxy@cec2ece TransitionRequestInfo { type = CLOSE, triggerTask = TaskInfo{userId=0 taskId=278 displayId=0 isRunning=false baseIntent=Intent { flg=0x10000000 cmp=com.eltavine.duckdetector/android.app.NativeActivity } baseActivity=null topActivity=null origActivity=null realActivity=ComponentInfo{com.eltavine.duckdetector/android.app.NativeActivity} numActivities=0 lastActiveTime=922550 supportsMultiWindow=true resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{android.window.IWindowContainerToken$Stub$Proxy@826e1ef} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=null topActivityInfo=null launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=true isVisible=true isVisibleRequested=true isSleeping=false topActivityInSizeCompat=false topActivityEligibleForLetterboxEducation= false topActivityLetterboxed= false isFromDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=-1 topActivityLetterboxHeight=-1 locusId=null displayAreaFeatureId=1 cameraCompatControlState=hidden}, remoteTransition = null, displayChange = null }
+10-24 17:10:03.628   577   622 I libprocessgroup: Successfully killed process cgroup uid 99001 pid 5239 in 7ms
+10-24 17:10:03.635   875   875 I Zygote  : Process 5239 exited due to signal 9 (Killed)
+--------- beginning of kernel
+10-24 17:10:03.617     0     0 I binder  : undelivered transaction 258827, process died.
+10-24 17:10:03.617     0     0 I binder  : undelivered transaction 258828, process died.
+10-24 17:10:03.636   577   776 I ActivityManager: Killing 1842:com.google.android.apps.messaging/u0a131 (adj 985): empty #17
+10-24 17:10:03.639   413   413 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+10-24 17:10:03.647   577   612 E IPCThreadState: Binder transaction failure: 258923/29189/-3
+10-24 17:10:03.628     0     0 I binder_alloc: 5211: binder_alloc_buf, no vma
+10-24 17:10:03.629     0     0 I binder  : cannot allocate buffer: vma cleared, target dead or dying
+10-24 17:10:03.629     0     0 I binder  : 577:612 transaction async to 5211:0 failed 258923/29189/-3, size 1524-16 line 3406
+10-24 17:10:03.652   577   612 W WindowManager: Failed to deliver inset control state change to w=Window{be4bbc4 u0 com.eltavine.duckdetector/com.eltavine.duckdetector.MainActivity}
+10-24 17:10:03.652   577   612 W WindowManager: android.os.DeadObjectException
+10-24 17:10:03.652   577   612 W WindowManager: 	at android.os.BinderProxy.transactNative(Native Method)
+10-24 17:10:03.652   577   612 W WindowManager: 	at android.os.BinderProxy.transact(BinderProxy.java:584)
+10-24 17:10:03.652   577   612 W WindowManager: 	at android.view.IWindow$Stub$Proxy.insetsControlChanged(IWindow.java:479)
+10-24 17:10:03.652   577   612 W WindowManager: 	at com.android.server.wm.WindowState.notifyInsetsControlChanged(WindowState.java:3802)
+10-24 17:10:03.652   577   612 W WindowManager: 	at com.android.server.wm.InsetsStateController.lambda$notifyPendingInsetsControlChanged$3(InsetsStateController.java:343)
+10-24 17:10:03.652   577   612 W WindowManager: 	at com.android.server.wm.InsetsStateController.$r8$lambda$8yykPRG1GyNq_J17QvL9d5xANMc(InsetsStateController.java:0)
+10-24 17:10:03.652   577   612 W WindowManager: 	at com.android.server.wm.InsetsStateController$$ExternalSyntheticLambda2.run(R8$$SyntheticClass:0)
+10-24 17:10:03.652   577   612 W WindowManager: 	at com.android.server.wm.WindowAnimator.executeAfterPrepareSurfacesRunnables(WindowAnimator.java:294)
+10-24 17:10:03.652   577   612 W WindowManager: 	at com.android.server.wm.WindowAnimator.animate(WindowAnimator.java:202)
+10-24 17:10:03.652   577   612 W WindowManager: 	at com.android.server.wm.WindowAnimator.lambda$new$1(WindowAnimator.java:99)
+10-24 17:10:03.652   577   612 W WindowManager: 	at com.android.server.wm.WindowAnimator.$r8$lambda$aHNu1uhcqxihX5NZc4McDDQPAyw(WindowAnimator.java:0)
+10-24 17:10:03.652   577   612 W WindowManager: 	at com.android.server.wm.WindowAnimator$$ExternalSyntheticLambda1.doFrame(R8$$SyntheticClass:0)
+10-24 17:10:03.652   577   612 W WindowManager: 	at android.view.Choreographer$CallbackRecord.run(Choreographer.java:1337)
+10-24 17:10:03.652   577   612 W WindowManager: 	at android.view.Choreographer$CallbackRecord.run(Choreographer.java:1348)
+10-24 17:10:03.652   577   612 W WindowManager: 	at android.view.Choreographer.doCallbacks(Choreographer.java:952)
+10-24 17:10:03.652   577   612 W WindowManager: 	at android.view.Choreographer.doFrame(Choreographer.java:878)
+10-24 17:10:03.652   577   612 W WindowManager: 	at android.view.Choreographer$FrameDisplayEventReceiver.run(Choreographer.java:1322)
+10-24 17:10:03.652   577   612 W WindowManager: 	at android.os.Handler.handleCallback(Handler.java:958)
+10-24 17:10:03.652   577   612 W WindowManager: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+10-24 17:10:03.652   577   612 W WindowManager: 	at android.os.Looper.loopOnce(Looper.java:205)
+10-24 17:10:03.652   577   612 W WindowManager: 	at android.os.Looper.loop(Looper.java:294)
+10-24 17:10:03.652   577   612 W WindowManager: 	at android.os.HandlerThread.run(HandlerThread.java:67)
+10-24 17:10:03.652   577   612 W WindowManager: 	at com.android.server.ServiceThread.run(ServiceThread.java:46)
+10-24 17:10:03.656   577  1409 I WindowManager: WIN DEATH: Window{be4bbc4 u0 com.eltavine.duckdetector/com.eltavine.duckdetector.MainActivity}
+10-24 17:10:03.656   577  1409 W InputManager-JNI: Input channel object 'be4bbc4 com.eltavine.duckdetector/com.eltavine.duckdetector.MainActivity (client)' was disposed without first being removed with the input manager!
+10-24 17:10:03.660   577   720 D ConnectivityService: releasing NetworkRequest [ REQUEST id=141, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10203 RequestorUid: 10203 RequestorPkg: com.eltavine.duckdetector UnderlyingNetworks: Null] ] (release request)
+10-24 17:10:03.664   577  4530 I ImeTracker: com.eltavine.duckdetector:ffd1a2aa: onRequestHide at ORIGIN_SERVER_HIDE_INPUT reason HIDE_REMOVE_CLIENT
+10-24 17:10:03.672   577  4530 I ImeTracker: com.eltavine.duckdetector:ffd1a2aa: onCancelled at PHASE_SERVER_SHOULD_HIDE
+10-24 17:10:03.674   347   347 I Zygote  : Process 5211 exited due to signal 9 (Killed)
+10-24 17:10:03.688  4795  4816 E OpenGLRenderer: Unable to match the desired swap behavior.
+10-24 17:10:03.693     0     0 I binder  : undelivered transaction 161715, process died.
+10-24 17:10:03.694     0     0 I binder  : undelivered transaction 164400, process died.
+10-24 17:10:03.694     0     0 I binder  : undelivered transaction 189984, process died.
+10-24 17:10:03.695     0     0 I binder  : undelivered transaction 192614, process died.
+10-24 17:10:03.695     0     0 I binder  : undelivered transaction 208936, process died.
+10-24 17:10:03.696     0     0 I binder  : undelivered transaction 211729, process died.
+10-24 17:10:03.704   577   622 I libprocessgroup: Successfully killed process cgroup uid 10131 pid 1842 in 67ms
+10-24 17:10:03.706   577   776 I AppsFilter: interaction: PackageSetting{be66812 dev.androidlab.procprobe/10202} -> PackageSetting{d4ef217 com.eltavine.duckdetector/10203} BLOCKED
+10-24 17:10:03.706   577   776 I AppsFilter: interaction: PackageSetting{f5b99e0 dev.androidlab.module/10194} -> PackageSetting{d4ef217 com.eltavine.duckdetector/10203} BLOCKED
+10-24 17:10:03.706   577   776 I AppsFilter: interaction: PackageSetting{622f499 dev.androidlab.probe/10192} -> PackageSetting{d4ef217 com.eltavine.duckdetector/10203} BLOCKED
+10-24 17:10:03.706   577   776 I AppsFilter: interaction: PackageSetting{abef35e dev.androidlab.rawprobe/10201} -> PackageSetting{d4ef217 com.eltavine.duckdetector/10203} BLOCKED
+10-24 17:10:03.726   577  4534 W system_server: Long monitor contention with owner binder:577_4 (776) at void com.android.server.am.OomAdjuster.performUpdateOomAdjPendingTargetsLocked(int)(OomAdjuster.java:920) waiters=0 in boolean com.android.server.am.ActivityManagerService.isUidActive(int, java.lang.String) for 108ms
+10-24 17:10:03.727   577   611 V WindowManager: Unknown focus tokens, dropping reportFocusChanged
+10-24 17:10:03.729   577  2241 V ActivityManager: Got obituary of 5211:com.eltavine.duckdetector
+10-24 17:10:03.730   577   609 D DisplayManagerService: Drop pending events for gone uid 99001
+10-24 17:10:03.731   577   720 D ConnectivityService: releasing NetworkRequest [ REQUEST id=108, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10131 RequestorUid: 10131 RequestorPkg: com.google.android.apps.messaging UnderlyingNetworks: Null] ] (release request)
+10-24 17:10:03.733   347   347 I Zygote  : Process 1842 exited due to signal 9 (Killed)
+10-24 17:10:03.739   577   627 W KernelCpuProcStringReader: File not found. It's normal if not implemented: /proc/uid_time_in_state
+10-24 17:10:03.739   970   970 D CarrierSvcBindHelper: onHandleForceStop: [com.eltavine.duckdetector]
+10-24 17:10:03.739   577   627 W KernelCpuProcStringReader: File not found. It's normal if not implemented: /proc/uid_concurrent_active_time
+10-24 17:10:03.739   577   627 W KernelCpuProcStringReader: File not found. It's normal if not implemented: /proc/uid_concurrent_policy_time
+10-24 17:10:03.740   970   970 D CarrierSvcBindHelper: No carrier app for: 0
+10-24 17:10:03.741   577   627 E system_server: Cannot read thread CPU times for PID 577
+10-24 17:10:03.799   577   608 V WindowManager: Sent Transition #18 createdAt=10-24 17:10:03.621 via request=TransitionRequestInfo { type = CLOSE, triggerTask = TaskInfo{userId=0 taskId=278 displayId=0 isRunning=false baseIntent=Intent { flg=0x10000000 cmp=com.eltavine.duckdetector/android.app.NativeActivity } baseActivity=null topActivity=null origActivity=null realActivity=ComponentInfo{com.eltavine.duckdetector/android.app.NativeActivity} numActivities=0 lastActiveTime=922550 supportsMultiWindow=true resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{RemoteToken{14dbddb Task{11eca12 #278 type=standard A=10203:com.eltavine.duckdetector}}} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=null topActivityInfo=null launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=true isVisible=true isVisibleRequested=true isSleeping=false topActivityInSizeCompat=false topActivityEligibleForLetterboxEducation= false topActivityLetterboxed= false isFromDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=-1 topActivityLetterboxHeight=-1 locusId=null displayAreaFeatureId=1 cameraCompatControlState=hidden}, remoteTransition = null, displayChange = null }
+10-24 17:10:03.800   577   608 V WindowManager:     startWCT=WindowContainerTransaction { changes = {} hops = [] errorCallbackToken=null taskFragmentOrganizer=null }
+10-24 17:10:03.800   577   608 V WindowManager:     info={id=18 t=CLOSE f=0x0 trk=0 r=[0@Point(0, 0)] c=[{WCT{RemoteToken{14dbddb Task{11eca12 #278 type=standard A=10203:com.eltavine.duckdetector}}} m=CLOSE f=NONE leash=Surface(name=Task=278)/@0xabdb78c sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0},{WCT{RemoteToken{ba3b933 Task{223a0f9 #276 type=standard A=10193:com.reveny.emulator.detection.sample}}} m=TO_FRONT f=NONE leash=Surface(name=Task=276)/@0xae37631 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0}]}
+10-24 17:10:03.800   577  2296 W ActivityTaskManager: callingPackage for (uid=2000, pid=5347) has no WPC
+10-24 17:10:03.801   795   836 V WindowManagerShell: onTransitionReady android.os.BinderProxy@cec2ece: {id=18 t=CLOSE f=0x0 trk=0 r=[0@Point(0, 0)] c=[{WCT{android.window.IWindowContainerToken$Stub$Proxy@d0e2a49} m=CLOSE f=NONE leash=Surface(name=Task=278)/@0x9430502 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0},{WCT{android.window.IWindowContainerToken$Stub$Proxy@d606f4e} m=TO_FRONT f=NONE leash=Surface(name=Task=276)/@0xe9bee13 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0}]}
+10-24 17:10:03.801   795   836 V WindowManagerShell: Playing animation for (#18)android.os.BinderProxy@cec2ece@0
+10-24 17:10:03.801   577  2296 D CompatibilityChangeReporter: Compat change id reported: 265464455; UID 10203; state: DISABLED
+10-24 17:10:03.801   795   836 V WindowManagerShell:  try handler com.android.wm.shell.transition.DefaultMixedHandler@b657810
+10-24 17:10:03.801   577  2296 D CompatibilityChangeReporter: Compat change id reported: 265452344; UID 10203; state: DISABLED
+10-24 17:10:03.802   577  2296 D CompatibilityChangeReporter: Compat change id reported: 266124927; UID 10203; state: DISABLED
+10-24 17:10:03.802   577  2296 D CompatibilityChangeReporter: Compat change id reported: 265451093; UID 10203; state: DISABLED
+10-24 17:10:03.802   577  2296 D CompatibilityChangeReporter: Compat change id reported: 265456536; UID 10203; state: DISABLED
+10-24 17:10:03.802   577  2296 D CompatibilityChangeReporter: Compat change id reported: 255940284; UID 10203; state: DISABLED
+10-24 17:10:03.802   577  2296 D CompatibilityChangeReporter: Compat change id reported: 236283604; UID 10203; state: DISABLED
+10-24 17:10:03.802   577  2296 D CompatibilityChangeReporter: Compat change id reported: 263959004; UID 10203; state: DISABLED
+10-24 17:10:03.802   577  2296 D CompatibilityChangeReporter: Compat change id reported: 264304459; UID 10203; state: DISABLED
+10-24 17:10:03.802   577  2296 D CompatibilityChangeReporter: Compat change id reported: 264301586; UID 10203; state: DISABLED
+10-24 17:10:03.802   577  2296 D CompatibilityChangeReporter: Compat change id reported: 254631730; UID 10203; state: DISABLED
+10-24 17:10:03.803   577  2296 D CompatibilityChangeReporter: Compat change id reported: 273509367; UID 10203; state: DISABLED
+10-24 17:10:03.803   577  2296 D CompatibilityChangeReporter: Compat change id reported: 263259275; UID 10203; state: DISABLED
+10-24 17:10:03.803   577  2296 D CompatibilityChangeReporter: Compat change id reported: 174042980; UID 10203; state: DISABLED
+10-24 17:10:03.803   577  2296 D CompatibilityChangeReporter: Compat change id reported: 174042936; UID 10203; state: DISABLED
+10-24 17:10:03.803   577  2296 D CompatibilityChangeReporter: Compat change id reported: 181136395; UID 10203; state: DISABLED
+10-24 17:10:03.803   577  2296 D CompatibilityChangeReporter: Compat change id reported: 194480991; UID 10203; state: ENABLED
+10-24 17:10:03.804   795   836 V WindowManagerShell:  try handler com.android.wm.shell.keyguard.KeyguardTransitionHandler@1292f09
+10-24 17:10:03.805   795   836 V WindowManagerShell:  try handler com.android.wm.shell.activityembedding.ActivityEmbeddingController@4d3f50e
+10-24 17:10:03.805   795   836 V WindowManagerShell:  try handler com.android.wm.shell.recents.RecentsTransitionHandler@9bdcb2f
+10-24 17:10:03.805   795   836 V ShellRecents: RecentsTransitionHandler.startAnimation: no controller found
+10-24 17:10:03.805   795   836 V WindowManagerShell:  try handler com.android.wm.shell.pip.PipTransition@f12053c
+10-24 17:10:03.805   795   836 V WindowManagerShell:  try handler com.android.wm.shell.splitscreen.StageCoordinator@acb2c5
+10-24 17:10:03.805   795   836 V WindowManagerShell:  try handler com.android.wm.shell.transition.RemoteTransitionHandler@15e541a
+10-24 17:10:03.805   795   836 V WindowManagerShell: Transition doesn't have explicit remote, search filters for match for {id=18 t=CLOSE f=0x0 trk=0 r=[0@Point(0, 0)] c=[{WCT{android.window.IWindowContainerToken$Stub$Proxy@d0e2a49} m=CLOSE f=NONE leash=Surface(name=Task=278)/@0x9430502 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0},{WCT{android.window.IWindowContainerToken$Stub$Proxy@d606f4e} m=TO_FRONT f=NONE leash=Surface(name=Task=276)/@0xe9bee13 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0}]}
+10-24 17:10:03.805   795   836 V WindowManagerShell:  Checking filter Pair{{types=[] flags=0x0] notFlags=0x0 checks=[{atype=dream independent=true modes=[OPEN,TO_FRONT] flags=NONE mustBeTask=false order=ANY topActivity=null},{atype=home independent=true modes=[CLOSE,TO_BACK] flags=NONE mustBeTask=false order=ANY topActivity=null}]} RemoteTransition { remoteTransition = android.window.IRemoteTransition$Stub$Proxy@55f8098, appThread = android.app.IApplicationThread$Stub$Proxy@6840f1, debugName = LauncherToDream }}
+10-24 17:10:03.805   795   836 V WindowManagerShell:  Checking filter Pair{{types=[] flags=0x0] notFlags=0x100 checks=[{atype=home independent=true modes=[OPEN,TO_FRONT] flags=NONE mustBeTask=false order=TOP topActivity=ComponentInfo{com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.NexusLauncherActivity}},{atype=standard independent=true modes=[CLOSE,TO_BACK] flags=NONE mustBeTask=false order=ANY topActivity=null}]} RemoteTransition { remoteTransition = android.window.IRemoteTransition$Stub$Proxy@b9344d6, appThread = android.app.IApplicationThread$Stub$Proxy@31b357, debugName = QuickstepLaunchHome }}
+10-24 17:10:03.805   795   836 V WindowManagerShell:  Delegate animation for #18 to null
+10-24 17:10:03.805   795   836 V WindowManagerShell:  try handler com.android.wm.shell.transition.DefaultTransitionHandler@8e5eb4b
+10-24 17:10:03.805   795   836 V WindowManagerShell: start default transition animation, info = {id=18 t=CLOSE f=0x0 trk=0 r=[0@Point(0, 0)] c=[{WCT{android.window.IWindowContainerToken$Stub$Proxy@d0e2a49} m=CLOSE f=NONE leash=Surface(name=Task=278)/@0x9430502 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0},{WCT{android.window.IWindowContainerToken$Stub$Proxy@d606f4e} m=TO_FRONT f=NONE leash=Surface(name=Task=276)/@0xe9bee13 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0}]}
+10-24 17:10:03.807   577  2296 D CompatibilityChangeReporter: Compat change id reported: 184838306; UID 10203; state: DISABLED
+10-24 17:10:03.807   577  2296 D CompatibilityChangeReporter: Compat change id reported: 185004937; UID 10203; state: DISABLED
+10-24 17:10:03.807   577  2296 D CompatibilityChangeReporter: Compat change id reported: 197654537; UID 10203; state: ENABLED
+10-24 17:10:03.808   577  2296 D CompatibilityChangeReporter: Compat change id reported: 205907456; UID 10203; state: ENABLED
+10-24 17:10:03.808   795   836 V WindowManagerShell: loadAnimation: anim=android.view.animation.AnimationSet@ebaa97c animAttr=0xa type=CLOSE isEntrance=true
+10-24 17:10:03.809   795   836 V WindowManagerShell: loadAnimation: anim=android.view.animation.AnimationSet@6990699 animAttr=0xb type=CLOSE isEntrance=false
+10-24 17:10:03.810   577  2296 I ActivityTaskManager: Add Task{11eca12 #278 type=standard A=10203:com.eltavine.duckdetector} to hidden list because adding Task{8277a5 #279 type=standard A=10203:com.eltavine.duckdetector}
+10-24 17:10:03.810   795   836 V WindowManagerShell:  animated by com.android.wm.shell.transition.DefaultTransitionHandler@8e5eb4b
+10-24 17:10:03.811   795   836 V WindowManagerShell: Transition requested: android.os.BinderProxy@ac32e0c TransitionRequestInfo { type = OPEN, triggerTask = TaskInfo{userId=0 taskId=279 displayId=0 isRunning=true baseIntent=Intent { flg=0x10000000 cmp=com.eltavine.duckdetector/android.app.NativeActivity } baseActivity=ComponentInfo{com.eltavine.duckdetector/android.app.NativeActivity} topActivity=ComponentInfo{com.eltavine.duckdetector/android.app.NativeActivity} origActivity=null realActivity=ComponentInfo{com.eltavine.duckdetector/android.app.NativeActivity} numActivities=1 lastActiveTime=953810 supportsMultiWindow=true resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{android.window.IWindowContainerToken$Stub$Proxy@66a7355} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=Rect(0, 132 - 0, 0) topActivityInfo=ActivityInfo{335316a android.app.NativeActivity} launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=false isVisible=false isVisibleRequested=false isSleeping=false topActivityInSizeCompat=false topActivityEligibleForLetterboxEducation= false topActivityLetterboxed= false isFromDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=-1 topActivityLetterboxHeight=-1 locusId=null displayAreaFeatureId=1 cameraCompatControlState=hidden}, remoteTransition = null, displayChange = null }
+10-24 17:10:03.812   577  2296 I ActivityTaskManager: START u0 {flg=0x10000000 cmp=com.eltavine.duckdetector/android.app.NativeActivity} with LAUNCH_MULTIPLE from uid 2000 (BAL_ALLOW_PERMISSION) result code=0
+10-24 17:10:03.813   577   611 D CompatibilityChangeReporter: Compat change id reported: 135634846; UID 10203; state: DISABLED
+10-24 17:10:03.813   577   619 D CompatibilityChangeReporter: Compat change id reported: 143937733; UID 10203; state: ENABLED
+10-24 17:10:03.818   347   347 D Zygote  : Forked child process 5351
+10-24 17:10:03.819   577   619 I ActivityManager: Start proc 5351:com.eltavine.duckdetector/u0a203 for next-top-activity {com.eltavine.duckdetector/android.app.NativeActivity}
+10-24 17:10:03.828   577   604 I ImeTracker: com.reveny.emulator.detection.sample:12d1bb5: onRequestHide at ORIGIN_SERVER_HIDE_INPUT reason HIDE_UNSPECIFIED_WINDOW
+10-24 17:10:03.828   577   604 I ImeTracker: com.reveny.emulator.detection.sample:12d1bb5: onCancelled at PHASE_SERVER_SHOULD_HIDE
+10-24 17:10:03.830  1355  1355 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3227 
+10-24 17:10:03.830   577   612 W WindowManager: Failed to deliver inset control state change to w=Window{be4bbc4 u0 com.eltavine.duckdetector/com.eltavine.duckdetector.MainActivity EXITING}
+10-24 17:10:03.830   577   612 W WindowManager: android.os.DeadObjectException
+10-24 17:10:03.830   577   612 W WindowManager: 	at android.os.BinderProxy.transactNative(Native Method)
+10-24 17:10:03.830   577   612 W WindowManager: 	at android.os.BinderProxy.transact(BinderProxy.java:584)
+10-24 17:10:03.830   577   612 W WindowManager: 	at android.view.IWindow$Stub$Proxy.insetsControlChanged(IWindow.java:479)
+10-24 17:10:03.830   577   612 W WindowManager: 	at com.android.server.wm.WindowState.notifyInsetsControlChanged(WindowState.java:3802)
+10-24 17:10:03.830   577   612 W WindowManager: 	at com.android.server.wm.InsetsStateController.lambda$notifyPendingInsetsControlChanged$3(InsetsStateController.java:343)
+10-24 17:10:03.830   577   612 W WindowManager: 	at com.android.server.wm.InsetsStateController.$r8$lambda$8yykPRG1GyNq_J17QvL9d5xANMc(InsetsStateController.java:0)
+10-24 17:10:03.830   577   612 W WindowManager: 	at com.android.server.wm.InsetsStateController$$ExternalSyntheticLambda2.run(R8$$SyntheticClass:0)
+10-24 17:10:03.830   577   612 W WindowManager: 	at com.android.server.wm.WindowAnimator.executeAfterPrepareSurfacesRunnables(WindowAnimator.java:294)
+10-24 17:10:03.830   577   612 W WindowManager: 	at com.android.server.wm.RootWindowContainer.performSurfacePlacementNoTrace(RootWindowContainer.java:811)
+10-24 17:10:03.830   577   612 W WindowManager: 	at com.android.server.wm.RootWindowContainer.performSurfacePlacement(RootWindowContainer.java:756)
+10-24 17:10:03.830   577   612 W WindowManager: 	at com.android.server.wm.WindowSurfacePlacer.performSurfacePlacementLoop(WindowSurfacePlacer.java:177)
+10-24 17:10:03.830   577   612 W WindowManager: 	at com.android.server.wm.WindowSurfacePlacer.performSurfacePlacement(WindowSurfacePlacer.java:126)
+10-24 17:10:03.830   577   612 W WindowManager: 	at com.android.server.wm.WindowSurfacePlacer.performSurfacePlacement(WindowSurfacePlacer.java:115)
+10-24 17:10:03.830   577   612 W WindowManager: 	at com.android.server.wm.WindowSurfacePlacer$Traverser.run(WindowSurfacePlacer.java:57)
+10-24 17:10:03.830   577   612 W WindowManager: 	at android.os.Handler.handleCallback(Handler.java:958)
+10-24 17:10:03.830   577   612 W WindowManager: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+10-24 17:10:03.830   577   612 W WindowManager: 	at android.os.Looper.loopOnce(Looper.java:205)
+10-24 17:10:03.830   577   612 W WindowManager: 	at android.os.Looper.loop(Looper.java:294)
+10-24 17:10:03.830   577   612 W WindowManager: 	at android.os.HandlerThread.run(HandlerThread.java:67)
+10-24 17:10:03.830   577   612 W WindowManager: 	at com.android.server.ServiceThread.run(ServiceThread.java:46)
+10-24 17:10:03.832  1355  1355 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2087 repeatCheckTimes = 0, unlocked = true
+10-24 17:10:03.833  1355  1355 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1877 onStartInput(EditorInfo{inputType=0x0(NULL) imeOptions=0x0 privateImeOptions=null actionName=UNSPECIFIED actionLabel=null actionId=0 initialSelStart=-1 initialSelEnd=-1 initialCapsMode=0x0 hintText=null label=null packageName=com.reveny.emulator.detection.sample fieldId=0 fieldName=null extras=null}, false)
+10-24 17:10:03.833  1355  1355 I GoogleInputMethodService: GoogleInputMethodService.shouldHideHeaderOnInitialState():4008 ShouldHideHeaderOnInitialState = false
+10-24 17:10:03.833  1355  1355 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2087 repeatCheckTimes = 2, unlocked = true
+10-24 17:10:03.859  5351  5351 I ne.duckdetector: Using CollectorTypeCC GC.
+10-24 17:10:03.860  5351  5351 W ne.duckdetector: Unexpected CPU variant for x86: x86_64.
+10-24 17:10:03.860  5351  5351 W ne.duckdetector: Known variants: atom, sandybridge, silvermont, goldmont, goldmont-plus, tremont, kabylake, default
+10-24 17:10:03.862  5351  5351 E ne.duckdetector: Not starting debugger since process cannot load the jdwp agent.
+10-24 17:10:03.863   577   604 D VectorZygiskBridge: onTransact: action=GET_BINDER, callerUid=10203
+10-24 17:10:03.878   577   604 D CompatibilityChangeReporter: Compat change id reported: 168419799; UID 10203; state: DISABLED
+10-24 17:10:03.878   577   604 D CompatibilityChangeReporter: Compat change id reported: 273564678; UID 10203; state: DISABLED
+10-24 17:10:03.883   577   612 W WindowManager: Failed to deliver inset control state change to w=Window{be4bbc4 u0 com.eltavine.duckdetector/com.eltavine.duckdetector.MainActivity EXITING}
+10-24 17:10:03.883   577   612 W WindowManager: android.os.DeadObjectException
+10-24 17:10:03.883   577   612 W WindowManager: 	at android.os.BinderProxy.transactNative(Native Method)
+10-24 17:10:03.883   577   612 W WindowManager: 	at android.os.BinderProxy.transact(BinderProxy.java:584)
+10-24 17:10:03.883   577   612 W WindowManager: 	at android.view.IWindow$Stub$Proxy.insetsControlChanged(IWindow.java:479)
+10-24 17:10:03.883   577   612 W WindowManager: 	at com.android.server.wm.WindowState.notifyInsetsControlChanged(WindowState.java:3802)
+10-24 17:10:03.883   577   612 W WindowManager: 	at com.android.server.wm.InsetsStateController.lambda$notifyPendingInsetsControlChanged$3(InsetsStateController.java:343)
+10-24 17:10:03.883   577   612 W WindowManager: 	at com.android.server.wm.InsetsStateController.$r8$lambda$8yykPRG1GyNq_J17QvL9d5xANMc(InsetsStateController.java:0)
+10-24 17:10:03.883   577   612 W WindowManager: 	at com.android.server.wm.InsetsStateController$$ExternalSyntheticLambda2.run(R8$$SyntheticClass:0)
+10-24 17:10:03.883   577   612 W WindowManager: 	at com.android.server.wm.WindowAnimator.executeAfterPrepareSurfacesRunnables(WindowAnimator.java:294)
+10-24 17:10:03.883   577   612 W WindowManager: 	at com.android.server.wm.RootWindowContainer.performSurfacePlacementNoTrace(RootWindowContainer.java:811)
+10-24 17:10:03.883   577   612 W WindowManager: 	at com.android.server.wm.RootWindowContainer.performSurfacePlacement(RootWindowContainer.java:756)
+10-24 17:10:03.883   577   612 W WindowManager: 	at com.android.server.wm.WindowSurfacePlacer.performSurfacePlacementLoop(WindowSurfacePlacer.java:177)
+10-24 17:10:03.883   577   612 W WindowManager: 	at com.android.server.wm.WindowSurfacePlacer.performSurfacePlacement(WindowSurfacePlacer.java:126)
+10-24 17:10:03.883   577   612 W WindowManager: 	at com.android.server.wm.WindowSurfacePlacer.performSurfacePlacement(WindowSurfacePlacer.java:115)
+10-24 17:10:03.883   577   612 W WindowManager: 	at com.android.server.wm.WindowSurfacePlacer$Traverser.run(WindowSurfacePlacer.java:57)
+10-24 17:10:03.883   577   612 W WindowManager: 	at android.os.Handler.handleCallback(Handler.java:958)
+10-24 17:10:03.883   577   612 W WindowManager: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+10-24 17:10:03.883   577   612 W WindowManager: 	at android.os.Looper.loopOnce(Looper.java:205)
+10-24 17:10:03.883   577   612 W WindowManager: 	at android.os.Looper.loop(Looper.java:294)
+10-24 17:10:03.883   577   612 W WindowManager: 	at android.os.HandlerThread.run(HandlerThread.java:67)
+10-24 17:10:03.883   577   612 W WindowManager: 	at com.android.server.ServiceThread.run(ServiceThread.java:46)
+10-24 17:10:03.885   577   661 D CompatibilityChangeReporter: Compat change id reported: 265195908; UID 10203; state: ENABLED
+10-24 17:10:03.900  5351  5351 D CompatibilityChangeReporter: Compat change id reported: 171979766; UID 10203; state: ENABLED
+10-24 17:10:03.900  5351  5351 D CompatibilityChangeReporter: Compat change id reported: 242716250; UID 10203; state: ENABLED
+10-24 17:10:03.902   577   784 D CompatibilityChangeReporter: Compat change id reported: 170503758; UID 10203; state: ENABLED
+10-24 17:10:03.903  5351  5351 D ApplicationLoaders: Returning zygote-cached class loader: /system_ext/framework/androidx.window.extensions.jar
+10-24 17:10:03.903  5351  5351 D ApplicationLoaders: Returning zygote-cached class loader: /system_ext/framework/androidx.window.sidecar.jar
+10-24 17:10:03.903  5351  5351 W ziparchive: Unable to open '/data/app/~~yxshPE5xSECWDj-f-lUm_Q==/com.eltavine.duckdetector-JbMZcWdKSPgz5AIqbFOafg==/base.dm': No such file or directory
+10-24 17:10:03.903  5351  5351 W ziparchive: Unable to open '/data/app/~~yxshPE5xSECWDj-f-lUm_Q==/com.eltavine.duckdetector-JbMZcWdKSPgz5AIqbFOafg==/base.dm': No such file or directory
+10-24 17:10:03.916  5351  5351 D nativeloader: Configuring clns-6 for other apk /data/app/~~yxshPE5xSECWDj-f-lUm_Q==/com.eltavine.duckdetector-JbMZcWdKSPgz5AIqbFOafg==/base.apk. target_sdk_version=37, uses_libraries=, library_path=/data/app/~~yxshPE5xSECWDj-f-lUm_Q==/com.eltavine.duckdetector-JbMZcWdKSPgz5AIqbFOafg==/lib/x86_64:/data/app/~~yxshPE5xSECWDj-f-lUm_Q==/com.eltavine.duckdetector-JbMZcWdKSPgz5AIqbFOafg==/base.apk!/lib/x86_64, permitted_path=/data:/mnt/expand:/data/user/0/com.eltavine.duckdetector
+10-24 17:10:03.922  5351  5351 V GraphicsEnvironment: Currently set values for:
+10-24 17:10:03.923  5351  5351 V GraphicsEnvironment:   angle_gl_driver_selection_pkgs=[]
+10-24 17:10:03.923  5351  5351 V GraphicsEnvironment:   angle_gl_driver_selection_values=[]
+10-24 17:10:03.923  5351  5351 V GraphicsEnvironment: ANGLE GameManagerService for com.eltavine.duckdetector: false
+10-24 17:10:03.923  5351  5351 V GraphicsEnvironment: com.eltavine.duckdetector is not listed in per-application setting
+10-24 17:10:03.923  5351  5351 V GraphicsEnvironment: Neither updatable production driver nor prerelease driver is supported.
+10-24 17:10:03.977   577   784 I ActivityManager: Flag disabled. Ignoring finishAttachApplication from uid: 10203. pid: 5351
+10-24 17:10:03.984  5351  5368 D libEGL  : loaded /vendor/lib64/egl/libEGL_emulation.so
+10-24 17:10:03.985  5351  5368 D libEGL  : loaded /vendor/lib64/egl/libGLESv1_CM_emulation.so
+10-24 17:10:03.988  5351  5368 D libEGL  : loaded /vendor/lib64/egl/libGLESv2_emulation.so
+10-24 17:10:04.010  5351  5351 E EarlyMountPreload: Failed to get mntent_strings buffer
+10-24 17:10:04.019  5351  5351 W libc    : Access denied finding property "qemu.sf.lcd_density"
+10-24 17:10:04.014  5351  5351 W ne.duckdetector: type=1400 audit(0.0:68): avc:  denied  { read } for  name="u:object_r:qemu_sf_lcd_density_prop:s0" dev="tmpfs" ino=264 scontext=u:r:untrusted_app:s0:c203,c256,c512,c768 tcontext=u:object_r:qemu_sf_lcd_density_prop:s0 tclass=file permissive=0 app=com.eltavine.duckdetector
+10-24 17:10:04.130   577   784 I ActivityTaskManager: START u0 {flg=0x34000000 cmp=com.eltavine.duckdetector/.MainActivity (has extras)} with LAUNCH_MULTIPLE from uid 10203 (BAL_ALLOW_VISIBLE_WINDOW) result code=0
+10-24 17:10:04.167  5351  5351 I WebViewFactory: Loading com.google.android.webview version 113.0.5672.136 (code 567263637)
+10-24 17:10:04.168  5351  5351 W ziparchive: Unable to open '/data/app/~~TzlpvnPuyMR75d3mQLDJvw==/com.google.android.trichromelibrary_567263637-GvX3w6q2jy7To1Wn8PsRbA==/TrichromeLibrary.dm': No such file or directory
+10-24 17:10:04.168  5351  5351 W ziparchive: Unable to open '/data/app/~~TzlpvnPuyMR75d3mQLDJvw==/com.google.android.trichromelibrary_567263637-GvX3w6q2jy7To1Wn8PsRbA==/TrichromeLibrary.dm': No such file or directory
+10-24 17:10:04.168  5351  5351 W ne.duckdetector: Entry not found
+10-24 17:10:04.169  5351  5351 D nativeloader: Configuring clns-7 for other apk /data/app/~~TzlpvnPuyMR75d3mQLDJvw==/com.google.android.trichromelibrary_567263637-GvX3w6q2jy7To1Wn8PsRbA==/TrichromeLibrary.apk. target_sdk_version=34, uses_libraries=ALL, library_path=/data/app/~~cA2pE84YwiT5hl2ch_Do5g==/com.google.android.webview-Os2J0ASj4ujleapyBoISSw==/lib/x86_64:/data/app/~~cA2pE84YwiT5hl2ch_Do5g==/com.google.android.webview-Os2J0ASj4ujleapyBoISSw==/WebViewGoogle.apk!/lib/x86_64:/data/app/~~TzlpvnPuyMR75d3mQLDJvw==/com.google.android.trichromelibrary_567263637-GvX3w6q2jy7To1Wn8PsRbA==/TrichromeLibrary.apk!/lib/x86_64, permitted_path=/data:/mnt/expand
+10-24 17:10:04.170  5351  5351 D nativeloader: Configuring clns-8 for other apk /data/app/~~cA2pE84YwiT5hl2ch_Do5g==/com.google.android.webview-Os2J0ASj4ujleapyBoISSw==/WebViewGoogle.apk. target_sdk_version=34, uses_libraries=, library_path=/data/app/~~cA2pE84YwiT5hl2ch_Do5g==/com.google.android.webview-Os2J0ASj4ujleapyBoISSw==/lib/x86_64:/data/app/~~cA2pE84YwiT5hl2ch_Do5g==/com.google.android.webview-Os2J0ASj4ujleapyBoISSw==/WebViewGoogle.apk!/lib/x86_64:/data/app/~~TzlpvnPuyMR75d3mQLDJvw==/com.google.android.trichromelibrary_567263637-GvX3w6q2jy7To1Wn8PsRbA==/TrichromeLibrary.apk!/lib/x86_64, permitted_path=/data:/mnt/expand
+10-24 17:10:04.191  5351  5351 I cr_WVCFactoryProvider: Loaded version=113.0.5672.136 minSdkVersion=29 isBundle=false multiprocess=true packageId=2
+10-24 17:10:04.196  5351  5375 I cr_VariationsUtils: Failed reading seed file "/data/user/0/com.eltavine.duckdetector/app_webview/variations_seed_new"
+10-24 17:10:04.199  5351  5351 I cr_LibraryLoader: Successfully loaded native library
+10-24 17:10:04.199  5351  5351 I cr_CachingUmaRecorder: Flushed 8 samples from 8 histograms.
+10-24 17:10:04.202  5351  5351 I cr_VariationsUtils: Loaded seed with age 21107s
+10-24 17:10:04.204   577   784 D CompatibilityChangeReporter: Compat change id reported: 161145287; UID 10203; state: ENABLED
+10-24 17:10:04.210   905  1177 D BtGatt.ScanManager: uid 10128 isForeground true scanMode -1
+10-24 17:10:04.214  5351  5351 D CompatibilityChangeReporter: Compat change id reported: 183155436; UID 10203; state: ENABLED
+10-24 17:10:04.261   577   784 D ActivityManager: sync unfroze 1480 com.google.android.gms for 6
+10-24 17:10:04.265   577  1755 D CompatibilityChangeReporter: Compat change id reported: 135634846; UID 99002; state: DISABLED
+10-24 17:10:04.266   577   619 D CompatibilityChangeReporter: Compat change id reported: 143937733; UID 10203; state: ENABLED
+10-24 17:10:04.267  1480  1480 D BoundBrokerSvc: onBind: Intent { act=com.google.android.gms.safetynet.service.START pkg=com.google.android.gms }
+10-24 17:10:04.268  1480  1480 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.gms.safetynet.service.START pkg=com.google.android.gms }
+10-24 17:10:04.277   875   875 D Zygote  : Forked child process 5386
+10-24 17:10:04.277   577   619 I ActivityManager: Start proc 5386:com.google.android.webview:sandboxed_process0:org.chromium.content.app.SandboxedProcessService0:0/u0i2 for  {com.eltavine.duckdetector/org.chromium.content.app.SandboxedProcessService0:0}
+10-24 17:10:04.283  5386  5386 I ocessService0:0: Using CollectorTypeCC GC.
+10-24 17:10:04.285  5386  5386 W ocessService0:0: Unexpected CPU variant for x86: x86_64.
+10-24 17:10:04.285  5386  5386 W ocessService0:0: Known variants: atom, sandybridge, silvermont, goldmont, goldmont-plus, tremont, kabylake, default
+10-24 17:10:04.286  5386  5386 E ocessService0:0: Not starting debugger since process cannot load the jdwp agent.
+10-24 17:10:04.314  5351  5380 E chromium: [ERROR:simple_file_enumerator.cc(21)] opendir /data/user/0/com.eltavine.duckdetector/cache/WebView/Default/HTTP Cache/Code Cache/js: No such file or directory (2)
+10-24 17:10:04.314  5351  5380 E chromium: [ERROR:simple_index_file.cc(614)] Could not reconstruct index from disk
+10-24 17:10:04.314  5351  5380 E chromium: [ERROR:simple_file_enumerator.cc(21)] opendir /data/user/0/com.eltavine.duckdetector/cache/WebView/Default/HTTP Cache/Code Cache/wasm: No such file or directory (2)
+10-24 17:10:04.314  5351  5380 E chromium: [ERROR:simple_index_file.cc(614)] Could not reconstruct index from disk
+10-24 17:10:04.325   795   836 V WindowManagerShell: Transition animation finished (aborted=false), notifying core (#18)android.os.BinderProxy@cec2ece@0
+10-24 17:10:04.326   577   608 V WindowManager: Finish Transition #18: created at 10-24 17:10:03.621 collect-started=0.056ms request-sent=0.394ms started=7.498ms ready=7.489ms sent=175.906ms finished=704.509ms
+10-24 17:10:04.326   577   964 W WindowManager: Exception thrown during dispatchAppVisibility Window{be4bbc4 u0 com.eltavine.duckdetector/com.eltavine.duckdetector.MainActivity EXITING}
+10-24 17:10:04.326   577   964 W WindowManager: android.os.DeadObjectException
+10-24 17:10:04.326   577   964 W WindowManager: 	at android.os.BinderProxy.transactNative(Native Method)
+10-24 17:10:04.326   577   964 W WindowManager: 	at android.os.BinderProxy.transact(BinderProxy.java:584)
+10-24 17:10:04.326   577   964 W WindowManager: 	at android.view.IWindow$Stub$Proxy.dispatchAppVisibility(IWindow.java:546)
+10-24 17:10:04.326   577   964 W WindowManager: 	at com.android.server.wm.WindowState.sendAppVisibilityToClients(WindowState.java:3271)
+10-24 17:10:04.326   577   964 W WindowManager: 	at com.android.server.wm.WindowContainer.sendAppVisibilityToClients(WindowContainer.java:1221)
+10-24 17:10:04.326   577   964 W WindowManager: 	at com.android.server.wm.WindowToken.setClientVisible(WindowToken.java:409)
+10-24 17:10:04.326   577   964 W WindowManager: 	at com.android.server.wm.ActivityRecord.setClientVisible(ActivityRecord.java:6946)
+10-24 17:10:04.326   577   964 W WindowManager: 	at com.android.server.wm.ActivityRecord.postApplyAnimation(ActivityRecord.java:5637)
+10-24 17:10:04.326   577   964 W WindowManager: 	at com.android.server.wm.ActivityRecord.commitVisibility(ActivityRecord.java:5580)
+10-24 17:10:04.326   577   964 W WindowManager: 	at com.android.server.wm.Transition.finishTransition(Transition.java:1151)
+10-24 17:10:04.326   577   964 W WindowManager: 	at com.android.server.wm.TransitionController.finishTransition(TransitionController.java:868)
+10-24 17:10:04.326   577   964 W WindowManager: 	at com.android.server.wm.WindowOrganizerController.finishTransition(WindowOrganizerController.java:396)
+10-24 17:10:04.326   577   964 W WindowManager: 	at android.window.IWindowOrganizerController$Stub.onTransact(IWindowOrganizerController.java:286)
+10-24 17:10:04.326   577   964 W WindowManager: 	at com.android.server.wm.WindowOrganizerController.onTransact(WindowOrganizerController.java:181)
+10-24 17:10:04.326   577   964 W WindowManager: 	at android.os.Binder.execTransactInternal(Binder.java:1339)
+10-24 17:10:04.326   577   964 W WindowManager: 	at android.os.Binder.execTransact(Binder.java:1275)
+10-24 17:10:04.326   577   964 I Process : Sending signal. PID: 5211 SIG: 9
+10-24 17:10:04.330   577   964 W WindowManager: Failed to deliver inset control state change to w=Window{be4bbc4 u0 com.eltavine.duckdetector/com.eltavine.duckdetector.MainActivity EXITING}
+10-24 17:10:04.330   577   964 W WindowManager: android.os.DeadObjectException
+10-24 17:10:04.330   577   964 W WindowManager: 	at android.os.BinderProxy.transactNative(Native Method)
+10-24 17:10:04.330   577   964 W WindowManager: 	at android.os.BinderProxy.transact(BinderProxy.java:584)
+10-24 17:10:04.330   577   964 W WindowManager: 	at android.view.IWindow$Stub$Proxy.insetsControlChanged(IWindow.java:479)
+10-24 17:10:04.330   577   964 W WindowManager: 	at com.android.server.wm.WindowState.notifyInsetsControlChanged(WindowState.java:3802)
+10-24 17:10:04.330   577   964 W WindowManager: 	at com.android.server.wm.InsetsStateController.lambda$notifyPendingInsetsControlChanged$3(InsetsStateController.java:343)
+10-24 17:10:04.330   577   964 W WindowManager: 	at com.android.server.wm.InsetsStateController.$r8$lambda$8yykPRG1GyNq_J17QvL9d5xANMc(InsetsStateController.java:0)
+10-24 17:10:04.330   577   964 W WindowManager: 	at com.android.server.wm.InsetsStateController$$ExternalSyntheticLambda2.run(R8$$SyntheticClass:0)
+10-24 17:10:04.330   577   964 W WindowManager: 	at com.android.server.wm.WindowAnimator.executeAfterPrepareSurfacesRunnables(WindowAnimator.java:294)
+10-24 17:10:04.330   577   964 W WindowManager: 	at com.android.server.wm.RootWindowContainer.performSurfacePlacementNoTrace(RootWindowContainer.java:811)
+10-24 17:10:04.330   577   964 W WindowManager: 	at com.android.server.wm.RootWindowContainer.performSurfacePlacement(RootWindowContainer.java:756)
+10-24 17:10:04.330   577   964 W WindowManager: 	at com.android.server.wm.WindowSurfacePlacer.performSurfacePlacementLoop(WindowSurfacePlacer.java:177)
+10-24 17:10:04.330   577   964 W WindowManager: 	at com.android.server.wm.WindowSurfacePlacer.performSurfacePlacement(WindowSurfacePlacer.java:126)
+10-24 17:10:04.330   577   964 W WindowManager: 	at com.android.server.wm.WindowSurfacePlacer.performSurfacePlacement(WindowSurfacePlacer.java:115)
+10-24 17:10:04.330   577   964 W WindowManager: 	at com.android.server.wm.WindowState.setupWindowForRemoveOnExit(WindowState.java:2538)
+10-24 17:10:04.330   577   964 W WindowManager: 	at com.android.server.wm.WindowState.removeIfPossible(WindowState.java:2498)
+10-24 17:10:04.330   577   964 W WindowManager: 	at com.android.server.wm.WindowToken.removeAllWindowsIfPossible(WindowToken.java:249)
+10-24 17:10:04.330   577   964 W WindowManager: 	at com.android.server.wm.ActivityRecord.removeIfPossible(ActivityRecord.java:4259)
+10-24 17:10:04.330   577   964 W WindowManager: 	at com.android.server.wm.ActivityRecord.handleCompleteDeferredRemoval(ActivityRecord.java:4266)
+10-24 17:10:04.330   577   964 W WindowManager: 	at com.android.server.wm.WindowContainer.handleCompleteDeferredRemoval(WindowContainer.java:1396)
+10-24 17:10:04.330   577   964 W WindowManager: 	at com.android.server.wm.TaskFragment.handleCompleteDeferredRemoval(TaskFragment.java:2844)
+10-24 17:10:04.330   577   964 W WindowManager: 	at com.android.server.wm.WindowContainer.handleCompleteDeferredRemoval(WindowContainer.java:1396)
+10-24 17:10:04.330   577   964 W WindowManager: 	at com.android.server.wm.WindowContainer.handleCompleteDeferredRemoval(WindowContainer.java:1396)
+10-24 17:10:04.330   577   964 W WindowManager: 	at com.android.server.wm.WindowContainer.handleCompleteDeferredRemoval(WindowContainer.java:1396)
+10-24 17:10:04.330   577   964 W WindowManager: 	at com.android.server.wm.WindowContainer.handleCompleteDeferredRemoval(WindowContainer.java:1396)
+10-24 17:10:04.330   577   964 W WindowManager: 	at com.android.server.wm.WindowContainer.handleCompleteDeferredRemoval(WindowContainer.java:1396)
+10-24 17:10:04.330   577   964 W WindowManager: 	at com.android.server.wm.WindowContainer.handleCompleteDeferredRemoval(WindowContainer.java:1396)
+10-24 17:10:04.330   577   964 W WindowManager: 	at com.android.server.wm.DisplayContent.handleCompleteDeferredRemoval(DisplayContent.java:3382)
+10-24 17:10:04.330   577   964 W WindowManager: 	at com.android.server.wm.Transition.finishTransition(Transition.java:1322)
+10-24 17:10:04.330   577   964 W WindowManager: 	at com.android.server.wm.TransitionController.finishTransition(TransitionController.java:868)
+10-24 17:10:04.330   577   964 W WindowManager: 	at com.android.server.wm.WindowOrganizerController.finishTransition(WindowOrganizerController.java:396)
+10-24 17:10:04.330   577   964 W WindowManager: 	at android.window.IWindowOrganizerController$Stub.onTransact(IWindowOrganizerController.java:286)
+10-24 17:10:04.330   577   964 W WindowManager: 	at com.android.server.wm.WindowOrganizerController.onTransact(WindowOrganizerController.java:181)
+10-24 17:10:04.330   577   964 W WindowManager: 	at android.os.Binder.execTransactInternal(Binder.java:1339)
+10-24 17:10:04.330   577   964 W WindowManager: 	at android.os.Binder.execTransact(Binder.java:1275)
+10-24 17:10:04.334   795   836 V WindowManagerShell: Track 0 became idle
+10-24 17:10:04.353   577   604 D ActivityManager: sync unfroze 5065 com.google.android.webview:webview_service for 6
+10-24 17:10:04.359  5351  5351 D CompatibilityChangeReporter: Compat change id reported: 214741472; UID 10203; state: ENABLED
+10-24 17:10:04.361  5351  5351 D CompatibilityChangeReporter: Compat change id reported: 171228096; UID 10203; state: ENABLED
+10-24 17:10:04.362  5386  5386 D CompatibilityChangeReporter: Compat change id reported: 171979766; UID 99002; state: ENABLED
+10-24 17:10:04.362   577   611 W ActivityManager: setHasOverlayUi called on unknown pid: 5211
+10-24 17:10:04.362  5386  5386 D CompatibilityChangeReporter: Compat change id reported: 242716250; UID 99002; state: ENABLED
+10-24 17:10:04.366   577   604 D ConnectivityService: requestNetwork for uid/pid:10203/5351 activeRequest: null callbackRequest: 143 [NetworkRequest [ REQUEST id=144, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10203 RequestorUid: 10203 RequestorPkg: com.eltavine.duckdetector UnderlyingNetworks: Null] ]] callback flags: 0 order: 2147483647
+10-24 17:10:04.368  5386  5386 I LoadedApk: No resource references to update in package com.google.android.trichromelibrary
+10-24 17:10:04.369   577   713 D WifiNetworkFactory: got request NetworkRequest [ REQUEST id=144, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10203 RequestorUid: 10203 RequestorPkg: com.eltavine.duckdetector UnderlyingNetworks: Null] ]
+10-24 17:10:04.369   577   713 D UntrustedWifiNetworkFactory: got request NetworkRequest [ REQUEST id=144, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10203 RequestorUid: 10203 RequestorPkg: com.eltavine.duckdetector UnderlyingNetworks: Null] ]
+10-24 17:10:04.370  5386  5386 I cr_WebViewApkApp: Launched version=113.0.5672.136 minSdkVersion=29 isBundle=false processName=com.google.android.webview:sandboxed_process0:org.chromium.content.app.SandboxedProcessService0:0
+10-24 17:10:04.370   577   713 D OemPaidWifiNetworkFactory: got request NetworkRequest [ REQUEST id=144, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10203 RequestorUid: 10203 RequestorPkg: com.eltavine.duckdetector UnderlyingNetworks: Null] ]
+10-24 17:10:04.370   577   713 D MultiInternetWifiNetworkFactory: got request NetworkRequest [ REQUEST id=144, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10203 RequestorUid: 10203 RequestorPkg: com.eltavine.duckdetector UnderlyingNetworks: Null] ]
+10-24 17:10:04.371   577   720 D ConnectivityService: NetReassign [144 : null → 100] [c 0] [a 1] [i 1]
+10-24 17:10:04.371   577   604 I ActivityManager: Flag disabled. Ignoring finishAttachApplication from uid: 99002. pid: 5386
+10-24 17:10:04.372   577   720 D ConnectivityService: NetReassign [no changes] [c 0] [a 0] [i 0]
+10-24 17:10:04.372  5386  5386 W SystemServiceRegistry: No service published for: virtualdevice
+10-24 17:10:04.373  5386  5386 I cr_ChildProcessService: Creating new ChildProcessService pid=5386
+10-24 17:10:04.379  5351  5351 D AutofillManager: Fill dialog is enabled:false, hints=[password, passwordAuto, creditCardNumber, creditCardSecurityCode, creditCardExpirationDate]
+10-24 17:10:04.385  5351  5387 W cr_media: BLUETOOTH_CONNECT permission is missing.
+10-24 17:10:04.385  5351  5387 W cr_media: registerBluetoothIntentsIfNeeded: Requires BLUETOOTH permission
+10-24 17:10:04.390  5386  5415 I cr_LibraryLoader: Successfully loaded native library
+10-24 17:10:04.391  5386  5415 I cr_CachingUmaRecorder: Flushed 2 samples from 2 histograms.
+10-24 17:10:04.393  5386  5415 W SystemServiceRegistry: No service published for: uimode
+10-24 17:10:04.432  1303  2871 I FontLog : Received query name=Google Sans&weight=700&besteffort=false, URI content://com.google.android.gms.fonts [CONTEXT service_id=132 ]
+10-24 17:10:04.433  1303  2871 I FontLog : Query [name=Google Sans&weight=700&besteffort=false] resolved to {Google Sans, wdth 100.0, wght 700, ital 0.0, bestEffort false} [CONTEXT service_id=132 ]
+10-24 17:10:04.446  1303  2871 I FontLog : Fetch {Google Sans, wdth 100.0, wght 700, ital 0.0, bestEffort false} end status Status{statusCode=SUCCESS, resolution=null} [CONTEXT service_id=132 ]
+10-24 17:10:04.448  5351  5351 D CompatibilityChangeReporter: Compat change id reported: 237531167; UID 10203; state: DISABLED
+10-24 17:10:04.449  5351  5351 W OpenGLRenderer: Unknown dataspace 0
+10-24 17:10:04.450  1303  2689 I FontLog : Pulling font file for id = 21, cache size = 12 [CONTEXT service_id=132 ]
+10-24 17:10:04.452  1303  2689 I FontLog : Received query name=Noto Color Emoji Compat&weight=400&besteffort=false, URI content://com.google.android.gms.fonts [CONTEXT service_id=132 ]
+10-24 17:10:04.452  1303  2689 I FontLog : Query [name=Noto Color Emoji Compat&weight=400&besteffort=false] resolved to {Noto Color Emoji Compat, wdth 100.0, wght 400, ital 0.0, bestEffort false} [CONTEXT service_id=132 ]
+10-24 17:10:04.454  1303  2689 I FontLog : Fetch {Noto Color Emoji Compat, wdth 100.0, wght 400, ital 0.0, bestEffort false} end status Status{statusCode=SUCCESS, resolution=null} [CONTEXT service_id=132 ]
+10-24 17:10:04.473  1303  2689 I FontLog : Pulling font file for id = 22, cache size = 13 [CONTEXT service_id=132 ]
+10-24 17:10:04.474  1303  2689 I FontLog : Received query name=Google Sans&weight=400&besteffort=false, URI content://com.google.android.gms.fonts [CONTEXT service_id=132 ]
+10-24 17:10:04.475  1303  2689 I FontLog : Query [name=Google Sans&weight=400&besteffort=false] resolved to {Google Sans, wdth 100.0, wght 400, ital 0.0, bestEffort false} [CONTEXT service_id=132 ]
+10-24 17:10:04.475   577  2155 D CoreBackPreview: Window{f4fe59f u0 com.eltavine.duckdetector/com.eltavine.duckdetector.MainActivity}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@750bb6d, mPriority=-1, mIsAnimationCallback=false}
+10-24 17:10:04.475  5351  5351 D CompatibilityChangeReporter: Compat change id reported: 193247900; UID 10203; state: ENABLED
+10-24 17:10:04.486  1303  2689 I FontLog : Font PFD returned from cache for {Google Sans, wdth 100.0, wght 400, ital 0.0, bestEffort false} [CONTEXT service_id=132 ]
+10-24 17:10:04.486  1303  2689 I FontLog : Fetch {Google Sans, wdth 100.0, wght 400, ital 0.0, bestEffort false} end status Status{statusCode=SUCCESS, resolution=null} [CONTEXT service_id=132 ]
+10-24 17:10:04.487  1303  2689 I FontLog : Pulling font file for id = 23, cache size = 13 [CONTEXT service_id=132 ]
+10-24 17:10:04.492  1303  2689 I FontLog : Received query name=Google Sans&weight=500&besteffort=false, URI content://com.google.android.gms.fonts [CONTEXT service_id=132 ]
+10-24 17:10:04.493  1303  2689 I FontLog : Query [name=Google Sans&weight=500&besteffort=false] resolved to {Google Sans, wdth 100.0, wght 500, ital 0.0, bestEffort false} [CONTEXT service_id=132 ]
+10-24 17:10:04.498  1303  2689 I FontLog : Font PFD returned from cache for {Google Sans, wdth 100.0, wght 500, ital 0.0, bestEffort false} [CONTEXT service_id=132 ]
+10-24 17:10:04.498  1303  2689 I FontLog : Fetch {Google Sans, wdth 100.0, wght 500, ital 0.0, bestEffort false} end status Status{statusCode=SUCCESS, resolution=null} [CONTEXT service_id=132 ]
+10-24 17:10:04.500  1303  2689 I FontLog : Pulling font file for id = 24, cache size = 14 [CONTEXT service_id=132 ]
+10-24 17:10:04.602  5351  5366 W OpenGLRenderer: Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+10-24 17:10:04.602  5351  5366 W OpenGLRenderer: Failed to initialize 101010-2 format, error = EGL_SUCCESS
+10-24 17:10:04.637   138   138 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+10-24 17:10:04.637  5351  5366 I Gralloc4: mapper 4.x is not supported
+10-24 17:10:04.619     0     0 I servicemanager: Could not find android.hardware.graphics.allocator.IAllocator/default in the VINTF manifest.
+10-24 17:10:04.674  5351  5366 E OpenGLRenderer: Unable to match the desired swap behavior.
+10-24 17:10:04.786   577   608 W ziparchive: Unable to open '/data/app/~~yxshPE5xSECWDj-f-lUm_Q==/com.eltavine.duckdetector-JbMZcWdKSPgz5AIqbFOafg==/base.dm': No such file or directory
+10-24 17:10:04.787   577   608 I ActivityTaskManager: Displayed com.eltavine.duckdetector/.MainActivity for user 0: +960ms
+10-24 17:10:04.787   795   836 V WindowManagerShell: onTransitionReady android.os.BinderProxy@ac32e0c: {id=19 t=OPEN f=0x0 trk=1 r=[0@Point(0, 0)] c=[{WCT{android.window.IWindowContainerToken$Stub$Proxy@f2695de} m=OPEN f=NONE leash=Surface(name=Task=279)/@0x9b52463 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0},{WCT{android.window.IWindowContainerToken$Stub$Proxy@ccba3bf} m=TO_BACK f=NONE leash=Surface(name=Task=276)/@0xac8d860 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0}]}
+10-24 17:10:04.787   795   836 V WindowManagerShell: Playing animation for (#19)android.os.BinderProxy@ac32e0c@1
+10-24 17:10:04.788   795   836 V WindowManagerShell:  try handler com.android.wm.shell.transition.DefaultMixedHandler@b657810
+10-24 17:10:04.788   795   836 V WindowManagerShell:  try handler com.android.wm.shell.keyguard.KeyguardTransitionHandler@1292f09
+10-24 17:10:04.788   795   836 V WindowManagerShell:  try handler com.android.wm.shell.activityembedding.ActivityEmbeddingController@4d3f50e
+10-24 17:10:04.788   795   836 V WindowManagerShell:  try handler com.android.wm.shell.recents.RecentsTransitionHandler@9bdcb2f
+10-24 17:10:04.788   795   836 V ShellRecents: RecentsTransitionHandler.startAnimation: no controller found
+10-24 17:10:04.788   795   836 V WindowManagerShell:  try handler com.android.wm.shell.pip.PipTransition@f12053c
+10-24 17:10:04.788   795   836 V WindowManagerShell:  try handler com.android.wm.shell.splitscreen.StageCoordinator@acb2c5
+10-24 17:10:04.788   795   836 V WindowManagerShell:  try handler com.android.wm.shell.transition.RemoteTransitionHandler@15e541a
+10-24 17:10:04.788   795   836 V WindowManagerShell: Transition doesn't have explicit remote, search filters for match for {id=19 t=OPEN f=0x0 trk=1 r=[0@Point(0, 0)] c=[{WCT{android.window.IWindowContainerToken$Stub$Proxy@f2695de} m=OPEN f=NONE leash=Surface(name=Task=279)/@0x9b52463 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0},{WCT{android.window.IWindowContainerToken$Stub$Proxy@ccba3bf} m=TO_BACK f=NONE leash=Surface(name=Task=276)/@0xac8d860 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0}]}
+10-24 17:10:04.788   795   836 V WindowManagerShell:  Checking filter Pair{{types=[] flags=0x0] notFlags=0x0 checks=[{atype=dream independent=true modes=[OPEN,TO_FRONT] flags=NONE mustBeTask=false order=ANY topActivity=null},{atype=home independent=true modes=[CLOSE,TO_BACK] flags=NONE mustBeTask=false order=ANY topActivity=null}]} RemoteTransition { remoteTransition = android.window.IRemoteTransition$Stub$Proxy@55f8098, appThread = android.app.IApplicationThread$Stub$Proxy@6840f1, debugName = LauncherToDream }}
+10-24 17:10:04.788   795   836 V WindowManagerShell:  Checking filter Pair{{types=[] flags=0x0] notFlags=0x100 checks=[{atype=home independent=true modes=[OPEN,TO_FRONT] flags=NONE mustBeTask=false order=TOP topActivity=ComponentInfo{com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.NexusLauncherActivity}},{atype=standard independent=true modes=[CLOSE,TO_BACK] flags=NONE mustBeTask=false order=ANY topActivity=null}]} RemoteTransition { remoteTransition = android.window.IRemoteTransition$Stub$Proxy@b9344d6, appThread = android.app.IApplicationThread$Stub$Proxy@31b357, debugName = QuickstepLaunchHome }}
+10-24 17:10:04.788   795   836 V WindowManagerShell:  Delegate animation for #19 to null
+10-24 17:10:04.788   795   836 V WindowManagerShell:  try handler com.android.wm.shell.transition.DefaultTransitionHandler@8e5eb4b
+10-24 17:10:04.788   795   836 V WindowManagerShell: start default transition animation, info = {id=19 t=OPEN f=0x0 trk=1 r=[0@Point(0, 0)] c=[{WCT{android.window.IWindowContainerToken$Stub$Proxy@f2695de} m=OPEN f=NONE leash=Surface(name=Task=279)/@0x9b52463 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0},{WCT{android.window.IWindowContainerToken$Stub$Proxy@ccba3bf} m=TO_BACK f=NONE leash=Surface(name=Task=276)/@0xac8d860 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0}]}
+10-24 17:10:04.789   795   836 V WindowManagerShell: loadAnimation: anim=android.view.animation.AnimationSet@c125d5 animAttr=0x9 type=OPEN isEntrance=false
+10-24 17:10:04.789   795   836 V WindowManagerShell: loadAnimation: anim=android.view.animation.AnimationSet@ea0bcdb animAttr=0x8 type=OPEN isEntrance=true
+10-24 17:10:04.790   795   836 V WindowManagerShell:  animated by com.android.wm.shell.transition.DefaultTransitionHandler@8e5eb4b
+10-24 17:10:04.793   577   608 V WindowManager: Sent Transition #19 createdAt=10-24 17:10:03.804 via request=TransitionRequestInfo { type = OPEN, triggerTask = TaskInfo{userId=0 taskId=279 displayId=0 isRunning=true baseIntent=Intent { flg=0x10000000 cmp=com.eltavine.duckdetector/android.app.NativeActivity } baseActivity=ComponentInfo{com.eltavine.duckdetector/android.app.NativeActivity} topActivity=ComponentInfo{com.eltavine.duckdetector/android.app.NativeActivity} origActivity=null realActivity=ComponentInfo{com.eltavine.duckdetector/android.app.NativeActivity} numActivities=1 lastActiveTime=953810 supportsMultiWindow=true resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{RemoteToken{c9c952 Task{8277a5 #279 type=standard A=10203:com.eltavine.duckdetector}}} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=Rect(0, 132 - 0, 0) topActivityInfo=ActivityInfo{8ade423 android.app.NativeActivity} launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=false isVisible=false isVisibleRequested=false isSleeping=false topActivityInSizeCompat=false topActivityEligibleForLetterboxEducation= false topActivityLetterboxed= false isFromDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=-1 topActivityLetterboxHeight=-1 locusId=null displayAreaFeatureId=1 cameraCompatControlState=hidden}, remoteTransition = null, displayChange = null }
+10-24 17:10:04.793   577   608 V WindowManager:     startWCT=WindowContainerTransaction { changes = {} hops = [] errorCallbackToken=null taskFragmentOrganizer=null }
+10-24 17:10:04.793   577   608 V WindowManager:     info={id=19 t=OPEN f=0x0 trk=1 r=[0@Point(0, 0)] c=[{WCT{RemoteToken{c9c952 Task{8277a5 #279 type=standard A=10203:com.eltavine.duckdetector}}} m=OPEN f=NONE leash=Surface(name=Task=279)/@0x88b6687 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0},{WCT{RemoteToken{ba3b933 Task{223a0f9 #276 type=standard A=10193:com.reveny.emulator.detection.sample}}} m=TO_BACK f=NONE leash=Surface(name=Task=276)/@0xae37631 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0}]}
+10-24 17:10:04.860   577  1755 D CompatibilityChangeReporter: Compat change id reported: 214016041; UID 10203; state: ENABLED
+10-24 17:10:04.860   577  1755 I ImeTracker: com.eltavine.duckdetector:e1bb4e19: onRequestHide at ORIGIN_SERVER_HIDE_INPUT reason HIDE_UNSPECIFIED_WINDOW
+10-24 17:10:04.861   577  1755 I ImeTracker: com.eltavine.duckdetector:e1bb4e19: onCancelled at PHASE_SERVER_SHOULD_HIDE
+10-24 17:10:04.861   577   608 I GnssLocationProvider: WakeLock acquired by handleDownloadPsdsData()
+10-24 17:10:04.864   577  5439 E GnssPsdsDownloader: No Long-Term PSDS servers were specified in the GnssConfiguration
+10-24 17:10:04.867  1355  1355 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3227 
+10-24 17:10:04.869  1355  1355 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2087 repeatCheckTimes = 0, unlocked = true
+10-24 17:10:04.870  1355  1355 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1877 onStartInput(EditorInfo{inputType=0x0(NULL) imeOptions=0x0 privateImeOptions=null actionName=UNSPECIFIED actionLabel=null actionId=0 initialSelStart=-1 initialSelEnd=-1 initialCapsMode=0x0 hintText=null label=null packageName=com.eltavine.duckdetector fieldId=0 fieldName=null extras=null}, false)
+10-24 17:10:04.870  1355  1355 I GoogleInputMethodService: GoogleInputMethodService.shouldHideHeaderOnInitialState():4008 ShouldHideHeaderOnInitialState = false
+10-24 17:10:04.870  1355  1355 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2087 repeatCheckTimes = 2, unlocked = true
+10-24 17:10:04.948  5351  5351 D CompatibilityChangeReporter: Compat change id reported: 289878283; UID 10203; state: ENABLED
+10-24 17:10:05.060  1303  2871 I FontLog : Received query Noto Color Emoji Compat, URI content://com.google.android.gms.fonts [CONTEXT service_id=132 ]
+10-24 17:10:05.060  1303  2871 I FontLog : Query [emojicompat-emoji-font] resolved to {Noto Color Emoji Compat, wdth 100.0, wght 400, ital 0.0, bestEffort false} [CONTEXT service_id=132 ]
+10-24 17:10:05.061  1303  2871 I FontLog : Fetch {Noto Color Emoji Compat, wdth 100.0, wght 400, ital 0.0, bestEffort false} end status Status{statusCode=SUCCESS, resolution=null} [CONTEXT service_id=132 ]
+10-24 17:10:05.063  1303  2871 I FontLog : Pulling font file for id = 25, cache size = 15 [CONTEXT service_id=132 ]
+10-24 17:10:05.071  1303  2871 I FontLog : Pulling font file for id = 25, cache size = 15 [CONTEXT service_id=132 ]
+10-24 17:10:05.307   795   836 V WindowManagerShell: Transition animation finished (aborted=false), notifying core (#19)android.os.BinderProxy@ac32e0c@1
+10-24 17:10:05.307   577   608 V WindowManager: Finish Transition #19: created at 10-24 17:10:03.804 collect-started=0.012ms request-sent=6.172ms started=12.717ms ready=330.334ms sent=981.767ms finished=1503.454ms
+10-24 17:10:05.309   795   836 V WindowManagerShell: Track 1 became idle
+10-24 17:10:05.309   795   836 V WindowManagerShell: All active transition animations finished
+10-24 17:10:05.324   413   413 E BpTransactionCompletedListener: Failed to transact (-32)
+10-24 17:10:05.426   577   600 I system_server: NativeAlloc concurrent copying GC freed 601231(22MB) AllocSpace objects, 58(1496KB) LOS objects, 47% free, 26MB/50MB, paused 53us,27us total 113.105ms
+10-24 17:10:05.824   795   795 D StatusBarIconController: ignoring old pipeline callback because the new wifi icon is enabled
+10-24 17:10:06.045  5351  5366 D EGL_emulation: app_time_stats: avg=15.47ms min=1.41ms max=183.92ms count=47
+10-24 17:10:06.225   795   795 D StatusBarIconController: ignoring old pipeline callbacks, because the new mobile icons are enabled
+10-24 17:10:06.272  1480  5445 I GmscoreIpa: Starting mediastore instant index [CONTEXT service_id=255 ]
+10-24 17:10:06.582  5196  5197 I AidlLazyServiceRegistrar: Process has 0 (of 1 available) client(s) in use after notification artd has clients: 0
+10-24 17:10:06.582  5196  5197 I AidlLazyServiceRegistrar: Trying to shut down the service. No clients in use for any service in process.
+10-24 17:10:06.583  5196  5197 I AidlLazyServiceRegistrar: Unregistered all clients and exiting
+10-24 17:10:06.565     0     0 I servicemanager: Notifying artd they don't (previously: do) have clients when we now have no record of a client
+10-24 17:10:06.566     0     0 I servicemanager: Unregistering artd
+10-24 17:10:06.566     0     0 I BpBinder: onLastStrongRef automatically unlinking death recipients:
+10-24 17:10:06.569     0     0 I init    : Service 'artd' (pid 5196) exited with status 0 oneshot service took 34.618000 seconds in background
+10-24 17:10:06.570     0     0 I init    : Sending signal 9 to service 'artd' (pid 5196) process group...
+10-24 17:10:06.570     0     0 I libprocessgroup: Successfully killed process cgroup uid 1082 pid 5196 in 0ms
+10-24 17:10:06.736  2012  2012 E A       : disposing SearchServiceClient after timeout []
+10-24 17:10:08.002  5456  5456 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+10-24 17:10:08.005  5456  5456 I AndroidRuntime: Using default boot image
+10-24 17:10:08.005  5456  5456 I AndroidRuntime: Leaving lock profiling enabled
+10-24 17:10:08.007  5456  5456 I app_process: Core platform API reporting enabled, enforcing=false
+10-24 17:10:08.007  5456  5456 I app_process: Using CollectorTypeCC GC.
+10-24 17:10:08.044  5351  5366 D EGL_emulation: app_time_stats: avg=999.31ms min=998.63ms max=1000.00ms count=2
+10-24 17:10:08.056  5456  5456 D nativeloader: InitDefaultPublicLibraries for_preload=1: libandroid.so:libaaudio.so:libamidi.so:libbinder_ndk.so:libc.so:libcamera2ndk.so:libdl.so:libEGL.so:libGLESv1_CM.so:libGLESv2.so:libGLESv3.so:libicu.so:libicui18n.so:libicuuc.so:libjnigraphics.so:liblog.so:libmediandk.so:libm.so:libnativehelper.so:libnativewindow.so:libOpenMAXAL.so:libOpenSLES.so:libRS.so:libstdc++.so:libsync.so:libvulkan.so:libwebviewchromium_plat_support.so:libz.so
+10-24 17:10:08.064  5456  5456 D app_process: Time zone APEX ICU file found: /apex/com.android.tzdata/etc/icu/icu_tzdata.dat
+10-24 17:10:08.065  5456  5456 D app_process: I18n APEX ICU file found: /apex/com.android.i18n/etc/icu/icudt72l.dat
+10-24 17:10:08.068  5456  5456 W app_process: Unexpected CPU variant for x86: x86_64.
+10-24 17:10:08.068  5456  5456 W app_process: Known variants: atom, sandybridge, silvermont, goldmont, goldmont-plus, tremont, kabylake, default
+10-24 17:10:08.069  5456  5456 W app_process: ClassLoaderContext shared library size mismatch. Expected=2, found=0 (PCL[]{PCL[/system/framework/android.test.base.jar*836642756]#PCL[/system/framework/android.test.mock.jar*3186112116]} | PCL[])
+10-24 17:10:08.070  5456  5456 W app_process: ClassLoaderContext classpath size mismatch. expected=0, found=1 (PCL[]{PCL[/system/framework/android.test.runner.jar*4168958247]{PCL[/system/framework/android.test.base.jar*836642756]#PCL[/system/framework/android.test.mock.jar*3186112116]}#PCL[/system/framework/android.test.base.jar*836642756]} | PCL[/system/framework/android.test.runner.jar*4168958247])
+10-24 17:10:08.078  5456  5456 W main    : type=1400 audit(0.0:69): avc:  denied  { read } for  name="u:object_r:build_attestation_prop:s0" dev="tmpfs" ino=87 scontext=u:r:shell:s0 tcontext=u:object_r:build_attestation_prop:s0 tclass=file permissive=0
+10-24 17:10:08.078  5456  5456 W main    : type=1400 audit(0.0:70): avc:  denied  { read } for  name="u:object_r:build_attestation_prop:s0" dev="tmpfs" ino=87 scontext=u:r:shell:s0 tcontext=u:object_r:build_attestation_prop:s0 tclass=file permissive=0
+10-24 17:10:08.081  5456  5456 W libc    : Access denied finding property "ro.product.name_for_attestation"
+10-24 17:10:08.081  5456  5456 W libc    : Access denied finding property "ro.product.brand_for_attestation"
+10-24 17:10:08.081  5456  5456 W libc    : Access denied finding property "ro.product.model_for_attestation"
+10-24 17:10:08.082  5456  5456 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+10-24 17:10:08.084  5456  5456 D UiAutomationConnection: Created on user UserHandle{0}
+10-24 17:10:08.084  5456  5456 I UiAutomation: Initialized for user 0 on display 0
+10-24 17:10:08.084  5456  5456 W UiAutomation: Created with deprecatead constructor, assumes DEFAULT_DISPLAY
+10-24 17:10:08.084   577   784 D AccessibilityManagerService: changeCurrentUserForTestAutomationIfNeededLocked(0): ignoring because device doesn't support visible background users
+10-24 17:10:08.084   577   784 I UiAutomationManager: Registering UiTestAutomationService (id=com.android.server.accessibility/UiAutomation) when called by user 0
+10-24 17:10:08.078  5456  5456 W main    : type=1400 audit(0.0:71): avc:  denied  { read } for  name="u:object_r:build_attestation_prop:s0" dev="tmpfs" ino=87 scontext=u:r:shell:s0 tcontext=u:object_r:build_attestation_prop:s0 tclass=file permissive=0
+10-24 17:10:08.087   577   784 W WindowMagnificationMgr: requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+10-24 17:10:08.087  1496  1524 I AiAiEcho: Settings changed for uri: content://settings/secure/accessibility_enabled
+10-24 17:10:08.088   577   577 D BatterySaverPolicy: accessibility changed to true, updating policy.
+10-24 17:10:08.089  1496  1682 I AiAiEcho: Predicting[0]: 
+10-24 17:10:08.089  1496  1682 I AiAiEcho: EchoTargets: 
+10-24 17:10:08.089  1496  1682 I AiAiEcho: Filtered by AiAi flag check: 
+10-24 17:10:08.089  1496  1682 I AiAiEcho: Ranked targets strategy: SORT, count: 0, ranking metadata: 
+10-24 17:10:08.090  1496  1682 I AiAiEcho: Predicting[0]: 
+10-24 17:10:08.090  1496  1682 I AiAiEcho: EchoTargets: 
+10-24 17:10:08.090  1496  1682 I AiAiEcho: Filtered by AiAi flag check: 
+10-24 17:10:08.090  1496  1682 I AiAiEcho: Ranked targets strategy: SORT, count: 0, ranking metadata: 
+10-24 17:10:08.090  1496  1682 I AiAiEcho: Predicting[0]: 
+10-24 17:10:08.090  1496  1682 I AiAiEcho: EchoTargets: 
+10-24 17:10:08.090  1496  1682 I AiAiEcho: Filtered by AiAi flag check: 
+10-24 17:10:08.090  1496  1682 I AiAiEcho: Ranked targets strategy: SORT, count: 0, ranking metadata: 
+10-24 17:10:08.090  1496  1682 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface media_data_manager with targets# 0 (types=[])
+10-24 17:10:08.090  1496  1682 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface lockscreen with targets# 0 (types=[])
+10-24 17:10:08.092  5456  5469 V UiAutomation: Init UiAutomation@e356a24[id=4, displayId=0, flags=0]
+10-24 17:10:08.093  2012  2487 I A       : NGA disabled since it's running Panthera and at least one a11y feature is on.
+10-24 17:10:08.094  2012  2487 I A       : Nga state changed to NgaStateDetails{state=DISABLED, isSpecialExperience=false}
+10-24 17:10:08.096  1521  1620 I A       : APA or Classic session decision: SessionDecision(sessionVariance=CLASSIC, platformVariance=CLASSIC, justification=CURRENT_PLATFORM_VARIANCE).
+10-24 17:10:08.096  1521  1620 I A       : [Memory] eligibility: StashEligibility{4}
+10-24 17:10:08.097  1521  2499 I A       : Unsubscribed to apa or classic variant change.
+10-24 17:10:08.098   577  1755 W WindowMagnificationMgr: requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+10-24 17:10:08.099  1496  1682 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface home with targets# 0 (types=[])
+10-24 17:10:08.099  1496  1524 I AiAiEcho: Settings changed for uri: content://settings/secure/accessibility_enabled
+10-24 17:10:08.100  1496  1682 I AiAiEcho: Predicting[0]: 
+10-24 17:10:08.100  1496  1682 I AiAiEcho: EchoTargets: 
+10-24 17:10:08.100  1496  1682 I AiAiEcho: Filtered by AiAi flag check: 
+10-24 17:10:08.100  1496  1682 I AiAiEcho: Ranked targets strategy: SORT, count: 0, ranking metadata: 
+10-24 17:10:08.103  1496  1682 I AiAiEcho: Predicting[0]: 
+10-24 17:10:08.103  1496  1682 I AiAiEcho: EchoTargets: 
+10-24 17:10:08.103  1496  1682 I AiAiEcho: Filtered by AiAi flag check: 
+10-24 17:10:08.103  1496  1682 I AiAiEcho: Ranked targets strategy: SORT, count: 0, ranking metadata: 
+10-24 17:10:08.103  1496  1682 I AiAiEcho: Predicting[0]: 
+10-24 17:10:08.103  1496  1682 I AiAiEcho: EchoTargets: 
+10-24 17:10:08.103  1496  1682 I AiAiEcho: Filtered by AiAi flag check: 
+10-24 17:10:08.103  1496  1682 I AiAiEcho: Ranked targets strategy: SORT, count: 0, ranking metadata: 
+10-24 17:10:08.103  1496  1682 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface media_data_manager with targets# 0 (types=[])
+10-24 17:10:08.104  1496  1682 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface lockscreen with targets# 0 (types=[])
+10-24 17:10:08.104  1496  1682 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface home with targets# 0 (types=[])
+10-24 17:10:08.108   795   795 D SsMediaDataProvider: Forwarding Smartspace updates []
+10-24 17:10:08.109   795   795 W PageIndicator: Total number of pages invalid: 0. Assuming 1 page.
+10-24 17:10:08.109   795   795 D SsMediaDataProvider: Forwarding Smartspace updates []
+10-24 17:10:08.109   795   795 W PageIndicator: Total number of pages invalid: 0. Assuming 1 page.
+10-24 17:10:08.823   795   795 D StatusBarIconController: ignoring old pipeline callback because the new wifi icon is enabled
+10-24 17:10:09.045  5351  5366 D EGL_emulation: app_time_stats: avg=1001.10ms min=1001.10ms max=1001.10ms count=1
+10-24 17:10:09.105  1435  2891 W MediaProvider: isAppCloneUserPair for user 0: false
+10-24 17:10:09.137  1303  5429 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.ipa.base.IpaGcmTaskService started execution. cause:9 exec_start_elapsed_seconds: 959 [CONTEXT service_id=218 ]
+10-24 17:10:09.143  1303  1303 D BoundBrokerSvc: onBind: Intent { act=com.google.android.gms.scheduler.ACTION_PROXY_SCHEDULE dat=chimera-action:/... cmp=com.google.android.gms/.chimera.PersistentApiService }
+10-24 17:10:09.143  1303  1303 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.gms.scheduler.ACTION_PROXY_SCHEDULE dat=chimera-action:/... cmp=com.google.android.gms/.chimera.PersistentApiService }
+10-24 17:10:09.149  5456  5456 I AccessibilityNodeInfoDumper: Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@836c; boundsInParent: Rect(0, 0 - 1, 1); boundsInScreen: Rect(0, 0 - 1, 1); boundsInWindow: Rect(0, 0 - 1, 1); packageName: com.eltavine.duckdetector; className: android.webkit.WebView; text: null; error: null; maxTextLength: -1; stateDescription: null; contentDescription: null; tooltipText: null; containerTitle: null; viewIdResName: null; uniqueId: null; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: false; visible: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null]; isTextSelectable: false
+10-24 17:10:09.149  1303  5429 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.ipa.base.IpaGcmTaskService finished executing. cause:9 result: 1 elapsed_millis: 17 uptime_millis: 17 exec_start_elapsed_seconds: 959 [CONTEXT service_id=218 ]
+10-24 17:10:09.150  5456  5456 W AccessibilityNodeInfoDumper: Fetch time: 48ms
+10-24 17:10:09.151  1496  4332 I AiAiEcho: Settings changed for uri: content://settings/secure/accessibility_enabled
+10-24 17:10:09.151   577   784 W WindowMagnificationMgr: requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+10-24 17:10:09.151   577   784 D AccessibilityManagerService: restoreCurrentUserForTestAutomationIfNeededLocked(): ignoring because device doesn't support visible background users
+10-24 17:10:09.153  1496  1682 I AiAiEcho: Predicting[0]: 
+10-24 17:10:09.153  5456  5456 D AndroidRuntime: Shutting down VM
+10-24 17:10:09.155  2012  2450 I A       : NGA enabled in interactor.
+10-24 17:10:09.155  2012  2450 I A       : Nga state changed to NgaStateDetails{state=ENABLED, isSpecialExperience=false}
+10-24 17:10:09.156  1521  1620 I A       : Initializing all components
+10-24 17:10:09.158  1496  1682 I AiAiEcho: EchoTargets: 
+10-24 17:10:09.158  1496  1682 I AiAiEcho: Filtered by AiAi flag check: 
+10-24 17:10:09.158  1521  2499 I A       : onIsEnabledChanged, isEnabled: false
+10-24 17:10:09.158  1521  2499 W A       : Disposing empty manager. Did you forgot to subscribe observables?
+10-24 17:10:09.158  1521  2499 W A       : Disposing empty manager. Did you forgot to subscribe observables?
+10-24 17:10:09.159  1521  2499 W A       : Disposing empty manager. Did you forgot to subscribe observables?
+10-24 17:10:09.159  1521  2499 W A       : Disposing empty manager. Did you forgot to subscribe observables?
+10-24 17:10:09.159  1521  2499 W A       : Disposing empty manager. Did you forgot to subscribe observables?
+10-24 17:10:09.159  1521  2499 W A       : Disposing empty manager. Did you forgot to subscribe observables?
+10-24 17:10:09.159  1521  2499 W A       : Disposing empty manager. Did you forgot to subscribe observables?
+10-24 17:10:09.159  1521  2499 W A       : Disposing empty manager. Did you forgot to subscribe observables?
+10-24 17:10:09.159  1521  2499 W A       : Disposing empty manager. Did you forgot to subscribe observables?
+10-24 17:10:09.159  1521  2499 W A       : Disposing empty manager. Did you forgot to subscribe observables?
+10-24 17:10:09.159  1521  2499 I A       : onOpaVisibilityChanged: false
+10-24 17:10:09.159  1521  2499 W A       : Disposing empty manager. Did you forgot to subscribe observables?
+10-24 17:10:09.159  1521  2499 W A       : Disposing empty manager. Did you forgot to subscribe observables?
+10-24 17:10:09.159  1521  2499 W A       : Disposing empty manager. Did you forgot to subscribe observables?
+10-24 17:10:09.159  1521  2499 W A       : Disposing empty manager. Did you forgot to subscribe observables?
+10-24 17:10:09.159  1521  2499 W A       : Disposing empty manager. Did you forgot to subscribe observables?
+10-24 17:10:09.159  1521  2499 W A       : Disposing empty manager. Did you forgot to subscribe observables?
+10-24 17:10:09.159  1521  2499 I A       : Setting session to type: NO_SESSION
+10-24 17:10:09.159  1521  2499 W A       : Disposing empty manager. Did you forgot to subscribe observables?
+10-24 17:10:09.159  1521  2499 W A       : Disposing empty manager. Did you forgot to subscribe observables?
+10-24 17:10:09.159  1521  2499 W A       : Disposing empty manager. Did you forgot to subscribe observables?
+10-24 17:10:09.159  1521  2499 W A       : Disposing empty manager. Did you forgot to subscribe observables?
+10-24 17:10:09.159  1521  2499 W A       : Disposing empty manager. Did you forgot to subscribe observables?
+10-24 17:10:09.159  1521  2499 W A       : Disposing empty manager. Did you forgot to subscribe observables?
+10-24 17:10:09.159  1521  2499 W A       : Disposing empty manager. Did you forgot to subscribe observables?
+10-24 17:10:09.159  1521  2499 W A       : Disposing empty manager. Did you forgot to subscribe observables?
+10-24 17:10:09.160  1521  2499 I A       : setNavBarVisible: GestureNavBarVisible{navbarVisible=true}
+10-24 17:10:09.160  1496  1682 I AiAiEcho: Ranked targets strategy: SORT, count: 0, ranking metadata: 
+10-24 17:10:09.163  1496  1682 I AiAiEcho: Predicting[0]: 
+10-24 17:10:09.164  1496  1682 I AiAiEcho: EchoTargets: 
+10-24 17:10:09.164  1496  1682 I AiAiEcho: Filtered by AiAi flag check: 
+10-24 17:10:09.165  1496  1682 I AiAiEcho: Ranked targets strategy: SORT, count: 0, ranking metadata: 
+10-24 17:10:09.165  1496  1682 I AiAiEcho: Predicting[0]: 
+10-24 17:10:09.165  1496  1682 I AiAiEcho: EchoTargets: 
+10-24 17:10:09.165  1496  1682 I AiAiEcho: Filtered by AiAi flag check: 
+10-24 17:10:09.165  1496  1682 I AiAiEcho: Ranked targets strategy: SORT, count: 0, ranking metadata: 
+10-24 17:10:09.165  1521  2494 I A       : State changed: IDLE => IDLE by NGA_STATE_CHANGED and N/A with Optional.empty
+10-24 17:10:09.165  1521  2494 I A       : Recognizer choice: (recognizer_type: 1, recognizer_mode: 1, choice_reason: 4)
+10-24 17:10:09.165  1496  1682 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface media_data_manager with targets# 0 (types=[])
+10-24 17:10:09.166  1496  1682 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface lockscreen with targets# 0 (types=[])
+10-24 17:10:09.166  1496  1682 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface home with targets# 0 (types=[])
+10-24 17:10:09.166  1521  2494 I A       : onActiveStateChangeEvent: IDLE => IDLE
+10-24 17:10:09.166  1521  1620 I A       : APA or Classic session decision: SessionDecision(sessionVariance=CLASSIC, platformVariance=CLASSIC, justification=CURRENT_PLATFORM_VARIANCE).
+10-24 17:10:09.167  1521  1620 I A       : [Memory] eligibility: StashEligibility{6}
+10-24 17:10:09.168  1521  2494 I A       : #onActiveStateChangeEvent, newState: IDLE, previousState: IDLE.
+10-24 17:10:09.168  1521  2499 W A       : Disposing empty manager. Did you forgot to subscribe observables?
+10-24 17:10:09.168  1521  2499 W A       : Disposing empty manager. Did you forgot to subscribe observables?
+10-24 17:10:09.168  1521  2499 W A       : Disposing empty manager. Did you forgot to subscribe observables?
+10-24 17:10:09.168  1521  2499 W A       : Disposing empty manager. Did you forgot to subscribe observables?
+10-24 17:10:09.169  1521  2499 W A       : Disposing empty manager. Did you forgot to subscribe observables?
+10-24 17:10:09.169  1521  2499 W A       : Disposing empty manager. Did you forgot to subscribe observables?
+10-24 17:10:09.169  1521  2499 I A       : onDisabled. Registered: false
+10-24 17:10:09.169   577   577 D BatterySaverPolicy: accessibility changed to false, updating policy.
+10-24 17:10:09.171  1521  2499 I A       : on opa visibility changed false
+10-24 17:10:09.171  1521  2499 I A       : on opa visibility changed false
+10-24 17:10:09.174  1521  2494 I A       : Initialize
+10-24 17:10:09.177  1521  2494 I NgaEntryPointEventSendr: setupConnection
+10-24 17:10:09.178  1521  1521 E GsaVoiceSerConnection: gsaVis null binding
+10-24 17:10:09.179   577  4531 W ProcessStats: Tracking association SourceState{68cc080 com.google.android.googlequicksearchbox:interactor/10132 BFgs #3938} whose proc state 4 is better than process ProcessState{d1eeb05 com.google.android.googlequicksearchbox:search/10132 pkg=com.google.android.googlequicksearchbox} proc state 14 (6 skipped)
+10-24 17:10:09.180  2012  2012 I A       : Creating pss binder().
+10-24 17:10:09.180  1521  2499 I A       : stopListening(NGA_PAUSED_UNKNOWN_REASON, NGA_CREATE), idleOverride=NOT_LISTENING
+10-24 17:10:09.181  1521  2494 I NgaEntryPointEventSendr: State changed: Disconnected => Connecting
+10-24 17:10:09.181  1521  2494 I NgaEntryPointEventSendr: onServiceConnected
+10-24 17:10:09.181  2012  2136 I A       : Calling beginBinderSession().
+10-24 17:10:09.181  2012  2136 I A       : beginBinderSession(): calling binder
+10-24 17:10:09.182  1521  2494 I NgaEntryPointEventSendr: State changed: Connecting => Ready
+10-24 17:10:09.183   795   795 W PageIndicator: Total number of pages invalid: 0. Assuming 1 page.
+10-24 17:10:09.183   795   795 D SsMediaDataProvider: Forwarding Smartspace updates []
+10-24 17:10:09.188  1521  2494 I A       : Successfully initialized all components
+10-24 17:10:09.202  2012  2500 W CorpusConfigHelper: Invalid input from icing corpus JSON flag.
+10-24 17:10:09.202  2012  2500 W CorpusConfigHelper: android.util.MalformedJsonException: Use JsonReader.setLenient(true) to accept malformed JSON at line 123 column 2
+10-24 17:10:09.202  2012  2500 W CorpusConfigHelper: 	at android.util.JsonReader.syntaxError(JsonReader.java:1162)
+10-24 17:10:09.202  2012  2500 W CorpusConfigHelper: 	at android.util.JsonReader.checkLenient(JsonReader.java:840)
+10-24 17:10:09.202  2012  2500 W CorpusConfigHelper: 	at android.util.JsonReader.nextInArray(JsonReader.java:615)
+10-24 17:10:09.202  2012  2500 W CorpusConfigHelper: 	at android.util.JsonReader.peek(JsonReader.java:345)
+10-24 17:10:09.202  2012  2500 W CorpusConfigHelper: 	at android.util.JsonReader.hasNext(JsonReader.java:321)
+10-24 17:10:09.202  2012  2500 W CorpusConfigHelper: 	at com.google.android.apps.gsa.searchbox.c.b.b.k.c(PG:7)
+10-24 17:10:09.202  2012  2500 W CorpusConfigHelper: 	at com.google.android.apps.gsa.searchbox.c.b.b.k.<init>(PG:5)
+10-24 17:10:09.202  2012  2500 W CorpusConfigHelper: 	at com.google.android.apps.gsa.staticplugins.searchboxroot.features.n.a.c.<init>(PG:16)
+10-24 17:10:09.202  2012  2500 W CorpusConfigHelper: 	at com.google.android.apps.gsa.staticplugins.searchboxroot.b.a(PG:14)
+10-24 17:10:09.202  2012  2500 W CorpusConfigHelper: 	at com.google.android.apps.gsa.staticplugins.searchboxroot.x.<init>(PG:7)
+10-24 17:10:09.202  2012  2500 W CorpusConfigHelper: 	at com.google.android.apps.gsa.binaries.velvet.app.akd.b(PG:15)
+10-24 17:10:09.202  2012  2500 W CorpusConfigHelper: 	at dagger.a.e.b(PG:1)
+10-24 17:10:09.202  2012  2500 W CorpusConfigHelper: 	at com.google.android.apps.gsa.staticplugins.searchboxroot.a.a.a(PG:3)
+10-24 17:10:09.202  2012  2500 W CorpusConfigHelper: 	at com.google.android.apps.gsa.binaries.velvet.app.ok.f(Unknown Source:2541)
+10-24 17:10:09.202  2012  2500 W CorpusConfigHelper: 	at com.google.android.apps.gsa.binaries.velvet.app.ok.b(PG:1)
+10-24 17:10:09.202  2012  2500 W CorpusConfigHelper: 	at com.google.android.apps.gsa.search.core.service.g.a.c.a(PG:2)
+10-24 17:10:09.202  2012  2500 W CorpusConfigHelper: 	at com.google.android.libraries.gsa.k.a.f.a(PG:2)
+10-24 17:10:09.202  2012  2500 W CorpusConfigHelper: 	at com.google.common.util.concurrent.dx.a(PG:1)
+10-24 17:10:09.202  2012  2500 W CorpusConfigHelper: 	at com.google.common.util.concurrent.cv.run(PG:4)
+10-24 17:10:09.202  2012  2500 W CorpusConfigHelper: 	at com.google.common.util.concurrent.dz.run(PG:1)
+10-24 17:10:09.202  2012  2500 W CorpusConfigHelper: 	at com.google.android.libraries.i.ae.run(PG:1)
+10-24 17:10:09.202  2012  2500 W CorpusConfigHelper: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+10-24 17:10:09.202  2012  2500 W CorpusConfigHelper: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:644)
+10-24 17:10:09.202  2012  2500 W CorpusConfigHelper: 	at com.google.android.libraries.i.k.run(PG:2)
+10-24 17:10:09.202  2012  2500 W CorpusConfigHelper: 	at com.google.android.libraries.i.p.run(PG:4)
+10-24 17:10:09.202  2012  2500 W CorpusConfigHelper: 	at java.lang.Thread.run(Thread.java:1012)
+10-24 17:10:09.203  2012  2511 W A       : Queue length for executor EventBus is now 11. Perhaps some tasks are too long, or the pool is too small.
+10-24 17:10:09.204  2012  2873 I A       : Using proto config with mendel
+10-24 17:10:09.204  2012  2873 I A       : Using proto config with mendel
+10-24 17:10:09.206  2012  2873 I A       : Using proto config with mendel
+10-24 17:10:09.207  2012  2873 I A       : Merging legacy hotword config map with new proto.
+10-24 17:10:09.207  2012  2873 I A       : Adding from config to map. Locale: cmn-Hant-TW modelPrefix: x_google Location:4e7cae00daee30ec565c34e3aa67a51f isSpeakerIdSupported: true
+10-24 17:10:09.207  2012  2873 I A       : Adding from config to map. Locale: id-ID modelPrefix: x_google Location:cfffcc1a4c1c084c003c8eb27f73d770 isSpeakerIdSupported: true
+10-24 17:10:09.207  2012  2873 I A       : Adding from config to map. Locale: ko-KR modelPrefix: x_google Location:0b132163a2eb2c1194b202067475724b isSpeakerIdSupported: true
+10-24 17:10:09.207  2012  2873 I A       : Skipping. Expected model: 2 Found: 1
+10-24 17:10:09.207  2012  2873 I A       : Adding from config to map. Locale: zh-TW modelPrefix: x_google Location:4e7cae00daee30ec565c34e3aa67a51f isSpeakerIdSupported: true
+10-24 17:10:09.207  2012  2873 I A       : Using proto config with mendel
+10-24 17:10:09.208  2012  2873 I A       : Using proto config with mendel
+10-24 17:10:09.208  2012  2873 I A       : Using proto config with mendel
+10-24 17:10:09.214  1521  2494 I NgaEntryPointEventSendr: State changed: Ready => Disconnected (onOpaDisconnected)
+10-24 17:10:09.215   577   604 W ActivityManager: Unable to start service Intent { cmp=com.google.android.apps.tachyon/.clientapi.ClientApiService } U=0: not found
+10-24 17:10:09.216  2012  2873 W A       : UiCallbackStub-onGenericEvent[ServiceEvent = 111] task was not run. Callback from Service received after client was disposed.
+10-24 17:10:09.216  2012  2873 W A       : UiCallbackStub-onGenericEvent[ServiceEvent = 60] task was not run. Callback from Service received after client was disposed.
+10-24 17:10:09.216  2012  2873 W A       : UiCallbackStub-onGenericEvent[ServiceEvent = 60] task was not run. Callback from Service received after client was disposed.
+10-24 17:10:09.216  2012  2873 W A       : UiCallbackStub-onGenericEvent[ServiceEvent = 105] task was not run. Callback from Service received after client was disposed.
+10-24 17:10:09.217  2012  2873 W A       : UiCallbackStub-onGenericEvent[ServiceEvent = 107] task was not run. Callback from Service received after client was disposed.
+10-24 17:10:09.217  2012  2873 W A       : UiCallbackStub-onGenericEvent[ServiceEvent = 107] task was not run. Callback from Service received after client was disposed.
+10-24 17:10:09.217  2012  2873 W A       : UiCallbackStub-onGenericEvent[ServiceEvent = 42] task was not run. Callback from Service received after client was disposed.
+10-24 17:10:09.220  1480  1900 I Icing   : IndexChimeraService.getServiceInterface callingPackage=com.google.android.googlequicksearchbox componentName=null serviceId=36
+10-24 17:10:09.222  2012  2873 W A       : UiCallbackStub-onGenericEvent[ServiceEvent = 67] task was not run. Callback from Service received after client was disposed.
+10-24 17:10:09.222  2012  2873 I MicroDetectionState: Should stop hotword detection immediately - true
+10-24 17:10:09.223  2012  2873 W A       : UiCallbackStub-onGenericEvent[ServiceEvent = 241] task was not run. Callback from Service received after client was disposed.
+10-24 17:10:09.223  2012  2873 W A       : UiCallbackStub-onGenericEvent[ServiceEvent = 241] task was not run. Callback from Service received after client was disposed.
+10-24 17:10:09.225  2012  3273 I PBSessionCacheImpl: Deleted sessionId[8850662452056251] from persistence.
+10-24 17:10:09.225  2012  2873 W A       : UiCallbackStub-onGenericEvent[ServiceEvent = 60] task was not run. Callback from Service received after client was disposed.
+10-24 17:10:09.227  2012  2873 W SearchServiceCore: Abort, client detached.
+10-24 17:10:09.228  2012  2873 I MicroDetectionState: Should stop hotword detection immediately - true
+10-24 17:10:09.228  2012  2873 I A       : Using proto config with mendel
+10-24 17:10:09.228  2012  2873 I A       : Using proto config with mendel
+10-24 17:10:09.234  1303  1303 D BoundBrokerSvc: onBind: Intent { act=com.google.android.gms.icing.LIGHTWEIGHT_INDEX_SERVICE dat=chimera-action:/... cmp=com.google.android.gms/.chimera.PersistentApiService }
+10-24 17:10:09.234  1303  1303 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.gms.icing.LIGHTWEIGHT_INDEX_SERVICE dat=chimera-action:/... cmp=com.google.android.gms/.chimera.PersistentApiService }
+10-24 17:10:09.238  1480  1480 D BoundBrokerSvc: onBind: Intent { act=com.google.android.gms.feedback.internal.IFeedbackService dat=chimera-action:/... cmp=com.google.android.gms/.chimera.GmsBoundBrokerService }
+10-24 17:10:09.238  1480  1480 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.gms.feedback.internal.IFeedbackService dat=chimera-action:/... cmp=com.google.android.gms/.chimera.GmsBoundBrokerService }
+10-24 17:10:09.247   577   605 D CompatibilityChangeReporter: Compat change id reported: 161252188; UID 10203; state: DISABLED
+10-24 17:10:09.249  1480  2840 I Icing   : Usage reports ok 2, Failed Usage reports 0, indexed 0, rejected 0
+10-24 17:10:09.251  1480  2744 I Icing   : IndexChimeraService.getServiceInterface callingPackage=com.google.android.gms componentName=null serviceId=30
+10-24 17:10:09.256  1480  2840 I Icing   : Usage reports ok 0, Failed Usage reports 0, indexed 0, rejected 0
+10-24 17:10:09.429  5351  5472 D ProfileInstaller: Skipping profile installation for com.eltavine.duckdetector
+10-24 17:10:10.070  1435  2891 I MediaProvider: Deleted 0 1 0 0 0 0 0 items on external_primary due to com.android.shell
+10-24 17:10:10.090  1303  4520 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.ipa.base.IpaGcmTaskService started execution. cause:9 exec_start_elapsed_seconds: 960 [CONTEXT service_id=218 ]
+10-24 17:10:10.097  1303  5429 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.ipa.base.IpaGcmTaskService finished executing. cause:9 result: 1 elapsed_millis: 9 uptime_millis: 9 exec_start_elapsed_seconds: 960 [CONTEXT service_id=218 ]
+10-24 17:10:10.152  5476  5476 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+10-24 17:10:10.154  1435  2891 W MediaProvider: isAppCloneUserPair for user 0: false
+10-24 17:10:10.158  5476  5476 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+10-24 17:10:10.180  1303  5283 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.ipa.base.IpaGcmTaskService started execution. cause:9 exec_start_elapsed_seconds: 960 [CONTEXT service_id=218 ]
+10-24 17:10:10.184  1303  4520 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.ipa.base.IpaGcmTaskService finished executing. cause:9 result: 1 elapsed_millis: 14 uptime_millis: 14 exec_start_elapsed_seconds: 960 [CONTEXT service_id=218 ]
+10-24 17:10:10.190   413   427 W ServiceManagerCppClient: Permission failure: android.permission.CAPTURE_BLACKOUT_CONTENT from uid=2000 pid=5476
+10-24 17:10:10.190   413   427 D PermissionCache: checking android.permission.CAPTURE_BLACKOUT_CONTENT for uid=2000 => denied (2066 us)
+10-24 17:10:10.194   138   138 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+10-24 17:10:10.194  5476  5478 I Gralloc4: mapper 4.x is not supported
+10-24 17:10:10.176     0     0 I servicemanager: Could not find android.hardware.graphics.allocator.IAllocator/default in the VINTF manifest.
+10-24 17:10:10.368   577  4531 I ActivityManager: Broadcasting: Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x400000 }
+10-24 17:10:10.369   577  4531 I ActivityManager: Enqueued broadcast Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x400000 }: 0
+10-24 17:10:10.371   577   608 I ActivityManager: Broadcast completed: result=0
+10-24 17:10:10.372  1435  1825 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+10-24 17:10:10.393  1435  1825 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+10-24 17:10:10.407  1303  5429 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.ipa.base.IpaGcmTaskService started execution. cause:9 exec_start_elapsed_seconds: 960 [CONTEXT service_id=218 ]
+10-24 17:10:10.409  1303  5479 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.ipa.base.IpaGcmTaskService finished executing. cause:9 result: 1 elapsed_millis: 7 uptime_millis: 7 exec_start_elapsed_seconds: 960 [CONTEXT service_id=218 ]
+10-24 17:10:10.515     0     0 I logd    : logdr: UID=2000 GID=2000 PID=5490 n tail=0 logMask=99 pid=0 start=1792872603000000000ns deadline=0ns

@@ -1,0 +1,22 @@
+{
+  "captured_at": "2026-10-25T01:38:38.7872512+00:00",
+  "package": "dev.androidlab.attestationprobe",
+  "process_id": 8100,
+  "namespace_scope": [
+    "dev.androidlab.probe",
+    "dev.androidlab.rawprobe",
+    "dev.androidlab.procprobe",
+    "com.eltavine.duckdetector",
+    "com.reveny.emulator.detection.sample",
+    "com.framgia.example.emulatordetector",
+    "com.felhr.emulatordetector",
+    "com.reveny.nativecheck",
+    "icu.nullptr.nativetest",
+    "io.github.vvb2060.nativedetector"
+  ],
+  "package_excluded_from_scope": true,
+  "runtime_profile_mapped": false,
+  "namespace_module_mapped": false,
+  "unscoped_namespace_cpu_is_x86": true,
+  "unscoped_namespace_has_hypervisor": true
+}

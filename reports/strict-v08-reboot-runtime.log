@@ -1,0 +1,38 @@
+--------- beginning of main
+10-24 15:37:37.437  3839  3839 I DeviceLabNamespace: profile mount status=0 pid=3839
+10-24 15:37:37.449  3839  3839 I DeviceLabNamespace: uname broker status=0 pid=3839
+10-24 15:37:37.449  3839  3839 I DeviceLabNamespace: proc broker enabled=1
+10-24 15:37:37.463  3839  3839 I DeviceLabPolicy: policy PLT installed=1
+10-24 15:37:37.563  3839  3839 I DeviceLabPolicy: openat2 policy status=0 source_length=260 original_suffix_preserved=1
+10-24 15:37:37.857  3839  3839 I DeviceLabPolicy: policy PLT restored=1
+10-24 15:37:37.891  3839  3839 I DeviceLabNamespace: property remap status=0 pid=3839
+10-24 15:37:38.103  3839  3839 I VectorLegacyBridge: DeviceLab: native hooks for dev.androidlab.procprobe: get=1 callback=1 fopen=1 open=1 openat=1 open_checked=1 openat_checked=1 uname=1 syscall=1 auxval=1 gl2=1 gl3=1 readlink=1 readlinkat=1 cpu_cache=1 uname_controls=1 raw_uname=aarch64 maps=1/kernel-broker mountinfo=1/kernel-broker
+10-24 15:37:38.111  3839  3839 I VectorLegacyBridge: DeviceLab: Java identity hooks installed for dev.androidlab.procprobe
+10-24 15:37:39.697  3918  3918 I DeviceLabNamespace: profile mount status=0 pid=3918
+10-24 15:37:39.749  3918  3918 I DeviceLabNamespace: uname broker status=0 pid=3918
+10-24 15:37:39.750  3918  3918 I DeviceLabNamespace: proc broker enabled=1
+10-24 15:37:39.794  3918  3918 I DeviceLabPolicy: policy PLT installed=1
+10-24 15:37:39.818  3918  3918 I DeviceLabPolicy: openat2 policy status=0 source_length=260 original_suffix_preserved=1
+10-24 15:37:40.151  3918  3918 I DeviceLabPolicy: policy PLT restored=1
+10-24 15:37:40.182  3918  3918 I DeviceLabNamespace: property remap status=0 pid=3918
+10-24 15:37:40.264  3918  3918 I VectorLegacyBridge: DeviceLab: native hooks for dev.androidlab.rawprobe: get=1 callback=1 fopen=1 open=1 openat=1 open_checked=1 openat_checked=1 uname=1 syscall=1 auxval=1 gl2=1 gl3=1 readlink=1 readlinkat=1 cpu_cache=1 uname_controls=1 raw_uname=aarch64 maps=1/kernel-broker mountinfo=1/kernel-broker
+10-24 15:37:40.271  3918  3918 I VectorLegacyBridge: DeviceLab: Java identity hooks installed for dev.androidlab.rawprobe
+10-24 15:37:42.254  4001  4001 I DeviceLabNamespace: profile mount status=0 pid=4001
+10-24 15:37:42.288  4001  4001 I DeviceLabNamespace: uname broker status=0 pid=4001
+10-24 15:37:42.288  4001  4001 I DeviceLabNamespace: proc broker enabled=1
+10-24 15:37:42.302  4001  4001 I DeviceLabPolicy: policy PLT installed=1
+10-24 15:37:42.313  4001  4001 I DeviceLabPolicy: openat2 policy status=0 source_length=260 original_suffix_preserved=1
+10-24 15:37:42.619  4001  4001 I DeviceLabPolicy: policy PLT restored=1
+10-24 15:37:42.642  4001  4001 I DeviceLabNamespace: property remap status=0 pid=4001
+10-24 15:37:42.748  4001  4001 I VectorLegacyBridge: DeviceLab: guest auxv for dev.androidlab.probe: configured
+10-24 15:37:42.773  4001  4001 I VectorLegacyBridge: DeviceLab: native hooks for dev.androidlab.probe: get=1 callback=1 fopen=1 open=1 openat=1 open_checked=1 openat_checked=1 uname=1 syscall=1 auxval=1 gl2=1 gl3=1 readlink=1 readlinkat=1 cpu_cache=1 uname_controls=1 raw_uname=aarch64 maps=1/kernel-broker mountinfo=1/kernel-broker
+10-24 15:37:42.782  4001  4001 I VectorLegacyBridge: DeviceLab: Java identity hooks installed for dev.androidlab.probe
+10-24 15:37:49.890  4184  4184 I DeviceLabNamespace: profile mount status=0 pid=4184
+10-24 15:37:49.895  4184  4184 I DeviceLabNamespace: uname broker status=0 pid=4184
+10-24 15:37:49.895  4184  4184 I DeviceLabNamespace: proc broker enabled=1
+10-24 15:37:49.901  4184  4184 I DeviceLabPolicy: policy PLT installed=1
+10-24 15:37:49.949  4184  4184 I DeviceLabPolicy: openat2 policy status=0 source_length=260 original_suffix_preserved=1
+10-24 15:37:50.084  4184  4184 I DeviceLabPolicy: policy PLT restored=1
+10-24 15:37:50.096  4184  4184 I DeviceLabNamespace: property remap status=0 pid=4184
+10-24 15:37:50.199  4184  4184 I VectorLegacyBridge: DeviceLab: native hooks for com.reveny.emulator.detection.sample: get=1 callback=1 fopen=1 open=1 openat=1 open_checked=1 openat_checked=1 uname=1 syscall=1 auxval=1 gl2=1 gl3=1 readlink=1 readlinkat=1 cpu_cache=1 uname_controls=1 raw_uname=aarch64 maps=1/kernel-broker mountinfo=1/kernel-broker
+10-24 15:37:50.202  4184  4184 I VectorLegacyBridge: DeviceLab: Java identity hooks installed for com.reveny.emulator.detection.sample

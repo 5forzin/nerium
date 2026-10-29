@@ -1,0 +1,165 @@
+{
+  "captured_at": "2026-10-25T23:41:56.7896745+00:00",
+  "detector": "duck",
+  "version": "2026.10.24-b5305070468a (1084)",
+  "package": "com.eltavine.duckdetector",
+  "release": "https://github.com/eltavine/Duck-Detector-Refactoring/releases/tag/nightly-2026-10-24-b5305070",
+  "apk_sha256": "9d0bbdab9c0b14334c9ec0d319758c5f9085260a09388486482b2ac497c81ffc",
+  "installed_abi": "x86_64",
+  "status": "complete",
+  "detected": true,
+  "reason": "Built-in report from the pinned APK corroborated by its current process and dashboard.",
+  "process_id": 3072,
+  "foreground": "topResumedActivity=ActivityRecord{68abe6a u0 com.eltavine.duckdetector/.MainActivity t24}",
+  "final_foreground": "topResumedActivity=ActivityRecord{68abe6a u0 com.eltavine.duckdetector/.MainActivity t24}",
+  "final_process_id": "3072",
+  "launch": "Capturing the explicitly identified scan after its built-in report export.",
+  "ui_result": "[✖ DANGER] Danger",
+  "visible_text": [
+    "Danger",
+    "Start with Bootloader and TEE.",
+    "2026.10.24-b5305070468a (1084)",
+    "Build (UTC) · 2026-10-24 12:53:38",
+    "Tap to export full report",
+    "Scanned at 2026-10-25 20:41:42 · Total time 16s",
+    "3",
+    "Danger",
+    "3",
+    "Warning",
+    "20",
+    "Ready",
+    "0",
+    "Pending",
+    "Bootloader",
+    "High",
+    "8 critical boot integrity signal(s)",
+    "Unlocked state, attestation contradictions, broken certificate trust, or verified-boot failures indicate reduced device trust.",
+    "TEE",
+    "High",
+    "Hardware-backed local verification was not established",
+    "Local verification could not establish hardware-backed trust.",
+    "Virtualization",
+    "High",
+    "14 direct virtualization signal(s)",
+    "The current app context contains direct emulator, AVF guest, device-node, classpath, UID, or runtime-service evidence.",
+    "Duck Detector",
+    "Home",
+    "Settings",
+    "ALPHA"
+  ],
+  "screenshot": "playstore-v26-rootless-clean-duck.png",
+  "log": "playstore-v26-rootless-clean-duck.log",
+  "duck": {
+    "scan_statistics": {
+      "Danger": 3,
+      "Warning": 3,
+      "Ready": 20,
+      "Pending": 0
+    },
+    "module_verdicts": [
+      {
+        "severity": "DANGER",
+        "detector": "Bootloader",
+        "verdict": "8 critical boot integrity signal(s)"
+      },
+      {
+        "severity": "DANGER",
+        "detector": "TEE",
+        "verdict": "Hardware-backed local verification was not established"
+      },
+      {
+        "severity": "DANGER",
+        "detector": "Virtualization",
+        "verdict": "14 direct virtualization signal(s)"
+      },
+      {
+        "severity": "WARNING",
+        "detector": "ADB Runtime",
+        "verdict": "ADB enabled"
+      },
+      {
+        "severity": "WARNING",
+        "detector": "Native Root",
+        "verdict": "1 native signal(s) need review"
+      },
+      {
+        "severity": "WARNING",
+        "detector": "System Properties",
+        "verdict": "1 property signal(s) need review"
+      },
+      {
+        "severity": "INFO",
+        "detector": "Custom ROM",
+        "verdict": "Custom ROM scan has reduced coverage"
+      },
+      {
+        "severity": "INFO",
+        "detector": "Dangerous Apps",
+        "verdict": "Behavior checks incomplete"
+      },
+      {
+        "severity": "INFO",
+        "detector": "Kernel Check",
+        "verdict": "CVE patch state is informational"
+      },
+      {
+        "severity": "INFO",
+        "detector": "LSPosed",
+        "verdict": "LSPosed scan has reduced coverage"
+      },
+      {
+        "severity": "INFO",
+        "detector": "Location Risk",
+        "verdict": "No local contract mismatch observed"
+      },
+      {
+        "severity": "INFO",
+        "detector": "Network Risk",
+        "verdict": "Network context collected"
+      },
+      {
+        "severity": "INFO",
+        "detector": "SU",
+        "verdict": "No root indicators"
+      },
+      {
+        "severity": "INFO",
+        "detector": "Zygote heap residue",
+        "verdict": "No target trace observed"
+      },
+      {
+        "severity": "CLEAR",
+        "detector": "Memory",
+        "verdict": "No hook-like memory signals"
+      },
+      {
+        "severity": "CLEAR",
+        "detector": "Mount",
+        "verdict": "No suspicious mount-layer signal"
+      },
+      {
+        "severity": "CLEAR",
+        "detector": "Play Integrity Fix",
+        "verdict": "No Play Integrity residue surfaced"
+      },
+      {
+        "severity": "CLEAR",
+        "detector": "Root Managers",
+        "verdict": "No root manager apps"
+      },
+      {
+        "severity": "CLEAR",
+        "detector": "SELinux",
+        "verdict": "Enforcing"
+      },
+      {
+        "severity": "CLEAR",
+        "detector": "Zygisk",
+        "verdict": "No Zygisk runtime signal"
+      }
+    ],
+    "export_report": "playstore-v26-rootless-clean-duck-export.txt",
+    "export_sha256": "1ea252192efaecc0d9f322dff819117973a5d13c2057c0f81bc1c48e0f90ad1e",
+    "exported_report_mtime": 1792971716
+  }
+}

@@ -1,0 +1,20 @@
+﻿{
+    "schema_version":  1,
+    "captured_at_ms":  1792908442734,
+    "package":  "dev.androidlab.integrityprobe",
+    "status":  "token_received",
+    "cloud_project_number":  45438431209,
+    "nonce_base64url":  "Vf9LcwyZjRsBgsYVHBS1r5ffLo0u4Ao5fAR9K6Onr08",
+    "token_length":  991,
+    "apk_sha256":  "676e2aa8ed58aaeca6b9babaaf7d88a141b10e35a09206afe87bb2199edeb070",
+    "environment":  {
+                        "android_api":  "34",
+                        "build_fingerprint":  "google/shiba/shiba:14/AP2A.240605.024/11860263:user/release-keys",
+                        "play_store_path":  "package:/data/app/~~hyD2rnG5lS2EyKHjhwVD8g==/com.android.vending-fP7-0gMxNzzog0425BbWmA==/base.apk",
+                        "play_store_version":  "53.6.15-31 [0] [PR] 996698724",
+                        "play_services_version":  "26.37.37 (190400-994713346)"
+                    },
+    "token_sha256":  "c2b39da034438de31dbec8acbcebf76a47413381ac0e776fe756d4f5772c928b",
+    "token_private_path":  "files/token-play-integrity-physical-pixel8-api34.txt",
+    "compact_jwe_shape":  true
+}

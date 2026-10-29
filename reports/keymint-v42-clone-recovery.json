@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "recorded_at": "2026-10-26T22:22:29.7876553+00:00",
+  "status": "restored",
+  "original_avd_modified": false,
+  "source_bases_preserved": true,
+  "archived_failed_overlays": "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\initial-overlay-archive",
+  "restored_files": {
+    "userdata-qemu.img.qcow2": {
+      "sha256": "85d528aaee3511c03cf851d26982a612afcacbc2bff28cd5fe2a4ea2c2035577",
+      "backing_inside_clone": true,
+      "rebased": false
+    },
+    "encryptionkey.img.qcow2": {
+      "sha256": "a7c7e3504f9476594c40d4404e66884a11d65b608ee53820569b60e750f10fa0",
+      "backing_inside_clone": true,
+      "rebased": false
+    },
+    "cache.img.qcow2": {
+      "sha256": "be6f48d510db67fd549e3002e0f7fa0ca90116bbf8477441fb230602c51c0a45",
+      "backing_inside_clone": true,
+      "rebased": false
+    },
+    "version_num.cache": {
+      "sha256": "1c7c11b21c4ee65c92979cb1946a026fbd97c6491856e813ca301a45b325f7ed"
+    },
+    "qemu-version.txt": {
+      "sha256": "d4735e3a265e16eee03f59718b9b5d03019c07d8b6c51f90da3a666eec13ab35"
+    },
+    "quickbootChoice.ini": {
+      "sha256": "549ad89a1d315629627fed29c30fffb1d8cade94dfb6edfb4c677c93139499b6"
+    }
+  },
+  "new_marker_copied_before_boot": true
+}

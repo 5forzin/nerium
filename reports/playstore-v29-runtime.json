@@ -1,0 +1,20 @@
+{
+  "captured_at": "2026-10-26T00:27:54.2616275+00:00",
+  "avd": "device-lab-playstore-root-contract-v29",
+  "selinux": "Enforcing",
+  "kernel_release": "6.1.23-android14-4-00257-g7e35917775b8-ab9964412",
+  "kernel_sha256": "81f3eddb5ebc4ce67feff18b1933eeaee7deca532266ae61c3d428f2e59cbd11",
+  "build_type": "user",
+  "debuggable": "0",
+  "boot_completed": "1",
+  "contract_service": "stopped",
+  "fixture_meta": {
+    "uid": 0,
+    "euid": 0,
+    "context": "u:r:device_lab_vendor_probe:s0",
+    "no_new_privs": 0,
+    "capget_result": 0,
+    "effective_capabilities": "00000000002000c0",
+    "contract_exit_code": 0
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "verified_at": "2026-10-25T04:40:13.0985703+00:00",
+  "verifier_repository": "https://github.com/android/keyattestation",
+  "verifier_commit": "621149c4ebaeeea844d6f43098687c73c4d370a3",
+  "positive_control": "VerifierCliTest.run_validChain_outputsSuccess PASSED",
+  "chains": [
+    {
+      "label": "stock_playstore_api35",
+      "source_report": "reports/strict-v19-playstore-api35-hostnonce.json",
+      "source_report_sha256": "a12f7be9a4cade9f407a404b4b728b7d2fd186edc219c10f8ad2b1999a6ba330",
+      "chain_pem_sha256": "3343b61f1004ff6f62e4e11abd838bd1c9ec4b3daf2517c754fda83a033a2902",
+      "official_verdict": "PathValidationFailure(cause=java.security.cert.CertPathValidatorException: No matching trust anchor found)",
+      "log_sha256": "69fa79267536176f4404d5f608f5da056aade324ae0ef882d9ce7eb8a3d64759"
+    },
+    {
+      "label": "modified_candidate",
+      "source_report": "reports/strict-v18-mgf-aes-aad-forward-hostnonce.json",
+      "source_report_sha256": "a65ef5bb7ea5c136859bb8e9516b6c656831d82e0a4cf97870b6c7f11c02dbbd",
+      "chain_pem_sha256": "c6e9b55fde1ef2a0eb6979a5432d9ed7f46b193a9ae9df1f4a846a6474389a35",
+      "official_verdict": "PathValidationFailure(cause=java.security.cert.CertPathValidatorException: No matching trust anchor found)",
+      "log_sha256": "5c19693d5668a2427234efc63d6769ac51624a034cb7edbd36663ffc02619089"
+    }
+  ],
+  "scope": "Official CLI validates certificate path with Google anchors; this CLI example does not check revocation or supplied nonce. Separate host-nonce audits cover the nonce binding."
+}

@@ -1,0 +1,18 @@
+[
+  {
+    "role": "requester",
+    "serial": "emulator-5584",
+    "package": "dev.androidlab.relayrequester",
+    "built_sha256": "4ad843aca3156d555ce9c3934153c34495bc567144159cffc7faab798f2dd307",
+    "installed_sha256": "4ad843aca3156d555ce9c3934153c34495bc567144159cffc7faab798f2dd307",
+    "matches": true
+  },
+  {
+    "role": "worker",
+    "serial": "emulator-5582",
+    "package": "dev.androidlab.relayworker",
+    "built_sha256": "af02d68a3b09eb6bd3aa7292116f24e26533cf7055b785eb127a06886eea0d9f",
+    "installed_sha256": "af02d68a3b09eb6bd3aa7292116f24e26533cf7055b785eb127a06886eea0d9f",
+    "matches": true
+  }
+]

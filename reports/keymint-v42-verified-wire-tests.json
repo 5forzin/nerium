@@ -1,0 +1,11 @@
+{
+  "backend_sha256": "98a7a6253e0a7d6e491b66f920dec51c6f7d09c37f6c94c0baad462d81cf32ac",
+  "exit_code": 0,
+  "schema_version": 1,
+  "result": {
+    "state": "wire_self_test_passed",
+    "accepted": 2,
+    "rejected": 16,
+    "empty_buffer_payload_bytes": 4
+  }
+}

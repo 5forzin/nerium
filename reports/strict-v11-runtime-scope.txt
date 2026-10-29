@@ -1,0 +1,10 @@
+dev.androidlab.probe
+dev.androidlab.rawprobe
+dev.androidlab.procprobe
+com.eltavine.duckdetector
+com.reveny.emulator.detection.sample
+com.framgia.example.emulatordetector
+com.felhr.emulatordetector
+com.reveny.nativecheck
+icu.nullptr.nativetest
+io.github.vvb2060.nativedetector

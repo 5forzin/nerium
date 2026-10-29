@@ -1,0 +1,33 @@
+{
+  "captured_at": "2026-10-26T00:12:34.242619+00:00",
+  "compiler": "AOSP platform/external/selinux android-14.0.0_r1 commit 48691508f03d1b3861522fdbf7536a9c4d325700",
+  "compiled_with_neverallow_check": true,
+  "control_decompiled_cil_equals_stock": true,
+  "policy_headers": {
+    "original": {
+      "policy_version": 30,
+      "config": "0xc0000001",
+      "sha256": "1159a10c5563dc8604a68fb7cbd492c22470d2dc5f5adaef1c7b64caf2fef81c",
+      "size_bytes": 649007
+    },
+    "control": {
+      "policy_version": 30,
+      "config": "0xc0000001",
+      "sha256": "1159a10c5563dc8604a68fb7cbd492c22470d2dc5f5adaef1c7b64caf2fef81c",
+      "size_bytes": 649007
+    },
+    "candidate": {
+      "policy_version": 30,
+      "config": "0xc0000001",
+      "sha256": "db01ab3ead0e4d48b6e5a4d0bad223917dfcdfef8be4292eee61682cd62f0099",
+      "size_bytes": 649834
+    }
+  },
+  "vendor_before_sha256": "77ec1f00aadab7d5c2ac9a23a2f7688fc65eefc4678a9464b4e59e33e7651cb3",
+  "vendor_after_sha256": "a09396c206a8cc8c2617102109da00126b1cc75e02eca3fe5777b9f23bd9072f",
+  "modified_system_image_bytes": "embedded vendor partition only",
+  "vendor_offset": 875560960,
+  "vendor_size": 95346688,
+  "vendor_e2fsck_clean": true,
+  "other_system_image_bytes_identical": true
+}

@@ -1,0 +1,62 @@
+[
+  {
+    "session_file": "session-control.json",
+    "status": {
+      "session_id": "568b8416f0a14ff3aa5c8d02c36ab04d",
+      "worker_uid": "worker_f21c8e1d34ed4226b778be90",
+      "expires_at_ms": 1793031992056,
+      "revoked": true,
+      "expired": true
+    }
+  },
+  {
+    "session_file": "session-control2.json",
+    "status": {
+      "session_id": "c2ba4f48a4bf47b481202f98ab5d26a4",
+      "worker_uid": "worker_ace0451166804c6cbff1057c",
+      "expires_at_ms": 1793032864328,
+      "revoked": true,
+      "expired": true
+    }
+  },
+  {
+    "session_file": "session-control3.json",
+    "status": {
+      "session_id": "302ab40ab33247d48dfabde18d38c31e",
+      "worker_uid": "worker_13cc0002bf7c4879b7d42098",
+      "expires_at_ms": 1793034386499,
+      "revoked": true,
+      "expired": true
+    }
+  },
+  {
+    "session_file": "session-control-clock.json",
+    "status": {
+      "session_id": "d9c56c9ab9ba4f5b9a1627059e7ea4a5",
+      "worker_uid": "worker_ab8acf310dcc4e2a9839fb9c",
+      "expires_at_ms": 1793036185934,
+      "revoked": true,
+      "expired": false
+    }
+  },
+  {
+    "session_file": "session-physical.json",
+    "status": {
+      "session_id": "fd5037a625bd466c97d93494f2501059",
+      "worker_uid": "worker_d9c23e1a3ff742c8bed5ab0f",
+      "expires_at_ms": 1793033482391,
+      "revoked": true,
+      "expired": true
+    }
+  },
+  {
+    "session_file": "session-physical-clock.json",
+    "status": {
+      "session_id": "d21197a95c974a31a59ba74a90d1b400",
+      "worker_uid": "worker_c75cd95c09dd4f52957e415b",
+      "expires_at_ms": 1793036381362,
+      "revoked": true,
+      "expired": false
+    }
+  }
+]

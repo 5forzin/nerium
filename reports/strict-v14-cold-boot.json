@@ -1,0 +1,161 @@
+{
+  "captured_at": "2026-10-25T00:39:25.4977466+00:00",
+  "boot_id": "606f7d82-9180-46f2-a275-eba7bf4da618",
+  "boot_markers": {
+    "platform-early-ready": "606f7d82-9180-46f2-a275-eba7bf4da618",
+    "platform-late-ready": "606f7d82-9180-46f2-a275-eba7bf4da618",
+    "platform-supervisor-boot": "606f7d82-9180-46f2-a275-eba7bf4da618"
+  },
+  "monitor_pid": 350,
+  "init_tracer": "TracerPid:\t350",
+  "monitor_cgroup": "4:memory:/\n3:cpuset:/\n2:cpu:/\n1:blkio:/\n0::/device-lab-platform",
+  "platform_backend": "Welcome to ReZygiskd64Root-owned userdebug platform backend selected{\"platform_backend_ready\":true,\"uid\":0}",
+  "loaded_selinux_policy_sha256": "725322b8bb21c399e222db65bd9e0ee307a3b603d19d9a3d5f47a93cc8f369c0",
+  "selinux_controls": {
+    "available": true,
+    "uid": 0,
+    "enforcing": true,
+    "cases": [
+      {
+        "name": "stock_zygote_control",
+        "context_valid": true,
+        "errno": 0,
+        "stable": true,
+        "passed": true
+      },
+      {
+        "name": "malformed_control",
+        "context_valid": false,
+        "errno": 22,
+        "stable": true,
+        "passed": true
+      },
+      {
+        "name": "magisk_domain_absent",
+        "context_valid": false,
+        "errno": 22,
+        "stable": true,
+        "passed": true
+      },
+      {
+        "name": "magisk_file_type_absent",
+        "context_valid": false,
+        "errno": 22,
+        "stable": true,
+        "passed": true
+      }
+    ],
+    "passed": 5,
+    "failed": 0,
+    "controls_passed": true
+  },
+  "platform_contract": {
+    "platform_domain_supported": true,
+    "platform_probe_errno": 0,
+    "cases": [
+      {
+        "name": "standard_listener_capacity",
+        "passed": true,
+        "platform_notifications": 0,
+        "application_notifications": 0,
+        "errno": 16
+      },
+      {
+        "name": "unprivileged_platform_flag_rejected",
+        "passed": true,
+        "platform_notifications": 0,
+        "application_notifications": 0,
+        "errno": 16
+      },
+      {
+        "name": "separate_listener_capacity",
+        "passed": true,
+        "platform_notifications": 0,
+        "application_notifications": 0,
+        "errno": 16
+      },
+      {
+        "name": "root_metadata_and_filter_count",
+        "passed": true,
+        "platform_notifications": 0,
+        "application_notifications": 0,
+        "errno": 0
+      },
+      {
+        "name": "independent_targets",
+        "passed": true,
+        "platform_notifications": 1,
+        "application_notifications": 1,
+        "errno": 0
+      },
+      {
+        "name": "overlap_continue_order",
+        "passed": true,
+        "platform_notifications": 1,
+        "application_notifications": 1,
+        "errno": 0
+      },
+      {
+        "name": "application_errno_precedes_platform",
+        "passed": true,
+        "platform_notifications": 0,
+        "application_notifications": 0,
+        "errno": 13
+      },
+      {
+        "name": "application_trap_precedes_platform",
+        "passed": true,
+        "platform_notifications": 0,
+        "application_notifications": 0,
+        "errno": 0
+      },
+      {
+        "name": "fork_inheritance",
+        "passed": true,
+        "platform_notifications": 1,
+        "application_notifications": 0,
+        "errno": 0
+      },
+      {
+        "name": "thread_tsync",
+        "passed": true,
+        "platform_notifications": 2,
+        "application_notifications": 2,
+        "errno": 0
+      },
+      {
+        "name": "exec_inheritance",
+        "passed": true,
+        "platform_notifications": 1,
+        "application_notifications": 0,
+        "errno": 0
+      },
+      {
+        "name": "platform_atomic_fd_injection",
+        "passed": true,
+        "platform_notifications": 1,
+        "application_notifications": 0,
+        "errno": 0
+      }
+    ],
+    "passed": 12,
+    "failed": 0,
+    "unavailable": 0
+  },
+  "bootstrap_binary_sha256": {
+    "/data/misc/device-lab/bootstrap/bin/zygiskd64": "181b1f5d4e14e54b9a805cf570e9a898bb2b000fd910248a8bdf18ad467a7835",
+    "/data/misc/device-lab/bootstrap/bin/zygisk-ptrace64": "ea25206850fff9f862447788839d060f9c1bb84c48ef9a35be7d17fa13231571",
+    "/data/misc/device-lab/bootstrap/lib64/libzygisk.so": "f5b0b332fcee1a65851655035644e8ab1a99c39457935ed6a4080f8cd441b965"
+  },
+  "magisk_bootstrap_binaries_absent": true,
+  "operating_mode": {
+    "usb_debugging": false,
+    "adb_authenticated": true,
+    "usb_persistent": "mtp",
+    "shell_uid": 2000,
+    "usb_runtime": "mtp",
+    "adb_root": false,
+    "adbd": "running",
+    "usb_applied": "mtp"
+  }
+}

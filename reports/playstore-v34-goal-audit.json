@@ -1,0 +1,57 @@
+{
+  "audited_at": "2026-10-26T02:28:42.505827+00:00",
+  "original_objective_preserved": true,
+  "zero_detections_achieved": false,
+  "requirements": [
+    {
+      "requirement": "Zero native emulator findings across the established test suites and independent detectors",
+      "state": "incomplete",
+      "evidence": "playstore-v33-comparison.json",
+      "detail": "Google Play branch retains 28/54, 20/79 and 8/95 detected checks and four Reveny findings; the established zero-detection prototype was not modified."
+    },
+    {
+      "requirement": "Zero Duck danger and warning modules with complete observation",
+      "state": "contradicted",
+      "evidence": "playstore-v34-factory-comparison.json",
+      "detail": "Experimental and factory controls both have three danger, three warning, twenty ready and zero pending modules."
+    },
+    {
+      "requirement": "Genuine hardware-backed Android attestation and recognized device integrity",
+      "state": "blocked_on_external_platform_identity",
+      "evidence": [
+        {
+          "evidence": "playstore-v32-comparison.json",
+          "recognized_device_labels": [],
+          "attestation_objective_satisfied": false
+        },
+        {
+          "evidence": "playstore-v33-comparison.json",
+          "recognized_device_labels": [],
+          "attestation_objective_satisfied": false
+        },
+        {
+          "evidence": "playstore-v34-factory-comparison.json",
+          "recognized_device_labels": [],
+          "attestation_objective_satisfied": false
+        }
+      ],
+      "detail": "The current Windows PC and factory SDK emulator have not supplied recognized Android device identity; the physical S25 Ultra control was positive. Supported ChromeOS hardware is a legitimate, unmeasured candidate."
+    },
+    {
+      "requirement": "Preserve SELinux enforcing and existing measured results",
+      "state": "preserved_in_this_round",
+      "evidence": [
+        "playstore-v33-runtime.json",
+        "playstore-v34-before-lab-apps.json",
+        "playstore-v34-factory-provenance.json"
+      ],
+      "detail": "The v32 candidate was not started or modified; the factory control used fresh userdata."
+    }
+  ],
+  "same_genuine_attestation_dependency_observed_in_three_goal_turns": true,
+  "independent_research": "playstore-v34-genuine-attestation-research.json",
+  "pending_external_input": "Whether a supported Chromebook with Play Store is available for a legitimate ARCVM benchmark",
+  "scope_not_replaced_with_virtual_integrity_or_detector_modification": true,
+  "critical_next_action": "Benchmark genuine Android attestation on a supported provisioned platform; this depends on external hardware access/input, not more SDK metadata changes.",
+  "recognized_platform_access_question_pending": true
+}

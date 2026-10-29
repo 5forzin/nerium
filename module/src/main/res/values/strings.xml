@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Device Lab Runtime</string>
+    <string name="module_instructions">Install the lab namespace module and configure the application scope with set-module.ps1 -NativeOnly. Restart each app after changing its scope.</string>
+</resources>

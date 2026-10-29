@@ -1,0 +1,488 @@
+--------- beginning of main
+10-24 17:25:08.147 11093 11093 I DeviceLabNamespace: profile mount status=0 pid=11093
+10-24 17:25:08.149 11093 11093 I DeviceLabNamespace: uname broker status=0 pid=11093
+10-24 17:25:08.149 11093 11093 I DeviceLabNamespace: proc broker enabled=1
+10-24 17:25:08.159 11093 11093 I DeviceLabPolicy: policy PLT installed=1
+10-24 17:25:08.221 11093 11093 I DeviceLabPolicy: openat2 policy status=0 source_length=260 original_suffix_preserved=1
+10-24 17:25:08.282 11093 11093 I ne.duckdetector: Using CollectorTypeCC GC.
+10-24 17:25:08.287 11093 11093 W ne.duckdetector: Unexpected CPU variant for x86: x86_64.
+10-24 17:25:08.287 11093 11093 W ne.duckdetector: Known variants: atom, sandybridge, silvermont, goldmont, goldmont-plus, tremont, kabylake, default
+10-24 17:25:08.291 11093 11093 E ne.duckdetector: Not starting debugger since process cannot load the jdwp agent.
+10-24 17:25:08.297 11093 11093 W ne.duckdetector: Core platform API violation: Ljava/lang/Class;->accessFlags:I from Lcom/android/internal/os/Zygote; using JNI
+10-24 17:25:08.297 11093 11093 W ne.duckdetector: Core platform API violation: Ljava/lang/reflect/Executable;->artMethod:J from Lcom/android/internal/os/Zygote; using JNI
+10-24 17:25:08.298 11093 11093 W ne.duckdetector: Core platform API violation: Ljava/lang/reflect/Executable;->accessFlags:I from Lcom/android/internal/os/Zygote; using JNI
+10-24 17:25:08.320 11093 11093 W ne.duckdetector: Core platform API violation: Ldalvik/system/BaseDexClassLoader;->pathList:Ldalvik/system/DexPathList; from Lcom/android/internal/os/Zygote; using JNI
+10-24 17:25:08.321 11093 11093 W ne.duckdetector: Core platform API violation: Ldalvik/system/DexPathList;->dexElements:[Ldalvik/system/DexPathList$Element; from Lcom/android/internal/os/Zygote; using JNI
+10-24 17:25:08.321 11093 11093 W ne.duckdetector: Core platform API violation: Ldalvik/system/DexPathList$Element;->dexFile:Ldalvik/system/DexFile; from Lcom/android/internal/os/Zygote; using JNI
+10-24 17:25:08.321 11093 11093 W ne.duckdetector: Core platform API violation: Ldalvik/system/DexFile;->mCookie:Ljava/lang/Object; from Lcom/android/internal/os/Zygote; using JNI
+10-24 17:25:08.329 11093 11093 W BpBinder: Linking to death on org.matrix.vector.ipc.IFrameworkService but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+10-24 17:25:08.331 11093 11093 V VectorDeopter: Skipping deopt for android.app.Instrumentation#newApplication: android.app.Instrumentation.newApplication [class java.lang.ClassLoader, class android.content.Context]
+10-24 17:25:08.333 11093 11093 V Vector  : Loading Vector/Xposed for com.eltavine.duckdetector (UID: 10203)
+10-24 17:25:08.390 11093 11093 V VectorLegacyBridge: Loading legacy module dev.androidlab.module from /data/app/~~U1Lz_1Kp7JfF0Wu2oqtyFA==/dev.androidlab.module-mdqdxQNJAcvPF82j9RvLMg==/base.apk
+10-24 17:25:08.393 11093 11093 W ne.duckdetector: Unsupported class loader
+10-24 17:25:08.394 11093 11093 I VectorNative: Native API entries initialized and protected.
+10-24 17:25:08.412 11093 11093 V VectorLegacyBridge:   Loading class dev.androidlab.module.DeviceHooks
+10-24 17:25:08.425 11093 11093 I DeviceLabPolicy: policy PLT restored=1
+10-24 17:25:08.458 11093 11093 I DeviceLabNamespace: property remap status=0 pid=11093
+10-24 17:25:08.505 11093 11093 D CompatibilityChangeReporter: Compat change id reported: 171979766; UID 10203; state: ENABLED
+10-24 17:25:08.506 11093 11093 D CompatibilityChangeReporter: Compat change id reported: 242716250; UID 10203; state: ENABLED
+10-24 17:25:08.515 11093 11093 D ApplicationLoaders: Returning zygote-cached class loader: /system_ext/framework/androidx.window.extensions.jar
+10-24 17:25:08.516 11093 11093 D ApplicationLoaders: Returning zygote-cached class loader: /system_ext/framework/androidx.window.sidecar.jar
+10-24 17:25:08.520 11093 11093 W ziparchive: Unable to open '/data/app/~~yxshPE5xSECWDj-f-lUm_Q==/com.eltavine.duckdetector-JbMZcWdKSPgz5AIqbFOafg==/base.dm': No such file or directory
+10-24 17:25:08.521 11093 11093 W ziparchive: Unable to open '/data/app/~~yxshPE5xSECWDj-f-lUm_Q==/com.eltavine.duckdetector-JbMZcWdKSPgz5AIqbFOafg==/base.dm': No such file or directory
+10-24 17:25:08.537 11093 11093 D nativeloader: Configuring clns-6 for other apk /data/app/~~yxshPE5xSECWDj-f-lUm_Q==/com.eltavine.duckdetector-JbMZcWdKSPgz5AIqbFOafg==/base.apk. target_sdk_version=37, uses_libraries=, library_path=/data/app/~~yxshPE5xSECWDj-f-lUm_Q==/com.eltavine.duckdetector-JbMZcWdKSPgz5AIqbFOafg==/lib/x86_64:/data/app/~~yxshPE5xSECWDj-f-lUm_Q==/com.eltavine.duckdetector-JbMZcWdKSPgz5AIqbFOafg==/base.apk!/lib/x86_64, permitted_path=/data:/mnt/expand:/data/user/0/com.eltavine.duckdetector
+10-24 17:25:08.543 11093 11093 I VectorNative: Detected registered native module being loaded: '/data/app/~~U1Lz_1Kp7JfF0Wu2oqtyFA==/dev.androidlab.module-mdqdxQNJAcvPF82j9RvLMg==/base.apk!/lib/x86_64/libdevicelab.so'
+10-24 17:25:08.543 11093 11093 I DeviceLabNative: __system_property_get hook status: 0
+10-24 17:25:08.544 11093 11093 I DeviceLabNative: __system_property_read_callback hook status: 0
+10-24 17:25:08.544 11093 11093 I DeviceLabNative: fopen hook status: 0
+10-24 17:25:08.544 11093 11093 I DeviceLabNative: open hook status: 0
+10-24 17:25:08.545 11093 11093 I DeviceLabNative: openat hook status: 0
+10-24 17:25:08.549 11093 11093 I DeviceLabNative: __open_2 hook status: 0
+10-24 17:25:08.550 11093 11093 I DeviceLabNative: __openat_2 hook status: 0
+10-24 17:25:08.550 11093 11093 I DeviceLabNative: uname hook status: 0
+10-24 17:25:08.550 11093 11093 I DeviceLabNative: syscall hook status: 0
+10-24 17:25:08.551 11093 11093 I DeviceLabNative: getauxval hook status: 0
+10-24 17:25:08.551 11093 11093 I DeviceLabNative: readlink hook status: 0
+10-24 17:25:08.551 11093 11093 I DeviceLabNative: readlinkat hook status: 0
+10-24 17:25:08.551 11093 11093 I VectorNative: Initialized native module '/data/app/~~U1Lz_1Kp7JfF0Wu2oqtyFA==/dev.androidlab.module-mdqdxQNJAcvPF82j9RvLMg==/base.apk!/lib/x86_64/libdevicelab.so' and registered its callback.
+10-24 17:25:08.553 11093 11093 I DeviceLabNative: glGetString hook status: 0
+10-24 17:25:08.553 11093 11093 I DeviceLabNative: glGetString hook status: 0
+10-24 17:25:08.592 11093 11093 I VectorLegacyBridge: DeviceLab: native hooks for com.eltavine.duckdetector: get=1 callback=1 fopen=1 open=1 openat=1 open_checked=1 openat_checked=1 uname=1 syscall=1 auxval=1 gl2=1 gl3=1 readlink=1 readlinkat=1 cpu_cache=1 uname_controls=1 raw_uname=aarch64 maps=1/kernel-broker mountinfo=1/kernel-broker
+10-24 17:25:08.633 11093 11093 I VectorLegacyBridge: DeviceLab: Java identity hooks installed for com.eltavine.duckdetector
+10-24 17:25:08.638 11093 11093 V GraphicsEnvironment: Currently set values for:
+10-24 17:25:08.638 11093 11093 V GraphicsEnvironment:   angle_gl_driver_selection_pkgs=[]
+10-24 17:25:08.639 11093 11093 V GraphicsEnvironment:   angle_gl_driver_selection_values=[]
+10-24 17:25:08.639 11093 11093 V GraphicsEnvironment: ANGLE GameManagerService for com.eltavine.duckdetector: false
+10-24 17:25:08.640 11093 11093 V GraphicsEnvironment: com.eltavine.duckdetector is not listed in per-application setting
+10-24 17:25:08.644 11093 11093 V GraphicsEnvironment: Neither updatable production driver nor prerelease driver is supported.
+10-24 17:25:08.739 11093 11116 D libEGL  : loaded /vendor/lib64/egl/libEGL_emulation.so
+10-24 17:25:08.748 11093 11116 D libEGL  : loaded /vendor/lib64/egl/libGLESv1_CM_emulation.so
+10-24 17:25:08.764 11093 11116 D libEGL  : loaded /vendor/lib64/egl/libGLESv2_emulation.so
+10-24 17:25:08.768 11093 11093 E EarlyMountPreload: Failed to get mntent_strings buffer
+10-24 17:25:08.814 11093 11093 W libc    : Access denied finding property "qemu.sf.lcd_density"
+10-24 17:25:08.794 11093 11093 W ne.duckdetector: type=1400 audit(0.0:12020): avc:  denied  { read } for  name="u:object_r:qemu_sf_lcd_density_prop:s0" dev="tmpfs" ino=264 scontext=u:r:untrusted_app:s0:c203,c256,c512,c768 tcontext=u:object_r:qemu_sf_lcd_density_prop:s0 tclass=file permissive=0 app=com.eltavine.duckdetector
+10-24 17:25:08.826 11093 11093 W ne.duckdetector: type=1400 audit(0.0:12021): avc:  denied  { getattr } for  path="/sys/kernel/tracing/trace_marker" dev="tracefs" ino=7935 scontext=u:r:untrusted_app:s0:c203,c256,c512,c768 tcontext=u:object_r:debugfs_trace_marker:s0 tclass=file permissive=0 app=com.eltavine.duckdetector
+10-24 17:25:08.826 11093 11093 W ne.duckdetector: type=1400 audit(0.0:12022): avc:  denied  { getattr } for  path="/sys/kernel/tracing/trace_marker" dev="tracefs" ino=7935 scontext=u:r:untrusted_app:s0:c203,c256,c512,c768 tcontext=u:object_r:debugfs_trace_marker:s0 tclass=file permissive=0 app=com.eltavine.duckdetector
+10-24 17:25:08.826 11093 11093 W ne.duckdetector: type=1400 audit(0.0:12023): avc:  denied  { getattr } for  path="/dev/pmsg0" dev="tmpfs" ino=415 scontext=u:r:untrusted_app:s0:c203,c256,c512,c768 tcontext=u:object_r:pmsg_device:s0 tclass=chr_file permissive=0 app=com.eltavine.duckdetector
+10-24 17:25:08.826 11093 11093 W ne.duckdetector: type=1400 audit(0.0:12024): avc:  denied  { getattr } for  path="/dev/pmsg0" dev="tmpfs" ino=415 scontext=u:r:untrusted_app:s0:c203,c256,c512,c768 tcontext=u:object_r:pmsg_device:s0 tclass=chr_file permissive=0 app=com.eltavine.duckdetector
+10-24 17:25:09.067 11093 11093 I WebViewFactory: Loading com.google.android.webview version 113.0.5672.136 (code 567263637)
+10-24 17:25:09.078 11093 11093 W ziparchive: Unable to open '/data/app/~~TzlpvnPuyMR75d3mQLDJvw==/com.google.android.trichromelibrary_567263637-GvX3w6q2jy7To1Wn8PsRbA==/TrichromeLibrary.dm': No such file or directory
+10-24 17:25:09.081 11093 11093 W ziparchive: Unable to open '/data/app/~~TzlpvnPuyMR75d3mQLDJvw==/com.google.android.trichromelibrary_567263637-GvX3w6q2jy7To1Wn8PsRbA==/TrichromeLibrary.dm': No such file or directory
+10-24 17:25:09.086 11093 11093 W ne.duckdetector: Entry not found
+10-24 17:25:09.089 11093 11093 D nativeloader: Configuring clns-7 for other apk /data/app/~~TzlpvnPuyMR75d3mQLDJvw==/com.google.android.trichromelibrary_567263637-GvX3w6q2jy7To1Wn8PsRbA==/TrichromeLibrary.apk. target_sdk_version=34, uses_libraries=ALL, library_path=/data/app/~~cA2pE84YwiT5hl2ch_Do5g==/com.google.android.webview-Os2J0ASj4ujleapyBoISSw==/lib/x86_64:/data/app/~~cA2pE84YwiT5hl2ch_Do5g==/com.google.android.webview-Os2J0ASj4ujleapyBoISSw==/WebViewGoogle.apk!/lib/x86_64:/data/app/~~TzlpvnPuyMR75d3mQLDJvw==/com.google.android.trichromelibrary_567263637-GvX3w6q2jy7To1Wn8PsRbA==/TrichromeLibrary.apk!/lib/x86_64, permitted_path=/data:/mnt/expand
+10-24 17:25:09.140 11093 11093 D nativeloader: Configuring clns-8 for other apk /data/app/~~cA2pE84YwiT5hl2ch_Do5g==/com.google.android.webview-Os2J0ASj4ujleapyBoISSw==/WebViewGoogle.apk. target_sdk_version=34, uses_libraries=, library_path=/data/app/~~cA2pE84YwiT5hl2ch_Do5g==/com.google.android.webview-Os2J0ASj4ujleapyBoISSw==/lib/x86_64:/data/app/~~cA2pE84YwiT5hl2ch_Do5g==/com.google.android.webview-Os2J0ASj4ujleapyBoISSw==/WebViewGoogle.apk!/lib/x86_64:/data/app/~~TzlpvnPuyMR75d3mQLDJvw==/com.google.android.trichromelibrary_567263637-GvX3w6q2jy7To1Wn8PsRbA==/TrichromeLibrary.apk!/lib/x86_64, permitted_path=/data:/mnt/expand
+10-24 17:25:09.179 11093 11093 I VectorLegacyBridge: DeviceLab: native hooks unavailable for com.google.android.webview
+10-24 17:25:09.179 11093 11093 E VectorLegacyBridge: java.io.IOException: Application cache unavailable
+10-24 17:25:09.179 11093 11093 E VectorLegacyBridge: 	at dev.androidlab.module.DeviceHooks.handleLoadPackage(DeviceHooks.java:79)
+10-24 17:25:09.179 11093 11093 E VectorLegacyBridge: 	at u.qfm.Io.RwsBzkG.V.DCh.IXposedHookLoadPackage$Wrapper.handleLoadPackage(r8-map-id-4e8fef884aca59aee337e225c9e17b9fd6ff1da7e14ff4119d1b2d3bae432287:3)
+10-24 17:25:09.179 11093 11093 E VectorLegacyBridge: 	at u.qfm.Io.RwsBzkG.V.DCh.callbacks.XC_LoadPackage.call(r8-map-id-4e8fef884aca59aee337e225c9e17b9fd6ff1da7e14ff4119d1b2d3bae432287:7)
+10-24 17:25:09.179 11093 11093 E VectorLegacyBridge: 	at u.qfm.Io.RwsBzkG.V.DCh.callbacks.XCallback.callAll(r8-map-id-4e8fef884aca59aee337e225c9e17b9fd6ff1da7e14ff4119d1b2d3bae432287:27)
+10-24 17:25:09.179 11093 11093 E VectorLegacyBridge: 	at p.intercept(r8-map-id-4e8fef884aca59aee337e225c9e17b9fd6ff1da7e14ff4119d1b2d3bae432287:100)
+10-24 17:25:09.179 11093 11093 E VectorLegacyBridge: 	at e2.b(r8-map-id-4e8fef884aca59aee337e225c9e17b9fd6ff1da7e14ff4119d1b2d3bae432287:58)
+10-24 17:25:09.179 11093 11093 E VectorLegacyBridge: 	at e2.proceed(r8-map-id-4e8fef884aca59aee337e225c9e17b9fd6ff1da7e14ff4119d1b2d3bae432287:11)
+10-24 17:25:09.179 11093 11093 E VectorLegacyBridge: 	at c3.callback(r8-map-id-4e8fef884aca59aee337e225c9e17b9fd6ff1da7e14ff4119d1b2d3bae432287:106)
+10-24 17:25:09.179 11093 11093 E VectorLegacyBridge: 	at Vector_.createOrUpdateClassLoaderLocked(Unknown Source:11)
+10-24 17:25:09.179 11093 11093 E VectorLegacyBridge: 	at android.app.LoadedApk.getClassLoader(LoadedApk.java:1126)
+10-24 17:25:09.179 11093 11093 E VectorLegacyBridge: 	at android.app.ContextImpl.getClassLoader(ContextImpl.java:499)
+10-24 17:25:09.179 11093 11093 E VectorLegacyBridge: 	at android.webkit.WebViewFactory.getProviderClass(WebViewFactory.java:508)
+10-24 17:25:09.179 11093 11093 E VectorLegacyBridge: 	at android.webkit.WebViewFactory.getProvider(WebViewFactory.java:348)
+10-24 17:25:09.179 11093 11093 E VectorLegacyBridge: 	at android.webkit.WebView.getFactory(WebView.java:2605)
+10-24 17:25:09.179 11093 11093 E VectorLegacyBridge: 	at android.webkit.WebView.ensureProviderCreated(WebView.java:2599)
+10-24 17:25:09.179 11093 11093 E VectorLegacyBridge: 	at android.webkit.WebView.setOverScrollMode(WebView.java:2667)
+10-24 17:25:09.179 11093 11093 E VectorLegacyBridge: 	at android.view.View.<init>(View.java:5497)
+10-24 17:25:09.179 11093 11093 E VectorLegacyBridge: 	at android.view.View.<init>(View.java:5638)
+10-24 17:25:09.179 11093 11093 E VectorLegacyBridge: 	at android.view.ViewGroup.<init>(ViewGroup.java:704)
+10-24 17:25:09.179 11093 11093 E VectorLegacyBridge: 	at android.widget.AbsoluteLayout.<init>(AbsoluteLayout.java:56)
+10-24 17:25:09.179 11093 11093 E VectorLegacyBridge: 	at android.webkit.WebView.<init>(WebView.java:421)
+10-24 17:25:09.179 11093 11093 E VectorLegacyBridge: 	at android.webkit.WebView.<init>(WebView.java:363)
+10-24 17:25:09.179 11093 11093 E VectorLegacyBridge: 	at android.webkit.WebView.<init>(WebView.java:345)
+10-24 17:25:09.179 11093 11093 E VectorLegacyBridge: 	at android.webkit.WebView.<init>(WebView.java:332)
+10-24 17:25:09.179 11093 11093 E VectorLegacyBridge: 	at android.webkit.WebView.<init>(WebView.java:322)
+10-24 17:25:09.179 11093 11093 E VectorLegacyBridge: 	at com.eltavine.duckdetector.MainActivity.onCreate(r8-map-id-6626279752de961047b5fd5cb04c66ccc6c31e7edecb4f38174c552a66ed9526:162)
+10-24 17:25:09.179 11093 11093 E VectorLegacyBridge: 	at android.app.Activity.performCreate(Activity.java:8595)
+10-24 17:25:09.179 11093 11093 E VectorLegacyBridge: 	at android.app.Activity.performCreate(Activity.java:8573)
+10-24 17:25:09.179 11093 11093 E VectorLegacyBridge: 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1456)
+10-24 17:25:09.179 11093 11093 E VectorLegacyBridge: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3764)
+10-24 17:25:09.179 11093 11093 E VectorLegacyBridge: 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:3922)
+10-24 17:25:09.179 11093 11093 E VectorLegacyBridge: 	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:103)
+10-24 17:25:09.179 11093 11093 E VectorLegacyBridge: 	at android.app.servertransaction.TransactionExecutor.executeCallbacks(TransactionExecutor.java:139)
+10-24 17:25:09.179 11093 11093 E VectorLegacyBridge: 	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:96)
+10-24 17:25:09.179 11093 11093 E VectorLegacyBridge: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2443)
+10-24 17:25:09.179 11093 11093 E VectorLegacyBridge: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+10-24 17:25:09.179 11093 11093 E VectorLegacyBridge: 	at android.os.Looper.loopOnce(Looper.java:205)
+10-24 17:25:09.179 11093 11093 E VectorLegacyBridge: 	at android.os.Looper.loop(Looper.java:294)
+10-24 17:25:09.179 11093 11093 E VectorLegacyBridge: 	at android.app.ActivityThread.main(ActivityThread.java:8177)
+10-24 17:25:09.179 11093 11093 E VectorLegacyBridge: 	at java.lang.reflect.Method.invoke(Native Method)
+10-24 17:25:09.179 11093 11093 E VectorLegacyBridge: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:552)
+10-24 17:25:09.179 11093 11093 E VectorLegacyBridge: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:971)
+10-24 17:25:09.179 11093 11093 I VectorLegacyBridge: DeviceLab: Java identity hooks installed for com.google.android.webview
+10-24 17:25:09.233 11093 11093 I cr_WVCFactoryProvider: Loaded version=113.0.5672.136 minSdkVersion=29 isBundle=false multiprocess=true packageId=2
+10-24 17:25:09.272 11093 11093 I cr_LibraryLoader: Successfully loaded native library
+10-24 17:25:09.273 11093 11093 I cr_CachingUmaRecorder: Flushed 8 samples from 8 histograms.
+10-24 17:25:09.305 11093 11093 D CompatibilityChangeReporter: Compat change id reported: 183155436; UID 10203; state: ENABLED
+10-24 17:25:09.462 11093 11140 E chromium: [ERROR:simple_backend_impl.cc(749)] Simple Cache Backend: cache directory inaccessible right after creation; path: /data/user/0/com.eltavine.duckdetector/cache/WebView/Default/HTTP Cache/Code Cache/wasm
+10-24 17:25:09.463 11093 11141 E chromium: [ERROR:simple_file_enumerator.cc(21)] opendir /data/user/0/com.eltavine.duckdetector/cache/WebView/Default/HTTP Cache/Code Cache/js: No such file or directory (2)
+10-24 17:25:09.463 11093 11141 E chromium: [ERROR:simple_index_file.cc(614)] Could not reconstruct index from disk
+10-24 17:25:09.464 11093 11154 E chromium: [ERROR:disk_cache.cc(205)] Unable to create cache
+10-24 17:25:09.467 11093 11093 D CompatibilityChangeReporter: Compat change id reported: 214741472; UID 10203; state: ENABLED
+10-24 17:25:09.471 11093 11093 D CompatibilityChangeReporter: Compat change id reported: 171228096; UID 10203; state: ENABLED
+10-24 17:25:09.539 11093 11093 D AutofillManager: Fill dialog is enabled:false, hints=[password, passwordAuto, creditCardNumber, creditCardSecurityCode, creditCardExpirationDate]
+10-24 17:25:09.572 11093 11146 W cr_media: BLUETOOTH_CONNECT permission is missing.
+10-24 17:25:09.574 11093 11146 W cr_media: registerBluetoothIntentsIfNeeded: Requires BLUETOOTH permission
+10-24 17:25:09.686 11093 11093 D CompatibilityChangeReporter: Compat change id reported: 237531167; UID 10203; state: DISABLED
+10-24 17:25:09.688 11093 11093 W OpenGLRenderer: Unknown dataspace 0
+10-24 17:25:09.841 11093 11093 D CompatibilityChangeReporter: Compat change id reported: 193247900; UID 10203; state: ENABLED
+10-24 17:25:10.091 11093 11114 W OpenGLRenderer: Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+10-24 17:25:10.092 11093 11114 W OpenGLRenderer: Failed to initialize 101010-2 format, error = EGL_SUCCESS
+10-24 17:25:10.147 11093 11114 I Gralloc4: mapper 4.x is not supported
+10-24 17:25:10.200 11093 11114 E OpenGLRenderer: Unable to match the desired swap behavior.
+10-24 17:25:10.771 11093 11093 D CompatibilityChangeReporter: Compat change id reported: 263076149; UID 10203; state: ENABLED
+10-24 17:25:10.790 11093 11093 W DefaultDispatch: type=1400 audit(0.0:12025): avc:  denied  { getattr } for  path="/dev/socket/adbd" dev="tmpfs" ino=726 scontext=u:r:untrusted_app:s0:c203,c256,c512,c768 tcontext=u:object_r:adbd_socket:s0 tclass=sock_file permissive=0 app=com.eltavine.duckdetector
+10-24 17:25:10.798 11093 11093 W DefaultDispatch: type=1400 audit(0.0:12026): avc:  denied  { read } for  name="u:object_r:verity_status_prop:s0" dev="tmpfs" ino=338 scontext=u:r:untrusted_app:s0:c203,c256,c512,c768 tcontext=u:object_r:verity_status_prop:s0 tclass=file permissive=0 app=com.eltavine.duckdetector
+10-24 17:25:10.808 11093 11192 W libc    : Access denied finding property "partition.odm.verified"
+10-24 17:25:10.798 11093 11093 W DefaultDispatch: type=1400 audit(0.0:12027): avc:  denied  { read } for  name="u:object_r:verity_status_prop:s0" dev="tmpfs" ino=338 scontext=u:r:untrusted_app:s0:c203,c256,c512,c768 tcontext=u:object_r:verity_status_prop:s0 tclass=file permissive=0 app=com.eltavine.duckdetector
+10-24 17:25:10.820 11093 11192 W libc    : Access denied finding property "partition.product.verified"
+10-24 17:25:10.848 11093 11192 W libc    : Access denied finding property "partition.system.verified"
+10-24 17:25:10.850 11093 11192 W libc    : Access denied finding property "partition.system_ext.verified"
+10-24 17:25:10.814 11093 11093 W DefaultDispatch: type=1400 audit(0.0:12028): avc:  denied  { read } for  name="u:object_r:verity_status_prop:s0" dev="tmpfs" ino=338 scontext=u:r:untrusted_app:s0:c203,c256,c512,c768 tcontext=u:object_r:verity_status_prop:s0 tclass=file permissive=0 app=com.eltavine.duckdetector
+10-24 17:25:10.846 11093 11093 W DefaultDispatch: type=1400 audit(0.0:12029): avc:  denied  { read } for  name="u:object_r:verity_status_prop:s0" dev="tmpfs" ino=338 scontext=u:r:untrusted_app:s0:c203,c256,c512,c768 tcontext=u:object_r:verity_status_prop:s0 tclass=file permissive=0 app=com.eltavine.duckdetector
+10-24 17:25:10.868 11093 11192 W libc    : Access denied finding property "partition.vendor.verified"
+10-24 17:25:10.869 11093 11192 W libc    : Access denied finding property "ro.debuggable"
+10-24 17:25:10.869 11093 11192 W libc    : Access denied finding property "ro.oem_unlock_supported"
+10-24 17:25:10.869 11093 11192 W libc    : Access denied finding property "ro.secure"
+10-24 17:25:10.866 11093 11093 W DefaultDispatch: type=1400 audit(0.0:12030): avc:  denied  { read } for  name="u:object_r:verity_status_prop:s0" dev="tmpfs" ino=338 scontext=u:r:untrusted_app:s0:c203,c256,c512,c768 tcontext=u:object_r:verity_status_prop:s0 tclass=file permissive=0 app=com.eltavine.duckdetector
+10-24 17:25:10.866 11093 11093 W DefaultDispatch: type=1400 audit(0.0:12031): avc:  denied  { read } for  name="u:object_r:userdebug_or_eng_prop:s0" dev="tmpfs" ino=321 scontext=u:r:untrusted_app:s0:c203,c256,c512,c768 tcontext=u:object_r:userdebug_or_eng_prop:s0 tclass=file permissive=0 app=com.eltavine.duckdetector
+10-24 17:25:10.866 11093 11093 W DefaultDispatch: type=1400 audit(0.0:12032): avc:  denied  { read } for  name="u:object_r:oem_unlock_prop:s0" dev="tmpfs" ino=245 scontext=u:r:untrusted_app:s0:c203,c256,c512,c768 tcontext=u:object_r:oem_unlock_prop:s0 tclass=file permissive=0 app=com.eltavine.duckdetector
+10-24 17:25:10.866 11093 11093 W DefaultDispatch: type=1400 audit(0.0:12033): avc:  denied  { read } for  name="u:object_r:userdebug_or_eng_prop:s0" dev="tmpfs" ino=321 scontext=u:r:untrusted_app:s0:c203,c256,c512,c768 tcontext=u:object_r:userdebug_or_eng_prop:s0 tclass=file permissive=0 app=com.eltavine.duckdetector
+10-24 17:25:10.986 11093 11192 W libc    : Access denied finding property "ro.debuggable"
+10-24 17:25:11.072 11093 11192 W libc    : Access denied finding property "ro.oem_unlock_supported"
+10-24 17:25:11.076 11093 11205 D CompatibilityChangeReporter: Compat change id reported: 186082280; UID 10203; state: ENABLED
+10-24 17:25:11.184 11093 11192 W libc    : Access denied finding property "ro.secure"
+10-24 17:25:11.191 11093 11219 W libc    : Access denied finding property "partition.odm.verified"
+10-24 17:25:11.194 11093 11218 W libc    : Access denied finding property "qemu.sf.lcd_density"
+10-24 17:25:11.197 11093 11219 W libc    : Access denied finding property "partition.product.verified"
+10-24 17:25:11.201 11093 11219 W libc    : Access denied finding property "partition.system.verified"
+10-24 17:25:11.203 11093 11219 W libc    : Access denied finding property "partition.system_ext.verified"
+10-24 17:25:11.205 11093 11219 W libc    : Access denied finding property "partition.vendor.verified"
+10-24 17:25:11.218 11093 11219 W libc    : Access denied finding property "ro.bootimage.build.fingerprint"
+10-24 17:25:11.267 11093 11219 W libc    : Access denied finding property "ro.debuggable"
+10-24 17:25:11.286 11093 11219 W libc    : Access denied finding property "ro.oem_unlock_supported"
+10-24 17:25:11.294 11093 11219 W libc    : Access denied finding property "ro.secure"
+10-24 17:25:11.321 11093 11219 W libc    : Access denied finding property "ro.bootimage.build.fingerprint"
+10-24 17:25:11.321 11093 11218 W libc    : Access denied finding property "qemu.sf.lcd_density"
+10-24 17:25:11.334 11093 11219 W libc    : Access denied finding property "ro.debuggable"
+10-24 17:25:11.349 11093 11219 W libc    : Access denied finding property "ro.oem_unlock_supported"
+10-24 17:25:11.352 11093 11219 W libc    : Access denied finding property "ro.secure"
+10-24 17:25:11.353 11093 11219 W libc    : Access denied finding property "ro.secure"
+10-24 17:25:12.039 11093 11093 I Choreographer: Skipped 76 frames!  The application may be doing too much work on its main thread.
+10-24 17:25:12.126 11093 11114 D EGL_emulation: app_time_stats: avg=463.46ms min=103.55ms max=1341.49ms count=4
+10-24 17:25:12.144 11093 11231 I OpenGLRenderer: Davey! duration=1593ms; Flags=0, FrameTimelineVsyncId=846042, IntendedVsync=1860521852661, Vsync=1860688519321, InputEventId=0, HandleInputStart=1860692247695, AnimationStart=1860692248120, PerformTraversalsStart=1861227143116, DrawStart=1861227590119, FrameDeadline=1860821852649, FrameInterval=1860691955744, FrameStartTime=16666666, SyncQueued=1861998510092, SyncStart=1862014133974, IssueDrawCommandsStart=1862014416519, SwapBuffers=1862123480601, FrameCompleted=1862130601563, DequeueBufferDuration=5624, QueueBufferDuration=557545, GpuCompleted=1862130601563, SwapBuffersCompleted=1862127462750, DisplayPresentTime=0, CommandSubmissionCompleted=1862123480601, 
+10-24 17:25:12.159 11093 11230 I OpenGLRenderer: Davey! duration=1307ms; Flags=0, FrameTimelineVsyncId=846168, IntendedVsync=1860771852651, Vsync=1862038519267, InputEventId=0, HandleInputStart=1862048849371, AnimationStart=1862048850051, PerformTraversalsStart=1862051323522, DrawStart=1862051371507, FrameDeadline=1862155185929, FrameInterval=1862039235289, FrameStartTime=16666666, SyncQueued=1862051482312, SyncStart=1862127607611, IssueDrawCommandsStart=1862127734484, SwapBuffers=1862129600374, FrameCompleted=1862155746210, DequeueBufferDuration=14717300, QueueBufferDuration=404550, GpuCompleted=1862155746210, SwapBuffersCompleted=1862145394076, DisplayPresentTime=0, CommandSubmissionCompleted=1862129600374, 
+10-24 17:25:12.257 11093 11182 I Soter.SoterCore: soter: SoterCore is call static block to init SoterCore IMPL
+10-24 17:25:12.285 11093 11182 I Soter.SoterCoreBeforeTreble: soter: no SoterProvider found
+10-24 17:25:12.286 11093 11182 I Soter.SoterCore: soter: SoterCore is call static block to init SoterCore IMPL, IMPL is null[true]
+10-24 17:25:12.314 11093 11182 I Soter.SoterCore: soter: SoterCore IMPL is null then call getProviderSoterCore to init
+10-24 17:25:12.332 11093 11182 I Soter.SoterCoreBeforeTreble: soter: no SoterProvider found
+10-24 17:25:12.341 11093 11182 I Soter.SoterCore: soter: SoterCore IMPL is null[true], after call getProviderSoterCore to init
+10-24 17:25:12.344 11093 11182 I Soter.SoterCore: soter: SoterCore IMPL is null then call tryToInitSoterTreble to init
+10-24 17:25:12.357 11093 11182 I Soter.SoterCoreTreble: soter: initSoter in
+10-24 17:25:12.359 11093 11182 I Soter.SyncJob: doAsSyncJob
+10-24 17:25:12.360 11093 11182 I Soter.SoterCoreTreble: soter: bindServiceIfNeeded try to bind
+10-24 17:25:12.403 11093 11182 I Soter.SoterCoreTreble: soter: bindService binding is start 
+10-24 17:25:12.404 11093 11182 I Soter.SoterCoreTreble: soter: initSoter binding
+10-24 17:25:12.520 11093 11214 D CompatibilityChangeReporter: Compat change id reported: 247079863; UID 10203; state: ENABLED
+10-24 17:25:13.065 11093 11093 D DuckSettingsScroll: wordmark viewport=996x383
+10-24 17:25:13.217 11093 11114 D EGL_emulation: app_time_stats: avg=537.57ms min=3.20ms max=1071.95ms count=2
+10-24 17:25:13.223 11093 11093 D DuckSettingsScroll: wordmark build start names=41
+10-24 17:25:13.238 11093 11231 I OpenGLRenderer: Davey! duration=1153ms; Flags=0, FrameTimelineVsyncId=846276, IntendedVsync=1862071852599, Vsync=1862121852597, InputEventId=0, HandleInputStart=1862135600865, AnimationStart=1862135601627, PerformTraversalsStart=1862204703801, DrawStart=1862204731749, FrameDeadline=1862188519261, FrameInterval=1862135596363, FrameStartTime=16666666, SyncQueued=1863155998269, SyncStart=1863156269779, IssueDrawCommandsStart=1863156877754, SwapBuffers=1863216355484, FrameCompleted=1863225173116, DequeueBufferDuration=3351, QueueBufferDuration=316550, GpuCompleted=1863225173116, SwapBuffersCompleted=1863217624596, DisplayPresentTime=0, CommandSubmissionCompleted=1863216355484, 
+10-24 17:25:13.262 11093 11093 W DefaultDispatch: type=1400 audit(0.0:12382): avc:  denied  { getattr } for  path="/sys/kernel/tracing/trace_marker" dev="tracefs" ino=7935 scontext=u:r:untrusted_app:s0:c203,c256,c512,c768 tcontext=u:object_r:debugfs_trace_marker:s0 tclass=file permissive=0 app=com.eltavine.duckdetector
+10-24 17:25:13.292 11093 11093 D DuckSettingsScroll: wordmark build done ms=69
+10-24 17:25:13.293 11093 11093 I Choreographer: Skipped 69 frames!  The application may be doing too much work on its main thread.
+10-24 17:25:13.286 11093 11093 W DefaultDispatch: type=1400 audit(0.0:12383): avc:  denied  { getattr } for  path="/sys/kernel/tracing/trace_marker" dev="tracefs" ino=7935 scontext=u:r:untrusted_app:s0:c203,c256,c512,c768 tcontext=u:object_r:debugfs_trace_marker:s0 tclass=file permissive=0 app=com.eltavine.duckdetector
+10-24 17:25:13.466 11093 11186 D CompatibilityChangeReporter: Compat change id reported: 270306772; UID 10203; state: ENABLED
+10-24 17:25:13.468 11093 11186 D CompatibilityChangeReporter: Compat change id reported: 235355681; UID 10203; state: ENABLED
+10-24 17:25:13.602 11093 11093 W DefaultDispatch: type=1400 audit(0.0:12384): avc:  denied  { getattr } for  path="/sys/kernel/tracing/trace_marker" dev="tracefs" ino=7935 scontext=u:r:untrusted_app:s0:c203,c256,c512,c768 tcontext=u:object_r:debugfs_trace_marker:s0 tclass=file permissive=0 app=com.eltavine.duckdetector
+10-24 17:25:13.602 11093 11093 W DefaultDispatch: type=1400 audit(0.0:12385): avc:  denied  { getattr } for  path="/sys/kernel/tracing/trace_marker" dev="tracefs" ino=7935 scontext=u:r:untrusted_app:s0:c203,c256,c512,c768 tcontext=u:object_r:debugfs_trace_marker:s0 tclass=file permissive=0 app=com.eltavine.duckdetector
+10-24 17:25:13.678 11093 11093 W DefaultDispatch: type=1400 audit(0.0:12386): avc:  denied  { getattr } for  path="/sys/kernel/tracing/trace_marker" dev="tracefs" ino=7935 scontext=u:r:untrusted_app:s0:c203,c256,c512,c768 tcontext=u:object_r:debugfs_trace_marker:s0 tclass=file permissive=0 app=com.eltavine.duckdetector
+10-24 17:25:13.862 11093 11192 W libc    : Access denied finding property "ro.debuggable"
+10-24 17:25:13.865 11093 11231 I OpenGLRenderer: Davey! duration=1721ms; Flags=0, FrameTimelineVsyncId=846284, IntendedVsync=1862138519263, Vsync=1863288519217, InputEventId=0, HandleInputStart=1863293756404, AnimationStart=1863293756982, PerformTraversalsStart=1863772849916, DrawStart=1863772894097, FrameDeadline=1863255185885, FrameInterval=1863293021933, FrameStartTime=16666666, SyncQueued=1863787244492, SyncStart=1863787379806, IssueDrawCommandsStart=1863787525487, SwapBuffers=1863838291986, FrameCompleted=1863860383935, DequeueBufferDuration=3187, QueueBufferDuration=236061, GpuCompleted=1863860383935, SwapBuffersCompleted=1863839565342, DisplayPresentTime=0, CommandSubmissionCompleted=1863838291986, 
+10-24 17:25:13.866 11093 11290 D TrafficStats: tagSocket(220) with statsTag=0xffffffff, statsUid=-1
+10-24 17:25:13.878 11093 11219 W libc    : Access denied finding property "ro.debuggable"
+10-24 17:25:13.886 11093 11219 W libc    : Access denied finding property "partition.system.verified"
+10-24 17:25:13.892 11093 11219 W libc    : Access denied finding property "partition.vendor.verified"
+10-24 17:25:13.896 11093 11219 W libc    : Access denied finding property "partition.product.verified"
+10-24 17:25:13.908 11093 11219 W libc    : Access denied finding property "partition.system_ext.verified"
+10-24 17:25:13.916 11093 11219 W libc    : Access denied finding property "partition.odm.verified"
+10-24 17:25:13.918 11093 11219 W libc    : Access denied finding property "ro.oem_unlock_supported"
+10-24 17:25:13.930 11093 11192 W libc    : Access denied finding property "ro.secure"
+10-24 17:25:13.936 11093 11219 W libc    : Access denied finding property "ro.bootimage.build.fingerprint"
+10-24 17:25:13.940 11093 11192 W libc    : Access denied finding property "ro.oem_unlock_supported"
+10-24 17:25:13.943 11093 11192 W libc    : Access denied finding property "partition.system.verified"
+10-24 17:25:13.948 11093 11192 W libc    : Access denied finding property "partition.vendor.verified"
+10-24 17:25:13.951 11093 11192 W libc    : Access denied finding property "partition.product.verified"
+10-24 17:25:13.952 11093 11192 W libc    : Access denied finding property "partition.system_ext.verified"
+10-24 17:25:13.953 11093 11192 W libc    : Access denied finding property "partition.odm.verified"
+10-24 17:25:14.068 11093 11192 I DrmHalHidl: No hidl drm factories found
+10-24 17:25:14.069 11093 11192 E DrmHalHidl: Failed to find passthrough drm factories
+10-24 17:25:14.171 11093 11231 I OpenGLRenderer: Davey! duration=859ms; Flags=0, FrameTimelineVsyncId=846316, IntendedVsync=1863305185883, Vsync=1863788519197, InputEventId=0, HandleInputStart=1863806669081, AnimationStart=1863806669809, PerformTraversalsStart=1863863417189, DrawStart=1863863455654, FrameDeadline=1863888519193, FrameInterval=1863793948694, FrameStartTime=16666666, SyncQueued=1864096154638, SyncStart=1864096243387, IssueDrawCommandsStart=1864096818690, SwapBuffers=1864146039010, FrameCompleted=1864164742834, DequeueBufferDuration=4249, QueueBufferDuration=4424008, GpuCompleted=1864164742834, SwapBuffersCompleted=1864151270683, DisplayPresentTime=0, CommandSubmissionCompleted=1864146039010, 
+10-24 17:25:14.210 11093 11192 I DrmUtils: found IDrmFactory. Instance name:[android.hardware.drm.IDrmFactory/clearkey]
+10-24 17:25:14.212 11093 11192 I DrmUtils: found IDrmFactory. Instance name:[android.hardware.drm.IDrmFactory/widevine]
+10-24 17:25:14.236 11093 11192 I DrmHalHidl: No hidl drm factories found
+10-24 17:25:14.244 11093 11192 E DrmHalHidl: Failed to find passthrough drm factories
+10-24 17:25:14.255 11093 11114 D EGL_emulation: app_time_stats: avg=345.93ms min=104.18ms max=621.92ms count=3
+10-24 17:25:14.274 11093 11093 W DefaultDispatch: type=1400 audit(0.0:12554): avc:  denied  { setcurrent } for  scontext=u:r:untrusted_app:s0:c203,c256,c512,c768 tcontext=u:r:untrusted_app:s0:c203,c256,c512,c768 tclass=process permissive=0 app=com.eltavine.duckdetector
+10-24 17:25:14.286 11093 11093 W DefaultDispatch: type=1400 audit(0.0:12555): avc:  denied  { setcurrent } for  scontext=u:r:untrusted_app:s0:c203,c256,c512,c768 tcontext=u:r:untrusted_app:s0:c203,c256,c512,c768 tclass=process permissive=0 app=com.eltavine.duckdetector
+10-24 17:25:14.294 11093 11192 I DrmUtils: found IDrmFactory. Instance name:[android.hardware.drm.IDrmFactory/clearkey]
+10-24 17:25:14.286 11093 11093 W DefaultDispatch: type=1400 audit(0.0:12556): avc:  denied  { setcurrent } for  scontext=u:r:untrusted_app:s0:c203,c256,c512,c768 tcontext=u:r:untrusted_app:s0:c203,c256,c512,c768 tclass=process permissive=0 app=com.eltavine.duckdetector
+10-24 17:25:14.306 11093 11192 I DrmUtils: found IDrmFactory. Instance name:[android.hardware.drm.IDrmFactory/widevine]
+10-24 17:25:14.302 11093 11093 W DefaultDispatch: type=1400 audit(0.0:12557): avc:  denied  { setcurrent } for  scontext=u:r:untrusted_app:s0:c203,c256,c512,c768 tcontext=u:r:untrusted_app:s0:c203,c256,c512,c768 tclass=process permissive=0 app=com.eltavine.duckdetector
+10-24 17:25:14.319 11093 11192 I DrmHalHidl: No hidl drm factories found
+10-24 17:25:14.319 11093 11192 E DrmHalHidl: Failed to find passthrough drm factories
+10-24 17:25:14.318 11093 11093 W DefaultDispatch: type=1400 audit(0.0:12558): avc:  denied  { setcurrent } for  scontext=u:r:untrusted_app:s0:c203,c256,c512,c768 tcontext=u:r:untrusted_app:s0:c203,c256,c512,c768 tclass=process permissive=0 app=com.eltavine.duckdetector
+10-24 17:25:14.327 11093 11192 I DrmUtils: found IDrmFactory. Instance name:[android.hardware.drm.IDrmFactory/clearkey]
+10-24 17:25:14.328 11093 11192 I DrmUtils: found IDrmFactory. Instance name:[android.hardware.drm.IDrmFactory/widevine]
+10-24 17:25:14.330 11093 11192 I DrmHalHidl: No hidl drm factories found
+10-24 17:25:14.332 11093 11192 E DrmHalHidl: Failed to find passthrough drm factories
+10-24 17:25:14.342 11093 11192 I DrmUtils: found IDrmFactory. Instance name:[android.hardware.drm.IDrmFactory/clearkey]
+10-24 17:25:14.360 11093 11192 I DrmUtils: found IDrmFactory. Instance name:[android.hardware.drm.IDrmFactory/widevine]
+10-24 17:25:14.460 11093 11192 I DrmHalHidl: No hidl drm factories found
+10-24 17:25:14.461 11093 11192 E DrmHalHidl: Failed to find passthrough drm factories
+10-24 17:25:14.469 11093 11192 I DrmUtils: found IDrmFactory. Instance name:[android.hardware.drm.IDrmFactory/clearkey]
+10-24 17:25:14.474 11093 11192 I DrmUtils: found IDrmFactory. Instance name:[android.hardware.drm.IDrmFactory/widevine]
+10-24 17:25:14.537 11093 11192 D DrmHalAidl: framework logs size 10; plugin logs size 100
+10-24 17:25:14.782 11093 11290 D TrafficStats: tagSocket(191) with statsTag=0xffffffff, statsUid=-1
+10-24 17:25:15.013 11093 11214 I DuckSelinuxCarrier: pid=11093 tid=11214 uid=10203 request scan=1861158 package=com.eltavine.duckdetector service=com.eltavine.duckdetector.capability.selinuxpolicy.data.SelinuxContextValidityCarrierService
+10-24 17:25:15.014 11093 11214 I DuckSelinuxCarrier: pid=11093 tid=11214 uid=10203 shared collection miss scan=1861158
+10-24 17:25:15.016 11093 11214 I DuckSelinuxCarrier: pid=11093 tid=11214 uid=10203 bind=1865014968828 elapsedMs=1 service metadata process=com.eltavine.duckdetector flags=10 appProcess=com.eltavine.duckdetector appUid=10203 apk=/data/app/~~yxshPE5xSECWDj-f-lUm_Q==/com.eltavine.duckdetector-JbMZcWdKSPgz5AIqbFOafg==/base.apk
+10-24 17:25:15.016 11093 11214 I DuckSelinuxCarrier: pid=11093 tid=11214 uid=10203 bind=1865014968828 elapsedMs=1 bindService begin component=ComponentInfo{com.eltavine.duckdetector/com.eltavine.duckdetector.capability.selinuxpolicy.data.SelinuxContextValidityCarrierService}
+10-24 17:25:15.030 11093 11214 I DuckSelinuxCarrier: pid=11093 tid=11214 uid=10203 bind=1865014968828 elapsedMs=15 bindService returned bound=true
+10-24 17:25:15.070 11093 11330 D ProfileInstaller: Skipping profile installation for com.eltavine.duckdetector
+10-24 17:25:15.189 11093 11104 W ne.duckdetector: Suspending all threads took: 10.310ms
+10-24 17:25:15.274 11093 11114 D EGL_emulation: app_time_stats: avg=15.10ms min=2.77ms max=121.56ms count=44
+10-24 17:25:15.296 11093 11104 I ne.duckdetector: NativeAlloc concurrent copying GC freed 386110(17MB) AllocSpace objects, 53(2256KB) LOS objects, 50% free, 15MB/30MB, paused 7.083ms,13.950ms total 1.077s
+10-24 17:25:15.409 11093 11182 E Soter.SoterCoreTreble: soter: initSoter error
+10-24 17:25:15.409 11093 11182 I Soter.SoterCore: soter: SoterCore IMPL is null after call tryToInitSoterTreble to init
+10-24 17:25:15.409 11093 11182 I Soter.SoterCoreBeforeTreble: soter: no SoterProvider found
+10-24 17:25:15.409 11093 11182 E Soter.SoterCore: soter: isNativeSupportSoter IMPL is null, not support soter
+10-24 17:25:15.410 11093 11182 E Soter.SoterCore: soter: isTrebleServiceConnected IMPL is null, not support soter
+10-24 17:25:15.410 11093 11182 E Soter.SoterCore: soter: isNativeSupportSoter IMPL is null, not support soter
+10-24 17:25:15.410 11093 11182 E Soter.SoterCore: soter: isNativeSupportSoter IMPL is null, not support soter
+10-24 17:25:15.410 11093 11182 E Soter.SoterCore: soter: isSupportBiometric type[1] return[false]
+10-24 17:25:15.410 11093 11182 I Soter.BiometricManagerCompat: soter: Biometric provider not initialized type[2]
+10-24 17:25:15.410 11093 11182 E Soter.SoterCore: soter: isSupportBiometric type[2] return[false]
+10-24 17:25:15.410 11093 11182 I Soter.BiometricManagerCompat: soter: Biometric provider not initialized type[2]
+10-24 17:25:15.410 11093 11182 E Soter.SoterCore: soter: removeAuthKey IMPL is null, not support soter
+10-24 17:25:15.942 11093 11093 W DefaultDispatch: type=1400 audit(0.0:12988): avc:  denied  { nlmsg_readpriv } for  scontext=u:r:untrusted_app:s0:c203,c256,c512,c768 tcontext=u:r:untrusted_app:s0:c203,c256,c512,c768 tclass=netlink_route_socket permissive=0 bug=b/155595000 app=com.eltavine.duckdetector
+10-24 17:25:15.950 11093 11093 W DefaultDispatch: type=1400 audit(0.0:12989): avc:  denied  { nlmsg_getneigh } for  scontext=u:r:untrusted_app:s0:c203,c256,c512,c768 tcontext=u:r:untrusted_app:s0:c203,c256,c512,c768 tclass=netlink_route_socket permissive=0 bug=b/155595000 app=com.eltavine.duckdetector
+10-24 17:25:16.250 11093 11114 E OpenGLRenderer: Unable to match the desired swap behavior.
+10-24 17:25:16.386 11093 11093 I Choreographer: Skipped 33 frames!  The application may be doing too much work on its main thread.
+10-24 17:25:16.420 11093 11114 D EGL_emulation: app_time_stats: avg=40.66ms min=2.83ms max=289.19ms count=24
+10-24 17:25:16.649 11093 11182 W JavaBinder: ibinderForJavaObject: 0x7dcae2809140 is not a Binder object
+10-24 17:25:16.649 11093 11182 E Parcel  : Native binder in markForBinder is null for non-null jobject
+10-24 17:25:16.694 11093 11182 W JavaBinder: ibinderForJavaObject: 0x7dcae28091e0 is not a Binder object
+10-24 17:25:16.694 11093 11182 E Parcel  : Native binder in markForBinder is null for non-null jobject
+10-24 17:25:16.721 11093 11195 I DuckSelinuxCarrier: pid=11093 tid=11195 uid=10203 bind=1865014968828 elapsedMs=1706 onServiceConnected component=ComponentInfo{com.eltavine.duckdetector/com.eltavine.duckdetector.capability.selinuxpolicy.data.SelinuxContextValidityCarrierService} binder=43885169 alive=true
+10-24 17:25:16.722 11093 11195 I DuckSelinuxCarrier: pid=11093 tid=11195 uid=10203 snapshot transaction begin
+10-24 17:25:16.723 11093 11182 W JavaBinder: ibinderForJavaObject: 0x7dcae28091e0 is not a Binder object
+10-24 17:25:16.723 11093 11182 E Parcel  : Native binder in markForBinder is null for non-null jobject
+10-24 17:25:16.726 11093 11195 I DuckSelinuxCarrier: pid=11093 tid=11195 uid=10203 snapshot transaction returned chars=9613
+10-24 17:25:16.889 11093 11195 I DuckSelinuxCarrier: pid=11093 tid=11195 uid=10203 bind=1865014968828 elapsedMs=1869 unbind begin connected=true active=true
+10-24 17:25:16.924 11093 11195 I DuckSelinuxCarrier: pid=11093 tid=11195 uid=10203 bind=1865014968828 elapsedMs=1909 unbind returned
+10-24 17:25:16.945 11093 11195 I DuckSelinuxCarrier: pid=11093 tid=11195 uid=10203 bind=1865014968828 elapsedMs=1930 completion resume connected=true active=true
+10-24 17:25:16.957 11093 11290 I DuckSelinuxCarrier: pid=11093 tid=11290 uid=10203 return scan=1861158 available=true carrier=u:r:app_zygote:s0:c512,c768 avc=COLLECTED pairs=512 failure=null
+10-24 17:25:16.982 11093 11093 W DefaultDispatch: type=1400 audit(0.0:13058): avc:  denied  { read } for  name="policyvers" dev="selinuxfs" ino=10 scontext=u:r:untrusted_app:s0:c203,c256,c512,c768 tcontext=u:object_r:selinuxfs:s0 tclass=file permissive=0 app=com.eltavine.duckdetector
+10-24 17:25:17.006 11093 11093 W DefaultDispatch: type=1400 audit(0.0:13059): avc:  denied  { read } for  name="class" dev="selinuxfs" ino=31 scontext=u:r:untrusted_app:s0:c203,c256,c512,c768 tcontext=u:object_r:selinuxfs:s0 tclass=dir permissive=0 app=com.eltavine.duckdetector
+10-24 17:25:17.422 11093 11114 D EGL_emulation: app_time_stats: avg=35.85ms min=3.09ms max=178.99ms count=25
+10-24 17:25:18.445 11093 11114 D EGL_emulation: app_time_stats: avg=25.34ms min=3.20ms max=91.37ms count=32
+10-24 17:25:19.484 11093 11114 D EGL_emulation: app_time_stats: avg=1566.05ms min=1411.31ms max=1720.80ms count=2
+10-24 17:25:19.525 11093 11093 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=falsecallback=bk2@f3dae97
+10-24 17:25:19.531 11093 11114 D EGL_emulation: app_time_stats: avg=16.76ms min=2.87ms max=107.33ms count=45
+10-24 17:25:19.568 11093 11114 D OpenGLRenderer: endAllActiveAnimators on 0x7dcd171f7100 (fh4) with handle 0x7dcd472b91a0
+10-24 17:25:20.499 11093 11114 W ne.duckdetector: Weak pointer dereference blocked for 26 milliseconds.
+10-24 17:25:20.499 11093 11093 W ne.duckdetector: Weak pointer dereference blocked for 19 milliseconds.
+10-24 17:25:20.548 11093 11114 D EGL_emulation: app_time_stats: avg=21.55ms min=2.96ms max=109.86ms count=37
+10-24 17:25:20.812 11093 11104 I ne.duckdetector: Background young concurrent copying GC freed 327964(15MB) AllocSpace objects, 85(2236KB) LOS objects, 53% free, 13MB/30MB, paused 14.900ms,3.630ms total 668.802ms
+10-24 17:25:21.581 11093 11114 D EGL_emulation: app_time_stats: avg=12.56ms min=2.80ms max=55.93ms count=49
+10-24 17:25:21.730 11093 11103 I ne.duckdetector: Compiler allocated 4317KB to compile void te4.b(yl, ry0, ry0, java.util.Map, kb3, b9, int)
+10-24 17:25:22.009 11093 11197 I DuckSelinuxCarrier: pid=11093 tid=11197 uid=10203 request scan=1860906 package=com.eltavine.duckdetector service=com.eltavine.duckdetector.capability.selinuxpolicy.data.SelinuxContextValidityCarrierService
+10-24 17:25:22.009 11093 11197 I DuckSelinuxCarrier: pid=11093 tid=11197 uid=10203 return scan=1860906 available=true carrier=u:r:app_zygote:s0:c512,c768 avc=COLLECTED pairs=512 failure=null
+10-24 17:25:22.615 11093 11114 D EGL_emulation: app_time_stats: avg=15.41ms min=2.68ms max=54.82ms count=44
+10-24 17:25:23.648 11093 11114 D EGL_emulation: app_time_stats: avg=6.72ms min=2.70ms max=33.99ms count=58
+10-24 17:25:24.180 11093 11183 D TrafficStats: tagSocket(186) with statsTag=0xffffffff, statsUid=-1
+10-24 17:25:24.182 11093 11183 D TrafficStats: tagSocket(186) with statsTag=0xffffffff, statsUid=-1
+10-24 17:25:24.188 11093 11183 D TrafficStats: tagSocket(186) with statsTag=0xffffffff, statsUid=-1
+10-24 17:25:24.194 11093 11183 D TrafficStats: tagSocket(186) with statsTag=0xffffffff, statsUid=-1
+10-24 17:25:24.657 11093 11114 D EGL_emulation: app_time_stats: avg=5.47ms min=2.71ms max=32.11ms count=58
+10-24 17:25:25.664 11093 11114 D EGL_emulation: app_time_stats: avg=6.96ms min=2.64ms max=59.07ms count=53
+10-24 17:25:26.668 11093 11114 D EGL_emulation: app_time_stats: avg=5.93ms min=1.74ms max=27.31ms count=55
+10-24 17:25:27.706 11093 11114 D EGL_emulation: app_time_stats: avg=7.03ms min=2.08ms max=45.19ms count=54
+10-24 17:25:28.721 11093 11114 D EGL_emulation: app_time_stats: avg=7.01ms min=2.68ms max=34.05ms count=54
+10-24 17:25:29.745 11093 11114 D EGL_emulation: app_time_stats: avg=5.06ms min=2.52ms max=30.85ms count=53
+10-24 17:25:30.753 11093 11114 D EGL_emulation: app_time_stats: avg=5.94ms min=2.84ms max=43.29ms count=54
+10-24 17:25:31.756 11093 11114 D EGL_emulation: app_time_stats: avg=7.01ms min=1.68ms max=38.58ms count=58
+10-24 17:25:32.789 11093 11114 D EGL_emulation: app_time_stats: avg=6.63ms min=2.78ms max=35.63ms count=54
+10-24 17:25:33.798 11093 11114 D EGL_emulation: app_time_stats: avg=4.67ms min=2.61ms max=23.29ms count=56
+10-24 17:25:34.812 11093 11114 D EGL_emulation: app_time_stats: avg=4.19ms min=1.66ms max=8.77ms count=59
+10-24 17:25:35.826 11093 11114 D EGL_emulation: app_time_stats: avg=2.29ms min=1.36ms max=4.19ms count=61
+10-24 17:25:36.836 11093 11114 D EGL_emulation: app_time_stats: avg=4.64ms min=1.56ms max=10.45ms count=60
+10-24 17:25:37.853 11093 11114 D EGL_emulation: app_time_stats: avg=6.56ms min=2.76ms max=37.86ms count=54
+10-24 17:25:38.879 11093 11114 D EGL_emulation: app_time_stats: avg=6.23ms min=2.67ms max=32.46ms count=55
+10-24 17:25:39.888 11093 11114 D EGL_emulation: app_time_stats: avg=5.72ms min=2.79ms max=28.49ms count=58
+10-24 17:25:40.892 11093 11114 D EGL_emulation: app_time_stats: avg=8.36ms min=2.66ms max=58.63ms count=53
+10-24 17:25:41.896 11093 11114 D EGL_emulation: app_time_stats: avg=5.44ms min=1.83ms max=35.80ms count=57
+10-24 17:25:42.901 11093 11114 D EGL_emulation: app_time_stats: avg=4.73ms min=2.30ms max=28.57ms count=58
+10-24 17:25:43.916 11093 11114 D EGL_emulation: app_time_stats: avg=12.84ms min=2.51ms max=61.14ms count=42
+10-24 17:25:44.934 11093 11114 D EGL_emulation: app_time_stats: avg=11.04ms min=2.66ms max=48.93ms count=49
+10-24 17:25:45.935 11093 11114 D EGL_emulation: app_time_stats: avg=8.06ms min=2.68ms max=57.72ms count=54
+10-24 17:25:46.956 11093 11114 D EGL_emulation: app_time_stats: avg=5.70ms min=2.66ms max=25.85ms count=55
+10-24 17:25:47.964 11093 11114 D EGL_emulation: app_time_stats: avg=4.46ms min=2.59ms max=38.20ms count=58
+10-24 17:25:48.980 11093 11114 D EGL_emulation: app_time_stats: avg=4.90ms min=1.59ms max=28.27ms count=55
+10-24 17:25:49.981 11093 11114 D EGL_emulation: app_time_stats: avg=6.51ms min=1.99ms max=41.52ms count=56
+10-24 17:25:51.008 11093 11114 D EGL_emulation: app_time_stats: avg=5.09ms min=2.62ms max=38.43ms count=58
+10-24 17:25:52.016 11093 11114 D EGL_emulation: app_time_stats: avg=4.50ms min=2.65ms max=22.79ms count=60
+10-24 17:25:53.029 11093 11114 D EGL_emulation: app_time_stats: avg=6.12ms min=2.62ms max=31.51ms count=58
+10-24 17:25:54.037 11093 11114 D EGL_emulation: app_time_stats: avg=5.31ms min=2.59ms max=19.72ms count=55
+10-24 17:25:55.048 11093 11114 D EGL_emulation: app_time_stats: avg=5.83ms min=2.68ms max=30.43ms count=56
+10-24 17:25:56.067 11093 11114 D EGL_emulation: app_time_stats: avg=4.39ms min=2.48ms max=15.44ms count=59
+10-24 17:25:57.093 11093 11114 D EGL_emulation: app_time_stats: avg=6.40ms min=2.79ms max=32.20ms count=54
+10-24 17:25:58.101 11093 11114 D EGL_emulation: app_time_stats: avg=4.65ms min=2.58ms max=29.91ms count=57
+10-24 17:25:59.113 11093 11114 D EGL_emulation: app_time_stats: avg=4.36ms min=2.64ms max=10.31ms count=60
+10-24 17:26:00.116 11093 11114 D EGL_emulation: app_time_stats: avg=8.67ms min=2.82ms max=43.07ms count=56
+10-24 17:26:01.127 11093 11114 D EGL_emulation: app_time_stats: avg=4.87ms min=1.71ms max=28.19ms count=58
+10-24 17:26:02.127 11093 11114 D EGL_emulation: app_time_stats: avg=2.24ms min=1.62ms max=4.34ms count=60
+10-24 17:26:03.140 11093 11114 D EGL_emulation: app_time_stats: avg=4.21ms min=1.43ms max=24.00ms count=57
+10-24 17:26:04.158 11093 11114 D EGL_emulation: app_time_stats: avg=4.13ms min=2.60ms max=12.79ms count=58
+10-24 17:26:05.162 11093 11114 D EGL_emulation: app_time_stats: avg=4.89ms min=2.27ms max=47.96ms count=58
+10-24 17:26:06.174 11093 11114 D EGL_emulation: app_time_stats: avg=6.93ms min=1.92ms max=38.37ms count=53
+10-24 17:26:07.184 11093 11114 D EGL_emulation: app_time_stats: avg=7.14ms min=1.79ms max=32.80ms count=55
+10-24 17:26:08.192 11093 11114 D EGL_emulation: app_time_stats: avg=6.54ms min=1.64ms max=28.27ms count=55
+10-24 17:26:09.195 11093 11114 D EGL_emulation: app_time_stats: avg=4.97ms min=2.68ms max=23.17ms count=56
+10-24 17:26:10.197 11093 11114 D EGL_emulation: app_time_stats: avg=5.55ms min=1.67ms max=28.10ms count=52
+10-24 17:26:11.198 11093 11114 D EGL_emulation: app_time_stats: avg=7.98ms min=2.67ms max=37.01ms count=52
+10-24 17:26:12.219 11093 11114 D EGL_emulation: app_time_stats: avg=3.95ms min=2.55ms max=11.98ms count=59
+10-24 17:26:13.248 11093 11114 D EGL_emulation: app_time_stats: avg=4.47ms min=2.60ms max=13.22ms count=59
+10-24 17:26:14.282 11093 11114 D EGL_emulation: app_time_stats: avg=5.39ms min=2.86ms max=19.64ms count=58
+10-24 17:26:15.293 11093 11114 D EGL_emulation: app_time_stats: avg=7.42ms min=2.95ms max=35.44ms count=57
+10-24 17:26:15.497 11093 11104 I ne.duckdetector: Background young concurrent copying GC freed 144408(8332KB) AllocSpace objects, 103(2060KB) LOS objects, 47% free, 11MB/21MB, paused 20.674ms,14us total 74.518ms
+10-24 17:26:16.296 11093 11114 D EGL_emulation: app_time_stats: avg=7.46ms min=2.97ms max=29.08ms count=54
+10-24 17:26:17.302 11093 11114 D EGL_emulation: app_time_stats: avg=6.39ms min=2.65ms max=24.82ms count=54
+10-24 17:26:18.317 11093 11114 D EGL_emulation: app_time_stats: avg=5.58ms min=2.71ms max=26.11ms count=53
+10-24 17:26:19.321 11093 11114 D EGL_emulation: app_time_stats: avg=5.56ms min=2.54ms max=31.07ms count=53
+10-24 17:26:20.334 11093 11114 D EGL_emulation: app_time_stats: avg=6.62ms min=2.79ms max=29.74ms count=56
+10-24 17:26:21.335 11093 11114 D EGL_emulation: app_time_stats: avg=6.82ms min=2.61ms max=59.32ms count=56
+10-24 17:26:22.335 11093 11114 D EGL_emulation: app_time_stats: avg=6.05ms min=2.54ms max=28.03ms count=59
+10-24 17:26:23.348 11093 11114 D EGL_emulation: app_time_stats: avg=5.57ms min=2.57ms max=33.25ms count=56
+10-24 17:26:24.358 11093 11114 D EGL_emulation: app_time_stats: avg=6.55ms min=2.62ms max=33.27ms count=59
+10-24 17:26:25.362 11093 11114 D EGL_emulation: app_time_stats: avg=4.39ms min=2.58ms max=15.22ms count=60
+10-24 17:26:26.380 11093 11114 D EGL_emulation: app_time_stats: avg=4.61ms min=2.55ms max=29.15ms count=58
+10-24 17:26:27.413 11093 11114 D EGL_emulation: app_time_stats: avg=5.44ms min=2.61ms max=32.86ms count=59
+10-24 17:26:28.413 11093 11114 D EGL_emulation: app_time_stats: avg=4.70ms min=2.72ms max=26.65ms count=60
+10-24 17:26:29.418 11093 11114 D EGL_emulation: app_time_stats: avg=5.04ms min=2.75ms max=15.38ms count=58
+10-24 17:26:30.432 11093 11114 D EGL_emulation: app_time_stats: avg=5.55ms min=2.52ms max=28.05ms count=58
+10-24 17:26:31.437 11093 11114 D EGL_emulation: app_time_stats: avg=5.24ms min=2.61ms max=21.69ms count=57
+10-24 17:26:32.456 11093 11114 D EGL_emulation: app_time_stats: avg=4.75ms min=2.60ms max=27.88ms count=59
+10-24 17:26:33.467 11093 11114 D EGL_emulation: app_time_stats: avg=4.81ms min=2.66ms max=17.97ms count=60
+10-24 17:26:34.481 11093 11114 D EGL_emulation: app_time_stats: avg=5.30ms min=2.76ms max=26.08ms count=60
+10-24 17:26:35.483 11093 11114 D EGL_emulation: app_time_stats: avg=4.40ms min=2.72ms max=8.74ms count=60
+10-24 17:26:36.488 11093 11114 D EGL_emulation: app_time_stats: avg=4.59ms min=2.60ms max=27.18ms count=58
+10-24 17:26:37.497 11093 11114 D EGL_emulation: app_time_stats: avg=3.88ms min=2.66ms max=11.81ms count=61
+10-24 17:26:38.504 11093 11114 D EGL_emulation: app_time_stats: avg=5.92ms min=2.33ms max=30.28ms count=58
+10-24 17:26:39.506 11093 11114 D EGL_emulation: app_time_stats: avg=5.91ms min=2.72ms max=43.87ms count=55
+10-24 17:26:40.513 11093 11114 D EGL_emulation: app_time_stats: avg=4.61ms min=2.75ms max=8.98ms count=61
+10-24 17:26:41.522 11093 11114 D EGL_emulation: app_time_stats: avg=5.30ms min=2.55ms max=25.15ms count=57
+10-24 17:26:42.533 11093 11114 D EGL_emulation: app_time_stats: avg=5.08ms min=2.69ms max=30.66ms count=59
+10-24 17:26:43.546 11093 11114 D EGL_emulation: app_time_stats: avg=4.45ms min=2.61ms max=27.85ms count=60
+10-24 17:26:44.550 11093 11114 D EGL_emulation: app_time_stats: avg=4.83ms min=2.64ms max=28.33ms count=57
+10-24 17:26:45.552 11093 11114 D EGL_emulation: app_time_stats: avg=5.76ms min=2.62ms max=28.12ms count=58
+10-24 17:26:46.566 11093 11114 D EGL_emulation: app_time_stats: avg=5.88ms min=2.65ms max=29.48ms count=56
+10-24 17:26:47.580 11093 11114 D EGL_emulation: app_time_stats: avg=5.14ms min=2.73ms max=23.75ms count=58
+10-24 17:26:48.594 11093 11114 D EGL_emulation: app_time_stats: avg=6.86ms min=2.58ms max=26.98ms count=59
+10-24 17:26:49.596 11093 11114 D EGL_emulation: app_time_stats: avg=4.44ms min=2.52ms max=32.06ms count=59
+10-24 17:26:50.603 11093 11114 D EGL_emulation: app_time_stats: avg=4.55ms min=2.46ms max=28.96ms count=55
+10-24 17:26:51.613 11093 11114 D EGL_emulation: app_time_stats: avg=4.50ms min=2.60ms max=28.00ms count=59
+10-24 17:26:52.613 11093 11114 D EGL_emulation: app_time_stats: avg=5.93ms min=2.55ms max=68.67ms count=57
+10-24 17:26:53.631 11093 11114 D EGL_emulation: app_time_stats: avg=7.15ms min=2.60ms max=32.06ms count=56
+10-24 17:26:54.632 11093 11114 D EGL_emulation: app_time_stats: avg=3.91ms min=2.63ms max=7.97ms count=58
+10-24 17:26:55.647 11093 11114 D EGL_emulation: app_time_stats: avg=7.38ms min=2.65ms max=31.09ms count=60
+10-24 17:26:56.660 11093 11114 D EGL_emulation: app_time_stats: avg=4.19ms min=2.59ms max=26.40ms count=59
+10-24 17:26:57.665 11093 11114 D EGL_emulation: app_time_stats: avg=4.34ms min=2.52ms max=34.04ms count=60
+10-24 17:26:58.666 11093 11114 D EGL_emulation: app_time_stats: avg=3.90ms min=2.58ms max=10.63ms count=60
+10-24 17:26:59.680 11093 11114 D EGL_emulation: app_time_stats: avg=4.48ms min=2.57ms max=13.53ms count=61
+10-24 17:27:00.683 11093 11114 D EGL_emulation: app_time_stats: avg=6.82ms min=2.71ms max=36.45ms count=54
+10-24 17:27:01.707 11093 11114 D EGL_emulation: app_time_stats: avg=3.97ms min=2.66ms max=9.02ms count=60
+10-24 17:27:02.709 11093 11114 D EGL_emulation: app_time_stats: avg=5.37ms min=2.63ms max=28.87ms count=56
+10-24 17:27:03.728 11093 11114 D EGL_emulation: app_time_stats: avg=3.78ms min=2.66ms max=7.43ms count=61
+10-24 17:27:04.729 11093 11114 D EGL_emulation: app_time_stats: avg=4.09ms min=2.58ms max=25.52ms count=60
+10-24 17:27:05.731 11093 11114 D EGL_emulation: app_time_stats: avg=4.35ms min=2.62ms max=8.27ms count=58
+10-24 17:27:06.732 11093 11114 D EGL_emulation: app_time_stats: avg=4.21ms min=2.62ms max=9.40ms count=57
+10-24 17:27:07.748 11093 11114 D EGL_emulation: app_time_stats: avg=8.59ms min=2.56ms max=34.03ms count=56
+10-24 17:27:08.750 11093 11114 D EGL_emulation: app_time_stats: avg=4.39ms min=2.56ms max=12.89ms count=60
+10-24 17:27:09.762 11093 11114 D EGL_emulation: app_time_stats: avg=5.41ms min=2.61ms max=27.57ms count=59
+10-24 17:27:10.768 11093 11114 D EGL_emulation: app_time_stats: avg=4.59ms min=2.37ms max=28.24ms count=58
+10-24 17:27:11.773 11093 11114 D EGL_emulation: app_time_stats: avg=4.05ms min=2.63ms max=9.34ms count=59
+10-24 17:27:12.782 11093 11114 D EGL_emulation: app_time_stats: avg=4.91ms min=2.60ms max=22.97ms count=60
+10-24 17:27:13.819 11093 11114 D EGL_emulation: app_time_stats: avg=4.60ms min=2.56ms max=31.23ms count=57
+10-24 17:27:14.837 11093 11114 D EGL_emulation: app_time_stats: avg=6.94ms min=2.52ms max=36.05ms count=57
+10-24 17:27:15.848 11093 11114 D EGL_emulation: app_time_stats: avg=5.87ms min=2.55ms max=28.43ms count=58
+10-24 17:27:16.848 11093 11114 D EGL_emulation: app_time_stats: avg=5.63ms min=2.68ms max=28.80ms count=57
+10-24 17:27:17.868 11093 11114 D EGL_emulation: app_time_stats: avg=4.17ms min=2.63ms max=10.51ms count=58
+10-24 17:27:18.890 11093 11114 D EGL_emulation: app_time_stats: avg=5.52ms min=2.56ms max=32.51ms count=57
+10-24 17:27:19.913 11093 11114 D EGL_emulation: app_time_stats: avg=5.22ms min=2.57ms max=30.16ms count=58
+10-24 17:27:20.914 11093 11114 D EGL_emulation: app_time_stats: avg=3.88ms min=2.56ms max=7.41ms count=59
+10-24 17:27:21.915 11093 11114 D EGL_emulation: app_time_stats: avg=4.08ms min=2.75ms max=12.19ms count=60
+10-24 17:27:22.917 11093 11114 D EGL_emulation: app_time_stats: avg=5.56ms min=2.55ms max=29.98ms count=57
+10-24 17:27:23.932 11093 11114 D EGL_emulation: app_time_stats: avg=4.52ms min=2.65ms max=17.10ms count=58
+10-24 17:27:24.954 11093 11114 D EGL_emulation: app_time_stats: avg=5.56ms min=2.51ms max=31.60ms count=56
+10-24 17:27:25.960 11093 11114 D EGL_emulation: app_time_stats: avg=4.97ms min=2.58ms max=28.93ms count=58
+10-24 17:27:26.969 11093 11114 D EGL_emulation: app_time_stats: avg=4.26ms min=2.62ms max=30.01ms count=59
+10-24 17:27:27.970 11093 11114 D EGL_emulation: app_time_stats: avg=4.20ms min=2.59ms max=27.10ms count=58
+10-24 17:27:28.992 11093 11114 D EGL_emulation: app_time_stats: avg=6.37ms min=2.62ms max=26.28ms count=57
+10-24 17:27:30.004 11093 11114 D EGL_emulation: app_time_stats: avg=5.79ms min=2.62ms max=28.83ms count=59
+10-24 17:27:31.005 11093 11114 D EGL_emulation: app_time_stats: avg=5.24ms min=2.56ms max=29.82ms count=58
+10-24 17:27:32.020 11093 11114 D EGL_emulation: app_time_stats: avg=5.40ms min=2.58ms max=28.37ms count=59
+10-24 17:27:33.036 11093 11114 D EGL_emulation: app_time_stats: avg=3.62ms min=2.58ms max=7.45ms count=61
+10-24 17:27:34.036 11093 11114 D EGL_emulation: app_time_stats: avg=7.24ms min=2.52ms max=29.75ms count=57
+10-24 17:27:35.055 11093 11114 D EGL_emulation: app_time_stats: avg=4.23ms min=2.57ms max=10.28ms count=59
+10-24 17:27:36.056 11093 11114 D EGL_emulation: app_time_stats: avg=4.47ms min=2.62ms max=20.69ms count=58
+10-24 17:27:37.064 11093 11114 D EGL_emulation: app_time_stats: avg=4.02ms min=2.45ms max=9.43ms count=60
+10-24 17:27:38.075 11093 11114 D EGL_emulation: app_time_stats: avg=8.87ms min=2.58ms max=28.59ms count=56
+10-24 17:27:39.081 11093 11114 D EGL_emulation: app_time_stats: avg=4.25ms min=2.61ms max=14.43ms count=61
+10-24 17:27:40.105 11093 11114 D EGL_emulation: app_time_stats: avg=4.35ms min=2.61ms max=14.19ms count=58
+10-24 17:27:41.125 11093 11114 D EGL_emulation: app_time_stats: avg=4.70ms min=2.60ms max=28.79ms count=60
+10-24 17:27:42.134 11093 11114 D EGL_emulation: app_time_stats: avg=4.46ms min=2.52ms max=33.95ms count=60
+10-24 17:27:43.154 11093 11114 D EGL_emulation: app_time_stats: avg=4.24ms min=2.56ms max=8.82ms count=60
+10-24 17:27:44.172 11093 11114 D EGL_emulation: app_time_stats: avg=4.46ms min=2.62ms max=27.98ms count=59
+10-24 17:27:45.181 11093 11114 D EGL_emulation: app_time_stats: avg=3.99ms min=2.55ms max=25.04ms count=59
+10-24 17:27:46.184 11093 11114 D EGL_emulation: app_time_stats: avg=6.54ms min=2.63ms max=31.93ms count=55
+10-24 17:27:47.196 11093 11114 D EGL_emulation: app_time_stats: avg=4.90ms min=2.50ms max=30.16ms count=56
+10-24 17:27:48.196 11093 11114 D EGL_emulation: app_time_stats: avg=5.61ms min=2.61ms max=22.41ms count=57
+10-24 17:27:49.200 11093 11114 D EGL_emulation: app_time_stats: avg=5.52ms min=2.57ms max=32.22ms count=58
+10-24 17:27:50.222 11093 11114 D EGL_emulation: app_time_stats: avg=4.64ms min=2.61ms max=29.71ms count=59
+10-24 17:27:51.239 11093 11114 D EGL_emulation: app_time_stats: avg=3.85ms min=2.55ms max=9.01ms count=60
+10-24 17:27:52.255 11093 11114 D EGL_emulation: app_time_stats: avg=5.52ms min=2.56ms max=28.37ms count=57
+10-24 17:27:53.263 11093 11114 D EGL_emulation: app_time_stats: avg=5.11ms min=2.52ms max=31.96ms count=60
+10-24 17:27:54.281 11093 11114 D EGL_emulation: app_time_stats: avg=5.16ms min=2.53ms max=28.16ms count=57
+10-24 17:27:55.287 11093 11114 D EGL_emulation: app_time_stats: avg=4.08ms min=2.52ms max=27.63ms count=59
+10-24 17:27:56.290 11093 11114 D EGL_emulation: app_time_stats: avg=5.29ms min=2.56ms max=31.84ms count=58
+10-24 17:27:57.295 11093 11114 D EGL_emulation: app_time_stats: avg=3.66ms min=2.65ms max=8.30ms count=59
+10-24 17:27:58.301 11093 11114 D EGL_emulation: app_time_stats: avg=5.34ms min=2.62ms max=29.44ms count=57
+10-24 17:27:59.329 11093 11114 D EGL_emulation: app_time_stats: avg=3.52ms min=2.57ms max=6.19ms count=60
+10-24 17:28:00.361 11093 11114 D EGL_emulation: app_time_stats: avg=6.92ms min=2.60ms max=32.27ms count=58
+10-24 17:28:01.364 11093 11114 D EGL_emulation: app_time_stats: avg=6.59ms min=2.48ms max=32.50ms count=55
+10-24 17:28:02.378 11093 11114 D EGL_emulation: app_time_stats: avg=6.24ms min=2.61ms max=28.49ms count=54
+10-24 17:28:03.386 11093 11114 D EGL_emulation: app_time_stats: avg=3.92ms min=2.55ms max=7.73ms count=58
+10-24 17:28:04.396 11093 11114 D EGL_emulation: app_time_stats: avg=4.55ms min=2.42ms max=27.59ms count=59
+10-24 17:28:05.400 11093 11114 D EGL_emulation: app_time_stats: avg=10.59ms min=2.62ms max=32.92ms count=53
+10-24 17:28:06.413 11093 11114 D EGL_emulation: app_time_stats: avg=7.01ms min=2.60ms max=29.86ms count=59
+10-24 17:28:07.424 11093 11114 D EGL_emulation: app_time_stats: avg=4.79ms min=2.51ms max=27.68ms count=57
+10-24 17:28:08.445 11093 11114 D EGL_emulation: app_time_stats: avg=3.66ms min=2.52ms max=9.33ms count=59
+10-24 17:28:09.451 11093 11114 D EGL_emulation: app_time_stats: avg=6.55ms min=2.38ms max=28.95ms count=59
+10-24 17:28:10.464 11093 11114 D EGL_emulation: app_time_stats: avg=6.41ms min=2.73ms max=30.54ms count=59
+10-24 17:28:11.471 11093 11114 D EGL_emulation: app_time_stats: avg=4.35ms min=2.54ms max=13.29ms count=59
+10-24 17:28:12.490 11093 11114 D EGL_emulation: app_time_stats: avg=3.83ms min=2.50ms max=11.68ms count=58
+10-24 17:28:13.497 11093 11114 D EGL_emulation: app_time_stats: avg=4.08ms min=2.58ms max=7.96ms count=60
+10-24 17:28:14.501 11093 11114 D EGL_emulation: app_time_stats: avg=3.86ms min=2.57ms max=14.79ms count=60
+10-24 17:28:15.513 11093 11114 D EGL_emulation: app_time_stats: avg=5.55ms min=2.72ms max=26.82ms count=60
+10-24 17:28:16.523 11093 11114 D EGL_emulation: app_time_stats: avg=5.30ms min=2.66ms max=44.39ms count=58
+10-24 17:28:17.533 11093 11114 D EGL_emulation: app_time_stats: avg=14.03ms min=2.80ms max=119.00ms count=46
+10-24 17:29:00.059 11093 11114 D EGL_emulation: app_time_stats: avg=21259.91ms min=3.58ms max=42516.23ms count=2

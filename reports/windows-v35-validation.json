@@ -1,0 +1,11 @@
+{
+  "json_reports_parsed": 7,
+  "boot_attempts_verified": 9,
+  "all_log_hashes_match": true,
+  "tool_hashes_match": true,
+  "tpm_signing_and_offline_controls_passed": true,
+  "v32_extent_matches": true,
+  "running_qemu_processes": 0,
+  "prior_detector_suites_rerun": false,
+  "zero_detections_achieved": false
+}

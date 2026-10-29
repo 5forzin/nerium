@@ -1,0 +1,556 @@
+{
+  "name": "synthetic_protocol_rules_fixtures_not_apk_execution_or_attestation",
+  "passed": true,
+  "tests": [
+    {
+      "name": "deployed_rules_match_local",
+      "status_code": 200,
+      "expected_codes": [
+        200
+      ],
+      "passed": true,
+      "elapsed_ms": 2078,
+      "request_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "response_sha256": "2f2c364bd7ad5d5c3f3fdb4d13206ace7e967db4dbaa2ffcdcfe7619b089194d"
+    },
+    {
+      "name": "fixture_session_create",
+      "status_code": 200,
+      "expected_codes": [
+        200
+      ],
+      "passed": true,
+      "elapsed_ms": 185,
+      "request_sha256": "a237a04e80048a7ff3fb78b9d35cd46c110a7847469c8e0f8cc4d0136779c1cf",
+      "response_sha256": "a237a04e80048a7ff3fb78b9d35cd46c110a7847469c8e0f8cc4d0136779c1cf"
+    },
+    {
+      "name": "fixture_session_create",
+      "status_code": 200,
+      "expected_codes": [
+        200
+      ],
+      "passed": true,
+      "elapsed_ms": 195,
+      "request_sha256": "f67cc72069111004baf12a70f3ba0a12eb3844148c6f438616568f9b554aa28d",
+      "response_sha256": "f67cc72069111004baf12a70f3ba0a12eb3844148c6f438616568f9b554aa28d"
+    },
+    {
+      "name": "fixture_job_create",
+      "status_code": 200,
+      "expected_codes": [
+        200
+      ],
+      "passed": true,
+      "elapsed_ms": 519,
+      "request_sha256": "a1641f03240ef215334df8a68f67ca76e9b294f84cca93d01e9e951925f0673a",
+      "response_sha256": "a1641f03240ef215334df8a68f67ca76e9b294f84cca93d01e9e951925f0673a"
+    },
+    {
+      "name": "unauthenticated_read_denied",
+      "status_code": 401,
+      "expected_codes": [
+        401,
+        403
+      ],
+      "passed": true,
+      "elapsed_ms": 145,
+      "request_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "response_sha256": "2c31c3cd9a960d6a78ff9728ec9210fe6cf8e51c08ab8f9c17b81cbb78981674"
+    },
+    {
+      "name": "wrong_uid_read_denied",
+      "status_code": 401,
+      "expected_codes": [
+        401,
+        403
+      ],
+      "passed": true,
+      "elapsed_ms": 142,
+      "request_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "response_sha256": "2c31c3cd9a960d6a78ff9728ec9210fe6cf8e51c08ab8f9c17b81cbb78981674"
+    },
+    {
+      "name": "correct_worker_read_allowed",
+      "status_code": 200,
+      "expected_codes": [
+        200
+      ],
+      "passed": true,
+      "elapsed_ms": 147,
+      "request_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "response_sha256": "a1641f03240ef215334df8a68f67ca76e9b294f84cca93d01e9e951925f0673a"
+    },
+    {
+      "name": "worker_inbox_write_denied",
+      "status_code": 401,
+      "expected_codes": [
+        401,
+        403
+      ],
+      "passed": true,
+      "elapsed_ms": 144,
+      "request_sha256": "a1641f03240ef215334df8a68f67ca76e9b294f84cca93d01e9e951925f0673a",
+      "response_sha256": "2c31c3cd9a960d6a78ff9728ec9210fe6cf8e51c08ab8f9c17b81cbb78981674"
+    },
+    {
+      "name": "worker_session_write_denied",
+      "status_code": 401,
+      "expected_codes": [
+        401,
+        403
+      ],
+      "passed": true,
+      "elapsed_ms": 150,
+      "request_sha256": "e35edb6495ef7fcd38ccf18e6c6c94401834abaa9e3f19a9ad43fe82eb2a828b",
+      "response_sha256": "2c31c3cd9a960d6a78ff9728ec9210fe6cf8e51c08ab8f9c17b81cbb78981674"
+    },
+    {
+      "name": "wrong_session_claim_denied",
+      "status_code": 401,
+      "expected_codes": [
+        401,
+        403
+      ],
+      "passed": true,
+      "elapsed_ms": 143,
+      "request_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "response_sha256": "2c31c3cd9a960d6a78ff9728ec9210fe6cf8e51c08ab8f9c17b81cbb78981674"
+    },
+    {
+      "name": "expired_session_claim_denied",
+      "status_code": 401,
+      "expected_codes": [
+        401,
+        403
+      ],
+      "passed": true,
+      "elapsed_ms": 143,
+      "request_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "response_sha256": "2c31c3cd9a960d6a78ff9728ec9210fe6cf8e51c08ab8f9c17b81cbb78981674"
+    },
+    {
+      "name": "fixture_revoke_session",
+      "status_code": 200,
+      "expected_codes": [
+        200
+      ],
+      "passed": true,
+      "elapsed_ms": 167,
+      "request_sha256": "e35edb6495ef7fcd38ccf18e6c6c94401834abaa9e3f19a9ad43fe82eb2a828b",
+      "response_sha256": "e35edb6495ef7fcd38ccf18e6c6c94401834abaa9e3f19a9ad43fe82eb2a828b"
+    },
+    {
+      "name": "fixture_job_create",
+      "status_code": 200,
+      "expected_codes": [
+        200
+      ],
+      "passed": true,
+      "elapsed_ms": 230,
+      "request_sha256": "f1fe863cd7d7f8b3aa86bfb63adac76521b41bf749531c09a2c99fb50f0f36aa",
+      "response_sha256": "f1fe863cd7d7f8b3aa86bfb63adac76521b41bf749531c09a2c99fb50f0f36aa"
+    },
+    {
+      "name": "revoked_session_read_denied",
+      "status_code": 401,
+      "expected_codes": [
+        401,
+        403
+      ],
+      "passed": true,
+      "elapsed_ms": 1358,
+      "request_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "response_sha256": "2c31c3cd9a960d6a78ff9728ec9210fe6cf8e51c08ab8f9c17b81cbb78981674"
+    },
+    {
+      "name": "fixture_job_create",
+      "status_code": 200,
+      "expected_codes": [
+        200
+      ],
+      "passed": true,
+      "elapsed_ms": 181,
+      "request_sha256": "30253df89ec3ca944fff455bc02b771d49bca99a1b7b97bcb95064a14dff37ba",
+      "response_sha256": "30253df89ec3ca944fff455bc02b771d49bca99a1b7b97bcb95064a14dff37ba"
+    },
+    {
+      "name": "clock_fixture_absent_with_https_date",
+      "status_code": 200,
+      "expected_codes": [
+        200
+      ],
+      "passed": true,
+      "elapsed_ms": 146,
+      "request_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "response_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b"
+    },
+    {
+      "name": "clock_naive_start_before_job_creation_denied",
+      "status_code": 401,
+      "expected_codes": [
+        401,
+        403
+      ],
+      "passed": true,
+      "elapsed_ms": 144,
+      "request_sha256": "aaa70b513895d07cb1c3c255145c61b15d8cfa09d351e8953c9d9b068dd17b32",
+      "response_sha256": "2c31c3cd9a960d6a78ff9728ec9210fe6cf8e51c08ab8f9c17b81cbb78981674"
+    },
+    {
+      "name": "clock_excessive_future_lease_denied",
+      "status_code": 401,
+      "expected_codes": [
+        401,
+        403
+      ],
+      "passed": true,
+      "elapsed_ms": 144,
+      "request_sha256": "86af9bcef11386afd8b09c6fee65b5adeef9655e61549f42fd1564592ab57a59",
+      "response_sha256": "2c31c3cd9a960d6a78ff9728ec9210fe6cf8e51c08ab8f9c17b81cbb78981674"
+    },
+    {
+      "name": "clock_server_timestamp_lease_allowed",
+      "status_code": 200,
+      "expected_codes": [
+        200
+      ],
+      "passed": true,
+      "elapsed_ms": 445,
+      "request_sha256": "b07e866dabb55a20422b75a54b0fd7b8dd03343dd9523034d72fa3fa42adc7f4",
+      "response_sha256": "fad86d84ddf194b851bcc261b37adb8add6193b7950e13e334660e74a14fe502"
+    },
+    {
+      "name": "clock_lease_response_resolved_numeric_start",
+      "status_code": 200,
+      "expected_codes": [
+        200
+      ],
+      "passed": true,
+      "elapsed_ms": 445,
+      "request_sha256": "b07e866dabb55a20422b75a54b0fd7b8dd03343dd9523034d72fa3fa42adc7f4",
+      "response_sha256": "fad86d84ddf194b851bcc261b37adb8add6193b7950e13e334660e74a14fe502"
+    },
+    {
+      "name": "clock_lease_completion_snapshot_read",
+      "status_code": 200,
+      "expected_codes": [
+        200
+      ],
+      "passed": true,
+      "elapsed_ms": 142,
+      "request_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "response_sha256": "fad86d84ddf194b851bcc261b37adb8add6193b7950e13e334660e74a14fe502"
+    },
+    {
+      "name": "clock_server_timestamp_completion_allowed",
+      "status_code": 200,
+      "expected_codes": [
+        200
+      ],
+      "passed": true,
+      "elapsed_ms": 696,
+      "request_sha256": "d2ebb851ba6f6724ec56d988ac9351f54844861cbf993554dfb149b247bd5107",
+      "response_sha256": "5cc42b1e510a958729e70e245ea28537e59ff919e02c6787590b27e33d219d5c"
+    },
+    {
+      "name": "clock_completion_response_resolved_numeric_time",
+      "status_code": 200,
+      "expected_codes": [
+        200
+      ],
+      "passed": true,
+      "elapsed_ms": 696,
+      "request_sha256": "d2ebb851ba6f6724ec56d988ac9351f54844861cbf993554dfb149b247bd5107",
+      "response_sha256": "5cc42b1e510a958729e70e245ea28537e59ff919e02c6787590b27e33d219d5c"
+    },
+    {
+      "name": "cleanup_race_remove_inbox_first",
+      "status_code": 200,
+      "expected_codes": [
+        200
+      ],
+      "passed": true,
+      "elapsed_ms": 174,
+      "request_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "response_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b"
+    },
+    {
+      "name": "cleanup_race_remove_execution_after_inbox",
+      "status_code": 200,
+      "expected_codes": [
+        200
+      ],
+      "passed": true,
+      "elapsed_ms": 1062,
+      "request_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "response_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b"
+    },
+    {
+      "name": "cleanup_race_reacquire_without_inbox_denied",
+      "status_code": 401,
+      "expected_codes": [
+        401,
+        403
+      ],
+      "passed": true,
+      "elapsed_ms": 146,
+      "request_sha256": "4a600bfc2a1a54a4ea52b1b36de6341bb3e693aa30a46c5c13fdda33a790d5dc",
+      "response_sha256": "2c31c3cd9a960d6a78ff9728ec9210fe6cf8e51c08ab8f9c17b81cbb78981674"
+    },
+    {
+      "name": "cleanup_race_execution_remains_absent",
+      "status_code": 200,
+      "expected_codes": [
+        200
+      ],
+      "passed": true,
+      "elapsed_ms": 178,
+      "request_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "response_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b"
+    },
+    {
+      "name": "execution_initially_absent",
+      "status_code": 200,
+      "expected_codes": [
+        200
+      ],
+      "passed": true,
+      "elapsed_ms": 147,
+      "request_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "response_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b"
+    },
+    {
+      "name": "acquire_lease_allowed",
+      "status_code": 200,
+      "expected_codes": [
+        200
+      ],
+      "passed": true,
+      "elapsed_ms": 145,
+      "request_sha256": "17c3329777ae879911840fef902f9390d8b59f306c299dca7318f49488d9c2e6",
+      "response_sha256": "17c3329777ae879911840fef902f9390d8b59f306c299dca7318f49488d9c2e6"
+    },
+    {
+      "name": "stale_etag_compare_and_set_rejected",
+      "status_code": 412,
+      "expected_codes": [
+        412
+      ],
+      "passed": true,
+      "elapsed_ms": 144,
+      "request_sha256": "b6ba6ee77b068cc2b56c37a7d26eb424f63ca05bc7cd80befdfcf1c8b71325fa",
+      "response_sha256": "17c3329777ae879911840fef902f9390d8b59f306c299dca7318f49488d9c2e6"
+    },
+    {
+      "name": "lease_snapshot_read_allowed",
+      "status_code": 200,
+      "expected_codes": [
+        200
+      ],
+      "passed": true,
+      "elapsed_ms": 143,
+      "request_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "response_sha256": "17c3329777ae879911840fef902f9390d8b59f306c299dca7318f49488d9c2e6"
+    },
+    {
+      "name": "matching_lease_renewal_allowed",
+      "status_code": 200,
+      "expected_codes": [
+        200
+      ],
+      "passed": true,
+      "elapsed_ms": 146,
+      "request_sha256": "b6ba6ee77b068cc2b56c37a7d26eb424f63ca05bc7cd80befdfcf1c8b71325fa",
+      "response_sha256": "b6ba6ee77b068cc2b56c37a7d26eb424f63ca05bc7cd80befdfcf1c8b71325fa"
+    },
+    {
+      "name": "wrong_uid_completion_denied",
+      "status_code": 401,
+      "expected_codes": [
+        401,
+        403
+      ],
+      "passed": true,
+      "elapsed_ms": 143,
+      "request_sha256": "6902a460dc4027bcd436b21aa3b91f5d46513f376d5bf7a6b49cf95b1943f3c9",
+      "response_sha256": "2c31c3cd9a960d6a78ff9728ec9210fe6cf8e51c08ab8f9c17b81cbb78981674"
+    },
+    {
+      "name": "wrong_job_hash_completion_denied",
+      "status_code": 401,
+      "expected_codes": [
+        401,
+        403
+      ],
+      "passed": true,
+      "elapsed_ms": 142,
+      "request_sha256": "a4967295f0b2ee6c2ce5fd2a3cbfd0f4065144c95761edfe27d606c32fe20638",
+      "response_sha256": "2c31c3cd9a960d6a78ff9728ec9210fe6cf8e51c08ab8f9c17b81cbb78981674"
+    },
+    {
+      "name": "wrong_lease_completion_denied",
+      "status_code": 401,
+      "expected_codes": [
+        401,
+        403
+      ],
+      "passed": true,
+      "elapsed_ms": 142,
+      "request_sha256": "56525eae2a7d51e9193a3d826ed69b17169cb4b40ef406abc6493d25742ab5a0",
+      "response_sha256": "2c31c3cd9a960d6a78ff9728ec9210fe6cf8e51c08ab8f9c17b81cbb78981674"
+    },
+    {
+      "name": "future_lease_bound_denied",
+      "status_code": 401,
+      "expected_codes": [
+        401,
+        403
+      ],
+      "passed": true,
+      "elapsed_ms": 143,
+      "request_sha256": "b806c41dcc23350c15a4492e1cd8c6c8c8c085a95db34abe5fc1abd1a3b51173",
+      "response_sha256": "2c31c3cd9a960d6a78ff9728ec9210fe6cf8e51c08ab8f9c17b81cbb78981674"
+    },
+    {
+      "name": "fixture_job_create",
+      "status_code": 200,
+      "expected_codes": [
+        200
+      ],
+      "passed": true,
+      "elapsed_ms": 174,
+      "request_sha256": "dfaa21e69949329cc6594cdbcc2a7548e84da0c92a86a689c9b1dee97ee8a65d",
+      "response_sha256": "dfaa21e69949329cc6594cdbcc2a7548e84da0c92a86a689c9b1dee97ee8a65d"
+    },
+    {
+      "name": "expired_job_acquire_denied",
+      "status_code": 401,
+      "expected_codes": [
+        401,
+        403
+      ],
+      "passed": true,
+      "elapsed_ms": 144,
+      "request_sha256": "d5a82a3e45e4847fa3f877377b4a8269c5d290f6c9c76c9aae4d5e13118e1665",
+      "response_sha256": "2c31c3cd9a960d6a78ff9728ec9210fe6cf8e51c08ab8f9c17b81cbb78981674"
+    },
+    {
+      "name": "correct_terminal_completion_allowed",
+      "status_code": 200,
+      "expected_codes": [
+        200
+      ],
+      "passed": true,
+      "elapsed_ms": 144,
+      "request_sha256": "09a307d84e02533c0c1435473e2b6658a5b092358b0da0fea93fba2fabaa6553",
+      "response_sha256": "09a307d84e02533c0c1435473e2b6658a5b092358b0da0fea93fba2fabaa6553"
+    },
+    {
+      "name": "terminal_rewrite_denied",
+      "status_code": 401,
+      "expected_codes": [
+        401,
+        403
+      ],
+      "passed": true,
+      "elapsed_ms": 143,
+      "request_sha256": "09a307d84e02533c0c1435473e2b6658a5b092358b0da0fea93fba2fabaa6553",
+      "response_sha256": "2c31c3cd9a960d6a78ff9728ec9210fe6cf8e51c08ab8f9c17b81cbb78981674"
+    },
+    {
+      "name": "terminal_delete_denied",
+      "status_code": 401,
+      "expected_codes": [
+        401,
+        403
+      ],
+      "passed": true,
+      "elapsed_ms": 323,
+      "request_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "response_sha256": "2c31c3cd9a960d6a78ff9728ec9210fe6cf8e51c08ab8f9c17b81cbb78981674"
+    },
+    {
+      "name": "cleanup_owned_fixture",
+      "status_code": 200,
+      "expected_codes": [
+        200
+      ],
+      "passed": true,
+      "elapsed_ms": 170,
+      "request_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "response_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b"
+    },
+    {
+      "name": "cleanup_owned_fixture",
+      "status_code": 200,
+      "expected_codes": [
+        200
+      ],
+      "passed": true,
+      "elapsed_ms": 179,
+      "request_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "response_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b"
+    },
+    {
+      "name": "cleanup_owned_fixture",
+      "status_code": 200,
+      "expected_codes": [
+        200
+      ],
+      "passed": true,
+      "elapsed_ms": 182,
+      "request_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "response_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b"
+    },
+    {
+      "name": "cleanup_owned_fixture",
+      "status_code": 200,
+      "expected_codes": [
+        200
+      ],
+      "passed": true,
+      "elapsed_ms": 183,
+      "request_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "response_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b"
+    },
+    {
+      "name": "cleanup_owned_fixture",
+      "status_code": 200,
+      "expected_codes": [
+        200
+      ],
+      "passed": true,
+      "elapsed_ms": 175,
+      "request_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "response_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b"
+    },
+    {
+      "name": "cleanup_owned_fixture",
+      "status_code": 200,
+      "expected_codes": [
+        200
+      ],
+      "passed": true,
+      "elapsed_ms": 190,
+      "request_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "response_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b"
+    },
+    {
+      "name": "cleanup_synthetic_auth_user",
+      "count": 1,
+      "status_code": 200,
+      "passed": true,
+      "elapsed_ms": 392,
+      "uid_sha256": "df3c6aac969cd60da06168eb4b5bbdd901585742a9c86133225d551ba8c92876"
+    },
+    {
+      "name": "cleanup_synthetic_auth_user",
+      "count": 1,
+      "status_code": 200,
+      "passed": true,
+      "elapsed_ms": 396,
+      "uid_sha256": "019dd08c02c29551208279a3c96cd25bc45c40260e11d851bb05cd7015c1585b"
+    }
+  ]
+}

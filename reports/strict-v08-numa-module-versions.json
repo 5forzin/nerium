@@ -1,0 +1,472 @@
+{
+  "modules": 93,
+  "imports": 6284,
+  "mismatched_modules": 0,
+  "results": [
+    {
+      "module": "6lowpan.ko",
+      "imports": 30,
+      "mismatches": {}
+    },
+    {
+      "module": "8021q.ko",
+      "imports": 98,
+      "mismatches": {}
+    },
+    {
+      "module": "bluetooth.ko",
+      "imports": 218,
+      "mismatches": {}
+    },
+    {
+      "module": "bsd_comp.ko",
+      "imports": 10,
+      "mismatches": {}
+    },
+    {
+      "module": "btbcm.ko",
+      "imports": 20,
+      "mismatches": {}
+    },
+    {
+      "module": "btintel.ko",
+      "imports": 30,
+      "mismatches": {}
+    },
+    {
+      "module": "btqca.ko",
+      "imports": 21,
+      "mismatches": {}
+    },
+    {
+      "module": "btrtl.ko",
+      "imports": 22,
+      "mismatches": {}
+    },
+    {
+      "module": "btsdio.ko",
+      "imports": 33,
+      "mismatches": {}
+    },
+    {
+      "module": "btusb.ko",
+      "imports": 106,
+      "mismatches": {}
+    },
+    {
+      "module": "can-bcm.ko",
+      "imports": 76,
+      "mismatches": {}
+    },
+    {
+      "module": "can-dev.ko",
+      "imports": 61,
+      "mismatches": {}
+    },
+    {
+      "module": "can-gw.ko",
+      "imports": 44,
+      "mismatches": {}
+    },
+    {
+      "module": "can-raw.ko",
+      "imports": 61,
+      "mismatches": {}
+    },
+    {
+      "module": "can.ko",
+      "imports": 58,
+      "mismatches": {}
+    },
+    {
+      "module": "cdc-acm.ko",
+      "imports": 93,
+      "mismatches": {}
+    },
+    {
+      "module": "cfg80211.ko",
+      "imports": 193,
+      "mismatches": {}
+    },
+    {
+      "module": "diag.ko",
+      "imports": 12,
+      "mismatches": {}
+    },
+    {
+      "module": "dummy-cpufreq.ko",
+      "imports": 5,
+      "mismatches": {}
+    },
+    {
+      "module": "dummy_hcd.ko",
+      "imports": 64,
+      "mismatches": {}
+    },
+    {
+      "module": "failover.ko",
+      "imports": 23,
+      "mismatches": {}
+    },
+    {
+      "module": "ftdi_sio.ko",
+      "imports": 49,
+      "mismatches": {}
+    },
+    {
+      "module": "goldfish_address_space.ko",
+      "imports": 34,
+      "mismatches": {}
+    },
+    {
+      "module": "goldfish_battery.ko",
+      "imports": 17,
+      "mismatches": {}
+    },
+    {
+      "module": "goldfish_pipe.ko",
+      "imports": 46,
+      "mismatches": {}
+    },
+    {
+      "module": "goldfish_sync.ko",
+      "imports": 46,
+      "mismatches": {}
+    },
+    {
+      "module": "gs_usb.ko",
+      "imports": 63,
+      "mismatches": {}
+    },
+    {
+      "module": "hci_uart.ko",
+      "imports": 172,
+      "mismatches": {}
+    },
+    {
+      "module": "hci_vhci.ko",
+      "imports": 53,
+      "mismatches": {}
+    },
+    {
+      "module": "hidp.ko",
+      "imports": 109,
+      "mismatches": {}
+    },
+    {
+      "module": "ieee802154.ko",
+      "imports": 90,
+      "mismatches": {}
+    },
+    {
+      "module": "ieee802154_6lowpan.ko",
+      "imports": 65,
+      "mismatches": {}
+    },
+    {
+      "module": "ieee802154_socket.ko",
+      "imports": 75,
+      "mismatches": {}
+    },
+    {
+      "module": "l2tp_core.ko",
+      "imports": 85,
+      "mismatches": {}
+    },
+    {
+      "module": "l2tp_ppp.ko",
+      "imports": 86,
+      "mismatches": {}
+    },
+    {
+      "module": "libarc4.ko",
+      "imports": 2,
+      "mismatches": {}
+    },
+    {
+      "module": "mac80211.ko",
+      "imports": 320,
+      "mismatches": {}
+    },
+    {
+      "module": "mac80211_hwsim.ko",
+      "imports": 166,
+      "mismatches": {}
+    },
+    {
+      "module": "mac802154.ko",
+      "imports": 111,
+      "mismatches": {}
+    },
+    {
+      "module": "mt76-usb.ko",
+      "imports": 79,
+      "mismatches": {}
+    },
+    {
+      "module": "mt76.ko",
+      "imports": 173,
+      "mismatches": {}
+    },
+    {
+      "module": "mt76x0-common.ko",
+      "imports": 59,
+      "mismatches": {}
+    },
+    {
+      "module": "mt76x02-lib.ko",
+      "imports": 144,
+      "mismatches": {}
+    },
+    {
+      "module": "mt76x02-usb.ko",
+      "imports": 47,
+      "mismatches": {}
+    },
+    {
+      "module": "mt76x0u.ko",
+      "imports": 75,
+      "mismatches": {}
+    },
+    {
+      "module": "mt76x2-common.ko",
+      "imports": 32,
+      "mismatches": {}
+    },
+    {
+      "module": "mt76x2u.ko",
+      "imports": 108,
+      "mismatches": {}
+    },
+    {
+      "module": "nd_virtio.ko",
+      "imports": 26,
+      "mismatches": {}
+    },
+    {
+      "module": "net_failover.ko",
+      "imports": 60,
+      "mismatches": {}
+    },
+    {
+      "module": "nfc.ko",
+      "imports": 131,
+      "mismatches": {}
+    },
+    {
+      "module": "nhc_dest.ko",
+      "imports": 4,
+      "mismatches": {}
+    },
+    {
+      "module": "nhc_fragment.ko",
+      "imports": 4,
+      "mismatches": {}
+    },
+    {
+      "module": "nhc_hop.ko",
+      "imports": 4,
+      "mismatches": {}
+    },
+    {
+      "module": "nhc_ipv6.ko",
+      "imports": 4,
+      "mismatches": {}
+    },
+    {
+      "module": "nhc_mobility.ko",
+      "imports": 4,
+      "mismatches": {}
+    },
+    {
+      "module": "nhc_routing.ko",
+      "imports": 4,
+      "mismatches": {}
+    },
+    {
+      "module": "nhc_udp.ko",
+      "imports": 8,
+      "mismatches": {}
+    },
+    {
+      "module": "ppp_deflate.ko",
+      "imports": 21,
+      "mismatches": {}
+    },
+    {
+      "module": "ppp_generic.ko",
+      "imports": 115,
+      "mismatches": {}
+    },
+    {
+      "module": "ppp_mppe.ko",
+      "imports": 20,
+      "mismatches": {}
+    },
+    {
+      "module": "pppox.ko",
+      "imports": 13,
+      "mismatches": {}
+    },
+    {
+      "module": "pptp.ko",
+      "imports": 62,
+      "mismatches": {}
+    },
+    {
+      "module": "pulse8-cec.ko",
+      "imports": 45,
+      "mismatches": {}
+    },
+    {
+      "module": "rfcomm.ko",
+      "imports": 144,
+      "mismatches": {}
+    },
+    {
+      "module": "rfkill.ko",
+      "imports": 58,
+      "mismatches": {}
+    },
+    {
+      "module": "rtc-test.ko",
+      "imports": 22,
+      "mismatches": {}
+    },
+    {
+      "module": "slcan.ko",
+      "imports": 53,
+      "mismatches": {}
+    },
+    {
+      "module": "slhc.ko",
+      "imports": 12,
+      "mismatches": {}
+    },
+    {
+      "module": "system_heap.ko",
+      "imports": 43,
+      "mismatches": {}
+    },
+    {
+      "module": "test_meminit.ko",
+      "imports": 25,
+      "mismatches": {}
+    },
+    {
+      "module": "tipc.ko",
+      "imports": 256,
+      "mismatches": {}
+    },
+    {
+      "module": "usbip-core.ko",
+      "imports": 36,
+      "mismatches": {}
+    },
+    {
+      "module": "usbserial.ko",
+      "imports": 108,
+      "mismatches": {}
+    },
+    {
+      "module": "vcan.ko",
+      "imports": 16,
+      "mismatches": {}
+    },
+    {
+      "module": "vhci-hcd.ko",
+      "imports": 90,
+      "mismatches": {}
+    },
+    {
+      "module": "virt_wifi.ko",
+      "imports": 50,
+      "mismatches": {}
+    },
+    {
+      "module": "virtio-gpu.ko",
+      "imports": 233,
+      "mismatches": {}
+    },
+    {
+      "module": "virtio-rng.ko",
+      "imports": 23,
+      "mismatches": {}
+    },
+    {
+      "module": "virtio_balloon.ko",
+      "imports": 72,
+      "mismatches": {}
+    },
+    {
+      "module": "virtio_blk.ko",
+      "imports": 92,
+      "mismatches": {}
+    },
+    {
+      "module": "virtio_console.ko",
+      "imports": 100,
+      "mismatches": {}
+    },
+    {
+      "module": "virtio_dma_buf.ko",
+      "imports": 4,
+      "mismatches": {}
+    },
+    {
+      "module": "virtio_input.ko",
+      "imports": 29,
+      "mismatches": {}
+    },
+    {
+      "module": "virtio_net.ko",
+      "imports": 171,
+      "mismatches": {}
+    },
+    {
+      "module": "virtio_pci.ko",
+      "imports": 93,
+      "mismatches": {}
+    },
+    {
+      "module": "virtio_pci_legacy_dev.ko",
+      "imports": 15,
+      "mismatches": {}
+    },
+    {
+      "module": "virtio_pci_modern_dev.ko",
+      "imports": 23,
+      "mismatches": {}
+    },
+    {
+      "module": "virtio_pmem.ko",
+      "imports": 14,
+      "mismatches": {}
+    },
+    {
+      "module": "virtio_snd.ko",
+      "imports": 62,
+      "mismatches": {}
+    },
+    {
+      "module": "vkms.ko",
+      "imports": 114,
+      "mismatches": {}
+    },
+    {
+      "module": "vmw_vsock_virtio_transport.ko",
+      "imports": 72,
+      "mismatches": {}
+    },
+    {
+      "module": "zram.ko",
+      "imports": 98,
+      "mismatches": {}
+    },
+    {
+      "module": "zsmalloc.ko",
+      "imports": 47,
+      "mismatches": {}
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "captured_at": "2026-10-26T02:04:31.096064+00:00",
+  "avd": "device-lab-playstore-fresh-v34",
+  "serial": "emulator-5578",
+  "source": "new avdmanager AVD and fresh userdata, installed SDK Google Play API34 revision14",
+  "before_installing_any_lab_apk": true,
+  "boot_id": "7e46d62c-d045-4177-811e-314df6bb0d0c",
+  "boot_completed": "1",
+  "fingerprint": "google/sdk_gphone64_x86_64/emu64xa:14/UE1A.230829.036.A4/12096271:user/release-keys",
+  "selinux": "Enforcing",
+  "verity_mode": "enforcing",
+  "vbmeta_digest": "01574858046822a5332e63c9ade783384050332d37fd75d96b718bc1c0f2887a",
+  "build_type": "user",
+  "debuggable": "0",
+  "third_party_packages": [],
+  "shell_tmp": {
+    "inode": 65538,
+    "uid": 2000,
+    "gid": 2000,
+    "mode": "771",
+    "file_type": "directory"
+  },
+  "factory_archive_verification_report": "playstore-v34-factory-provenance.json"
+}

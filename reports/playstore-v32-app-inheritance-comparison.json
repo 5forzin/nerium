@@ -1,0 +1,65 @@
+{
+  "before": "playstore-v31-app-inheritance-shellv2.json",
+  "after": "playstore-v32-app-inheritance.json",
+  "scope": "initial LD_PRELOAD residue removal in unchanged diagnostic APKs",
+  "passed": true,
+  "applications": {
+    "dev.androidlab.probe": {
+      "passed": true,
+      "checks": {
+        "same_apk": true,
+        "all_reads_available": true,
+        "stable_process_instances": true,
+        "library_remains_visible": true,
+        "library_executable_mapping_remains_visible": true,
+        "before_control_present": true,
+        "after_control_absent": true,
+        "other_environment_unchanged": true,
+        "initial_environment_size_preserved": true,
+        "exact_raw_environment_cleanup": true,
+        "application_identity_preserved": true,
+        "application_capabilities_unprivileged": true,
+        "ordinary_application_uid": true,
+        "normal_application_process_controls": true
+      }
+    },
+    "dev.androidlab.procprobe": {
+      "passed": true,
+      "checks": {
+        "same_apk": true,
+        "all_reads_available": true,
+        "stable_process_instances": true,
+        "library_remains_visible": true,
+        "library_executable_mapping_remains_visible": true,
+        "before_control_present": true,
+        "after_control_absent": true,
+        "other_environment_unchanged": true,
+        "initial_environment_size_preserved": true,
+        "exact_raw_environment_cleanup": true,
+        "application_identity_preserved": true,
+        "application_capabilities_unprivileged": true,
+        "ordinary_application_uid": true,
+        "normal_application_process_controls": true
+      }
+    },
+    "dev.androidlab.rawprobe": {
+      "passed": true,
+      "checks": {
+        "same_apk": true,
+        "all_reads_available": true,
+        "stable_process_instances": true,
+        "library_remains_visible": true,
+        "library_executable_mapping_remains_visible": true,
+        "before_control_present": true,
+        "after_control_absent": true,
+        "other_environment_unchanged": true,
+        "initial_environment_size_preserved": true,
+        "exact_raw_environment_cleanup": true,
+        "application_identity_preserved": true,
+        "application_capabilities_unprivileged": true,
+        "ordinary_application_uid": true,
+        "normal_application_process_controls": true
+      }
+    }
+  }
+}

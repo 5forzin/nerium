@@ -1,0 +1,1276 @@
+{
+  "schema_version": 1,
+  "captured_at": "2026-10-26T15:32:27.9094387Z",
+  "scope": "Read-only cloud metadata; no device allocation or cloud mutation",
+  "project_id": "android-device-lab-bc008",
+  "checks": {
+    "project": {
+      "http_status": 403,
+      "available": false
+    },
+    "databases": {
+      "http_status": 403,
+      "available": false
+    },
+    "android_apps": {
+      "http_status": 403,
+      "available": false
+    },
+    "authentication": {
+      "http_status": 403,
+      "available": false
+    },
+    "billing": {
+      "http_status": 200,
+      "billing_enabled": false
+    },
+    "device_sessions": {
+      "http_status": 200,
+      "sessions": [
+        {
+          "name": "projects/android-device-lab-bc008/deviceSessions/session-2dhawqyrlurqg",
+          "state": "FINISHED",
+          "expire_time": "2026-10-25T06:13:18.02797Z"
+        },
+        {
+          "name": "projects/android-device-lab-bc008/deviceSessions/session-7vyrotnq7z3pa",
+          "state": "FINISHED",
+          "expire_time": "2026-10-25T06:09:58.227464Z"
+        },
+        {
+          "name": "projects/android-device-lab-bc008/deviceSessions/session-3rkol63ici4rr",
+          "state": "FINISHED",
+          "expire_time": "2026-10-25T06:08:14.227234Z"
+        },
+        {
+          "name": "projects/android-device-lab-bc008/deviceSessions/session-21bebea2xjxg4",
+          "state": "FINISHED",
+          "expire_time": "2026-10-25T05:03:46.740598Z"
+        },
+        {
+          "name": "projects/android-device-lab-bc008/deviceSessions/session-3qa8sf31wox85",
+          "state": "FINISHED",
+          "expire_time": "2026-10-25T05:00:04.134865Z"
+        },
+        {
+          "name": "projects/android-device-lab-bc008/deviceSessions/session-2invsm7bs3dh3",
+          "state": "FINISHED",
+          "expire_time": "2026-10-25T04:45:45.050201Z"
+        }
+      ],
+      "has_more": false
+    },
+    "device_catalog": {
+      "http_status": 200,
+      "direct_access_models": [
+        {
+          "id": "A402SO",
+          "name": "Xperia 10 VI",
+          "versions": [
+            "34"
+          ]
+        },
+        {
+          "id": "F01L",
+          "name": "F-01L",
+          "versions": [
+            "27"
+          ]
+        },
+        {
+          "id": "Frogger",
+          "name": "Nothing Phone (4a)",
+          "versions": [
+            "36"
+          ]
+        },
+        {
+          "id": "Infinix-X6525",
+          "name": "Infinix SMART 8",
+          "versions": [
+            "33"
+          ]
+        },
+        {
+          "id": "OP535DL1",
+          "name": "OnePlus Nord CE 2 Lite 5G",
+          "versions": [
+            "34"
+          ]
+        },
+        {
+          "id": "OP5552L1",
+          "name": "OnePlus 10T 5G",
+          "versions": [
+            "34"
+          ]
+        },
+        {
+          "id": "OP573DL1",
+          "name": "A79 5G",
+          "versions": [
+            "34"
+          ]
+        },
+        {
+          "id": "OP5759L1",
+          "name": "A38",
+          "versions": [
+            "34"
+          ]
+        },
+        {
+          "id": "RE58C2",
+          "name": "realme C53",
+          "versions": [
+            "35"
+          ]
+        },
+        {
+          "id": "RMX3231",
+          "name": "RMX3231",
+          "versions": [
+            "30"
+          ]
+        },
+        {
+          "id": "SC-51C",
+          "name": "Galaxy S22",
+          "versions": [
+            "36"
+          ]
+        },
+        {
+          "id": "SC-51E",
+          "name": "Galaxy S24",
+          "versions": [
+            "36"
+          ]
+        },
+        {
+          "id": "SC-53C",
+          "name": "Galaxy A53 5G",
+          "versions": [
+            "36"
+          ]
+        },
+        {
+          "id": "SCG13",
+          "name": "Galaxy S22",
+          "versions": [
+            "36"
+          ]
+        },
+        {
+          "id": "SH-01L",
+          "name": "AQUOS sense2 SH-01L",
+          "versions": [
+            "28"
+          ]
+        },
+        {
+          "id": "TECNO-BF6",
+          "name": "TECNO POP 7",
+          "versions": [
+            "31"
+          ]
+        },
+        {
+          "id": "TECNO-KI5k",
+          "name": "TECNO SPARK 10C",
+          "versions": [
+            "31"
+          ]
+        },
+        {
+          "id": "a03su",
+          "name": "Galaxy A03s",
+          "versions": [
+            "33"
+          ]
+        },
+        {
+          "id": "a03sutfn",
+          "name": "Galaxy A03s",
+          "versions": [
+            "33"
+          ]
+        },
+        {
+          "id": "a04s",
+          "name": "Galaxy A04s",
+          "versions": [
+            "34"
+          ]
+        },
+        {
+          "id": "a05s",
+          "name": "Galaxy A05s",
+          "versions": [
+            "35"
+          ]
+        },
+        {
+          "id": "a06",
+          "name": "Galaxy A06",
+          "versions": [
+            "35"
+          ]
+        },
+        {
+          "id": "a13",
+          "name": "Galaxy A13",
+          "versions": [
+            "34"
+          ]
+        },
+        {
+          "id": "a13x",
+          "name": "Galaxy A13 5G",
+          "versions": [
+            "33"
+          ]
+        },
+        {
+          "id": "a14xmsq",
+          "name": "Galaxy A14 5G",
+          "versions": [
+            "35"
+          ]
+        },
+        {
+          "id": "a14xmtfn",
+          "name": "Galaxy A14 5G",
+          "versions": [
+            "35"
+          ]
+        },
+        {
+          "id": "a15",
+          "name": "Galaxy A15",
+          "versions": [
+            "34"
+          ]
+        },
+        {
+          "id": "a15x",
+          "name": "Galaxy A15 5G",
+          "versions": [
+            "34",
+            "36"
+          ]
+        },
+        {
+          "id": "a15xtfn",
+          "name": "Galaxy A15 5G",
+          "versions": [
+            "36"
+          ]
+        },
+        {
+          "id": "a16",
+          "name": "Galaxy A16",
+          "versions": [
+            "35"
+          ]
+        },
+        {
+          "id": "a16x",
+          "name": "Galaxy A16 5G",
+          "versions": [
+            "34",
+            "36"
+          ]
+        },
+        {
+          "id": "a16xeea",
+          "name": "Galaxy A16 5G",
+          "versions": [
+            "35"
+          ]
+        },
+        {
+          "id": "a21",
+          "name": "Galaxy A21",
+          "versions": [
+            "31"
+          ]
+        },
+        {
+          "id": "a23xq",
+          "name": "Galaxy A23 5G",
+          "versions": [
+            "34"
+          ]
+        },
+        {
+          "id": "a26x",
+          "name": "Galaxy A26 5G",
+          "versions": [
+            "36"
+          ]
+        },
+        {
+          "id": "a31",
+          "name": "Galaxy A31",
+          "versions": [
+            "31"
+          ]
+        },
+        {
+          "id": "a32",
+          "name": "Galaxy A32",
+          "versions": [
+            "33"
+          ]
+        },
+        {
+          "id": "a34x",
+          "name": "Galaxy A34 5G",
+          "versions": [
+            "36"
+          ]
+        },
+        {
+          "id": "a35x",
+          "name": "Galaxy A35 5G",
+          "versions": [
+            "34",
+            "35",
+            "36"
+          ]
+        },
+        {
+          "id": "a36xq",
+          "name": "Galaxy A36 5G",
+          "versions": [
+            "35",
+            "36"
+          ]
+        },
+        {
+          "id": "a52xq",
+          "name": "Galaxy A52 5G",
+          "versions": [
+            "34"
+          ]
+        },
+        {
+          "id": "a54xue",
+          "name": "Galaxy A54 5G",
+          "versions": [
+            "36"
+          ]
+        },
+        {
+          "id": "a55xzh",
+          "name": "Galaxy A55 5G",
+          "versions": [
+            "36"
+          ]
+        },
+        {
+          "id": "a56x",
+          "name": "Galaxy A56 5G",
+          "versions": [
+            "35"
+          ]
+        },
+        {
+          "id": "akita",
+          "name": "Pixel 8a",
+          "versions": [
+            "34",
+            "35"
+          ]
+        },
+        {
+          "id": "arcfox",
+          "name": "motorola razr plus 2024",
+          "versions": [
+            "34"
+          ]
+        },
+        {
+          "id": "aruba",
+          "name": "moto e20",
+          "versions": [
+            "30"
+          ]
+        },
+        {
+          "id": "austin",
+          "name": "moto g 5G (2022)",
+          "versions": [
+            "33"
+          ]
+        },
+        {
+          "id": "b0q",
+          "name": "Galaxy S22 Ultra",
+          "versions": [
+            "33",
+            "36"
+          ]
+        },
+        {
+          "id": "b0qksx",
+          "name": "Galaxy S22 Ultra",
+          "versions": [
+            "36"
+          ]
+        },
+        {
+          "id": "b0qxxx",
+          "name": "Galaxy S22 Ultra",
+          "versions": [
+            "36"
+          ]
+        },
+        {
+          "id": "b4qsqw",
+          "name": "Galaxy Z Flip4",
+          "versions": [
+            "36"
+          ]
+        },
+        {
+          "id": "b5qsqw",
+          "name": "Galaxy Z Flip5",
+          "versions": [
+            "36"
+          ]
+        },
+        {
+          "id": "b5qxeea",
+          "name": "Galaxy Z Flip5",
+          "versions": [
+            "36"
+          ]
+        },
+        {
+          "id": "b6q",
+          "name": "Galaxy Z Flip6",
+          "versions": [
+            "34"
+          ]
+        },
+        {
+          "id": "b6qksx",
+          "name": "Galaxy Z Flip6",
+          "versions": [
+            "36"
+          ]
+        },
+        {
+          "id": "b6qsqw",
+          "name": "Galaxy Z Flip6",
+          "versions": [
+            "36"
+          ]
+        },
+        {
+          "id": "b8q",
+          "name": "Galaxy Z Flip8",
+          "versions": [
+            "37"
+          ]
+        },
+        {
+          "id": "blazer",
+          "name": "Pixel 10 Pro",
+          "versions": [
+            "36"
+          ]
+        },
+        {
+          "id": "bluejay",
+          "name": "Pixel 6a",
+          "versions": [
+            "32"
+          ]
+        },
+        {
+          "id": "c1q",
+          "name": "Galaxy Note20 5G",
+          "versions": [
+            "33"
+          ]
+        },
+        {
+          "id": "c1qksw",
+          "name": "Galaxy Note20 5G",
+          "versions": [
+            "33"
+          ]
+        },
+        {
+          "id": "c2q",
+          "name": "Galaxy Note20 Ultra 5G",
+          "versions": [
+            "33"
+          ]
+        },
+        {
+          "id": "c2qksw",
+          "name": "Galaxy Note20 Ultra 5G",
+          "versions": [
+            "33"
+          ]
+        },
+        {
+          "id": "c2s",
+          "name": "Galaxy Note20 Ultra 5G",
+          "versions": [
+            "33"
+          ]
+        },
+        {
+          "id": "caiman",
+          "name": "Pixel 9 Pro",
+          "versions": [
+            "34",
+            "35"
+          ]
+        },
+        {
+          "id": "cancun",
+          "name": "moto g14",
+          "versions": [
+            "34"
+          ]
+        },
+        {
+          "id": "comet",
+          "name": "Pixel 9 Pro Fold",
+          "versions": [
+            "34",
+            "35",
+            "36"
+          ]
+        },
+        {
+          "id": "cubs",
+          "name": "Pixel 11",
+          "versions": [
+            "37"
+          ]
+        },
+        {
+          "id": "cuscoi",
+          "name": "moto g96 5G",
+          "versions": [
+            "35"
+          ]
+        },
+        {
+          "id": "dm1q",
+          "name": "Galaxy S23",
+          "versions": [
+            "35"
+          ]
+        },
+        {
+          "id": "dm1q-SM-S911U",
+          "name": "Galaxy S23",
+          "versions": [
+            "36"
+          ]
+        },
+        {
+          "id": "dm1qcsx",
+          "name": "Galaxy S23",
+          "versions": [
+            "36"
+          ]
+        },
+        {
+          "id": "dm2q",
+          "name": "Galaxy S23+",
+          "versions": [
+            "34"
+          ]
+        },
+        {
+          "id": "dm2qksx",
+          "name": "Galaxy S23+",
+          "versions": [
+            "36"
+          ]
+        },
+        {
+          "id": "dm3q",
+          "name": "Galaxy S23 Ultra",
+          "versions": [
+            "34"
+          ]
+        },
+        {
+          "id": "dm3qksx",
+          "name": "Galaxy S23 Ultra",
+          "versions": [
+            "36"
+          ]
+        },
+        {
+          "id": "dubai",
+          "name": "motorola edge 30",
+          "versions": [
+            "34"
+          ]
+        },
+        {
+          "id": "e1q",
+          "name": "Galaxy S24",
+          "versions": [
+            "34",
+            "36"
+          ]
+        },
+        {
+          "id": "e1s",
+          "name": "Galaxy S24",
+          "versions": [
+            "36"
+          ]
+        },
+        {
+          "id": "e2q",
+          "name": "Galaxy S24+",
+          "versions": [
+            "36"
+          ]
+        },
+        {
+          "id": "e2s",
+          "name": "Galaxy S24+",
+          "versions": [
+            "36"
+          ]
+        },
+        {
+          "id": "e2sksx",
+          "name": "Galaxy S24+",
+          "versions": [
+            "36"
+          ]
+        },
+        {
+          "id": "e3q",
+          "name": "Galaxy S24 Ultra",
+          "versions": [
+            "34",
+            "36"
+          ]
+        },
+        {
+          "id": "e3qcsx",
+          "name": "Galaxy S24 Ultra",
+          "versions": [
+            "36"
+          ]
+        },
+        {
+          "id": "e3qksx",
+          "name": "Galaxy S24 Ultra",
+          "versions": [
+            "36"
+          ]
+        },
+        {
+          "id": "eos",
+          "name": "Eos",
+          "versions": [
+            "33"
+          ]
+        },
+        {
+          "id": "felix",
+          "name": "Pixel Fold",
+          "versions": [
+            "33",
+            "34",
+            "36"
+          ]
+        },
+        {
+          "id": "felix_camera",
+          "name": "Pixel Fold (Camera-enabled)",
+          "versions": [
+            "33"
+          ]
+        },
+        {
+          "id": "fogona",
+          "name": "moto g play - 2024",
+          "versions": [
+            "34"
+          ]
+        },
+        {
+          "id": "fogorow",
+          "name": "moto g24",
+          "versions": [
+            "34"
+          ]
+        },
+        {
+          "id": "fogos",
+          "name": "moto g34 5G",
+          "versions": [
+            "34"
+          ]
+        },
+        {
+          "id": "frankel",
+          "name": "Pixel 10",
+          "versions": [
+            "36"
+          ]
+        },
+        {
+          "id": "g0q",
+          "name": "Galaxy S22+",
+          "versions": [
+            "34",
+            "36"
+          ]
+        },
+        {
+          "id": "g0qksx",
+          "name": "Galaxy S22+",
+          "versions": [
+            "36"
+          ]
+        },
+        {
+          "id": "gnevan",
+          "name": "moto g stylus (2023)",
+          "versions": [
+            "33"
+          ]
+        },
+        {
+          "id": "grizzly",
+          "name": "Pixel 11 Pro",
+          "versions": [
+            "37"
+          ]
+        },
+        {
+          "id": "gta4lwifi",
+          "name": "Galaxy Tab A7",
+          "versions": [
+            "31"
+          ]
+        },
+        {
+          "id": "gta9pwifi",
+          "name": "Galaxy Tab A9+",
+          "versions": [
+            "34"
+          ]
+        },
+        {
+          "id": "gts10pwifi",
+          "name": "Galaxy Tab S10+",
+          "versions": [
+            "36"
+          ]
+        },
+        {
+          "id": "gts7lwifi",
+          "name": "Galaxy Tab S7",
+          "versions": [
+            "33"
+          ]
+        },
+        {
+          "id": "gts7xllite",
+          "name": "Galaxy Tab S7 FE 5G",
+          "versions": [
+            "34"
+          ]
+        },
+        {
+          "id": "gts7xlwifi",
+          "name": "Galaxy Tab S7+",
+          "versions": [
+            "33"
+          ]
+        },
+        {
+          "id": "gts8uwifi",
+          "name": "Galaxy Tab S8 Ultra",
+          "versions": [
+            "33"
+          ]
+        },
+        {
+          "id": "gts8wifi",
+          "name": "Galaxy Tab S8",
+          "versions": [
+            "34"
+          ]
+        },
+        {
+          "id": "gts9fe",
+          "name": "Galaxy Tab S9 FE 5G",
+          "versions": [
+            "34"
+          ]
+        },
+        {
+          "id": "gts9wifi",
+          "name": "Galaxy Tab S9",
+          "versions": [
+            "34"
+          ]
+        },
+        {
+          "id": "guamna",
+          "name": "moto g play (2021)",
+          "versions": [
+            "30"
+          ]
+        },
+        {
+          "id": "guamp",
+          "name": "moto g(9) play",
+          "versions": [
+            "30"
+          ]
+        },
+        {
+          "id": "h8q",
+          "name": "Galaxy Z Fold8",
+          "versions": [
+            "37"
+          ]
+        },
+        {
+          "id": "houji",
+          "name": "Xiaomi 14",
+          "versions": [
+            "35"
+          ]
+        },
+        {
+          "id": "husky",
+          "name": "Pixel 8 Pro",
+          "versions": [
+            "34",
+            "35"
+          ]
+        },
+        {
+          "id": "java",
+          "name": "Motorola G20",
+          "versions": [
+            "30"
+          ]
+        },
+        {
+          "id": "kansas",
+          "name": "moto g - 2025",
+          "versions": [
+            "35"
+          ]
+        },
+        {
+          "id": "komodo",
+          "name": "Pixel 9 Pro XL",
+          "versions": [
+            "34",
+            "35"
+          ]
+        },
+        {
+          "id": "lamul",
+          "name": "moto g05",
+          "versions": [
+            "35"
+          ]
+        },
+        {
+          "id": "lion",
+          "name": "moto g04",
+          "versions": [
+            "34"
+          ]
+        },
+        {
+          "id": "lynx",
+          "name": "Pixel 7a",
+          "versions": [
+            "33"
+          ]
+        },
+        {
+          "id": "lyriq",
+          "name": "motorola edge 40",
+          "versions": [
+            "34"
+          ]
+        },
+        {
+          "id": "m1q",
+          "name": "Galaxy S26",
+          "versions": [
+            "36"
+          ]
+        },
+        {
+          "id": "m2q",
+          "name": "Galaxy S26+",
+          "versions": [
+            "36"
+          ]
+        },
+        {
+          "id": "malmo",
+          "name": "moto g85 5G",
+          "versions": [
+            "36"
+          ]
+        },
+        {
+          "id": "manaus",
+          "name": "motorola edge 40 neo",
+          "versions": [
+            "34"
+          ]
+        },
+        {
+          "id": "maui",
+          "name": "moto g play - 2023",
+          "versions": [
+            "33"
+          ]
+        },
+        {
+          "id": "mustang",
+          "name": "Pixel 10 Pro XL",
+          "versions": [
+            "36"
+          ]
+        },
+        {
+          "id": "o1q",
+          "name": "Galaxy S21 5G",
+          "versions": [
+            "34",
+            "35"
+          ]
+        },
+        {
+          "id": "o1s",
+          "name": "Galaxy S21 5G",
+          "versions": [
+            "35"
+          ]
+        },
+        {
+          "id": "oriole",
+          "name": "Pixel 6",
+          "versions": [
+            "31"
+          ]
+        },
+        {
+          "id": "p3q",
+          "name": "Galaxy S21 Ultra 5G",
+          "versions": [
+            "35"
+          ]
+        },
+        {
+          "id": "p3s",
+          "name": "Galaxy S21 Ultra 5G",
+          "versions": [
+            "35"
+          ]
+        },
+        {
+          "id": "pa1qksx",
+          "name": "Galaxy S25",
+          "versions": [
+            "36"
+          ]
+        },
+        {
+          "id": "pa2q",
+          "name": "Galaxy S25+",
+          "versions": [
+            "36"
+          ]
+        },
+        {
+          "id": "pa2qxxx",
+          "name": "Galaxy S25+",
+          "versions": [
+            "36"
+          ]
+        },
+        {
+          "id": "pa3q",
+          "name": "Galaxy S25 Ultra",
+          "versions": [
+            "35",
+            "36"
+          ]
+        },
+        {
+          "id": "panther",
+          "name": "Pixel 7",
+          "versions": [
+            "33"
+          ]
+        },
+        {
+          "id": "penang",
+          "name": "moto g53 5G",
+          "versions": [
+            "34"
+          ]
+        },
+        {
+          "id": "psq",
+          "name": "Galaxy S25 Edge",
+          "versions": [
+            "35"
+          ]
+        },
+        {
+          "id": "q2qsqw",
+          "name": "Galaxy Z Fold3 5G",
+          "versions": [
+            "35"
+          ]
+        },
+        {
+          "id": "q4qksx",
+          "name": "Galaxy Z Fold4",
+          "versions": [
+            "36"
+          ]
+        },
+        {
+          "id": "q5q",
+          "name": "Galaxy Z Fold5",
+          "versions": [
+            "34"
+          ]
+        },
+        {
+          "id": "q5qksx",
+          "name": "Galaxy Z Fold5",
+          "versions": [
+            "36"
+          ]
+        },
+        {
+          "id": "q6q",
+          "name": "Galaxy Z Fold6",
+          "versions": [
+            "34"
+          ]
+        },
+        {
+          "id": "q6qksx",
+          "name": "Galaxy Z Fold6",
+          "versions": [
+            "36"
+          ]
+        },
+        {
+          "id": "q6qsqw",
+          "name": "Galaxy Z Fold6",
+          "versions": [
+            "36"
+          ]
+        },
+        {
+          "id": "q7mq",
+          "name": "Galaxy Z TriFold",
+          "versions": [
+            "36"
+          ]
+        },
+        {
+          "id": "r0q",
+          "name": "Galaxy S22",
+          "versions": [
+            "36"
+          ]
+        },
+        {
+          "id": "r0qcsx",
+          "name": "Galaxy S22",
+          "versions": [
+            "36"
+          ]
+        },
+        {
+          "id": "r0qksx",
+          "name": "Galaxy S22",
+          "versions": [
+            "36"
+          ]
+        },
+        {
+          "id": "r11",
+          "name": "Pixel Watch",
+          "versions": [
+            "30"
+          ]
+        },
+        {
+          "id": "r11q",
+          "name": "Galaxy S23 FE",
+          "versions": [
+            "34"
+          ]
+        },
+        {
+          "id": "r11qcs",
+          "name": "Galaxy S23 FE",
+          "versions": [
+            "36"
+          ]
+        },
+        {
+          "id": "r11s",
+          "name": "Galaxy S23 FE",
+          "versions": [
+            "36"
+          ]
+        },
+        {
+          "id": "r8q",
+          "name": "Galaxy S20 FE 5G",
+          "versions": [
+            "33"
+          ]
+        },
+        {
+          "id": "r8qcsx",
+          "name": "Galaxy S20 FE 5G",
+          "versions": [
+            "33"
+          ]
+        },
+        {
+          "id": "r8qksx",
+          "name": "Galaxy S20 FE 5G",
+          "versions": [
+            "33"
+          ]
+        },
+        {
+          "id": "r9q",
+          "name": "Galaxy S21 FE 5G",
+          "versions": [
+            "36"
+          ]
+        },
+        {
+          "id": "r9q-SM-G990U",
+          "name": "Galaxy S21 FE 5G",
+          "versions": [
+            "36"
+          ]
+        },
+        {
+          "id": "r9q2csx",
+          "name": "Galaxy S21 FE 5G",
+          "versions": [
+            "36"
+          ]
+        },
+        {
+          "id": "rango",
+          "name": "Pixel 10 Pro Fold",
+          "versions": [
+            "36"
+          ]
+        },
+        {
+          "id": "redfin",
+          "name": "Pixel 5",
+          "versions": [
+            "30"
+          ]
+        },
+        {
+          "id": "shiba",
+          "name": "Pixel 8",
+          "versions": [
+            "34",
+            "36"
+          ]
+        },
+        {
+          "id": "t2q",
+          "name": "Galaxy S21+ 5G",
+          "versions": [
+            "34",
+            "35"
+          ]
+        },
+        {
+          "id": "tangorpro",
+          "name": "Pixel Tablet",
+          "versions": [
+            "33",
+            "36"
+          ]
+        },
+        {
+          "id": "tegu",
+          "name": "Pixel 9a",
+          "versions": [
+            "35"
+          ]
+        },
+        {
+          "id": "tokay",
+          "name": "Pixel 9",
+          "versions": [
+            "34",
+            "35",
+            "36"
+          ]
+        },
+        {
+          "id": "xcover7",
+          "name": "Galaxy XCover7",
+          "versions": [
+            "34"
+          ]
+        },
+        {
+          "id": "y2q",
+          "name": "Galaxy S20+ 5G",
+          "versions": [
+            "33"
+          ]
+        },
+        {
+          "id": "yogi",
+          "name": "Pixel 11 Pro Fold",
+          "versions": [
+            "37"
+          ]
+        },
+        {
+          "id": "z3q",
+          "name": "Galaxy S20 Ultra 5G",
+          "versions": [
+            "33"
+          ]
+        }
+      ]
+    }
+  }
+}

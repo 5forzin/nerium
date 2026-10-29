@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "run_id": "2c07a4d338244624a727c4cdf27b415f",
+  "api": 34,
+  "started_at_ms": 1793056804672,
+  "challenge_source": "external",
+  "challenge_base64": "agupRmQSeTB3Uda7QDvEIyrcTiY0LCMomyUeWYz4xVs=",
+  "status": "complete",
+  "default_keystore": {
+    "status": "complete",
+    "started_at_ms": 1793056804672,
+    "challenge_base64": "agupRmQSeTB3Uda7QDvEIyrcTiY0LCMomyUeWYz4xVs=",
+    "payload_scheme": "RSA_PSS_SHA256_SALT32",
+    "manufacturer_trust": "not_established",
+    "google_attestation_verified": false,
+    "android_tee_verified": false,
+    "lab_root_trusted": false,
+    "private_encoding_null": true,
+    "keyinfo_security_level": 0,
+    "keyinfo_inside_secure_hardware": false,
+    "keyinfo_key_size": 2048,
+    "keyinfo_purposes": 4,
+    "certificates": [
+      {
+        "der_base64": "MIIDMDCCAtagAwIBAgIBATAKBggqhkjOPQQDAjAvMS0wKwYDVQQDDCRBbmRyb2lkTGFiIFNvZnR3YXJlIEF0dGVzdGF0aW9uIFJvb3QwHhcNMjQwMTAxMDAwMDAwWhcNNDAwMTAxMDAwMDAwWjAtMSswKQYDVQQDEyJBbmRyb2lkTGFiIENORyBBdHRlc3RhdGlvbiBDb250cm9sMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAx2XbpCyK/kUJrsPJHPv8P/F2RcLj6ORIqNrV+t3bzQTbzNbVfli3jEeU7XWBWdMVvKvAznkBYddZN3PG6nLGwbxqWuPW94lBkMLeyyHBblTvlxNHlwEyeezSWxHVwxKgDSnb0KzXcLkTWUb246HRv/LFduSk8tdrFKJH78RorUXBrxXFwgIUy6AIY1kY5CTWq3wC56YAdZQXn/ILmT7KWzZlmM+qk3I15gucNckz2OOYu1lgqz5UlbSrE1pkDveaioAP4l8ha5rRjJhlXe664XoluEKlff4ogqZMs6VMN/AGE95OOEOJXa7WkJFHN0ZAHWCB9uqDmo7Onfl5iwbpjQIDAQABo4IBGDCCARQwDgYDVR0PAQH/BAQDAgeAMIIBAAYKKwYBBAHWeQIBEQSB8TCB7gICASwKAQACAgEsCgEABCBqC6lGZBJ5MHdR1rtAO8QjKtxOJjQsIyibJR5ZjPjFWwQAMIG3oQUxAwIBAqIDAgEBowQCAggApQUxAwIBBKYFMQMCAQO/gUgFAgMBAAG/g3cCBQC/hT0IAgYBoXqDtmS/hT4DAgEAv4VBBQIDAiLgv4VCBQIDAxZFv4VFVQRTMFExKzApBCRkZXYuYW5kcm9pZGxhYi5jbmdhdHRlc3RhdGlvbmNvbnRyb2wCAQExIgQgjac+iDJ8sOZhku3/I82pq5AQWQuPAuZogb59H1KOFPa/hU4GAgQBNLL5MAAwCgYIKoZIzj0EAwIDSAAwRQIgHMylwLMGvtcABcoYYmLGgUARLfoLTQ4173UMpLNx50ICIQDoz3bOoohhnHskyiz4AotSLWHe9A84f1P84Ju3PG8gsg==",
+        "sha256": "242b372f5c270fa18a723ce39f0365e617f3a871e67befdf47f51971817973a2",
+        "subject": "CN=AndroidLab CNG Attestation Control",
+        "issuer": "CN=AndroidLab Software Attestation Root",
+        "valid_now": true
+      },
+      {
+        "der_base64": "MIIBhTCCASqgAwIBAgIQe+6TOolgMAydZpv8kCR5ZjAKBggqhkjOPQQDAjAvMS0wKwYDVQQDDCRBbmRyb2lkTGFiIFNvZnR3YXJlIEF0dGVzdGF0aW9uIFJvb3QwIBcNNzAwMTAxMDAwMDAwWhgPOTk5OTEyMzEyMzU5NTlaMC8xLTArBgNVBAMMJEFuZHJvaWRMYWIgU29mdHdhcmUgQXR0ZXN0YXRpb24gUm9vdDBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABCb5urKpUHxJSBW5N+73LxFN6TVMzBqDYnhTd5xFYWnc1pFzHcKMD76tLL7+YrEF8Lb0rGYTH6F3hXOYeFZaxU+jJjAkMBIGA1UdEwEB/wQIMAYBAf8CAQAwDgYDVR0PAQH/BAQDAgEGMAoGCCqGSM49BAMCA0kAMEYCIQCCWORvXMYRHIOR1dmLq9oxiRlsrt+gpXftxNauSt+LqwIhAMUIJMnsfPFxrMMAagR2nDfxMGLAvQ+Rk59ue/7CqyiH",
+        "sha256": "b1b39cca723d76936f18703d1a9fe3622998ea2d40594cdc18954f007640f5c7",
+        "subject": "CN=AndroidLab Software Attestation Root",
+        "issuer": "CN=AndroidLab Software Attestation Root",
+        "valid_now": true
+      }
+    ],
+    "chain_signatures_valid": true,
+    "chain_valid_now": true,
+    "leaf_matches_generated_key": true,
+    "root_self_signature_verified": true,
+    "lab_root_subject_matches": true,
+    "full_pkix_path_validation_performed": false,
+    "attestation": {
+      "attestation_version": 300,
+      "attestation_security_level": 0,
+      "keymaster_version": 300,
+      "keymaster_security_level": 0,
+      "challenge_matches": true,
+      "root_of_trust_present": false,
+      "hardware_authorizations_empty": true,
+      "unique_id_empty": true,
+      "attestation_application_id_base64": "MFExKzApBCRkZXYuYW5kcm9pZGxhYi5jbmdhdHRlc3RhdGlvbmNvbnRyb2wCAQExIgQgjac+iDJ8sOZhku3/I82pq5AQWQuPAuZogb59H1KOFPY="
+    },
+    "key_possession_verified": true,
+    "tampered_signature_rejected": true,
+    "payload_base64": "QW5kcm9pZExhYiBDTkcgYXR0ZXN0YXRpb24gY29udHJvbCB2MQpjaGFsbGVuZ2VfYmFzZTY0PWFndXBSbVFTZVRCM1VkYTdRRHZFSXlyY1RpWTBMQ01vbXlVZVdZejR4VnM9",
+    "signature_base64": "FByiKq96yPHaTEc7Pr9TLiMDUq/E9YyqGjdwAX5xn1MNVEhC8mtAicdvaOmN5yd0c93ISqVjO1MisKdQOQzK330SHkpd5MhVanZ7NDjirLhCFVL5XbzDufUp89S+f20yNxZ1fBaQW06uBov77wWMsryekVLqcAE6vGrtxXvdo3KlIn7DNrD66hxRBVaXmJtbqLPYpEEaHrlPoUMY2h5wcdk8tXfDEmlCFBtnSXH0F/J2gNnsI7dHOf0BXDM3n+owVyEu6IOsq4+6nc7nnTg37UWG0HgvACQu6y21/HWJDM9Vl4hsg8NM8upOoc6FlEpgJWk+n4TG6RIwIiiq2S9lZQ==",
+    "signer_provider": "AndroidKeyStoreBCWorkaround",
+    "public_verifier_provider": "AndroidOpenSSL",
+    "digest": "SHA-256",
+    "mgf1_digest": "SHA-256",
+    "salt_length": 32,
+    "cleanup": {
+      "owned_count": 1,
+      "removed_count": 1,
+      "verified": true
+    },
+    "completed_at_ms": 1793056814808
+  },
+  "completed_at_ms": 1793056814808,
+  "apk_sha256": "5927efb39af0f7ab5c8959a1652680d8df73e4f211a46fbb18c19a7415d25747",
+  "package": "dev.androidlab.cngattestationcontrol",
+  "expected_control_status": "complete"
+}

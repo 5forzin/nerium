@@ -1,0 +1,9 @@
+{
+  "uid": 0,
+  "euid": 0,
+  "context": "u:r:device_lab_vendor_probe:s0",
+  "no_new_privs": 0,
+  "capget_result": 0,
+  "effective_capabilities": "00000000002000c0",
+  "contract_exit_code": 0
+}

@@ -1,0 +1,23 @@
+total 12000
+-rw------- 1 system     system  67915 2026-10-24 22:04 anr_2026-10-24-22-04-03-862
+-rw------- 1 system     system 980996 2026-10-24 22:04 anr_2026-10-24-22-03-44-939
+-rw------- 1 system     system  38774 2026-10-24 21:58 anr_2026-10-24-21-58-29-211
+-rw------- 1 system     system 963096 2026-10-24 21:58 anr_2026-10-24-21-58-09-687
+          0K: Cursor
+          0K: Gfx dev
+          0K: EGL mtrack
+          0K: GL mtrack
+          0K: Other mtrack
+
+Total RAM: 2,530,768K (status normal)
+ Free RAM: 1,563,702K (  895,230K cached pss +   333,760K cached kernel +   334,712K free)
+DMA-BUF:         0K (        0K mapped +         0K unmapped)
+DMA-BUF Heaps:         0K
+      GPU:         0K
+ Used RAM: 1,222,704K (  939,940K used pss +   282,764K kernel)
+ Lost RAM:    27,433K
+     ZRAM:   147,496K physical used for   438,272K in swap (1,898,072K total swap)
+   Tuning: 192 (large 576), oom   322,560K, restore limit   107,520K (high-end-gfx)
+--------- beginning of events
+10-24 22:03:44.802   552  2244 I am_anr  : [0,756,com.android.systemui,550026765,executing service com.android.systemui/.dump.SystemUIAuxiliaryDumpService]
+10-24 22:04:03.848   552  2244 I am_anr  : [0,1259,com.google.android.gms.persistent,-1597325755,Broadcast of Intent { act=android.intent.action.SIM_STATE_CHANGED flg=0x15000010 cmp=com.google.android.gms/.chimera.GmsIntentOperationService$PersistentTrustedReceiver (has extras) }]

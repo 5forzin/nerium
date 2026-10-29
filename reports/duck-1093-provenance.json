@@ -1,0 +1,15 @@
+{
+  "repository": "eltavine/Duck-Detector-Refactoring",
+  "release": "https://github.com/eltavine/Duck-Detector-Refactoring/releases/tag/nightly-2026-10-25-4c2e29e2",
+  "commit": "4c2e29e223c390179a722b7a0141dda0661bfcaa",
+  "asset_id": 675762361,
+  "asset_bytes": 20096250,
+  "download_method": "authenticated GitHub CLI",
+  "apk_sha256": "9d41b1835acee4323378973451bf6c53074f5d52e206aa2e6927a2c4a1058ffc",
+  "github_api_digest_matches": true,
+  "version_name": "2026.10.26-4c2e29e223c3",
+  "version_code": 1093,
+  "apk_signature_verified": true,
+  "signer_certificate_sha256": "1dc8172888f96aba54a0a2fe419a67d524c67cb2ce84a206ba36606f47368e35",
+  "signer_matches_build_1084": true
+}

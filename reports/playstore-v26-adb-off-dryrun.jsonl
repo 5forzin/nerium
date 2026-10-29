@@ -1,0 +1,3 @@
+{"event":"recovery_armed","elapsed_realtime_ms":277302,"wall_time_ms":1792971941202,"dry_run":true,"adb_enabled":1,"adb_wifi_enabled":0,"adbd_socket_visible":true,"adbd_service":"running","usb_config":"adb"}
+{"event":"recovery_fired","elapsed_realtime_ms":294806,"wall_time_ms":1792971958706,"dry_run":true,"adb_enabled":1,"adb_wifi_enabled":0,"adbd_socket_visible":true,"adbd_service":"running","usb_config":"adb"}
+{"event":"recovery_applied","elapsed_realtime_ms":295010,"wall_time_ms":1792971958909,"dry_run":true,"adb_enabled":1,"adb_wifi_enabled":0,"adbd_socket_visible":true,"adbd_service":"running","usb_config":"adb"}

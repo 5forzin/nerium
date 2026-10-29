@@ -1,0 +1,20 @@
+{
+  "started_at": "2026-10-25T04:00:50.6580339+00:00",
+  "captured_at": "2026-10-25T04:00:59.0197078+00:00",
+  "boot_id": "5d74e67b-0722-4079-917f-1ab43af61470",
+  "launch": "Independent platform worker: 5397",
+  "repository_revision": "dda5277d10b948ba6bec362252ec41f8bbbd9f97",
+  "candidate_directory": "candidate-mgf-aes",
+  "transport": "target-open",
+  "keystore_before": 182,
+  "keystore_after": 182,
+  "keystore_restarted": false,
+  "candidate_library_loaded": true,
+  "interceptors_initialized": true,
+  "policy_unchanged": true,
+  "loaded_selinux_policy_sha256": "725322b8bb21c399e222db65bd9e0ee307a3b603d19d9a3d5f47a93cc8f369c0",
+  "enforcing": "Enforcing",
+  "hardware_trust_supplied": false,
+  "log": "strict-v18-mgf-aes-start.log",
+  "logcat": "strict-v18-mgf-aes-start-logcat.txt"
+}

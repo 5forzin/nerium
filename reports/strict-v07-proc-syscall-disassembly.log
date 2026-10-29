@@ -1,0 +1,33 @@
+
+E:\Workstation\projects\android-device-lab\procprobe\build\intermediates\cxx\Debug\5k303m6a\obj\x86_64\libprocinterfaceprobe.so:	file format elf64-x86-64
+
+Disassembly of section .text:
+
+0000000000029cc0 <_Z3rawlllllll>:
+   29cc0: 55                           	pushq	%rbp
+   29cc1: 48 89 e5                     	movq	%rsp, %rbp
+   29cc4: 48 8b 45 10                  	movq	0x10(%rbp), %rax
+   29cc8: 48 89 7d f8                  	movq	%rdi, -0x8(%rbp)
+   29ccc: 48 89 75 f0                  	movq	%rsi, -0x10(%rbp)
+   29cd0: 48 89 55 e8                  	movq	%rdx, -0x18(%rbp)
+   29cd4: 48 89 4d e0                  	movq	%rcx, -0x20(%rbp)
+   29cd8: 4c 89 45 d8                  	movq	%r8, -0x28(%rbp)
+   29cdc: 4c 89 4d d0                  	movq	%r9, -0x30(%rbp)
+   29ce0: 48 8b 45 d8                  	movq	-0x28(%rbp), %rax
+   29ce4: 48 89 45 c8                  	movq	%rax, -0x38(%rbp)
+   29ce8: 48 8b 45 d0                  	movq	-0x30(%rbp), %rax
+   29cec: 48 89 45 c0                  	movq	%rax, -0x40(%rbp)
+   29cf0: 48 8b 45 10                  	movq	0x10(%rbp), %rax
+   29cf4: 48 89 45 b8                  	movq	%rax, -0x48(%rbp)
+   29cf8: 48 8b 45 f8                  	movq	-0x8(%rbp), %rax
+   29cfc: 48 8b 7d f0                  	movq	-0x10(%rbp), %rdi
+   29d00: 48 8b 75 e8                  	movq	-0x18(%rbp), %rsi
+   29d04: 48 8b 55 e0                  	movq	-0x20(%rbp), %rdx
+   29d08: 4c 8b 55 c8                  	movq	-0x38(%rbp), %r10
+   29d0c: 4c 8b 45 c0                  	movq	-0x40(%rbp), %r8
+   29d10: 4c 8b 4d b8                  	movq	-0x48(%rbp), %r9
+   29d14: 0f 05                        	syscall
+   29d16: 48 89 45 b0                  	movq	%rax, -0x50(%rbp)
+   29d1a: 48 8b 45 b0                  	movq	-0x50(%rbp), %rax
+   29d1e: 5d                           	popq	%rbp
+   29d1f: c3                           	retq

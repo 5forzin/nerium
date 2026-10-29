@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.22.1)
+project(BoundaryProbe LANGUAGES C)
+add_library(boundaryprobe SHARED boundary_probe.c)
+target_compile_features(boundaryprobe PRIVATE c_std_17)
+target_compile_options(boundaryprobe PRIVATE -Wall -Wextra -Werror)
+target_link_options(boundaryprobe PRIVATE -Wl,-z,max-page-size=16384)

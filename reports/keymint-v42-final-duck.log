@@ -1,0 +1,1302 @@
+--------- beginning of main
+10-26 19:54:57.151  4601  4601 W ziparchive: Unable to open '/data/app/~~yxshPE5xSECWDj-f-lUm_Q==/com.eltavine.duckdetector-JbMZcWdKSPgz5AIqbFOafg==/base.dm': No such file or directory
+10-26 19:54:57.151  4601  4601 W ziparchive: Unable to open '/data/app/~~yxshPE5xSECWDj-f-lUm_Q==/com.eltavine.duckdetector-JbMZcWdKSPgz5AIqbFOafg==/base.dm': No such file or directory
+--------- beginning of system
+10-26 19:54:57.251   582  2445 I ActivityManager: Force stopping com.eltavine.duckdetector appid=10203 user=0: from pid 4788
+10-26 19:54:57.252   582  2445 E libprocessgroup: No such cgroup attribute: /sys/fs/cgroup/uid_10203/cgroup.freeze
+10-26 19:54:57.252   582  2445 W libprocessgroup: Failed to apply Frozen process profile: No such file or directory
+10-26 19:54:57.252   582  2445 D OomAdjuster: Not killing cached processes
+10-26 19:54:57.252   582  2445 E libprocessgroup: No such cgroup attribute: /sys/fs/cgroup/uid_10203/cgroup.freeze
+10-26 19:54:57.252   582  2445 W libprocessgroup: Failed to apply Unfrozen process profile: No such file or directory
+10-26 19:54:57.252   582  2445 I AppsFilter: interaction: PackageSetting{356f5f9 dev.androidlab.attestationprobe/10204} -> PackageSetting{b2fbe com.eltavine.duckdetector/10203} BLOCKED
+10-26 19:54:57.252   582  2445 I AppsFilter: interaction: PackageSetting{d8e474c dev.androidlab.procprobe/10202} -> PackageSetting{b2fbe com.eltavine.duckdetector/10203} BLOCKED
+10-26 19:54:57.252   582  2445 I AppsFilter: interaction: PackageSetting{ab7ecec dev.androidlab.keymintcontrol/10205} -> PackageSetting{b2fbe com.eltavine.duckdetector/10203} BLOCKED
+10-26 19:54:57.252   582  2445 I AppsFilter: interaction: PackageSetting{507f8b5 dev.androidlab.module/10194} -> PackageSetting{b2fbe com.eltavine.duckdetector/10203} BLOCKED
+10-26 19:54:57.252   582  2445 I AppsFilter: interaction: PackageSetting{2e578e3 dev.androidlab.probe/10192} -> PackageSetting{b2fbe com.eltavine.duckdetector/10203} BLOCKED
+10-26 19:54:57.252   582  2445 I AppsFilter: interaction: PackageSetting{e78bd18 dev.androidlab.rawprobe/10201} -> PackageSetting{b2fbe com.eltavine.duckdetector/10203} BLOCKED
+10-26 19:54:57.254   965   965 D CarrierSvcBindHelper: onHandleForceStop: [com.eltavine.duckdetector]
+10-26 19:54:57.255   965   965 D CarrierSvcBindHelper: No carrier app for: 0
+10-26 19:54:57.297   582  2463 D CompatibilityChangeReporter: Compat change id reported: 161252188; UID 10203; state: DISABLED
+10-26 19:54:57.297   582  2463 W ActivityTaskManager: callingPackage for (uid=2000, pid=4793) has no WPC
+10-26 19:54:57.298   582  2463 D CompatibilityChangeReporter: Compat change id reported: 265464455; UID 10203; state: DISABLED
+10-26 19:54:57.298   582  2463 D CompatibilityChangeReporter: Compat change id reported: 265452344; UID 10203; state: DISABLED
+10-26 19:54:57.298   582  2463 D CompatibilityChangeReporter: Compat change id reported: 266124927; UID 10203; state: DISABLED
+10-26 19:54:57.298   582  2463 D CompatibilityChangeReporter: Compat change id reported: 265451093; UID 10203; state: DISABLED
+10-26 19:54:57.298   582  2463 D CompatibilityChangeReporter: Compat change id reported: 265456536; UID 10203; state: DISABLED
+10-26 19:54:57.298   582  2463 D CompatibilityChangeReporter: Compat change id reported: 255940284; UID 10203; state: DISABLED
+10-26 19:54:57.298   582  2463 D CompatibilityChangeReporter: Compat change id reported: 236283604; UID 10203; state: DISABLED
+10-26 19:54:57.298   582  2463 D CompatibilityChangeReporter: Compat change id reported: 263959004; UID 10203; state: DISABLED
+10-26 19:54:57.298   582  2463 D CompatibilityChangeReporter: Compat change id reported: 264304459; UID 10203; state: DISABLED
+10-26 19:54:57.298   582  2463 D CompatibilityChangeReporter: Compat change id reported: 264301586; UID 10203; state: DISABLED
+10-26 19:54:57.298   582  2463 D CompatibilityChangeReporter: Compat change id reported: 254631730; UID 10203; state: DISABLED
+10-26 19:54:57.298   582  2463 D CompatibilityChangeReporter: Compat change id reported: 273509367; UID 10203; state: DISABLED
+10-26 19:54:57.298   582  2463 D CompatibilityChangeReporter: Compat change id reported: 263259275; UID 10203; state: DISABLED
+10-26 19:54:57.298   582  2463 D CompatibilityChangeReporter: Compat change id reported: 174042980; UID 10203; state: DISABLED
+10-26 19:54:57.298   582  2463 D CompatibilityChangeReporter: Compat change id reported: 174042936; UID 10203; state: DISABLED
+10-26 19:54:57.298   582  2463 D CompatibilityChangeReporter: Compat change id reported: 181136395; UID 10203; state: DISABLED
+10-26 19:54:57.299   582  2463 D CompatibilityChangeReporter: Compat change id reported: 194480991; UID 10203; state: ENABLED
+10-26 19:54:57.307   582  2463 D CompatibilityChangeReporter: Compat change id reported: 184838306; UID 10203; state: DISABLED
+10-26 19:54:57.310   582  2463 D CompatibilityChangeReporter: Compat change id reported: 185004937; UID 10203; state: DISABLED
+10-26 19:54:57.311   582  2463 D CompatibilityChangeReporter: Compat change id reported: 197654537; UID 10203; state: ENABLED
+10-26 19:54:57.313   582  2463 D CompatibilityChangeReporter: Compat change id reported: 205907456; UID 10203; state: ENABLED
+10-26 19:54:57.320   582  2463 I ActivityTaskManager: START u0 {flg=0x10000000 cmp=com.eltavine.duckdetector/android.app.NativeActivity} with LAUNCH_MULTIPLE from uid 2000 (BAL_ALLOW_PERMISSION) result code=0
+10-26 19:54:57.324   800   868 V WindowManagerShell: Transition requested: android.os.BinderProxy@2c04cde TransitionRequestInfo { type = OPEN, triggerTask = TaskInfo{userId=0 taskId=518 displayId=0 isRunning=true baseIntent=Intent { flg=0x10000000 cmp=com.eltavine.duckdetector/android.app.NativeActivity } baseActivity=ComponentInfo{com.eltavine.duckdetector/android.app.NativeActivity} topActivity=ComponentInfo{com.eltavine.duckdetector/android.app.NativeActivity} origActivity=null realActivity=ComponentInfo{com.eltavine.duckdetector/android.app.NativeActivity} numActivities=1 lastActiveTime=141318 supportsMultiWindow=true resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{android.window.IWindowContainerToken$Stub$Proxy@5008ebf} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=Rect(0, 132 - 0, 0) topActivityInfo=ActivityInfo{375298c android.app.NativeActivity} launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=false isVisible=false isVisibleRequested=false isSleeping=false topActivityInSizeCompat=false topActivityEligibleForLetterboxEducation= false topActivityLetterboxed= false isFromDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=-1 topActivityLetterboxHeight=-1 locusId=null displayAreaFeatureId=1 cameraCompatControlState=hidden}, remoteTransition = null, displayChange = null }
+10-26 19:54:57.330   582   614 D CompatibilityChangeReporter: Compat change id reported: 135634846; UID 10203; state: DISABLED
+10-26 19:54:57.336   582   624 D CompatibilityChangeReporter: Compat change id reported: 143937733; UID 10203; state: ENABLED
+10-26 19:54:57.338   463   463 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+10-26 19:54:57.344   394   394 D Zygote  : Forked child process 4796
+10-26 19:54:57.345   582   624 I ActivityManager: Start proc 4796:com.eltavine.duckdetector/u0a203 for next-top-activity {com.eltavine.duckdetector/android.app.NativeActivity}
+10-26 19:54:57.347   395   395 I zygiskd64:  - Sending companion fd socket of module "device_lab_cpu"
+10-26 19:54:57.347  4374  4374 I zygiskd-companion64: New companion request.
+10-26 19:54:57.347  4374  4374 I zygiskd-companion64:  - Module name: device_lab_cpu
+10-26 19:54:57.347  4374  4374 I zygiskd-companion64:  - Client fd: 6
+10-26 19:54:57.384  4796  4796 I DeviceLabNamespace: profile mount status=0 pid=4796
+10-26 19:54:57.384  4374  4797 I zygiskd-companion64:  - Client fd changed after module entry
+10-26 19:54:57.384  4796  4796 W ziparchive: Unable to open '/data/misc/device-lab/runtime-49329-1792891232-416391481.dm': No such file or directory
+10-26 19:54:57.385  4796  4796 W ziparchive: Unable to open '/data/misc/device-lab/runtime-49329-1792891232-416391481.dm': No such file or directory
+10-26 19:54:57.379  4796  4796 W main    : type=1400 audit(0.0:26): avc:  denied  { write } for  name="device-lab" dev="dm-40" ino=49191 scontext=u:r:zygote:s0 tcontext=u:object_r:system_file:s0 tclass=dir permissive=0
+10-26 19:54:57.386  4796  4796 D nativeloader: Configuring clns-6 for other apk . target_sdk_version=0, uses_libraries=ALL, library_path=/data/misc/device-lab/runtime-49329-1792891232-416391481.apk!/lib/x86_64, permitted_path=/data:/mnt/expand
+10-26 19:54:57.387  4796  4796 W zygote64: Core platform API violation: Ljava/lang/reflect/Executable;->artMethod:J from Lcom/android/internal/os/Zygote; using JNI
+10-26 19:54:57.387  4796  4796 I DeviceLabRuntime: JNI preparation sensors=1 original_is_replacement=0
+10-26 19:54:57.388   395   395 I zygiskd64:  - Sending companion fd socket of module "device_lab_cpu"
+10-26 19:54:57.388  4374  4374 I zygiskd-companion64: New companion request.
+10-26 19:54:57.388  4374  4374 I zygiskd-companion64:  - Module name: device_lab_cpu
+10-26 19:54:57.388  4374  4374 I zygiskd-companion64:  - Client fd: 6
+10-26 19:54:57.390  4374  4800 I zygiskd-companion64:  - Client fd changed after module entry
+10-26 19:54:57.391  4796  4796 I DeviceLabNamespace: uname broker status=0 pid=4796
+10-26 19:54:57.391  4796  4796 I DeviceLabNamespace: notification domain=platform pid=4796
+10-26 19:54:57.391  4796  4796 I DeviceLabNamespace: proc broker enabled=1
+10-26 19:54:57.412  4796  4796 I DeviceLabPolicy: policy PLT installed=1
+10-26 19:54:57.544  4796  4796 I DeviceLabPolicy: openat2 policy status=0 source_length=260 original_suffix_preserved=1
+10-26 19:54:57.569  4796  4796 I ne.duckdetector: Using CollectorTypeCC GC.
+10-26 19:54:57.581  4796  4796 W ne.duckdetector: Unexpected CPU variant for x86: x86_64.
+10-26 19:54:57.581  4796  4796 W ne.duckdetector: Known variants: atom, sandybridge, silvermont, goldmont, goldmont-plus, tremont, kabylake, default
+10-26 19:54:57.592  4796  4796 E ne.duckdetector: Not starting debugger since process cannot load the jdwp agent.
+10-26 19:54:57.613  4796  4796 I DeviceLabPolicy: policy PLT restored=1
+10-26 19:54:57.665  4796  4796 I DeviceLabNamespace: property remap status=0 pid=4796
+10-26 19:54:57.685  4796  4796 D libEGL  : loaded /vendor/lib64/egl/libEGL_emulation.so
+10-26 19:54:57.692  4796  4796 D libEGL  : loaded /vendor/lib64/egl/libGLESv1_CM_emulation.so
+10-26 19:54:57.723  4796  4796 D libEGL  : loaded /vendor/lib64/egl/libGLESv2_emulation.so
+10-26 19:54:57.744  4796  4796 I DeviceLabRuntime: profile build=1 auxv=1 graphics_dispatch=1
+10-26 19:54:57.761  4673  4816 D ProfileInstaller: Installing profile for com.reveny.emulator.detection.sample
+10-26 19:54:57.783   582  2445 D CompatibilityChangeReporter: Compat change id reported: 168419799; UID 10203; state: DISABLED
+10-26 19:54:57.784   582  2445 D CompatibilityChangeReporter: Compat change id reported: 273564678; UID 10203; state: DISABLED
+10-26 19:54:57.794   582   663 D CompatibilityChangeReporter: Compat change id reported: 265195908; UID 10203; state: ENABLED
+10-26 19:54:57.816  4796  4796 D CompatibilityChangeReporter: Compat change id reported: 171979766; UID 10203; state: ENABLED
+10-26 19:54:57.816  4796  4796 D CompatibilityChangeReporter: Compat change id reported: 242716250; UID 10203; state: ENABLED
+10-26 19:54:57.821   582  2445 D CompatibilityChangeReporter: Compat change id reported: 170503758; UID 10203; state: ENABLED
+10-26 19:54:57.823  4673  4700 D EGL_emulation: app_time_stats: avg=458.11ms min=2.61ms max=4927.85ms count=11
+10-26 19:54:57.825  4796  4796 D ApplicationLoaders: Returning zygote-cached class loader: /system_ext/framework/androidx.window.extensions.jar
+10-26 19:54:57.825  4796  4796 D ApplicationLoaders: Returning zygote-cached class loader: /system_ext/framework/androidx.window.sidecar.jar
+10-26 19:54:57.830  4796  4796 W ziparchive: Unable to open '/data/app/~~yxshPE5xSECWDj-f-lUm_Q==/com.eltavine.duckdetector-JbMZcWdKSPgz5AIqbFOafg==/base.dm': No such file or directory
+10-26 19:54:57.832  4796  4796 W ziparchive: Unable to open '/data/app/~~yxshPE5xSECWDj-f-lUm_Q==/com.eltavine.duckdetector-JbMZcWdKSPgz5AIqbFOafg==/base.dm': No such file or directory
+10-26 19:54:57.859  4796  4796 D nativeloader: Configuring clns-7 for other apk /data/app/~~yxshPE5xSECWDj-f-lUm_Q==/com.eltavine.duckdetector-JbMZcWdKSPgz5AIqbFOafg==/base.apk. target_sdk_version=37, uses_libraries=, library_path=/data/app/~~yxshPE5xSECWDj-f-lUm_Q==/com.eltavine.duckdetector-JbMZcWdKSPgz5AIqbFOafg==/lib/x86_64:/data/app/~~yxshPE5xSECWDj-f-lUm_Q==/com.eltavine.duckdetector-JbMZcWdKSPgz5AIqbFOafg==/base.apk!/lib/x86_64, permitted_path=/data:/mnt/expand:/data/user/0/com.eltavine.duckdetector
+10-26 19:54:57.867  4796  4796 V GraphicsEnvironment: Currently set values for:
+10-26 19:54:57.867  4796  4796 V GraphicsEnvironment:   angle_gl_driver_selection_pkgs=[]
+10-26 19:54:57.867  4796  4796 V GraphicsEnvironment:   angle_gl_driver_selection_values=[]
+10-26 19:54:57.868  4796  4796 V GraphicsEnvironment: ANGLE GameManagerService for com.eltavine.duckdetector: false
+10-26 19:54:57.868  4796  4796 V GraphicsEnvironment: com.eltavine.duckdetector is not listed in per-application setting
+10-26 19:54:57.868  4796  4796 V GraphicsEnvironment: Neither updatable production driver nor prerelease driver is supported.
+10-26 19:54:57.950   582  2445 I ActivityManager: Flag disabled. Ignoring finishAttachApplication from uid: 10203. pid: 4796
+10-26 19:54:57.996  4796  4796 E EarlyMountPreload: Failed to get mntent_strings buffer
+10-26 19:54:58.002  4796  4796 W libc    : Access denied finding property "qemu.sf.lcd_density"
+10-26 19:54:57.995  4796  4796 W ne.duckdetector: type=1400 audit(0.0:27): avc:  denied  { read } for  name="u:object_r:qemu_sf_lcd_density_prop:s0" dev="tmpfs" ino=263 scontext=u:r:untrusted_app:s0:c203,c256,c512,c768 tcontext=u:object_r:qemu_sf_lcd_density_prop:s0 tclass=file permissive=0 app=com.eltavine.duckdetector
+10-26 19:54:58.120   582  2445 I ActivityTaskManager: START u0 {flg=0x34000000 cmp=com.eltavine.duckdetector/.MainActivity (has extras)} with LAUNCH_MULTIPLE from uid 10203 (BAL_ALLOW_VISIBLE_WINDOW) result code=0
+10-26 19:54:58.277  4796  4796 I WebViewFactory: Loading com.google.android.webview version 113.0.5672.136 (code 567263637)
+10-26 19:54:58.295  4796  4796 W ziparchive: Unable to open '/data/app/~~TzlpvnPuyMR75d3mQLDJvw==/com.google.android.trichromelibrary_567263637-GvX3w6q2jy7To1Wn8PsRbA==/TrichromeLibrary.dm': No such file or directory
+10-26 19:54:58.296  4796  4796 W ziparchive: Unable to open '/data/app/~~TzlpvnPuyMR75d3mQLDJvw==/com.google.android.trichromelibrary_567263637-GvX3w6q2jy7To1Wn8PsRbA==/TrichromeLibrary.dm': No such file or directory
+10-26 19:54:58.299  4796  4796 W ne.duckdetector: Entry not found
+10-26 19:54:58.306  4796  4796 D nativeloader: Configuring clns-8 for other apk /data/app/~~TzlpvnPuyMR75d3mQLDJvw==/com.google.android.trichromelibrary_567263637-GvX3w6q2jy7To1Wn8PsRbA==/TrichromeLibrary.apk. target_sdk_version=34, uses_libraries=ALL, library_path=/data/app/~~cA2pE84YwiT5hl2ch_Do5g==/com.google.android.webview-Os2J0ASj4ujleapyBoISSw==/lib/x86_64:/data/app/~~cA2pE84YwiT5hl2ch_Do5g==/com.google.android.webview-Os2J0ASj4ujleapyBoISSw==/WebViewGoogle.apk!/lib/x86_64:/data/app/~~TzlpvnPuyMR75d3mQLDJvw==/com.google.android.trichromelibrary_567263637-GvX3w6q2jy7To1Wn8PsRbA==/TrichromeLibrary.apk!/lib/x86_64, permitted_path=/data:/mnt/expand
+10-26 19:54:58.362  4796  4796 D nativeloader: Configuring clns-9 for other apk /data/app/~~cA2pE84YwiT5hl2ch_Do5g==/com.google.android.webview-Os2J0ASj4ujleapyBoISSw==/WebViewGoogle.apk. target_sdk_version=34, uses_libraries=, library_path=/data/app/~~cA2pE84YwiT5hl2ch_Do5g==/com.google.android.webview-Os2J0ASj4ujleapyBoISSw==/lib/x86_64:/data/app/~~cA2pE84YwiT5hl2ch_Do5g==/com.google.android.webview-Os2J0ASj4ujleapyBoISSw==/WebViewGoogle.apk!/lib/x86_64:/data/app/~~TzlpvnPuyMR75d3mQLDJvw==/com.google.android.trichromelibrary_567263637-GvX3w6q2jy7To1Wn8PsRbA==/TrichromeLibrary.apk!/lib/x86_64, permitted_path=/data:/mnt/expand
+10-26 19:54:58.363   582  2445 W Binder  : Caught a RuntimeException from the binder stub implementation.
+10-26 19:54:58.363   582  2445 W Binder  : java.lang.IllegalArgumentException: Unable to get package dev.androidlab.integrityprobe
+10-26 19:54:58.363   582  2445 W Binder  : 	at com.android.server.art.Utils.getPackageOrThrow(Utils.java:271)
+10-26 19:54:58.363   582  2445 W Binder  : 	at com.android.server.art.DexUseManagerLocal.isOwningPackageForPrimaryDex(DexUseManagerLocal.java:443)
+10-26 19:54:58.363   582  2445 W Binder  : 	at com.android.server.art.DexUseManagerLocal.lambda$notifyDexContainersLoaded$9(DexUseManagerLocal.java:396)
+10-26 19:54:58.363   582  2445 W Binder  : 	at com.android.server.art.DexUseManagerLocal.$r8$lambda$hXjaMQ6JLgVjiJmhGgjNj0X7opA(DexUseManagerLocal.java:0)
+10-26 19:54:58.363   582  2445 W Binder  : 	at com.android.server.art.DexUseManagerLocal$$ExternalSyntheticLambda9.apply(R8$$SyntheticClass:0)
+10-26 19:54:58.363   582  2445 W Binder  : 	at com.android.server.art.DexUseManagerLocal.findOwningPackage(DexUseManagerLocal.java:433)
+10-26 19:54:58.363   582  2445 W Binder  : 	at com.android.server.art.DexUseManagerLocal.notifyDexContainersLoaded(DexUseManagerLocal.java:395)
+10-26 19:54:58.363   582  2445 W Binder  : 	at com.android.server.pm.PackageManagerService$IPackageManagerImpl.notifyDexLoad(PackageManagerService.java:5539)
+10-26 19:54:58.363   582  2445 W Binder  : 	at android.content.pm.IPackageManager$Stub.onTransact(IPackageManager.java:3257)
+10-26 19:54:58.363   582  2445 W Binder  : 	at com.android.server.pm.PackageManagerService$IPackageManagerImpl.onTransact(PackageManagerService.java:6334)
+10-26 19:54:58.363   582  2445 W Binder  : 	at android.os.Binder.execTransactInternal(Binder.java:1344)
+10-26 19:54:58.363   582  2445 W Binder  : 	at android.os.Binder.execTransact(Binder.java:1275)
+10-26 19:54:58.718  4796  4796 I cr_WVCFactoryProvider: Loaded version=113.0.5672.136 minSdkVersion=29 isBundle=false multiprocess=true packageId=2
+10-26 19:54:58.744  4796  4796 I cr_LibraryLoader: Successfully loaded native library
+10-26 19:54:58.744  4796  4796 I cr_CachingUmaRecorder: Flushed 8 samples from 8 histograms.
+10-26 19:54:58.761   582  2445 D CompatibilityChangeReporter: Compat change id reported: 161145287; UID 10203; state: ENABLED
+10-26 19:54:58.781   582  2445 D CompatibilityChangeReporter: Compat change id reported: 135634846; UID 99000; state: DISABLED
+10-26 19:54:58.781   582   624 D CompatibilityChangeReporter: Compat change id reported: 143937733; UID 10203; state: ENABLED
+10-26 19:54:58.790   885   885 I Zygote  : Entering forkRepeatedly native zygote loop
+10-26 19:54:58.796   582  1820 D CompatibilityChangeReporter: Compat change id reported: 261072174; UID 10203; state: ENABLED
+10-26 19:54:58.801   885   885 D Zygote  : Forked child process 4834
+10-26 19:54:58.806  4834  4834 I ocessService0:0: Using CollectorTypeCC GC.
+10-26 19:54:58.809  4834  4834 W ocessService0:0: Unexpected CPU variant for x86: x86_64.
+10-26 19:54:58.809  4834  4834 W ocessService0:0: Known variants: atom, sandybridge, silvermont, goldmont, goldmont-plus, tremont, kabylake, default
+10-26 19:54:58.809  4796  4796 D CompatibilityChangeReporter: Compat change id reported: 183155436; UID 10203; state: ENABLED
+10-26 19:54:58.857   582   624 W ActivityManager: Slow operation: 76ms so far, now at startProcess: returned from zygote!
+10-26 19:54:58.857  4834  4834 E ocessService0:0: Not starting debugger since process cannot load the jdwp agent.
+10-26 19:54:58.857   582   624 W ActivityManager: Slow operation: 76ms so far, now at startProcess: done updating battery stats
+10-26 19:54:58.857   582   624 W ActivityManager: Slow operation: 76ms so far, now at startProcess: building log message
+10-26 19:54:58.857   582   624 I ActivityManager: Start proc 4834:com.google.android.webview:sandboxed_process0:org.chromium.content.app.SandboxedProcessService0:0/u0ai9000 for  {com.eltavine.duckdetector/org.chromium.content.app.SandboxedProcessService0:0}
+10-26 19:54:58.857   582   624 W ActivityManager: Slow operation: 76ms so far, now at startProcess: starting to update pids map
+10-26 19:54:58.857   582   624 W ActivityManager: Slow operation: 76ms so far, now at startProcess: done updating pids map
+10-26 19:54:58.939  4834  4834 D CompatibilityChangeReporter: Compat change id reported: 171979766; UID 99000; state: ENABLED
+10-26 19:54:58.942  4834  4834 D CompatibilityChangeReporter: Compat change id reported: 242716250; UID 99000; state: ENABLED
+10-26 19:54:58.961  4834  4834 I LoadedApk: No resource references to update in package com.google.android.trichromelibrary
+10-26 19:54:58.962  4834  4834 I cr_WebViewApkApp: Launched version=113.0.5672.136 minSdkVersion=29 isBundle=false processName=com.google.android.webview:sandboxed_process0:org.chromium.content.app.SandboxedProcessService0:0
+10-26 19:54:58.962   582  2445 I ActivityManager: Flag disabled. Ignoring finishAttachApplication from uid: 99000. pid: 4834
+10-26 19:54:58.964  4834  4834 W SystemServiceRegistry: No service published for: virtualdevice
+10-26 19:54:58.965  4834  4834 I cr_ChildProcessService: Creating new ChildProcessService pid=4834
+10-26 19:54:58.988   582   624 D CompatibilityChangeReporter: Compat change id reported: 143937733; UID 10133; state: ENABLED
+10-26 19:54:58.989  4796  4848 E chromium: [ERROR:simple_file_enumerator.cc(21)] opendir /data/user/0/com.eltavine.duckdetector/cache/WebView/Default/HTTP Cache/Code Cache/js: No such file or directory (2)
+10-26 19:54:58.989  4796  4848 E chromium: [ERROR:simple_index_file.cc(614)] Could not reconstruct index from disk
+10-26 19:54:58.996  4796  4796 D CompatibilityChangeReporter: Compat change id reported: 214741472; UID 10203; state: ENABLED
+10-26 19:54:59.004  4796  4796 D CompatibilityChangeReporter: Compat change id reported: 171228096; UID 10203; state: ENABLED
+10-26 19:54:59.019   394   394 D Zygote  : Forked child process 4868
+10-26 19:54:59.020   582   624 I ActivityManager: Start proc 4868:com.google.android.webview:webview_service/u0a133 for service {com.google.android.webview/org.chromium.android_webview.services.ComponentsProviderService}
+10-26 19:54:59.027   582  2445 D ConnectivityService: requestNetwork for uid/pid:10203/4796 activeRequest: null callbackRequest: 125 [NetworkRequest [ REQUEST id=126, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10203 RequestorUid: 10203 RequestorPkg: com.eltavine.duckdetector UnderlyingNetworks: Null] ]] callback flags: 0 order: 2147483647
+10-26 19:54:59.030   582   725 D ConnectivityService: NetReassign [126 : null → 100] [c 0] [a 0] [i 1]
+10-26 19:54:59.031   582   718 D WifiNetworkFactory: got request NetworkRequest [ REQUEST id=126, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10203 RequestorUid: 10203 RequestorPkg: com.eltavine.duckdetector UnderlyingNetworks: Null] ]
+10-26 19:54:59.031   582   718 D UntrustedWifiNetworkFactory: got request NetworkRequest [ REQUEST id=126, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10203 RequestorUid: 10203 RequestorPkg: com.eltavine.duckdetector UnderlyingNetworks: Null] ]
+10-26 19:54:59.031   582   718 D OemPaidWifiNetworkFactory: got request NetworkRequest [ REQUEST id=126, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10203 RequestorUid: 10203 RequestorPkg: com.eltavine.duckdetector UnderlyingNetworks: Null] ]
+10-26 19:54:59.031   582   718 D MultiInternetWifiNetworkFactory: got request NetworkRequest [ REQUEST id=126, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10203 RequestorUid: 10203 RequestorPkg: com.eltavine.duckdetector UnderlyingNetworks: Null] ]
+10-26 19:54:59.039   582   725 D ConnectivityService: NetReassign [no changes] [c 0] [a 1] [i 0]
+10-26 19:54:59.080  4796  4796 D AutofillManager: Fill dialog is enabled:false, hints=[password, passwordAuto, creditCardNumber, creditCardSecurityCode, creditCardExpirationDate]
+10-26 19:54:59.098  4868  4868 I webview_service: Using CollectorTypeCC GC.
+10-26 19:54:59.102  4868  4868 W webview_service: Unexpected CPU variant for x86: x86_64.
+10-26 19:54:59.102  4868  4868 W webview_service: Known variants: atom, sandybridge, silvermont, goldmont, goldmont-plus, tremont, kabylake, default
+10-26 19:54:59.116  4868  4868 E webview_service: Not starting debugger since process cannot load the jdwp agent.
+10-26 19:54:59.155   582  2445 D CompatibilityChangeReporter: Compat change id reported: 168419799; UID 10133; state: DISABLED
+10-26 19:54:59.155   582  2445 D CompatibilityChangeReporter: Compat change id reported: 273564678; UID 10133; state: DISABLED
+10-26 19:54:59.159   582   663 D CompatibilityChangeReporter: Compat change id reported: 265195908; UID 10133; state: ENABLED
+10-26 19:54:59.206  4868  4868 D CompatibilityChangeReporter: Compat change id reported: 171979766; UID 10133; state: ENABLED
+10-26 19:54:59.206  4868  4868 D CompatibilityChangeReporter: Compat change id reported: 242716250; UID 10133; state: ENABLED
+10-26 19:54:59.211  4796  4853 W cr_media: BLUETOOTH_CONNECT permission is missing.
+10-26 19:54:59.211  4796  4853 W cr_media: registerBluetoothIntentsIfNeeded: Requires BLUETOOTH permission
+10-26 19:54:59.230   582  1820 D CompatibilityChangeReporter: Compat change id reported: 170503758; UID 10133; state: ENABLED
+10-26 19:54:59.232   393  4651 I resolv  : res_nsend: used send_dg 0 terrno: 110
+10-26 19:54:59.232   393  4651 I resolv  : doQuery: rcode=255, ancount=0, return value=-110
+10-26 19:54:59.233   393  4650 I resolv  : res_nsend: used send_dg 0 terrno: 110
+10-26 19:54:59.233   393  4650 I resolv  : doQuery: rcode=255, ancount=0, return value=-110
+10-26 19:54:59.233   393  4745 I resolv  : res_stats_usable_server: too many resolution errors, ignoring server
+10-26 19:54:59.237   393  4746 I resolv  : res_stats_usable_server: too many resolution errors, ignoring server
+10-26 19:54:59.251  4868  4868 W ziparchive: Unable to open '/data/app/~~TzlpvnPuyMR75d3mQLDJvw==/com.google.android.trichromelibrary_567263637-GvX3w6q2jy7To1Wn8PsRbA==/TrichromeLibrary.dm': No such file or directory
+10-26 19:54:59.252  4868  4868 W ziparchive: Unable to open '/data/app/~~TzlpvnPuyMR75d3mQLDJvw==/com.google.android.trichromelibrary_567263637-GvX3w6q2jy7To1Wn8PsRbA==/TrichromeLibrary.dm': No such file or directory
+10-26 19:54:59.252  4868  4868 W webview_service: Entry not found
+10-26 19:54:59.256  4868  4868 D nativeloader: Configuring clns-6 for other apk /data/app/~~TzlpvnPuyMR75d3mQLDJvw==/com.google.android.trichromelibrary_567263637-GvX3w6q2jy7To1Wn8PsRbA==/TrichromeLibrary.apk. target_sdk_version=34, uses_libraries=ALL, library_path=/data/app/~~cA2pE84YwiT5hl2ch_Do5g==/com.google.android.webview-Os2J0ASj4ujleapyBoISSw==/lib/x86_64:/data/app/~~cA2pE84YwiT5hl2ch_Do5g==/com.google.android.webview-Os2J0ASj4ujleapyBoISSw==/WebViewGoogle.apk!/lib/x86_64:/data/app/~~TzlpvnPuyMR75d3mQLDJvw==/com.google.android.trichromelibrary_567263637-GvX3w6q2jy7To1Wn8PsRbA==/TrichromeLibrary.apk!/lib/x86_64, permitted_path=/data:/mnt/expand:/data/user/0/com.google.android.webview
+10-26 19:54:59.295  4834  4865 I cr_LibraryLoader: Successfully loaded native library
+10-26 19:54:59.295  4834  4865 I cr_CachingUmaRecorder: Flushed 2 samples from 2 histograms.
+10-26 19:54:59.317  4834  4865 W SystemServiceRegistry: No service published for: uimode
+10-26 19:54:59.320  4868  4868 D nativeloader: Configuring clns-7 for other apk /data/app/~~cA2pE84YwiT5hl2ch_Do5g==/com.google.android.webview-Os2J0ASj4ujleapyBoISSw==/WebViewGoogle.apk. target_sdk_version=34, uses_libraries=, library_path=/data/app/~~cA2pE84YwiT5hl2ch_Do5g==/com.google.android.webview-Os2J0ASj4ujleapyBoISSw==/lib/x86_64:/data/app/~~cA2pE84YwiT5hl2ch_Do5g==/com.google.android.webview-Os2J0ASj4ujleapyBoISSw==/WebViewGoogle.apk!/lib/x86_64:/data/app/~~TzlpvnPuyMR75d3mQLDJvw==/com.google.android.trichromelibrary_567263637-GvX3w6q2jy7To1Wn8PsRbA==/TrichromeLibrary.apk!/lib/x86_64, permitted_path=/data:/mnt/expand:/data/user/0/com.google.android.webview
+10-26 19:54:59.334  4868  4868 V GraphicsEnvironment: Currently set values for:
+10-26 19:54:59.335  4868  4868 V GraphicsEnvironment:   angle_gl_driver_selection_pkgs=[]
+10-26 19:54:59.335  4868  4868 V GraphicsEnvironment:   angle_gl_driver_selection_values=[]
+10-26 19:54:59.335  4868  4868 V GraphicsEnvironment: ANGLE GameManagerService for com.google.android.webview: false
+10-26 19:54:59.335  4868  4868 V GraphicsEnvironment: com.google.android.webview is not listed in per-application setting
+10-26 19:54:59.335  4868  4868 V GraphicsEnvironment: Neither updatable production driver nor prerelease driver is supported.
+10-26 19:54:59.337  4868  4868 I LoadedApk: No resource references to update in package com.google.android.trichromelibrary
+10-26 19:54:59.339  4868  4868 I cr_WebViewApkApp: Launched version=113.0.5672.136 minSdkVersion=29 isBundle=false processName=com.google.android.webview:webview_service
+10-26 19:54:59.347   582  1820 I ActivityManager: Flag disabled. Ignoring finishAttachApplication from uid: 10133. pid: 4868
+10-26 19:54:59.353   582  1820 D CompatibilityChangeReporter: Compat change id reported: 261072174; UID 10133; state: ENABLED
+10-26 19:54:59.382  1428  1650 I FontLog : Received query name=Google Sans&weight=700&besteffort=false, URI content://com.google.android.gms.fonts [CONTEXT service_id=132 ]
+10-26 19:54:59.384  1428  1650 I FontLog : Query [name=Google Sans&weight=700&besteffort=false] resolved to {Google Sans, wdth 100.0, wght 700, ital 0.0, bestEffort false} [CONTEXT service_id=132 ]
+10-26 19:54:59.386  1428  1650 I FontLog : Fetch {Google Sans, wdth 100.0, wght 700, ital 0.0, bestEffort false} end status Status{statusCode=SUCCESS, resolution=null} [CONTEXT service_id=132 ]
+10-26 19:54:59.392  1428  1650 I FontLog : Pulling font file for id = 11, cache size = 6 [CONTEXT service_id=132 ]
+10-26 19:54:59.397  1428  1650 I FontLog : Received query name=Noto Color Emoji Compat&weight=400&besteffort=false, URI content://com.google.android.gms.fonts [CONTEXT service_id=132 ]
+10-26 19:54:59.397  1428  1650 I FontLog : Query [name=Noto Color Emoji Compat&weight=400&besteffort=false] resolved to {Noto Color Emoji Compat, wdth 100.0, wght 400, ital 0.0, bestEffort false} [CONTEXT service_id=132 ]
+10-26 19:54:59.400  1428  1650 I FontLog : Fetch {Noto Color Emoji Compat, wdth 100.0, wght 400, ital 0.0, bestEffort false} end status Status{statusCode=SUCCESS, resolution=null} [CONTEXT service_id=132 ]
+10-26 19:54:59.406  1428  1650 I FontLog : Pulling font file for id = 12, cache size = 5 [CONTEXT service_id=132 ]
+10-26 19:54:59.406  4796  4796 D CompatibilityChangeReporter: Compat change id reported: 237531167; UID 10203; state: DISABLED
+10-26 19:54:59.407  4796  4796 W OpenGLRenderer: Unknown dataspace 0
+10-26 19:54:59.411  1428  1650 I FontLog : Received query name=Google Sans&weight=400&besteffort=false, URI content://com.google.android.gms.fonts [CONTEXT service_id=132 ]
+10-26 19:54:59.413  1428  1650 I FontLog : Query [name=Google Sans&weight=400&besteffort=false] resolved to {Google Sans, wdth 100.0, wght 400, ital 0.0, bestEffort false} [CONTEXT service_id=132 ]
+10-26 19:54:59.415  1428  1650 I FontLog : Font PFD returned from cache for {Google Sans, wdth 100.0, wght 400, ital 0.0, bestEffort false} [CONTEXT service_id=132 ]
+10-26 19:54:59.416  1428  1650 I FontLog : Fetch {Google Sans, wdth 100.0, wght 400, ital 0.0, bestEffort false} end status Status{statusCode=SUCCESS, resolution=null} [CONTEXT service_id=132 ]
+10-26 19:54:59.436  1428  1650 I FontLog : Pulling font file for id = 13, cache size = 6 [CONTEXT service_id=132 ]
+10-26 19:54:59.449  1428  1650 I FontLog : Received query name=Google Sans&weight=500&besteffort=false, URI content://com.google.android.gms.fonts [CONTEXT service_id=132 ]
+10-26 19:54:59.450  1428  1650 I FontLog : Query [name=Google Sans&weight=500&besteffort=false] resolved to {Google Sans, wdth 100.0, wght 500, ital 0.0, bestEffort false} [CONTEXT service_id=132 ]
+10-26 19:54:59.460  1428  1650 I FontLog : Font PFD returned from cache for {Google Sans, wdth 100.0, wght 500, ital 0.0, bestEffort false} [CONTEXT service_id=132 ]
+10-26 19:54:59.462  1428  1650 I FontLog : Fetch {Google Sans, wdth 100.0, wght 500, ital 0.0, bestEffort false} end status Status{statusCode=SUCCESS, resolution=null} [CONTEXT service_id=132 ]
+10-26 19:54:59.469  1428  1650 I FontLog : Pulling font file for id = 14, cache size = 7 [CONTEXT service_id=132 ]
+10-26 19:54:59.476   582  2445 D CoreBackPreview: Window{55284a8 u0 com.eltavine.duckdetector/com.eltavine.duckdetector.MainActivity}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@119253e, mPriority=-1, mIsAnimationCallback=false}
+10-26 19:54:59.477  4796  4796 D CompatibilityChangeReporter: Compat change id reported: 193247900; UID 10203; state: ENABLED
+10-26 19:54:59.582   393  4742 I resolv  : res_nsend: used send_dg 0 terrno: 110
+10-26 19:54:59.584   393  4743 I resolv  : res_nsend: used send_dg 0 terrno: 110
+10-26 19:54:59.701   463  1247 W ServiceManagerCppClient: Permission failure: android.permission.ROTATE_SURFACE_FLINGER from uid=10203 pid=4796
+10-26 19:54:59.701   463  1247 D PermissionCache: checking android.permission.ROTATE_SURFACE_FLINGER for uid=10203 => denied (577 us)
+10-26 19:54:59.701   463   477 W ServiceManagerCppClient: Permission failure: android.permission.ROTATE_SURFACE_FLINGER from uid=10203 pid=0
+10-26 19:54:59.701   463   477 D PermissionCache: checking android.permission.ROTATE_SURFACE_FLINGER for uid=10203 => denied (1244 us)
+10-26 19:54:59.702   463  1247 W ServiceManagerCppClient: Permission failure: android.permission.INTERNAL_SYSTEM_WINDOW from uid=10203 pid=4796
+10-26 19:54:59.702   463  1247 D PermissionCache: checking android.permission.INTERNAL_SYSTEM_WINDOW for uid=10203 => denied (644 us)
+10-26 19:54:59.702   463   477 W ServiceManagerCppClient: Permission failure: android.permission.INTERNAL_SYSTEM_WINDOW from uid=10203 pid=0
+10-26 19:54:59.702   463   477 D PermissionCache: checking android.permission.INTERNAL_SYSTEM_WINDOW for uid=10203 => denied (530 us)
+10-26 19:54:59.702   463   477 W ServiceManagerCppClient: Permission failure: android.permission.ACCESS_SURFACE_FLINGER from uid=10203 pid=0
+10-26 19:54:59.702   463  1247 W ServiceManagerCppClient: Permission failure: android.permission.ACCESS_SURFACE_FLINGER from uid=10203 pid=4796
+10-26 19:54:59.702   463  1247 D PermissionCache: checking android.permission.ACCESS_SURFACE_FLINGER for uid=10203 => denied (567 us)
+10-26 19:54:59.702   463   477 D PermissionCache: checking android.permission.ACCESS_SURFACE_FLINGER for uid=10203 => denied (398 us)
+10-26 19:54:59.718  4796  4822 W OpenGLRenderer: Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+10-26 19:54:59.719  4796  4822 W OpenGLRenderer: Failed to initialize 101010-2 format, error = EGL_SUCCESS
+10-26 19:54:59.781   159   159 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+10-26 19:54:59.781  4796  4822 I Gralloc4: mapper 4.x is not supported
+--------- beginning of kernel
+10-26 19:54:59.757     0     0 I servicemanager: Could not find android.hardware.graphics.allocator.IAllocator/default in the VINTF manifest.
+10-26 19:54:59.821  4796  4822 E OpenGLRenderer: Unable to match the desired swap behavior.
+10-26 19:54:59.892   582  2445 W ServiceManagerCppClient: Permission failure: android.permission.ROTATE_SURFACE_FLINGER from uid=10203 pid=0
+10-26 19:54:59.892   582  2445 D PermissionCache: checking android.permission.ROTATE_SURFACE_FLINGER for uid=10203 => denied (247 us)
+10-26 19:54:59.892   582  2445 W ServiceManagerCppClient: Permission failure: android.permission.INTERNAL_SYSTEM_WINDOW from uid=10203 pid=0
+10-26 19:54:59.892   582  2445 D PermissionCache: checking android.permission.INTERNAL_SYSTEM_WINDOW for uid=10203 => denied (74 us)
+10-26 19:54:59.892   582  2445 W ServiceManagerCppClient: Permission failure: android.permission.ACCESS_SURFACE_FLINGER from uid=10203 pid=0
+10-26 19:54:59.892   582  2445 D PermissionCache: checking android.permission.ACCESS_SURFACE_FLINGER for uid=10203 => denied (50 us)
+10-26 19:54:59.931   800   868 V WindowManagerShell: onTransitionReady android.os.BinderProxy@2c04cde: {id=9 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[{WCT{android.window.IWindowContainerToken$Stub$Proxy@2115278} m=OPEN f=NONE leash=Surface(name=Task=518)/@0x9d388d5 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0},{WCT{android.window.IWindowContainerToken$Stub$Proxy@950dd51} m=TO_BACK f=NONE leash=Surface(name=Task=517)/@0xc8058ea sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0}]}
+10-26 19:54:59.932   800   868 V WindowManagerShell: Playing animation for (#9)android.os.BinderProxy@2c04cde@0
+10-26 19:54:59.932   800   868 V WindowManagerShell:  try handler com.android.wm.shell.transition.DefaultMixedHandler@f8c831b
+10-26 19:54:59.932   800   868 V WindowManagerShell:  try handler com.android.wm.shell.keyguard.KeyguardTransitionHandler@a83cb8
+10-26 19:54:59.932   800   868 V WindowManagerShell:  try handler com.android.wm.shell.activityembedding.ActivityEmbeddingController@8721a91
+10-26 19:54:59.932   800   868 V WindowManagerShell:  try handler com.android.wm.shell.recents.RecentsTransitionHandler@9d3adf6
+10-26 19:54:59.932   800   868 V ShellRecents: RecentsTransitionHandler.startAnimation: no controller found
+10-26 19:54:59.932   800   868 V WindowManagerShell:  try handler com.android.wm.shell.pip.PipTransition@6635f7
+10-26 19:54:59.932   800   868 V WindowManagerShell:  try handler com.android.wm.shell.splitscreen.StageCoordinator@4006c64
+10-26 19:54:59.932   800   868 V WindowManagerShell:  try handler com.android.wm.shell.transition.RemoteTransitionHandler@e8ccecd
+10-26 19:54:59.933   800   868 V WindowManagerShell: Transition doesn't have explicit remote, search filters for match for {id=9 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[{WCT{android.window.IWindowContainerToken$Stub$Proxy@2115278} m=OPEN f=NONE leash=Surface(name=Task=518)/@0x9d388d5 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0},{WCT{android.window.IWindowContainerToken$Stub$Proxy@950dd51} m=TO_BACK f=NONE leash=Surface(name=Task=517)/@0xc8058ea sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0}]}
+10-26 19:54:59.933   800   868 V WindowManagerShell:  Checking filter Pair{{types=[] flags=0x0] notFlags=0x0 checks=[{atype=dream independent=true modes=[OPEN,TO_FRONT] flags=NONE mustBeTask=false order=ANY topActivity=null},{atype=home independent=true modes=[CLOSE,TO_BACK] flags=NONE mustBeTask=false order=ANY topActivity=null}]} RemoteTransition { remoteTransition = android.window.IRemoteTransition$Stub$Proxy@996ee0d, appThread = android.app.IApplicationThread$Stub$Proxy@cd981c2, debugName = LauncherToDream }}
+10-26 19:54:59.934   800   868 V WindowManagerShell:  Checking filter Pair{{types=[] flags=0x0] notFlags=0x100 checks=[{atype=home independent=true modes=[OPEN,TO_FRONT] flags=NONE mustBeTask=false order=TOP topActivity=ComponentInfo{com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.NexusLauncherActivity}},{atype=standard independent=true modes=[CLOSE,TO_BACK] flags=NONE mustBeTask=false order=ANY topActivity=null}]} RemoteTransition { remoteTransition = android.window.IRemoteTransition$Stub$Proxy@1e50310, appThread = android.app.IApplicationThread$Stub$Proxy@3d15e09, debugName = QuickstepLaunchHome }}
+10-26 19:54:59.934   800   868 V WindowManagerShell:  Delegate animation for #9 to null
+10-26 19:54:59.934   800   868 V WindowManagerShell:  try handler com.android.wm.shell.transition.DefaultTransitionHandler@884b382
+10-26 19:54:59.934   800   868 V WindowManagerShell: start default transition animation, info = {id=9 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[{WCT{android.window.IWindowContainerToken$Stub$Proxy@2115278} m=OPEN f=NONE leash=Surface(name=Task=518)/@0x9d388d5 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0},{WCT{android.window.IWindowContainerToken$Stub$Proxy@950dd51} m=TO_BACK f=NONE leash=Surface(name=Task=517)/@0xc8058ea sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0}]}
+10-26 19:54:59.935   800   868 V WindowManagerShell: loadAnimation: anim=android.view.animation.AnimationSet@88319b6 animAttr=0x9 type=OPEN isEntrance=false
+10-26 19:54:59.935   800   868 V WindowManagerShell: loadAnimation: anim=android.view.animation.AnimationSet@a6b96b7 animAttr=0x8 type=OPEN isEntrance=true
+10-26 19:54:59.936   582   611 W ziparchive: Unable to open '/data/app/~~yxshPE5xSECWDj-f-lUm_Q==/com.eltavine.duckdetector-JbMZcWdKSPgz5AIqbFOafg==/base.dm': No such file or directory
+10-26 19:54:59.938   582   611 I ActivityTaskManager: Displayed com.eltavine.duckdetector/.MainActivity for user 0: +2s595ms
+10-26 19:54:59.938   582   611 V WindowManager: Sent Transition #9 createdAt=10-26 19:54:57.304 via request=TransitionRequestInfo { type = OPEN, triggerTask = TaskInfo{userId=0 taskId=518 displayId=0 isRunning=true baseIntent=Intent { flg=0x10000000 cmp=com.eltavine.duckdetector/android.app.NativeActivity } baseActivity=ComponentInfo{com.eltavine.duckdetector/android.app.NativeActivity} topActivity=ComponentInfo{com.eltavine.duckdetector/android.app.NativeActivity} origActivity=null realActivity=ComponentInfo{com.eltavine.duckdetector/android.app.NativeActivity} numActivities=1 lastActiveTime=141318 supportsMultiWindow=true resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{RemoteToken{7c42984 Task{62b7896 #518 type=standard A=10203:com.eltavine.duckdetector}}} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=Rect(0, 132 - 0, 0) topActivityInfo=ActivityInfo{344156d android.app.NativeActivity} launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=false isVisible=false isVisibleRequested=false isSleeping=false topActivityInSizeCompat=false topActivityEligibleForLetterboxEducation= false topActivityLetterboxed= false isFromDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=-1 topActivityLetterboxHeight=-1 locusId=null displayAreaFeatureId=1 cameraCompatControlState=hidden}, remoteTransition = null, displayChange = null }
+10-26 19:54:59.938   582   611 V WindowManager:     startWCT=WindowContainerTransaction { changes = {} hops = [] errorCallbackToken=null taskFragmentOrganizer=null }
+10-26 19:54:59.938   582   611 V WindowManager:     info={id=9 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[{WCT{RemoteToken{7c42984 Task{62b7896 #518 type=standard A=10203:com.eltavine.duckdetector}}} m=OPEN f=NONE leash=Surface(name=Task=518)/@0xb143731 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0},{WCT{RemoteToken{27d68d7 Task{902eb83 #517 type=standard A=10193:com.reveny.emulator.detection.sample}}} m=TO_BACK f=NONE leash=Surface(name=Task=517)/@0x5389a71 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0}]}
+10-26 19:54:59.940   800   868 V WindowManagerShell:  animated by com.android.wm.shell.transition.DefaultTransitionHandler@884b382
+10-26 19:54:59.984  1428  1650 I FontLog : Received query Noto Color Emoji Compat, URI content://com.google.android.gms.fonts [CONTEXT service_id=132 ]
+10-26 19:54:59.984  1428  1650 I FontLog : Query [emojicompat-emoji-font] resolved to {Noto Color Emoji Compat, wdth 100.0, wght 400, ital 0.0, bestEffort false} [CONTEXT service_id=132 ]
+10-26 19:54:59.990  1428  1650 I FontLog : Fetch {Noto Color Emoji Compat, wdth 100.0, wght 400, ital 0.0, bestEffort false} end status Status{statusCode=SUCCESS, resolution=null} [CONTEXT service_id=132 ]
+10-26 19:55:00.004   582  2263 D CompatibilityChangeReporter: Compat change id reported: 214016041; UID 10203; state: ENABLED
+10-26 19:55:00.004   582  2263 I ImeTracker: com.eltavine.duckdetector:8cf9adf6: onRequestHide at ORIGIN_SERVER_HIDE_INPUT reason HIDE_UNSPECIFIED_WINDOW
+10-26 19:55:00.005   582  2263 I ImeTracker: com.eltavine.duckdetector:8cf9adf6: onCancelled at PHASE_SERVER_SHOULD_HIDE
+10-26 19:55:00.014  1428  2304 I FontLog : Pulling font file for id = 15, cache size = 8 [CONTEXT service_id=132 ]
+10-26 19:55:00.027  1369  1369 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3227 
+10-26 19:55:00.028  1428  2304 I FontLog : Pulling font file for id = 15, cache size = 8 [CONTEXT service_id=132 ]
+10-26 19:55:00.029  1369  1369 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2087 repeatCheckTimes = 0, unlocked = true
+10-26 19:55:00.029  1369  1369 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1877 onStartInput(EditorInfo{inputType=0x0(NULL) imeOptions=0x0 privateImeOptions=null actionName=UNSPECIFIED actionLabel=null actionId=0 initialSelStart=-1 initialSelEnd=-1 initialCapsMode=0x0 hintText=null label=null packageName=com.eltavine.duckdetector fieldId=0 fieldName=null extras=null}, false)
+10-26 19:55:00.029  1369  1369 I GoogleInputMethodService: GoogleInputMethodService.shouldHideHeaderOnInitialState():4008 ShouldHideHeaderOnInitialState = false
+10-26 19:55:00.032  1369  1369 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2087 repeatCheckTimes = 2, unlocked = true
+10-26 19:55:00.055   800  1011 D EGL_emulation: app_time_stats: avg=961.77ms min=1.39ms max=8623.12ms count=9
+10-26 19:55:00.065  1541  1969 I AiAiEcho: Predicting[0]: 
+10-26 19:55:00.066  1541  1969 I AiAiEcho: EchoTargets: 
+10-26 19:55:00.066  1541  1969 I AiAiEcho: Filtered by AiAi flag check: 
+10-26 19:55:00.066  1541  1969 I AiAiEcho: Ranked targets strategy: SORT, count: 0, ranking metadata: 
+10-26 19:55:00.067  1541  1969 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface lockscreen with targets# 0 (types=[])
+10-26 19:55:00.076   800   800 W PageIndicator: Total number of pages invalid: 0. Assuming 1 page.
+10-26 19:55:00.168   393  4644 I resolv  : res_nsend: used send_dg 0 terrno: 110
+10-26 19:55:00.169   393  4629 I resolv  : res_nsend: used send_dg 0 terrno: 110
+10-26 19:55:00.169   393  4630 I resolv  : res_nsend: used send_dg 0 terrno: 110
+10-26 19:55:00.169   393  4644 I resolv  : doQuery: rcode=255, ancount=0, return value=-110
+10-26 19:55:00.169   393  4629 I resolv  : doQuery: rcode=255, ancount=0, return value=-110
+10-26 19:55:00.171   393  4762 I resolv  : res_stats_usable_server: too many resolution errors, ignoring server
+10-26 19:55:00.174   393  4643 I resolv  : res_nsend: used send_dg 0 terrno: 110
+10-26 19:55:00.174   393  4643 I resolv  : doQuery: rcode=255, ancount=0, return value=-110
+10-26 19:55:00.174   393  4630 I resolv  : doQuery: rcode=255, ancount=0, return value=-110
+10-26 19:55:00.177   393  4763 I resolv  : res_stats_usable_server: too many resolution errors, ignoring server
+10-26 19:55:00.184   393  4653 I resolv  : res_nsend: used send_dg 0 terrno: 110
+10-26 19:55:00.184   393  4653 I resolv  : doQuery: rcode=255, ancount=0, return value=-110
+10-26 19:55:00.200   393  4654 I resolv  : res_nsend: used send_dg 0 terrno: 110
+10-26 19:55:00.200   393  4654 I resolv  : doQuery: rcode=255, ancount=0, return value=-110
+10-26 19:55:00.242  1428  2168 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.gass.chimera.SchedulePeriodicTasksService finished executing. cause:5 result: 3 elapsed_millis: 46368 uptime_millis: 46368 exec_start_elapsed_seconds: 97 [CONTEXT service_id=218 ]
+10-26 19:55:00.315  1428  4186 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.auth.account.be.legacy.AuthCronService started execution. cause:5 exec_start_elapsed_seconds: 144 [CONTEXT service_id=218 ]
+10-26 19:55:00.403  3834  4338 W libc    : Access denied finding property "persist.adb.tls_server.enable"
+10-26 19:55:00.403  3834  4338 W libc    : Access denied finding property "service.adb.tls.port"
+10-26 19:55:00.399  3834  3834 W binder:3834_4: type=1400 audit(0.0:28): avc:  denied  { read } for  name="u:object_r:system_adbd_prop:s0" dev="tmpfs" ino=292 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:system_adbd_prop:s0 tclass=file permissive=0 app=com.google.android.gms
+10-26 19:55:00.399  3834  3834 W binder:3834_4: type=1400 audit(0.0:29): avc:  denied  { read } for  name="u:object_r:adbd_prop:s0" dev="tmpfs" ino=60 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:adbd_prop:s0 tclass=file permissive=0 app=com.google.android.gms
+10-26 19:55:00.422   393  4919 I resolv  : GetAddrInfoHandler::run: {100 786532 100 983140 10128 0}
+10-26 19:55:00.424  3834  4338 D TrafficStats: tagSocket(107) with statsTag=0x1809, statsUid=-1
+10-26 19:55:00.454   800   868 V WindowManagerShell: Transition animation finished (aborted=false), notifying core (#9)android.os.BinderProxy@2c04cde@0
+10-26 19:55:00.457   582   611 V WindowManager: Finish Transition #9: created at 10-26 19:54:57.304 collect-started=0.096ms request-sent=14.037ms started=20.138ms ready=824.171ms sent=2625.933ms finished=3152.419ms
+10-26 19:55:00.463  1428  3568 W GmsUrlRequestImpl: Content-Type header is overwritten.
+10-26 19:55:00.464   800   868 V WindowManagerShell: Track 0 became idle
+10-26 19:55:00.465   800   868 V WindowManagerShell: All active transition animations finished
+10-26 19:55:00.479   393  4920 I resolv  : GetAddrInfoHandler::run: {100 786532 100 983140 10128 0}
+10-26 19:55:00.481   393  4921 I resolv  : res_nmkquery: (QUERY, IN, AAAA)
+10-26 19:55:00.481   393  4921 I resolv  : res_stats_usable_server: too many resolution errors, ignoring server
+10-26 19:55:00.486   393  4922 I resolv  : res_nmkquery: (QUERY, IN, A)
+10-26 19:55:00.492   393  4922 I resolv  : res_stats_usable_server: too many resolution errors, ignoring server
+10-26 19:55:00.629   393  4925 I resolv  : GetAddrInfoHandler::run: {100 786532 100 983140 10128 0}
+10-26 19:55:00.629   393  4929 I resolv  : res_nmkquery: (QUERY, IN, A)
+10-26 19:55:00.629   393  4929 I resolv  : resolv_cache_lookup: Waiting for previous request
+10-26 19:55:00.629   393  4928 I resolv  : res_nmkquery: (QUERY, IN, AAAA)
+10-26 19:55:00.629   393  4928 I resolv  : resolv_cache_lookup: Waiting for previous request
+10-26 19:55:00.720  4796  4796 D CompatibilityChangeReporter: Compat change id reported: 263076149; UID 10203; state: ENABLED
+10-26 19:55:00.731  4796  4796 W DefaultDispatch: type=1400 audit(0.0:30): avc:  denied  { read } for  name="u:object_r:verity_status_prop:s0" dev="tmpfs" ino=337 scontext=u:r:untrusted_app:s0:c203,c256,c512,c768 tcontext=u:object_r:verity_status_prop:s0 tclass=file permissive=0 app=com.eltavine.duckdetector
+10-26 19:55:00.741  4796  4933 W libc    : Access denied finding property "partition.odm.verified"
+10-26 19:55:00.743  4796  4933 W libc    : Access denied finding property "partition.product.verified"
+10-26 19:55:00.745  4796  4933 W libc    : Access denied finding property "partition.system.verified"
+10-26 19:55:00.753  4796  4933 W libc    : Access denied finding property "partition.system_ext.verified"
+10-26 19:55:00.758  4796  4933 W libc    : Access denied finding property "partition.vendor.verified"
+10-26 19:55:00.760  4796  4933 W libc    : Access denied finding property "ro.debuggable"
+10-26 19:55:00.734     0     0 W audit   : audit_lost=1 audit_rate_limit=5 audit_backlog_limit=64
+10-26 19:55:00.734     0     0 E audit   : rate limit exceeded
+10-26 19:55:00.739  4796  4796 W DefaultDispatch: type=1400 audit(0.0:31): avc:  denied  { read } for  name="u:object_r:verity_status_prop:s0" dev="tmpfs" ino=337 scontext=u:r:untrusted_app:s0:c203,c256,c512,c768 tcontext=u:object_r:verity_status_prop:s0 tclass=file permissive=0 app=com.eltavine.duckdetector
+10-26 19:55:00.762  4796  4933 W libc    : Access denied finding property "ro.oem_unlock_supported"
+10-26 19:55:00.766  4796  4933 W libc    : Access denied finding property "ro.secure"
+10-26 19:55:00.768  4796  4933 W libc    : Access denied finding property "ro.debuggable"
+10-26 19:55:00.769  4796  4933 W libc    : Access denied finding property "ro.oem_unlock_supported"
+10-26 19:55:00.739  4796  4796 W DefaultDispatch: type=1400 audit(0.0:32): avc:  denied  { read } for  name="u:object_r:verity_status_prop:s0" dev="tmpfs" ino=337 scontext=u:r:untrusted_app:s0:c203,c256,c512,c768 tcontext=u:object_r:verity_status_prop:s0 tclass=file permissive=0 app=com.eltavine.duckdetector
+10-26 19:55:00.773  4796  4933 W libc    : Access denied finding property "ro.secure"
+10-26 19:55:00.784   582  2445 I RemoteProvisionSysSvc: getRegistration(android.hardware.security.keymint.IRemotelyProvisionedComponent/default)
+10-26 19:55:00.786   582  2301 D CompatibilityChangeReporter: Compat change id reported: 135634846; UID 99001; state: DISABLED
+10-26 19:55:00.789   582   624 D CompatibilityChangeReporter: Compat change id reported: 143937733; UID 10203; state: ENABLED
+10-26 19:55:00.806   394   394 D Zygote  : Forked child process 4940
+10-26 19:55:00.789     0     0 E SELinux : avc:  denied  { find } for pid=4796 uid=10203 name=lineageglobalactions scontext=u:r:untrusted_app:s0:c203,c256,c512,c768 tcontext=u:object_r:default_android_service:s0 tclass=service_manager permissive=0
+10-26 19:55:00.799     0     0 E SELinux : avc:  denied  { find } for pid=4796 uid=10203 name=lineagehardware scontext=u:r:untrusted_app:s0:c203,c256,c512,c768 tcontext=u:object_r:default_android_service:s0 tclass=service_manager permissive=0
+10-26 19:55:00.826  4940  4940 I DeviceLabNamespace: isolated READPROC grant removed uid=99001 pid=4940
+10-26 19:55:00.830   395   395 I zygiskd64:  - Sending companion fd socket of module "device_lab_cpu"
+10-26 19:55:00.830  4374  4374 I zygiskd-companion64: New companion request.
+10-26 19:55:00.830  4374  4374 I zygiskd-companion64:  - Module name: device_lab_cpu
+10-26 19:55:00.830  4374  4374 I zygiskd-companion64:  - Client fd: 6
+10-26 19:55:00.807     0     0 E SELinux : avc:  denied  { find } for pid=4796 uid=10203 name=lineagehealth scontext=u:r:untrusted_app:s0:c203,c256,c512,c768 tcontext=u:object_r:default_android_service:s0 tclass=service_manager permissive=0
+10-26 19:55:00.813     0     0 E SELinux : avc:  denied  { find } for pid=4796 uid=10203 name=lineagelivedisplay scontext=u:r:untrusted_app:s0:c203,c256,c512,c768 tcontext=u:object_r:default_android_service:s0 tclass=service_manager permissive=0
+10-26 19:55:00.819     0     0 E SELinux : avc:  denied  { find } for pid=4796 uid=10203 name=lineagetrust scontext=u:r:untrusted_app:s0:c203,c256,c512,c768 tcontext=u:object_r:default_android_service:s0 tclass=service_manager permissive=0
+10-26 19:55:00.825     0     0 E SELinux : avc:  denied  { find } for pid=4796 uid=10203 name=profile scontext=u:r:untrusted_app:s0:c203,c256,c512,c768 tcontext=u:object_r:default_android_service:s0 tclass=service_manager permissive=0
+10-26 19:55:00.884   582  2445 D ActivityManager: sync unfroze 3514 com.google.android.rkpdapp for 6
+10-26 19:55:00.891  3514  3514 V ActivityThread: getPackageInfo() caused update to cached ApplicationInfo for package com.google.android.rkpdapp
+10-26 19:55:00.898   582   624 W ActivityManager: Slow operation: 112ms so far, now at startProcess: done updating battery stats
+10-26 19:55:00.898   582   624 W ActivityManager: Slow operation: 112ms so far, now at startProcess: building log message
+10-26 19:55:00.898   582   624 I ActivityManager: Start proc 4940:com.eltavine.duckdetector:heap_residue:com.eltavine.duckdetector.features.heapresidue.data.ipc.IsolatedHeapDumpService:heap_fb21bfaaeefa4bb49c11abac485ccfe2/u0i1 for service {com.eltavine.duckdetector/com.eltavine.duckdetector.features.heapresidue.data.ipc.IsolatedHeapDumpService:heap_fb21bfaaeefa4bb49c11abac485ccfe2}
+10-26 19:55:00.898   582   624 W ActivityManager: Slow operation: 112ms so far, now at startProcess: starting to update pids map
+10-26 19:55:00.899   582   624 W ActivityManager: Slow operation: 113ms so far, now at startProcess: done updating pids map
+10-26 19:55:00.868     0     0 E SELinux : avc:  denied  { find } for pid=4796 uid=10203 name=vendor.lineage.health.IChargingControl/default scontext=u:r:untrusted_app:s0:c203,c256,c512,c768 tcontext=u:object_r:default_android_service:s0 tclass=service_manager permissive=0
+10-26 19:55:00.876     0     0 E SELinux : avc:  denied  { find } for pid=4796 uid=10203 name=vendor.lineage.health.IFastCharge/default scontext=u:r:untrusted_app:s0:c203,c256,c512,c768 tcontext=u:object_r:default_android_service:s0 tclass=service_manager permissive=0
+10-26 19:55:00.929   582   582 I RegistrationProxy: onServiceConnected: com.android.rkpdapp.service.RemoteProvisioningService
+10-26 19:55:00.912     0     0 E SELinux : avc:  denied  { find } for pid=4796 uid=10203 name=serial scontext=u:r:untrusted_app:s0:c203,c256,c512,c768 tcontext=u:object_r:serial_service:s0 tclass=service_manager permissive=0
+10-26 19:55:00.956  4374  4942 I zygiskd-companion64:  - Client fd changed after module entry
+10-26 19:55:00.957  4940  4940 I DeviceLabNamespace: profile mount status=0 pid=4940
+10-26 19:55:00.958  4940  4940 W ziparchive: Unable to open '/data/misc/device-lab/runtime-49329-1792891232-416391481.dm': No such file or directory
+10-26 19:55:00.958  4940  4940 W ziparchive: Unable to open '/data/misc/device-lab/runtime-49329-1792891232-416391481.dm': No such file or directory
+10-26 19:55:00.961  4940  4940 D nativeloader: Configuring clns-6 for other apk . target_sdk_version=0, uses_libraries=ALL, library_path=/data/misc/device-lab/runtime-49329-1792891232-416391481.apk!/lib/x86_64, permitted_path=/data:/mnt/expand
+10-26 19:55:00.964   582   671 D ActivityManager: freezing 1629 android.process.acore
+10-26 19:55:00.964   582   671 D ActivityManager: freezing 2305 com.google.process.gapps
+10-26 19:55:00.971  4940  4940 W zygote64: Core platform API violation: Ljava/lang/reflect/Executable;->artMethod:J from Lcom/android/internal/os/Zygote; using JNI
+10-26 19:55:00.972  4940  4940 I DeviceLabRuntime: JNI preparation sensors=1 original_is_replacement=0
+10-26 19:55:00.973   395   395 I zygiskd64:  - Sending companion fd socket of module "device_lab_cpu"
+10-26 19:55:00.973  4374  4374 I zygiskd-companion64: New companion request.
+10-26 19:55:00.973  4374  4374 I zygiskd-companion64:  - Module name: device_lab_cpu
+10-26 19:55:00.973  4374  4374 I zygiskd-companion64:  - Client fd: 6
+10-26 19:55:00.941     0     0 I servicemanager: Found android.hardware.security.keymint.IRemotelyProvisionedComponent/default in device VINTF manifest.
+10-26 19:55:00.948     0     0 E SELinux : avc:  denied  { find } for pid=4796 uid=10203 name=vendor.lineage.livedisplay.IPictureAdjustment/default scontext=u:r:untrusted_app:s0:c203,c256,c512,c768 tcontext=u:object_r:default_android_service:s0 tclass=service_manager permissive=0
+10-26 19:55:00.980  3514  4947 W Binder  : Caught a RuntimeException from the binder stub implementation.
+10-26 19:55:00.980  3514  4947 W Binder  : java.lang.UnsupportedOperationException: 
+10-26 19:55:00.980  3514  4947 W Binder  : 	at android.os.Parcel.createExceptionOrNull(Parcel.java:3069)
+10-26 19:55:00.980  3514  4947 W Binder  : 	at android.os.Parcel.createException(Parcel.java:3041)
+10-26 19:55:00.980  3514  4947 W Binder  : 	at android.os.Parcel.readException(Parcel.java:3024)
+10-26 19:55:00.980  3514  4947 W Binder  : 	at android.os.Parcel.readException(Parcel.java:2966)
+10-26 19:55:00.980  3514  4947 W Binder  : 	at android.hardware.security.keymint.IRemotelyProvisionedComponent$Stub$Proxy.getHardwareInfo(IRemotelyProvisionedComponent.java:193)
+10-26 19:55:00.980  3514  4947 W Binder  : 	at com.android.rkpdapp.interfaces.SystemInterface.<init>(SystemInterface.java:58)
+10-26 19:55:00.980  3514  4947 W Binder  : 	at com.android.rkpdapp.interfaces.ServiceManagerInterface.createSystemInterface(ServiceManagerInterface.java:41)
+10-26 19:55:00.980  3514  4947 W Binder  : 	at com.android.rkpdapp.interfaces.ServiceManagerInterface.getInstance(ServiceManagerInterface.java:78)
+10-26 19:55:00.980  3514  4947 W Binder  : 	at com.android.rkpdapp.service.RemoteProvisioningService$RemoteProvisioningBinder.getRegistration(RemoteProvisioningService.java:69)
+10-26 19:55:00.980  3514  4947 W Binder  : 	at com.android.rkpdapp.IRemoteProvisioning$Stub.onTransact(IRemoteProvisioning.java:118)
+10-26 19:55:00.980  3514  4947 W Binder  : 	at android.os.Binder.execTransactInternal(Binder.java:1344)
+10-26 19:55:00.980  3514  4947 W Binder  : 	at android.os.Binder.execTransact(Binder.java:1275)
+10-26 19:55:00.980  4374  4953 I zygiskd-companion64:  - Client fd changed after module entry
+10-26 19:55:00.980  4940  4940 I DeviceLabNamespace: uname broker status=0 pid=4940
+10-26 19:55:00.980  4940  4940 I DeviceLabNamespace: notification domain=platform pid=4940
+10-26 19:55:00.980  4940  4940 I DeviceLabNamespace: proc broker enabled=1
+10-26 19:55:00.959     0     0 E SELinux : avc:  denied  { find } for pid=4796 uid=10203 name=vendor.lineage.touch.ITouchscreenGesture/default scontext=u:r:untrusted_app:s0:c203,c256,c512,c768 tcontext=u:object_r:default_android_service:s0 tclass=service_manager permissive=0
+10-26 19:55:00.970     0     0 E SELinux : avc:  denied  { find } for pid=4796 uid=10203 name=vendor.lineage.livedisplay.IDisplayModes/default scontext=u:r:untrusted_app:s0:c203,c256,c512,c768 tcontext=u:object_r:default_android_service:s0 tclass=service_manager permissive=0
+10-26 19:55:01.008  4940  4940 I DeviceLabPolicy: policy PLT installed=1
+10-26 19:55:01.021  4796  4939 D CompatibilityChangeReporter: Compat change id reported: 186082280; UID 10203; state: ENABLED
+10-26 19:55:01.124  4796  4964 W libc    : Access denied finding property "qemu.sf.lcd_density"
+10-26 19:55:01.118     0     0 E SELinux : avc:  denied  { find } for pid=4796 uid=10203 name=qemud scontext=u:r:untrusted_app:s0:c203,c256,c512,c768 tcontext=u:object_r:default_android_service:s0 tclass=service_manager permissive=0
+10-26 19:55:01.125     0     0 E SELinux : avc:  denied  { find } for pid=4796 uid=10203 name=android.system.virtualizationservice scontext=u:r:untrusted_app:s0:c203,c256,c512,c768 tcontext=u:object_r:virtualization_service:s0 tclass=service_manager permissive=0
+10-26 19:55:01.170  4940  4940 I DeviceLabPolicy: openat2 policy status=0 source_length=260 original_suffix_preserved=1
+10-26 19:55:01.181  4940  4940 I c11abac485ccfe2: Using CollectorTypeCC GC.
+10-26 19:55:01.182  4796  4951 W libc    : Access denied finding property "partition.odm.verified"
+10-26 19:55:01.184  4796  4951 W libc    : Access denied finding property "partition.product.verified"
+10-26 19:55:01.199  4796  4951 W libc    : Access denied finding property "partition.system.verified"
+10-26 19:55:01.200  4940  4940 W c11abac485ccfe2: Unexpected CPU variant for x86: x86_64.
+10-26 19:55:01.200  4940  4940 W c11abac485ccfe2: Known variants: atom, sandybridge, silvermont, goldmont, goldmont-plus, tremont, kabylake, default
+10-26 19:55:01.203  4796  4951 W libc    : Access denied finding property "partition.system_ext.verified"
+10-26 19:55:01.209  4796  4951 W libc    : Access denied finding property "partition.vendor.verified"
+10-26 19:55:01.215  4796  4951 W libc    : Access denied finding property "ro.bootimage.build.fingerprint"
+10-26 19:55:01.219  4940  4940 E c11abac485ccfe2: Not starting debugger since process cannot load the jdwp agent.
+10-26 19:55:01.248  4796  4964 W libc    : Access denied finding property "qemu.sf.lcd_density"
+10-26 19:55:01.251  4796  4951 W libc    : Access denied finding property "ro.debuggable"
+10-26 19:55:01.252  4796  4951 W libc    : Access denied finding property "ro.oem_unlock_supported"
+10-26 19:55:01.253  4796  4951 W libc    : Access denied finding property "ro.secure"
+10-26 19:55:01.273   180  4935 W keystore2: system/security/keystore2/src/watchdog.rs:114 - ### Keystore Watchdog report - BEGIN ###
+10-26 19:55:01.273   180  4935 W keystore2: system/security/keystore2/src/watchdog.rs:123 - When extracting from a bug report, please include this header
+10-26 19:55:01.273   180  4935 W keystore2: system/security/keystore2/src/watchdog.rs:124 - and all 1 records below.
+10-26 19:55:01.273   180  4935 W keystore2: system/security/keystore2/src/watchdog.rs:164 - ThreadId(12) Calling get_rkpd_attestation_key() Pending: 500.742879ms Overdue 743.489µs
+10-26 19:55:01.273   180  4935 W keystore2: system/security/keystore2/src/watchdog.rs:175 - ### Keystore Watchdog report - END ###
+10-26 19:55:01.273  4940  4940 I DeviceLabPolicy: policy PLT restored=1
+10-26 19:55:01.317  4796  4951 W libc    : Access denied finding property "ro.bootimage.build.fingerprint"
+10-26 19:55:01.319  4796  4951 W libc    : Access denied finding property "ro.debuggable"
+10-26 19:55:01.321  4796  4951 W libc    : Access denied finding property "ro.oem_unlock_supported"
+10-26 19:55:01.325  4796  4951 W libc    : Access denied finding property "ro.secure"
+10-26 19:55:01.332  4796  4951 W libc    : Access denied finding property "ro.secure"
+10-26 19:55:01.346  4940  4940 I DeviceLabNamespace: property remap status=0 pid=4940
+10-26 19:55:01.366  4940  4940 D libEGL  : loaded /vendor/lib64/egl/libEGL_emulation.so
+10-26 19:55:01.399  4940  4940 D libEGL  : loaded /vendor/lib64/egl/libGLESv1_CM_emulation.so
+10-26 19:55:01.420  4940  4940 D libEGL  : loaded /vendor/lib64/egl/libGLESv2_emulation.so
+10-26 19:55:01.415  4796  4796 W DefaultDispatch: type=1400 audit(0.0:64): avc:  denied  { read } for  name="filesystems" dev="proc" ino=4026532076 scontext=u:r:untrusted_app:s0:c203,c256,c512,c768 tcontext=u:object_r:proc_filesystems:s0 tclass=file permissive=0 app=com.eltavine.duckdetector
+10-26 19:55:01.479  4940  4940 I DeviceLabRuntime: profile build=1 auxv=1 graphics_dispatch=1
+10-26 19:55:01.507   582  1820 D CompatibilityChangeReporter: Compat change id reported: 135634846; UID 99002; state: DISABLED
+10-26 19:55:01.517   582  1820 D CompatibilityChangeReporter: Compat change id reported: 168419799; UID 10203; state: DISABLED
+10-26 19:55:01.517   582  1820 D CompatibilityChangeReporter: Compat change id reported: 273564678; UID 10203; state: DISABLED
+10-26 19:55:01.523   394   394 D Zygote  : Forked child process 4988
+10-26 19:55:01.525   582  1820 D CompatibilityChangeReporter: Compat change id reported: 261072174; UID 10203; state: ENABLED
+10-26 19:55:01.527  4988  4988 I DeviceLabNamespace: isolated READPROC grant removed uid=99002 pid=4988
+10-26 19:55:01.527   395   395 I zygiskd64:  - Sending companion fd socket of module "device_lab_cpu"
+10-26 19:55:01.527  4374  4374 I zygiskd-companion64: New companion request.
+10-26 19:55:01.527  4374  4374 I zygiskd-companion64:  - Module name: device_lab_cpu
+10-26 19:55:01.527  4374  4374 I zygiskd-companion64:  - Client fd: 6
+10-26 19:55:01.531   582   624 I ActivityManager: Start proc 4988:com.eltavine.duckdetector:com.eltavine.duckdetector.capability.helperprocess.data.IsolatedHelperProbeService:duck_mount_view/u0i2 for service {com.eltavine.duckdetector/com.eltavine.duckdetector.capability.helperprocess.data.IsolatedHelperProbeService:duck_mount_view}
+10-26 19:55:01.565  4940  4940 D CompatibilityChangeReporter: Compat change id reported: 171979766; UID 99001; state: ENABLED
+10-26 19:55:01.566  4940  4940 D CompatibilityChangeReporter: Compat change id reported: 242716250; UID 99001; state: ENABLED
+10-26 19:55:01.577  4374  4989 I zygiskd-companion64:  - Client fd changed after module entry
+10-26 19:55:01.578  4988  4988 I DeviceLabNamespace: profile mount status=0 pid=4988
+10-26 19:55:01.579  4988  4988 W ziparchive: Unable to open '/data/misc/device-lab/runtime-49329-1792891232-416391481.dm': No such file or directory
+10-26 19:55:01.579  4988  4988 W ziparchive: Unable to open '/data/misc/device-lab/runtime-49329-1792891232-416391481.dm': No such file or directory
+10-26 19:55:01.581  4988  4988 D nativeloader: Configuring clns-6 for other apk . target_sdk_version=0, uses_libraries=ALL, library_path=/data/misc/device-lab/runtime-49329-1792891232-416391481.apk!/lib/x86_64, permitted_path=/data:/mnt/expand
+10-26 19:55:01.575  4988  4988 W main    : type=1400 audit(0.0:65): avc:  denied  { write } for  name="device-lab" dev="dm-40" ino=49191 scontext=u:r:zygote:s0 tcontext=u:object_r:system_file:s0 tclass=dir permissive=0
+10-26 19:55:01.593  4988  4988 W zygote64: Core platform API violation: Ljava/lang/reflect/Executable;->artMethod:J from Lcom/android/internal/os/Zygote; using JNI
+10-26 19:55:01.593  4988  4988 I DeviceLabRuntime: JNI preparation sensors=1 original_is_replacement=0
+10-26 19:55:01.594   395   395 I zygiskd64:  - Sending companion fd socket of module "device_lab_cpu"
+10-26 19:55:01.595  4374  4374 I zygiskd-companion64: New companion request.
+10-26 19:55:01.595  4374  4374 I zygiskd-companion64:  - Module name: device_lab_cpu
+10-26 19:55:01.595  4374  4374 I zygiskd-companion64:  - Client fd: 6
+10-26 19:55:01.601  4374  4993 I zygiskd-companion64:  - Client fd changed after module entry
+10-26 19:55:01.604  4988  4988 I DeviceLabNamespace: uname broker status=0 pid=4988
+10-26 19:55:01.604  4988  4988 I DeviceLabNamespace: notification domain=platform pid=4988
+10-26 19:55:01.604  4988  4988 I DeviceLabNamespace: proc broker enabled=1
+10-26 19:55:01.611  4940  4940 D ApplicationLoaders: Returning zygote-cached class loader: /system_ext/framework/androidx.window.extensions.jar
+10-26 19:55:01.611  4940  4940 D ApplicationLoaders: Returning zygote-cached class loader: /system_ext/framework/androidx.window.sidecar.jar
+10-26 19:55:01.634  4940  4940 W ziparchive: Unable to open '/data/app/~~yxshPE5xSECWDj-f-lUm_Q==/com.eltavine.duckdetector-JbMZcWdKSPgz5AIqbFOafg==/base.dm': No such file or directory
+10-26 19:55:01.636  4940  4940 W ziparchive: Unable to open '/data/app/~~yxshPE5xSECWDj-f-lUm_Q==/com.eltavine.duckdetector-JbMZcWdKSPgz5AIqbFOafg==/base.dm': No such file or directory
+10-26 19:55:01.645  1428  2095 E WakeLock: GCM_CONN_ALARM ** IS FORCE-RELEASED ON TIMEOUT **
+10-26 19:55:01.663   393  4770 I resolv  : res_nsend: used send_dg 0 terrno: 110
+10-26 19:55:01.663   393  4771 I resolv  : res_nsend: used send_dg 0 terrno: 110
+10-26 19:55:01.693  4940  4940 D nativeloader: Configuring clns-7 for other apk /data/app/~~yxshPE5xSECWDj-f-lUm_Q==/com.eltavine.duckdetector-JbMZcWdKSPgz5AIqbFOafg==/base.apk. target_sdk_version=37, uses_libraries=, library_path=/data/app/~~yxshPE5xSECWDj-f-lUm_Q==/com.eltavine.duckdetector-JbMZcWdKSPgz5AIqbFOafg==/lib/x86_64:/data/app/~~yxshPE5xSECWDj-f-lUm_Q==/com.eltavine.duckdetector-JbMZcWdKSPgz5AIqbFOafg==/base.apk!/lib/x86_64, permitted_path=/data:/mnt/expand:/data/user/0/com.eltavine.duckdetector
+10-26 19:55:01.740  4988  4988 I Zygote  : Process 4996 exited cleanly (0)
+10-26 19:55:01.742  4988  4988 I DeviceLabPolicy: policy PLT installed=1
+10-26 19:55:01.794   582  1820 I ActivityManager: Flag disabled. Ignoring finishAttachApplication from uid: 99001. pid: 4940
+10-26 19:55:01.814  4940  4940 W SystemServiceRegistry: No service published for: virtualdevice
+10-26 19:55:01.841   582   622 W ProcessStats: Tracking association SourceState{b0d5929 com.google.android.gms.persistent/10128 BTop #2889} whose proc state 2 is better than process ProcessState{d2a2aaf com.google.android.gms.unstable/10128 pkg=com.google.android.gms} proc state 14 (257 skipped)
+10-26 19:55:01.907  4988  4988 I DeviceLabPolicy: openat2 policy status=0 source_length=260 original_suffix_preserved=1
+10-26 19:55:01.913  4940  4986 I c11abac485ccfe2: hprof: heap dump "heap-residue" starting...
+10-26 19:55:01.929  4988  4988 I duck_mount_view: Using CollectorTypeCC GC.
+10-26 19:55:01.945  4988  4988 W duck_mount_view: Unexpected CPU variant for x86: x86_64.
+10-26 19:55:01.945  4988  4988 W duck_mount_view: Known variants: atom, sandybridge, silvermont, goldmont, goldmont-plus, tremont, kabylake, default
+10-26 19:55:01.952  4988  4988 E duck_mount_view: Not starting debugger since process cannot load the jdwp agent.
+10-26 19:55:01.974  4988  4988 I DeviceLabPolicy: policy PLT restored=1
+10-26 19:55:02.034  4796  4796 I Choreographer: Skipped 80 frames!  The application may be doing too much work on its main thread.
+10-26 19:55:02.083  4796  4822 D EGL_emulation: app_time_stats: avg=362.27ms min=7.35ms max=1375.97ms count=6
+10-26 19:55:02.091  4988  4988 I DeviceLabNamespace: property remap status=0 pid=4988
+10-26 19:55:02.093  4796  4819 I OpenGLRenderer: Davey! duration=1400ms; Flags=0, FrameTimelineVsyncId=23416, IntendedVsync=144682909662, Vsync=144682909662, InputEventId=0, HandleInputStart=144690498849, AnimationStart=144690499018, PerformTraversalsStart=145170864658, DrawStart=145186096542, FrameDeadline=144732909660, FrameInterval=144690497337, FrameStartTime=16666666, SyncQueued=145995357908, SyncStart=145995938751, IssueDrawCommandsStart=146014348269, SwapBuffers=146077685100, FrameCompleted=146083865514, DequeueBufferDuration=7822, QueueBufferDuration=3460114, GpuCompleted=146083665959, SwapBuffersCompleted=146083865514, DisplayPresentTime=0, CommandSubmissionCompleted=146077685100, 
+10-26 19:55:02.162  4988  4988 D libEGL  : loaded /vendor/lib64/egl/libEGL_emulation.so
+10-26 19:55:02.176  4988  4988 D libEGL  : loaded /vendor/lib64/egl/libGLESv1_CM_emulation.so
+10-26 19:55:02.182  4988  4988 D libEGL  : loaded /vendor/lib64/egl/libGLESv2_emulation.so
+10-26 19:55:02.213  4988  4988 I DeviceLabRuntime: profile build=1 auxv=1 graphics_dispatch=1
+10-26 19:55:02.275   180  4935 W keystore2: system/security/keystore2/src/watchdog.rs:114 - ### Keystore Watchdog report - BEGIN ###
+10-26 19:55:02.275   180  4935 W keystore2: system/security/keystore2/src/watchdog.rs:123 - When extracting from a bug report, please include this header
+10-26 19:55:02.275   180  4935 W keystore2: system/security/keystore2/src/watchdog.rs:124 - and all 1 records below.
+10-26 19:55:02.275   180  4935 W keystore2: system/security/keystore2/src/watchdog.rs:164 - ThreadId(12) Calling get_rkpd_attestation_key() Pending: 1.503323623s Overdue 1.003324234s
+10-26 19:55:02.275   180  4935 W keystore2: system/security/keystore2/src/watchdog.rs:175 - ### Keystore Watchdog report - END ###
+10-26 19:55:02.303   393  5014 I resolv  : GetAddrInfoHandler::run: {100 100 100 983140 10150 0}
+10-26 19:55:02.306  4988  4988 D CompatibilityChangeReporter: Compat change id reported: 171979766; UID 99002; state: ENABLED
+10-26 19:55:02.306  4988  4988 D CompatibilityChangeReporter: Compat change id reported: 242716250; UID 99002; state: ENABLED
+10-26 19:55:02.312   393  5017 I resolv  : res_nmkquery: (QUERY, IN, A)
+10-26 19:55:02.312   393  5016 I resolv  : res_nmkquery: (QUERY, IN, AAAA)
+10-26 19:55:02.312   393  5016 I resolv  : res_stats_usable_server: too many resolution errors, ignoring server
+10-26 19:55:02.319   393  5017 I resolv  : res_stats_usable_server: too many resolution errors, ignoring server
+10-26 19:55:02.292     0     0 I logd    : logdr: UID=10203 GID=10203 PID=4976 n tail=120 logMask=4 pid=0 start=0ns deadline=0ns
+10-26 19:55:02.352  4988  4988 D ApplicationLoaders: Returning zygote-cached class loader: /system_ext/framework/androidx.window.extensions.jar
+10-26 19:55:02.352  4988  4988 D ApplicationLoaders: Returning zygote-cached class loader: /system_ext/framework/androidx.window.sidecar.jar
+10-26 19:55:02.383  4988  4988 W ziparchive: Unable to open '/data/app/~~yxshPE5xSECWDj-f-lUm_Q==/com.eltavine.duckdetector-JbMZcWdKSPgz5AIqbFOafg==/base.dm': No such file or directory
+10-26 19:55:02.384  4988  4988 W ziparchive: Unable to open '/data/app/~~yxshPE5xSECWDj-f-lUm_Q==/com.eltavine.duckdetector-JbMZcWdKSPgz5AIqbFOafg==/base.dm': No such file or directory
+10-26 19:55:02.383  4796  4796 W DefaultDispatch: type=1400 audit(0.0:66): avc:  denied  { nlmsg_readpriv } for  scontext=u:r:untrusted_app:s0:c203,c256,c512,c768 tcontext=u:r:untrusted_app:s0:c203,c256,c512,c768 tclass=netlink_route_socket permissive=0 bug=b/155595000 app=com.eltavine.duckdetector
+10-26 19:55:02.387  4796  4796 W DefaultDispatch: type=1400 audit(0.0:67): avc:  denied  { nlmsg_getneigh } for  scontext=u:r:untrusted_app:s0:c203,c256,c512,c768 tcontext=u:r:untrusted_app:s0:c203,c256,c512,c768 tclass=netlink_route_socket permissive=0 bug=b/155595000 app=com.eltavine.duckdetector
+10-26 19:55:02.407  4796  4796 W DefaultDispatch: type=1400 audit(0.0:68): avc:  denied  { getattr } for  path="/sys/kernel/tracing/trace_marker" dev="tracefs" ino=10970 scontext=u:r:untrusted_app:s0:c203,c256,c512,c768 tcontext=u:object_r:debugfs_trace_marker:s0 tclass=file permissive=0 app=com.eltavine.duckdetector
+10-26 19:55:02.465  4988  4988 D nativeloader: Configuring clns-7 for other apk /data/app/~~yxshPE5xSECWDj-f-lUm_Q==/com.eltavine.duckdetector-JbMZcWdKSPgz5AIqbFOafg==/base.apk. target_sdk_version=37, uses_libraries=, library_path=/data/app/~~yxshPE5xSECWDj-f-lUm_Q==/com.eltavine.duckdetector-JbMZcWdKSPgz5AIqbFOafg==/lib/x86_64:/data/app/~~yxshPE5xSECWDj-f-lUm_Q==/com.eltavine.duckdetector-JbMZcWdKSPgz5AIqbFOafg==/base.apk!/lib/x86_64, permitted_path=/data:/mnt/expand:/data/user/0/com.eltavine.duckdetector
+10-26 19:55:02.471  4796  4796 W DefaultDispatch: type=1400 audit(0.0:69): avc:  denied  { read } for  name="enforce" dev="selinuxfs" ino=4 scontext=u:r:untrusted_app:s0:c203,c256,c512,c768 tcontext=u:object_r:selinuxfs:s0 tclass=file permissive=0 app=com.eltavine.duckdetector
+10-26 19:55:02.471  4796  4796 W DefaultDispatch: type=1400 audit(0.0:70): avc:  denied  { read } for  name="enforce" dev="selinuxfs" ino=4 scontext=u:r:untrusted_app:s0:c203,c256,c512,c768 tcontext=u:object_r:selinuxfs:s0 tclass=file permissive=0 app=com.eltavine.duckdetector
+10-26 19:55:02.520   582  1820 D CompatibilityChangeReporter: Compat change id reported: 135634846; UID 10203; state: DISABLED
+10-26 19:55:02.521   582  2445 I ActivityManager: Flag disabled. Ignoring finishAttachApplication from uid: 99002. pid: 4988
+10-26 19:55:02.522   582   624 D CompatibilityChangeReporter: Compat change id reported: 143937733; UID 10203; state: ENABLED
+10-26 19:55:02.528   394   394 D Zygote  : Forked child process 5021
+10-26 19:55:02.529   582   624 I ActivityManager: Start proc 5021:com.eltavine.duckdetector:helper_probe/u0a203 for service {com.eltavine.duckdetector/com.eltavine.duckdetector.capability.helperprocess.data.HelperProbeService}
+10-26 19:55:02.543   395   395 I zygiskd64:  - Sending companion fd socket of module "device_lab_cpu"
+10-26 19:55:02.543  4374  4374 I zygiskd-companion64: New companion request.
+10-26 19:55:02.543  4374  4374 I zygiskd-companion64:  - Module name: device_lab_cpu
+10-26 19:55:02.543  4374  4374 I zygiskd-companion64:  - Client fd: 6
+10-26 19:55:02.547  4988  4988 W SystemServiceRegistry: No service published for: virtualdevice
+10-26 19:55:02.559  4796  4796 W DefaultDispatch: type=1400 audit(0.0:71): avc:  denied  { read } for  name="version" dev="proc" ino=4026532032 scontext=u:r:untrusted_app:s0:c203,c256,c512,c768 tcontext=u:object_r:proc_version:s0 tclass=file permissive=0 app=com.eltavine.duckdetector
+10-26 19:55:02.579  4374  5022 I zygiskd-companion64:  - Client fd changed after module entry
+10-26 19:55:02.579  5021  5021 I DeviceLabNamespace: profile mount status=0 pid=5021
+10-26 19:55:02.571  5021  5021 W main    : type=1400 audit(0.0:72): avc:  denied  { write } for  name="device-lab" dev="dm-40" ino=49191 scontext=u:r:zygote:s0 tcontext=u:object_r:system_file:s0 tclass=dir permissive=0
+10-26 19:55:02.596  5021  5021 W ziparchive: Unable to open '/data/misc/device-lab/runtime-49329-1792891232-416391481.dm': No such file or directory
+10-26 19:55:02.596  5021  5021 W ziparchive: Unable to open '/data/misc/device-lab/runtime-49329-1792891232-416391481.dm': No such file or directory
+10-26 19:55:02.597  5021  5021 D nativeloader: Configuring clns-6 for other apk . target_sdk_version=0, uses_libraries=ALL, library_path=/data/misc/device-lab/runtime-49329-1792891232-416391481.apk!/lib/x86_64, permitted_path=/data:/mnt/expand
+10-26 19:55:02.599  5021  5021 W zygote64: Core platform API violation: Ljava/lang/reflect/Executable;->artMethod:J from Lcom/android/internal/os/Zygote; using JNI
+10-26 19:55:02.599  5021  5021 I DeviceLabRuntime: JNI preparation sensors=1 original_is_replacement=0
+10-26 19:55:02.599   395   395 I zygiskd64:  - Sending companion fd socket of module "device_lab_cpu"
+10-26 19:55:02.600  4374  4374 I zygiskd-companion64: New companion request.
+10-26 19:55:02.600  4374  4374 I zygiskd-companion64:  - Module name: device_lab_cpu
+10-26 19:55:02.600  4374  4374 I zygiskd-companion64:  - Client fd: 6
+10-26 19:55:02.565     0     0 W audit   : audit_lost=32 audit_rate_limit=5 audit_backlog_limit=64
+10-26 19:55:02.570     0     0 E audit   : rate limit exceeded
+10-26 19:55:02.571  4796  4796 W DefaultDispatch: type=1400 audit(0.0:73): avc:  denied  { read } for  name="osrelease" dev="proc" ino=61325 scontext=u:r:untrusted_app:s0:c203,c256,c512,c768 tcontext=u:object_r:proc:s0 tclass=file permissive=0 app=com.eltavine.duckdetector
+10-26 19:55:02.621  4374  5025 I zygiskd-companion64:  - Client fd changed after module entry
+10-26 19:55:02.621  5021  5021 I DeviceLabNamespace: uname broker status=0 pid=5021
+10-26 19:55:02.621  5021  5021 I DeviceLabNamespace: notification domain=platform pid=5021
+10-26 19:55:02.621  5021  5021 I DeviceLabNamespace: proc broker enabled=1
+10-26 19:55:02.644  5021  5021 I DeviceLabPolicy: policy PLT installed=1
+10-26 19:55:02.687  5021  5021 I DeviceLabPolicy: openat2 policy status=0 source_length=260 original_suffix_preserved=1
+10-26 19:55:02.697  5021  5021 I or:helper_probe: Using CollectorTypeCC GC.
+10-26 19:55:02.718  5021  5021 W or:helper_probe: Unexpected CPU variant for x86: x86_64.
+10-26 19:55:02.718  5021  5021 W or:helper_probe: Known variants: atom, sandybridge, silvermont, goldmont, goldmont-plus, tremont, kabylake, default
+10-26 19:55:02.725  5021  5021 E or:helper_probe: Not starting debugger since process cannot load the jdwp agent.
+10-26 19:55:02.763  4796  4796 D DuckSettingsScroll: wordmark viewport=996x383
+10-26 19:55:02.777   582   671 D ActivityManager: freezing 4474 dev.androidlab.rawprobe
+10-26 19:55:02.778   582  1820 D CompatibilityChangeReporter: Compat change id reported: 149924527; UID 10203; state: ENABLED
+10-26 19:55:02.778   582  1820 D CompatibilityChangeReporter: Compat change id reported: 132649864; UID 10203; state: DISABLED
+10-26 19:55:02.781   582  1820 D OomAdjuster: Not killing cached processes
+10-26 19:55:02.782   582  1820 I ActivityManager: Killing 4988:com.eltavine.duckdetector:com.eltavine.duckdetector.capability.helperprocess.data.IsolatedHelperProbeService:duck_mount_view/u0a203i2 (adj 0): isolated not needed
+10-26 19:55:02.787   582   625 I libprocessgroup: Successfully killed process cgroup uid 99002 pid 4988 in 0ms
+10-26 19:55:02.797  5021  5021 I DeviceLabPolicy: policy PLT restored=1
+10-26 19:55:02.784     0     0 I binder  : undelivered transaction 170788, process died.
+10-26 19:55:02.786     0     0 I binder  : undelivered transaction 170789, process died.
+10-26 19:55:02.788     0     0 I binder  : undelivered transaction 170790, process died.
+10-26 19:55:02.824   394   394 I Zygote  : Process 4988 exited due to signal 9 (Killed)
+10-26 19:55:02.808     0     0 I init    : Untracked pid 4995 exited with status 0
+10-26 19:55:02.809     0     0 I init    : Untracked pid 4995 did not have an associated service entry and will not be reaped
+10-26 19:55:02.833   582   612 D DisplayManagerService: Drop pending events for gone uid 99002
+10-26 19:55:02.841   582   630 W KernelCpuProcStringReader: File not found. It's normal if not implemented: /proc/uid_time_in_state
+10-26 19:55:02.841   582   630 W KernelCpuProcStringReader: File not found. It's normal if not implemented: /proc/uid_concurrent_active_time
+10-26 19:55:02.841   582   630 W KernelCpuProcStringReader: File not found. It's normal if not implemented: /proc/uid_concurrent_policy_time
+10-26 19:55:02.854   582   630 E system_server: Cannot read thread CPU times for PID 582
+10-26 19:55:02.985  5021  5021 I DeviceLabNamespace: property remap status=0 pid=5021
+10-26 19:55:03.068  4796  4933 W libc    : Access denied finding property "ro.debuggable"
+10-26 19:55:03.068  4796  4933 W libc    : Access denied finding property "ro.secure"
+10-26 19:55:03.069  4796  4933 W libc    : Access denied finding property "ro.oem_unlock_supported"
+10-26 19:55:03.073  5021  5021 D libEGL  : loaded /vendor/lib64/egl/libEGL_emulation.so
+10-26 19:55:03.079  4796  4933 W libc    : Access denied finding property "partition.system.verified"
+10-26 19:55:03.079  4796  4951 W libc    : Access denied finding property "ro.debuggable"
+10-26 19:55:03.080  4796  4933 W libc    : Access denied finding property "partition.vendor.verified"
+10-26 19:55:03.082  4796  4933 W libc    : Access denied finding property "partition.product.verified"
+10-26 19:55:03.085  4796  4951 W libc    : Access denied finding property "partition.system.verified"
+10-26 19:55:03.085  5021  5021 D libEGL  : loaded /vendor/lib64/egl/libGLESv1_CM_emulation.so
+10-26 19:55:03.086  4796  4951 W libc    : Access denied finding property "partition.vendor.verified"
+10-26 19:55:03.088  4796  4951 W libc    : Access denied finding property "partition.product.verified"
+10-26 19:55:03.088  4796  4951 W libc    : Access denied finding property "partition.system_ext.verified"
+10-26 19:55:03.098  4796  4951 W libc    : Access denied finding property "partition.odm.verified"
+10-26 19:55:03.099  5021  5021 D libEGL  : loaded /vendor/lib64/egl/libGLESv2_emulation.so
+10-26 19:55:03.105   582  1820 D CompatibilityChangeReporter: Compat change id reported: 161145287; UID 10203; state: ENABLED
+10-26 19:55:03.106  4796  4933 W libc    : Access denied finding property "partition.system_ext.verified"
+10-26 19:55:03.108  4796  4951 W libc    : Access denied finding property "ro.oem_unlock_supported"
+10-26 19:55:03.111  4342  4349 E adbd    : received data of incorrect size from JDWP client: read 0, expected 32
+10-26 19:55:03.111  4796  4933 W libc    : Access denied finding property "partition.odm.verified"
+10-26 19:55:03.124  4796  4796 D DuckSettingsScroll: wordmark build start names=41
+10-26 19:55:03.134  4796  4951 W libc    : Access denied finding property "ro.bootimage.build.fingerprint"
+10-26 19:55:03.142  5021  5021 I DeviceLabRuntime: profile build=1 auxv=1 graphics_dispatch=1
+10-26 19:55:03.154   180  4935 W keystore2: system/security/keystore2/src/watchdog.rs:114 - ### Keystore Watchdog report - BEGIN ###
+10-26 19:55:03.154   180  4935 W keystore2: system/security/keystore2/src/watchdog.rs:123 - When extracting from a bug report, please include this header
+10-26 19:55:03.154   180  4935 W keystore2: system/security/keystore2/src/watchdog.rs:124 - and all 1 records below.
+10-26 19:55:03.154   180  4935 W keystore2: system/security/keystore2/src/watchdog.rs:164 - ThreadId(12) Calling get_rkpd_attestation_key() Pending: 2.381824304s Overdue 1.881824901s
+10-26 19:55:03.154   180  4935 W keystore2: system/security/keystore2/src/watchdog.rs:175 - ### Keystore Watchdog report - END ###
+10-26 19:55:03.157   582  2445 I RemoteProvisionSysSvc: getRegistration(android.hardware.security.keymint.IRemotelyProvisionedComponent/default)
+10-26 19:55:03.164   582   582 I RegistrationProxy: onServiceConnected: com.android.rkpdapp.service.RemoteProvisioningService
+10-26 19:55:03.146     0     0 I servicemanager: Found android.hardware.security.keymint.IRemotelyProvisionedComponent/default in device VINTF manifest.
+10-26 19:55:03.174  3514  4947 W Binder  : Caught a RuntimeException from the binder stub implementation.
+10-26 19:55:03.174  3514  4947 W Binder  : java.lang.UnsupportedOperationException: 
+10-26 19:55:03.174  3514  4947 W Binder  : 	at android.os.Parcel.createExceptionOrNull(Parcel.java:3069)
+10-26 19:55:03.174  3514  4947 W Binder  : 	at android.os.Parcel.createException(Parcel.java:3041)
+10-26 19:55:03.174  3514  4947 W Binder  : 	at android.os.Parcel.readException(Parcel.java:3024)
+10-26 19:55:03.174  3514  4947 W Binder  : 	at android.os.Parcel.readException(Parcel.java:2966)
+10-26 19:55:03.174  3514  4947 W Binder  : 	at android.hardware.security.keymint.IRemotelyProvisionedComponent$Stub$Proxy.getHardwareInfo(IRemotelyProvisionedComponent.java:193)
+10-26 19:55:03.174  3514  4947 W Binder  : 	at com.android.rkpdapp.interfaces.SystemInterface.<init>(SystemInterface.java:58)
+10-26 19:55:03.174  3514  4947 W Binder  : 	at com.android.rkpdapp.interfaces.ServiceManagerInterface.createSystemInterface(ServiceManagerInterface.java:41)
+10-26 19:55:03.174  3514  4947 W Binder  : 	at com.android.rkpdapp.interfaces.ServiceManagerInterface.getInstance(ServiceManagerInterface.java:78)
+10-26 19:55:03.174  3514  4947 W Binder  : 	at com.android.rkpdapp.service.RemoteProvisioningService$RemoteProvisioningBinder.getRegistration(RemoteProvisioningService.java:69)
+10-26 19:55:03.174  3514  4947 W Binder  : 	at com.android.rkpdapp.IRemoteProvisioning$Stub.onTransact(IRemoteProvisioning.java:118)
+10-26 19:55:03.174  3514  4947 W Binder  : 	at android.os.Binder.execTransactInternal(Binder.java:1344)
+10-26 19:55:03.174  3514  4947 W Binder  : 	at android.os.Binder.execTransact(Binder.java:1275)
+10-26 19:55:03.174   582  1820 D CompatibilityChangeReporter: Compat change id reported: 184838306; UID 10203; state: DISABLED
+10-26 19:55:03.175   582  1820 D CompatibilityChangeReporter: Compat change id reported: 185004937; UID 10203; state: DISABLED
+10-26 19:55:03.175   582  1820 D CompatibilityChangeReporter: Compat change id reported: 168419799; UID 10193; state: DISABLED
+10-26 19:55:03.175   582  1820 D CompatibilityChangeReporter: Compat change id reported: 273564678; UID 10193; state: DISABLED
+10-26 19:55:03.180   582  1820 D CompatibilityChangeReporter: Compat change id reported: 184838306; UID 10193; state: DISABLED
+10-26 19:55:03.181   582  1820 D CompatibilityChangeReporter: Compat change id reported: 185004937; UID 10193; state: DISABLED
+10-26 19:55:03.181   582  1820 D CompatibilityChangeReporter: Compat change id reported: 168419799; UID 10202; state: DISABLED
+10-26 19:55:03.181   582  1820 D CompatibilityChangeReporter: Compat change id reported: 273564678; UID 10202; state: DISABLED
+10-26 19:55:03.190   582  1820 D CompatibilityChangeReporter: Compat change id reported: 184838306; UID 10202; state: DISABLED
+10-26 19:55:03.192   582  1820 D CompatibilityChangeReporter: Compat change id reported: 185004937; UID 10202; state: DISABLED
+10-26 19:55:03.192   582  1820 D CompatibilityChangeReporter: Compat change id reported: 168419799; UID 10201; state: DISABLED
+10-26 19:55:03.193   582  1820 D CompatibilityChangeReporter: Compat change id reported: 273564678; UID 10201; state: DISABLED
+10-26 19:55:03.193   582  1820 D CompatibilityChangeReporter: Compat change id reported: 184838306; UID 10201; state: DISABLED
+10-26 19:55:03.193   582  1820 D CompatibilityChangeReporter: Compat change id reported: 185004937; UID 10201; state: DISABLED
+10-26 19:55:03.193   582  1820 D CompatibilityChangeReporter: Compat change id reported: 168419799; UID 10192; state: DISABLED
+10-26 19:55:03.193   582  1820 D CompatibilityChangeReporter: Compat change id reported: 273564678; UID 10192; state: DISABLED
+10-26 19:55:03.193   582  1820 D CompatibilityChangeReporter: Compat change id reported: 184838306; UID 10192; state: DISABLED
+10-26 19:55:03.196   582  1820 D CompatibilityChangeReporter: Compat change id reported: 185004937; UID 10192; state: DISABLED
+10-26 19:55:03.196   582  1820 D CompatibilityChangeReporter: Compat change id reported: 168419799; UID 10205; state: DISABLED
+10-26 19:55:03.196   582  1820 D CompatibilityChangeReporter: Compat change id reported: 273564678; UID 10205; state: DISABLED
+10-26 19:55:03.201   582  1820 D CompatibilityChangeReporter: Compat change id reported: 184838306; UID 10205; state: DISABLED
+10-26 19:55:03.201   582  1820 D CompatibilityChangeReporter: Compat change id reported: 185004937; UID 10205; state: DISABLED
+10-26 19:55:03.234   394   394 D Zygote  : Forked child process 5058
+10-26 19:55:03.237   582   624 I ActivityManager: Start proc 5058:com.eltavine.duckdetector:zygisk_fd_detector/u0a203 for service {com.eltavine.duckdetector/com.eltavine.duckdetector.features.zygisk.data.fdtrap.ZygiskFdTrapDetectorService}
+10-26 19:55:03.240   395   395 I zygiskd64:  - Sending companion fd socket of module "device_lab_cpu"
+10-26 19:55:03.240  4374  4374 I zygiskd-companion64: New companion request.
+10-26 19:55:03.240  4374  4374 I zygiskd-companion64:  - Module name: device_lab_cpu
+10-26 19:55:03.240  4374  4374 I zygiskd-companion64:  - Client fd: 6
+10-26 19:55:03.254  5058  5058 I DeviceLabNamespace: profile mount status=0 pid=5058
+10-26 19:55:03.254  4374  5059 I zygiskd-companion64:  - Client fd changed after module entry
+10-26 19:55:03.256  5058  5058 W ziparchive: Unable to open '/data/misc/device-lab/runtime-49329-1792891232-416391481.dm': No such file or directory
+10-26 19:55:03.256  5058  5058 W ziparchive: Unable to open '/data/misc/device-lab/runtime-49329-1792891232-416391481.dm': No such file or directory
+10-26 19:55:03.259  5058  5058 D nativeloader: Configuring clns-6 for other apk . target_sdk_version=0, uses_libraries=ALL, library_path=/data/misc/device-lab/runtime-49329-1792891232-416391481.apk!/lib/x86_64, permitted_path=/data:/mnt/expand
+10-26 19:55:03.264  5058  5058 W zygote64: Core platform API violation: Ljava/lang/reflect/Executable;->artMethod:J from Lcom/android/internal/os/Zygote; using JNI
+10-26 19:55:03.264  5058  5058 I DeviceLabRuntime: JNI preparation sensors=1 original_is_replacement=0
+10-26 19:55:03.265   395   395 I zygiskd64:  - Sending companion fd socket of module "device_lab_cpu"
+10-26 19:55:03.265  4374  4374 I zygiskd-companion64: New companion request.
+10-26 19:55:03.265  4374  4374 I zygiskd-companion64:  - Module name: device_lab_cpu
+10-26 19:55:03.265  4374  4374 I zygiskd-companion64:  - Client fd: 6
+10-26 19:55:03.267  4374  5064 I zygiskd-companion64:  - Client fd changed after module entry
+10-26 19:55:03.269  5058  5058 I DeviceLabNamespace: uname broker status=0 pid=5058
+10-26 19:55:03.271  5058  5058 I DeviceLabNamespace: notification domain=platform pid=5058
+10-26 19:55:03.271  5058  5058 I DeviceLabNamespace: proc broker enabled=1
+10-26 19:55:03.275  4796  4908 D CompatibilityChangeReporter: Compat change id reported: 270306772; UID 10203; state: ENABLED
+10-26 19:55:03.275  5021  5021 D CompatibilityChangeReporter: Compat change id reported: 171979766; UID 10203; state: ENABLED
+10-26 19:55:03.276  5021  5021 D CompatibilityChangeReporter: Compat change id reported: 242716250; UID 10203; state: ENABLED
+10-26 19:55:03.278   393  5067 I resolv  : GetAddrInfoHandler::run: {100 100 100 983140 10203 0}
+10-26 19:55:03.278   393  5070 I resolv  : res_nmkquery: (QUERY, IN, AAAA)
+10-26 19:55:03.278   393  5071 I resolv  : res_nmkquery: (QUERY, IN, A)
+10-26 19:55:03.278   393  5070 I resolv  : res_stats_usable_server: too many resolution errors, ignoring server
+10-26 19:55:03.281   393  5071 I resolv  : res_stats_usable_server: too many resolution errors, ignoring server
+10-26 19:55:03.284   582  2445 D CompatibilityChangeReporter: Compat change id reported: 170503758; UID 10203; state: ENABLED
+10-26 19:55:03.290  5021  5021 D ApplicationLoaders: Returning zygote-cached class loader: /system_ext/framework/androidx.window.extensions.jar
+10-26 19:55:03.290  5021  5021 D ApplicationLoaders: Returning zygote-cached class loader: /system_ext/framework/androidx.window.sidecar.jar
+10-26 19:55:03.290  5021  5021 W ziparchive: Unable to open '/data/app/~~yxshPE5xSECWDj-f-lUm_Q==/com.eltavine.duckdetector-JbMZcWdKSPgz5AIqbFOafg==/base.dm': No such file or directory
+10-26 19:55:03.290  5021  5021 W ziparchive: Unable to open '/data/app/~~yxshPE5xSECWDj-f-lUm_Q==/com.eltavine.duckdetector-JbMZcWdKSPgz5AIqbFOafg==/base.dm': No such file or directory
+10-26 19:55:03.297  4796  4908 D CompatibilityChangeReporter: Compat change id reported: 235355681; UID 10203; state: ENABLED
+10-26 19:55:03.320  5021  5021 D nativeloader: Configuring clns-7 for other apk /data/app/~~yxshPE5xSECWDj-f-lUm_Q==/com.eltavine.duckdetector-JbMZcWdKSPgz5AIqbFOafg==/base.apk. target_sdk_version=37, uses_libraries=, library_path=/data/app/~~yxshPE5xSECWDj-f-lUm_Q==/com.eltavine.duckdetector-JbMZcWdKSPgz5AIqbFOafg==/lib/x86_64:/data/app/~~yxshPE5xSECWDj-f-lUm_Q==/com.eltavine.duckdetector-JbMZcWdKSPgz5AIqbFOafg==/base.apk!/lib/x86_64, permitted_path=/data:/mnt/expand:/data/user/0/com.eltavine.duckdetector
+10-26 19:55:03.321  5058  5058 I DeviceLabPolicy: policy PLT installed=1
+10-26 19:55:03.333  1522  2897 I MediaProvider: Deleted 0 0 0 0 0 0 1 items on external_primary due to com.android.shell
+10-26 19:55:03.337  5058  5058 I DeviceLabPolicy: openat2 policy status=0 source_length=260 original_suffix_preserved=1
+10-26 19:55:03.341  5058  5058 I isk_fd_detector: Using CollectorTypeCC GC.
+10-26 19:55:03.347  5058  5058 W isk_fd_detector: Unexpected CPU variant for x86: x86_64.
+10-26 19:55:03.347  5058  5058 W isk_fd_detector: Known variants: atom, sandybridge, silvermont, goldmont, goldmont-plus, tremont, kabylake, default
+10-26 19:55:03.349  5021  5021 V GraphicsEnvironment: Currently set values for:
+10-26 19:55:03.349  5021  5021 V GraphicsEnvironment:   angle_gl_driver_selection_pkgs=[]
+10-26 19:55:03.349  5021  5021 V GraphicsEnvironment:   angle_gl_driver_selection_values=[]
+10-26 19:55:03.350  5021  5021 V GraphicsEnvironment: ANGLE GameManagerService for com.eltavine.duckdetector: false
+10-26 19:55:03.350  5021  5021 V GraphicsEnvironment: com.eltavine.duckdetector is not listed in per-application setting
+10-26 19:55:03.351  5021  5021 V GraphicsEnvironment: Neither updatable production driver nor prerelease driver is supported.
+10-26 19:55:03.355  5058  5058 E isk_fd_detector: Not starting debugger since process cannot load the jdwp agent.
+10-26 19:55:03.358   582   728 I serviceDiscovery: [MdnsSocketProvider] Start monitoring sockets.
+10-26 19:55:03.359   582   728 I TetheringManager: registerTetheringEventCallback caller:android
+10-26 19:55:03.361   582   728 I serviceDiscovery: [MdnsDiscoveryManager] Registering listener for serviceType: _adb-tls-connect._tcp.local
+10-26 19:55:03.363   582  2263 I ActivityManager: Flag disabled. Ignoring finishAttachApplication from uid: 10203. pid: 5021
+10-26 19:55:03.363   582   725 D ConnectivityService: NetReassign [no changes] [c 0] [a 0] [i 3]
+10-26 19:55:03.378   582   728 D TrafficStats: tagSocket(514) with statsTag=0xffffffff, statsUid=-1
+10-26 19:55:03.386   582   613 I DropBoxManagerService: add tag=system_server_strictmode isTagEnabled=true flags=0x2
+10-26 19:55:03.397   582   728 I serviceDiscovery: [MdnsDiscoveryManager] Registering listener for serviceType: _adb._tcp.local
+10-26 19:55:03.408  5058  5058 I DeviceLabPolicy: policy PLT restored=1
+10-26 19:55:03.423  5058  5058 I DeviceLabNamespace: property remap status=0 pid=5058
+10-26 19:55:03.427   851  5098 D TrafficStats: tagSocket(6) with statsTag=0xffffff81, statsUid=-1
+10-26 19:55:03.428  5058  5058 D libEGL  : loaded /vendor/lib64/egl/libEGL_emulation.so
+10-26 19:55:03.433  5058  5058 D libEGL  : loaded /vendor/lib64/egl/libGLESv1_CM_emulation.so
+10-26 19:55:03.445  5058  5058 D libEGL  : loaded /vendor/lib64/egl/libGLESv2_emulation.so
+10-26 19:55:03.451  4796  4796 I Choreographer: Skipped 78 frames!  The application may be doing too much work on its main thread.
+10-26 19:55:03.452   851  5098 D TrafficStats: tagSocket(6) with statsTag=0xffffff81, statsUid=-1
+10-26 19:55:03.463   393  5115 I resolv  : ResNSendHandler::run: 0 / {100 983140 100 983140 1073 1}
+10-26 19:55:03.465   393  5115 I resolv  : res_stats_usable_server: too many resolution errors, ignoring server
+10-26 19:55:03.466   851  5099 D TrafficStats: tagSocket(106) with statsTag=0xffffff81, statsUid=-1
+10-26 19:55:03.466   393  5116 I resolv  : ResNSendHandler::run: 0 / {100 983140 100 983140 1073 1}
+10-26 19:55:03.467   393  5116 I resolv  : res_stats_usable_server: too many resolution errors, ignoring server
+10-26 19:55:03.472  4796  4952 I DuckSelinuxCarrier: pid=4796 tid=4952 uid=10203 request scan=145063 package=com.eltavine.duckdetector service=com.eltavine.duckdetector.capability.selinuxpolicy.data.SelinuxContextValidityCarrierService
+10-26 19:55:03.473   851  5099 D TrafficStats: tagSocket(106) with statsTag=0xffffff81, statsUid=-1
+10-26 19:55:03.474  4796  4952 I DuckSelinuxCarrier: pid=4796 tid=4952 uid=10203 shared collection miss scan=145063
+10-26 19:55:03.484   393  5117 I resolv  : ResNSendHandler::run: 0 / {100 983140 100 983140 1073 1}
+10-26 19:55:03.485   393  5117 I resolv  : res_stats_usable_server: too many resolution errors, ignoring server
+10-26 19:55:03.487  4796  4952 I DuckSelinuxCarrier: pid=4796 tid=4952 uid=10203 bind=147477732784 elapsedMs=9 service metadata process=com.eltavine.duckdetector flags=10 appProcess=com.eltavine.duckdetector appUid=10203 apk=/data/app/~~yxshPE5xSECWDj-f-lUm_Q==/com.eltavine.duckdetector-JbMZcWdKSPgz5AIqbFOafg==/base.apk
+10-26 19:55:03.487  4796  4952 I DuckSelinuxCarrier: pid=4796 tid=4952 uid=10203 bind=147477732784 elapsedMs=9 bindService begin component=ComponentInfo{com.eltavine.duckdetector/com.eltavine.duckdetector.capability.selinuxpolicy.data.SelinuxContextValidityCarrierService}
+10-26 19:55:03.489   393  5118 I resolv  : ResNSendHandler::run: 0 / {100 983140 100 983140 1073 1}
+10-26 19:55:03.489   393  5118 I resolv  : res_stats_usable_server: too many resolution errors, ignoring server
+10-26 19:55:03.493   582  2301 D CompatibilityChangeReporter: Compat change id reported: 135634846; UID 90000; state: DISABLED
+10-26 19:55:03.493   582   624 D CompatibilityChangeReporter: Compat change id reported: 143937733; UID 10203; state: ENABLED
+10-26 19:55:03.495  4796  4952 I DuckSelinuxCarrier: pid=4796 tid=4952 uid=10203 bind=147477732784 elapsedMs=17 bindService returned bound=true
+10-26 19:55:03.496   582   624 D CompatibilityChangeReporter: Compat change id reported: 135634846; UID 10203; state: DISABLED
+10-26 19:55:03.496   582   624 D CompatibilityChangeReporter: Compat change id reported: 177438394; UID 10203; state: DISABLED
+10-26 19:55:03.496   582   624 D CompatibilityChangeReporter: Compat change id reported: 135772972; UID 10203; state: DISABLED
+10-26 19:55:03.496   582   624 D CompatibilityChangeReporter: Compat change id reported: 135754954; UID 10203; state: ENABLED
+10-26 19:55:03.479  4796  4796 W DefaultDispatch: type=1400 audit(0.0:704): avc:  denied  { getattr } for  path="/proc/config.gz" dev="proc" ino=4026532072 scontext=u:r:untrusted_app:s0:c203,c256,c512,c768 tcontext=u:object_r:config_gz:s0 tclass=file permissive=0 app=com.eltavine.duckdetector
+10-26 19:55:03.499   394   394 W Zygote  : forkRepeatedly terminated due to non-simple command
+10-26 19:55:03.499   394   394 D Zygote  : mbuffer starts with 15, nice name is com.eltavine.duckdetector_zygote, mEnd = 422, mNext = 206, mLinesLeft = 6, mFd = 6
+10-26 19:55:03.487  4796  4796 W DefaultDispatch: type=1400 audit(0.0:705): avc:  denied  { getattr } for  path="/proc/diskstats" dev="proc" ino=4026532082 scontext=u:r:untrusted_app:s0:c203,c256,c512,c768 tcontext=u:object_r:proc_diskstats:s0 tclass=file permissive=0 app=com.eltavine.duckdetector
+10-26 19:55:03.531   582   728 I serviceDiscovery: [MdnsDiscoveryManager] Registering listener for serviceType: _adb._tcp.local
+10-26 19:55:03.531   582   728 E NsdService: Invalid attribute
+10-26 19:55:03.531   582   728 E NsdService: java.lang.IllegalArgumentException: Key cannot be empty
+10-26 19:55:03.531   582   728 E NsdService: 	at android.net.nsd.NsdServiceInfo.setAttribute(NsdServiceInfo.java:233)
+10-26 19:55:03.531   582   728 E NsdService: 	at android.net.connectivity.com.android.server.NsdService$NsdStateMachine$EnabledState.handleMdnsDiscoveryManagerEvent(NsdService.java:1211)
+10-26 19:55:03.531   582   728 E NsdService: 	at android.net.connectivity.com.android.server.NsdService$NsdStateMachine$EnabledState.processMessage(NsdService.java:953)
+10-26 19:55:03.531   582   728 E NsdService: 	at android.net.connectivity.com.android.internal.util.StateMachine$SmHandler.processMsg(StateMachine.java:993)
+10-26 19:55:03.531   582   728 E NsdService: 	at android.net.connectivity.com.android.internal.util.StateMachine$SmHandler.handleMessage(StateMachine.java:810)
+10-26 19:55:03.531   582   728 E NsdService: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+10-26 19:55:03.531   582   728 E NsdService: 	at android.os.Looper.loopOnce(Looper.java:205)
+10-26 19:55:03.531   582   728 E NsdService: 	at android.os.Looper.loop(Looper.java:294)
+10-26 19:55:03.531   582   728 E NsdService: 	at android.os.HandlerThread.run(HandlerThread.java:67)
+10-26 19:55:03.532   582   728 I serviceDiscovery: [MdnsDiscoveryManager] Unregistering listener for serviceType:_adb._tcp.local
+10-26 19:55:03.495  4796  4796 W DefaultDispatch: type=1400 audit(0.0:706): avc:  denied  { getattr } for  path="/proc/key-users" dev="proc" ino=4026532081 scontext=u:r:untrusted_app:s0:c203,c256,c512,c768 tcontext=u:object_r:proc:s0 tclass=file permissive=0 app=com.eltavine.duckdetector
+10-26 19:55:03.552   582   728 I serviceDiscovery: [MdnsDiscoveryManager] Registering listener for serviceType: _adb._tcp.local
+10-26 19:55:03.553   582   728 E NsdService: Invalid attribute
+10-26 19:55:03.553   582   728 E NsdService: java.lang.IllegalArgumentException: Key cannot be empty
+10-26 19:55:03.553   582   728 E NsdService: 	at android.net.nsd.NsdServiceInfo.setAttribute(NsdServiceInfo.java:233)
+10-26 19:55:03.553   582   728 E NsdService: 	at android.net.connectivity.com.android.server.NsdService$NsdStateMachine$EnabledState.handleMdnsDiscoveryManagerEvent(NsdService.java:1211)
+10-26 19:55:03.553   582   728 E NsdService: 	at android.net.connectivity.com.android.server.NsdService$NsdStateMachine$EnabledState.processMessage(NsdService.java:953)
+10-26 19:55:03.553   582   728 E NsdService: 	at android.net.connectivity.com.android.internal.util.StateMachine$SmHandler.processMsg(StateMachine.java:993)
+10-26 19:55:03.553   582   728 E NsdService: 	at android.net.connectivity.com.android.internal.util.StateMachine$SmHandler.handleMessage(StateMachine.java:810)
+10-26 19:55:03.553   582   728 E NsdService: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+10-26 19:55:03.553   582   728 E NsdService: 	at android.os.Looper.loopOnce(Looper.java:205)
+10-26 19:55:03.553   582   728 E NsdService: 	at android.os.Looper.loop(Looper.java:294)
+10-26 19:55:03.553   582   728 E NsdService: 	at android.os.HandlerThread.run(HandlerThread.java:67)
+10-26 19:55:03.553   582   728 I serviceDiscovery: [MdnsDiscoveryManager] Unregistering listener for serviceType:_adb._tcp.local
+10-26 19:55:03.499  4796  4796 W DefaultDispatch: type=1400 audit(0.0:707): avc:  denied  { getattr } for  path="/proc/schedstat" dev="proc" ino=4026532003 scontext=u:r:untrusted_app:s0:c203,c256,c512,c768 tcontext=u:object_r:proc:s0 tclass=file permissive=0 app=com.eltavine.duckdetector
+10-26 19:55:03.574   394   394 D Zygote  : Forked child process 5124
+10-26 19:55:03.576  4796  4822 D EGL_emulation: app_time_stats: avg=744.36ms min=5.13ms max=1483.58ms count=2
+10-26 19:55:03.578   582   624 W ZygoteProcess: Got error connecting to zygote, retrying. msg= Connection refused
+10-26 19:55:03.581  5124  5124 I DeviceLabNamespace: app zygote private unmount status=0 pid=5124
+10-26 19:55:03.511  4796  4796 W DefaultDispatch: type=1400 audit(0.0:708): avc:  denied  { getattr } for  path="/proc/bootconfig" dev="proc" ino=4026532038 scontext=u:r:untrusted_app:s0:c203,c256,c512,c768 tcontext=u:object_r:proc_bootconfig:s0 tclass=file permissive=0 app=com.eltavine.duckdetector
+10-26 19:55:03.600   800   816 I ndroid.systemui: Background young concurrent copying GC freed 387947(17MB) AllocSpace objects, 0(0B) LOS objects, 47% free, 19MB/36MB, paused 22.983ms,25us total 124.995ms
+10-26 19:55:03.601  5058  5058 I DeviceLabRuntime: profile build=1 auxv=1 graphics_dispatch=1
+10-26 19:55:03.605  4796  4817 I OpenGLRenderer: Davey! duration=1500ms; Flags=0, FrameTimelineVsyncId=23888, IntendedVsync=146082909606, Vsync=146132909604, InputEventId=0, HandleInputStart=146137665133, AnimationStart=146137665461, PerformTraversalsStart=146154456007, DrawStart=146154508173, FrameDeadline=146132909604, FrameInterval=146137657089, FrameStartTime=16666666, SyncQueued=147078960662, SyncStart=147080352084, IssueDrawCommandsStart=147081937932, SwapBuffers=147574003103, FrameCompleted=147584558922, DequeueBufferDuration=5980, QueueBufferDuration=265388, GpuCompleted=147584558922, SwapBuffersCompleted=147577152081, DisplayPresentTime=0, CommandSubmissionCompleted=147574003103, 
+10-26 19:55:03.613  5124  5124 I detector_zygote: Using CollectorTypeCC GC.
+10-26 19:55:03.596     0     0 W audit   : audit_lost=673 audit_rate_limit=5 audit_backlog_limit=64
+10-26 19:55:03.599     0     0 E audit   : rate limit exceeded
+10-26 19:55:03.620  5124  5124 I DeviceLabNamespace: app zygote null descriptors repaired=8 pid=5124
+10-26 19:55:03.630   582   624 W ZygoteProcess: Got error connecting to zygote, retrying. msg= Connection refused
+10-26 19:55:03.655   180  4935 W keystore2: system/security/keystore2/src/watchdog.rs:114 - ### Keystore Watchdog report - BEGIN ###
+10-26 19:55:03.655   180  4935 W keystore2: system/security/keystore2/src/watchdog.rs:123 - When extracting from a bug report, please include this header
+10-26 19:55:03.655   180  4935 W keystore2: system/security/keystore2/src/watchdog.rs:124 - and all 2 records below.
+10-26 19:55:03.655   180  4935 W keystore2: system/security/keystore2/src/watchdog.rs:164 - ThreadId(12) Calling get_rkpd_attestation_key() Pending: 2.883252597s Overdue 2.38325322s
+10-26 19:55:03.655   180  4935 W keystore2: system/security/keystore2/src/watchdog.rs:164 - ThreadId(1) Calling get_rkpd_attestation_key() Pending: 501.163781ms Overdue 1.164069ms
+10-26 19:55:03.655   180  4935 W keystore2: system/security/keystore2/src/watchdog.rs:175 - ### Keystore Watchdog report - END ###
+10-26 19:55:03.684   582   624 I AppZygote: Starting application preload.
+10-26 19:55:03.686  5124  5124 I AppZygoteInit: Beginning application preload for com.eltavine.duckdetector
+10-26 19:55:03.687  5124  5124 D ApplicationLoaders: Returning zygote-cached class loader: /system_ext/framework/androidx.window.extensions.jar
+10-26 19:55:03.687  5124  5124 D ApplicationLoaders: Returning zygote-cached class loader: /system_ext/framework/androidx.window.sidecar.jar
+10-26 19:55:03.687  5124  5124 W ziparchive: Unable to open '/data/app/~~yxshPE5xSECWDj-f-lUm_Q==/com.eltavine.duckdetector-JbMZcWdKSPgz5AIqbFOafg==/base.dm': No such file or directory
+10-26 19:55:03.692  5124  5124 W ziparchive: Unable to open '/data/app/~~yxshPE5xSECWDj-f-lUm_Q==/com.eltavine.duckdetector-JbMZcWdKSPgz5AIqbFOafg==/base.dm': No such file or directory
+10-26 19:55:03.694  5058  5058 D CompatibilityChangeReporter: Compat change id reported: 171979766; UID 10203; state: ENABLED
+10-26 19:55:03.694  5058  5058 D CompatibilityChangeReporter: Compat change id reported: 242716250; UID 10203; state: ENABLED
+10-26 19:55:03.712  5058  5058 D ApplicationLoaders: Returning zygote-cached class loader: /system_ext/framework/androidx.window.extensions.jar
+10-26 19:55:03.713  5058  5058 D ApplicationLoaders: Returning zygote-cached class loader: /system_ext/framework/androidx.window.sidecar.jar
+10-26 19:55:03.718  5058  5058 W ziparchive: Unable to open '/data/app/~~yxshPE5xSECWDj-f-lUm_Q==/com.eltavine.duckdetector-JbMZcWdKSPgz5AIqbFOafg==/base.dm': No such file or directory
+10-26 19:55:03.720  5058  5058 W ziparchive: Unable to open '/data/app/~~yxshPE5xSECWDj-f-lUm_Q==/com.eltavine.duckdetector-JbMZcWdKSPgz5AIqbFOafg==/base.dm': No such file or directory
+10-26 19:55:03.735  5091  5091 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+10-26 19:55:03.751  5021  5068 W libc    : Access denied finding property "qemu.sf.lcd_density"
+10-26 19:55:03.760  5124  5124 D nativeloader: Configuring clns-6 for other apk /data/app/~~yxshPE5xSECWDj-f-lUm_Q==/com.eltavine.duckdetector-JbMZcWdKSPgz5AIqbFOafg==/base.apk. target_sdk_version=37, uses_libraries=, library_path=/data/app/~~yxshPE5xSECWDj-f-lUm_Q==/com.eltavine.duckdetector-JbMZcWdKSPgz5AIqbFOafg==/lib/x86_64:/data/app/~~yxshPE5xSECWDj-f-lUm_Q==/com.eltavine.duckdetector-JbMZcWdKSPgz5AIqbFOafg==/base.apk!/lib/x86_64, permitted_path=/data:/mnt/expand
+10-26 19:55:03.770  5091  5091 I AndroidRuntime: Using default boot image
+10-26 19:55:03.772  5091  5091 I AndroidRuntime: Leaving lock profiling enabled
+10-26 19:55:03.775  5091  5091 I app_process: Core platform API reporting enabled, enforcing=false
+10-26 19:55:03.775  5091  5091 I app_process: Using CollectorTypeCC GC.
+10-26 19:55:03.783  5124  5124 I DuckZygotePreload: preload entry pid=5124 uid=10203 appUid=10203 package=com.eltavine.duckdetector process=com.eltavine.duckdetector apk=/data/app/~~yxshPE5xSECWDj-f-lUm_Q==/com.eltavine.duckdetector-JbMZcWdKSPgz5AIqbFOafg==/base.apk
+10-26 19:55:03.789  5058  5058 D nativeloader: Configuring clns-7 for other apk /data/app/~~yxshPE5xSECWDj-f-lUm_Q==/com.eltavine.duckdetector-JbMZcWdKSPgz5AIqbFOafg==/base.apk. target_sdk_version=37, uses_libraries=, library_path=/data/app/~~yxshPE5xSECWDj-f-lUm_Q==/com.eltavine.duckdetector-JbMZcWdKSPgz5AIqbFOafg==/lib/x86_64:/data/app/~~yxshPE5xSECWDj-f-lUm_Q==/com.eltavine.duckdetector-JbMZcWdKSPgz5AIqbFOafg==/base.apk!/lib/x86_64, permitted_path=/data:/mnt/expand:/data/user/0/com.eltavine.duckdetector
+10-26 19:55:03.946   582  2301 D CompatibilityChangeReporter: Compat change id reported: 135634846; UID 99003; state: DISABLED
+10-26 19:55:03.971  5091  5091 D nativeloader: InitDefaultPublicLibraries for_preload=1: libandroid.so:libaaudio.so:libamidi.so:libbinder_ndk.so:libc.so:libcamera2ndk.so:libdl.so:libEGL.so:libGLESv1_CM.so:libGLESv2.so:libGLESv3.so:libicu.so:libicui18n.so:libicuuc.so:libjnigraphics.so:liblog.so:libmediandk.so:libm.so:libnativehelper.so:libnativewindow.so:libOpenMAXAL.so:libOpenSLES.so:libRS.so:libstdc++.so:libsync.so:libvulkan.so:libwebviewchromium_plat_support.so:libz.so
+10-26 19:55:03.987  5124  5124 I DuckZygotePreload: SELinux preload collector constructed
+10-26 19:55:03.995  5058  5058 V GraphicsEnvironment: Currently set values for:
+10-26 19:55:03.997  5058  5058 V GraphicsEnvironment:   angle_gl_driver_selection_pkgs=[]
+10-26 19:55:03.997  5058  5058 V GraphicsEnvironment:   angle_gl_driver_selection_values=[]
+10-26 19:55:04.000  5091  5091 D app_process: Time zone APEX ICU file found: /apex/com.android.tzdata/etc/icu/icu_tzdata.dat
+10-26 19:55:04.000  5091  5091 D app_process: I18n APEX ICU file found: /apex/com.android.i18n/etc/icu/icudt72l.dat
+10-26 19:55:04.004  5058  5058 V GraphicsEnvironment: ANGLE GameManagerService for com.eltavine.duckdetector: false
+10-26 19:55:04.005  5058  5058 V GraphicsEnvironment: com.eltavine.duckdetector is not listed in per-application setting
+10-26 19:55:04.008  5091  5091 W app_process: Unexpected CPU variant for x86: x86_64.
+10-26 19:55:04.008  5091  5091 W app_process: Known variants: atom, sandybridge, silvermont, goldmont, goldmont-plus, tremont, kabylake, default
+10-26 19:55:04.014  5058  5058 V GraphicsEnvironment: Neither updatable production driver nor prerelease driver is supported.
+10-26 19:55:04.014  4796  4796 D DuckSettingsScroll: wordmark build done ms=890
+10-26 19:55:04.022  5091  5091 W app_process: ClassLoaderContext shared library size mismatch. Expected=2, found=0 (PCL[]{PCL[/system/framework/android.test.base.jar*836642756]#PCL[/system/framework/android.test.mock.jar*3186112116]} | PCL[])
+10-26 19:55:04.022  4796  4796 I Choreographer: Skipped 33 frames!  The application may be doing too much work on its main thread.
+10-26 19:55:04.029  5091  5091 W app_process: ClassLoaderContext classpath size mismatch. expected=0, found=1 (PCL[]{PCL[/system/framework/android.test.runner.jar*4168958247]{PCL[/system/framework/android.test.base.jar*836642756]#PCL[/system/framework/android.test.mock.jar*3186112116]}#PCL[/system/framework/android.test.base.jar*836642756]} | PCL[/system/framework/android.test.runner.jar*4168958247])
+10-26 19:55:04.029   582  2301 I ActivityManager: Flag disabled. Ignoring finishAttachApplication from uid: 10203. pid: 5058
+10-26 19:55:04.045  4796  4974 I OpenGLRenderer: Davey! duration=1887ms; Flags=0, FrameTimelineVsyncId=23917, IntendedVsync=146149576270, Vsync=147449576218, InputEventId=0, HandleInputStart=147454379258, AnimationStart=147454379940, PerformTraversalsStart=147990277443, DrawStart=147990313540, FrameDeadline=147616242878, FrameInterval=147451155584, FrameStartTime=16666666, SyncQueued=148006012144, SyncStart=148008684792, IssueDrawCommandsStart=148008933535, SwapBuffers=148015891719, FrameCompleted=148040094514, DequeueBufferDuration=2896, QueueBufferDuration=376929, GpuCompleted=148040094514, SwapBuffersCompleted=148017286424, DisplayPresentTime=0, CommandSubmissionCompleted=148015891719, 
+10-26 19:55:04.045  4796  5148 D ProfileInstaller: Skipping profile installation for com.eltavine.duckdetector
+10-26 19:55:04.091  5091  5091 W libc    : Access denied finding property "ro.product.name_for_attestation"
+10-26 19:55:04.091  5091  5091 W libc    : Access denied finding property "ro.product.brand_for_attestation"
+10-26 19:55:04.091  5091  5091 W libc    : Access denied finding property "ro.product.model_for_attestation"
+10-26 19:55:04.093  5091  5091 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+10-26 19:55:04.115  5091  5091 D UiAutomationConnection: Created on user UserHandle{0}
+10-26 19:55:04.115  5091  5091 I UiAutomation: Initialized for user 0 on display 0
+10-26 19:55:04.115  5091  5091 W UiAutomation: Created with deprecatead constructor, assumes DEFAULT_DISPLAY
+10-26 19:55:04.119   582  2301 D AccessibilityManagerService: changeCurrentUserForTestAutomationIfNeededLocked(0): ignoring because device doesn't support visible background users
+10-26 19:55:04.119   582  2301 I UiAutomationManager: Registering UiTestAutomationService (id=com.android.server.accessibility/UiAutomation) when called by user 0
+10-26 19:55:04.125   582  2301 W WindowMagnificationMgr: requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+10-26 19:55:04.130  5091  5164 V UiAutomation: Init UiAutomation@41ebe36[id=3, displayId=0, flags=0]
+10-26 19:55:04.136  1541  3566 I AiAiEcho: Settings changed for uri: content://settings/secure/accessibility_enabled
+10-26 19:55:04.137  1541  1969 I AiAiEcho: Predicting[0]: 
+10-26 19:55:04.137  1541  1969 I AiAiEcho: EchoTargets: 
+10-26 19:55:04.137  1541  1969 I AiAiEcho: Filtered by AiAi flag check: 
+10-26 19:55:04.138  1541  1969 I AiAiEcho: Ranked targets strategy: SORT, count: 0, ranking metadata: 
+10-26 19:55:04.138  1541  1969 I AiAiEcho: Predicting[0]: 
+10-26 19:55:04.138  1541  1969 I AiAiEcho: EchoTargets: 
+10-26 19:55:04.138  1541  1969 I AiAiEcho: Filtered by AiAi flag check: 
+10-26 19:55:04.138  1541  1969 I AiAiEcho: Ranked targets strategy: SORT, count: 0, ranking metadata: 
+10-26 19:55:04.138  1541  1969 I AiAiEcho: Predicting[0]: 
+10-26 19:55:04.139  1541  1969 I AiAiEcho: EchoTargets: 
+10-26 19:55:04.139  1541  1969 I AiAiEcho: Filtered by AiAi flag check: 
+10-26 19:55:04.139  1541  1969 I AiAiEcho: Ranked targets strategy: SORT, count: 0, ranking metadata: 
+10-26 19:55:04.150   582  2445 W WindowMagnificationMgr: requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+10-26 19:55:04.156  1648  2027 I A       : NGA disabled since it's running Panthera and at least one a11y feature is on.
+10-26 19:55:04.156  1648  2027 I A       : Nga state changed to NgaStateDetails{state=DISABLED, isSpecialExperience=false}
+10-26 19:55:04.159  1541  2802 I AiAiEcho: Settings changed for uri: content://settings/secure/accessibility_enabled
+10-26 19:55:04.163  1541  1969 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface home with targets# 0 (types=[])
+10-26 19:55:04.164  1541  1969 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface media_data_manager with targets# 0 (types=[])
+10-26 19:55:04.170  1546  2472 I A       : APA or Classic session decision: SessionDecision(sessionVariance=CLASSIC, platformVariance=CLASSIC, justification=CURRENT_PLATFORM_VARIANCE).
+10-26 19:55:04.170  1546  2472 I A       : [Memory] eligibility: StashEligibility{4}
+10-26 19:55:04.174   582   582 D BatterySaverPolicy: accessibility changed to true, updating policy.
+10-26 19:55:04.174  1546  2232 I A       : Unsubscribed to apa or classic variant change.
+10-26 19:55:04.182  1541  1969 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface lockscreen with targets# 0 (types=[])
+10-26 19:55:04.183  1541  1969 I AiAiEcho: Predicting[0]: 
+10-26 19:55:04.183  1541  1969 I AiAiEcho: EchoTargets: 
+10-26 19:55:04.183  1541  1969 I AiAiEcho: Filtered by AiAi flag check: 
+10-26 19:55:04.183  1541  1969 I AiAiEcho: Ranked targets strategy: SORT, count: 0, ranking metadata: 
+10-26 19:55:04.184  1541  1969 I AiAiEcho: Predicting[0]: 
+10-26 19:55:04.184  1541  1969 I AiAiEcho: EchoTargets: 
+10-26 19:55:04.184  1541  1969 I AiAiEcho: Filtered by AiAi flag check: 
+10-26 19:55:04.184  1541  1969 I AiAiEcho: Ranked targets strategy: SORT, count: 0, ranking metadata: 
+10-26 19:55:04.184  1541  1969 I AiAiEcho: Predicting[0]: 
+10-26 19:55:04.184  1541  1969 I AiAiEcho: EchoTargets: 
+10-26 19:55:04.184  1541  1969 I AiAiEcho: Filtered by AiAi flag check: 
+10-26 19:55:04.184  1541  1969 I AiAiEcho: Ranked targets strategy: SORT, count: 0, ranking metadata: 
+10-26 19:55:04.184  1541  1969 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface home with targets# 0 (types=[])
+10-26 19:55:04.186  1541  1969 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface media_data_manager with targets# 0 (types=[])
+10-26 19:55:04.187  1541  1969 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface lockscreen with targets# 0 (types=[])
+10-26 19:55:04.226   800   800 D SsMediaDataProvider: Forwarding Smartspace updates []
+10-26 19:55:04.226   800   800 W PageIndicator: Total number of pages invalid: 0. Assuming 1 page.
+10-26 19:55:04.226   800   800 D SsMediaDataProvider: Forwarding Smartspace updates []
+10-26 19:55:04.226   800   800 W PageIndicator: Total number of pages invalid: 0. Assuming 1 page.
+10-26 19:55:04.238   393  4745 I resolv  : res_nsend: used send_dg 0 terrno: 110
+10-26 19:55:04.241   393  4746 I resolv  : res_nsend: used send_dg 0 terrno: 110
+10-26 19:55:04.358  4796  4819 I OpenGLRenderer: Davey! duration=874ms; Flags=0, FrameTimelineVsyncId=24372, IntendedVsync=147466242884, Vsync=148016242862, InputEventId=0, HandleInputStart=148028535087, AnimationStart=148028535620, PerformTraversalsStart=148125016027, DrawStart=148125040191, FrameDeadline=148066242860, FrameInterval=148022848005, FrameStartTime=16666666, SyncQueued=148224590895, SyncStart=148225000449, IssueDrawCommandsStart=148225705339, SwapBuffers=148332953611, FrameCompleted=148340893183, DequeueBufferDuration=2664, QueueBufferDuration=306076, GpuCompleted=148340893183, SwapBuffersCompleted=148337221167, DisplayPresentTime=0, CommandSubmissionCompleted=148332953611, 
+10-26 19:55:04.372  5124  5124 I DuckZygotePreload: detector: bootloader
+10-26 19:55:04.372  5124  5124 I DuckZygotePreload: detector: tee
+10-26 19:55:04.372  5124  5124 I DuckZygotePreload: detector: adb_runtime
+10-26 19:55:04.372  5124  5124 I DuckZygotePreload: detector: custom_rom
+10-26 19:55:04.372  5124  5124 I DuckZygotePreload: detector: dangerous_apps
+10-26 19:55:04.372  5124  5124 I DuckZygotePreload: detector: heap_residue
+10-26 19:55:04.372  5124  5124 I DuckZygotePreload: detector: kernel_check
+10-26 19:55:04.372  5124  5124 I DuckZygotePreload: detector: location_risk
+10-26 19:55:04.372  5124  5124 I DuckZygotePreload: detector: lsposed
+10-26 19:55:04.372  5124  5124 I DuckZygotePreload: detector: memory
+10-26 19:55:04.372  5124  5124 I DuckZygotePreload: detector: mount
+10-26 19:55:04.372  5124  5124 I DuckZygotePreload: detector: native_root
+10-26 19:55:04.396  5124  5124 I DuckZygotePreload: detector: network_risk
+10-26 19:55:04.396  5124  5124 I DuckZygotePreload: detector: play_integrity_fix
+10-26 19:55:04.398  5124  5124 I DuckZygotePreload: detector: root_managers
+10-26 19:55:04.398  5124  5124 I DuckZygotePreload: detector: selinux
+10-26 19:55:04.398  5124  5124 I DuckZygotePreload: detector: su
+10-26 19:55:04.398  5124  5124 I DuckZygotePreload: detector: system_properties
+10-26 19:55:04.398  5124  5124 I DuckZygotePreload: detector: virtualization
+10-26 19:55:04.398  5124  5124 I DuckZygotePreload: detector: zygisk
+10-26 19:55:04.398  5124  5124 I DuckZygotePreload: selinux: status page probe
+10-26 19:55:04.450  5124  5124 I DuckZygotePreload: selinux: status mmap ABI probe
+10-26 19:55:04.463  5124  5124 I DuckZygotePreload: selinux: SID-table experiment
+10-26 19:55:04.499  5124  5124 I DuckZygotePreload: selinux: native context oracle
+10-26 19:55:04.499  5124  5124 I DuckZygotePreload: selinux native: selinux state
+10-26 19:55:04.506  5124  5124 I DuckZygotePreload: selinux native: context getters
+10-26 19:55:04.506  5124  5124 I DuckZygotePreload: selinux native: dyntransition access check
+10-26 19:55:04.506  5124  5124 I DuckZygotePreload: selinux native: dirty policy access checks
+10-26 19:55:04.506  5124  5124 I DuckZygotePreload: selinux native: context validity controls
+10-26 19:55:04.506  5124  5124 I DuckZygotePreload: selinux native: KernelSU context checks
+10-26 19:55:04.510  5124  5124 I DuckZygotePreload: selinux: java carrier checks
+10-26 19:55:04.513  5124  5124 I DuckZygotePreload: selinux: controlled proc attr current child
+10-26 19:55:04.523  5173  5173 W detector_zygote: type=1400 audit(0.0:738): avc:  denied  { dyntransition } for  scontext=u:r:app_zygote:s0:c512,c768 tcontext=u:r:app_zygote:s0 tclass=process permissive=0 app=com.eltavine.duckdetector
+10-26 19:55:04.535  5173  5173 W detector_zygote: type=1400 audit(0.0:739): avc:  denied  { dyntransition } for  scontext=u:r:app_zygote:s0:c512,c768 tcontext=u:r:app_zygote:s0 tclass=process permissive=0 app=com.eltavine.duckdetector
+10-26 19:55:04.543  5173  5173 W detector_zygote: type=1400 audit(0.0:740): avc:  denied  { dyntransition } for  scontext=u:r:app_zygote:s0:c512,c768 tcontext=u:r:app_zygote:s0 tclass=process permissive=0 app=com.eltavine.duckdetector
+10-26 19:55:04.543  5173  5173 W detector_zygote: type=1400 audit(0.0:741): avc:  denied  { dyntransition } for  scontext=u:r:app_zygote:s0:c512,c768 tcontext=u:r:app_zygote:s0 tclass=process permissive=0 app=com.eltavine.duckdetector
+10-26 19:55:04.579  4796  4822 D EGL_emulation: app_time_stats: avg=64.67ms min=3.23ms max=440.33ms count=14
+10-26 19:55:04.580  5124  5124 I DuckZygotePreload: selinux: app zygote AVC lookup child
+10-26 19:55:04.580  5124  5124 I DuckZygotePreload: AVC lightweight parent timing preflight begin
+10-26 19:55:04.584   393  4742 I resolv  : res_nsend: used send_dg 0 terrno: 110
+10-26 19:55:04.584   393  4742 I resolv  : doQuery: rcode=255, ancount=0, return value=-110
+10-26 19:55:04.584   393  4928 I resolv  : res_stats_usable_server: too many resolution errors, ignoring server
+10-26 19:55:04.591   393  4743 I resolv  : res_nsend: used send_dg 0 terrno: 110
+10-26 19:55:04.591   393  4743 I resolv  : doQuery: rcode=255, ancount=0, return value=-110
+10-26 19:55:04.571     0     0 I logd    : logdr: UID=10203 GID=10203 PID=5174 n tail=1000 logMask=99 pid=0 start=0ns deadline=0ns
+10-26 19:55:04.604   393  4929 I resolv  : res_stats_usable_server: too many resolution errors, ignoring server
+10-26 19:55:04.605   393  5178 I resolv  : GetAddrInfoHandler::run: {100 786532 100 983140 10128 0}
+10-26 19:55:04.605   393  5179 I resolv  : res_nmkquery: (QUERY, IN, AAAA)
+10-26 19:55:04.608   393  5179 I resolv  : res_stats_usable_server: too many resolution errors, ignoring server
+10-26 19:55:04.611   393  5180 I resolv  : res_nmkquery: (QUERY, IN, A)
+10-26 19:55:04.616   393  5180 I resolv  : res_stats_usable_server: too many resolution errors, ignoring server
+10-26 19:55:04.624  5124  5124 I DuckZygotePreload: AVC disposable child begin
+10-26 19:55:04.656   180  4935 W keystore2: system/security/keystore2/src/watchdog.rs:114 - ### Keystore Watchdog report - BEGIN ###
+10-26 19:55:04.656   180  4935 W keystore2: system/security/keystore2/src/watchdog.rs:123 - When extracting from a bug report, please include this header
+10-26 19:55:04.656   180  4935 W keystore2: system/security/keystore2/src/watchdog.rs:124 - and all 2 records below.
+10-26 19:55:04.656   180  4935 W keystore2: system/security/keystore2/src/watchdog.rs:164 - ThreadId(12) Calling get_rkpd_attestation_key() Pending: 3.883998724s Overdue 3.383999349s
+10-26 19:55:04.656   180  4935 W keystore2: system/security/keystore2/src/watchdog.rs:164 - ThreadId(1) Calling get_rkpd_attestation_key() Pending: 1.501909711s Overdue 1.001909989s
+10-26 19:55:04.656   180  4935 W keystore2: system/security/keystore2/src/watchdog.rs:175 - ### Keystore Watchdog report - END ###
+10-26 19:55:04.741  5124  5124 I DuckZygotePreload: AVC child returned state=COLLECTED step=FINISHED errno=0 end=EXITED exit=0 signal=0 pid=5182 cpu=0 pairs=512 migrations=0 medians=true
+10-26 19:55:04.742  5124  5124 I DuckZygotePreload: AVC preload parent returned attempted=true complete=true errno=0
+10-26 19:55:04.742  5124  5124 I DuckZygotePreload: selinux: AVC lookup state=COLLECTED step=FINISHED errno=0 rounds=4
+10-26 19:55:04.742  5124  5124 I DuckZygotePreload: selinux: attr timing child pid=5182 cpu=0 pairs=512 migrated=0 delta=-58; parent pid=5124 cpu=2 pairs=512 migrated=0 delta=-65 complete=true errno=0
+10-26 19:55:04.742  5124  5124 I DuckZygotePreload: selinux: policyload seqno
+10-26 19:55:04.748  5124  5124 I DuckZygotePreload: selinux: java dirty policy checks
+10-26 19:55:04.748  5124  5124 E SELinux : avc:  denied  { call } for  scontext=u:r:untrusted_app:s0 tcontext=u:r:duckdetector_dirty_policy_sentinel:s0 tclass=binder permissive=0
+10-26 19:55:04.748  5124  5124 E SELinux : avc:  denied  { call } for  scontext=u:r:untrusted_app:s0 tcontext=u:r:duckdetector_dirty_policy_sentinel:s0 tclass=binder permissive=0
+10-26 19:55:04.749  5124  5124 E SELinux : avc:  denied  { execmem } for  scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=process permissive=0
+10-26 19:55:04.749  5124  5124 E SELinux : avc:  denied  { execmem } for  scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=process permissive=0
+10-26 19:55:04.749  5124  5124 E SELinux : avc:  denied  { sys_admin } for  scontext=u:r:fsck_untrusted:s0 tcontext=u:r:fsck_untrusted:s0 tclass=capability permissive=0
+10-26 19:55:04.749  5124  5124 E SELinux : avc:  denied  { sys_admin } for  scontext=u:r:fsck_untrusted:s0 tcontext=u:r:fsck_untrusted:s0 tclass=capability permissive=0
+10-26 19:55:04.749  5124  5124 E SELinux : avc:  denied  { call } for  scontext=u:r:adbd:s0 tcontext=u:r:adbroot:s0 tclass=binder permissive=0
+10-26 19:55:04.749  5124  5124 E SELinux : avc:  denied  { call } for  scontext=u:r:adbd:s0 tcontext=u:r:adbroot:s0 tclass=binder permissive=0
+10-26 19:55:04.749  5124  5124 E SELinux : avc:  denied  { call } for  scontext=u:r:untrusted_app:s0 tcontext=u:r:magisk:s0 tclass=binder permissive=0
+10-26 19:55:04.749  5124  5124 E SELinux : avc:  denied  { call } for  scontext=u:r:untrusted_app:s0 tcontext=u:r:magisk:s0 tclass=binder permissive=0
+10-26 19:55:04.752  5124  5124 E SELinux : avc:  denied  { read } for  scontext=u:r:untrusted_app:s0 tcontext=u:object_r:ksu_file:s0 tclass=file permissive=0
+10-26 19:55:04.752  5124  5124 E SELinux : avc:  denied  { read } for  scontext=u:r:untrusted_app:s0 tcontext=u:object_r:ksu_file:s0 tclass=file permissive=0
+10-26 19:55:04.752  5124  5124 E SELinux : avc:  denied  { read } for  scontext=u:r:untrusted_app:s0 tcontext=u:object_r:lsposed_file:s0 tclass=file permissive=0
+10-26 19:55:04.752  5124  5124 E SELinux : avc:  denied  { read } for  scontext=u:r:untrusted_app:s0 tcontext=u:object_r:lsposed_file:s0 tclass=file permissive=0
+10-26 19:55:04.752  5124  5124 E SELinux : avc:  denied  { dyntransition } for  scontext=u:r:magisk:s0 tcontext=u:r:droidspacesd:s0 tclass=process permissive=0
+10-26 19:55:04.752  5124  5124 E SELinux : avc:  denied  { dyntransition } for  scontext=u:r:magisk:s0 tcontext=u:r:droidspacesd:s0 tclass=process permissive=0
+10-26 19:55:04.752  5124  5124 E SELinux : avc:  denied  { dyntransition } for  scontext=u:r:su:s0 tcontext=u:r:droidspacesd:s0 tclass=process permissive=0
+10-26 19:55:04.752  5124  5124 E SELinux : avc:  denied  { dyntransition } for  scontext=u:r:su:s0 tcontext=u:r:droidspacesd:s0 tclass=process permissive=0
+10-26 19:55:04.752  5124  5124 E SELinux : avc:  denied  { call } for  scontext=u:r:system_server:s0 tcontext=u:r:droidspacesd:s0 tclass=binder permissive=0
+10-26 19:55:04.752  5124  5124 E SELinux : avc:  denied  { call } for  scontext=u:r:system_server:s0 tcontext=u:r:droidspacesd:s0 tclass=binder permissive=0
+10-26 19:55:04.776  5124  5124 E SELinux : avc:  denied  { connectto } for  scontext=u:r:msd_app:s0 tcontext=u:r:msd_daemon:s0 tclass=unix_stream_socket permissive=0
+10-26 19:55:04.776  5124  5124 E SELinux : avc:  denied  { connectto } for  scontext=u:r:msd_app:s0 tcontext=u:r:msd_daemon:s0 tclass=unix_stream_socket permissive=0
+10-26 19:55:04.776  5124  5124 E SELinux : avc:  denied  { connectto } for  scontext=u:r:msd_daemon:s0 tcontext=u:r:msd_daemon:s0 tclass=unix_stream_socket permissive=0
+10-26 19:55:04.776  5124  5124 E SELinux : avc:  denied  { connectto } for  scontext=u:r:msd_daemon:s0 tcontext=u:r:msd_daemon:s0 tclass=unix_stream_socket permissive=0
+10-26 19:55:04.776  5124  5124 E SELinux : avc:  denied  { read } for  scontext=u:r:msd_daemon:s0 tcontext=u:object_r:selinuxfs:s0 tclass=file permissive=0
+10-26 19:55:04.776  5124  5124 E SELinux : avc:  denied  { read } for  scontext=u:r:msd_daemon:s0 tcontext=u:object_r:selinuxfs:s0 tclass=file permissive=0
+10-26 19:55:04.776  5124  5124 E SELinux : avc:  denied  { search } for  scontext=u:r:msd_daemon:s0 tcontext=u:object_r:configfs:s0 tclass=dir permissive=0
+10-26 19:55:04.776  5124  5124 E SELinux : avc:  denied  { search } for  scontext=u:r:msd_daemon:s0 tcontext=u:object_r:configfs:s0 tclass=dir permissive=0
+10-26 19:55:04.776  5124  5124 E SELinux : avc:  denied  { write } for  scontext=u:r:msd_daemon:s0 tcontext=u:object_r:configfs:s0 tclass=file permissive=0
+10-26 19:55:04.776  5124  5124 E SELinux : avc:  denied  { write } for  scontext=u:r:msd_daemon:s0 tcontext=u:object_r:configfs:s0 tclass=file permissive=0
+10-26 19:55:04.776  5124  5124 E SELinux : avc:  denied  { read } for  scontext=u:r:untrusted_app:s0 tcontext=u:object_r:xposed_data:s0 tclass=file permissive=0
+10-26 19:55:04.776  5124  5124 E SELinux : avc:  denied  { read } for  scontext=u:r:untrusted_app:s0 tcontext=u:object_r:xposed_data:s0 tclass=file permissive=0
+10-26 19:55:04.776  5124  5124 E SELinux : avc:  denied  { search } for  scontext=u:r:zygote:s0 tcontext=u:object_r:adb_data_file:s0 tclass=dir permissive=0
+10-26 19:55:04.776  5124  5124 E SELinux : avc:  denied  { search } for  scontext=u:r:zygote:s0 tcontext=u:object_r:adb_data_file:s0 tclass=dir permissive=0
+10-26 19:55:04.778  5124  5124 I DuckZygotePreload: preload finished
+10-26 19:55:04.778  5124  5124 I AppZygoteInit: Application preload done
+10-26 19:55:04.780   582   624 I AppZygote: Application preload done.
+10-26 19:55:04.821  5124  5124 I Zygote  : Entering forkRepeatedly native zygote loop
+10-26 19:55:04.826  5124  5124 D Zygote  : Forked child process 5185
+10-26 19:55:04.853  5185  5185 I yCarrierService: Using CollectorTypeCC GC.
+10-26 19:55:04.853  5185  5185 W yCarrierService: Unexpected CPU variant for x86: x86_64.
+10-26 19:55:04.853  5185  5185 W yCarrierService: Known variants: atom, sandybridge, silvermont, goldmont, goldmont-plus, tremont, kabylake, default
+10-26 19:55:04.858  5185  5185 E yCarrierService: Not starting debugger since process cannot load the jdwp agent.
+10-26 19:55:04.862   582   624 W ActivityManager: Slow operation: 1370ms so far, now at startProcess: returned from zygote!
+10-26 19:55:04.862   582   624 W ActivityManager: Slow operation: 1370ms so far, now at startProcess: done updating battery stats
+10-26 19:55:04.862   582   624 W ActivityManager: Slow operation: 1370ms so far, now at startProcess: building log message
+10-26 19:55:04.862   582   624 I ActivityManager: Start proc 5185:com.eltavine.duckdetector:com.eltavine.duckdetector.capability.selinuxpolicy.data.SelinuxContextValidityCarrierService/u0ai0 for  {com.eltavine.duckdetector/com.eltavine.duckdetector.capability.selinuxpolicy.data.SelinuxContextValidityCarrierService}
+10-26 19:55:04.862   582   624 W ActivityManager: Slow operation: 1370ms so far, now at startProcess: starting to update pids map
+10-26 19:55:04.862   582   624 W ActivityManager: Slow operation: 1370ms so far, now at startProcess: done updating pids map
+10-26 19:55:04.862   582   624 W ActivityManager: Slow operation: 916ms so far, now at startProcess: asking zygote to start proc
+10-26 19:55:04.863   582   624 D CompatibilityChangeReporter: Compat change id reported: 143937733; UID 10203; state: ENABLED
+10-26 19:55:04.871   394   394 I Zygote  : Entering forkRepeatedly native zygote loop
+10-26 19:55:04.882   394   394 D Zygote  : Forked child process 5197
+10-26 19:55:04.887   582   624 W ActivityManager: Slow operation: 941ms so far, now at startProcess: returned from zygote!
+10-26 19:55:04.887   582   624 W ActivityManager: Slow operation: 941ms so far, now at startProcess: done updating battery stats
+10-26 19:55:04.887   582   624 W ActivityManager: Slow operation: 941ms so far, now at startProcess: building log message
+10-26 19:55:04.887   582   624 I ActivityManager: Start proc 5197:com.eltavine.duckdetector:com.eltavine.duckdetector.capability.helperprocess.data.IsolatedHelperProbeService:duck_mount_view/u0i3 for service {com.eltavine.duckdetector/com.eltavine.duckdetector.capability.helperprocess.data.IsolatedHelperProbeService:duck_mount_view}
+10-26 19:55:04.887   582   624 W ActivityManager: Slow operation: 941ms so far, now at startProcess: starting to update pids map
+10-26 19:55:04.888   582   624 W ActivityManager: Slow operation: 942ms so far, now at startProcess: done updating pids map
+10-26 19:55:04.893  5197  5197 I DeviceLabNamespace: isolated READPROC grant removed uid=99003 pid=5197
+10-26 19:55:04.894   395   395 I zygiskd64:  - Sending companion fd socket of module "device_lab_cpu"
+10-26 19:55:04.894  4374  4374 I zygiskd-companion64: New companion request.
+10-26 19:55:04.894  4374  4374 I zygiskd-companion64:  - Module name: device_lab_cpu
+10-26 19:55:04.894  4374  4374 I zygiskd-companion64:  - Client fd: 6
+10-26 19:55:04.902   582   728 I serviceDiscovery: [MdnsDiscoveryManager] Unregistering listener for serviceType:_adb-tls-connect._tcp.local
+10-26 19:55:04.902   582   728 I serviceDiscovery: [MdnsDiscoveryManager] Unregistering listener for serviceType:_adb._tcp.local
+10-26 19:55:04.903   582   728 I serviceDiscovery: [MdnsSocketProvider] Stop monitoring sockets.
+10-26 19:55:04.903   582   728 I TetheringManager: unregisterTetheringEventCallback caller:android
+10-26 19:55:04.906   582   728 E NsdService: id 3 for 5 has no client mapping
+10-26 19:55:04.907   582   728 E NsdService: Unhandled { when=-3ms what=23 arg1=3 arg2=5 obj=android.net.connectivity.com.android.server.NsdService$MdnsEvent@eb8a496 target=android.net.connectivity.com.android.internal.util.StateMachine$SmHandler }
+10-26 19:55:04.907   582   728 E NsdService: id 3 for 5 has no client mapping
+10-26 19:55:04.907   582   728 E NsdService: Unhandled { when=-4ms what=23 arg1=3 arg2=5 obj=android.net.connectivity.com.android.server.NsdService$MdnsEvent@8c7f817 target=android.net.connectivity.com.android.internal.util.StateMachine$SmHandler }
+10-26 19:55:04.925  5185  5185 D CompatibilityChangeReporter: Compat change id reported: 171979766; UID 90000; state: ENABLED
+10-26 19:55:04.925  5185  5185 D CompatibilityChangeReporter: Compat change id reported: 242716250; UID 90000; state: ENABLED
+10-26 19:55:04.932  4374  5199 I zygiskd-companion64:  - Client fd changed after module entry
+10-26 19:55:04.932  5197  5197 I DeviceLabNamespace: profile mount status=0 pid=5197
+10-26 19:55:04.938  5185  5185 D ApplicationLoaders: Returning zygote-cached class loader: /system_ext/framework/androidx.window.extensions.jar
+10-26 19:55:04.938  5185  5185 D ApplicationLoaders: Returning zygote-cached class loader: /system_ext/framework/androidx.window.sidecar.jar
+10-26 19:55:04.944   582  2301 I ActivityManager: Flag disabled. Ignoring finishAttachApplication from uid: 90000. pid: 5185
+10-26 19:55:04.948  5185  5185 W SystemServiceRegistry: No service published for: virtualdevice
+10-26 19:55:04.948  5185  5185 I DuckSelinuxCarrier: service pid=5185 uid=90000 onCreate package=com.eltavine.duckdetector
+10-26 19:55:04.949   800   800 D StatusBarIconController: ignoring old pipeline callback because the new wifi icon is enabled
+10-26 19:55:04.949  5185  5185 I DuckSelinuxCarrier: service pid=5185 uid=90000 onBind component=ComponentInfo{com.eltavine.duckdetector/com.eltavine.duckdetector.capability.selinuxpolicy.data.SelinuxContextValidityCarrierService}
+10-26 19:55:04.952  5197  5197 W ziparchive: Unable to open '/data/misc/device-lab/runtime-49329-1792891232-416391481.dm': No such file or directory
+10-26 19:55:04.952  5197  5197 W ziparchive: Unable to open '/data/misc/device-lab/runtime-49329-1792891232-416391481.dm': No such file or directory
+10-26 19:55:04.953  5197  5197 D nativeloader: Configuring clns-6 for other apk . target_sdk_version=0, uses_libraries=ALL, library_path=/data/misc/device-lab/runtime-49329-1792891232-416391481.apk!/lib/x86_64, permitted_path=/data:/mnt/expand
+10-26 19:55:04.931  4796  4796 W DefaultDispatch: type=1400 audit(0.0:742): avc:  denied  { getattr } for  path="/dev/socket/adbd" dev="tmpfs" ino=687 scontext=u:r:untrusted_app:s0:c203,c256,c512,c768 tcontext=u:object_r:adbd_socket:s0 tclass=sock_file permissive=0 app=com.eltavine.duckdetector
+10-26 19:55:04.957  5197  5197 W zygote64: Core platform API violation: Ljava/lang/reflect/Executable;->artMethod:J from Lcom/android/internal/os/Zygote; using JNI
+10-26 19:55:04.957  5197  5197 I DeviceLabRuntime: JNI preparation sensors=1 original_is_replacement=0
+10-26 19:55:04.958  4796  5090 I DuckSelinuxCarrier: pid=4796 tid=5090 uid=10203 bind=147477732784 elapsedMs=1480 onServiceConnected component=ComponentInfo{com.eltavine.duckdetector/com.eltavine.duckdetector.capability.selinuxpolicy.data.SelinuxContextValidityCarrierService} binder=246850736 alive=true
+10-26 19:55:04.959   395   395 I zygiskd64:  - Sending companion fd socket of module "device_lab_cpu"
+10-26 19:55:04.959  4374  4374 I zygiskd-companion64: New companion request.
+10-26 19:55:04.959  4374  4374 I zygiskd-companion64:  - Module name: device_lab_cpu
+10-26 19:55:04.959  4374  4374 I zygiskd-companion64:  - Client fd: 6
+10-26 19:55:04.959  4796  5090 I DuckSelinuxCarrier: pid=4796 tid=5090 uid=10203 snapshot transaction begin
+10-26 19:55:04.929     0     0 W audit   : audit_lost=691 audit_rate_limit=5 audit_backlog_limit=64
+10-26 19:55:04.932     0     0 E audit   : rate limit exceeded
+10-26 19:55:04.961  5185  5202 I DuckSelinuxCarrier: service pid=5185 uid=90000 transaction callerPid=4796 callerUid=10203
+10-26 19:55:04.961  5185  5202 I DuckSelinuxCarrier: service pid=5185 uid=90000 transaction reply chars=9598
+10-26 19:55:04.966  4796  5090 I DuckSelinuxCarrier: pid=4796 tid=5090 uid=10203 snapshot transaction returned chars=9598
+10-26 19:55:04.970  4374  5203 I zygiskd-companion64:  - Client fd changed after module entry
+10-26 19:55:04.971  5197  5197 I DeviceLabNamespace: uname broker status=0 pid=5197
+10-26 19:55:04.971  5197  5197 I DeviceLabNamespace: notification domain=platform pid=5197
+10-26 19:55:04.971  5197  5197 I DeviceLabNamespace: proc broker enabled=1
+10-26 19:55:04.993  4342  4349 E adbd    : received data of incorrect size from JDWP client: read 0, expected 32
+10-26 19:55:05.012  4796  5090 I DuckSelinuxCarrier: pid=4796 tid=5090 uid=10203 bind=147477732784 elapsedMs=1535 unbind begin connected=true active=true
+10-26 19:55:05.015   582  2301 I ActivityManager: Killing 5185:com.eltavine.duckdetector:com.eltavine.duckdetector.capability.selinuxpolicy.data.SelinuxContextValidityCarrierService/u0a203i-9000 (adj 0): isolated not needed
+10-26 19:55:05.017  5197  5197 I DeviceLabPolicy: policy PLT installed=1
+10-26 19:55:05.018  4796  5090 I DuckSelinuxCarrier: pid=4796 tid=5090 uid=10203 bind=147477732784 elapsedMs=1540 unbind returned
+10-26 19:55:05.018  4796  5090 I DuckSelinuxCarrier: pid=4796 tid=5090 uid=10203 bind=147477732784 elapsedMs=1540 completion resume connected=true active=true
+10-26 19:55:05.018  4796  5090 I DuckSelinuxCarrier: pid=4796 tid=5090 uid=10203 return scan=145063 available=true carrier=u:r:app_zygote:s0:c512,c768 avc=COLLECTED pairs=512 failure=null
+10-26 19:55:05.027   582   612 D DisplayManagerService: Drop pending events for gone uid 90000
+10-26 19:55:05.027   582   630 W KernelCpuProcStringReader: File not found. It's normal if not implemented: /proc/uid_time_in_state
+10-26 19:55:05.027   582   630 W KernelCpuProcStringReader: File not found. It's normal if not implemented: /proc/uid_concurrent_active_time
+10-26 19:55:05.028   582   630 W KernelCpuProcStringReader: File not found. It's normal if not implemented: /proc/uid_concurrent_policy_time
+10-26 19:55:05.030   582   630 E system_server: Cannot read thread CPU times for PID 582
+10-26 19:55:05.031  5124  5124 I Zygote  : Process 5185 exited due to signal 9 (Killed)
+10-26 19:55:05.031   582   625 I libprocessgroup: Successfully killed process cgroup uid 90000 pid 5185 in 14ms
+10-26 19:55:05.065  5197  5197 I DeviceLabPolicy: openat2 policy status=0 source_length=260 original_suffix_preserved=1
+10-26 19:55:05.081  5197  5197 I duck_mount_view: Using CollectorTypeCC GC.
+10-26 19:55:05.096  5197  5197 W duck_mount_view: Unexpected CPU variant for x86: x86_64.
+10-26 19:55:05.096  5197  5197 W duck_mount_view: Known variants: atom, sandybridge, silvermont, goldmont, goldmont-plus, tremont, kabylake, default
+10-26 19:55:05.107  5197  5197 E duck_mount_view: Not starting debugger since process cannot load the jdwp agent.
+10-26 19:55:05.177  5197  5197 I DeviceLabPolicy: policy PLT restored=1
+10-26 19:55:05.179   393  4762 I resolv  : res_nsend: used send_dg 0 terrno: 110
+10-26 19:55:05.184   393  4763 I resolv  : res_nsend: used send_dg 0 terrno: 110
+10-26 19:55:05.327  5197  5197 I DeviceLabNamespace: property remap status=0 pid=5197
+10-26 19:55:05.377  5197  5197 D libEGL  : loaded /vendor/lib64/egl/libEGL_emulation.so
+10-26 19:55:05.360     0     0 I logd    : logdr: UID=10203 GID=10203 PID=5183 n tail=50 logMask=99 pid=0 start=0ns deadline=0ns
+10-26 19:55:05.390  5197  5197 D libEGL  : loaded /vendor/lib64/egl/libGLESv1_CM_emulation.so
+10-26 19:55:05.431  5197  5197 D libEGL  : loaded /vendor/lib64/egl/libGLESv2_emulation.so
+10-26 19:55:05.449  1522  2897 W MediaProvider: isAppCloneUserPair for user 0: false
+10-26 19:55:05.494   393  4921 I resolv  : res_nsend: used send_dg 0 terrno: 110
+10-26 19:55:05.497   393  4922 I resolv  : res_nsend: used send_dg 0 terrno: 110
+10-26 19:55:05.503  5197  5197 I DeviceLabRuntime: profile build=1 auxv=1 graphics_dispatch=1
+10-26 19:55:05.613  4796  4822 D EGL_emulation: app_time_stats: avg=15.41ms min=2.70ms max=59.27ms count=45
+10-26 19:55:05.659   180  4935 W keystore2: system/security/keystore2/src/watchdog.rs:114 - ### Keystore Watchdog report - BEGIN ###
+10-26 19:55:05.659   180  4935 W keystore2: system/security/keystore2/src/watchdog.rs:123 - When extracting from a bug report, please include this header
+10-26 19:55:05.659   180  4935 W keystore2: system/security/keystore2/src/watchdog.rs:124 - and all 2 records below.
+10-26 19:55:05.659   180  4935 W keystore2: system/security/keystore2/src/watchdog.rs:164 - ThreadId(12) Calling get_rkpd_attestation_key() Pending: 4.887099562s Overdue 4.387100161s
+10-26 19:55:05.659   180  4935 W keystore2: system/security/keystore2/src/watchdog.rs:164 - ThreadId(1) Calling get_rkpd_attestation_key() Pending: 2.505010768s Overdue 2.005011039s
+10-26 19:55:05.659   180  4935 W keystore2: system/security/keystore2/src/watchdog.rs:175 - ### Keystore Watchdog report - END ###
+10-26 19:55:05.660  5197  5197 D CompatibilityChangeReporter: Compat change id reported: 171979766; UID 99003; state: ENABLED
+10-26 19:55:05.661  5197  5197 D CompatibilityChangeReporter: Compat change id reported: 242716250; UID 99003; state: ENABLED
+10-26 19:55:05.683  5197  5197 D ApplicationLoaders: Returning zygote-cached class loader: /system_ext/framework/androidx.window.extensions.jar
+10-26 19:55:05.683  5197  5197 D ApplicationLoaders: Returning zygote-cached class loader: /system_ext/framework/androidx.window.sidecar.jar
+10-26 19:55:05.710  5197  5197 W ziparchive: Unable to open '/data/app/~~yxshPE5xSECWDj-f-lUm_Q==/com.eltavine.duckdetector-JbMZcWdKSPgz5AIqbFOafg==/base.dm': No such file or directory
+10-26 19:55:05.713  5197  5197 W ziparchive: Unable to open '/data/app/~~yxshPE5xSECWDj-f-lUm_Q==/com.eltavine.duckdetector-JbMZcWdKSPgz5AIqbFOafg==/base.dm': No such file or directory
+10-26 19:55:05.774  5197  5197 D nativeloader: Configuring clns-7 for other apk /data/app/~~yxshPE5xSECWDj-f-lUm_Q==/com.eltavine.duckdetector-JbMZcWdKSPgz5AIqbFOafg==/base.apk. target_sdk_version=37, uses_libraries=, library_path=/data/app/~~yxshPE5xSECWDj-f-lUm_Q==/com.eltavine.duckdetector-JbMZcWdKSPgz5AIqbFOafg==/lib/x86_64:/data/app/~~yxshPE5xSECWDj-f-lUm_Q==/com.eltavine.duckdetector-JbMZcWdKSPgz5AIqbFOafg==/base.apk!/lib/x86_64, permitted_path=/data:/mnt/expand:/data/user/0/com.eltavine.duckdetector
+10-26 19:55:05.787   582   671 D ActivityManager: freezing 2166 com.google.android.apps.wallpaper
+10-26 19:55:05.804     0     0 I logd    : logdr: UID=10203 GID=10203 PID=5219 n tail=50 logMask=99 pid=0 start=0ns deadline=0ns
+10-26 19:55:05.901   582  2445 I ActivityManager: Flag disabled. Ignoring finishAttachApplication from uid: 99003. pid: 5197
+10-26 19:55:05.940  5197  5197 W SystemServiceRegistry: No service published for: virtualdevice
+10-26 19:55:06.092  5091  5091 I AccessibilityNodeInfoDumper: Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@9801; boundsInParent: Rect(0, 0 - 0, 0); boundsInScreen: Rect(747, 2163 - 873, 2279); boundsInWindow: Rect(747, 2163 - 873, 2279); packageName: com.eltavine.duckdetector; className: android.view.View; text: null; error: null; maxTextLength: -1; stateDescription: null; contentDescription: null; tooltipText: null; containerTitle: null; viewIdResName: null; uniqueId: null; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: false; visible: false; actions: [AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null]; isTextSelectable: false
+10-26 19:55:06.071     0     0 I logd    : logdr: UID=10203 GID=10203 PID=5234 n tail=50 logMask=99 pid=0 start=0ns deadline=0ns
+10-26 19:55:06.119  5091  5091 I AccessibilityNodeInfoDumper: Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@836b; boundsInParent: Rect(0, 0 - 1, 1); boundsInScreen: Rect(0, 0 - 1, 1); boundsInWindow: Rect(0, 0 - 1, 1); packageName: com.eltavine.duckdetector; className: android.webkit.WebView; text: null; error: null; maxTextLength: -1; stateDescription: null; contentDescription: null; tooltipText: null; containerTitle: null; viewIdResName: null; uniqueId: null; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: false; visible: false; actions: null; isTextSelectable: false
+10-26 19:55:06.120  5091  5091 W AccessibilityNodeInfoDumper: Fetch time: 677ms
+10-26 19:55:06.124   582  2301 W WindowMagnificationMgr: requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+10-26 19:55:06.124   582  2301 D AccessibilityManagerService: restoreCurrentUserForTestAutomationIfNeededLocked(): ignoring because device doesn't support visible background users
+10-26 19:55:06.127  1541  3566 I AiAiEcho: Settings changed for uri: content://settings/secure/accessibility_enabled
+10-26 19:55:06.127  1541  1969 I AiAiEcho: Predicting[0]: 
+10-26 19:55:06.127  1541  1969 I AiAiEcho: EchoTargets: 
+10-26 19:55:06.127  1541  1969 I AiAiEcho: Filtered by AiAi flag check: 
+10-26 19:55:06.127  1541  1969 I AiAiEcho: Ranked targets strategy: SORT, count: 0, ranking metadata: 
+10-26 19:55:06.128  1541  1969 I AiAiEcho: Predicting[0]: 
+10-26 19:55:06.128  1541  1969 I AiAiEcho: EchoTargets: 
+10-26 19:55:06.128  1541  1969 I AiAiEcho: Filtered by AiAi flag check: 
+10-26 19:55:06.128  1541  1969 I AiAiEcho: Ranked targets strategy: SORT, count: 0, ranking metadata: 
+10-26 19:55:06.128  1541  1969 I AiAiEcho: Predicting[0]: 
+10-26 19:55:06.128  1541  1969 I AiAiEcho: EchoTargets: 
+10-26 19:55:06.128  1541  1969 I AiAiEcho: Filtered by AiAi flag check: 
+10-26 19:55:06.128  1541  1969 I AiAiEcho: Ranked targets strategy: SORT, count: 0, ranking metadata: 
+10-26 19:55:06.129  1541  1969 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface home with targets# 0 (types=[])
+10-26 19:55:06.135  5091  5091 D AndroidRuntime: Shutting down VM
+10-26 19:55:06.141  1541  1969 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface media_data_manager with targets# 0 (types=[])
+10-26 19:55:06.141  1541  1969 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface lockscreen with targets# 0 (types=[])
+10-26 19:55:06.156   582   582 D BatterySaverPolicy: accessibility changed to false, updating policy.
+10-26 19:55:06.164  1648  2044 I A       : NGA enabled in interactor.
+10-26 19:55:06.170  1648  2044 I A       : Nga state changed to NgaStateDetails{state=ENABLED, isSpecialExperience=false}
+10-26 19:55:06.183  1546  2472 I A       : Initializing all components
+10-26 19:55:06.183  1546  2472 I A       : APA or Classic session decision: SessionDecision(sessionVariance=CLASSIC, platformVariance=CLASSIC, justification=CURRENT_PLATFORM_VARIANCE).
+10-26 19:55:06.183  1546  2472 I A       : [Memory] eligibility: StashEligibility{6}
+10-26 19:55:06.184  1546  2232 I A       : onIsEnabledChanged, isEnabled: false
+10-26 19:55:06.185  1546  2232 W A       : Disposing empty manager. Did you forgot to subscribe observables?
+10-26 19:55:06.185  1546  2232 W A       : Disposing empty manager. Did you forgot to subscribe observables?
+10-26 19:55:06.185  1546  2232 W A       : Disposing empty manager. Did you forgot to subscribe observables?
+10-26 19:55:06.185  1546  2232 W A       : Disposing empty manager. Did you forgot to subscribe observables?
+10-26 19:55:06.185  1546  2232 W A       : Disposing empty manager. Did you forgot to subscribe observables?
+10-26 19:55:06.185  1546  2232 W A       : Disposing empty manager. Did you forgot to subscribe observables?
+10-26 19:55:06.185  1546  2232 W A       : Disposing empty manager. Did you forgot to subscribe observables?
+10-26 19:55:06.186  1546  2232 W A       : Disposing empty manager. Did you forgot to subscribe observables?
+10-26 19:55:06.186  1546  2232 W A       : Disposing empty manager. Did you forgot to subscribe observables?
+10-26 19:55:06.186  1546  2232 W A       : Disposing empty manager. Did you forgot to subscribe observables?
+10-26 19:55:06.186  1546  2232 I A       : onOpaVisibilityChanged: false
+10-26 19:55:06.186  1546  2232 W A       : Disposing empty manager. Did you forgot to subscribe observables?
+10-26 19:55:06.186  1546  2232 W A       : Disposing empty manager. Did you forgot to subscribe observables?
+10-26 19:55:06.186  1546  2232 W A       : Disposing empty manager. Did you forgot to subscribe observables?
+10-26 19:55:06.186  1546  2232 W A       : Disposing empty manager. Did you forgot to subscribe observables?
+10-26 19:55:06.186  1546  2232 W A       : Disposing empty manager. Did you forgot to subscribe observables?
+10-26 19:55:06.186  1546  2232 W A       : Disposing empty manager. Did you forgot to subscribe observables?
+10-26 19:55:06.186  1546  2232 I A       : Setting session to type: NO_SESSION
+10-26 19:55:06.186  1546  2232 W A       : Disposing empty manager. Did you forgot to subscribe observables?
+10-26 19:55:06.186  1546  2232 W A       : Disposing empty manager. Did you forgot to subscribe observables?
+10-26 19:55:06.186  1546  2232 W A       : Disposing empty manager. Did you forgot to subscribe observables?
+10-26 19:55:06.186  1546  2232 W A       : Disposing empty manager. Did you forgot to subscribe observables?
+10-26 19:55:06.186  1546  2232 W A       : Disposing empty manager. Did you forgot to subscribe observables?
+10-26 19:55:06.187  1546  2232 W A       : Disposing empty manager. Did you forgot to subscribe observables?
+10-26 19:55:06.187  1546  2232 W A       : Disposing empty manager. Did you forgot to subscribe observables?
+10-26 19:55:06.187  1546  2232 W A       : Disposing empty manager. Did you forgot to subscribe observables?
+10-26 19:55:06.187  1546  2232 I A       : setNavBarVisible: GestureNavBarVisible{navbarVisible=true}
+10-26 19:55:06.187  1546  2232 W A       : Disposing empty manager. Did you forgot to subscribe observables?
+10-26 19:55:06.187  1546  2232 W A       : Disposing empty manager. Did you forgot to subscribe observables?
+10-26 19:55:06.187  1546  2232 W A       : Disposing empty manager. Did you forgot to subscribe observables?
+10-26 19:55:06.187  1546  2232 W A       : Disposing empty manager. Did you forgot to subscribe observables?
+10-26 19:55:06.187  1546  2232 W A       : Disposing empty manager. Did you forgot to subscribe observables?
+10-26 19:55:06.187  1546  2232 W A       : Disposing empty manager. Did you forgot to subscribe observables?
+10-26 19:55:06.187  1546  2232 I A       : onDisabled. Registered: false
+10-26 19:55:06.187  1546  2229 I A       : on opa visibility changed false
+10-26 19:55:06.188   800   800 W PageIndicator: Total number of pages invalid: 0. Assuming 1 page.
+10-26 19:55:06.188   800   800 D SsMediaDataProvider: Forwarding Smartspace updates []
+10-26 19:55:06.206  1546  2229 I A       : State changed: IDLE => IDLE by NGA_STATE_CHANGED and N/A with Optional.empty
+10-26 19:55:06.207  1546  1546 E GsaVoiceSerConnection: gsaVis null binding
+10-26 19:55:06.207  1546  2229 I A       : Recognizer choice: (recognizer_type: 1, recognizer_mode: 1, choice_reason: 4)
+10-26 19:55:06.208  1546  2229 I A       : onActiveStateChangeEvent: IDLE => IDLE
+10-26 19:55:06.208  1546  2229 I A       : #onActiveStateChangeEvent, newState: IDLE, previousState: IDLE.
+10-26 19:55:06.217   582  2445 D CompatibilityChangeReporter: Compat change id reported: 197654537; UID 10203; state: ENABLED
+10-26 19:55:06.217  5197  5227 W libc    : Access denied finding property "qemu.sf.lcd_density"
+10-26 19:55:06.227  1546  2232 I A       : on opa visibility changed false
+10-26 19:55:06.227  1546  2232 I NgaEntryPointEventSendr: setupConnection
+10-26 19:55:06.233  1546  2229 I A       : Initialize
+10-26 19:55:06.235  1546  2229 I A       : stopListening(NGA_PAUSED_UNKNOWN_REASON, NGA_CREATE), idleOverride=NOT_LISTENING
+10-26 19:55:06.235  1546  2232 I NgaEntryPointEventSendr: State changed: Disconnected => Connecting
+10-26 19:55:06.239  1648  1648 I A       : Creating pss binder().
+10-26 19:55:06.248  1546  2232 I NgaEntryPointEventSendr: onServiceConnected
+10-26 19:55:06.203  5197  5197 W binder:5197_2: type=1400 audit(0.0:746): avc:  denied  { read } for  name="u:object_r:qemu_sf_lcd_density_prop:s0" dev="tmpfs" ino=263 scontext=u:r:isolated_app:s0:c512,c768 tcontext=u:object_r:qemu_sf_lcd_density_prop:s0 tclass=file permissive=0
+10-26 19:55:06.262  1648  2679 I A       : Calling beginBinderSession().
+10-26 19:55:06.266  5197  5227 W libc    : Access denied finding property "ro.boot.hypervisor.vm.supported"
+10-26 19:55:06.269  1648  2679 I A       : beginBinderSession(): calling binder
+10-26 19:55:06.274  1546  2232 I NgaEntryPointEventSendr: State changed: Connecting => Ready
+10-26 19:55:06.259  5197  5197 W binder:5197_4: type=1400 audit(0.0:747): avc:  denied  { read } for  name="u:object_r:qemu_sf_lcd_density_prop:s0" dev="tmpfs" ino=263 scontext=u:r:isolated_app:s0:c512,c768 tcontext=u:object_r:qemu_sf_lcd_density_prop:s0 tclass=file permissive=0
+10-26 19:55:06.266  5197  5230 W libc    : Access denied finding property "qemu.sf.lcd_density"
+10-26 19:55:06.259  5197  5197 W binder:5197_2: type=1400 audit(0.0:748): avc:  denied  { read } for  name="u:object_r:hypervisor_prop:s0" dev="tmpfs" ino=202 scontext=u:r:isolated_app:s0:c512,c768 tcontext=u:object_r:hypervisor_prop:s0 tclass=file permissive=0
+10-26 19:55:06.291  5197  5230 W libc    : Access denied finding property "ro.boot.hypervisor.vm.supported"
+10-26 19:55:06.293  1546  2232 I A       : Successfully initialized all components
+10-26 19:55:06.283  5197  5197 W binder:5197_4: type=1400 audit(0.0:749): avc:  denied  { read } for  name="u:object_r:hypervisor_prop:s0" dev="tmpfs" ino=202 scontext=u:r:isolated_app:s0:c512,c768 tcontext=u:object_r:hypervisor_prop:s0 tclass=file permissive=0
+10-26 19:55:06.327   582  2445 W ActivityManager: Unable to start service Intent { cmp=com.google.android.apps.tachyon/.clientapi.ClientApiService } U=0: not found
+10-26 19:55:06.359  1546  2229 I NgaEntryPointEventSendr: State changed: Ready => Disconnected (onOpaDisconnected)
+10-26 19:55:06.365  1648  2678 W A       : UiCallbackStub-onGenericEvent[ServiceEvent = 60] task was not run. Callback from Service received after client was disposed.
+10-26 19:55:06.372  1648  2678 W SearchServiceCore: Abort, client detached.
+10-26 19:55:06.377  1648  3579 I PBSessionCacheImpl: Deleted sessionId[7249773705509472] from persistence.
+10-26 19:55:06.425   393  5244 I resolv  : GetAddrInfoHandler::run: {100 983140 100 983140 1073 1}
+10-26 19:55:06.441   393  5245 I resolv  : res_nmkquery: (QUERY, IN, AAAA)
+10-26 19:55:06.441   393  5245 I resolv  : resolv_cache_lookup: Waiting for previous request
+10-26 19:55:06.442   393  5246 I resolv  : res_nmkquery: (QUERY, IN, A)
+10-26 19:55:06.442   393  5246 I resolv  : resolv_cache_lookup: Waiting for previous request
+10-26 19:55:06.449  1648  1660 I earchbox:search: JIT allocated 59KB for compiled code of java.lang.Object com.google.android.apps.gsa.binaries.velvet.app.ael.b()
+10-26 19:55:06.463  4796  4812 I ne.duckdetector: NativeAlloc concurrent copying GC freed 416973(20MB) AllocSpace objects, 56(1212KB) LOS objects, 49% free, 11MB/23MB, paused 7.828ms,19us total 889.541ms
+10-26 19:55:06.488   393  5249 I resolv  : GetAddrInfoHandler::run: {100 786532 100 983140 10128 0}
+10-26 19:55:06.492   393  5250 I resolv  : res_nmkquery: (QUERY, IN, AAAA)
+10-26 19:55:06.492   393  5250 I resolv  : resolv_cache_lookup: Waiting for previous request
+10-26 19:55:06.492   393  5251 I resolv  : res_nmkquery: (QUERY, IN, A)
+10-26 19:55:06.492   393  5251 I resolv  : resolv_cache_lookup: Waiting for previous request
+10-26 19:55:06.512   582  2263 I ActivityManager: Killing 5197:com.eltavine.duckdetector:com.eltavine.duckdetector.capability.helperprocess.data.IsolatedHelperProbeService:duck_mount_view/u0a203i3 (adj 0): isolated not needed
+10-26 19:55:06.514  4796  5055 D CompatibilityChangeReporter: Compat change id reported: 247079863; UID 10203; state: ENABLED
+10-26 19:55:06.522   582   625 I libprocessgroup: Successfully killed process cgroup uid 99003 pid 5197 in 6ms
+10-26 19:55:06.512     0     0 I binder  : undelivered transaction 173798, process died.
+10-26 19:55:06.516     0     0 I binder  : undelivered transaction 173799, process died.
+10-26 19:55:06.522     0     0 I binder  : undelivered transaction 173800, process died.
+10-26 19:55:06.552   394   394 I Zygote  : Process 5197 exited due to signal 9 (Killed)
+10-26 19:55:06.558   582   630 E system_server: Cannot read thread CPU times for PID 582
+10-26 19:55:06.563   582   612 D DisplayManagerService: Drop pending events for gone uid 99003
+10-26 19:55:06.562     0     0 I init    : Untracked pid 5205 exited with status 0
+10-26 19:55:06.563     0     0 I init    : Untracked pid 5205 did not have an associated service entry and will not be reaped
+10-26 19:55:06.665  4796  4822 D EGL_emulation: app_time_stats: avg=15.48ms min=2.87ms max=48.74ms count=44
+10-26 19:55:06.672   393  4770 I resolv  : res_nsend: used send_dg 0 terrno: 110
+10-26 19:55:06.675   393  4771 I resolv  : res_nsend: used send_dg 0 terrno: 110
+10-26 19:55:06.680   393  4770 I resolv  : doQuery: rcode=255, ancount=0, return value=-110
+10-26 19:55:06.681   393  4771 I resolv  : doQuery: rcode=255, ancount=0, return value=-110
+10-26 19:55:06.685  1428  5166 E WakeLock: GCM_HB_ALARM release without a matched acquire!
+10-26 19:55:06.685  1428  5166 W WakeLock: GCM_HB_ALARM counter does not exist
+10-26 19:55:06.695  1428  5166 I AlarmManager: setExactAndAllowWhileIdle [name: GCM_CONN_ALARM type: 2 triggerAtMillis: 190695]
+10-26 19:55:06.696  1428  5166 W WakeLock: GCM_CONN_ALARM counter does not exist
+10-26 19:55:06.788   180  4935 W keystore2: system/security/keystore2/src/watchdog.rs:114 - ### Keystore Watchdog report - BEGIN ###
+10-26 19:55:06.788   180  4935 W keystore2: system/security/keystore2/src/watchdog.rs:123 - When extracting from a bug report, please include this header
+10-26 19:55:06.788   180  4935 W keystore2: system/security/keystore2/src/watchdog.rs:124 - and all 3 records below.
+10-26 19:55:06.788   180  4935 W keystore2: system/security/keystore2/src/watchdog.rs:154 - ThreadId(12) IKeystoreSecurityLevel::generateKey Pending: 6.016590096s Overdue 1.016591231s: SecurityLevel r#TRUSTED_ENVIRONMENT
+10-26 19:55:06.788   180  4935 W keystore2: system/security/keystore2/src/watchdog.rs:164 - ThreadId(12) Calling get_rkpd_attestation_key() Pending: 6.016407785s Overdue 5.516408361s
+10-26 19:55:06.788   180  4935 W keystore2: system/security/keystore2/src/watchdog.rs:164 - ThreadId(1) Calling get_rkpd_attestation_key() Pending: 3.634315933s Overdue 3.134316203s
+10-26 19:55:06.788   180  4935 W keystore2: system/security/keystore2/src/watchdog.rs:175 - ### Keystore Watchdog report - END ###
+10-26 19:55:06.898   582   667 W CpuMonitorService: Current CPU frequency (3414782) is greater than maximum CPU frequency (2) for policy ID (0). Skipping CPU frequency policy
+10-26 19:55:06.898   582   667 W CpuMonitorService: Current CPU frequency (3414781) is greater than maximum CPU frequency (2) for policy ID (1). Skipping CPU frequency policy
+10-26 19:55:06.898   582   667 W CpuMonitorService: Current CPU frequency (3414864) is greater than maximum CPU frequency (2) for policy ID (2). Skipping CPU frequency policy
+10-26 19:55:06.898   582   667 W CpuMonitorService: Current CPU frequency (3415648) is greater than maximum CPU frequency (2) for policy ID (3). Skipping CPU frequency policy
+10-26 19:55:06.903  4796  4811 I ne.duckdetector: Compiler allocated 4317KB to compile void te4.b(yl, ry0, ry0, java.util.Map, kb3, b9, int)
+10-26 19:55:07.048     0     0 I logd    : logdr: UID=10203 GID=10203 PID=5242 n tail=500 logMask=99 pid=0 start=0ns deadline=0ns
+10-26 19:55:07.211  1522  1839 I MediaProvider: Deleted 0 1 0 0 0 0 0 items on external_primary due to com.android.shell
+10-26 19:55:07.223   582  2263 D CompatibilityChangeReporter: Compat change id reported: 135634846; UID 90001; state: DISABLED
+10-26 19:55:07.225   582   624 D CompatibilityChangeReporter: Compat change id reported: 143937733; UID 10203; state: ENABLED
+10-26 19:55:07.230  5124  5124 D Zygote  : Forked child process 5258
+10-26 19:55:07.239  5258  5258 I tCarrierService: Using CollectorTypeCC GC.
+10-26 19:55:07.249  5258  5258 W tCarrierService: Unexpected CPU variant for x86: x86_64.
+10-26 19:55:07.249  5258  5258 W tCarrierService: Known variants: atom, sandybridge, silvermont, goldmont, goldmont-plus, tremont, kabylake, default
+10-26 19:55:07.259   582   624 I ActivityManager: Start proc 5258:com.eltavine.duckdetector:com.eltavine.duckdetector.features.nativeroot.data.service.ThroneHuntCarrierService/u0ai1 for  {com.eltavine.duckdetector/com.eltavine.duckdetector.features.nativeroot.data.service.ThroneHuntCarrierService}
+10-26 19:55:07.281  5258  5258 E tCarrierService: Not starting debugger since process cannot load the jdwp agent.
+10-26 19:55:07.318   393  5016 I resolv  : res_nsend: used send_dg 0 terrno: 110
+10-26 19:55:07.325   393  5017 I resolv  : res_nsend: used send_dg 0 terrno: 110
+10-26 19:55:07.326  5258  5258 D CompatibilityChangeReporter: Compat change id reported: 171979766; UID 90001; state: ENABLED
+10-26 19:55:07.326  5258  5258 D CompatibilityChangeReporter: Compat change id reported: 242716250; UID 90001; state: ENABLED
+10-26 19:55:07.334  4796  4930 I DuckSelinuxCarrier: pid=4796 tid=4930 uid=10203 request scan=144797 package=com.eltavine.duckdetector service=com.eltavine.duckdetector.capability.selinuxpolicy.data.SelinuxContextValidityCarrierService
+10-26 19:55:07.337  4796  4930 I DuckSelinuxCarrier: pid=4796 tid=4930 uid=10203 return scan=144797 available=true carrier=u:r:app_zygote:s0:c512,c768 avc=COLLECTED pairs=512 failure=null
+10-26 19:55:07.358  5258  5258 D ApplicationLoaders: Returning zygote-cached class loader: /system_ext/framework/androidx.window.extensions.jar
+10-26 19:55:07.359  5258  5258 D ApplicationLoaders: Returning zygote-cached class loader: /system_ext/framework/androidx.window.sidecar.jar
+10-26 19:55:07.365   582  2263 I ActivityManager: Flag disabled. Ignoring finishAttachApplication from uid: 90001. pid: 5258
+10-26 19:55:07.375  5258  5258 W SystemServiceRegistry: No service published for: virtualdevice
+10-26 19:55:07.691  4796  4822 D EGL_emulation: app_time_stats: avg=7.93ms min=2.75ms max=25.57ms count=59
+10-26 19:55:07.727  5264  5264 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+10-26 19:55:07.732  1522  2897 W MediaProvider: isAppCloneUserPair for user 0: false
+10-26 19:55:07.734  5264  5264 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+10-26 19:55:07.750  4796  4811 I ne.duckdetector: JIT allocated 59KB for compiled code of g83 t30.d(android.content.Context)
+10-26 19:55:07.770  4796  4811 I ne.duckdetector: Compiler allocated 5542KB to compile g83 t30.d(android.content.Context)
+10-26 19:55:07.776   463   477 W ServiceManagerCppClient: Permission failure: android.permission.CAPTURE_BLACKOUT_CONTENT from uid=2000 pid=5264
+10-26 19:55:07.777   463   477 D PermissionCache: checking android.permission.CAPTURE_BLACKOUT_CONTENT for uid=2000 => denied (15378 us)
+10-26 19:55:07.788   159   159 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+10-26 19:55:07.788  5264  5279 I Gralloc4: mapper 4.x is not supported
+10-26 19:55:07.790   180  4935 W keystore2: system/security/keystore2/src/watchdog.rs:114 - ### Keystore Watchdog report - BEGIN ###
+10-26 19:55:07.790   180  4935 W keystore2: system/security/keystore2/src/watchdog.rs:123 - When extracting from a bug report, please include this header
+10-26 19:55:07.790   180  4935 W keystore2: system/security/keystore2/src/watchdog.rs:124 - and all 3 records below.
+10-26 19:55:07.790   180  4935 W keystore2: system/security/keystore2/src/watchdog.rs:154 - ThreadId(12) IKeystoreSecurityLevel::generateKey Pending: 7.018046278s Overdue 2.018047398s: SecurityLevel r#TRUSTED_ENVIRONMENT
+10-26 19:55:07.790   180  4935 W keystore2: system/security/keystore2/src/watchdog.rs:164 - ThreadId(12) Calling get_rkpd_attestation_key() Pending: 7.017863374s Overdue 6.517863949s
+10-26 19:55:07.790   180  4935 W keystore2: system/security/keystore2/src/watchdog.rs:164 - ThreadId(1) Calling get_rkpd_attestation_key() Pending: 4.635771354s Overdue 4.135771624s
+10-26 19:55:07.790   180  4935 W keystore2: system/security/keystore2/src/watchdog.rs:175 - ### Keystore Watchdog report - END ###
+10-26 19:55:07.766     0     0 I servicemanager: Could not find android.hardware.graphics.allocator.IAllocator/default in the VINTF manifest.
+10-26 19:55:07.961   800   800 D StatusBarIconController: ignoring old pipeline callback because the new wifi icon is enabled
+10-26 19:55:08.284   393  5071 I resolv  : res_nsend: used send_dg 0 terrno: 110
+10-26 19:55:08.284   393  5070 I resolv  : res_nsend: used send_dg 0 terrno: 110
+10-26 19:55:08.313   393  5286 I resolv  : GetAddrInfoHandler::run: {100 100 100 983140 10150 0}
+10-26 19:55:08.314   393  5290 I resolv  : res_nmkquery: (QUERY, IN, A)
+10-26 19:55:08.314   582  2263 I ActivityManager: Broadcasting: Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x400000 }
+10-26 19:55:08.314   582  2263 I ActivityManager: Enqueued broadcast Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x400000 }: 0
+10-26 19:55:08.315   393  5289 I resolv  : res_nmkquery: (QUERY, IN, AAAA)
+10-26 19:55:08.315   393  5289 I resolv  : resolv_cache_lookup: Waiting for previous request
+10-26 19:55:08.315   393  5290 I resolv  : resolv_cache_lookup: Waiting for previous request
+10-26 19:55:08.315   582   623 D OomAdjuster: Not killing cached processes
+10-26 19:55:08.333   582   611 I ActivityManager: Broadcast completed: result=0
+10-26 19:55:08.360  1522  1967 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+10-26 19:55:08.438  1522  1967 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+10-26 19:55:08.470   393  5115 I resolv  : res_nsend: used send_dg 0 terrno: 110
+10-26 19:55:08.472   393  5116 I resolv  : res_nsend: used send_dg 0 terrno: 110
+10-26 19:55:08.493   393  5117 I resolv  : res_nsend: used send_dg 0 terrno: 110
+10-26 19:55:08.494   393  5118 I resolv  : res_nsend: used send_dg 0 terrno: 110
+10-26 19:55:08.704  4796  4822 D EGL_emulation: app_time_stats: avg=8.51ms min=2.55ms max=32.93ms count=54
+10-26 19:55:08.730  4940  4986 I c11abac485ccfe2: hprof: heap dump completed (36MB) in 6.816s objects 513346 objects with stack traces 0
+10-26 19:55:08.738     0     0 I logd    : logdr: UID=2000 GID=2000 PID=5301 n tail=0 logMask=99 pid=0 start=1793055297000000000ns deadline=0ns

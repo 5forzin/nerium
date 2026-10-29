@@ -1,0 +1,9 @@
+{
+  "observed_at": "2026-10-26T17:14:08.1743470Z",
+  "host_midpoint_ms": 1793034845415,
+  "vm_epoch_ms": 1793034844000,
+  "vm_minus_host_estimate_ms": -1415,
+  "quantization_uncertainty_ms": 1000,
+  "server_date_ms": 1793034853000,
+  "header_response_status": 401
+}

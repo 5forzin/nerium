@@ -1,0 +1,7 @@
+Starting: Intent { act=android.settings.SETTINGS }
+Status: ok
+LaunchState: WARM
+Activity: com.android.settings/.homepage.SettingsHomepageActivity
+TotalTime: 687
+WaitTime: 709
+Complete

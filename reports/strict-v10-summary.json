@@ -1,0 +1,495 @@
+{
+  "experiment": "Version 0.9 native-only runtime and remaining Duck artifacts",
+  "module_version": "0.9.0",
+  "device": "device-lab-numa / emulator-5556",
+  "baseline_source": "Accepted version 0.8 complete Duck capture from strict-v09. The immediate pre-change retry exceeded the export deadline and was not counted as clear.",
+  "duck_apk_sha256": "9d0bbdab9c0b14334c9ec0d319758c5f9085260a09388486482b2ac497c81ffc",
+  "duck_installed_abi": "x86_64",
+  "duck": {
+    "baseline": {
+      "report": "strict-v09-duck-after.json",
+      "original_export": "strict-v09-duck-after-export.txt",
+      "export_sha256": "5f0248b0905d5049e62289bf3fd68580fe96b99171f0a1765af5af735d139d95",
+      "statistics": {
+        "Danger": 9,
+        "Warning": 5,
+        "Ready": 20,
+        "Pending": 0
+      },
+      "requested_signal_counts": {
+        "virtualization": 8,
+        "memory": 9,
+        "lsposed_high_risk": 1
+      },
+      "module_verdicts": [
+        {
+          "severity": "DANGER",
+          "detector": "Bootloader",
+          "verdict": "6 critical boot integrity signal(s)"
+        },
+        {
+          "severity": "DANGER",
+          "detector": "LSPosed",
+          "verdict": "1 high-risk LSPosed signal(s)"
+        },
+        {
+          "severity": "DANGER",
+          "detector": "Memory",
+          "verdict": "9 high-risk memory signal(s)"
+        },
+        {
+          "severity": "DANGER",
+          "detector": "Mount",
+          "verdict": "8 critical mount signal(s)"
+        },
+        {
+          "severity": "DANGER",
+          "detector": "Native Root",
+          "verdict": "1 runtime root signal(s)"
+        },
+        {
+          "severity": "DANGER",
+          "detector": "SU",
+          "verdict": "SU binary detected"
+        },
+        {
+          "severity": "DANGER",
+          "detector": "System Properties",
+          "verdict": "1 high-risk property or coherence signal(s)"
+        },
+        {
+          "severity": "DANGER",
+          "detector": "TEE",
+          "verdict": "Hardware-backed local verification was not established"
+        },
+        {
+          "severity": "DANGER",
+          "detector": "Virtualization",
+          "verdict": "8 direct virtualization signal(s)"
+        },
+        {
+          "severity": "WARNING",
+          "detector": "ADB Runtime",
+          "verdict": "ADB enabled"
+        },
+        {
+          "severity": "WARNING",
+          "detector": "Dangerous Apps",
+          "verdict": "Platform behavior mismatch observed"
+        },
+        {
+          "severity": "WARNING",
+          "detector": "Root Managers",
+          "verdict": "Root manager apps found"
+        },
+        {
+          "severity": "WARNING",
+          "detector": "SELinux",
+          "verdict": "Enforcing with recognized privileged contexts"
+        },
+        {
+          "severity": "WARNING",
+          "detector": "Zygisk",
+          "verdict": "One heuristic family needs review"
+        },
+        {
+          "severity": "INFO",
+          "detector": "Custom ROM",
+          "verdict": "Custom ROM scan has reduced coverage"
+        },
+        {
+          "severity": "INFO",
+          "detector": "Kernel Check",
+          "verdict": "CVE patch state is informational"
+        },
+        {
+          "severity": "INFO",
+          "detector": "Location Risk",
+          "verdict": "No local contract mismatch observed"
+        },
+        {
+          "severity": "INFO",
+          "detector": "Network Risk",
+          "verdict": "Network context collected"
+        },
+        {
+          "severity": "INFO",
+          "detector": "Zygote heap residue",
+          "verdict": "No target trace observed"
+        },
+        {
+          "severity": "CLEAR",
+          "detector": "Play Integrity Fix",
+          "verdict": "No Play Integrity residue surfaced"
+        }
+      ]
+    },
+    "intermediate": {
+      "report": "strict-v10-duck-after.json",
+      "original_export": "strict-v10-duck-after-export.txt",
+      "export_sha256": "9ffab95b317c2e5e2d781091f3e04dbc3acd352fff39920a07671188a667b50e",
+      "statistics": {
+        "Danger": 7,
+        "Warning": 6,
+        "Ready": 20,
+        "Pending": 0
+      },
+      "requested_signal_counts": {
+        "virtualization": 1,
+        "memory": 0,
+        "lsposed_high_risk": 0
+      },
+      "module_verdicts": [
+        {
+          "severity": "DANGER",
+          "detector": "Bootloader",
+          "verdict": "6 critical boot integrity signal(s)"
+        },
+        {
+          "severity": "DANGER",
+          "detector": "Mount",
+          "verdict": "8 critical mount signal(s)"
+        },
+        {
+          "severity": "DANGER",
+          "detector": "Native Root",
+          "verdict": "1 runtime root signal(s)"
+        },
+        {
+          "severity": "DANGER",
+          "detector": "SU",
+          "verdict": "SU binary detected"
+        },
+        {
+          "severity": "DANGER",
+          "detector": "System Properties",
+          "verdict": "1 high-risk property or coherence signal(s)"
+        },
+        {
+          "severity": "DANGER",
+          "detector": "TEE",
+          "verdict": "Hardware-backed local verification was not established"
+        },
+        {
+          "severity": "DANGER",
+          "detector": "Virtualization",
+          "verdict": "1 direct virtualization signal(s)"
+        },
+        {
+          "severity": "WARNING",
+          "detector": "ADB Runtime",
+          "verdict": "ADB enabled"
+        },
+        {
+          "severity": "WARNING",
+          "detector": "Dangerous Apps",
+          "verdict": "Platform behavior mismatch observed"
+        },
+        {
+          "severity": "WARNING",
+          "detector": "LSPosed",
+          "verdict": "Dirty SELinux policy signal(s)"
+        },
+        {
+          "severity": "WARNING",
+          "detector": "Root Managers",
+          "verdict": "Root manager apps found"
+        },
+        {
+          "severity": "WARNING",
+          "detector": "SELinux",
+          "verdict": "Enforcing with recognized privileged contexts"
+        },
+        {
+          "severity": "WARNING",
+          "detector": "Zygisk",
+          "verdict": "One heuristic family needs review"
+        },
+        {
+          "severity": "INFO",
+          "detector": "Custom ROM",
+          "verdict": "Custom ROM scan has reduced coverage"
+        },
+        {
+          "severity": "INFO",
+          "detector": "Kernel Check",
+          "verdict": "CVE patch state is informational"
+        },
+        {
+          "severity": "INFO",
+          "detector": "Location Risk",
+          "verdict": "No local contract mismatch observed"
+        },
+        {
+          "severity": "INFO",
+          "detector": "Network Risk",
+          "verdict": "Network context collected"
+        },
+        {
+          "severity": "INFO",
+          "detector": "Zygote heap residue",
+          "verdict": "No target trace observed"
+        },
+        {
+          "severity": "CLEAR",
+          "detector": "Memory",
+          "verdict": "No hook-like memory signals"
+        },
+        {
+          "severity": "CLEAR",
+          "detector": "Play Integrity Fix",
+          "verdict": "No Play Integrity residue surfaced"
+        }
+      ]
+    },
+    "final": {
+      "report": "strict-v10-duck-final.json",
+      "original_export": "strict-v10-duck-final-export.txt",
+      "export_sha256": "1c9b6cbe05111cc0e2c38b1cbf5977cd4e6760c519cc5fa4dcee46901e70ace9",
+      "statistics": {
+        "Danger": 6,
+        "Warning": 6,
+        "Ready": 20,
+        "Pending": 0
+      },
+      "requested_signal_counts": {
+        "virtualization": 0,
+        "memory": 0,
+        "lsposed_high_risk": 0
+      },
+      "module_verdicts": [
+        {
+          "severity": "DANGER",
+          "detector": "Bootloader",
+          "verdict": "6 critical boot integrity signal(s)"
+        },
+        {
+          "severity": "DANGER",
+          "detector": "Mount",
+          "verdict": "8 critical mount signal(s)"
+        },
+        {
+          "severity": "DANGER",
+          "detector": "Native Root",
+          "verdict": "1 runtime root signal(s)"
+        },
+        {
+          "severity": "DANGER",
+          "detector": "SU",
+          "verdict": "SU binary detected"
+        },
+        {
+          "severity": "DANGER",
+          "detector": "System Properties",
+          "verdict": "1 high-risk property or coherence signal(s)"
+        },
+        {
+          "severity": "DANGER",
+          "detector": "TEE",
+          "verdict": "Hardware-backed local verification was not established"
+        },
+        {
+          "severity": "WARNING",
+          "detector": "ADB Runtime",
+          "verdict": "ADB enabled"
+        },
+        {
+          "severity": "WARNING",
+          "detector": "Dangerous Apps",
+          "verdict": "Platform behavior mismatch observed"
+        },
+        {
+          "severity": "WARNING",
+          "detector": "LSPosed",
+          "verdict": "Dirty SELinux policy signal(s)"
+        },
+        {
+          "severity": "WARNING",
+          "detector": "Root Managers",
+          "verdict": "Root manager apps found"
+        },
+        {
+          "severity": "WARNING",
+          "detector": "SELinux",
+          "verdict": "Enforcing with recognized privileged contexts"
+        },
+        {
+          "severity": "WARNING",
+          "detector": "Zygisk",
+          "verdict": "One heuristic family needs review"
+        },
+        {
+          "severity": "INFO",
+          "detector": "Custom ROM",
+          "verdict": "Custom ROM scan has reduced coverage"
+        },
+        {
+          "severity": "INFO",
+          "detector": "Kernel Check",
+          "verdict": "CVE patch state is informational"
+        },
+        {
+          "severity": "INFO",
+          "detector": "Location Risk",
+          "verdict": "No local contract mismatch observed"
+        },
+        {
+          "severity": "INFO",
+          "detector": "Network Risk",
+          "verdict": "Network context collected"
+        },
+        {
+          "severity": "INFO",
+          "detector": "Virtualization",
+          "verdict": "Virtualization scan has reduced coverage"
+        },
+        {
+          "severity": "INFO",
+          "detector": "Zygote heap residue",
+          "verdict": "No target trace observed"
+        },
+        {
+          "severity": "CLEAR",
+          "detector": "Memory",
+          "verdict": "No hook-like memory signals"
+        },
+        {
+          "severity": "CLEAR",
+          "detector": "Play Integrity Fix",
+          "verdict": "No Play Integrity residue surfaced"
+        }
+      ]
+    }
+  },
+  "regression": {
+    "before": {
+      "proc99": {
+        "report": "strict-v10-before-proc99.json",
+        "apk_sha256": "99901e704d769e519741824d62f15286f68e0654f4223c0681083903ca98c9ab",
+        "installed_abi": "x86_64",
+        "detected": 0,
+        "unavailable": 0,
+        "total": 99
+      },
+      "raw79": {
+        "report": "strict-v10-before-raw79.json",
+        "apk_sha256": "ee4e8cc35ef306e1626472ffb3d9d53fe0b45036a4a89dce31020ed489268f37",
+        "installed_abi": "x86_64",
+        "detected": 0,
+        "unavailable": 0,
+        "total": 79
+      },
+      "probe54": {
+        "report": "strict-v10-before-probe54.json",
+        "apk_sha256": "ab4dafd201527cf0f72a1c2ff4f9bd41fd4dbaa921d336d1983319ac611554ed",
+        "installed_abi": "arm64-v8a",
+        "detected": 0,
+        "unavailable": 0,
+        "total": 54
+      },
+      "reveny": {
+        "report": "strict-v10-before-reveny.json",
+        "apk_sha256": "9f064f3968e9a224612810ec2b6078872f479930ce4dd0fc1f7132b08c6b3f5b",
+        "findings": 0
+      }
+    },
+    "intermediate": {
+      "proc99": {
+        "report": "strict-v10-intermediate-proc99.json",
+        "apk_sha256": "99901e704d769e519741824d62f15286f68e0654f4223c0681083903ca98c9ab",
+        "installed_abi": "x86_64",
+        "detected": 0,
+        "unavailable": 0,
+        "total": 99
+      },
+      "raw79": {
+        "report": "strict-v10-intermediate-raw79.json",
+        "apk_sha256": "ee4e8cc35ef306e1626472ffb3d9d53fe0b45036a4a89dce31020ed489268f37",
+        "installed_abi": "x86_64",
+        "detected": 0,
+        "unavailable": 0,
+        "total": 79
+      },
+      "probe54": {
+        "report": "strict-v10-intermediate-probe54.json",
+        "apk_sha256": "ab4dafd201527cf0f72a1c2ff4f9bd41fd4dbaa921d336d1983319ac611554ed",
+        "installed_abi": "arm64-v8a",
+        "detected": 0,
+        "unavailable": 0,
+        "total": 54
+      },
+      "reveny": {
+        "report": "strict-v10-intermediate-reveny.json",
+        "apk_sha256": "9f064f3968e9a224612810ec2b6078872f479930ce4dd0fc1f7132b08c6b3f5b",
+        "findings": 0
+      }
+    },
+    "final": {
+      "proc99": {
+        "report": "strict-v10-final-proc99.json",
+        "apk_sha256": "99901e704d769e519741824d62f15286f68e0654f4223c0681083903ca98c9ab",
+        "installed_abi": "x86_64",
+        "detected": 0,
+        "unavailable": 0,
+        "total": 99
+      },
+      "raw79": {
+        "report": "strict-v10-final-raw79.json",
+        "apk_sha256": "ee4e8cc35ef306e1626472ffb3d9d53fe0b45036a4a89dce31020ed489268f37",
+        "installed_abi": "x86_64",
+        "detected": 0,
+        "unavailable": 0,
+        "total": 79
+      },
+      "probe54": {
+        "report": "strict-v10-final-probe54.json",
+        "apk_sha256": "ab4dafd201527cf0f72a1c2ff4f9bd41fd4dbaa921d336d1983319ac611554ed",
+        "installed_abi": "arm64-v8a",
+        "detected": 0,
+        "unavailable": 0,
+        "total": 54
+      },
+      "reveny": {
+        "report": "strict-v10-final-reveny.json",
+        "apk_sha256": "9f064f3968e9a224612810ec2b6078872f479930ce4dd0fc1f7132b08c6b3f5b",
+        "findings": 0
+      }
+    }
+  },
+  "artifacts": {
+    "module_apk": {
+      "path": "module/build/outputs/apk/debug/module-debug.apk",
+      "sha256": "a5ad126a38a1cb415087c2b62a46afd38cc1ce527f892fac9d3d5e77ee113944"
+    },
+    "namespace_zip": {
+      "path": "module/build/namespace-module.zip",
+      "sha256": "cd98abe881b946e44ead790ecf94f950ccd8d5061a0c07303c971b5381b6c105"
+    },
+    "namespace_elf": {
+      "path": "module/build/intermediates/stripped_native_libs/debug/stripDebugDebugSymbols/out/lib/x86_64/libcpunamespace.so",
+      "sha256": "0be6777978d0d2f204f957371e0ab864d0addb8264fc1c17c57752a7b0ed7d79"
+    },
+    "runtime_elf": {
+      "path": "module/build/intermediates/stripped_native_libs/debug/stripDebugDebugSymbols/out/lib/x86_64/libruntimeprofile.so",
+      "sha256": "0af71413e933567ab7e1b4e6281cc0b1961061e98ba3d64579d904524beedab9"
+    }
+  },
+  "kernel_sha256_unchanged": "21db9b2d2ea2a91cb7f577e563ff8d5eea760531111751da7a63664d71787714",
+  "boundaries": "strict-v10-final-boundaries.json",
+  "native_only_boundaries": "strict-v10-native-only-boundaries.json",
+  "seccomp_comparison": "strict-v10-seccomp-comparison.json",
+  "remaining_limitations": [
+    "Duck overall status remains DANGER with six danger modules and six warning modules.",
+    "Virtualization is INFO with zero danger/review hits; ARM-only ASM and sacrificial syscall probes remain unsupported in x86_64, as in the baseline.",
+    "LSPosed retains three review signals from module metadata and root policy; its native heap slice remains unavailable.",
+    "Original graphics mappings and descriptors remain visible to root outside scoped views. Descriptor aliases do not create replacement hardware.",
+    "No hardware-backed attestation or physical-device identity was established.",
+    "The previously unavailable independent ARM detectors were not rerun in this round."
+  ],
+  "operational_notes": [
+    "The first upgrade was not persisted across immediate emulator termination; APK/module were reinstalled and sync was added before cold restart.",
+    "A later ADB unroot request lost its connection; the request was retried and final shell UID 2000 was verified.",
+    "The unrelated emulator at port 5554 was not modified."
+  ],
+  "build_and_lint": "All four modules passed scripts/build.ps1. PowerShell helper syntax checks passed."
+}

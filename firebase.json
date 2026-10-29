@@ -1,0 +1,5 @@
+{
+  "database": {
+    "rules": "relay/database.rules.json"
+  }
+}

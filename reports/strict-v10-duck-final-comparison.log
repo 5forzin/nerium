@@ -1,0 +1,15 @@
+Detector: duck (same APK checksum and ABI)
+Status: complete -> complete
+Detected: True -> True
+Before: Built-in report from the pinned APK corroborated by its current process and dashboard.
+After: Built-in report from the pinned APK corroborated by its current process and dashboard.
+Danger modules: 9 -> 6
+Warning modules: 5 -> 6
+Ready modules: 20 -> 20
+Pending modules: 0 -> 0
+  LSPosed: DANGER: 1 high-risk LSPosed signal(s)
+    -> WARNING: Dirty SELinux policy signal(s)
+  Memory: DANGER: 9 high-risk memory signal(s)
+    -> CLEAR: No hook-like memory signals
+  Virtualization: DANGER: 8 direct virtualization signal(s)
+    -> INFO: Virtualization scan has reduced coverage

@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "first_line": 34,
+  "events": [
+    {
+      "event": "request",
+      "command": 0,
+      "payload_bytes": 336
+    },
+    {
+      "event": "generated_key",
+      "storage": "cng_reference"
+    },
+    {
+      "event": "request",
+      "command": 1,
+      "payload_bytes": 92
+    },
+    {
+      "event": "request",
+      "command": 3,
+      "payload_bytes": 127
+    },
+    {
+      "event": "protected_signature",
+      "bytes": 256
+    },
+    {
+      "event": "request",
+      "command": 22,
+      "payload_bytes": 40
+    },
+    {
+      "event": "request",
+      "command": 8,
+      "payload_bytes": 68
+    }
+  ],
+  "host_startup": {
+    "state": "connected",
+    "message_version": 4,
+    "security_level": "SOFTWARE",
+    "lab_software_attestation": true,
+    "attestation_root_trust": "lab_owned_untrusted",
+    "lab_root_sha256": "68659387e2c856e9fc95fa736bfa9910779f4b9b2ea0c05396d8651006fc0701"
+  }
+}

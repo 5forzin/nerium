@@ -1,0 +1,24 @@
+{
+  "captured_at": "2026-10-24T16:16:19.1232907+00:00",
+  "detector": "framgia",
+  "version": "1.4.0",
+  "package": "com.framgia.example.emulatordetector",
+  "release": "https://github.com/framgia/android-emulator-detector/releases/tag/1.4.0",
+  "apk_sha256": "4f627a722df412fd12922c0043cd9c1f5b720e31010c9b8d3dd136a9a16e1382",
+  "installed_abi": "null",
+  "status": "complete",
+  "detected": false,
+  "reason": "Fresh result read from the unchanged detector APK.",
+  "process_id": 5751,
+  "foreground": "topResumedActivity=ActivityRecord{bf3fcdd u0 com.framgia.example.emulatordetector/.MainActivity t126}",
+  "final_foreground": "topResumedActivity=ActivityRecord{bf3fcdd u0 com.framgia.example.emulatordetector/.MainActivity t126}",
+  "final_process_id": "5751",
+  "launch": "Starting: Intent { cmp=com.framgia.example.emulatordetector/.MainActivity }\nStatus: ok\nLaunchState: COLD\nActivity: com.framgia.example.emulatordetector/.MainActivity\nTotalTime: 553\nWaitTime: 557\nComplete",
+  "ui_result": "This device is not emulator\nTelephony enable is true\n\n\nBuild.PRODUCT: sdk_gphone64_x86_64\nBuild.MANUFACTURER: Google\nBuild.BRAND: google\nBuild.DEVICE: emu64xa\nBuild.MODEL: sdk_gphone64_x86_64\nBuild.HARDWARE: ranchu\nBuild.FINGERPRINT: google/sdk_gphone64_x86_64/emu64xa:14/UE1A.230829.050/12077443:userdebug/dev-keys\n\nEmulator Detector version 1.4.0",
+  "visible_text": [
+    "Emulator Detector",
+    "This device is not emulator\nTelephony enable is true\n\n\nBuild.PRODUCT: sdk_gphone64_x86_64\nBuild.MANUFACTURER: Google\nBuild.BRAND: google\nBuild.DEVICE: emu64xa\nBuild.MODEL: sdk_gphone64_x86_64\nBuild.HARDWARE: ranchu\nBuild.FINGERPRINT: google/sdk_gphone64_x86_64/emu64xa:14/UE1A.230829.050/12077443:userdebug/dev-keys\n\nEmulator Detector version 1.4.0"
+  ],
+  "screenshot": "strict-v04-final-before-framgia.png",
+  "log": "strict-v04-final-before-framgia.log"
+}

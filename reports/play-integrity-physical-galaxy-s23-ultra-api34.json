@@ -1,0 +1,20 @@
+﻿{
+    "schema_version":  1,
+    "captured_at_ms":  1792908573843,
+    "package":  "dev.androidlab.integrityprobe",
+    "status":  "token_received",
+    "cloud_project_number":  45438431209,
+    "nonce_base64url":  "gmmRQ4vvRhuyrp5bslfKgwEc5hrqNlKvJcgG4xwc5to",
+    "token_length":  991,
+    "apk_sha256":  "676e2aa8ed58aaeca6b9babaaf7d88a141b10e35a09206afe87bb2199edeb070",
+    "environment":  {
+                        "android_api":  "34",
+                        "build_fingerprint":  "samsung/dm3qxxx/dm3q:14/UP1A.231005.007/S918BXXS3BWL3:user/release-keys",
+                        "play_store_path":  "package:/data/app/~~c5AlW-nvIp-nq95tfva6KQ==/com.android.vending-lt3YG18UgUgYr1n_x1aoLg==/base.apk",
+                        "play_store_version":  "53.6.15-31 [0] [PR] 996698724",
+                        "play_services_version":  "26.37.37 (190400-994713346)"
+                    },
+    "token_sha256":  "5d579a344850ea21e8a2d0b4dd8ffc692c004913a8b24297c26b4dc8078078b4",
+    "token_private_path":  "files/token-play-integrity-physical-galaxy-s23-ultra-api34.txt",
+    "compact_jwe_shape":  true
+}

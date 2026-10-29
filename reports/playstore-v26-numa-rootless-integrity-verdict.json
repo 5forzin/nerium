@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "decoded_at": "2026-10-25T23:33:54.1125905+00:00",
+  "source_report": "playstore-v26-numa-rootless-integrity.json",
+  "token_sha256": "ffd3e564216efba815e9376a030b943de38042902de380ecd01605d094a2039a",
+  "request_package_name": "dev.androidlab.integrityprobe",
+  "nonce_matches": true,
+  "request_timestamp_ms": "1792971233484",
+  "app_recognition_verdict": "UNEVALUATED",
+  "device_recognition_verdict": [],
+  "app_licensing_verdict": "UNEVALUATED"
+}

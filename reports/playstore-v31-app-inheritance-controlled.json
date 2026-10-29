@@ -1,0 +1,116 @@
+{
+  "schema_version": 1,
+  "captured_at": "2026-10-26T01:09:06.260353+00:00",
+  "source": "read-only run-as observations of unchanged diagnostic APKs",
+  "other_environment_values_exported": false,
+  "applications": [
+    {
+      "package": "dev.androidlab.probe",
+      "pid": 4144,
+      "apk_sha256": "ab4dafd201527cf0f72a1c2ff4f9bd41fd4dbaa921d336d1983319ac611554ed",
+      "maps_read_success": true,
+      "library_mapping_visible": true,
+      "library_mapping_lines": [
+        "7a7f08499000-7a7f0849a000 r--p 00000000 fe:05 2732                       /system/lib64/libdevice_lab_boot_probe.so",
+        "7a7f0849a000-7a7f0849c000 r-xp 00000000 fe:05 2732                       /system/lib64/libdevice_lab_boot_probe.so",
+        "7a7f0849c000-7a7f0849d000 r--p 00001000 fe:05 2732                       /system/lib64/libdevice_lab_boot_probe.so",
+        "7a7f0849d000-7a7f0849e000 rw-p 00001000 fe:05 2732                       /system/lib64/libdevice_lab_boot_probe.so"
+      ],
+      "initial_environment_read_success": true,
+      "initial_environment_size": 4119,
+      "initial_environment_preload_entries": [
+        "LD_PRELOAD=/system/lib64/libdevice_lab_boot_probe.so"
+      ],
+      "non_preload_environment_sha256": "1848103a8335628904be79fe625185c0545a1ce86d80a8c91008941390d1beda",
+      "non_preload_environment_entries": 18,
+      "status_read_success": true,
+      "status": {
+        "TracerPid": "0",
+        "Uid": "10191\t10191\t10191\t10191",
+        "Gid": "10191\t10191\t10191\t10191",
+        "CapInh": "0000000000000000",
+        "CapPrm": "0000000000000000",
+        "CapEff": "0000000000000000",
+        "CapBnd": "0000000000000000",
+        "CapAmb": "0000000000000000",
+        "NoNewPrivs": "0",
+        "Seccomp": "2",
+        "Seccomp_filters": "1"
+      },
+      "context_read_success": true,
+      "context": "cat: /proc/4144/attr/current: Permission denied"
+    },
+    {
+      "package": "dev.androidlab.rawprobe",
+      "pid": 4213,
+      "apk_sha256": "ee4e8cc35ef306e1626472ffb3d9d53fe0b45036a4a89dce31020ed489268f37",
+      "maps_read_success": true,
+      "library_mapping_visible": true,
+      "library_mapping_lines": [
+        "7a7f08499000-7a7f0849a000 r--p 00000000 fe:05 2732                       /system/lib64/libdevice_lab_boot_probe.so",
+        "7a7f0849a000-7a7f0849c000 r-xp 00000000 fe:05 2732                       /system/lib64/libdevice_lab_boot_probe.so",
+        "7a7f0849c000-7a7f0849d000 r--p 00001000 fe:05 2732                       /system/lib64/libdevice_lab_boot_probe.so",
+        "7a7f0849d000-7a7f0849e000 rw-p 00001000 fe:05 2732                       /system/lib64/libdevice_lab_boot_probe.so"
+      ],
+      "initial_environment_read_success": true,
+      "initial_environment_size": 4119,
+      "initial_environment_preload_entries": [
+        "LD_PRELOAD=/system/lib64/libdevice_lab_boot_probe.so"
+      ],
+      "non_preload_environment_sha256": "1848103a8335628904be79fe625185c0545a1ce86d80a8c91008941390d1beda",
+      "non_preload_environment_entries": 18,
+      "status_read_success": true,
+      "status": {
+        "TracerPid": "0",
+        "Uid": "10192\t10192\t10192\t10192",
+        "Gid": "10192\t10192\t10192\t10192",
+        "CapInh": "0000000000000000",
+        "CapPrm": "0000000000000000",
+        "CapEff": "0000000000000000",
+        "CapBnd": "0000000000000000",
+        "CapAmb": "0000000000000000",
+        "NoNewPrivs": "0",
+        "Seccomp": "2",
+        "Seccomp_filters": "1"
+      },
+      "context_read_success": true,
+      "context": "cat: /proc/4213/attr/current: Permission denied"
+    },
+    {
+      "package": "dev.androidlab.procprobe",
+      "pid": 4271,
+      "apk_sha256": "99901e704d769e519741824d62f15286f68e0654f4223c0681083903ca98c9ab",
+      "maps_read_success": true,
+      "library_mapping_visible": true,
+      "library_mapping_lines": [
+        "7a7f08499000-7a7f0849a000 r--p 00000000 fe:05 2732                       /system/lib64/libdevice_lab_boot_probe.so",
+        "7a7f0849a000-7a7f0849c000 r-xp 00000000 fe:05 2732                       /system/lib64/libdevice_lab_boot_probe.so",
+        "7a7f0849c000-7a7f0849d000 r--p 00001000 fe:05 2732                       /system/lib64/libdevice_lab_boot_probe.so",
+        "7a7f0849d000-7a7f0849e000 rw-p 00001000 fe:05 2732                       /system/lib64/libdevice_lab_boot_probe.so"
+      ],
+      "initial_environment_read_success": true,
+      "initial_environment_size": 4119,
+      "initial_environment_preload_entries": [
+        "LD_PRELOAD=/system/lib64/libdevice_lab_boot_probe.so"
+      ],
+      "non_preload_environment_sha256": "1848103a8335628904be79fe625185c0545a1ce86d80a8c91008941390d1beda",
+      "non_preload_environment_entries": 18,
+      "status_read_success": true,
+      "status": {
+        "TracerPid": "0",
+        "Uid": "10193\t10193\t10193\t10193",
+        "Gid": "10193\t10193\t10193\t10193",
+        "CapInh": "0000000000000000",
+        "CapPrm": "0000000000000000",
+        "CapEff": "0000000000000000",
+        "CapBnd": "0000000000000000",
+        "CapAmb": "0000000000000000",
+        "NoNewPrivs": "0",
+        "Seccomp": "2",
+        "Seccomp_filters": "1"
+      },
+      "context_read_success": true,
+      "context": "cat: /proc/4271/attr/current: Permission denied"
+    }
+  ]
+}

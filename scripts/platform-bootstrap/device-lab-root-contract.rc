@@ -1,0 +1,11 @@
+service device_lab_root_contract /vendor/bin/device-lab-root-contract
+    class late_start
+    user root
+    group root
+    capabilities SYS_ADMIN SETUID SETGID
+    disabled
+    oneshot
+    timeout_period 60
+
+on property:sys.boot_completed=1
+    start device_lab_root_contract

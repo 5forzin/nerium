@@ -1,0 +1,136 @@
+Device identity changes:
+
+Changed identity fields: 0
+
+Check changes:
+  maps.fdinfo_inode: detected -> clear
+    before: pos:64flags:02100000mnt_id:282ino:336921
+    after:  pos:64flags:02100000mnt_id:76800ino:59802
+  maps.fdinfo_mount: detected -> clear
+    before: 
+    after:  
+  maps.legacy_stat: detected -> clear
+    before: size=228648
+    after:  size=0
+  maps.mmap_denied: detected -> clear
+    before: result=123488426995712
+    after:  result=-19
+  maps.open.noatime: detected -> clear
+    before: bytes=229582
+    after:  bytes=228065
+  maps.open.noctty: detected -> clear
+    before: bytes=229582
+    after:  bytes=228065
+  maps.open.nofollow: detected -> clear
+    before: bytes=229388
+    after:  bytes=227583
+  maps.statfs_alias: detected -> clear
+    before: type=61267
+    after:  type=40864
+  maps.statx_alias: detected -> clear
+    before: mnt_id=282;expected=79019
+    after:  mnt_id=76800;expected=76800
+  maps.statx_empty: detected -> clear
+    before: mnt_id=282;expected=79019
+    after:  mnt_id=76800;expected=76800
+  mountinfo.fdinfo_inode: detected -> clear
+    before: pos:64flags:02100000mnt_id:282ino:336921
+    after:  pos:64flags:02100000mnt_id:76800ino:59826
+  mountinfo.fdinfo_mount: detected -> clear
+    before: 
+    after:  
+  mountinfo.legacy_stat: detected -> clear
+    before: size=144692
+    after:  size=0
+  mountinfo.mmap_denied: detected -> clear
+    before: result=123488426995712
+    after:  result=-19
+  mountinfo.open.noatime: detected -> clear
+    before: bytes=150012
+    after:  bytes=144569
+  mountinfo.open.noctty: detected -> clear
+    before: bytes=150012
+    after:  bytes=144569
+  mountinfo.open.nofollow: detected -> clear
+    before: bytes=150012
+    after:  bytes=144569
+  mountinfo.statfs_alias: detected -> clear
+    before: type=61267
+    after:  type=40864
+  mountinfo.statx_alias: detected -> clear
+    before: mnt_id=282;expected=79019
+    after:  mnt_id=76800;expected=76800
+  mountinfo.statx_empty: detected -> clear
+    before: mnt_id=282;expected=79019
+    after:  mnt_id=76800;expected=76800
+  mounts.fdinfo_inode: detected -> clear
+    before: pos:64flags:02100000mnt_id:282ino:336921
+    after:  pos:64flags:02100000mnt_id:76800ino:60609
+  mounts.fdinfo_mount: detected -> clear
+    before: 
+    after:  
+  mounts.legacy_stat: detected -> clear
+    before: size=90408
+    after:  size=0
+  mounts.mmap_denied: detected -> clear
+    before: result=123488426995712
+    after:  result=-19
+  mounts.open.noatime: detected -> clear
+    before: bytes=92695
+    after:  bytes=90313
+  mounts.open.noctty: detected -> clear
+    before: bytes=92695
+    after:  bytes=90313
+  mounts.open.nofollow: detected -> clear
+    before: bytes=92695
+    after:  bytes=90313
+  mounts.statfs_alias: detected -> clear
+    before: type=61267
+    after:  type=40864
+  mounts.statx_alias: detected -> clear
+    before: mnt_id=282;expected=79019
+    after:  mnt_id=76800;expected=76800
+  mounts.statx_empty: detected -> clear
+    before: mnt_id=282;expected=79019
+    after:  mnt_id=76800;expected=76800
+  proc.map_files: detected -> clear
+    before: entries=1510;readable=1510;artifacts=7;/data/app/~~ucDOMXq_w25zWQWABlGwRw==/dev.androidlab.module-1mVDw1yaeMyJkg1YbZDXYw==/base.apk
+    after:  entries=1500;readable=1500;artifacts=0;
+  smaps.fdinfo_inode: detected -> clear
+    before: pos:64flags:02100000mnt_id:282ino:336921
+    after:  pos:64flags:02100000mnt_id:76800ino:60055
+  smaps.fdinfo_mount: detected -> clear
+    before: 
+    after:  
+  smaps.legacy_stat: detected -> clear
+    before: size=1580148
+    after:  size=0
+  smaps.mmap_denied: detected -> clear
+    before: result=123488426995712
+    after:  result=-19
+  smaps.open.noatime: detected -> clear
+    before: bytes=1585502
+    after:  bytes=1572291
+  smaps.open.noctty: detected -> clear
+    before: bytes=1585502
+    after:  bytes=1572291
+  smaps.open.nofollow: detected -> clear
+    before: bytes=1582688
+    after:  bytes=1568800
+  smaps.statfs_alias: detected -> clear
+    before: type=61267
+    after:  type=40864
+  smaps.statx_alias: detected -> clear
+    before: mnt_id=282;expected=79019
+    after:  mnt_id=76800;expected=76800
+  smaps.statx_empty: detected -> clear
+    before: mnt_id=282;expected=79019
+    after:  mnt_id=76800;expected=76800
+
+Remaining detected signals (0):
+
+Unavailable checks (2):
+  capability.openat2
+  proc.numa_maps
+
+These are heuristic observations, not proof of a physical device or an integrity verdict.

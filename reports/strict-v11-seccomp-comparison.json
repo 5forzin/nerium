@@ -1,0 +1,15 @@
+{
+  "original_instructions": 260,
+  "patched_instructions": 265,
+  "original_suffix_byte_identical": true,
+  "evaluated_cases": 262160,
+  "structural_preservation": "The unchanged original program reloads arch before using the accumulator. The prefix changes no scratch registers or memory.",
+  "differences": [
+    {
+      "arch": 3221225534,
+      "syscall": 437,
+      "before": 196608,
+      "after": 2147418112
+    }
+  ]
+}

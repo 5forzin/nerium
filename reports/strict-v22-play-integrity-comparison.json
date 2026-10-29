@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "captured_at": "2026-10-25T05:33:00.0356704+00:00",
+  "cloud_project_id": "android-device-lab-bc008",
+  "candidate": {
+    "avd": "device-lab-numa",
+    "api": "34",
+    "play_store_version": "1.8",
+    "play_store_path": "package:/product/app/LicenseChecker/LicenseChecker.apk",
+    "status": "request_failed",
+    "error_code": -14,
+    "source_report": "play-integrity-modified-numa-context.json"
+  },
+  "google_play_control": {
+    "avd": "device-lab-playstore-api35",
+    "api": "35",
+    "play_store_version": "53.6.15-34 [0] [PR] 996698724",
+    "status": "token_received",
+    "token_sha256": "139db9b7fde76e51e374d6e71d06598d4accc055a3b186fa07046f84941aaa66",
+    "token_length": 991,
+    "verdict_status": "pending_server_decode",
+    "source_report": "play-integrity-playstore-api35-retained.json"
+  },
+  "candidate_regression_after_restore": {
+    "proc99": {
+      "detected": 0,
+      "unavailable": 0,
+      "total": 99
+    },
+    "raw79": {
+      "detected": 0,
+      "unavailable": 0,
+      "total": 79
+    },
+    "probe54": {
+      "detected": 0,
+      "unavailable": 0,
+      "total": 54
+    },
+    "reveny_detected": false,
+    "reveny_findings": 0,
+    "prior_proc99": {
+      "detected": 0,
+      "unavailable": 0,
+      "total": 99
+    }
+  }
+}

@@ -1,0 +1,140 @@
+Device identity changes:
+
+Changed identity fields: 0
+
+Check changes:
+  control.maps.fd_alias: clear -> clear
+    before: /proc/13214/maps
+    after:  /proc/6371/maps
+  control.mountinfo.fd_alias: clear -> clear
+    before: /proc/13214/mountinfo
+    after:  /proc/6371/mountinfo
+  libc.maps.task: clear -> clear
+    before: bytes=227236;
+    after:  bytes=225249;
+  libc.mountinfo.task: clear -> clear
+    before: bytes=144549;
+    after:  bytes=144563;
+  libc.mounts.task: clear -> clear
+    before: bytes=90306;
+    after:  bytes=90310;
+  libc.smaps.task: clear -> clear
+    before: bytes=1580711;
+    after:  bytes=1569082;
+  raw.maps.dirfd: clear -> clear
+    before: bytes=227236;
+    after:  bytes=225474;
+  raw.maps.legacy_open: clear -> clear
+    before: bytes=227236;
+    after:  bytes=225249;
+  raw.maps.normalized: clear -> clear
+    before: bytes=227236;
+    after:  bytes=225249;
+  raw.maps.pid: clear -> clear
+    before: bytes=226485;
+    after:  bytes=224550;
+  raw.maps.root_alias: clear -> clear
+    before: bytes=227236;
+    after:  bytes=225249;
+  raw.maps.self: clear -> clear
+    before: bytes=225965;
+    after:  bytes=224030;
+  raw.maps.task: clear -> clear
+    before: bytes=227332;
+    after:  bytes=225394;
+  raw.maps.thread_self: clear -> clear
+    before: bytes=226595;
+    after:  bytes=224659;
+  raw.maps.tid: clear -> clear
+    before: bytes=226595;
+    after:  bytes=224659;
+  raw.mountinfo.dirfd: clear -> clear
+    before: bytes=144549;
+    after:  bytes=144563;
+  raw.mountinfo.legacy_open: clear -> clear
+    before: bytes=144549;
+    after:  bytes=144563;
+  raw.mountinfo.normalized: clear -> clear
+    before: bytes=144549;
+    after:  bytes=144563;
+  raw.mountinfo.pid: clear -> clear
+    before: bytes=144549;
+    after:  bytes=144563;
+  raw.mountinfo.root_alias: clear -> clear
+    before: bytes=144549;
+    after:  bytes=144563;
+  raw.mountinfo.self: clear -> clear
+    before: bytes=144549;
+    after:  bytes=144563;
+  raw.mountinfo.task: clear -> clear
+    before: bytes=144549;
+    after:  bytes=144563;
+  raw.mountinfo.thread_self: clear -> clear
+    before: bytes=144549;
+    after:  bytes=144563;
+  raw.mountinfo.tid: clear -> clear
+    before: bytes=144549;
+    after:  bytes=144563;
+  raw.mounts.dirfd: clear -> clear
+    before: bytes=90306;
+    after:  bytes=90310;
+  raw.mounts.legacy_open: clear -> clear
+    before: bytes=90306;
+    after:  bytes=90310;
+  raw.mounts.normalized: clear -> clear
+    before: bytes=90306;
+    after:  bytes=90310;
+  raw.mounts.pid: clear -> clear
+    before: bytes=90306;
+    after:  bytes=90310;
+  raw.mounts.proc_alias: clear -> clear
+    before: bytes=90306;
+    after:  bytes=90310;
+  raw.mounts.root_alias: clear -> clear
+    before: bytes=90306;
+    after:  bytes=90310;
+  raw.mounts.self: clear -> clear
+    before: bytes=90306;
+    after:  bytes=90310;
+  raw.mounts.task: clear -> clear
+    before: bytes=90306;
+    after:  bytes=90310;
+  raw.mounts.thread_self: clear -> clear
+    before: bytes=90306;
+    after:  bytes=90310;
+  raw.mounts.tid: clear -> clear
+    before: bytes=90306;
+    after:  bytes=90310;
+  raw.smaps.dirfd: clear -> clear
+    before: bytes=1580711;
+    after:  bytes=1569082;
+  raw.smaps.legacy_open: clear -> clear
+    before: bytes=1580711;
+    after:  bytes=1569082;
+  raw.smaps.normalized: clear -> clear
+    before: bytes=1580711;
+    after:  bytes=1569082;
+  raw.smaps.pid: clear -> clear
+    before: bytes=1563692;
+    after:  bytes=1551342;
+  raw.smaps.root_alias: clear -> clear
+    before: bytes=1580711;
+    after:  bytes=1569082;
+  raw.smaps.self: clear -> clear
+    before: bytes=1557310;
+    after:  bytes=1546437;
+  raw.smaps.task: clear -> clear
+    before: bytes=1580711;
+    after:  bytes=1569082;
+  raw.smaps.thread_self: clear -> clear
+    before: bytes=1580609;
+    after:  bytes=1569082;
+  raw.smaps.tid: clear -> clear
+    before: bytes=1563692;
+    after:  bytes=1560622;
+
+Remaining detected signals (0):
+
+Unavailable checks (0):
+
+These are heuristic observations, not proof of a physical device or an integrity verdict.

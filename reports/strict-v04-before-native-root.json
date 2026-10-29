@@ -1,0 +1,19 @@
+{
+  "captured_at": "2026-10-24T16:08:37.1393138+00:00",
+  "detector": "native-root",
+  "version": "7.7.0",
+  "package": "com.reveny.nativecheck",
+  "release": "https://github.com/reveny/Android-Native-Root-Detector/releases/tag/v7.7.0",
+  "apk_sha256": "1033d24102af2632fe5c379e28c9ea9a20bc1d570e171ac3e50f8afd35fc4bd6",
+  "installed_abi": "arm64-v8a",
+  "status": "unavailable",
+  "detected": null,
+  "reason": "Process exited before a result was collected.",
+  "process_id": null,
+  "foreground": "topResumedActivity=ActivityRecord{de41643 u0 com.felhr.emulatordetector/.MainActivity t112}",
+  "launch": "Starting: Intent { cmp=com.reveny.nativecheck/.ui.activity.MainActivity }\nStatus: ok\nLaunchState: COLD\nActivity: com.reveny.nativecheck/.ui.activity.MainActivity\nTotalTime: 722\nWaitTime: 728\nComplete",
+  "ui_result": null,
+  "visible_text": [],
+  "screenshot": "strict-v04-before-native-root.png",
+  "log": "strict-v04-before-native-root.log"
+}

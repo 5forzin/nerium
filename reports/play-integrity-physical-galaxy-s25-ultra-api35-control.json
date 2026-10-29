@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "source_report": "play-integrity-physical-galaxy-s25-ultra-api35.json",
+  "hardware_type": "physical",
+  "model": "Galaxy S25 Ultra",
+  "android_api": 35,
+  "verified_boot_state": "green",
+  "bootloader_locked": true,
+  "vbmeta_device_state": "locked",
+  "nonce_matches": true,
+  "device_recognition_verdict": [
+    "MEETS_DEVICE_INTEGRITY"
+  ],
+  "control_positive_for_device_integrity": true
+}

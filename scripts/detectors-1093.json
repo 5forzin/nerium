@@ -1,0 +1,16 @@
+[
+  {
+    "id": "duck",
+    "name": "Duck Detector",
+    "version": "2026.10.26-4c2e29e223c3 (1093)",
+    "export_version": "2026.10.26-4c2e29e223c3 (Build 1093)",
+    "build_commit": "4c2e29e223c3",
+    "ready_modules": 20,
+    "package": "com.eltavine.duckdetector",
+    "activity": "android.app.NativeActivity",
+    "sha256": "9d41b1835acee4323378973451bf6c53074f5d52e206aa2e6927a2c4a1058ffc",
+    "abi": "x86_64",
+    "release": "https://github.com/eltavine/Duck-Detector-Refactoring/releases/tag/nightly-2026-10-25-4c2e29e2",
+    "capture": "duck"
+  }
+]

@@ -1,0 +1,81 @@
+Device identity changes:
+
+Changed identity fields: 0
+
+Check changes:
+  capability.openat2: unavailable -> clear
+    before: result=-10031
+    after:  
+  maps.fdinfo_inode: clear -> clear
+    before: pos:64flags:02100000mnt_id:75659ino:55096
+    after:  pos:64flags:02100000mnt_id:74547ino:51834
+  maps.open.noatime: clear -> clear
+    before: bytes=228985
+    after:  bytes=228062
+  maps.open.noctty: clear -> clear
+    before: bytes=228985
+    after:  bytes=228062
+  maps.open.nofollow: clear -> clear
+    before: bytes=228503
+    after:  bytes=227674
+  maps.openat2: missing -> clear
+    before: None
+    after:  bytes=228062
+  maps.statx_alias: clear -> clear
+    before: mnt_id=75659;expected=75659
+    after:  mnt_id=74547;expected=74547
+  maps.statx_empty: clear -> clear
+    before: mnt_id=75659;expected=75659
+    after:  mnt_id=74547;expected=74547
+  mountinfo.fdinfo_inode: clear -> clear
+    before: pos:64flags:02100000mnt_id:75659ino:55117
+    after:  pos:64flags:02100000mnt_id:74547ino:52594
+  mountinfo.openat2: missing -> clear
+    before: None
+    after:  bytes=144565
+  mountinfo.statx_alias: clear -> clear
+    before: mnt_id=75659;expected=75659
+    after:  mnt_id=74547;expected=74547
+  mountinfo.statx_empty: clear -> clear
+    before: mnt_id=75659;expected=75659
+    after:  mnt_id=74547;expected=74547
+  mounts.fdinfo_inode: clear -> clear
+    before: pos:64flags:02100000mnt_id:75659ino:55647
+    after:  pos:64flags:02100000mnt_id:74547ino:52653
+  mounts.openat2: missing -> clear
+    before: None
+    after:  bytes=90311
+  mounts.statx_alias: clear -> clear
+    before: mnt_id=75659;expected=75659
+    after:  mnt_id=74547;expected=74547
+  mounts.statx_empty: clear -> clear
+    before: mnt_id=75659;expected=75659
+    after:  mnt_id=74547;expected=74547
+  smaps.fdinfo_inode: clear -> clear
+    before: pos:64flags:02100000mnt_id:75659ino:55277
+    after:  pos:64flags:02100000mnt_id:74547ino:52007
+  smaps.open.noatime: clear -> clear
+    before: bytes=1579457
+    after:  bytes=1580359
+  smaps.open.noctty: clear -> clear
+    before: bytes=1579457
+    after:  bytes=1580309
+  smaps.open.nofollow: clear -> clear
+    before: bytes=1576643
+    after:  bytes=1573263
+  smaps.openat2: missing -> clear
+    before: None
+    after:  bytes=1580359
+  smaps.statx_alias: clear -> clear
+    before: mnt_id=75659;expected=75659
+    after:  mnt_id=74547;expected=74547
+  smaps.statx_empty: clear -> clear
+    before: mnt_id=75659;expected=75659
+    after:  mnt_id=74547;expected=74547
+
+Remaining detected signals (0):
+
+Unavailable checks (1):
+  proc.numa_maps
+
+These are heuristic observations, not proof of a physical device or an integrity verdict.

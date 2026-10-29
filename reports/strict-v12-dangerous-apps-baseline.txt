@@ -1,0 +1,142 @@
+  [▲ WARNING] Dangerous Apps
+  Verdict      : Platform behavior mismatch observed
+  Quick Facts  : Runtime: 1 signal(s)  |  PM: Full · 234  |  Hits: 0  |  Hidden: 0
+
+  [Package Changes Since Boot]
+    1 monitored package(s) appeared in visible changes since boot. Additions, updates and removals share this list; event type and time are not provided. Returned sequence: 8. History resets on reboot and may be filtered by package visibility or hiding modules. It cannot establish current installation, running state or concealment.
+    • Magisk (com.topjohnwu.magisk) [Hook framework; current installation unconfirmed]
+
+  [Impact]
+    • Interpretation: Behavior evidence observed
+        Package matches, runtime interfaces and platform behavior checks have separate scopes. Behavior mismatches do not identify a hiding module; timing anomalies have lower confidence. Package history does not establish current installation, and none of these observations proves root access.
+
+  [Detection methods]
+    • PackageManager: 0 package hit(s)
+        A listed probe ran in this scan. Zero hits do not establish full visibility; related package probes can share the same underlying mechanism.
+    • createPackageContext + ZipFile: 0 package hit(s)
+        A listed probe ran in this scan. Zero hits do not establish full visibility; related package probes can share the same underlying mechanism.
+    • Open APK FD: 0 package hit(s)
+        A listed probe ran in this scan. Zero hits do not establish full visibility; related package probes can share the same underlying mechanism.
+    • Android/data Directory Listing: 0 package hit(s)
+        A listed probe ran in this scan. Zero hits do not establish full visibility; related package probes can share the same underlying mechanism.
+    • Android/data ZWC Bypass: 0 package hit(s)
+        A listed probe ran in this scan. Zero hits do not establish full visibility; related package probes can share the same underlying mechanism.
+    • Android/data Ignorable CodePoint Bypass: 0 package hit(s)
+        A listed probe ran in this scan. Zero hits do not establish full visibility; related package probes can share the same underlying mechanism.
+    • FUSE stat: 0 package hit(s)
+        A listed probe ran in this scan. Zero hits do not establish full visibility; related package probes can share the same underlying mechanism.
+    • Native /data/data stat: 0 package hit(s)
+        A listed probe ran in this scan. Zero hits do not establish full visibility; related package probes can share the same underlying mechanism.
+    • Special path: 0 package hit(s)
+        A listed probe ran in this scan. Zero hits do not establish full visibility; related package probes can share the same underlying mechanism.
+    • Scene loopback: 0 package hit(s)
+        A listed probe ran in this scan. Zero hits do not establish full visibility; related package probes can share the same underlying mechanism.
+    • Scene debugfs context: 0 package hit(s)
+        A listed probe ran in this scan. Zero hits do not establish full visibility; related package probes can share the same underlying mechanism.
+    • Scene broadcast: 0 package hit(s)
+        A listed probe ran in this scan. Zero hits do not establish full visibility; related package probes can share the same underlying mechanism.
+    • Accessibility Service: 0 package hit(s)
+        A listed probe ran in this scan. Zero hits do not establish full visibility; related package probes can share the same underlying mechanism.
+    • Thanox runtime IPC: Not observed
+        No compatible runtime service observed. The Thanox transaction was not handled.
+    • Broadcast cross-user exception: Consistent in evaluated scope
+        124 package(s) checked twice between permission controls; 0 repeated exception mismatch(es). Outcomes: SECURITY_EXCEPTION=248, RETURNED=0, NAME_NOT_FOUND=0, FAILED=0, UNAVAILABLE=0. Target scope: 124/124; API 34.
+    • getPackageInfo exception: Consistent in evaluated scope
+        124 package(s) checked twice between permission controls; 0 repeated exception mismatch(es). Outcomes: SECURITY_EXCEPTION=248, RETURNED=0, NAME_NOT_FOUND=0, FAILED=0, UNAVAILABLE=0. Target scope: 124/124; API 34.
+    • getApplicationInfo exception: Consistent in evaluated scope
+        124 package(s) checked twice between permission controls; 0 repeated exception mismatch(es). Outcomes: SECURITY_EXCEPTION=248, RETURNED=0, NAME_NOT_FOUND=0, FAILED=0, UNAVAILABLE=0. Target scope: 124/124; API 34.
+    • Broadcast final callback completion: Consistent in evaluated scope
+        124/124 target(s) completed paired calls; 124 passed caller controls before, between and after. Target outcomes: 0 timeout(s), 0 denial(s), 0 failure(s). Batch deadline reached=false. Failed controls: none. 0 target(s) repeatedly missed the callback deadline with passing interleaved controls. This is a lower-confidence timing observation, not proof of a hook or permanent callback loss. Target scope: 124/124; API 34.
+    • Broadcast final result callback: Consistent in evaluated scope
+        124/124 target(s) completed paired calls; 124 passed caller controls before, between and after. Target outcomes: 0 timeout(s), 0 denial(s), 0 failure(s). Batch deadline reached=false. Failed controls: none. 0 repeated flag, result-payload or callback-intent mismatch(es). Missing callbacks cannot establish a semantic mismatch. Target scope: 124/124; API 34.
+    • getpriority UID visibility: Consistent in evaluated scope
+        10000/10000 ordinary app UIDs queried for this Android user; 50 task UID(s), 0 repeatedly lacked a visible package association. First UID=10000; caller queried=true; controls passed=true; recheck failure=false; recheck limit=false. Fresh query failure=none; . Instant-app visibility and OEM policy can also hide associations. This does not identify a hidden package or HMA.
+    • UID permission visibility (experimental): Unsupported
+        Requires reviewed Android 15/16 permission semantics, an ordinary caller UID and non-instant permission definitions.
+    • Seccomp getpriority interference: Behavior mismatch observed
+        seccomp(SECCOMP_SET_MODE_FILTER, NEW_LISTENER) returned EBUSY. The ACK duplicate-listener path returns EBUSY when an existing filter already carries a listener; an inherited policy can also synthesize errno. Kernel 6.1. This is seccomp interference evidence; it does not identify the module.
+
+  [Scan summary]
+    • Inventory: 124 legacy packages
+    • PackageManager: Full inventory access
+    • Visible packages: 234
+    • Categories: None
+    • Probe families: PackageManager, createPackageContext + ZipFile, Open APK FD, Android/data Directory Listing +10
+        PackageManager, createPackageContext + ZipFile, Open APK FD, Android/data Directory Listing, Android/data ZWC Bypass, Android/data Ignorable CodePoint Bypass, FUSE stat, Native /data/data stat, Special path, Scene loopback, Scene debugfs context, Scene broadcast, Thanox runtime IPC, Accessibility Service
+
+  [Monitored Package Catalog (124 targets across 12 categories)]
+    • Hook framework (11):
+        LSPosed Manager (org.lsposed.manager), LSPatch (org.lsposed.lspatch), 
+        Xposed Installer (de.robv.android.xposed.installer), 
+        Magisk alpha (io.github.vvb2060.magisk), Magisk (com.topjohnwu.magisk), 
+        TaiChi (me.weishu.exp), SimpleHook (me.simpleHook), HookVip Pro (top.hookvip.pro), 
+        JiuWu Hook (Hook.JiuWu.Xp), HookVip (com.bug.hookvip), Lin Xposed (lin.xposed)
+    • App hiding (5):
+        Hide My Applist (com.tsng.hidemyapplist), HMA-OSS (org.frknkrc44.hma_oss), 
+        HMA (com.tsng.pzyhrx.hma), Hide Blacklist (com.topmiaohan.hidebllist), 
+        Zako Hide (zako.zako.zako)
+    • Root tool (18):
+        SuperSU (eu.chainfire.supersu), Superuser (com.noshufou.android.su), 
+        Superuser (com.koushikdutta.superuser), Superuser (com.thirdparty.superuser), 
+        SU (com.yellowes.su), KingRoot (com.kingroot.kinguser), KingoRoot (com.kingo.root), 
+        OneClickRoot (com.smedialink.oneclickroot), KernelSU (me.weishu.kernelsu), 
+        KSU Next (com.rifsxd.ksunext), KSU WebUI (io.github.a13e300.ksuwebui), 
+        SuKiSu Ultra (com.sukisu.ultra), ReSukisu (com.resukisu.resukisu), 
+        SKRoot (com.linux.permissionmanager), APatch (me.bmax.apatch), 
+        Root My Nothing (com.rootmynothing.app), S25U Root (dev.busung.s25uroot), 
+        Root My Pixel (com.alex193a.rootmypixel)
+    • Fake location (2):
+        Fake Location (com.lerist.fakelocation), Motion Emulator (com.zhufucyd.motion_emulator)
+    • Cracking / mod (7):
+        VIP Kill (com.cshlolss.vipkill), Modify Installer (com.modify.installer), 
+        Lucky Patcher (lucky.patcher), Lucky Patcher (com.chelpus.lackypatch), 
+        Lucky Patcher (com.android.vending.billing.InAppBillingService.LUCK), 
+        APKTool (ru.maximoff.apktool), MT Manager (bin.mt.termex)
+    • QQ / WeChat hook (5):
+        QAuxiliary (io.github.qauxv), WeChat Xposed (com.fkzhang.wechatxposed), 
+        BiliRoaming (me.iacn.biliroaming), HookQQ (com.padi.hook.hookqq), 
+        TIM Tool (top.sacz.timtool)
+    • System modification (6):
+        HyperCeiler (com.sevtinge.hyperceiler), Thanox (github.tornaco.android.thanos), 
+        ShortX (tornaco.apps.shortx), Scene (com.omarea.vtools), 
+        Customiuizer (name.monwf.customiuizer), Codestore Toolkit (com.coderstory.toolkit)
+    • Device ID modification (3):
+        Device ID Changer (com.silverlab.app.deviceidchanger.free), Guise (com.houvven.guise), 
+        IMPad (com.houvven.impad)
+    • Privacy bypass (4):
+        Privacy Space (cn.geektang.privacyspace), Shizuku (moe.shizuku.privileged.api), 
+        Storage Isolation (me.gm.cleaner), Storage Redirect (moe.shizuku.redirectstorage)
+    • Freezer / background (3):
+        Freezer (nep.timeline.freezer), NoActive (cn.myflv.noactive), StopApp (web1n.stopapp)
+    • Terminal / dev (2):
+        Termux (com.termux), ADB Helper (com.didjdk.adbhelper)
+    • Misc (58):
+        IceCore (me.bingyue.IceCore), Dyoo (o.dyoo), Serendipity (com.demo.serendipity), 
+        AutoDaily (me.teble.xposed.autodaily), Portal (moe.fuqiuluo.portal), 
+        XposedSmsCode (com.github.tianma8023.xposed.smscode), HKF (xzr.hkf), 
+        Konabess (xzr.konabess), DataBackup (com.xayah.databackup.foss), 
+        ByYoung Setting (com.byyoung.setting), 
+        Algorithm Aide Pro (com.junge.algorithmAidePro), Atlas Toolbox (tmgp.atlas.toolbox), 
+        NP App (com.wn.app.np), Saas i18n (top.bienvenido.saas.i18n), 
+        QuickPay (com.syyf.quickpay), ShortX Ext (tornaco.apps.shortx.ext), 
+        Mio Kitchen (com.mio.kitchen), XLua (eu.faircode.xlua), DNA Tools (com.dna.tools), 
+        NoActive Monitor (cn.myflv.monitor.noactive), 
+        Card Emulator Pro (com.yuanwofei.cardemulator.pro), Oshin (com.suqi8.oshin), 
+        Wauxv (me.hd.wauxv), Have Fun (have.fun), Miko Client (miko.client), 
+        FCM Fix (com.kooritea.fcmfix), Twifucker (com.twifucker.hachidori), 
+        LuckyTool (com.luckyzyx.luckytool), Lyric Getter (cn.lyric.getter), 
+        MICTS (com.parallelc.micts), Plusne (me.plusne), 
+        App Retention (com.hchen.appretention), Switch Freeform (com.hchen.switchfreeform), 
+        XiaoWine Lyric (cn.aodlyric.xiaowine), RE Telegram (nep.timeline.re_telegram), 
+        Fuck Rimet (com.fuck.android.rimet), Kwai Hook (cn.kwaiching.hook), 
+        Android X (cn.android.x), IAmNotDisabled (cc.aoeiuv020.iamnotdisabled.hook), 
+        Kwai Tao (vn.kwaiching.tao), Plusne (com.nnnen.plusne), HMS Push (one.yufz.hmspush), 
+        XiaoWine (cn.fuckhome.xiaowine), TSBattery (com.fankes.tsbattery), 
+        IAMRKG (com.rkg.IAMRKG), Qute (com.ddm.qute), Anqu (kk.dk.anqu), 
+        QQ Module (com.qq.qcxm), Wei VIP (com.wei.vip), DKNB (dknb.con), DKNB (dknb.coo8), 
+        Jingshi (com.tencent.jingshi), JYNB (com.tencent.JYNB), 
+        Apocalua Run (com.apocalua.run), Oppo Theme (io.github.Retmon403.oppotheme), 
+        High Refresh Rate (com.fankes.enforcehighrefreshrate), 
+        Bootloader Spoofer (es.chiteroman.bootloaderspoofer), 
+        Rescue Plan (com.hchai.rescueplan)
+

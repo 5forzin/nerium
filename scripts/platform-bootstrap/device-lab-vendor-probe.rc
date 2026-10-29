@@ -1,0 +1,9 @@
+service device_lab_vendor_probe /vendor/bin/device-lab-vendor-probe
+    class late_start
+    user nobody
+    group nobody
+    disabled
+    oneshot
+
+on property:sys.boot_completed=1
+    start device_lab_vendor_probe

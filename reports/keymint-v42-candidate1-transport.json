@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "recorded_at": "2026-10-26T22:41:57.5248138+00:00",
+  "phase": "first_hal_candidate",
+  "owner": "candidate1-owner.json",
+  "backend_state": "failed",
+  "connected": true,
+  "completed_frames": 0,
+  "error": "UNEXPECTED_COMMAND_PAYLOAD",
+  "owned_emulator_present": false,
+  "isolated_adb_present": false,
+  "selinux_modified": false,
+  "tests_after_not_run": true
+}

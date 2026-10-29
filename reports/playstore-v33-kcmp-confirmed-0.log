@@ -1,0 +1,2 @@
+--------- beginning of crash
+F/libc    ( 4686): Fatal signal 31 (SIGSYS), code 1 (SYS_SECCOMP), syscall 312 in tid 4686 (boundary-probe), pid 4686 (boundary-probe)

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">CNG Attestation Control</string>
+    <string name="running">Checking software attestation…</string>
+    <string name="complete">Checks passed. The laboratory root is untrusted.</string>
+    <string name="failed">Checks failed. See report.json.</string>
+    <string name="write_failed">Report could not be saved.</string>
+</resources>

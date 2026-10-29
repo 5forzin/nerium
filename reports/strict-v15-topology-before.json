@@ -1,0 +1,44 @@
+{
+  "captured_at": "2026-10-25T01:18:29.1867588+00:00",
+  "observer": "External root observer of the running target mount namespace; not an in-app detector.",
+  "package": "dev.androidlab.probe",
+  "process_id": 6785,
+  "namespace_cpuinfo_processor_ids": [
+    1
+  ],
+  "unscoped_kernel_processor_ids": [
+    0,
+    1
+  ],
+  "online": "0-1",
+  "present": "0-1",
+  "process_affinity": [
+    0,
+    1
+  ],
+  "namespace_cpuinfo": "processor\t: 1\nBogoMIPS\t: 1.00\nFeatures\t: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp\nCPU implementer\t: 0x41\nCPU architecture: 8\nCPU variant\t: 0x6\nCPU part\t: 0x802\nCPU revision\t: 13",
+  "checks": [
+    {
+      "name": "namespace_cpuinfo_matches_online",
+      "passed": false
+    },
+    {
+      "name": "unscoped_kernel_cpuinfo_matches_online_control",
+      "passed": true
+    },
+    {
+      "name": "online_cpus_present_control",
+      "passed": true
+    },
+    {
+      "name": "affinity_subset_of_online_control",
+      "passed": true
+    }
+  ],
+  "summary": {
+    "unavailable": 0,
+    "detected": 1,
+    "total": 4
+  },
+  "scope": "Processor enumeration coherence only. ARM labels remain a native-bridge reference and do not prove physical ARM hardware."
+}

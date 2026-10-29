@@ -1,0 +1,192 @@
+{
+  "schema_version": 1,
+  "recorded_at": "2026-10-26T23:36:04.3603446+00:00",
+  "status": "passed_core_controls_boot_claims_unavailable",
+  "core_controls_passed": true,
+  "before_prefix": "keymint-v42-baseline",
+  "after_prefix": "keymint-v42-verified",
+  "suites": {
+    "arm54": {
+      "before": {
+        "detected": 0,
+        "unavailable": 0,
+        "total": 54
+      },
+      "after": {
+        "detected": 0,
+        "unavailable": 0,
+        "total": 54
+      },
+      "same_apk_abi_checks": true
+    },
+    "raw79": {
+      "before": {
+        "detected": 0,
+        "unavailable": 0,
+        "total": 79
+      },
+      "after": {
+        "detected": 0,
+        "unavailable": 0,
+        "total": 79
+      },
+      "same_apk_abi_checks": true
+    },
+    "proc99": {
+      "before": {
+        "detected": 0,
+        "unavailable": 0,
+        "total": 99
+      },
+      "after": {
+        "detected": 0,
+        "unavailable": 0,
+        "total": 99
+      },
+      "same_apk_abi_checks": true
+    }
+  },
+  "reveny": {
+    "after": 0,
+    "before": 0,
+    "same_apk": true
+  },
+  "keystore": {
+    "protected_rsa_generations": 1,
+    "after": "4/4",
+    "protected_signatures": 1,
+    "before": "4/4",
+    "same_apk": true
+  },
+  "selinux": {
+    "enforcing": true,
+    "loaded_policy_sha256": "725322b8bb21c399e222db65bd9e0ee307a3b603d19d9a3d5f47a93cc8f369c0",
+    "unchanged": true,
+    "context_controls_passed": true
+  },
+  "duck": {
+    "attestation_before": "Software (RootOfTrust availability: true.)",
+    "attestation_after": "Software (RootOfTrust availability: false.)",
+    "original_boot_claims_not_reproduced": true,
+    "same_apk": true,
+    "attestation_collection_regressed": false,
+    "before": {
+      "Danger": 2,
+      "Warning": 1,
+      "Ready": 20,
+      "Pending": 0
+    },
+    "severity_per_module": [
+      {
+        "after": "WARNING",
+        "before": "DANGER",
+        "module": "Bootloader"
+      },
+      {
+        "after": "DANGER",
+        "before": "DANGER",
+        "module": "TEE"
+      },
+      {
+        "after": "WARNING",
+        "before": "WARNING",
+        "module": "ADB Runtime"
+      },
+      {
+        "after": "INFO",
+        "before": "INFO",
+        "module": "Custom ROM"
+      },
+      {
+        "after": "INFO",
+        "before": "INFO",
+        "module": "Dangerous Apps"
+      },
+      {
+        "after": "INFO",
+        "before": "INFO",
+        "module": "Kernel Check"
+      },
+      {
+        "after": "INFO",
+        "before": "INFO",
+        "module": "LSPosed"
+      },
+      {
+        "after": "INFO",
+        "before": "INFO",
+        "module": "Location Risk"
+      },
+      {
+        "after": "INFO",
+        "before": "INFO",
+        "module": "Native Root"
+      },
+      {
+        "after": "INFO",
+        "before": "INFO",
+        "module": "Network Risk"
+      },
+      {
+        "after": "INFO",
+        "before": "INFO",
+        "module": "SU"
+      },
+      {
+        "after": "INFO",
+        "before": "INFO",
+        "module": "System Properties"
+      },
+      {
+        "after": "INFO",
+        "before": "INFO",
+        "module": "Virtualization"
+      },
+      {
+        "after": "INFO",
+        "before": "INFO",
+        "module": "Zygote heap residue"
+      },
+      {
+        "after": "CLEAR",
+        "before": "CLEAR",
+        "module": "Memory"
+      },
+      {
+        "after": "CLEAR",
+        "before": "CLEAR",
+        "module": "Mount"
+      },
+      {
+        "after": "CLEAR",
+        "before": "CLEAR",
+        "module": "Play Integrity Fix"
+      },
+      {
+        "after": "CLEAR",
+        "before": "CLEAR",
+        "module": "Root Managers"
+      },
+      {
+        "after": "CLEAR",
+        "before": "CLEAR",
+        "module": "SELinux"
+      },
+      {
+        "after": "CLEAR",
+        "before": "CLEAR",
+        "module": "Zygisk"
+      }
+    ],
+    "lower_bootloader_signal_count_is_not_a_fix": true,
+    "after": {
+      "Danger": 1,
+      "Warning": 2,
+      "Ready": 20,
+      "Pending": 0
+    }
+  },
+  "android_tee_verified": false,
+  "google_attestation_established": false,
+  "zero_detections_achieved": false
+}

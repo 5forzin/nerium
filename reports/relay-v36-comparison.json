@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "captured_at": "2026-10-26T17:19:11.1053110+00:00",
+  "scope": "Owned APK cooperative relay; worker integrity, not requester integrity",
+  "physical_context": "relay-v36-physical-context.json",
+  "physical_apk": "relay-v36-physical-apk.json",
+  "rules_tests": "relay-v36-rules-tests.json",
+  "physical_integrity": "relay-v36-physical-integrity1.json",
+  "control_integrity": "relay-v36-control-final-integrity.json",
+  "physical_device_labels": [
+    "MEETS_DEVICE_INTEGRITY"
+  ],
+  "control_device_labels": [],
+  "physical_nonce_matches": true,
+  "physical_app_signer_matches_worker": true,
+  "physical_app_recognition": "UNRECOGNIZED_VERSION",
+  "physical_app_licensing": "UNEVALUATED",
+  "echo_samples": 6,
+  "echo_min_ms": 1291,
+  "echo_median_ms": 1331,
+  "echo_p95_nearest_rank_ms": 3171,
+  "echo_max_ms": 3171,
+  "integrity_transport_ms": 3496,
+  "latency_scope": "Host monotonic inbox PUT through terminal observation; excludes CLI/OAuth startup and Google server decode",
+  "requester_integrity_verified": false,
+  "zero_detections_achieved": false,
+  "control_apk": "relay-v36-control-final-apk.json",
+  "same_apk_sha256": "fd74ca1a1f897da21dd35cedd20a963abb0d97105c38640a73f887bd3437217d",
+  "control_integrity_transport_ms": 20482,
+  "control_integrity_worker_ms": 1246,
+  "physical_integrity_worker_ms": 963
+}

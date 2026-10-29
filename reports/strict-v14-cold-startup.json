@@ -1,0 +1,25 @@
+{
+  "events": {
+    "bootstrap_start": {
+      "uptime_s": 29.250004,
+      "log": "[   29.250004] init: starting service 'device_lab_bootstrap'"
+    },
+    "bootstrap_success": {
+      "uptime_s": 30.841833,
+      "log": "[   30.841833] init: Service 'device_lab_bootstrap' (pid 320) exited with status 0"
+    },
+    "zygote_start": {
+      "uptime_s": 35.804746,
+      "log": "[   35.804746] init: starting service 'zygote'"
+    },
+    "network_start": {
+      "uptime_s": 88.549965,
+      "log": "[   88.549965] init: starting service 'device_lab_network'"
+    },
+    "network_success": {
+      "uptime_s": 96.085814,
+      "log": "[   96.085814] init: Service 'device_lab_network' (pid 1329) exited with status 0"
+    }
+  },
+  "bootstrap_completed_before_zygote": true
+}

@@ -1,0 +1,1 @@
+43397 42648 0:19 /magisk64 /system/lib64/libzygisk.solibndk_translation.so ro,relatime - tmpfs magisk rw,seclabel,mode=755

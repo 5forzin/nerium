@@ -1,0 +1,22 @@
+[
+  {
+    "file": "worker-session.json",
+    "status": {
+      "session_id": "d47f8e5a719a48e0b48a1c04d7c8deec",
+      "worker_uid": "worker_0b31db8e84c746b3ab616662",
+      "expires_at_ms": 1793037740896,
+      "revoked": true,
+      "expired": true
+    }
+  },
+  {
+    "file": "worker-session-final.json",
+    "status": {
+      "session_id": "17c4b3bc3d0c475cad14a27f16c51157",
+      "worker_uid": "worker_d43f61a18c6d429d8ad9032a",
+      "expires_at_ms": 1793038339557,
+      "revoked": true,
+      "expired": true
+    }
+  }
+]

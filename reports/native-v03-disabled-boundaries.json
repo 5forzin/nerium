@@ -1,0 +1,12 @@
+{
+  "captured_at": "2026-10-24T15:07:35.3615843Z",
+  "process_id": 4285,
+  "app_mount_namespace": "mnt:[4026532967]",
+  "zygote_mount_namespace": "mnt:[4026532925]",
+  "outside_has_hypervisor": true,
+  "app_namespace_has_hypervisor": true,
+  "outside_hardware": "ranchu",
+  "outside_qemu": "1",
+  "selinux": "Enforcing",
+  "namespace_log": ""
+}

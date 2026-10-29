@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "operation": "play_integrity",
+  "job_id": "2d61e242fdf4463d978240bc96c16746",
+  "session_id": "d47f8e5a719a48e0b48a1c04d7c8deec",
+  "worker_uid": "worker_0b31db8e84c746b3ab616662",
+  "request_sha256": "20bcbc5a01a24ebaadb78b5b7cfdc14768b07c8f5186e8ca42bcbc83516ae8fe",
+  "origin": "cooperative_remote_worker",
+  "requester_integrity_verified": false,
+  "worker_package": "dev.androidlab.relayworker",
+  "created_at_ms": 1793037175227,
+  "expires_at_ms": 1793037292275,
+  "status": "completed",
+  "challenge_sha256": "58add15fc35ffc179c9e967f4e115698c005264df93a310a6b5a76d1bf39a89a",
+  "broker_observed_elapsed_ms": 3230,
+  "broker_observed_completed_at_ms": 1793037178493,
+  "lease_id": "ab3df989b9cd4dfbbad4b5b83987b5a8",
+  "attempt": 1,
+  "worker_execution_state": "completed",
+  "worker_version_code": 1,
+  "worker_apk_cert_sha256": "8da73e88327cb0e66192edff23cda9ab9010590b8f02e66881be7d1f528e14f6",
+  "execution_elapsed_ms": 1485,
+  "completed_at_ms": 1793037183080,
+  "token_sha256": "2215e981b4ef5c8f376f54f66a82a06c52ce34bab738a85f6674d6eac6adeed6",
+  "request_binding": {
+    "nonce_bytes_match": true,
+    "package_matches": true,
+    "timestamp_in_window": true
+  },
+  "nonce_matches": true,
+  "request_timestamp_ms": 1793037182786,
+  "worker_verdict": {
+    "device_integrity": {},
+    "account_details": {
+      "appLicensingVerdict": "UNEVALUATED"
+    },
+    "app_integrity": {
+      "appRecognitionVerdict": "UNEVALUATED"
+    }
+  },
+  "cleanup_state": "completed"
+}

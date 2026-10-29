@@ -1,0 +1,12 @@
+{
+  "captured_at": "2026-10-24T15:14:01.4538892Z",
+  "process_id": 2041,
+  "app_mount_namespace": "mnt:[4026532962]",
+  "zygote_mount_namespace": "mnt:[4026532925]",
+  "outside_has_hypervisor": true,
+  "app_namespace_has_hypervisor": false,
+  "outside_hardware": "ranchu",
+  "outside_qemu": "1",
+  "selinux": "Enforcing",
+  "namespace_log": "--------- beginning of main\n10-24 12:13:55.172  2041  2041 I DeviceLabNamespace: profile mount status=0 pid=2041"
+}

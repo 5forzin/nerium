@@ -1,0 +1,182 @@
+  [✖ DANGER] TEE
+  Verdict      : Hardware-backed local verification was not established
+  Quick Facts  : Verdict: Broken  |  Tier: Software  |  Trust: Factory  |  Score: 26
+
+  [Highlight Signals]
+    • Local chain: Verified
+    • Boot: State only
+    • Signals: 0 policy hard • 2 policy review • 1 local
+    • CRL: Built-in
+
+  [Trust]
+    • Local chain: Verified
+    • Trust root: Factory root
+    • Chain layout: len 3 • ext 1 • trusted #1
+    • RKP: Review provisioning
+    • CRL: Built-in snapshot • clean
+    • Root fingerprint: 925a702d36c9...
+
+  [Attestation]
+    • Tier: Software • attest Software • keymaster Software
+    • Versions: attest 300 • keymaster 300 • Android 14.0.0
+    • Challenge: Matched • len=32, sha256=d375fab17118, b64=HygGQuODnBwHAgYtk5
+    • Verified boot: Unverified • unlocked • 000000000000
+    • Boot consistency: State only • Attestation reported Unverified; AOSP allows an all-zero verifiedBootKey and runtime vbmeta comparison was skipped.
+    • Device IDs: Not included in attestation
+    • Key properties: EC 256 • P-256 • Generated
+    • User auth: No user auth required
+    • Application: 1 package(s) • 1 signer digest(s)
+
+  [Checks]
+    • Indicators: 0 policy hard • 2 policy review • 1 local
+    • Key pair: Skipped
+    • AES-GCM: Skipped
+    • Lifecycle: Skipped
+    • KeyMint crypto: Skipped
+    • Timing: Median n/a
+    • Timing side-channel: Fallback timer • unsupported_abi • attested 0.779ms • non-attested 0.735ms • diff 0.045ms • ratio 1.061x • threshold > 1.1x • failedPairs=0/500 • outlierFiltered=121/500 • samples=379 • Not positive
+    • Oversized challenge: Skipped
+    • TEE Simulator generate-mode fingerprint: TEE Simulator generate-mode fingerprint probe unavailable.
+    • Keybox: Skipped
+    • ImportKey narrative: Unavailable • ImportKey retained attestation narrative probe skipped.
+    • KeyMint VINTF: VINTF declaration did not match attested version. kind=MISMATCH keymasterVersion=300 attestationVersion=300 vintf=android.hardware.security.keymint/IKeyMintDevice/default@2 -> keymaster=200,attestation=200
+    • Cert post-processing: Not enough paired samples were collected to judge certificate post-processing. Skipped because keystore2 has no certificate post-processing call site below Android 15.
+    • RKP manufacturer: Skipped because the chain carried no RKP provisioning manufacturer to cross-check.
+    • Module hash: Unavailable. getSupplementaryAttestationInfo(MODULE_HASH) unavailable: ClassNotFoundException: android.security.keystore.KeyStoreManager kind=UNSUPPORTED
+    • Grant isolated-domain: Unavailable kind=UNAVAILABLE • Grant-domain full-chain split probe skipped.
+    • Grant caller binding: Unavailable kind=UNAVAILABLE • Grant caller-binding private binder probe skipped.
+    • Grant access vector: Unavailable kind=UNAVAILABLE • Grant access-vector private binder probe skipped.
+    • Grant self-domain: Unavailable kind=UNAVAILABLE • Grant self-domain full-chain split probe skipped.
+    • Keystore2: Unavailable
+    • Legacy keystore: Skipped
+    • listEntries: Skipped
+    • listEntriesBatched: Skipped
+    • Metadata key: Skipped
+    • Metadata shape: Skipped
+    • Pure cert: Skipped
+    • Pure cert level: Skipped
+    • Pure cert metadata: Skipped
+    • Operation path: Skipped • Operation error-path probe skipped.
+    • Biometric TEE: Skipped
+    • Binder hook: Skipped
+    • Patch mode: Skipped
+    • Binder chain: Skipped • Binder chain consistency probe skipped.
+    • Update path: Skipped
+    • Update persistence: Unavailable kind=UNAVAILABLE supportGate=false updateSucceeded=false • UpdateSubcomponent stale response persistence probe skipped.
+    • Pruning: Skipped
+    • Dual algorithm: Skipped
+    • ID attestation: Skipped
+    • StrongBox: Not advertised
+    • Native:
+        libbinder.so ioctl GOT entry matched libc. | ioctl prologue matched the on-disk image. | Keystore-style binder honeypot stayed within normal bounds across 3 runs. median_gap=1700ns, gap_mad=0ns, noise_floor=10000ns, median_ratio=120%. Keystore-style binder honeypot timing stayed within normal bounds across redundant backends. asm=med7800ns/mad300ns/p952186300ns, libc=med7600ns/mad0ns/p957800ns, syscall=med7600ns/mad0ns/p957700ns gap=0ns, noise_floor=0ns, ratio=0% timer=clock_monotonic, affinity=unsupported_abi, fallback=arm64 counter timer unavailable on this ABI.
+        0/3 suspicious runs • median gap 1.7us • noise floor 10.0us • median ratio 1.20x
+        clock_monotonic • unsupported_abi
+    • Soter: Soter check skipped because the Treble service was not reachable.
+
+  [Environment & Network]
+    • Network Status    : Built-in revocation snapshot is active; online refresh is awaiting startup consent. This certificate chain is not present in the revocation feed.
+    • Certificate Count : 3
+    • Certificate 1       : Attestation certificate
+        Subject           : DuckDetector Tee
+        Issuer            : 886ec36c4bddf40ba16886c8e35fd020
+        Serial Number     : 6c72b98adc
+        Validity          : 2026-10-24 to 2027-10-24
+        Signature          : SHA256withECDSA
+        Public Key        : 256-bit EC
+    • Certificate 2       : Intermediate 1
+        Subject           : 886ec36c4bddf40ba16886c8e35fd020
+        Issuer            : Droid Unregistered Device CA
+        Serial Number     : 886ec36c4bddf40ba16886c8e35fd020
+        Validity          : 2026-10-22 to 2026-11-07
+        Signature          : SHA256withECDSA
+        Public Key        : 256-bit EC
+    • Certificate 3       : Root certificate
+        Subject           : Droid Unregistered Device CA
+        Issuer            : Droid Unregistered Device CA
+        Serial Number     : 971765792a9ef17851ff9bd55431a97c
+        Validity          : 2026-10-21 to 2027-01-01
+        Signature          : SHA256withECDSA
+        Public Key        : 256-bit EC
+
+  [TEE Detailed Export]
+    Hardware-backed local verification was not established
+    Local verification could not establish hardware-backed trust.
+    
+    Verdict: BROKEN
+    Tier: SOFTWARE
+    Trust root: FACTORY
+    Trust summary: Local trust path: Factory root, chain verified, provisioning needs review
+    Tamper score: 26
+    Evidence count: 56
+    Network: Built-in revocation snapshot is active; online refresh is awaiting startup consent. This certificate chain is not present in the revocation feed.
+    Soter: Soter check skipped because the Treble service was not reachable.
+    
+    Trust
+    - Local chain: Verified
+    - Trust root: Factory root
+    - Chain layout: len 3 • ext 1 • trusted #1
+    - RKP: Review provisioning
+    - CRL: Built-in snapshot • clean
+    - Root fingerprint: 925a702d36c9...
+    
+    Attestation
+    - Tier: Software • attest Software • keymaster Software
+    - Versions: attest 300 • keymaster 300 • Android 14.0.0
+    - Challenge: Matched • len=32, sha256=d375fab17118, b64=HygGQuODnBwHAgYtk5
+    - Verified boot: Unverified • unlocked • 000000000000
+    - Boot consistency: State only • Attestation reported Unverified; AOSP allows an all-zero verifiedBootKey and runtime vbmeta comparison was skipped.
+    - Device IDs: Not included in attestation
+    - Key properties: EC 256 • P-256 • Generated
+    - User auth: No user auth required
+    - Application: 1 package(s) • 1 signer digest(s)
+    
+    Checks
+    - Indicators: 0 policy hard • 2 policy review • 1 local
+    - Key pair: Skipped
+    - AES-GCM: Skipped
+    - Lifecycle: Skipped
+    - KeyMint crypto: Skipped
+    - Timing: Median n/a
+    - Timing side-channel: Fallback timer • unsupported_abi • attested 0.779ms • non-attested 0.735ms • diff 0.045ms • ratio 1.061x • threshold > 1.1x • failedPairs=0/500 • outlierFiltered=121/500 • samples=379 • Not positive
+    - Oversized challenge: Skipped
+    - TEE Simulator generate-mode fingerprint: TEE Simulator generate-mode fingerprint probe unavailable.
+    - Keybox: Skipped
+    - ImportKey narrative: Unavailable • ImportKey retained attestation narrative probe skipped.
+    - KeyMint VINTF: VINTF declaration did not match attested version. kind=MISMATCH keymasterVersion=300 attestationVersion=300 vintf=android.hardware.security.keymint/IKeyMintDevice/default@2 -> keymaster=200,attestation=200
+    - Cert post-processing: Not enough paired samples were collected to judge certificate post-processing. Skipped because keystore2 has no certificate post-processing call site below Android 15.
+    - RKP manufacturer: Skipped because the chain carried no RKP provisioning manufacturer to cross-check.
+    - Module hash: Unavailable. getSupplementaryAttestationInfo(MODULE_HASH) unavailable: ClassNotFoundException: android.security.keystore.KeyStoreManager kind=UNSUPPORTED
+    - Grant isolated-domain: Unavailable kind=UNAVAILABLE • Grant-domain full-chain split probe skipped.
+    - Grant caller binding: Unavailable kind=UNAVAILABLE • Grant caller-binding private binder probe skipped.
+    - Grant access vector: Unavailable kind=UNAVAILABLE • Grant access-vector private binder probe skipped.
+    - Grant self-domain: Unavailable kind=UNAVAILABLE • Grant self-domain full-chain split probe skipped.
+    - Keystore2: Unavailable
+    - Legacy keystore: Skipped
+    - listEntries: Skipped
+    - listEntriesBatched: Skipped
+    - Metadata key: Skipped
+    - Metadata shape: Skipped
+    - Pure cert: Skipped
+    - Pure cert level: Skipped
+    - Pure cert metadata: Skipped
+    - Operation path: Skipped • Operation error-path probe skipped.
+    - Biometric TEE: Skipped
+    - Binder hook: Skipped
+    - Patch mode: Skipped
+    - Binder chain: Skipped • Binder chain consistency probe skipped.
+    - Update path: Skipped
+    - Update persistence: Unavailable kind=UNAVAILABLE supportGate=false updateSucceeded=false • UpdateSubcomponent stale response persistence probe skipped.
+    - Pruning: Skipped
+    - Dual algorithm: Skipped
+    - ID attestation: Skipped
+    - StrongBox: Not advertised
+    - Native: libbinder.so ioctl GOT entry matched libc. | ioctl prologue matched the on-disk image. | Keystore-style binder honeypot stayed within normal bounds across 3 runs. median_gap=1700ns, gap_mad=0ns, noise_floor=10000ns, median_ratio=120%. Keystore-style binder honeypot timing stayed within normal bounds across redundant backends. asm=med7800ns/mad300ns/p952186300ns, libc=med7600ns/mad0ns/p957800ns, syscall=med7600ns/mad0ns/p957700ns gap=0ns, noise_floor=0ns, ratio=0% timer=clock_monotonic, affinity=unsupported_abi, fallback=arm64 counter timer unavailable on this ABI.
+    0/3 suspicious runs • median gap 1.7us • noise floor 10.0us • median ratio 1.20x
+    clock_monotonic • unsupported_abi
+    - Soter: Soter check skipped because the Treble service was not reachable.
+    
+    Certificates
+    - Attestation certificate: DuckDetector Tee -> 886ec36c4bddf40ba16886c8e35fd020
+    - Intermediate 1: 886ec36c4bddf40ba16886c8e35fd020 -> Droid Unregistered Device CA
+    - Root certificate: Droid Unregistered Device CA -> Droid Unregistered Device CA
+

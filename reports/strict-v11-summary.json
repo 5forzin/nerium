@@ -1,0 +1,1606 @@
+{
+  "experiment": "Native runtime migration, actual mount cleanup and policy tightening",
+  "module_version": "0.10.0",
+  "device": "device-lab-numa / emulator-5556",
+  "duck_apk_sha256": "9d0bbdab9c0b14334c9ec0d319758c5f9085260a09388486482b2ac497c81ffc",
+  "duck_installed_abi": "x86_64",
+  "duck": {
+    "baseline": {
+      "report": "strict-v11-duck-before.json",
+      "original_export": "strict-v11-duck-before-export.txt",
+      "export_sha256": "63a55e33c10bea9e61e5205b09eaddbdce1399e5d1b07e72b0aec8dd6835639f",
+      "statistics": {
+        "Danger": 6,
+        "Warning": 6,
+        "Ready": 20,
+        "Pending": 0
+      },
+      "module_verdicts": [
+        {
+          "severity": "DANGER",
+          "detector": "Bootloader",
+          "verdict": "6 critical boot integrity signal(s)"
+        },
+        {
+          "severity": "DANGER",
+          "detector": "Mount",
+          "verdict": "8 critical mount signal(s)"
+        },
+        {
+          "severity": "DANGER",
+          "detector": "Native Root",
+          "verdict": "1 runtime root signal(s)"
+        },
+        {
+          "severity": "DANGER",
+          "detector": "SU",
+          "verdict": "SU binary detected"
+        },
+        {
+          "severity": "DANGER",
+          "detector": "System Properties",
+          "verdict": "1 high-risk property or coherence signal(s)"
+        },
+        {
+          "severity": "DANGER",
+          "detector": "TEE",
+          "verdict": "Hardware-backed local verification was not established"
+        },
+        {
+          "severity": "WARNING",
+          "detector": "ADB Runtime",
+          "verdict": "ADB enabled"
+        },
+        {
+          "severity": "WARNING",
+          "detector": "Dangerous Apps",
+          "verdict": "Platform behavior mismatch observed"
+        },
+        {
+          "severity": "WARNING",
+          "detector": "LSPosed",
+          "verdict": "Dirty SELinux policy signal(s)"
+        },
+        {
+          "severity": "WARNING",
+          "detector": "Root Managers",
+          "verdict": "Root manager apps found"
+        },
+        {
+          "severity": "WARNING",
+          "detector": "SELinux",
+          "verdict": "Enforcing with recognized privileged contexts"
+        },
+        {
+          "severity": "WARNING",
+          "detector": "Zygisk",
+          "verdict": "One heuristic family needs review"
+        },
+        {
+          "severity": "INFO",
+          "detector": "Custom ROM",
+          "verdict": "Custom ROM scan has reduced coverage"
+        },
+        {
+          "severity": "INFO",
+          "detector": "Kernel Check",
+          "verdict": "CVE patch state is informational"
+        },
+        {
+          "severity": "INFO",
+          "detector": "Location Risk",
+          "verdict": "No local contract mismatch observed"
+        },
+        {
+          "severity": "INFO",
+          "detector": "Network Risk",
+          "verdict": "Network context collected"
+        },
+        {
+          "severity": "INFO",
+          "detector": "Virtualization",
+          "verdict": "Virtualization scan has reduced coverage"
+        },
+        {
+          "severity": "INFO",
+          "detector": "Zygote heap residue",
+          "verdict": "No target trace observed"
+        },
+        {
+          "severity": "CLEAR",
+          "detector": "Memory",
+          "verdict": "No hook-like memory signals"
+        },
+        {
+          "severity": "CLEAR",
+          "detector": "Play Integrity Fix",
+          "verdict": "No Play Integrity residue surfaced"
+        }
+      ],
+      "evidence_fields": {
+        "Virtualization": {
+          "Status": "Clean (No findings were produced for this section.)",
+          "Properties and build": "Clean",
+          "Dex and classpath": "Clean",
+          "UID identity": "Clean",
+          "Runtime artifacts": "Clean",
+          "Graphics renderer": "Clean",
+          "Native bridge": "Clean",
+          "Startup preload": "Ready",
+          "Cross-process consistency": "Clean",
+          "Isolated-process consistency": "Clean",
+          "Host apps": "Clean",
+          "Native honeypots": "Clean",
+          "ASM honeypots": "Unsupported",
+          "Sacrificial syscall pack": "Unsupported (Sacrificial syscall pack is only supported on arm64-v8a.)",
+          "Preload context": "Yes",
+          "Cross-process helper": "Ready",
+          "Isolated helper": "Ready",
+          "Package visibility": "Full",
+          "Maps scanned": "2648",
+          "FD entries": "238",
+          "Mountinfo lines": "1088",
+          "EGL renderer": "Ready",
+          "Dex paths": "1",
+          "Dex path hits": "0",
+          "UID identity hits": "0",
+          "Mount namespace": "Ready",
+          "Mount anchor drift": "0",
+          "Environment hits": "0",
+          "Translation hits": "0",
+          "Runtime hits": "0",
+          "Consistency hits": "0",
+          "Isolated consistency": "0",
+          "Honeypot hits": "0",
+          "Syscall pack": "Unsupported",
+          "Syscall pack hits": "0",
+          "Android Virtualization Framework": "https://source.android.com/docs/core/virtualization",
+          "Android Emulator": "https://developer.android.com/studio/run/emulator",
+          "AOSP property_contexts": "https://android.googlesource.com/platform/system/sepolicy/+/refs/heads/main/private/property_contexts"
+        },
+        "Memory": {
+          "Function hooks": "Clean (No suspicious evidence surfaced in this memory slice.)",
+          "Mappings": "Clean (No suspicious evidence surfaced in this memory slice.)",
+          "Loader visibility": "Clean",
+          "GOT/PLT resolution": "Clean",
+          "Entry prologue": "Clean",
+          "maps + smaps": "Clean",
+          "FD-backed code": "Clean",
+          "Signal handlers": "Clean",
+          "Danger findings": "0",
+          "Review findings": "0",
+          "Modified functions": "0",
+          "Native library": "Loaded"
+        },
+        "LSPosed": {
+          "Runtime probes": "Clean (No signal surfaced in this LSPosed evidence slice.)",
+          "Binder probes": "Clean (No signal surfaced in this LSPosed evidence slice.)",
+          "Device Lab Module": "Module",
+          "system_server execmem": "Allowed",
+          "Magisk binder": "Allowed",
+          "Native traces": "Unavailable",
+          "Class load": "Clean",
+          "ClassLoader chain": "Clean",
+          "XposedBridge fields": "Clean",
+          "Package catalog": "Clean",
+          "Xposed meta-data": "1 module(s)",
+          "Stack trace": "Clean",
+          "Hook callbacks": "Clean",
+          "Binder bridge": "Clean",
+          "Zygote permissions": "1 grant(s) clean",
+          "Runtime artifacts": "Clean",
+          "Logcat leaks": "Clean",
+          "Dirty sepolicy": "2 dirty rule(s)",
+          "Native maps": "0",
+          "Native heap": "N/A",
+          "Native library": "Loaded",
+          "Signal summary": "3 weak",
+          "Danger signals": "0",
+          "Review signals": "3",
+          "Class hits": "0",
+          "ClassLoader hits": "0",
+          "Bridge field hits": "0",
+          "Stack hits": "0",
+          "Callback hits": "0",
+          "Binder hits": "0",
+          "Runtime artifact hits": "0",
+          "Runtime artifacts availability": "Checked",
+          "Logcat hits": "0",
+          "Logcat availability": "Checked",
+          "Dirty policy hits": "2",
+          "Dirty policy availability": "Checked",
+          "Manager packages": "0",
+          "Module apps": "1",
+          "Package visibility": "Full"
+        },
+        "Mount": {
+          "Magisk mounts": "/system/bin/magis\u2026 (magisk -> /system/bin/magiskpolicy (tmpfs))",
+          "Status": "Clean (No findings were produced for this section.)",
+          "Root mount artifact": "/system/bin/magis\u2026 (root=/magiskpolicy, source=magisk)",
+          "/data/adb access": "Restricted",
+          "Anonymous device minors": "Gaps observed",
+          "Init namespace access": "Restricted",
+          "Path coverage": "70%",
+          "Root mount propagation": "Private",
+          "statx mount root": "/system/lib64",
+          "Startup preload": "Clean",
+          "Zygote next mount view": "Requires Android 17 (Zygote next native services require Android 17 (API 37).)",
+          "Path probes": "Partial",
+          "Shell tmp view": "Clean",
+          "/proc/self/mounts": "2 hit(s)",
+          "/proc/self/maps": "Unavailable",
+          "/proc/self/mountinfo": "4 hit(s)",
+          "Filesystem probes": "Clean",
+          "statx cross-check": "Mount root",
+          "Preload context": "Fresh",
+          "Preload findings": "0",
+          "Mount entries": "1095",
+          "Mountinfo entries": "1088",
+          "Map lines": "0",
+          "Permission denied": "6",
+          "Coverage": "70%",
+          "Mounts readable": "Yes",
+          "Mountinfo readable": "Yes",
+          "Maps readable": "No",
+          "statx support": "Yes"
+        },
+        "Native Root": {
+          "KSU supercall": "Blocked by seccomp",
+          "KernelSU throne hunt": "open=3 access=0",
+          "Shell tmp inode": "65538",
+          "ksuReadonlySupercall": "Blocked",
+          "__NR_supercall probe": "Unavailable",
+          "kernelpatch superkey": "Unavailable",
+          "devpts permission check": "Clean",
+          "permission boundary check": "Clean",
+          "prctlProbe": "Clean (KernelSU magic prctl probe using option 0xDEADBEEF.)",
+          "susfsSideChannel": "Normal",
+          "selfProcessIoc": "Normal",
+          "isolatedMountDrift": "Clean",
+          "ksuManagerFingerprint": "Clean",
+          "ksuThroneHunt": "3 hit(s)",
+          "runtimeArtifacts": "2 hit(s)",
+          "cgroupLeakage": "Unavailable",
+          "kernelTraces": "Clean",
+          "propertyResidue": "Clean",
+          "tempRootArtifacts": "Clean",
+          "nativeLibrary": "Loaded (JNI-backed native root detection module.)",
+          "signalSummary": "2 indirect",
+          "fsnotifySrcuCloseTiming": "Not requested",
+          "init.rc hook timing": "Unsupported ABI",
+          "Paths checked": "28 \u00b7 11 not observable",
+          "Path hits": "1",
+          "Proc checked": "4",
+          "Proc denied": "2",
+          "Proc hits": "0",
+          "Self context": "u:r:untrusted_app:s0:c203,c256,c512,c768",
+          "Self driver FDs": "0",
+          "Self wrapper FDs": "0",
+          "Main mnt ns": "mnt:[4026532959]",
+          "Isolated mnt ns": "mnt:[4026532939]",
+          "Mount drift hits": "0",
+          "Mount anchor drifts": "0",
+          "Manager package": "Clean",
+          "Manager traits": "N/A",
+          "Throne hunt": "open=3 access=0 (Collection COLLECTED; baseline=1)",
+          "Throne hunt counters": "open=3 access=0 raw=6 invalid=0 baseline=1 (Watch fd=60; stage=READY)",
+          "Cgroup paths": "N/A",
+          "Cgroup visible": "N/A",
+          "Cgroup proc": "N/A",
+          "Cgroup denied": "N/A",
+          "Cgroup hits": "N/A",
+          "Kernel sources": "3",
+          "Kernel hits": "0",
+          "Properties checked": "5",
+          "Property hits": "0",
+          "Temp root checked": "22",
+          "Temp root hits": "0",
+          "Native library": "Loaded"
+        }
+      },
+      "trusted_java_policy_oracle": true,
+      "active_throne_watch": true,
+      "throne_watch_ready": true
+    },
+    "default_configuration": {
+      "report": "strict-v11-duck-unrestricted-stable.json",
+      "original_export": "strict-v11-duck-unrestricted-stable-export.txt",
+      "export_sha256": "47097dd64d7bb99939b7bed247561d71870828895cdbad00f98e3ef4d1f1f363",
+      "statistics": {
+        "Danger": 3,
+        "Warning": 7,
+        "Ready": 20,
+        "Pending": 0
+      },
+      "module_verdicts": [
+        {
+          "severity": "DANGER",
+          "detector": "Bootloader",
+          "verdict": "6 critical boot integrity signal(s)"
+        },
+        {
+          "severity": "DANGER",
+          "detector": "Mount",
+          "verdict": "1 critical mount signal(s)"
+        },
+        {
+          "severity": "DANGER",
+          "detector": "TEE",
+          "verdict": "Hardware-backed local verification was not established"
+        },
+        {
+          "severity": "WARNING",
+          "detector": "ADB Runtime",
+          "verdict": "ADB enabled"
+        },
+        {
+          "severity": "WARNING",
+          "detector": "Dangerous Apps",
+          "verdict": "Platform behavior mismatch observed"
+        },
+        {
+          "severity": "WARNING",
+          "detector": "Native Root",
+          "verdict": "1 native signal(s) need review"
+        },
+        {
+          "severity": "WARNING",
+          "detector": "Root Managers",
+          "verdict": "Root manager apps found"
+        },
+        {
+          "severity": "WARNING",
+          "detector": "SELinux",
+          "verdict": "Enforcing with recognized privileged contexts"
+        },
+        {
+          "severity": "WARNING",
+          "detector": "System Properties",
+          "verdict": "1 property signal(s) need review"
+        },
+        {
+          "severity": "WARNING",
+          "detector": "Zygisk",
+          "verdict": "One heuristic family needs review"
+        },
+        {
+          "severity": "INFO",
+          "detector": "Custom ROM",
+          "verdict": "Custom ROM scan has reduced coverage"
+        },
+        {
+          "severity": "INFO",
+          "detector": "Kernel Check",
+          "verdict": "CVE patch state is informational"
+        },
+        {
+          "severity": "INFO",
+          "detector": "LSPosed",
+          "verdict": "LSPosed scan has reduced coverage"
+        },
+        {
+          "severity": "INFO",
+          "detector": "Location Risk",
+          "verdict": "No local contract mismatch observed"
+        },
+        {
+          "severity": "INFO",
+          "detector": "Network Risk",
+          "verdict": "Network context collected"
+        },
+        {
+          "severity": "INFO",
+          "detector": "SU",
+          "verdict": "No root indicators"
+        },
+        {
+          "severity": "INFO",
+          "detector": "Virtualization",
+          "verdict": "Virtualization scan has reduced coverage"
+        },
+        {
+          "severity": "INFO",
+          "detector": "Zygote heap residue",
+          "verdict": "No target trace observed"
+        },
+        {
+          "severity": "CLEAR",
+          "detector": "Memory",
+          "verdict": "No hook-like memory signals"
+        },
+        {
+          "severity": "CLEAR",
+          "detector": "Play Integrity Fix",
+          "verdict": "No Play Integrity residue surfaced"
+        }
+      ],
+      "evidence_fields": {
+        "Virtualization": {
+          "Status": "Clean (No findings were produced for this section.)",
+          "Properties and build": "Clean",
+          "Dex and classpath": "Clean",
+          "UID identity": "Clean",
+          "Runtime artifacts": "Clean",
+          "Graphics renderer": "Clean",
+          "Native bridge": "Clean",
+          "Startup preload": "Ready",
+          "Cross-process consistency": "Clean",
+          "Isolated-process consistency": "Unavailable (Virtualization helper process timed out.)",
+          "Host apps": "Clean",
+          "Native honeypots": "Clean",
+          "ASM honeypots": "Unsupported",
+          "Sacrificial syscall pack": "Unsupported (Sacrificial syscall pack is only supported on arm64-v8a.)",
+          "Preload context": "Yes",
+          "Cross-process helper": "Ready",
+          "Isolated helper": "Unavailable",
+          "Package visibility": "Full",
+          "Maps scanned": "2670",
+          "FD entries": "244",
+          "Mountinfo lines": "124",
+          "EGL renderer": "Ready",
+          "Dex paths": "1",
+          "Dex path hits": "0",
+          "UID identity hits": "0",
+          "Mount namespace": "Ready",
+          "Mount anchor drift": "0",
+          "Environment hits": "0",
+          "Translation hits": "0",
+          "Runtime hits": "0",
+          "Consistency hits": "0",
+          "Isolated consistency": "0",
+          "Honeypot hits": "0",
+          "Syscall pack": "Unsupported",
+          "Syscall pack hits": "0",
+          "Android Virtualization Framework": "https://source.android.com/docs/core/virtualization",
+          "Android Emulator": "https://developer.android.com/studio/run/emulator",
+          "AOSP property_contexts": "https://android.googlesource.com/platform/system/sepolicy/+/refs/heads/main/private/property_contexts"
+        },
+        "Memory": {
+          "Function hooks": "Clean (No suspicious evidence surfaced in this memory slice.)",
+          "Mappings": "Clean (No suspicious evidence surfaced in this memory slice.)",
+          "Loader visibility": "Clean",
+          "GOT/PLT resolution": "Clean",
+          "Entry prologue": "Clean",
+          "maps + smaps": "Clean",
+          "FD-backed code": "Clean",
+          "Signal handlers": "Clean",
+          "Danger findings": "0",
+          "Review findings": "0",
+          "Modified functions": "0",
+          "Native library": "Loaded"
+        },
+        "LSPosed": {
+          "Runtime probes": "Clean (No signal surfaced in this LSPosed evidence slice.)",
+          "Binder probes": "Clean (No signal surfaced in this LSPosed evidence slice.)",
+          "Packages": "Clean (No signal surfaced in this LSPosed evidence slice.)",
+          "SELinux policy": "Clean (No signal surfaced in this LSPosed evidence slice.)",
+          "Native traces": "Unavailable",
+          "Class load": "Clean",
+          "ClassLoader chain": "Clean",
+          "XposedBridge fields": "Clean",
+          "Package catalog": "Clean",
+          "Xposed meta-data": "Clean",
+          "Stack trace": "Clean",
+          "Hook callbacks": "Clean",
+          "Binder bridge": "Clean",
+          "Zygote permissions": "1 grant(s) clean",
+          "Runtime artifacts": "Clean",
+          "Logcat leaks": "Clean",
+          "Dirty sepolicy": "Clean",
+          "Native maps": "0",
+          "Native heap": "N/A",
+          "Native library": "Loaded",
+          "Signal summary": "Partial",
+          "Danger signals": "0",
+          "Review signals": "0",
+          "Class hits": "0",
+          "ClassLoader hits": "0",
+          "Bridge field hits": "0",
+          "Stack hits": "0",
+          "Callback hits": "0",
+          "Binder hits": "0",
+          "Runtime artifact hits": "0",
+          "Runtime artifacts availability": "Checked",
+          "Logcat hits": "0",
+          "Logcat availability": "Checked",
+          "Dirty policy hits": "0",
+          "Dirty policy availability": "Checked",
+          "Manager packages": "0",
+          "Module apps": "0",
+          "Package visibility": "Full"
+        },
+        "Mount": {
+          "Status": "Clean (No findings were produced for this section.)",
+          "/data/adb access": "Restricted",
+          "Anonymous device minors": "No gaps observed",
+          "Init namespace access": "Restricted",
+          "Path coverage": "70%",
+          "Root mount propagation": "Private",
+          "statx mount root": "/data/data",
+          "Startup preload": "Clean",
+          "Zygote next mount view": "Requires Android 17 (Zygote next native services require Android 17 (API 37).)",
+          "Path probes": "Partial",
+          "Shell tmp view": "Clean",
+          "/proc/self/mounts": "Clean",
+          "/proc/self/maps": "Unavailable",
+          "/proc/self/mountinfo": "Observation",
+          "Filesystem probes": "Clean",
+          "statx cross-check": "Mount root",
+          "Preload context": "Stale",
+          "Preload findings": "0",
+          "Mount entries": "131",
+          "Mountinfo entries": "124",
+          "Map lines": "0",
+          "Permission denied": "6",
+          "Coverage": "70%",
+          "Mounts readable": "Yes",
+          "Mountinfo readable": "Yes",
+          "Maps readable": "No",
+          "statx support": "Yes"
+        },
+        "Native Root": {
+          "KSU supercall": "Blocked by seccomp",
+          "Shell tmp inode": "65538",
+          "ksuReadonlySupercall": "Blocked",
+          "__NR_supercall probe": "Unavailable",
+          "kernelpatch superkey": "Unavailable",
+          "devpts permission check": "Clean",
+          "permission boundary check": "Clean",
+          "prctlProbe": "Clean (KernelSU magic prctl probe using option 0xDEADBEEF.)",
+          "susfsSideChannel": "Normal",
+          "selfProcessIoc": "Normal",
+          "isolatedMountDrift": "Clean",
+          "ksuManagerFingerprint": "Clean",
+          "ksuThroneHunt": "Clean",
+          "runtimeArtifacts": "1 hit(s)",
+          "cgroupLeakage": "Unavailable",
+          "kernelTraces": "Clean",
+          "propertyResidue": "Clean",
+          "tempRootArtifacts": "Clean",
+          "nativeLibrary": "Loaded (JNI-backed native root detection module.)",
+          "signalSummary": "1 indirect",
+          "fsnotifySrcuCloseTiming": "Not requested",
+          "init.rc hook timing": "Unsupported ABI",
+          "Paths checked": "28 \u00b7 11 not observable",
+          "Path hits": "1",
+          "Proc checked": "3",
+          "Proc denied": "0",
+          "Proc hits": "0",
+          "Self context": "u:r:untrusted_app:s0:c203,c256,c512,c768",
+          "Self driver FDs": "0",
+          "Self wrapper FDs": "0",
+          "Main mnt ns": "mnt:[4026532954]",
+          "Isolated mnt ns": "mnt:[4026532995]",
+          "Mount drift hits": "0",
+          "Mount anchor drifts": "0",
+          "Manager package": "Clean",
+          "Manager traits": "N/A",
+          "Throne hunt": "Clean (Collection COLLECTED; baseline=0)",
+          "Throne hunt counters": "open=0 access=0 raw=8 invalid=0 baseline=0 (Watch fd=60; stage=READY)",
+          "Cgroup paths": "N/A",
+          "Cgroup visible": "N/A",
+          "Cgroup proc": "N/A",
+          "Cgroup denied": "N/A",
+          "Cgroup hits": "N/A",
+          "Kernel sources": "3",
+          "Kernel hits": "0",
+          "Properties checked": "5",
+          "Property hits": "0",
+          "Temp root checked": "22",
+          "Temp root hits": "0",
+          "Native library": "Loaded"
+        }
+      },
+      "trusted_java_policy_oracle": true,
+      "active_throne_watch": true,
+      "throne_watch_ready": true
+    },
+    "default_configuration_with_ready_helpers": {
+      "report": "strict-v11-duck-paths.json",
+      "original_export": "strict-v11-duck-paths-export.txt",
+      "export_sha256": "6a257b5db411ec4fc1bc3548bdd77310e134ebf7bf034775dfa100db48765652",
+      "statistics": {
+        "Danger": 3,
+        "Warning": 7,
+        "Ready": 20,
+        "Pending": 0
+      },
+      "module_verdicts": [
+        {
+          "severity": "DANGER",
+          "detector": "Bootloader",
+          "verdict": "6 critical boot integrity signal(s)"
+        },
+        {
+          "severity": "DANGER",
+          "detector": "Mount",
+          "verdict": "1 critical mount signal(s)"
+        },
+        {
+          "severity": "DANGER",
+          "detector": "TEE",
+          "verdict": "Hardware-backed local verification was not established"
+        },
+        {
+          "severity": "WARNING",
+          "detector": "ADB Runtime",
+          "verdict": "ADB enabled"
+        },
+        {
+          "severity": "WARNING",
+          "detector": "Dangerous Apps",
+          "verdict": "Platform behavior mismatch observed"
+        },
+        {
+          "severity": "WARNING",
+          "detector": "Native Root",
+          "verdict": "1 native signal(s) need review"
+        },
+        {
+          "severity": "WARNING",
+          "detector": "Root Managers",
+          "verdict": "Root manager apps found"
+        },
+        {
+          "severity": "WARNING",
+          "detector": "SELinux",
+          "verdict": "Enforcing with recognized privileged contexts"
+        },
+        {
+          "severity": "WARNING",
+          "detector": "System Properties",
+          "verdict": "1 property signal(s) need review"
+        },
+        {
+          "severity": "WARNING",
+          "detector": "Zygisk",
+          "verdict": "One heuristic family needs review"
+        },
+        {
+          "severity": "INFO",
+          "detector": "Custom ROM",
+          "verdict": "Custom ROM scan has reduced coverage"
+        },
+        {
+          "severity": "INFO",
+          "detector": "Kernel Check",
+          "verdict": "CVE patch state is informational"
+        },
+        {
+          "severity": "INFO",
+          "detector": "LSPosed",
+          "verdict": "LSPosed scan has reduced coverage"
+        },
+        {
+          "severity": "INFO",
+          "detector": "Location Risk",
+          "verdict": "No local contract mismatch observed"
+        },
+        {
+          "severity": "INFO",
+          "detector": "Network Risk",
+          "verdict": "Network context collected"
+        },
+        {
+          "severity": "INFO",
+          "detector": "SU",
+          "verdict": "No root indicators"
+        },
+        {
+          "severity": "INFO",
+          "detector": "Virtualization",
+          "verdict": "Virtualization scan has reduced coverage"
+        },
+        {
+          "severity": "INFO",
+          "detector": "Zygote heap residue",
+          "verdict": "No target trace observed"
+        },
+        {
+          "severity": "CLEAR",
+          "detector": "Memory",
+          "verdict": "No hook-like memory signals"
+        },
+        {
+          "severity": "CLEAR",
+          "detector": "Play Integrity Fix",
+          "verdict": "No Play Integrity residue surfaced"
+        }
+      ],
+      "evidence_fields": {
+        "Virtualization": {
+          "Status": "Clean (No findings were produced for this section.)",
+          "Properties and build": "Clean",
+          "Dex and classpath": "Clean",
+          "UID identity": "Clean",
+          "Runtime artifacts": "Clean",
+          "Graphics renderer": "Clean",
+          "Native bridge": "Clean",
+          "Startup preload": "Ready",
+          "Cross-process consistency": "Clean",
+          "Isolated-process consistency": "Clean",
+          "Host apps": "Clean",
+          "Native honeypots": "Clean",
+          "ASM honeypots": "Unsupported",
+          "Sacrificial syscall pack": "Unsupported (Sacrificial syscall pack is only supported on arm64-v8a.)",
+          "Preload context": "Yes",
+          "Cross-process helper": "Ready",
+          "Isolated helper": "Ready",
+          "Package visibility": "Full",
+          "Maps scanned": "2676",
+          "FD entries": "246",
+          "Mountinfo lines": "124",
+          "EGL renderer": "Ready",
+          "Dex paths": "1",
+          "Dex path hits": "0",
+          "UID identity hits": "0",
+          "Mount namespace": "Ready",
+          "Mount anchor drift": "0",
+          "Environment hits": "0",
+          "Translation hits": "0",
+          "Runtime hits": "0",
+          "Consistency hits": "0",
+          "Isolated consistency": "0",
+          "Honeypot hits": "0",
+          "Syscall pack": "Unsupported",
+          "Syscall pack hits": "0",
+          "Android Virtualization Framework": "https://source.android.com/docs/core/virtualization",
+          "Android Emulator": "https://developer.android.com/studio/run/emulator",
+          "AOSP property_contexts": "https://android.googlesource.com/platform/system/sepolicy/+/refs/heads/main/private/property_contexts"
+        },
+        "Memory": {
+          "Function hooks": "Clean (No suspicious evidence surfaced in this memory slice.)",
+          "Mappings": "Clean (No suspicious evidence surfaced in this memory slice.)",
+          "Loader visibility": "Clean",
+          "GOT/PLT resolution": "Clean",
+          "Entry prologue": "Clean",
+          "maps + smaps": "Clean",
+          "FD-backed code": "Clean",
+          "Signal handlers": "Clean",
+          "Danger findings": "0",
+          "Review findings": "0",
+          "Modified functions": "0",
+          "Native library": "Loaded"
+        },
+        "LSPosed": {
+          "Runtime probes": "Clean (No signal surfaced in this LSPosed evidence slice.)",
+          "Binder probes": "Clean (No signal surfaced in this LSPosed evidence slice.)",
+          "Packages": "Clean (No signal surfaced in this LSPosed evidence slice.)",
+          "SELinux policy": "Clean (No signal surfaced in this LSPosed evidence slice.)",
+          "Native traces": "Unavailable",
+          "Class load": "Clean",
+          "ClassLoader chain": "Clean",
+          "XposedBridge fields": "Clean",
+          "Package catalog": "Clean",
+          "Xposed meta-data": "Clean",
+          "Stack trace": "Clean",
+          "Hook callbacks": "Clean",
+          "Binder bridge": "Clean",
+          "Zygote permissions": "1 grant(s) clean",
+          "Runtime artifacts": "Clean",
+          "Logcat leaks": "Clean",
+          "Dirty sepolicy": "Clean",
+          "Native maps": "0",
+          "Native heap": "N/A",
+          "Native library": "Loaded",
+          "Signal summary": "Partial",
+          "Danger signals": "0",
+          "Review signals": "0",
+          "Class hits": "0",
+          "ClassLoader hits": "0",
+          "Bridge field hits": "0",
+          "Stack hits": "0",
+          "Callback hits": "0",
+          "Binder hits": "0",
+          "Runtime artifact hits": "0",
+          "Runtime artifacts availability": "Checked",
+          "Logcat hits": "0",
+          "Logcat availability": "Checked",
+          "Dirty policy hits": "0",
+          "Dirty policy availability": "Checked",
+          "Manager packages": "0",
+          "Module apps": "0",
+          "Package visibility": "Full"
+        },
+        "Mount": {
+          "Status": "Clean (No findings were produced for this section.)",
+          "/data/adb access": "Restricted",
+          "Anonymous device minors": "No gaps observed",
+          "Init namespace access": "Restricted",
+          "Path coverage": "70%",
+          "Root mount propagation": "Private",
+          "statx mount root": "/data/data",
+          "Startup preload": "Clean",
+          "Zygote next mount view": "Requires Android 17 (Zygote next native services require Android 17 (API 37).)",
+          "Path probes": "Partial",
+          "Shell tmp view": "Clean",
+          "/proc/self/mounts": "Clean",
+          "/proc/self/maps": "Unavailable",
+          "/proc/self/mountinfo": "Observation",
+          "Filesystem probes": "Clean",
+          "statx cross-check": "Mount root",
+          "Preload context": "Stale",
+          "Preload findings": "0",
+          "Mount entries": "131",
+          "Mountinfo entries": "124",
+          "Map lines": "0",
+          "Permission denied": "6",
+          "Coverage": "70%",
+          "Mounts readable": "Yes",
+          "Mountinfo readable": "Yes",
+          "Maps readable": "No",
+          "statx support": "Yes"
+        },
+        "Native Root": {
+          "KSU supercall": "Blocked by seccomp",
+          "Shell tmp inode": "65538",
+          "ksuReadonlySupercall": "Blocked",
+          "__NR_supercall probe": "Unavailable",
+          "kernelpatch superkey": "Unavailable",
+          "devpts permission check": "Clean",
+          "permission boundary check": "Clean",
+          "prctlProbe": "Clean (KernelSU magic prctl probe using option 0xDEADBEEF.)",
+          "susfsSideChannel": "Normal",
+          "selfProcessIoc": "Normal",
+          "isolatedMountDrift": "Clean",
+          "ksuManagerFingerprint": "Clean",
+          "ksuThroneHunt": "Clean",
+          "runtimeArtifacts": "1 hit(s)",
+          "cgroupLeakage": "Unavailable",
+          "kernelTraces": "Clean",
+          "propertyResidue": "Clean",
+          "tempRootArtifacts": "Clean",
+          "nativeLibrary": "Loaded (JNI-backed native root detection module.)",
+          "signalSummary": "1 indirect",
+          "fsnotifySrcuCloseTiming": "Not requested",
+          "init.rc hook timing": "Unsupported ABI",
+          "Paths checked": "28 \u00b7 11 not observable",
+          "Path hits": "1",
+          "Proc checked": "9",
+          "Proc denied": "0",
+          "Proc hits": "0",
+          "Self context": "u:r:untrusted_app:s0:c203,c256,c512,c768",
+          "Self driver FDs": "0",
+          "Self wrapper FDs": "0",
+          "Main mnt ns": "mnt:[4026532994]",
+          "Isolated mnt ns": "mnt:[4026532999]",
+          "Mount drift hits": "0",
+          "Mount anchor drifts": "0",
+          "Manager package": "Clean",
+          "Manager traits": "N/A",
+          "Throne hunt": "Clean (Collection COLLECTED; baseline=0)",
+          "Throne hunt counters": "open=0 access=0 raw=1 invalid=0 baseline=0 (Watch fd=60; stage=READY)",
+          "Cgroup paths": "N/A",
+          "Cgroup visible": "N/A",
+          "Cgroup proc": "N/A",
+          "Cgroup denied": "N/A",
+          "Cgroup hits": "N/A",
+          "Kernel sources": "3",
+          "Kernel hits": "0",
+          "Properties checked": "5",
+          "Property hits": "0",
+          "Temp root checked": "22",
+          "Temp root hits": "0",
+          "Native library": "Loaded"
+        }
+      },
+      "trusted_java_policy_oracle": true,
+      "active_throne_watch": true,
+      "throne_watch_ready": true
+    },
+    "restricted_isolated_proc_trial": {
+      "report": "strict-v11-duck-restricted.json",
+      "original_export": "strict-v11-duck-restricted-export.txt",
+      "export_sha256": "305dadcedcb4c17d187a8ebdc9ddbc123682ddaecae52ce7b60f80597f06e5d3",
+      "statistics": {
+        "Danger": 2,
+        "Warning": 8,
+        "Ready": 20,
+        "Pending": 0
+      },
+      "module_verdicts": [
+        {
+          "severity": "DANGER",
+          "detector": "Bootloader",
+          "verdict": "6 critical boot integrity signal(s)"
+        },
+        {
+          "severity": "DANGER",
+          "detector": "TEE",
+          "verdict": "Hardware-backed local verification was not established"
+        },
+        {
+          "severity": "WARNING",
+          "detector": "ADB Runtime",
+          "verdict": "ADB enabled"
+        },
+        {
+          "severity": "WARNING",
+          "detector": "Dangerous Apps",
+          "verdict": "Platform behavior mismatch observed"
+        },
+        {
+          "severity": "WARNING",
+          "detector": "Memory",
+          "verdict": "Runtime memory needs review"
+        },
+        {
+          "severity": "WARNING",
+          "detector": "Native Root",
+          "verdict": "1 native signal(s) need review"
+        },
+        {
+          "severity": "WARNING",
+          "detector": "Root Managers",
+          "verdict": "Root manager apps found"
+        },
+        {
+          "severity": "WARNING",
+          "detector": "SELinux",
+          "verdict": "Enforcing with recognized privileged contexts"
+        },
+        {
+          "severity": "WARNING",
+          "detector": "System Properties",
+          "verdict": "1 property signal(s) need review"
+        },
+        {
+          "severity": "WARNING",
+          "detector": "Zygisk",
+          "verdict": "One heuristic family needs review"
+        },
+        {
+          "severity": "INFO",
+          "detector": "Custom ROM",
+          "verdict": "Custom ROM scan has reduced coverage"
+        },
+        {
+          "severity": "INFO",
+          "detector": "Kernel Check",
+          "verdict": "CVE patch state is informational"
+        },
+        {
+          "severity": "INFO",
+          "detector": "LSPosed",
+          "verdict": "LSPosed scan has reduced coverage"
+        },
+        {
+          "severity": "INFO",
+          "detector": "Location Risk",
+          "verdict": "No local contract mismatch observed"
+        },
+        {
+          "severity": "INFO",
+          "detector": "Network Risk",
+          "verdict": "Network context collected"
+        },
+        {
+          "severity": "INFO",
+          "detector": "SU",
+          "verdict": "No root indicators"
+        },
+        {
+          "severity": "INFO",
+          "detector": "Virtualization",
+          "verdict": "Virtualization scan has reduced coverage"
+        },
+        {
+          "severity": "INFO",
+          "detector": "Zygote heap residue",
+          "verdict": "No target trace observed"
+        },
+        {
+          "severity": "CLEAR",
+          "detector": "Mount",
+          "verdict": "No suspicious mount-layer signal"
+        },
+        {
+          "severity": "CLEAR",
+          "detector": "Play Integrity Fix",
+          "verdict": "No Play Integrity residue surfaced"
+        }
+      ],
+      "evidence_fields": {
+        "Virtualization": {
+          "Status": "Clean (No findings were produced for this section.)",
+          "Properties and build": "Clean",
+          "Dex and classpath": "Clean",
+          "UID identity": "Clean",
+          "Runtime artifacts": "Clean",
+          "Graphics renderer": "Clean",
+          "Native bridge": "Clean",
+          "Startup preload": "Ready",
+          "Cross-process consistency": "Clean",
+          "Isolated-process consistency": "Clean",
+          "Host apps": "Clean",
+          "Native honeypots": "Clean",
+          "ASM honeypots": "Unsupported",
+          "Sacrificial syscall pack": "Unsupported (Sacrificial syscall pack is only supported on arm64-v8a.)",
+          "Preload context": "Yes",
+          "Cross-process helper": "Ready",
+          "Isolated helper": "Ready",
+          "Package visibility": "Full",
+          "Maps scanned": "2681",
+          "FD entries": "246",
+          "Mountinfo lines": "124",
+          "EGL renderer": "Ready",
+          "Dex paths": "1",
+          "Dex path hits": "0",
+          "UID identity hits": "0",
+          "Mount namespace": "Ready",
+          "Mount anchor drift": "0",
+          "Environment hits": "0",
+          "Translation hits": "0",
+          "Runtime hits": "0",
+          "Consistency hits": "0",
+          "Isolated consistency": "0",
+          "Honeypot hits": "0",
+          "Syscall pack": "Unsupported",
+          "Syscall pack hits": "0",
+          "Android Virtualization Framework": "https://source.android.com/docs/core/virtualization",
+          "Android Emulator": "https://developer.android.com/studio/run/emulator",
+          "AOSP property_contexts": "https://android.googlesource.com/platform/system/sepolicy/+/refs/heads/main/private/property_contexts"
+        },
+        "Memory": {
+          "Function hooks": "Clean (No suspicious evidence surfaced in this memory slice.)",
+          "Mappings": "Clean (No suspicious evidence surfaced in this memory slice.)",
+          "Maps-only module": "Review",
+          "GOT/PLT resolution": "Clean",
+          "Entry prologue": "Clean",
+          "maps + smaps": "Clean",
+          "FD-backed code": "Clean",
+          "Signal handlers": "Clean",
+          "Loader visibility": "Review",
+          "Danger findings": "0",
+          "Review findings": "1",
+          "Modified functions": "0",
+          "Native library": "Loaded"
+        },
+        "LSPosed": {
+          "Runtime probes": "Clean (No signal surfaced in this LSPosed evidence slice.)",
+          "Binder probes": "Clean (No signal surfaced in this LSPosed evidence slice.)",
+          "Packages": "Clean (No signal surfaced in this LSPosed evidence slice.)",
+          "SELinux policy": "Clean (No signal surfaced in this LSPosed evidence slice.)",
+          "Native traces": "Unavailable",
+          "Class load": "Clean",
+          "ClassLoader chain": "Clean",
+          "XposedBridge fields": "Clean",
+          "Package catalog": "Clean",
+          "Xposed meta-data": "Clean",
+          "Stack trace": "Clean",
+          "Hook callbacks": "Clean",
+          "Binder bridge": "Clean",
+          "Zygote permissions": "1 grant(s) clean",
+          "Runtime artifacts": "Clean",
+          "Logcat leaks": "Clean",
+          "Dirty sepolicy": "Clean",
+          "Native maps": "0",
+          "Native heap": "N/A",
+          "Native library": "Loaded",
+          "Signal summary": "Partial",
+          "Danger signals": "0",
+          "Review signals": "0",
+          "Class hits": "0",
+          "ClassLoader hits": "0",
+          "Bridge field hits": "0",
+          "Stack hits": "0",
+          "Callback hits": "0",
+          "Binder hits": "0",
+          "Runtime artifact hits": "0",
+          "Runtime artifacts availability": "Checked",
+          "Logcat hits": "0",
+          "Logcat availability": "Checked",
+          "Dirty policy hits": "0",
+          "Dirty policy availability": "Checked",
+          "Manager packages": "0",
+          "Module apps": "0",
+          "Package visibility": "Full"
+        },
+        "Mount": {
+          "Status": "Clean (No findings were produced for this section.)",
+          "/data/adb access": "Restricted",
+          "Anonymous device minors": "No gaps observed",
+          "Init namespace access": "Restricted",
+          "Path coverage": "70%",
+          "Root mount propagation": "Private",
+          "statx mount root": "/data/data",
+          "Startup preload": "Clean",
+          "Zygote next mount view": "Requires Android 17 (Zygote next native services require Android 17 (API 37).)",
+          "Path probes": "Partial",
+          "Shell tmp view": "Clean",
+          "/proc/self/mounts": "Clean",
+          "/proc/self/maps": "Unavailable",
+          "/proc/self/mountinfo": "Observation",
+          "Filesystem probes": "Clean",
+          "statx cross-check": "Mount root",
+          "Preload context": "Fresh",
+          "Preload findings": "0",
+          "Mount entries": "131",
+          "Mountinfo entries": "124",
+          "Map lines": "0",
+          "Permission denied": "6",
+          "Coverage": "70%",
+          "Mounts readable": "Yes",
+          "Mountinfo readable": "Yes",
+          "Maps readable": "No",
+          "statx support": "Yes"
+        },
+        "Native Root": {
+          "KSU supercall": "Blocked by seccomp",
+          "Shell tmp inode": "65538",
+          "ksuReadonlySupercall": "Blocked",
+          "__NR_supercall probe": "Unavailable",
+          "kernelpatch superkey": "Unavailable",
+          "devpts permission check": "Clean",
+          "permission boundary check": "Clean",
+          "prctlProbe": "Clean (KernelSU magic prctl probe using option 0xDEADBEEF.)",
+          "susfsSideChannel": "Normal",
+          "selfProcessIoc": "Normal",
+          "isolatedMountDrift": "Clean",
+          "ksuManagerFingerprint": "Clean",
+          "ksuThroneHunt": "Clean",
+          "runtimeArtifacts": "1 hit(s)",
+          "cgroupLeakage": "Unavailable",
+          "kernelTraces": "Clean",
+          "propertyResidue": "Clean",
+          "tempRootArtifacts": "Clean",
+          "nativeLibrary": "Loaded (JNI-backed native root detection module.)",
+          "signalSummary": "1 indirect",
+          "fsnotifySrcuCloseTiming": "Not requested",
+          "init.rc hook timing": "Unsupported ABI",
+          "Paths checked": "28 \u00b7 11 not observable",
+          "Path hits": "1",
+          "Proc checked": "6",
+          "Proc denied": "0",
+          "Proc hits": "0",
+          "Self context": "u:r:untrusted_app:s0:c203,c256,c512,c768",
+          "Self driver FDs": "0",
+          "Self wrapper FDs": "0",
+          "Main mnt ns": "mnt:[4026532954]",
+          "Isolated mnt ns": "mnt:[4026533001]",
+          "Mount drift hits": "0",
+          "Mount anchor drifts": "0",
+          "Manager package": "Clean",
+          "Manager traits": "N/A",
+          "Throne hunt": "Clean (Collection COLLECTED; baseline=0)",
+          "Throne hunt counters": "open=0 access=0 raw=1 invalid=0 baseline=0 (Watch fd=60; stage=READY)",
+          "Cgroup paths": "N/A",
+          "Cgroup visible": "N/A",
+          "Cgroup proc": "N/A",
+          "Cgroup denied": "N/A",
+          "Cgroup hits": "N/A",
+          "Kernel sources": "3",
+          "Kernel hits": "0",
+          "Properties checked": "5",
+          "Property hits": "0",
+          "Temp root checked": "22",
+          "Temp root hits": "0",
+          "Native library": "Loaded"
+        }
+      },
+      "trusted_java_policy_oracle": true,
+      "active_throne_watch": true,
+      "throne_watch_ready": true
+    },
+    "verified_configuration": {
+      "report": "strict-v11-duck-verified.json",
+      "original_export": "strict-v11-duck-verified-export.txt",
+      "export_sha256": "91bf58579d96510f65707c1b88593954c99258bd6056d8619f85cb9a83ced228",
+      "statistics": {
+        "Danger": 2,
+        "Warning": 5,
+        "Ready": 20,
+        "Pending": 0
+      },
+      "module_verdicts": [
+        {
+          "severity": "DANGER",
+          "detector": "Bootloader",
+          "verdict": "6 critical boot integrity signal(s)"
+        },
+        {
+          "severity": "DANGER",
+          "detector": "TEE",
+          "verdict": "Hardware-backed local verification was not established"
+        },
+        {
+          "severity": "WARNING",
+          "detector": "ADB Runtime",
+          "verdict": "ADB enabled"
+        },
+        {
+          "severity": "WARNING",
+          "detector": "Dangerous Apps",
+          "verdict": "Platform behavior mismatch observed"
+        },
+        {
+          "severity": "WARNING",
+          "detector": "Native Root",
+          "verdict": "1 native signal(s) need review"
+        },
+        {
+          "severity": "WARNING",
+          "detector": "SELinux",
+          "verdict": "Enforcing with recognized privileged contexts"
+        },
+        {
+          "severity": "WARNING",
+          "detector": "System Properties",
+          "verdict": "1 property signal(s) need review"
+        },
+        {
+          "severity": "INFO",
+          "detector": "Custom ROM",
+          "verdict": "Custom ROM scan has reduced coverage"
+        },
+        {
+          "severity": "INFO",
+          "detector": "Kernel Check",
+          "verdict": "CVE patch state is informational"
+        },
+        {
+          "severity": "INFO",
+          "detector": "LSPosed",
+          "verdict": "LSPosed scan has reduced coverage"
+        },
+        {
+          "severity": "INFO",
+          "detector": "Location Risk",
+          "verdict": "No local contract mismatch observed"
+        },
+        {
+          "severity": "INFO",
+          "detector": "Network Risk",
+          "verdict": "Network context collected"
+        },
+        {
+          "severity": "INFO",
+          "detector": "SU",
+          "verdict": "No root indicators"
+        },
+        {
+          "severity": "INFO",
+          "detector": "Virtualization",
+          "verdict": "Virtualization scan has reduced coverage"
+        },
+        {
+          "severity": "INFO",
+          "detector": "Zygote heap residue",
+          "verdict": "No target trace observed"
+        },
+        {
+          "severity": "CLEAR",
+          "detector": "Memory",
+          "verdict": "No hook-like memory signals"
+        },
+        {
+          "severity": "CLEAR",
+          "detector": "Mount",
+          "verdict": "No suspicious mount-layer signal"
+        },
+        {
+          "severity": "CLEAR",
+          "detector": "Play Integrity Fix",
+          "verdict": "No Play Integrity residue surfaced"
+        },
+        {
+          "severity": "CLEAR",
+          "detector": "Root Managers",
+          "verdict": "No root manager apps"
+        },
+        {
+          "severity": "CLEAR",
+          "detector": "Zygisk",
+          "verdict": "No Zygisk runtime signal"
+        }
+      ],
+      "evidence_fields": {
+        "Virtualization": {
+          "Status": "Clean (No findings were produced for this section.)",
+          "Properties and build": "Clean",
+          "Dex and classpath": "Clean",
+          "UID identity": "Clean",
+          "Runtime artifacts": "Clean",
+          "Graphics renderer": "Clean",
+          "Native bridge": "Clean",
+          "Startup preload": "Ready",
+          "Cross-process consistency": "Clean",
+          "Isolated-process consistency": "Clean",
+          "Host apps": "Clean",
+          "Native honeypots": "Clean",
+          "ASM honeypots": "Unsupported",
+          "Sacrificial syscall pack": "Unsupported (Sacrificial syscall pack is only supported on arm64-v8a.)",
+          "Preload context": "Yes",
+          "Cross-process helper": "Ready",
+          "Isolated helper": "Ready",
+          "Package visibility": "Full",
+          "Maps scanned": "2662",
+          "FD entries": "250",
+          "Mountinfo lines": "124",
+          "EGL renderer": "Ready",
+          "Dex paths": "1",
+          "Dex path hits": "0",
+          "UID identity hits": "0",
+          "Mount namespace": "Ready",
+          "Mount anchor drift": "0",
+          "Environment hits": "0",
+          "Translation hits": "0",
+          "Runtime hits": "0",
+          "Consistency hits": "0",
+          "Isolated consistency": "0",
+          "Honeypot hits": "0",
+          "Syscall pack": "Unsupported",
+          "Syscall pack hits": "0",
+          "Android Virtualization Framework": "https://source.android.com/docs/core/virtualization",
+          "Android Emulator": "https://developer.android.com/studio/run/emulator",
+          "AOSP property_contexts": "https://android.googlesource.com/platform/system/sepolicy/+/refs/heads/main/private/property_contexts"
+        },
+        "Memory": {
+          "Function hooks": "Clean (No suspicious evidence surfaced in this memory slice.)",
+          "Mappings": "Clean (No suspicious evidence surfaced in this memory slice.)",
+          "Loader visibility": "Clean",
+          "GOT/PLT resolution": "Clean",
+          "Entry prologue": "Clean",
+          "maps + smaps": "Clean",
+          "FD-backed code": "Clean",
+          "Signal handlers": "Clean",
+          "Danger findings": "0",
+          "Review findings": "0",
+          "Modified functions": "0",
+          "Native library": "Loaded"
+        },
+        "LSPosed": {
+          "Runtime probes": "Clean (No signal surfaced in this LSPosed evidence slice.)",
+          "Binder probes": "Clean (No signal surfaced in this LSPosed evidence slice.)",
+          "Packages": "Clean (No signal surfaced in this LSPosed evidence slice.)",
+          "SELinux policy": "Clean (No signal surfaced in this LSPosed evidence slice.)",
+          "Native traces": "Unavailable",
+          "Class load": "Clean",
+          "ClassLoader chain": "Clean",
+          "XposedBridge fields": "Clean",
+          "Package catalog": "Clean",
+          "Xposed meta-data": "Clean",
+          "Stack trace": "Clean",
+          "Hook callbacks": "Clean",
+          "Binder bridge": "Clean",
+          "Zygote permissions": "1 grant(s) clean",
+          "Runtime artifacts": "Clean",
+          "Logcat leaks": "Clean",
+          "Dirty sepolicy": "Clean",
+          "Native maps": "0",
+          "Native heap": "N/A",
+          "Native library": "Loaded",
+          "Signal summary": "Partial",
+          "Danger signals": "0",
+          "Review signals": "0",
+          "Class hits": "0",
+          "ClassLoader hits": "0",
+          "Bridge field hits": "0",
+          "Stack hits": "0",
+          "Callback hits": "0",
+          "Binder hits": "0",
+          "Runtime artifact hits": "0",
+          "Runtime artifacts availability": "Checked",
+          "Logcat hits": "0",
+          "Logcat availability": "Checked",
+          "Dirty policy hits": "0",
+          "Dirty policy availability": "Checked",
+          "Manager packages": "0",
+          "Module apps": "0",
+          "Package visibility": "Full"
+        },
+        "Mount": {
+          "Status": "Clean (No findings were produced for this section.)",
+          "/data/adb access": "Restricted",
+          "Anonymous device minors": "No gaps observed",
+          "Init namespace access": "Restricted",
+          "Path coverage": "70%",
+          "Root mount propagation": "Private",
+          "statx mount root": "/data/data",
+          "Startup preload": "Clean",
+          "Zygote next mount view": "Requires Android 17 (Zygote next native services require Android 17 (API 37).)",
+          "Path probes": "Partial",
+          "Shell tmp view": "Clean",
+          "/proc/self/mounts": "Clean",
+          "/proc/self/maps": "Unavailable",
+          "/proc/self/mountinfo": "Observation",
+          "Filesystem probes": "Clean",
+          "statx cross-check": "Mount root",
+          "Preload context": "Stale",
+          "Preload findings": "0",
+          "Mount entries": "131",
+          "Mountinfo entries": "124",
+          "Map lines": "0",
+          "Permission denied": "6",
+          "Coverage": "70%",
+          "Mounts readable": "Yes",
+          "Mountinfo readable": "Yes",
+          "Maps readable": "No",
+          "statx support": "Yes"
+        },
+        "Native Root": {
+          "KSU supercall": "Blocked by seccomp",
+          "Shell tmp inode": "65538",
+          "ksuReadonlySupercall": "Blocked",
+          "__NR_supercall probe": "Unavailable",
+          "kernelpatch superkey": "Unavailable",
+          "devpts permission check": "Clean",
+          "permission boundary check": "Clean",
+          "prctlProbe": "Clean (KernelSU magic prctl probe using option 0xDEADBEEF.)",
+          "susfsSideChannel": "Normal",
+          "selfProcessIoc": "Normal",
+          "isolatedMountDrift": "Clean",
+          "ksuManagerFingerprint": "Clean",
+          "ksuThroneHunt": "Clean",
+          "runtimeArtifacts": "1 hit(s)",
+          "cgroupLeakage": "Unavailable",
+          "kernelTraces": "Clean",
+          "propertyResidue": "Clean",
+          "tempRootArtifacts": "Clean",
+          "nativeLibrary": "Loaded (JNI-backed native root detection module.)",
+          "signalSummary": "1 indirect",
+          "fsnotifySrcuCloseTiming": "Not requested",
+          "init.rc hook timing": "Unsupported ABI",
+          "Paths checked": "28 \u00b7 11 not observable",
+          "Path hits": "1",
+          "Proc checked": "5",
+          "Proc denied": "0",
+          "Proc hits": "0",
+          "Self context": "u:r:untrusted_app:s0:c203,c256,c512,c768",
+          "Self driver FDs": "0",
+          "Self wrapper FDs": "0",
+          "Main mnt ns": "mnt:[4026532954]",
+          "Isolated mnt ns": "mnt:[4026533001]",
+          "Mount drift hits": "0",
+          "Mount anchor drifts": "0",
+          "Manager package": "Clean",
+          "Manager traits": "N/A",
+          "Throne hunt": "Clean (Collection COLLECTED; baseline=0)",
+          "Throne hunt counters": "open=0 access=0 raw=1 invalid=0 baseline=0 (Watch fd=60; stage=READY)",
+          "Cgroup paths": "N/A",
+          "Cgroup visible": "N/A",
+          "Cgroup proc": "N/A",
+          "Cgroup denied": "N/A",
+          "Cgroup hits": "N/A",
+          "Kernel sources": "3",
+          "Kernel hits": "0",
+          "Properties checked": "5",
+          "Property hits": "0",
+          "Temp root checked": "22",
+          "Temp root hits": "0",
+          "Native library": "Loaded"
+        }
+      },
+      "trusted_java_policy_oracle": true,
+      "active_throne_watch": true,
+      "throne_watch_ready": true
+    }
+  },
+  "regressions": {
+    "proc99": {
+      "before": "strict-v11-before-proc99.json",
+      "after": "strict-v11-verified-proc99.json",
+      "apk_sha256": "99901e704d769e519741824d62f15286f68e0654f4223c0681083903ca98c9ab",
+      "installed_abi": "x86_64",
+      "summary": {
+        "detected": 0,
+        "unavailable": 0,
+        "total": 99
+      },
+      "same_check_ids": true,
+      "after_cold_boot": "strict-v11-cold-proc99.json",
+      "cold_boot_summary": {
+        "detected": 0,
+        "unavailable": 0,
+        "total": 99
+      }
+    },
+    "raw79": {
+      "before": "strict-v11-before-raw79.json",
+      "after": "strict-v11-verified-raw79.json",
+      "apk_sha256": "ee4e8cc35ef306e1626472ffb3d9d53fe0b45036a4a89dce31020ed489268f37",
+      "installed_abi": "x86_64",
+      "summary": {
+        "detected": 0,
+        "unavailable": 0,
+        "total": 79
+      },
+      "same_check_ids": true,
+      "after_cold_boot": "strict-v11-cold-raw79.json",
+      "cold_boot_summary": {
+        "detected": 0,
+        "unavailable": 0,
+        "total": 79
+      }
+    },
+    "probe54": {
+      "before": "strict-v11-before-probe54.json",
+      "after": "strict-v11-verified-probe54.json",
+      "apk_sha256": "ab4dafd201527cf0f72a1c2ff4f9bd41fd4dbaa921d336d1983319ac611554ed",
+      "installed_abi": "arm64-v8a",
+      "summary": {
+        "detected": 0,
+        "unavailable": 0,
+        "total": 54
+      },
+      "same_check_ids": true,
+      "after_cold_boot": "strict-v11-cold-probe54.json",
+      "cold_boot_summary": {
+        "detected": 0,
+        "unavailable": 0,
+        "total": 54
+      }
+    },
+    "reveny": {
+      "before": "strict-v11-before-reveny.json",
+      "after": "strict-v11-verified-reveny.json",
+      "apk_sha256": "9f064f3968e9a224612810ec2b6078872f479930ce4dd0fc1f7132b08c6b3f5b",
+      "finding_count": 0,
+      "after_cold_boot": "strict-v11-cold-reveny.json"
+    }
+  },
+  "artifacts": {
+    "module_apk_sha256": "fadd869822543e8b6c07c31935e1e8096afacccb66ae9539ece34dfaf615d22e",
+    "namespace_zip_sha256": "dd95ce18275c99c5f9b25baecddd05c7e1ee404bb9635295604543c44deb9d1c",
+    "embedded_libraries_sha256": {
+      "lib/arm64-v8a/libguestprofile.so": "949fc048dc8654a7574aef45fbedab25cdd35847cf1c5092cbda6325e258b68f",
+      "lib/x86_64/libruntimeprofile.so": "f4cfe537f98b054799d35814331fa039bde51c66150ccfb76c2ea399c735a5bc",
+      "lib/x86_64/libcpunamespace.so": "52ba539b9e93346c44d1c5af2e016c95d7d76d5d18df893875e5e7d95dda99c0"
+    }
+  },
+  "policy": {
+    "before": "strict-v11-policy-before.txt",
+    "after": "strict-v11-policy-after.txt",
+    "after_cold_boot": "strict-v11-policy-persisted.txt",
+    "denied_edges": [
+      "system_server -> system_server:process execmem",
+      "untrusted_app -> magisk:binder call"
+    ],
+    "allowed_control": "system_server -> system_server:process getattr"
+  },
+  "boundaries": "strict-v11-verified-boundaries.json",
+  "cold_boot_boundaries": "strict-v11-cold-boundaries.json",
+  "cold_boot_persistence": "strict-v11-cold-persistence.json",
+  "installed_state": "strict-v11-installed-state.json",
+  "seccomp_comparison": "strict-v11-seccomp-comparison.json",
+  "scope": "strict-v11-runtime-scope.txt",
+  "arm_scope": "strict-v11-runtime-arm-scope.txt",
+  "root_cause_evidence": "strict-v11-package-opens-trace.txt",
+  "selected_configuration": {
+    "native_only": true,
+    "vector_disabled": true,
+    "restrict_isolated_proc": true,
+    "manager_cleanup_enabled": true,
+    "manager_cleanup_preserves_data": true,
+    "manager_apk_backup": "%LOCALAPPDATA%/android-device-lab/research-v11/magisk-manager27.apk"
+  },
+  "limitations": [
+    "Software attestation does not establish physical-device or hardware-backed trust; Bootloader and TEE remain danger modules.",
+    "The READPROC option removes a real supplementary group and reduces visibility of other processes. Its mount result is not equivalent cross-process coverage.",
+    "ARM-only virtualization checks and the LSPosed native heap slice remain unavailable. Helper availability must be read from each original export.",
+    "Native Root retains the weak /data/local/tmp inode review. Other unrelated warning modules are retained.",
+    "Only the frozen diagnostic APKs and pinned detector versions were measured."
+  ],
+  "rejected_measurements": [
+    {
+      "name": "strict-v11-native-arm54",
+      "reason": "Development runtime load failure: 2 detected and 1 unavailable."
+    },
+    {
+      "name": "strict-v11-native-arm54b",
+      "reason": "Development runtime load failure: 1 detected and 1 unavailable."
+    },
+    {
+      "name": "strict-v11-duck-private-unmount-retry",
+      "reason": "App-zygote abort caused unavailable carrier checks; not accepted as a Native Root fix."
+    },
+    {
+      "name": "strict-v11-duck-unrestricted-retry",
+      "reason": "Two danger modules coincided with carrier/helper timeouts; not accepted as a coverage-preserving improvement."
+    },
+    {
+      "name": "strict-v11-hardened-reveny",
+      "reason": "System UI ANR obscured the result; the fresh retry passed."
+    }
+  ]
+}

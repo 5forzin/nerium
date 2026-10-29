@@ -1,0 +1,6 @@
+{"event":"recovery_armed","elapsed_realtime_ms":313727,"wall_time_ms":1792971977627,"dry_run":false,"adb_enabled":1,"adb_wifi_enabled":0,"adbd_socket_visible":true,"adbd_service":"running","usb_config":"adb"}
+{"event":"adb_disable_requested","elapsed_realtime_ms":313936,"wall_time_ms":1792971977836,"dry_run":false,"adb_enabled":0,"adb_wifi_enabled":0,"adbd_socket_visible":true,"adbd_service":"running","usb_config":""}
+{"event":"before_duck_launch","elapsed_realtime_ms":329166,"wall_time_ms":1792971993065,"dry_run":false,"adb_enabled":0,"adb_wifi_enabled":0,"adbd_socket_visible":false,"adbd_service":"stopped","usb_config":""}
+{"event":"duck_launch_requested","elapsed_realtime_ms":329381,"wall_time_ms":1792971993280,"dry_run":false,"adb_enabled":0,"adb_wifi_enabled":0,"adbd_socket_visible":false,"adbd_service":"stopped","usb_config":""}
+{"event":"recovery_fired","elapsed_realtime_ms":576233,"wall_time_ms":1792972240132,"dry_run":false,"adb_enabled":0,"adb_wifi_enabled":0,"adbd_socket_visible":false,"adbd_service":"stopped","usb_config":""}
+{"event":"recovery_applied","elapsed_realtime_ms":576440,"wall_time_ms":1792972240340,"dry_run":false,"adb_enabled":1,"adb_wifi_enabled":0,"adbd_socket_visible":false,"adbd_service":"stopped","usb_config":"adb"}

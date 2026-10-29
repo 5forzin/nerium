@@ -1,0 +1,278 @@
+{
+  "schema_version": 1,
+  "captured_at": "2026-10-26T14:32:05.5868402Z",
+  "constraint": "Existing Windows PC only; no Chromebook or additional hardware",
+  "scope": "Local TPM capability and isolated ARM64 SDK boot compatibility experiments",
+  "avd": "device-lab-arm64-direct-v35",
+  "port": 5580,
+  "sdk_image": "Google APIs API34 ARM64 revision14; not Google Play",
+  "requested_memory_mb": 1536,
+  "effective_qemu_memory_mb": 2560,
+  "vcpu_count": 4,
+  "acceleration": "TCG; accel off",
+  "before": "Outer emulator launcher rejected ARM64 API34 on x86_64 host",
+  "runs": [
+    {
+      "name": "ranchu-default",
+      "cpu": "cortex-a57",
+      "machine": "ranchu",
+      "outcome": "QEMU exited: PCI bus not available for virtio-snd-pci",
+      "kernel_started": false,
+      "android_boot_verified": false,
+      "adb_online": false,
+      "detector_results": null,
+      "logs": [
+        {
+          "path": "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v35\\arm64-stdout.log",
+          "bytes": 94624,
+          "sha256": "cf99ad00b616f7bd3d3276c2c1d6eb77977dd11b0fbd798e09ea402b1935f7ce"
+        },
+        {
+          "path": "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v35\\arm64-stderr.log",
+          "bytes": 2407,
+          "sha256": "9cba96794e0882e2a77fc1d7bd6bd7a02388c6bc387ac9ecf1053692ea456e5d"
+        }
+      ]
+    },
+    {
+      "name": "ranchu-no-virtio-sound",
+      "cpu": "cortex-a57",
+      "machine": "ranchu",
+      "outcome": "QEMU exited: fallback HDA also requires PCI",
+      "kernel_started": false,
+      "android_boot_verified": false,
+      "adb_online": false,
+      "detector_results": null,
+      "logs": [
+        {
+          "path": "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v35\\arm64-no-sound-stdout.log",
+          "bytes": 93405,
+          "sha256": "24d25470f0286688a55eec903d9233d2f84c7058f6ebee91137325aceb82f609"
+        },
+        {
+          "path": "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v35\\arm64-no-sound-stderr.log",
+          "bytes": 2396,
+          "sha256": "0122b278350468dffb70cf30f080d490bbc8fe6584fbfcff481709963dc19b13"
+        }
+      ]
+    },
+    {
+      "name": "virt-default",
+      "cpu": "cortex-a57",
+      "machine": "virt",
+      "outcome": "Kernel started; init SIGSEGV and panic/reboot",
+      "kernel_started": true,
+      "android_boot_verified": false,
+      "adb_online": false,
+      "detector_results": null,
+      "logs": [
+        {
+          "path": "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v35\\arm64-virt-stdout.log",
+          "bytes": 576860,
+          "sha256": "11d72d806a82cc3cf59fd03f0b31113205f7eb850071e1d05daae31089d231a0"
+        },
+        {
+          "path": "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v35\\arm64-virt-stderr.log",
+          "bytes": 2261,
+          "sha256": "58e9c70563df3b9860a0e3b3230bfb0a4250f2a2eb5e8fbcaf3d919cefac5d69"
+        }
+      ]
+    },
+    {
+      "name": "virt-max-properties",
+      "cpu": "max,sve=off,pauth=off",
+      "machine": "virt",
+      "outcome": "No kernel output; CPU time stopped increasing; explicitly stopped without claiming model unsupported",
+      "kernel_started": false,
+      "android_boot_verified": false,
+      "adb_online": false,
+      "detector_results": null,
+      "logs": [
+        {
+          "path": "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v35\\arm64-virt-max-stdout.log",
+          "bytes": 91935,
+          "sha256": "3904aff0453196bd3a0cd0611c9bfc3bfc20365c7fa221076983b33b37be14f8"
+        },
+        {
+          "path": "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v35\\arm64-virt-max-stderr.log",
+          "bytes": 2261,
+          "sha256": "58e9c70563df3b9860a0e3b3230bfb0a4250f2a2eb5e8fbcaf3d919cefac5d69"
+        }
+      ]
+    },
+    {
+      "name": "virt-a76",
+      "cpu": "cortex-a76",
+      "machine": "virt",
+      "outcome": "No kernel output; CPU time stopped increasing; explicitly stopped without claiming model unsupported",
+      "kernel_started": false,
+      "android_boot_verified": false,
+      "adb_online": false,
+      "detector_results": null,
+      "logs": [
+        {
+          "path": "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v35\\arm64-virt-a76-stdout.log",
+          "bytes": 91961,
+          "sha256": "075c27294b43e5cbf9c42588dd3880e27b3bc03af13c2f8dc2e7680fdc3123b1"
+        },
+        {
+          "path": "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v35\\arm64-virt-a76-stderr.log",
+          "bytes": 2261,
+          "sha256": "58e9c70563df3b9860a0e3b3230bfb0a4250f2a2eb5e8fbcaf3d919cefac5d69"
+        }
+      ]
+    },
+    {
+      "name": "virt-fatal-trace",
+      "cpu": "cortex-a57",
+      "machine": "virt",
+      "outcome": "Kernel started; init SIGSEGV PC 0x4b32bc; panic=0 stopped reboot loop",
+      "kernel_started": true,
+      "android_boot_verified": false,
+      "adb_online": false,
+      "detector_results": null,
+      "logs": [
+        {
+          "path": "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v35\\arm64-virt-fatal-stdout.log",
+          "bytes": 120388,
+          "sha256": "f1dcfd0d84f712ca9d134faa13a56a439ee063967d12905443f6d40dcf7568f6"
+        },
+        {
+          "path": "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v35\\arm64-virt-fatal-stderr.log",
+          "bytes": 2261,
+          "sha256": "58e9c70563df3b9860a0e3b3230bfb0a4250f2a2eb5e8fbcaf3d919cefac5d69"
+        }
+      ]
+    },
+    {
+      "name": "virt-max-plain",
+      "cpu": "max",
+      "machine": "virt",
+      "outcome": "Kernel started; same init SIGSEGV PC/LR; no completed Android boot",
+      "kernel_started": true,
+      "android_boot_verified": false,
+      "adb_online": false,
+      "detector_results": null,
+      "logs": [
+        {
+          "path": "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v35\\arm64-virt-max-plain-stdout.log",
+          "bytes": 120469,
+          "sha256": "124b0c77fdcf0fa51e51de79c511a48b3837e1f2081e77f3f495a36c2b31aba4"
+        },
+        {
+          "path": "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v35\\arm64-virt-max-plain-stderr.log",
+          "bytes": 2261,
+          "sha256": "58e9c70563df3b9860a0e3b3230bfb0a4250f2a2eb5e8fbcaf3d919cefac5d69"
+        }
+      ]
+    },
+    {
+      "name": "virt-single-tcg-thread",
+      "cpu": "cortex-a57",
+      "machine": "virt",
+      "vcpus": 4,
+      "tcg_thread_mode": "single",
+      "outcome": "Kernel started; same init SIGSEGV PC 0x4b32bc; explicit stop after terminal panic",
+      "kernel_started": true,
+      "android_boot_verified": false,
+      "adb_online": false,
+      "detector_results": null,
+      "logs": [
+        {
+          "path": "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v35\\arm64-virt-single-thread-stdout.log",
+          "bytes": 120502,
+          "sha256": "f0ccf8fb56bb5356cac590559c79d830851525f601057c87bad2abe618f38671"
+        },
+        {
+          "path": "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v35\\arm64-virt-single-thread-stderr.log",
+          "bytes": 2261,
+          "sha256": "58e9c70563df3b9860a0e3b3230bfb0a4250f2a2eb5e8fbcaf3d919cefac5d69"
+        }
+      ]
+    },
+    {
+      "name": "virt-one-core-single-thread",
+      "cpu": "cortex-a57",
+      "machine": "virt",
+      "vcpus": 1,
+      "tcg_thread_mode": "single",
+      "outcome": "Kernel started; same init SIGSEGV PC 0x4b32bc; explicit stop after terminal panic",
+      "kernel_started": true,
+      "android_boot_verified": false,
+      "adb_online": false,
+      "detector_results": null,
+      "logs": [
+        {
+          "path": "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v35\\arm64-virt-one-core-stderr.log",
+          "bytes": 2261,
+          "sha256": "58e9c70563df3b9860a0e3b3230bfb0a4250f2a2eb5e8fbcaf3d919cefac5d69"
+        }
+      ]
+    }
+  ],
+  "fault": {
+    "process": "init",
+    "pid": 1,
+    "signal": 11,
+    "pc": "0x4b32bc",
+    "lr": "0x4b320c",
+    "function": "scudo::SizeClassAllocator64<scudo::AndroidConfig>::pushBlocksImpl internal lambda",
+    "instruction": "strh wzr, [x23, #0x3c]",
+    "init_sha256": "d381e81a6a31af2be789b2848732f32abbf600e108ffdbfe4914c88c7ece58a4",
+    "init_build_id": "470711ea1195087f631d02e5fa74ec6b",
+    "cause_proven": false,
+    "notes": "Ordinary 16-bit store; identical PC/LR on cortex-a57 and plain max. Does not establish corruption source or TCG defect."
+  },
+  "tpm": {
+    "device_query_report": "windows-v35-tpm.json",
+    "signing_report": "windows-v35-tpm-signing-replayable.json",
+    "offline_verification_report": "windows-v35-tpm-offline-verification.json",
+    "signature_verified": true,
+    "negative_controls_passed": true,
+    "transient_key_flushed": true,
+    "android_keymint_verified": false,
+    "google_attestation_verified": false,
+    "hardware_identity_independently_verified": false
+  },
+  "preservation_report": "windows-v35-preservation.json",
+  "prior_suites_rerun": false,
+  "provenance": [
+    {
+      "path": "E:\\Workstation\\projects\\android-device-lab\\scripts\\probe-windows-tpm.ps1",
+      "sha256": "08d896d4385d0e08ddc3cae06fe57445ad881771b2edd70aeca36b822747b000"
+    },
+    {
+      "path": "E:\\Workstation\\projects\\android-device-lab\\scripts\\probe-windows-tpm-signing.ps1",
+      "sha256": "a497c88ee875ab61d172da4e7bb984d18c08eadc0d3cc8c4f22c310c103346a7"
+    },
+    {
+      "path": "C:\\Users\\antho\\AppData\\Local\\Android\\Sdk\\emulator\\qemu\\windows-x86_64\\qemu-system-aarch64-headless.exe",
+      "sha256": "9945ca57546a408b72c0434d8f9ae5d17e8735f22e19eaeae4aa147d70120167"
+    },
+    {
+      "path": "C:\\Users\\antho\\AppData\\Local\\Android\\Sdk\\system-images\\android-34\\google_apis\\arm64-v8a\\kernel-ranchu",
+      "sha256": "4076bd230e0832e23837e62c1fb03daf5eb4fd5aac731818320c26fa1bf8b2e5"
+    }
+  ],
+  "sources": [
+    "https://github.com/tpm2-software/tpm2-tss/blob/75356843c846e51013b11827998efe416026af8a/src/tss2-tcti/tcti-tbs.c",
+    "https://github.com/google/android-cuttlefish/blob/4f8bccdf36f51519c9ea38f2da1dc988be1239a0/base/cvd/cuttlefish/host/commands/secure_env/secure_env_windows_lib.cpp",
+    "https://android.googlesource.com/platform/external/qemu/+/ae9d18d2b6261179fbd57fffec720a04f7bfb053/android/emulator/main-emulator.cpp",
+    "https://android.googlesource.com/platform/external/qemu/+/ae9d18d2b6261179fbd57fffec720a04f7bfb053/android-qemu2-glue/main.cpp",
+    "https://android.googlesource.com/platform/external/scudo/+/refs/tags/android-14.0.0_r1/standalone/primary64.h"
+  ],
+  "zero_detections_achieved": false,
+  "concurrency_controls": {
+    "four_vcpus_single_tcg_thread_same_crash": true,
+    "one_vcpu_single_tcg_thread_same_crash": true,
+    "tcg_trace_requested": true,
+    "tcg_trace_file_present": true,
+    "cause_proven": false
+  },
+  "tcg_trace": {
+    "path": "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v35\\arm64-virt-one-core-tcg.log",
+    "bytes": 14627,
+    "sha256": "fa36b2cdb6cfd2e027699444207106346fb3c6af42f35ed8df760dcc0c388bf1",
+    "scope": "filtered Scudo function translations/register trace requested; interpretation pending"
+  }
+}

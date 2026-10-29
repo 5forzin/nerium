@@ -1,0 +1,20 @@
+﻿{
+    "schema_version":  1,
+    "captured_at_ms":  1792906148333,
+    "package":  "dev.androidlab.integrityprobe",
+    "status":  "token_received",
+    "cloud_project_number":  45438431209,
+    "nonce_base64url":  "Tm8Hn0QsEWDSf8XDYHQC9aedPd3WbFdL1Ln1m_DFhkE",
+    "token_length":  991,
+    "apk_sha256":  "676e2aa8ed58aaeca6b9babaaf7d88a141b10e35a09206afe87bb2199edeb070",
+    "environment":  {
+                        "android_api":  "35",
+                        "build_fingerprint":  "google/sdk_gphone64_x86_64/emu64xa:15/AE3A.240806.036/12592187:user/release-keys",
+                        "play_store_path":  "package:/data/app/~~N5aqAowq-Ssz5_vdIbsNXw==/com.android.vending-bTAe-xFr_3MQtJB9L0uS6g==/base.apk\npackage:/data/app/~~N5aqAowq-Ssz5_vdIbsNXw==/com.android.vending-bTAe-xFr_3MQtJB9L0uS6g==/split_config.en.apk\npackage:/data/app/~~N5aqAowq-Ssz5_vdIbsNXw==/com.android.vending-bTAe-xFr_3MQtJB9L0uS6g==/split_config.x86_64.apk\npackage:/data/app/~~N5aqAowq-Ssz5_vdIbsNXw==/com.android.vending-bTAe-xFr_3MQtJB9L0uS6g==/split_phonesky_data_loader.apk\npackage:/data/app/~~N5aqAowq-Ssz5_vdIbsNXw==/com.android.vending-bTAe-xFr_3MQtJB9L0uS6g==/split_phonesky_data_loader.config.x86_64.apk\npackage:/data/app/~~N5aqAowq-Ssz5_vdIbsNXw==/com.android.vending-bTAe-xFr_3MQtJB9L0uS6g==/split_phonesky_webrtc_native_lib.apk\npackage:/data/app/~~N5aqAowq-Ssz5_vdIbsNXw==/com.android.vending-bTAe-xFr_3MQtJB9L0uS6g==/split_phonesky_webrtc_native_lib.config.x86_64.apk",
+                        "play_store_version":  "53.6.15-34 [0] [PR] 996698724",
+                        "play_services_version":  "26.41.31 (260800-1002748488)"
+                    },
+    "token_sha256":  "139db9b7fde76e51e374d6e71d06598d4accc055a3b186fa07046f84941aaa66",
+    "token_private_path":  "files/token-play-integrity-playstore-api35-retained.txt",
+    "compact_jwe_shape":  true
+}

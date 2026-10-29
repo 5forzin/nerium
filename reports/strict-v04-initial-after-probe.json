@@ -1,0 +1,456 @@
+{
+  "schema_version": 1,
+  "captured_at": "2026-10-24T15:55:01.307106Z",
+  "app_version": "0.4.0",
+  "device": {
+    "manufacturer": "Google",
+    "brand": "google",
+    "model": "Pixel 8",
+    "device": "shiba",
+    "product": "shiba",
+    "hardware": "shiba",
+    "board": "zuma",
+    "fingerprint": "google/shiba/shiba:14/AP1A.240505.005/11677807:user/release-keys",
+    "supported_abis": [
+      "arm64-v8a"
+    ],
+    "sdk": 34,
+    "android_release": "14"
+  },
+  "native_cpuinfo": {
+    "fopen": "processor\t: 1\nBogoMIPS\t: 1.00\nFeatures\t: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp\nCPU implementer\t: 0x41\nCPU architecture: 8\nCPU variant\t: 0x6\nCPU part\t: 0x802\nCPU revision\t: 13\n",
+    "open": "processor\t: 1\nBogoMIPS\t: 1.00\nFeatures\t: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp\nCPU implementer\t: 0x41\nCPU architecture: 8\nCPU variant\t: 0x6\nCPU part\t: 0x802\nCPU revision\t: 13\n",
+    "openat": "processor\t: 1\nBogoMIPS\t: 1.00\nFeatures\t: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp\nCPU implementer\t: 0x41\nCPU architecture: 8\nCPU variant\t: 0x6\nCPU part\t: 0x802\nCPU revision\t: 13\n",
+    "syscall": "processor\t: 1\nBogoMIPS\t: 1.00\nFeatures\t: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp\nCPU implementer\t: 0x41\nCPU architecture: 8\nCPU variant\t: 0x6\nCPU part\t: 0x802\nCPU revision\t: 13\n",
+    "inline_syscall": "processor\t: 1\nBogoMIPS\t: 1.00\nFeatures\t: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp\nCPU implementer\t: 0x41\nCPU architecture: 8\nCPU variant\t: 0x6\nCPU part\t: 0x802\nCPU revision\t: 13\n"
+  },
+  "graphics": {
+    "vendor": "Google (NVIDIA Corporation)",
+    "renderer": "Android Emulator OpenGL ES Translator (NVIDIA GeForce RTX 4050 Laptop GPU/PCIe/SSE2)",
+    "version": "OpenGL ES 3.1 (4.5.0 NVIDIA 610.60)",
+    "egl_vendor": "Android"
+  },
+  "inventory": {
+    "sensors": [
+      {
+        "name": "3-axis Accelerometer",
+        "vendor": "Google",
+        "type": 1
+      },
+      {
+        "name": "3-axis Gyroscope",
+        "vendor": "Google",
+        "type": 4
+      },
+      {
+        "name": "3-axis Magnetic field sensor",
+        "vendor": "Google",
+        "type": 2
+      },
+      {
+        "name": "Orientation sensor",
+        "vendor": "Google",
+        "type": 3
+      },
+      {
+        "name": "Ambient Temperature sensor",
+        "vendor": "Google",
+        "type": 13
+      },
+      {
+        "name": "Proximity sensor",
+        "vendor": "Google",
+        "type": 8
+      },
+      {
+        "name": "Light sensor",
+        "vendor": "Google",
+        "type": 5
+      },
+      {
+        "name": "Pressure sensor",
+        "vendor": "Google",
+        "type": 6
+      },
+      {
+        "name": "Humidity sensor",
+        "vendor": "Google",
+        "type": 12
+      },
+      {
+        "name": "3-axis Magnetic field sensor (uncalibrated)",
+        "vendor": "Google",
+        "type": 14
+      },
+      {
+        "name": "3-axis Gyroscope (uncalibrated)",
+        "vendor": "Google",
+        "type": 16
+      },
+      {
+        "name": "3-axis Accelerometer Uncalibrated",
+        "vendor": "Google",
+        "type": 35
+      },
+      {
+        "name": "Game Rotation Vector Sensor",
+        "vendor": "Google",
+        "type": 15
+      },
+      {
+        "name": "GeoMag Rotation Vector Sensor",
+        "vendor": "Google",
+        "type": 20
+      },
+      {
+        "name": "Gravity Sensor",
+        "vendor": "Google",
+        "type": 9
+      },
+      {
+        "name": "Linear Acceleration Sensor",
+        "vendor": "Google",
+        "type": 10
+      },
+      {
+        "name": "Rotation Vector Sensor",
+        "vendor": "Google",
+        "type": 11
+      },
+      {
+        "name": "Orientation Sensor",
+        "vendor": "Google",
+        "type": 3
+      }
+    ],
+    "battery": {
+      "level": 100,
+      "scale": 100,
+      "temperature": 250,
+      "status": 2
+    }
+  },
+  "checks": [
+    {
+      "id": "java.identity",
+      "layer": "java",
+      "status": "clear",
+      "observed": "pixel 8 shiba shiba shiba google"
+    },
+    {
+      "id": "java.fingerprint",
+      "layer": "java",
+      "status": "clear",
+      "observed": "google/shiba/shiba:14/AP1A.240505.005/11677807:user/release-keys"
+    },
+    {
+      "id": "java.abi",
+      "layer": "java",
+      "status": "clear",
+      "observed": "[arm64-v8a]"
+    },
+    {
+      "id": "property.java.ro.kernel.qemu",
+      "layer": "java",
+      "status": "clear",
+      "observed": "0"
+    },
+    {
+      "id": "property.java.ro.boot.qemu",
+      "layer": "java",
+      "status": "clear",
+      "observed": "0"
+    },
+    {
+      "id": "property.java.ro.hardware",
+      "layer": "java",
+      "status": "clear",
+      "observed": "shiba"
+    },
+    {
+      "id": "property.subprocess.ro.kernel.qemu",
+      "layer": "subprocess",
+      "status": "clear",
+      "observed": "0"
+    },
+    {
+      "id": "property.subprocess.ro.boot.qemu",
+      "layer": "subprocess",
+      "status": "clear",
+      "observed": "0"
+    },
+    {
+      "id": "property.subprocess.ro.hardware",
+      "layer": "subprocess",
+      "status": "clear",
+      "observed": "shiba"
+    },
+    {
+      "id": "property.native.get.ro.hardware",
+      "layer": "native",
+      "status": "clear",
+      "observed": "shiba"
+    },
+    {
+      "id": "property.native.callback.ro.hardware",
+      "layer": "native",
+      "status": "clear",
+      "observed": "shiba"
+    },
+    {
+      "id": "property.native.get.ro.product.cpu.abilist",
+      "layer": "native",
+      "status": "clear",
+      "observed": "arm64-v8a"
+    },
+    {
+      "id": "property.native.callback.ro.product.cpu.abilist",
+      "layer": "native",
+      "status": "clear",
+      "observed": "arm64-v8a"
+    },
+    {
+      "id": "property.native.get.ro.dalvik.vm.native.bridge",
+      "layer": "native",
+      "status": "clear",
+      "observed": "0"
+    },
+    {
+      "id": "property.native.callback.ro.dalvik.vm.native.bridge",
+      "layer": "native",
+      "status": "clear",
+      "observed": "0"
+    },
+    {
+      "id": "property.native.get.ro.dalvik.vm.isa.arm64",
+      "layer": "native",
+      "status": "clear",
+      "observed": ""
+    },
+    {
+      "id": "property.native.callback.ro.dalvik.vm.isa.arm64",
+      "layer": "native",
+      "status": "clear",
+      "observed": ""
+    },
+    {
+      "id": "native.cpuinfo.fopen",
+      "layer": "native",
+      "status": "clear",
+      "observed": "processor\t: 1\nBogoMIPS\t: 1.00\nFeatures\t: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp\nCPU implementer\t: 0x41\nCPU architecture: 8\nCPU variant\t: 0x6\nCPU part\t: 0x802\nCPU revision\t: 13\n"
+    },
+    {
+      "id": "native.cpuinfo.open",
+      "layer": "native",
+      "status": "clear",
+      "observed": "processor\t: 1\nBogoMIPS\t: 1.00\nFeatures\t: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp\nCPU implementer\t: 0x41\nCPU architecture: 8\nCPU variant\t: 0x6\nCPU part\t: 0x802\nCPU revision\t: 13\n"
+    },
+    {
+      "id": "native.cpuinfo.openat",
+      "layer": "native",
+      "status": "clear",
+      "observed": "processor\t: 1\nBogoMIPS\t: 1.00\nFeatures\t: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp\nCPU implementer\t: 0x41\nCPU architecture: 8\nCPU variant\t: 0x6\nCPU part\t: 0x802\nCPU revision\t: 13\n"
+    },
+    {
+      "id": "native.cpuinfo.syscall",
+      "layer": "syscall_control",
+      "status": "clear",
+      "observed": "processor\t: 1\nBogoMIPS\t: 1.00\nFeatures\t: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp\nCPU implementer\t: 0x41\nCPU architecture: 8\nCPU variant\t: 0x6\nCPU part\t: 0x802\nCPU revision\t: 13\n"
+    },
+    {
+      "id": "native.cpuinfo.inline_syscall",
+      "layer": "syscall_control",
+      "status": "clear",
+      "observed": "processor\t: 1\nBogoMIPS\t: 1.00\nFeatures\t: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp\nCPU implementer\t: 0x41\nCPU architecture: 8\nCPU variant\t: 0x6\nCPU part\t: 0x802\nCPU revision\t: 13\n"
+    },
+    {
+      "id": "native.runtime_architecture",
+      "layer": "instruction_set_control",
+      "status": "clear",
+      "observed": "arm64"
+    },
+    {
+      "id": "native.file_semantics",
+      "layer": "io_control",
+      "status": "clear",
+      "observed": "Read-only, close-on-exec, seek and repeated read"
+    },
+    {
+      "id": "native.regular_file.fopen",
+      "layer": "io_control",
+      "status": "clear",
+      "observed": "Device Lab native I/O control\n"
+    },
+    {
+      "id": "native.regular_file.open",
+      "layer": "io_control",
+      "status": "clear",
+      "observed": "Device Lab native I/O control\n"
+    },
+    {
+      "id": "native.regular_file.openat",
+      "layer": "io_control",
+      "status": "clear",
+      "observed": "Device Lab native I/O control\n"
+    },
+    {
+      "id": "native.regular_file.syscall",
+      "layer": "io_control",
+      "status": "clear",
+      "observed": "Device Lab native I/O control\n"
+    },
+    {
+      "id": "native.regular_file.inline_syscall",
+      "layer": "io_control",
+      "status": "clear",
+      "observed": "Device Lab native I/O control\n"
+    },
+    {
+      "id": "java.abi.primary_consistency",
+      "layer": "identity_consistency",
+      "status": "clear",
+      "observed": "CPU_ABI=arm64-v8a; SUPPORTED_ABIS=[arm64-v8a]"
+    },
+    {
+      "id": "java.build.fingerprint_fields",
+      "layer": "identity_consistency",
+      "status": "detected",
+      "observed": "fingerprint=google/shiba/shiba:14/AP1A.240505.005/11677807:user/release-keys; fields=google/shiba/shiba:14/AP1A.240505.005/12077443:user/release-keys"
+    },
+    {
+      "id": "kernel.java.uname",
+      "layer": "kernel",
+      "status": "detected",
+      "observed": "x86_64"
+    },
+    {
+      "id": "kernel.subprocess.uname",
+      "layer": "kernel",
+      "status": "detected",
+      "observed": "x86_64"
+    },
+    {
+      "id": "kernel.subprocess.clean_env_uname",
+      "layer": "kernel",
+      "status": "detected",
+      "observed": "x86_64"
+    },
+    {
+      "id": "kernel.native.uname",
+      "layer": "kernel",
+      "status": "detected",
+      "observed": "x86_64"
+    },
+    {
+      "id": "kernel.inline.uname",
+      "layer": "kernel",
+      "status": "detected",
+      "observed": "x86_64"
+    },
+    {
+      "id": "native.auxv.platform",
+      "layer": "kernel",
+      "status": "unavailable",
+      "observed": "IOException: AT_PLATFORM unavailable"
+    },
+    {
+      "id": "native.cpuinfo.filesystem_type",
+      "layer": "filesystem_metadata",
+      "status": "detected",
+      "observed": "0xef53"
+    },
+    {
+      "id": "native.cpuinfo.descriptor_alias",
+      "layer": "filesystem_metadata",
+      "status": "detected",
+      "observed": "/proc/cpuinfo (deleted)"
+    },
+    {
+      "id": "native.maps.translation",
+      "layer": "translation",
+      "status": "detected",
+      "observed": "76a6b6026000-76a6b602d000 r--p 00000000 fe:05 2089                       /system/lib64/libndk_translation_proxy_libGLESv2.so\n76a6b602d000-76a6b6030000 r-xp 00006000 fe:05 2089                       /system/lib64/libndk_translation_proxy_libGLESv2.so\n76a6b6030000-76a6b6037000 r--p 00008000 fe:05 2089                       /system/lib64/libndk_translation_proxy_libGLESv2.so\n76a6b6050000-76a6b6088000 r--p 00000000 fe:05 2087                       /system/lib64/libndk_translation_proxy_libEGL.so\n76a6b6088000-76a6b60a9000 r-xp 00037000 fe:05 2087                       /system/lib64/libndk_translation_proxy_libEGL.so\n76a6b60a9000-76a6b60bf000 r--p 00057000 fe:05 2087                       /system/lib64/libndk_translation_proxy_libEGL.so\n76a6b60bf000-76a6b60c0000 rw-p 0006c000 fe:05 2087                       /system/lib64/libndk_translation_proxy_libEGL.so\n76a6b60c6000-76a6b60c8000 r--p 00000000 fe:05 2103                       /system/lib64/libndk_translation_proxy_libnativewindow.so\n76a6b60c8000-76a6b60c9000 r-xp 00001000 fe:05 2103                       /system/lib64/libndk_translation_proxy_libnativewindow.so\n76a6b60c9000-76a6b60cb000 r--p 00001000 fe:05 2103                       /system/lib64/libndk_translation_proxy_libnativewindow.so\n76a707c9a000-76a707c9e000 r--p 00000000 fe:05 2098                       /system/lib64/libndk_translation_proxy_libc.so\n76a707c9e000-76a707ca1000 r-xp 00003000 fe:05 2098                       /system/lib64/libndk_translation_proxy_libc.so\n76a707ca1000-76a707ca3000 r--p 00005000 fe:05 2098                       /system/lib64/libndk_translation_proxy_libc.so\n76a707ca3000-76a707ca4000 rw-p 00006000 fe:05 2098                       /system/lib64/libndk_translation_proxy_libc.so\n76a70907a000-76a70907b000 r-xp 00000000 fe:05 2086                       /system/lib64/libndk_translation_exec_region.so\n76a7090fb000-76a7090fc000 r-xp 00081000 fe:05 2086                       /system/lib64/libndk_translation_exec_region.so\n76a7090fc000-76a7090fd000 r--p 00082000 fe:05 2086                       /system/lib64/libndk_translation_exec_region.so\n76a7090fd000-76a7090fe000 rw-p 00083000 fe:05 2086                       /system/lib64/libndk_translation_exec_region.so\n76a71596b000-76a715a33000 r--p 00000000 fe:05 2085                       /system/lib64/libndk_translation.so\n76a715a33000-76a715b82000 r-xp 000c7000 fe:05 2085                       /system/lib64/libndk_translation.so"
+    },
+    {
+      "id": "native.maps.instrumentation",
+      "layer": "instrumentation",
+      "status": "clear",
+      "observed": "none"
+    },
+    {
+      "id": "native.mountinfo.profile",
+      "layer": "filesystem_metadata",
+      "status": "detected",
+      "observed": "38978 36745 254:40 /adb/modules/device_lab_cpu/property.r44Ykj//deleted /dev/__properties__/properties_serial ro,noatime - ext4 /dev/block/dm-40 rw,seclabel,resgid=1065,errors=panic\n38979 36745 254:40 /adb/modules/device_lab_cpu/property.JGPlXY//deleted /dev/__properties__/u:object_r:build_prop:s0 ro,noatime - ext4 /dev/block/dm-40 rw,seclabel,resgid=1065,errors=panic\n38980 36745 254:40 /adb/modules/device_lab_cpu/property.GlOZha//deleted /dev/__properties__/u:object_r:bootloader_prop:s0 ro,noatime - ext4 /dev/block/dm-40 rw,seclabel,resgid=1065,errors=panic\n38981 36745 254:40 /adb/modules/device_lab_cpu/property.VB2ioy//deleted /dev/__properties__/u:object_r:build_vendor_prop:s0 ro,noatime - ext4 /dev/block/dm-40 rw,seclabel,resgid=1065,errors=panic\n38982 36745 254:40 /adb/modules/device_lab_cpu/property.Vu4uY5//deleted /dev/__properties__/u:object_r:exported_default_prop:s0 ro,noatime - ext4 /dev/block/dm-40 rw,seclabel,resgid=1065,errors=panic\n38983 36745 254:40 /adb/modules/device_lab_cpu/property.EaBbv6//deleted /dev/__properties__/u:object_r:fingerprint_prop:s0 ro,noatime - ext4 /dev/block/dm-40 rw,seclabel,resgid=1065,errors=panic\n38984 36745 254:40 /adb/modules/device_lab_cpu/property.3fjihB//deleted /dev/__properties__/u:object_r:dalvik_config_prop:s0 ro,noatime - ext4 /dev/block/dm-40 rw,seclabel,resgid=1065,errors=panic\n38987 38985 254:40 /adb/modules/device_lab_cpu/cpuinfo.OPtTpM//deleted /proc/cpuinfo ro,noatime - ext4 /dev/block/dm-40 rw,seclabel,resgid=1065,errors=panic"
+    },
+    {
+      "id": "native.cpuinfo.alias",
+      "layer": "syscall_control",
+      "status": "clear",
+      "observed": "processor\t: 1\nBogoMIPS\t: 1.00\nFeatures\t: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp\nCPU implementer\t: 0x41\nCPU architecture: 8\nCPU variant\t: 0x6\nCPU part\t: 0x802\nCPU revision\t: 13\n"
+    },
+    {
+      "id": "graphics.vendor",
+      "layer": "graphics",
+      "status": "clear",
+      "observed": "Google (NVIDIA Corporation)"
+    },
+    {
+      "id": "graphics.renderer",
+      "layer": "graphics",
+      "status": "detected",
+      "observed": "Android Emulator OpenGL ES Translator (NVIDIA GeForce RTX 4050 Laptop GPU/PCIe/SSE2)"
+    },
+    {
+      "id": "graphics.version",
+      "layer": "graphics",
+      "status": "clear",
+      "observed": "OpenGL ES 3.1 (4.5.0 NVIDIA 610.60)"
+    },
+    {
+      "id": "graphics.egl_vendor",
+      "layer": "graphics",
+      "status": "clear",
+      "observed": "Android"
+    },
+    {
+      "id": "native.identity.property_consistency",
+      "layer": "identity_consistency",
+      "status": "detected",
+      "observed": "{\"ro.build.id\":{\"get\":\"UE1A.230829.050\",\"callback\":\"UE1A.230829.050\",\"java\":\"AP1A.240505.005\"},\"ro.build.type\":{\"get\":\"userdebug\",\"callback\":\"userdebug\",\"java\":\"user\"},\"ro.build.tags\":{\"get\":\"dev-keys\",\"callback\":\"dev-keys\",\"java\":\"release-keys\"},\"ro.build.version.incremental\":{\"get\":\"12077443\",\"callback\":\"12077443\",\"java\":\"12077443\"}}"
+    },
+    {
+      "id": "file./dev/qemu_pipe",
+      "layer": "filesystem",
+      "status": "clear",
+      "observed": "/dev/qemu_pipe"
+    },
+    {
+      "id": "file./dev/goldfish_pipe",
+      "layer": "filesystem",
+      "status": "clear",
+      "observed": "/dev/goldfish_pipe"
+    },
+    {
+      "id": "file./dev/socket/qemud",
+      "layer": "filesystem",
+      "status": "clear",
+      "observed": "/dev/socket/qemud"
+    },
+    {
+      "id": "sensor.metadata",
+      "layer": "framework",
+      "status": "clear",
+      "observed": "[{\"name\":\"3-axis Accelerometer\",\"vendor\":\"Google\",\"type\":1},{\"name\":\"3-axis Gyroscope\",\"vendor\":\"Google\",\"type\":4},{\"name\":\"3-axis Magnetic field sensor\",\"vendor\":\"Google\",\"type\":2},{\"name\":\"Orientation sensor\",\"vendor\":\"Google\",\"type\":3},{\"name\":\"Ambient Temperature sensor\",\"vendor\":\"Google\",\"type\":13},{\"name\":\"Proximity sensor\",\"vendor\":\"Google\",\"type\":8},{\"name\":\"Light sensor\",\"vendor\":\"Google\",\"type\":5},{\"name\":\"Pressure sensor\",\"vendor\":\"Google\",\"type\":6},{\"name\":\"Humidity sensor\",\"vendor\":\"Google\",\"type\":12},{\"name\":\"3-axis Magnetic field sensor (uncalibrated)\",\"vendor\":\"Google\",\"type\":14},{\"name\":\"3-axis Gyroscope (uncalibrated)\",\"vendor\":\"Google\",\"type\":16},{\"name\":\"3-axis Accelerometer Uncalibrated\",\"vendor\":\"Google\",\"type\":35},{\"name\":\"Game Rotation Vector Sensor\",\"vendor\":\"Google\",\"type\":15},{\"name\":\"GeoMag Rotation Vector Sensor\",\"vendor\":\"Google\",\"type\":20},{\"name\":\"Gravity Sensor\",\"vendor\":\"Google\",\"type\":9},{\"name\":\"Linear Acceleration Sensor\",\"vendor\":\"Google\",\"type\":10},{\"name\":\"Rotation Vector Sensor\",\"vendor\":\"Google\",\"type\":11},{\"name\":\"Orientation Sensor\",\"vendor\":\"Google\",\"type\":3}]"
+    }
+  ],
+  "summary": {
+    "detected": 12,
+    "unavailable": 1,
+    "total": 52
+  },
+  "integrity": "not_tested",
+  "interpretation": "Heuristic signals only. A clear check is not proof of a physical device. File visibility and permissions can limit observations.",
+  "apk_sha256": "0e5f775cbd3bf7747236213c4cf3944ff689927433d4c6328bd3c7753d065ed7",
+  "installed_abi": "arm64-v8a"
+}

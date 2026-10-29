@@ -1,0 +1,21 @@
+{
+  "captured_at": "2026-10-24T20:15:18.3810983+00:00",
+  "detector": "native-test",
+  "version": "30 (Mean Minotaur)",
+  "package": "icu.nullptr.nativetest",
+  "release": "https://github.com/Dr-TSNG/NativeDetector/releases/tag/Mean-Minotaur",
+  "apk_sha256": "5b2cb3b3203cb0cb4e59235fca7d728dfeaba1467e045699625671bc1ede4f67",
+  "installed_abi": "arm64-v8a",
+  "status": "unavailable",
+  "detected": null,
+  "reason": "Detector exited or restarted during result collection.",
+  "process_id": null,
+  "foreground": "topResumedActivity=ActivityRecord{b3bbbc0 u0 com.reveny.emulator.detection.sample/com.reveny.emulatordetector.ui.activity.MainActivity t276}",
+  "final_foreground": "topResumedActivity=ActivityRecord{b3bbbc0 u0 com.reveny.emulator.detection.sample/com.reveny.emulatordetector.ui.activity.MainActivity t276}",
+  "final_process_id": "",
+  "launch": "Starting: Intent { cmp=icu.nullptr.nativetest/android.app.NativeActivity }\nStatus: ok\nLaunchState: UNKNOWN (0)\nActivity: icu.nullptr.nativetest/android.app.NativeActivity\nWaitTime: 1395\nComplete",
+  "ui_result": null,
+  "visible_text": [],
+  "screenshot": "strict-v09-native-test-before.png",
+  "log": "strict-v09-native-test-before.log"
+}

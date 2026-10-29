@@ -1,0 +1,21 @@
+{
+  "captured_at": "2026-10-24T16:15:49.7709652+00:00",
+  "detector": "framgia",
+  "version": "1.4.0",
+  "package": "com.framgia.example.emulatordetector",
+  "release": "https://github.com/framgia/android-emulator-detector/releases/tag/1.4.0",
+  "apk_sha256": "4f627a722df412fd12922c0043cd9c1f5b720e31010c9b8d3dd136a9a16e1382",
+  "installed_abi": "null",
+  "status": "not_visible",
+  "detected": null,
+  "reason": "Detector lost the foreground before evidence collection finished.",
+  "process_id": 5623,
+  "foreground": "topResumedActivity=ActivityRecord{fd515f2 u0 com.google.android.permissioncontroller/com.android.permissioncontroller.permission.ui.GrantPermissionsActivity t125}",
+  "final_foreground": "topResumedActivity=ActivityRecord{fd515f2 u0 com.google.android.permissioncontroller/com.android.permissioncontroller.permission.ui.GrantPermissionsActivity t125}",
+  "final_process_id": "5623",
+  "launch": "Starting: Intent { cmp=com.framgia.example.emulatordetector/.MainActivity }\nStatus: ok\nLaunchState: COLD\nActivity: com.google.android.permissioncontroller/com.android.permissioncontroller.permission.ui.GrantPermissionsActivity\nTotalTime: 759\nWaitTime: 776\nComplete",
+  "ui_result": null,
+  "visible_text": [],
+  "screenshot": "strict-v04-before-framgia.png",
+  "log": "strict-v04-before-framgia.log"
+}

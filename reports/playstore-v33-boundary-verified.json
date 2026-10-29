@@ -1,0 +1,29 @@
+{
+  "source_report": "playstore-v33-boundary-final.json",
+  "scope": "owned-process read-only permission controls, not a broker implementation",
+  "measurement_contract_passed": false,
+  "checks": {
+    "selinux_enforcing": true,
+    "exact_measurement_set": true,
+    "application_state_unchanged": true,
+    "all_runners_unprivileged": true,
+    "separate_runner_per_operation": true,
+    "real_subject_modes": true,
+    "unused_subjects_are_null": true,
+    "returned_values_are_explicit": true,
+    "self_read_dumpable_0": true,
+    "self_read_dumpable_1": true,
+    "proc_maps_permission_control": false,
+    "proc_mem_permission_control": false,
+    "process_vm_readv_permission_control": true,
+    "pidfd_getfd_permission_control": true,
+    "kcmp_interruption_not_counted_as_success": true,
+    "query_support_only": true
+  },
+  "completed_operations": 12,
+  "interrupted_operations": 2,
+  "kcmp_operational_in_app": false,
+  "cross_domain_broker_verified": false,
+  "filter_installation_or_interception_verified": false,
+  "zero_detections_achieved": false
+}

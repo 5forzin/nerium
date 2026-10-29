@@ -1,0 +1,10 @@
+service device_lab_exec_probe /system/bin/device-lab-exec-wrapper
+    class late_start
+    user root
+    group root readproc reserved_disk
+    disabled
+    oneshot
+    timeout_period 15
+
+on property:sys.boot_completed=1
+    start device_lab_exec_probe

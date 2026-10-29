@@ -1,0 +1,29 @@
+--------- beginning of main
+10-24 16:53:09.567  4428  4428 I DeviceLabNamespace: profile mount status=0 pid=4428
+10-24 16:53:09.645  4428  4428 I DeviceLabNamespace: uname broker status=0 pid=4428
+10-24 16:53:09.646  4428  4428 I DeviceLabNamespace: proc broker enabled=1
+10-24 16:53:09.663  4428  4428 I DeviceLabPolicy: policy PLT installed=1
+10-24 16:53:09.722  4428  4428 I DeviceLabPolicy: openat2 policy status=0 source_length=260 original_suffix_preserved=1
+10-24 16:53:10.024  4428  4428 I DeviceLabPolicy: policy PLT restored=1
+10-24 16:53:10.044  4428  4428 I DeviceLabNamespace: property remap status=0 pid=4428
+10-24 16:53:12.651  4501  4501 I DeviceLabNamespace: profile mount status=0 pid=4501
+10-24 16:53:12.702  4501  4501 I DeviceLabNamespace: uname broker status=0 pid=4501
+10-24 16:53:12.702  4501  4501 I DeviceLabNamespace: proc broker enabled=1
+10-24 16:53:12.794  4501  4501 I DeviceLabPolicy: policy PLT installed=1
+10-24 16:53:12.856  4501  4501 I DeviceLabPolicy: openat2 policy status=0 source_length=260 original_suffix_preserved=1
+10-24 16:53:13.114  4501  4501 I DeviceLabPolicy: policy PLT restored=1
+10-24 16:53:13.131  4501  4501 I DeviceLabNamespace: property remap status=0 pid=4501
+10-24 16:53:15.883  4563  4563 I DeviceLabNamespace: profile mount status=0 pid=4563
+10-24 16:53:15.884  4563  4563 I DeviceLabNamespace: uname broker status=0 pid=4563
+10-24 16:53:15.885  4563  4563 I DeviceLabNamespace: proc broker enabled=1
+10-24 16:53:15.906  4563  4563 I DeviceLabPolicy: policy PLT installed=1
+10-24 16:53:15.943  4563  4563 I DeviceLabPolicy: openat2 policy status=0 source_length=260 original_suffix_preserved=1
+10-24 16:53:16.484  4563  4563 I DeviceLabPolicy: policy PLT restored=1
+10-24 16:53:16.528  4563  4563 I DeviceLabNamespace: property remap status=0 pid=4563
+10-24 16:53:25.531  4730  4730 I DeviceLabNamespace: profile mount status=0 pid=4730
+10-24 16:53:25.557  4730  4730 I DeviceLabNamespace: uname broker status=0 pid=4730
+10-24 16:53:25.557  4730  4730 I DeviceLabNamespace: proc broker enabled=1
+10-24 16:53:25.567  4730  4730 I DeviceLabPolicy: policy PLT installed=1
+10-24 16:53:25.599  4730  4730 I DeviceLabPolicy: openat2 policy status=0 source_length=260 original_suffix_preserved=1
+10-24 16:53:26.124  4730  4730 I DeviceLabPolicy: policy PLT restored=1
+10-24 16:53:26.156  4730  4730 I DeviceLabNamespace: property remap status=0 pid=4730

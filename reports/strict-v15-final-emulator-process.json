@@ -1,0 +1,4 @@
+{
+  "ProcessId": 34772,
+  "CommandLine": "C:\\Users\\antho\\AppData\\Local\\Android\\Sdk\\emulator\\qemu\\windows-x86_64\\qemu-system-x86_64-headless.exe -avd device-lab-numa -memory 1536 -cores 4 -gpu host -no-audio -no-snapshot -no-boot-anim -camera-back none -camera-front none -port 5556 -no-window"
+}

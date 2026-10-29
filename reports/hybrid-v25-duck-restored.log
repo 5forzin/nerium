@@ -1,0 +1,665 @@
+--------- beginning of main
+10-25 04:31:08.001   616  2299 W InputManager-JNI: Input channel object '258a5b8 com.google.android.documentsui/com.android.documentsui.picker.PickActivity (client)' was disposed without first being removed with the input manager!
+10-25 04:31:08.318   898   993 D EGL_emulation: app_time_stats: avg=646.29ms min=108.16ms max=1581.96ms count=3
+10-25 04:31:08.422 11191 11191 I artd    : Starting artd
+10-25 04:31:08.422 11191 11191 I AidlLazyServiceRegistrar: Registering service artd
+--------- beginning of system
+10-25 04:31:08.588   616  1653 W NotificationService: Toast already killed. pkg=com.eltavine.duckdetector token=android.os.BinderProxy@45350c0
+10-25 04:31:09.403   616  1653 D CompatibilityChangeReporter: Compat change id reported: 168419799; UID 10197; state: DISABLED
+10-25 04:31:09.403   616  1653 D CompatibilityChangeReporter: Compat change id reported: 273564678; UID 10197; state: DISABLED
+10-25 04:31:09.403   616  1653 D CompatibilityChangeReporter: Compat change id reported: 184838306; UID 10197; state: DISABLED
+10-25 04:31:09.404   616  1653 D CompatibilityChangeReporter: Compat change id reported: 185004937; UID 10197; state: DISABLED
+10-25 04:31:09.404   616  1653 D CompatibilityChangeReporter: Compat change id reported: 168419799; UID 10195; state: DISABLED
+10-25 04:31:09.410   616  1653 D CompatibilityChangeReporter: Compat change id reported: 273564678; UID 10195; state: DISABLED
+10-25 04:31:09.411   616  1653 D CompatibilityChangeReporter: Compat change id reported: 184838306; UID 10195; state: DISABLED
+10-25 04:31:09.411   616  1653 D CompatibilityChangeReporter: Compat change id reported: 185004937; UID 10195; state: DISABLED
+10-25 04:31:09.423   616  1653 D CompatibilityChangeReporter: Compat change id reported: 168419799; UID 10194; state: DISABLED
+10-25 04:31:09.423   616  1653 D CompatibilityChangeReporter: Compat change id reported: 273564678; UID 10194; state: DISABLED
+10-25 04:31:09.424   616  1653 D CompatibilityChangeReporter: Compat change id reported: 184838306; UID 10194; state: DISABLED
+10-25 04:31:09.432   616  1653 D CompatibilityChangeReporter: Compat change id reported: 185004937; UID 10194; state: DISABLED
+10-25 04:31:09.433   616  1653 D CompatibilityChangeReporter: Compat change id reported: 168419799; UID 10193; state: DISABLED
+10-25 04:31:09.433   616  1653 D CompatibilityChangeReporter: Compat change id reported: 273564678; UID 10193; state: DISABLED
+10-25 04:31:09.433   616  1653 D CompatibilityChangeReporter: Compat change id reported: 184838306; UID 10193; state: DISABLED
+10-25 04:31:09.433   616  1653 D CompatibilityChangeReporter: Compat change id reported: 185004937; UID 10193; state: DISABLED
+10-25 04:31:09.434   616  1653 D CompatibilityChangeReporter: Compat change id reported: 168419799; UID 10192; state: DISABLED
+10-25 04:31:09.437   616  1653 D CompatibilityChangeReporter: Compat change id reported: 273564678; UID 10192; state: DISABLED
+10-25 04:31:09.438   616  1653 D CompatibilityChangeReporter: Compat change id reported: 184838306; UID 10192; state: DISABLED
+10-25 04:31:09.438   616  1653 D CompatibilityChangeReporter: Compat change id reported: 185004937; UID 10192; state: DISABLED
+10-25 04:31:09.797  1530  5453 I MediaProvider: Deleted 0 0 0 0 0 0 1 items on external_primary due to com.android.shell
+10-25 04:31:10.037  5077  9647 I NetworkScheduler.Stats: (REDACTED) Task %s/%s started execution. cause:%s exec_start_elapsed_seconds: %s
+10-25 04:31:10.092  5077  9587 I NetworkScheduler.Stats: (REDACTED) Task %s/%s finished executing. cause:%s result: %s elapsed_millis: %s uptime_millis: %s exec_start_elapsed_seconds: %s
+10-25 04:31:10.280  2993 11205 I GmscoreIpa: Starting mediastore instant index [CONTEXT service_id=255 ]
+10-25 04:31:10.355 11203 11203 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+10-25 04:31:10.389 11203 11203 I AndroidRuntime: Using default boot image
+10-25 04:31:10.389 11203 11203 I AndroidRuntime: Leaving lock profiling enabled
+10-25 04:31:10.410 11203 11203 I app_process: Using CollectorTypeCC GC.
+10-25 04:31:10.544   898   909 I ndroid.systemui: Background young concurrent copying GC freed 245132(11MB) AllocSpace objects, 0(0B) LOS objects, 38% free, 17MB/28MB, paused 9.403ms,135us total 69.901ms
+10-25 04:31:10.674 11203 11203 D nativeloader: InitDefaultPublicLibraries for_preload=1: libandroid.so:libaaudio.so:libamidi.so:libbinder_ndk.so:libc.so:libcamera2ndk.so:libdl.so:libEGL.so:libGLESv1_CM.so:libGLESv2.so:libGLESv3.so:libicu.so:libicui18n.so:libicuuc.so:libjnigraphics.so:liblog.so:libmediandk.so:libm.so:libnativehelper.so:libnativewindow.so:libOpenMAXAL.so:libOpenSLES.so:libRS.so:libstdc++.so:libsync.so:libvulkan.so:libwebviewchromium_plat_support.so:libz.so
+10-25 04:31:10.713 11203 11203 D app_process: Time zone APEX ICU file found: /apex/com.android.tzdata/etc/icu/icu_tzdata.dat
+10-25 04:31:10.713 11203 11203 D app_process: I18n APEX ICU file found: /apex/com.android.i18n/etc/icu/icudt72l.dat
+10-25 04:31:10.725 11203 11203 W app_process: Unexpected CPU variant for x86: x86_64.
+10-25 04:31:10.725 11203 11203 W app_process: Known variants: atom, sandybridge, silvermont, goldmont, goldmont-plus, tremont, kabylake, default
+10-25 04:31:10.727 11203 11203 W app_process: ClassLoaderContext shared library size mismatch. Expected=2, found=0 (PCL[]{PCL[/system/framework/android.test.base.jar*836642756]#PCL[/system/framework/android.test.mock.jar*3186112116]} | PCL[])
+10-25 04:31:10.728 11203 11203 W app_process: ClassLoaderContext classpath size mismatch. expected=0, found=1 (PCL[]{PCL[/system/framework/android.test.runner.jar*4168958247]{PCL[/system/framework/android.test.base.jar*836642756]#PCL[/system/framework/android.test.mock.jar*3186112116]}#PCL[/system/framework/android.test.base.jar*836642756]} | PCL[/system/framework/android.test.runner.jar*4168958247])
+10-25 04:31:10.781 11203 11203 W libc    : Access denied finding property "ro.product.name_for_attestation"
+10-25 04:31:10.781 11203 11203 W libc    : Access denied finding property "ro.product.brand_for_attestation"
+10-25 04:31:10.782 11203 11203 W libc    : Access denied finding property "ro.product.model_for_attestation"
+10-25 04:31:10.788 11203 11203 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+10-25 04:31:10.772 11203 11203 W main    : type=1400 audit(0.0:3930): avc:  denied  { read } for  name="u:object_r:build_attestation_prop:s0" dev="tmpfs" ino=87 scontext=u:r:shell:s0 tcontext=u:object_r:build_attestation_prop:s0 tclass=file permissive=0
+10-25 04:31:10.780 11203 11203 W main    : type=1400 audit(0.0:3931): avc:  denied  { read } for  name="u:object_r:build_attestation_prop:s0" dev="tmpfs" ino=87 scontext=u:r:shell:s0 tcontext=u:object_r:build_attestation_prop:s0 tclass=file permissive=0
+10-25 04:31:10.780 11203 11203 W main    : type=1400 audit(0.0:3932): avc:  denied  { read } for  name="u:object_r:build_attestation_prop:s0" dev="tmpfs" ino=87 scontext=u:r:shell:s0 tcontext=u:object_r:build_attestation_prop:s0 tclass=file permissive=0
+10-25 04:31:10.830 11203 11203 D UiAutomationConnection: Created on user UserHandle{0}
+10-25 04:31:10.830 11203 11203 I UiAutomation: Initialized for user 0 on display 0
+10-25 04:31:10.830 11203 11203 W UiAutomation: Created with deprecatead constructor, assumes DEFAULT_DISPLAY
+10-25 04:31:10.835   616  1653 D AccessibilityManagerService: changeCurrentUserForTestAutomationIfNeededLocked(0): ignoring because device doesn't support visible background users
+10-25 04:31:10.835   616  1653 I UiAutomationManager: Registering UiTestAutomationService (id=com.android.server.accessibility/UiAutomation) when called by user 0
+10-25 04:31:10.839   616  1653 W WindowMagnificationMgr: requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+10-25 04:31:10.854  3139  4157 I AiAiEcho: Settings changed for uri: content://settings/secure/accessibility_enabled
+10-25 04:31:10.859  3139  3393 I AiAiEcho: Predicting[0]: 
+10-25 04:31:10.859  3139  3393 I AiAiEcho: EchoTargets: 
+10-25 04:31:10.859  3139  3393 I AiAiEcho: Filtered by AiAi flag check: 
+10-25 04:31:10.859  3139  3393 I AiAiEcho: Ranked targets strategy: SORT, count: 0, ranking metadata: 
+10-25 04:31:10.859  3139  3393 I AiAiEcho: Predicting[0]: 
+10-25 04:31:10.859  3139  3393 I AiAiEcho: EchoTargets: 
+10-25 04:31:10.859  3139  3393 I AiAiEcho: Filtered by AiAi flag check: 
+10-25 04:31:10.860  3139  3393 I AiAiEcho: Ranked targets strategy: SORT, count: 0, ranking metadata: 
+10-25 04:31:10.860  3139  3393 I AiAiEcho: Predicting[0]: 
+10-25 04:31:10.860  3139  3393 I AiAiEcho: EchoTargets: 
+10-25 04:31:10.860  3139  3393 I AiAiEcho: Filtered by AiAi flag check: 
+10-25 04:31:10.860  3139  3393 I AiAiEcho: Ranked targets strategy: SORT, count: 0, ranking metadata: 
+10-25 04:31:10.866   616   616 E IPCThreadState: Binder transaction failure: 469429/29201/-28
+10-25 04:31:10.868  3139  3393 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface home with targets# 0 (types=[])
+10-25 04:31:10.868  3139  3393 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface media_data_manager with targets# 0 (types=[])
+10-25 04:31:10.869  3139  3393 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface lockscreen with targets# 0 (types=[])
+10-25 04:31:10.870   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 132)
+10-25 04:31:10.886   898   898 D SsMediaDataProvider: Forwarding Smartspace updates []
+10-25 04:31:10.891   898   898 W PageIndicator: Total number of pages invalid: 0. Assuming 1 page.
+10-25 04:31:10.912   616   616 E IPCThreadState: Binder transaction failure: 469433/29201/-28
+10-25 04:31:10.917   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 132)
+10-25 04:31:10.925   616   616 E IPCThreadState: Binder transaction failure: 469450/29201/-28
+10-25 04:31:10.925   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 132)
+10-25 04:31:10.948   616   616 E IPCThreadState: Binder transaction failure: 469452/29201/-28
+10-25 04:31:10.948   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 132)
+10-25 04:31:10.961   616   616 E IPCThreadState: Binder transaction failure: 469456/29201/-28
+10-25 04:31:10.961   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 132)
+10-25 04:31:10.961   616   616 E IPCThreadState: Binder transaction failure: 469460/29201/-28
+10-25 04:31:10.961   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 132)
+10-25 04:31:10.967   616   616 E IPCThreadState: Binder transaction failure: 469466/29201/-28
+10-25 04:31:10.967   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 132)
+10-25 04:31:10.967   616   616 E IPCThreadState: Binder transaction failure: 469467/29201/-28
+10-25 04:31:10.967   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 132)
+10-25 04:31:10.968   616   616 E IPCThreadState: Binder transaction failure: 469469/29201/-28
+10-25 04:31:10.968   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 132)
+10-25 04:31:10.968   616   616 E IPCThreadState: Binder transaction failure: 469470/29201/-28
+10-25 04:31:10.968   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 132)
+10-25 04:31:10.968   616   616 E IPCThreadState: Binder transaction failure: 469471/29201/-28
+10-25 04:31:10.968   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 132)
+10-25 04:31:10.968   616   616 E IPCThreadState: Binder transaction failure: 469472/29201/-28
+10-25 04:31:10.968   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 132)
+10-25 04:31:10.969   616   616 E IPCThreadState: Binder transaction failure: 469473/29201/-28
+10-25 04:31:10.971   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 132)
+10-25 04:31:10.971   616   616 E IPCThreadState: Binder transaction failure: 469475/29201/-28
+10-25 04:31:10.971   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 132)
+10-25 04:31:10.972   616   616 E IPCThreadState: Binder transaction failure: 469476/29201/-28
+10-25 04:31:10.972   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 132)
+10-25 04:31:10.972   616   616 E IPCThreadState: Binder transaction failure: 469478/29201/-28
+10-25 04:31:10.972   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 132)
+10-25 04:31:10.972   616   616 E IPCThreadState: Binder transaction failure: 469479/29201/-28
+10-25 04:31:10.972   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 132)
+10-25 04:31:10.972   616   616 E IPCThreadState: Binder transaction failure: 469480/29201/-28
+10-25 04:31:10.972   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 132)
+10-25 04:31:10.972   616   616 E IPCThreadState: Binder transaction failure: 469481/29201/-28
+10-25 04:31:10.972   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 132)
+10-25 04:31:10.972   616   616 E IPCThreadState: Binder transaction failure: 469483/29201/-28
+10-25 04:31:10.972   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 132)
+10-25 04:31:10.972   616   616 E IPCThreadState: Binder transaction failure: 469487/29201/-28
+10-25 04:31:10.973   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 132)
+10-25 04:31:10.973   616   616 E IPCThreadState: Binder transaction failure: 469488/29201/-28
+10-25 04:31:10.973   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 132)
+10-25 04:31:10.977   616   616 E IPCThreadState: Binder transaction failure: 469492/29201/-28
+10-25 04:31:10.977   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 132)
+10-25 04:31:10.981   616   616 E IPCThreadState: Binder transaction failure: 469494/29201/-28
+10-25 04:31:10.982   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 132)
+10-25 04:31:10.982   616   616 E IPCThreadState: Binder transaction failure: 469495/29201/-28
+10-25 04:31:10.982   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 132)
+10-25 04:31:10.982   616   616 E IPCThreadState: Binder transaction failure: 469496/29201/-28
+10-25 04:31:10.982   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 132)
+10-25 04:31:10.982   616   616 E IPCThreadState: Binder transaction failure: 469497/29201/-28
+10-25 04:31:10.982   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 132)
+10-25 04:31:10.982   616   616 E IPCThreadState: Binder transaction failure: 469498/29201/-28
+10-25 04:31:10.982   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 132)
+10-25 04:31:10.982   616   616 E IPCThreadState: Binder transaction failure: 469499/29201/-28
+10-25 04:31:10.982   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 132)
+10-25 04:31:10.983   616   616 E IPCThreadState: Binder transaction failure: 469500/29201/-28
+10-25 04:31:10.983   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 132)
+10-25 04:31:10.983   616   616 E IPCThreadState: Binder transaction failure: 469502/29201/-28
+10-25 04:31:10.983   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 132)
+10-25 04:31:10.983   616   616 E IPCThreadState: Binder transaction failure: 469503/29201/-28
+10-25 04:31:10.983   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 132)
+10-25 04:31:10.986   616   616 W Looper  : Slow dispatch took 132ms main h=com.android.server.accessibility.AccessibilityManagerService$MainHandler c=com.android.server.accessibility.AccessibilityManagerService$$ExternalSyntheticLambda14@23de9ee m=0
+10-25 04:31:10.993   616  1653 W WindowMagnificationMgr: requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+10-25 04:31:11.001   616   616 E IPCThreadState: Binder transaction failure: 469515/29201/-28
+10-25 04:31:11.001   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 132)
+10-25 04:31:11.001   616   616 E IPCThreadState: Binder transaction failure: 469516/29201/-28
+10-25 04:31:11.001   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 132)
+10-25 04:31:11.001   616   616 E IPCThreadState: Binder transaction failure: 469517/29201/-28
+10-25 04:31:11.001   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 132)
+10-25 04:31:11.002   616   616 E IPCThreadState: Binder transaction failure: 469518/29201/-28
+10-25 04:31:11.002   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 132)
+10-25 04:31:11.002   616   616 E IPCThreadState: Binder transaction failure: 469520/29201/-28
+10-25 04:31:11.002   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 132)
+10-25 04:31:11.002   616   616 E IPCThreadState: Binder transaction failure: 469522/29201/-28
+10-25 04:31:11.002   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 132)
+10-25 04:31:11.002   616   616 E IPCThreadState: Binder transaction failure: 469526/29201/-28
+10-25 04:31:11.002   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 132)
+10-25 04:31:11.003   616   616 E IPCThreadState: Binder transaction failure: 469530/29201/-28
+10-25 04:31:11.003   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 132)
+10-25 04:31:11.010   616   616 E IPCThreadState: Binder transaction failure: 469538/29201/-28
+10-25 04:31:11.010   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 132)
+10-25 04:31:11.010   616   616 E IPCThreadState: Binder transaction failure: 469539/29201/-28
+10-25 04:31:11.010   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 132)
+10-25 04:31:11.010   616   616 E IPCThreadState: Binder transaction failure: 469540/29201/-28
+10-25 04:31:11.010   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 132)
+10-25 04:31:11.010   616   616 E IPCThreadState: Binder transaction failure: 469541/29201/-28
+10-25 04:31:11.010   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 132)
+10-25 04:31:11.010   616   616 E IPCThreadState: Binder transaction failure: 469542/29201/-28
+10-25 04:31:11.011   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 132)
+10-25 04:31:11.011   616   616 E IPCThreadState: Binder transaction failure: 469544/29201/-28
+10-25 04:31:11.011   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 132)
+10-25 04:31:11.011   616   616 E IPCThreadState: Binder transaction failure: 469545/29201/-28
+10-25 04:31:11.011   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 132)
+10-25 04:31:11.011   616   616 E IPCThreadState: Binder transaction failure: 469547/29201/-28
+10-25 04:31:11.011   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 132)
+10-25 04:31:11.011   616   616 E IPCThreadState: Binder transaction failure: 469548/29201/-28
+10-25 04:31:11.011   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 132)
+10-25 04:31:11.011   616   616 E IPCThreadState: Binder transaction failure: 469549/29201/-28
+10-25 04:31:11.011   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 132)
+10-25 04:31:11.011   616   616 E IPCThreadState: Binder transaction failure: 469550/29201/-28
+10-25 04:31:11.011   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 132)
+10-25 04:31:11.014   616   616 E IPCThreadState: Binder transaction failure: 469553/29201/-28
+10-25 04:31:11.014   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 132)
+10-25 04:31:11.014   616   616 E IPCThreadState: Binder transaction failure: 469557/29201/-28
+10-25 04:31:11.014   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 132)
+10-25 04:31:11.014   616   616 E IPCThreadState: Binder transaction failure: 469558/29201/-28
+10-25 04:31:11.014   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 132)
+10-25 04:31:11.014   616   616 E IPCThreadState: Binder transaction failure: 469560/29201/-28
+10-25 04:31:11.014   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 132)
+10-25 04:31:11.015   616   616 E IPCThreadState: Binder transaction failure: 469562/29201/-28
+10-25 04:31:11.016   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 132)
+10-25 04:31:11.016   616   616 E IPCThreadState: Binder transaction failure: 469563/29201/-28
+10-25 04:31:11.016   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 132)
+10-25 04:31:11.016   616   616 E IPCThreadState: Binder transaction failure: 469566/29201/-28
+10-25 04:31:11.016   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 132)
+10-25 04:31:11.016   616   616 E IPCThreadState: Binder transaction failure: 469568/29201/-28
+10-25 04:31:11.016   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 132)
+10-25 04:31:11.016   616   616 E IPCThreadState: Binder transaction failure: 469569/29201/-28
+10-25 04:31:11.016   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 132)
+10-25 04:31:11.016   616   616 E IPCThreadState: Binder transaction failure: 469570/29201/-28
+10-25 04:31:11.016   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 132)
+10-25 04:31:11.016   616   616 E IPCThreadState: Binder transaction failure: 469571/29201/-28
+10-25 04:31:11.017   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 132)
+10-25 04:31:11.017   616   616 E IPCThreadState: Binder transaction failure: 469573/29201/-28
+10-25 04:31:11.017   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 132)
+10-25 04:31:11.017   616   616 E IPCThreadState: Binder transaction failure: 469574/29201/-28
+10-25 04:31:11.017   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 132)
+10-25 04:31:11.022   616   616 E IPCThreadState: Binder transaction failure: 469580/29201/-28
+10-25 04:31:11.022   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 136)
+10-25 04:31:11.022   616   616 E IPCThreadState: Binder transaction failure: 469581/29201/-28
+10-25 04:31:11.022   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 136)
+10-25 04:31:11.022   616   616 E IPCThreadState: Binder transaction failure: 469582/29201/-28
+10-25 04:31:11.022   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 136)
+10-25 04:31:11.022   616   616 E IPCThreadState: Binder transaction failure: 469583/29201/-28
+10-25 04:31:11.022   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 136)
+10-25 04:31:11.022   616   616 E IPCThreadState: Binder transaction failure: 469585/29201/-28
+10-25 04:31:11.022   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 136)
+10-25 04:31:11.023   616   616 E IPCThreadState: Binder transaction failure: 469587/29201/-28
+10-25 04:31:11.023   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 136)
+10-25 04:31:11.042   616   616 E IPCThreadState: Binder transaction failure: 469598/29201/-28
+10-25 04:31:11.042   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 136)
+10-25 04:31:11.042   616   616 E IPCThreadState: Binder transaction failure: 469599/29201/-28
+10-25 04:31:11.042   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 136)
+10-25 04:31:11.042   616   616 E IPCThreadState: Binder transaction failure: 469601/29201/-28
+10-25 04:31:11.042   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 136)
+10-25 04:31:11.043   616   616 E IPCThreadState: Binder transaction failure: 469602/29201/-28
+10-25 04:31:11.043   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 136)
+10-25 04:31:11.043   616   616 E IPCThreadState: Binder transaction failure: 469603/29201/-28
+10-25 04:31:11.043   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 136)
+10-25 04:31:11.043   616   616 E IPCThreadState: Binder transaction failure: 469604/29201/-28
+10-25 04:31:11.043   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 136)
+10-25 04:31:11.043   616   616 E IPCThreadState: Binder transaction failure: 469605/29201/-28
+10-25 04:31:11.043   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 136)
+10-25 04:31:11.043   616   616 E IPCThreadState: Binder transaction failure: 469607/29201/-28
+10-25 04:31:11.043   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 136)
+10-25 04:31:11.043   616   616 E IPCThreadState: Binder transaction failure: 469608/29201/-28
+10-25 04:31:11.043   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 136)
+10-25 04:31:11.043   616   616 E IPCThreadState: Binder transaction failure: 469610/29201/-28
+10-25 04:31:11.043   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 136)
+10-25 04:31:11.058   616   616 E IPCThreadState: Binder transaction failure: 469611/29201/-28
+10-25 04:31:11.059   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 136)
+10-25 04:31:11.065   616   616 E IPCThreadState: Binder transaction failure: 469627/29201/-28
+10-25 04:31:11.065   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 136)
+10-25 04:31:11.066   616   616 E IPCThreadState: Binder transaction failure: 469633/29201/-28
+10-25 04:31:11.066   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 136)
+10-25 04:31:11.066   616   616 E IPCThreadState: Binder transaction failure: 469635/29201/-28
+10-25 04:31:11.066   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 136)
+10-25 04:31:11.066   616   616 E IPCThreadState: Binder transaction failure: 469639/29201/-28
+10-25 04:31:11.066   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 136)
+10-25 04:31:11.066   616   616 E IPCThreadState: Binder transaction failure: 469640/29201/-28
+10-25 04:31:11.066   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 136)
+10-25 04:31:11.066   616   616 E IPCThreadState: Binder transaction failure: 469642/29201/-28
+10-25 04:31:11.067   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 136)
+10-25 04:31:11.067   616   616 E IPCThreadState: Binder transaction failure: 469644/29201/-28
+10-25 04:31:11.067   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 136)
+10-25 04:31:11.067   616   616 E IPCThreadState: Binder transaction failure: 469645/29201/-28
+10-25 04:31:11.067   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 136)
+10-25 04:31:11.067   616   616 E IPCThreadState: Binder transaction failure: 469646/29201/-28
+10-25 04:31:11.067   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 136)
+10-25 04:31:11.067   616   616 E IPCThreadState: Binder transaction failure: 469647/29201/-28
+10-25 04:31:11.067   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 136)
+10-25 04:31:11.067   616   616 E IPCThreadState: Binder transaction failure: 469648/29201/-28
+10-25 04:31:11.067   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 136)
+10-25 04:31:11.077   616   616 E IPCThreadState: Binder transaction failure: 469649/29201/-28
+10-25 04:31:11.077   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 136)
+10-25 04:31:11.084   616   616 E IPCThreadState: Binder transaction failure: 469667/29201/-28
+10-25 04:31:11.084   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 136)
+10-25 04:31:11.084   616   616 E IPCThreadState: Binder transaction failure: 469673/29201/-28
+10-25 04:31:11.084   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 136)
+10-25 04:31:11.085   616   616 E IPCThreadState: Binder transaction failure: 469675/29201/-28
+10-25 04:31:11.085   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 136)
+10-25 04:31:11.101   616  2299 W WindowManager: Cannot find window which accessibility connection is added to
+10-25 04:31:11.118   616   616 E IPCThreadState: Binder transaction failure: 469720/29201/-28
+10-25 04:31:11.119   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 136)
+10-25 04:31:11.119   616   616 E IPCThreadState: Binder transaction failure: 469721/29201/-28
+10-25 04:31:11.121  3139  4157 I AiAiEcho: Settings changed for uri: content://settings/secure/accessibility_enabled
+10-25 04:31:11.122   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 136)
+10-25 04:31:11.123   616   616 E IPCThreadState: Binder transaction failure: 469726/29201/-28
+10-25 04:31:11.123   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 136)
+10-25 04:31:11.123   616   616 E IPCThreadState: Binder transaction failure: 469727/29201/-28
+10-25 04:31:11.123   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 136)
+10-25 04:31:11.123   616   616 E IPCThreadState: Binder transaction failure: 469729/29201/-28
+10-25 04:31:11.123   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 136)
+10-25 04:31:11.123   616   616 E IPCThreadState: Binder transaction failure: 469731/29201/-28
+10-25 04:31:11.123   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 136)
+10-25 04:31:11.125  3139  3393 I AiAiEcho: Predicting[0]: 
+10-25 04:31:11.125  3139  3393 I AiAiEcho: EchoTargets: 
+10-25 04:31:11.125  3139  3393 I AiAiEcho: Filtered by AiAi flag check: 
+10-25 04:31:11.125  3139  3393 I AiAiEcho: Ranked targets strategy: SORT, count: 0, ranking metadata: 
+10-25 04:31:11.125  3139  3393 I AiAiEcho: Predicting[0]: 
+10-25 04:31:11.126  3139  3393 I AiAiEcho: EchoTargets: 
+10-25 04:31:11.126  3139  3393 I AiAiEcho: Filtered by AiAi flag check: 
+10-25 04:31:11.126  3139  3393 I AiAiEcho: Ranked targets strategy: SORT, count: 0, ranking metadata: 
+10-25 04:31:11.131  3139  3393 I AiAiEcho: Predicting[0]: 
+10-25 04:31:11.131  3139  3393 I AiAiEcho: EchoTargets: 
+10-25 04:31:11.131  3139  3393 I AiAiEcho: Filtered by AiAi flag check: 
+10-25 04:31:11.131  3139  3393 I AiAiEcho: Ranked targets strategy: SORT, count: 0, ranking metadata: 
+10-25 04:31:11.134   616   616 E IPCThreadState: Binder transaction failure: 469738/29201/-28
+10-25 04:31:11.134   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 136)
+10-25 04:31:11.135   616   616 E IPCThreadState: Binder transaction failure: 469739/29201/-28
+10-25 04:31:11.135   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 136)
+10-25 04:31:11.135   616   616 E IPCThreadState: Binder transaction failure: 469741/29201/-28
+10-25 04:31:11.135   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 136)
+10-25 04:31:11.135   616   616 E IPCThreadState: Binder transaction failure: 469742/29201/-28
+10-25 04:31:11.135   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 136)
+10-25 04:31:11.135   616   616 E IPCThreadState: Binder transaction failure: 469743/29201/-28
+10-25 04:31:11.135   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 136)
+10-25 04:31:11.135   616   616 E IPCThreadState: Binder transaction failure: 469744/29201/-28
+10-25 04:31:11.135   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 136)
+10-25 04:31:11.135   616   616 E IPCThreadState: Binder transaction failure: 469745/29201/-28
+10-25 04:31:11.135   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 136)
+10-25 04:31:11.135   616   616 E IPCThreadState: Binder transaction failure: 469747/29201/-28
+10-25 04:31:11.136   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 136)
+10-25 04:31:11.136   616   616 E IPCThreadState: Binder transaction failure: 469748/29201/-28
+10-25 04:31:11.136   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 136)
+10-25 04:31:11.136   616   616 E IPCThreadState: Binder transaction failure: 469750/29201/-28
+10-25 04:31:11.136   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 136)
+10-25 04:31:11.136   616   616 E IPCThreadState: Binder transaction failure: 469751/29201/-28
+10-25 04:31:11.136   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 136)
+10-25 04:31:11.136   616   616 E IPCThreadState: Binder transaction failure: 469752/29201/-28
+10-25 04:31:11.136   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 136)
+10-25 04:31:11.136   616   616 E IPCThreadState: Binder transaction failure: 469753/29201/-28
+10-25 04:31:11.136  3139  3393 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface home with targets# 0 (types=[])
+10-25 04:31:11.136   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 136)
+10-25 04:31:11.136   616   616 E IPCThreadState: Binder transaction failure: 469755/29201/-28
+10-25 04:31:11.137   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 136)
+10-25 04:31:11.137   616   616 E IPCThreadState: Binder transaction failure: 469760/29201/-28
+10-25 04:31:11.137   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 136)
+10-25 04:31:11.137   616   616 E IPCThreadState: Binder transaction failure: 469761/29201/-28
+10-25 04:31:11.138   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 136)
+10-25 04:31:11.138   616   616 E IPCThreadState: Binder transaction failure: 469763/29201/-28
+10-25 04:31:11.146  3139  3393 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface media_data_manager with targets# 0 (types=[])
+10-25 04:31:11.151  3139  3393 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface lockscreen with targets# 0 (types=[])
+10-25 04:31:11.138   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 136)
+10-25 04:31:11.183   616   616 E IPCThreadState: Binder transaction failure: 469784/29201/-28
+10-25 04:31:11.183   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 136)
+10-25 04:31:11.183   616   616 E IPCThreadState: Binder transaction failure: 469785/29201/-28
+10-25 04:31:11.183   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 136)
+10-25 04:31:11.183   616   616 E IPCThreadState: Binder transaction failure: 469786/29201/-28
+10-25 04:31:11.183   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 136)
+10-25 04:31:11.183   616   616 E IPCThreadState: Binder transaction failure: 469787/29201/-28
+10-25 04:31:11.183   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 136)
+10-25 04:31:11.183   616   616 E IPCThreadState: Binder transaction failure: 469788/29201/-28
+10-25 04:31:11.183   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 136)
+10-25 04:31:11.183   616   616 E IPCThreadState: Binder transaction failure: 469789/29201/-28
+10-25 04:31:11.186   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 136)
+10-25 04:31:11.186   616   616 E IPCThreadState: Binder transaction failure: 469790/29201/-28
+10-25 04:31:11.186   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 136)
+10-25 04:31:11.187   616   616 E IPCThreadState: Binder transaction failure: 469792/29201/-28
+10-25 04:31:11.187   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 136)
+10-25 04:31:11.187   616   616 E IPCThreadState: Binder transaction failure: 469793/29201/-28
+10-25 04:31:11.187   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 136)
+10-25 04:31:11.187   616   616 E IPCThreadState: Binder transaction failure: 469798/29201/-28
+10-25 04:31:11.187   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 136)
+10-25 04:31:11.188   616   616 E IPCThreadState: Binder transaction failure: 469799/29201/-28
+10-25 04:31:11.188   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 136)
+10-25 04:31:11.193   616   616 E IPCThreadState: Binder transaction failure: 469800/29201/-28
+10-25 04:31:11.193   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 136)
+10-25 04:31:11.193   616   616 E IPCThreadState: Binder transaction failure: 469801/29201/-28
+10-25 04:31:11.193   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 136)
+10-25 04:31:11.193   616   616 E IPCThreadState: Binder transaction failure: 469803/29201/-28
+10-25 04:31:11.193   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 136)
+10-25 04:31:11.194   616   616 E IPCThreadState: Binder transaction failure: 469805/29201/-28
+10-25 04:31:11.194   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 136)
+10-25 04:31:11.194   616   616 E IPCThreadState: Binder transaction failure: 469809/29201/-28
+10-25 04:31:11.194   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 136)
+10-25 04:31:11.194   616   616 E IPCThreadState: Binder transaction failure: 469810/29201/-28
+10-25 04:31:11.194   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 136)
+10-25 04:31:11.194   616   616 E IPCThreadState: Binder transaction failure: 469812/29201/-28
+10-25 04:31:11.194   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 136)
+10-25 04:31:11.194   616   616 E IPCThreadState: Binder transaction failure: 469813/29201/-28
+10-25 04:31:11.194   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 136)
+10-25 04:31:11.194   616   616 E IPCThreadState: Binder transaction failure: 469814/29201/-28
+10-25 04:31:11.194   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 136)
+10-25 04:31:11.196   616   616 E IPCThreadState: Binder transaction failure: 469823/29201/-28
+10-25 04:31:11.199   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 136)
+10-25 04:31:11.199   616   616 E IPCThreadState: Binder transaction failure: 469824/29201/-28
+10-25 04:31:11.199   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 136)
+10-25 04:31:11.200   616   616 E IPCThreadState: Binder transaction failure: 469826/29201/-28
+10-25 04:31:11.200   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 136)
+10-25 04:31:11.200   616   616 E IPCThreadState: Binder transaction failure: 469827/29201/-28
+10-25 04:31:11.200   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 136)
+10-25 04:31:11.200   616   616 E IPCThreadState: Binder transaction failure: 469829/29201/-28
+10-25 04:31:11.200   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 136)
+10-25 04:31:11.201   616   616 E IPCThreadState: Binder transaction failure: 469830/29201/-28
+10-25 04:31:11.201   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 136)
+10-25 04:31:11.201   616   616 E IPCThreadState: Binder transaction failure: 469831/29201/-28
+10-25 04:31:11.201   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 136)
+10-25 04:31:11.201   616   616 E IPCThreadState: Binder transaction failure: 469832/29201/-28
+10-25 04:31:11.201   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 136)
+10-25 04:31:11.201   616   616 E IPCThreadState: Binder transaction failure: 469834/29201/-28
+10-25 04:31:11.201   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 136)
+10-25 04:31:11.201   616   616 E IPCThreadState: Binder transaction failure: 469838/29201/-28
+10-25 04:31:11.201   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 136)
+10-25 04:31:11.202   616   616 E IPCThreadState: Binder transaction failure: 469839/29201/-28
+10-25 04:31:11.202   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 136)
+10-25 04:31:11.202   616   616 E IPCThreadState: Binder transaction failure: 469841/29201/-28
+10-25 04:31:11.202   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 136)
+10-25 04:31:11.202   616   616 E IPCThreadState: Binder transaction failure: 469843/29201/-28
+10-25 04:31:11.202   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 136)
+10-25 04:31:11.208   616   616 E IPCThreadState: Binder transaction failure: 469848/29201/-28
+10-25 04:31:11.208   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 136)
+10-25 04:31:11.210   616   616 E IPCThreadState: Binder transaction failure: 469849/29201/-28
+10-25 04:31:11.210   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 136)
+10-25 04:31:11.210   616   616 E IPCThreadState: Binder transaction failure: 469850/29201/-28
+10-25 04:31:11.210   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 136)
+10-25 04:31:11.210   616   616 E IPCThreadState: Binder transaction failure: 469851/29201/-28
+10-25 04:31:11.210   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 136)
+10-25 04:31:11.210   616   616 E IPCThreadState: Binder transaction failure: 469852/29201/-28
+10-25 04:31:11.210   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 136)
+10-25 04:31:11.210   616   616 E IPCThreadState: Binder transaction failure: 469853/29201/-28
+10-25 04:31:11.210   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 136)
+10-25 04:31:11.210   616   616 E IPCThreadState: Binder transaction failure: 469855/29201/-28
+10-25 04:31:11.210   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 136)
+10-25 04:31:11.210   616   616 E IPCThreadState: Binder transaction failure: 469856/29201/-28
+10-25 04:31:11.210   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 136)
+10-25 04:31:11.211   616   616 W Looper  : Slow delivery took 213ms main h=android.os.Handler c=null m=1
+10-25 04:31:11.211   616   616 D BatterySaverPolicy: accessibility changed to true, updating policy.
+10-25 04:31:11.218   616  2301 W WindowManager: Cannot find window which accessibility connection is added to
+10-25 04:31:11.224   616   616 W Looper  : Drained
+10-25 04:31:11.235   898   898 D SsMediaDataProvider: Forwarding Smartspace updates []
+10-25 04:31:11.235   898   898 W PageIndicator: Total number of pages invalid: 0. Assuming 1 page.
+10-25 04:31:11.794   898   909 I ndroid.systemui: Background young concurrent copying GC freed 236609(10MB) AllocSpace objects, 0(0B) LOS objects, 36% free, 17MB/28MB, paused 7.182ms,674us total 77.723ms
+10-25 04:31:12.086  1530  5453 W MediaProvider: isAppCloneUserPair for user 0: false
+10-25 04:31:12.336 11203 11203 I AccessibilityNodeInfoDumper: Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@9ab2; boundsInParent: Rect(0, 0 - 0, 0); boundsInScreen: Rect(747, 2163 - 873, 2279); boundsInWindow: Rect(747, 2163 - 873, 2279); packageName: com.eltavine.duckdetector; className: android.view.View; text: null; error: null; maxTextLength: -1; stateDescription: null; contentDescription: null; tooltipText: null; containerTitle: null; viewIdResName: null; uniqueId: null; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: false; visible: false; actions: [AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null]; isTextSelectable: false
+10-25 04:31:12.364 11203 11203 I AccessibilityNodeInfoDumper: Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@861c; boundsInParent: Rect(0, 0 - 1, 1); boundsInScreen: Rect(0, 0 - 1, 1); boundsInWindow: Rect(0, 0 - 1, 1); packageName: com.eltavine.duckdetector; className: android.webkit.WebView; text: null; error: null; maxTextLength: -1; stateDescription: null; contentDescription: null; tooltipText: null; containerTitle: null; viewIdResName: null; uniqueId: null; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: false; visible: false; actions: null; isTextSelectable: false
+10-25 04:31:12.367 11203 11203 W AccessibilityNodeInfoDumper: Fetch time: 297ms
+10-25 04:31:12.379  3139  4157 I AiAiEcho: Settings changed for uri: content://settings/secure/accessibility_enabled
+10-25 04:31:12.381  3139  3393 I AiAiEcho: Predicting[0]: 
+10-25 04:31:12.381  3139  3393 I AiAiEcho: EchoTargets: 
+10-25 04:31:12.381  3139  3393 I AiAiEcho: Filtered by AiAi flag check: 
+10-25 04:31:12.381  3139  3393 I AiAiEcho: Ranked targets strategy: SORT, count: 0, ranking metadata: 
+10-25 04:31:12.382  3139  3393 I AiAiEcho: Predicting[0]: 
+10-25 04:31:12.382  3139  3393 I AiAiEcho: EchoTargets: 
+10-25 04:31:12.382  3139  3393 I AiAiEcho: Filtered by AiAi flag check: 
+10-25 04:31:12.382  3139  3393 I AiAiEcho: Ranked targets strategy: SORT, count: 0, ranking metadata: 
+10-25 04:31:12.382  3139  3393 I AiAiEcho: Predicting[0]: 
+10-25 04:31:12.382  3139  3393 I AiAiEcho: EchoTargets: 
+10-25 04:31:12.382  3139  3393 I AiAiEcho: Filtered by AiAi flag check: 
+10-25 04:31:12.383  3139  3393 I AiAiEcho: Ranked targets strategy: SORT, count: 0, ranking metadata: 
+10-25 04:31:12.383  3139  3393 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface home with targets# 0 (types=[])
+10-25 04:31:12.387  3139  3393 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface media_data_manager with targets# 0 (types=[])
+10-25 04:31:12.394   616  2315 W WindowMagnificationMgr: requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+10-25 04:31:12.403   616  2315 D AccessibilityManagerService: restoreCurrentUserForTestAutomationIfNeededLocked(): ignoring because device doesn't support visible background users
+10-25 04:31:12.404   616   616 E IPCThreadState: Binder transaction failure: 470103/29201/-28
+10-25 04:31:12.404   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 132)
+10-25 04:31:12.405   616   616 E IPCThreadState: Binder transaction failure: 470104/29201/-28
+10-25 04:31:12.405   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 132)
+10-25 04:31:12.405   616   616 E IPCThreadState: Binder transaction failure: 470105/29201/-28
+10-25 04:31:12.405   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 132)
+10-25 04:31:12.405   616   616 E IPCThreadState: Binder transaction failure: 470106/29201/-28
+10-25 04:31:12.405   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 132)
+10-25 04:31:12.405   616   616 E IPCThreadState: Binder transaction failure: 470108/29201/-28
+10-25 04:31:12.405   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 132)
+10-25 04:31:12.409  3139  3393 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface lockscreen with targets# 0 (types=[])
+10-25 04:31:12.410   616   616 E IPCThreadState: Binder transaction failure: 470111/29201/-28
+10-25 04:31:12.410   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 132)
+10-25 04:31:12.411   616   616 E IPCThreadState: Binder transaction failure: 470118/29201/-28
+10-25 04:31:12.411   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 132)
+10-25 04:31:12.411   616   616 E IPCThreadState: Binder transaction failure: 470119/29201/-28
+10-25 04:31:12.411   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 132)
+10-25 04:31:12.411   616   616 E IPCThreadState: Binder transaction failure: 470121/29201/-28
+10-25 04:31:12.411   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 132)
+10-25 04:31:12.417   616   616 E IPCThreadState: Binder transaction failure: 470127/29201/-28
+10-25 04:31:12.418   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 132)
+10-25 04:31:12.418   616   616 E IPCThreadState: Binder transaction failure: 470128/29201/-28
+10-25 04:31:12.418   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 132)
+10-25 04:31:12.418   616   616 E IPCThreadState: Binder transaction failure: 470129/29201/-28
+10-25 04:31:12.418   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 132)
+10-25 04:31:12.418   616   616 E IPCThreadState: Binder transaction failure: 470130/29201/-28
+10-25 04:31:12.418   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 132)
+10-25 04:31:12.421   616   616 E IPCThreadState: Binder transaction failure: 470132/29201/-28
+10-25 04:31:12.424   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 132)
+10-25 04:31:12.425   616   616 E IPCThreadState: Binder transaction failure: 470136/29201/-28
+10-25 04:31:12.425   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 132)
+10-25 04:31:12.425 11203 11203 D AndroidRuntime: Shutting down VM
+10-25 04:31:12.431   898   898 D SsMediaDataProvider: Forwarding Smartspace updates []
+10-25 04:31:12.431   898   898 W PageIndicator: Total number of pages invalid: 0. Assuming 1 page.
+10-25 04:31:12.441   616   616 E IPCThreadState: Binder transaction failure: 470142/29201/-28
+10-25 04:31:12.441   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 132)
+10-25 04:31:12.441   616   616 E IPCThreadState: Binder transaction failure: 470143/29201/-28
+10-25 04:31:12.447   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 132)
+10-25 04:31:12.447   616   616 E IPCThreadState: Binder transaction failure: 470155/29201/-28
+10-25 04:31:12.448   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 132)
+10-25 04:31:12.448   616   616 E IPCThreadState: Binder transaction failure: 470156/29201/-28
+10-25 04:31:12.448   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 132)
+10-25 04:31:12.448   616   616 E IPCThreadState: Binder transaction failure: 470158/29201/-28
+10-25 04:31:12.448   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 132)
+10-25 04:31:12.457   616   616 E IPCThreadState: Binder transaction failure: 470162/29201/-28
+10-25 04:31:12.458   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 132)
+10-25 04:31:12.458   616   616 E IPCThreadState: Binder transaction failure: 470164/29201/-28
+10-25 04:31:12.458   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 132)
+10-25 04:31:12.458   616   616 E IPCThreadState: Binder transaction failure: 470166/29201/-28
+10-25 04:31:12.459   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 132)
+10-25 04:31:12.459   616   616 E IPCThreadState: Binder transaction failure: 470168/29201/-28
+10-25 04:31:12.459   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 132)
+10-25 04:31:12.459   616   616 E IPCThreadState: Binder transaction failure: 470169/29201/-28
+10-25 04:31:12.459   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 132)
+10-25 04:31:12.459   616   616 E IPCThreadState: Binder transaction failure: 470170/29201/-28
+10-25 04:31:12.459   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 132)
+10-25 04:31:12.481   616   616 E IPCThreadState: Binder transaction failure: 470181/29201/-28
+10-25 04:31:12.481   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 132)
+10-25 04:31:12.481   616   616 E IPCThreadState: Binder transaction failure: 470182/29201/-28
+10-25 04:31:12.481   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 132)
+10-25 04:31:12.481   616   616 E IPCThreadState: Binder transaction failure: 470183/29201/-28
+10-25 04:31:12.481   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 132)
+10-25 04:31:12.482   616   616 E IPCThreadState: Binder transaction failure: 470184/29201/-28
+10-25 04:31:12.482   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 132)
+10-25 04:31:12.482   616   616 E IPCThreadState: Binder transaction failure: 470186/29201/-28
+10-25 04:31:12.482   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 132)
+10-25 04:31:12.482   616   616 E IPCThreadState: Binder transaction failure: 470187/29201/-28
+10-25 04:31:12.482   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 132)
+10-25 04:31:12.487   616   616 E IPCThreadState: Binder transaction failure: 470192/29201/-28
+10-25 04:31:12.487   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 132)
+10-25 04:31:12.487   616   616 E IPCThreadState: Binder transaction failure: 470193/29201/-28
+10-25 04:31:12.487   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 132)
+10-25 04:31:12.487   616   616 E IPCThreadState: Binder transaction failure: 470194/29201/-28
+10-25 04:31:12.487   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 132)
+10-25 04:31:12.487   616   616 E IPCThreadState: Binder transaction failure: 470195/29201/-28
+10-25 04:31:12.487   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 132)
+10-25 04:31:12.487   616   616 E IPCThreadState: Binder transaction failure: 470197/29201/-28
+10-25 04:31:12.488   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 132)
+10-25 04:31:12.492   616   616 E IPCThreadState: Binder transaction failure: 470199/29201/-28
+10-25 04:31:12.496   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 132)
+10-25 04:31:12.497   616   616 E IPCThreadState: Binder transaction failure: 470205/29201/-28
+10-25 04:31:12.497   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 132)
+10-25 04:31:12.498   616   616 E IPCThreadState: Binder transaction failure: 470206/29201/-28
+10-25 04:31:12.498   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 132)
+10-25 04:31:12.499   616   616 E IPCThreadState: Binder transaction failure: 470209/29201/-28
+10-25 04:31:12.499   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 132)
+10-25 04:31:12.499   616   616 E IPCThreadState: Binder transaction failure: 470211/29201/-28
+10-25 04:31:12.499   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 132)
+10-25 04:31:12.499   616   616 E IPCThreadState: Binder transaction failure: 470212/29201/-28
+10-25 04:31:12.499   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 132)
+10-25 04:31:12.516   616   616 E IPCThreadState: Binder transaction failure: 470227/29201/-28
+10-25 04:31:12.516   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 132)
+10-25 04:31:12.540 11191 11191 I AidlLazyServiceRegistrar: Process has 1 (of 1 available) client(s) in use after notification artd has clients: 1
+10-25 04:31:12.547   616   616 E IPCThreadState: Binder transaction failure: 470274/29201/-28
+10-25 04:31:12.547   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 132)
+10-25 04:31:12.547   616   616 E IPCThreadState: Binder transaction failure: 470276/29201/-28
+10-25 04:31:12.547   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 132)
+10-25 04:31:12.547   616   616 E IPCThreadState: Binder transaction failure: 470277/29201/-28
+10-25 04:31:12.554   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 132)
+10-25 04:31:12.554   616   616 E IPCThreadState: Binder transaction failure: 470280/29201/-28
+10-25 04:31:12.554   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 132)
+10-25 04:31:12.554   616   616 E IPCThreadState: Binder transaction failure: 470282/29201/-28
+10-25 04:31:12.554   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 132)
+10-25 04:31:12.554   616   616 E IPCThreadState: Binder transaction failure: 470285/29201/-28
+10-25 04:31:12.554   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 132)
+10-25 04:31:12.555   616   616 E IPCThreadState: Binder transaction failure: 470286/29201/-28
+10-25 04:31:12.555   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 132)
+10-25 04:31:12.555   616   616 E IPCThreadState: Binder transaction failure: 470290/29201/-28
+10-25 04:31:12.555   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 132)
+10-25 04:31:12.555   616   616 E IPCThreadState: Binder transaction failure: 470297/29201/-28
+10-25 04:31:12.556   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 132)
+10-25 04:31:12.556   616   616 E IPCThreadState: Binder transaction failure: 470298/29201/-28
+10-25 04:31:12.556   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 132)
+10-25 04:31:12.556   616   616 E IPCThreadState: Binder transaction failure: 470300/29201/-28
+10-25 04:31:12.556   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 132)
+10-25 04:31:12.556   616   616 E IPCThreadState: Binder transaction failure: 470303/29201/-28
+10-25 04:31:12.556   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 132)
+10-25 04:31:12.563  2993  2993 D BoundBrokerSvc: onUnbind: Intent { act=com.google.firebase.dynamiclinks.service.START pkg=com.google.android.gms }
+10-25 04:31:12.565  5077 10835 I NetworkScheduler.Stats: (REDACTED) Task %s/%s started execution. cause:%s exec_start_elapsed_seconds: %s
+10-25 04:31:12.573   616   616 E IPCThreadState: Binder transaction failure: 470314/29201/-28
+10-25 04:31:12.573   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 132)
+10-25 04:31:12.573   616   616 E IPCThreadState: Binder transaction failure: 470315/29201/-28
+10-25 04:31:12.573   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 132)
+10-25 04:31:12.573   616   616 E IPCThreadState: Binder transaction failure: 470316/29201/-28
+10-25 04:31:12.573   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 132)
+10-25 04:31:12.573   616   616 E IPCThreadState: Binder transaction failure: 470317/29201/-28
+10-25 04:31:12.574   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 132)
+10-25 04:31:12.574   616   616 E IPCThreadState: Binder transaction failure: 470318/29201/-28
+10-25 04:31:12.574   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 132)
+10-25 04:31:12.574   616   616 E IPCThreadState: Binder transaction failure: 470319/29201/-28
+10-25 04:31:12.574   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 132)
+10-25 04:31:12.574   616   616 E IPCThreadState: Binder transaction failure: 470321/29201/-28
+10-25 04:31:12.574   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 132)
+10-25 04:31:12.574   616   616 E IPCThreadState: Binder transaction failure: 470322/29201/-28
+10-25 04:31:12.574   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 132)
+10-25 04:31:12.575   616   616 E IPCThreadState: Binder transaction failure: 470327/29201/-28
+10-25 04:31:12.575   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 136)
+10-25 04:31:12.575   616   616 E IPCThreadState: Binder transaction failure: 470328/29201/-28
+10-25 04:31:12.575   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 136)
+10-25 04:31:12.575   616   616 E IPCThreadState: Binder transaction failure: 470329/29201/-28
+10-25 04:31:12.575   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 136)
+10-25 04:31:12.575   616   616 E IPCThreadState: Binder transaction failure: 470330/29201/-28
+10-25 04:31:12.576   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 136)
+10-25 04:31:12.576   616   616 E IPCThreadState: Binder transaction failure: 470332/29201/-28
+10-25 04:31:12.576   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 136)
+10-25 04:31:12.576   616   616 E IPCThreadState: Binder transaction failure: 470334/29201/-28
+10-25 04:31:12.576   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 136)
+10-25 04:31:12.576   616   616 E IPCThreadState: Binder transaction failure: 470338/29201/-28
+10-25 04:31:12.576   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 136)
+10-25 04:31:12.576   616   616 E IPCThreadState: Binder transaction failure: 470339/29201/-28
+10-25 04:31:12.581   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 136)
+10-25 04:31:12.581   616   616 E IPCThreadState: Binder transaction failure: 470341/29201/-28
+10-25 04:31:12.581   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 136)
+10-25 04:31:12.581   616   616 E IPCThreadState: Binder transaction failure: 470342/29201/-28
+10-25 04:31:12.581   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 136)
+10-25 04:31:12.581   616   616 E IPCThreadState: Binder transaction failure: 470343/29201/-28
+10-25 04:31:12.581   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 136)
+10-25 04:31:12.581   616   616 E IPCThreadState: Binder transaction failure: 470344/29201/-28
+10-25 04:31:12.581   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 136)
+10-25 04:31:12.582   616   616 E IPCThreadState: Binder transaction failure: 470345/29201/-28
+10-25 04:31:12.582   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 136)
+10-25 04:31:12.582   616   616 E IPCThreadState: Binder transaction failure: 470347/29201/-28
+10-25 04:31:12.582   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 136)
+10-25 04:31:12.582   616   616 E IPCThreadState: Binder transaction failure: 470348/29201/-28
+10-25 04:31:12.582   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 136)
+10-25 04:31:12.582   616   616 E IPCThreadState: Binder transaction failure: 470350/29201/-28
+10-25 04:31:12.582   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 136)
+10-25 04:31:12.582   616   616 E IPCThreadState: Binder transaction failure: 470351/29201/-28
+10-25 04:31:12.582   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 136)
+10-25 04:31:12.582   616   616 E IPCThreadState: Binder transaction failure: 470352/29201/-28
+10-25 04:31:12.582   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 136)
+10-25 04:31:12.582   616   616 E IPCThreadState: Binder transaction failure: 470353/29201/-28
+10-25 04:31:12.582   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 136)
+10-25 04:31:12.595   616   616 E IPCThreadState: Binder transaction failure: 470355/29201/-28
+10-25 04:31:12.602   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 136)
+10-25 04:31:12.606   616  2299 W WindowManager: Cannot find window which accessibility connection is added to
+10-25 04:31:12.632  2993  2993 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.mdd.service.START dat=chimera-action:/... cmp=com.google.android.gms/.chimera.GmsBoundBrokerService }
+10-25 04:31:12.646   616   616 E IPCThreadState: Binder transaction failure: 470389/29201/-28
+10-25 04:31:12.646   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 136)
+10-25 04:31:12.646   616   616 E IPCThreadState: Binder transaction failure: 470390/29201/-28
+10-25 04:31:12.646   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 136)
+10-25 04:31:12.646   616   616 E IPCThreadState: Binder transaction failure: 470392/29201/-28
+10-25 04:31:12.646   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 136)
+10-25 04:31:12.646   616   616 E IPCThreadState: Binder transaction failure: 470394/29201/-28
+10-25 04:31:12.646   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 136)
+10-25 04:31:12.646   616   616 E IPCThreadState: Binder transaction failure: 470395/29201/-28
+10-25 04:31:12.646   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 136)
+10-25 04:31:12.647   616   616 E IPCThreadState: Binder transaction failure: 470396/29201/-28
+10-25 04:31:12.647   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 136)
+10-25 04:31:12.647   616   616 E IPCThreadState: Binder transaction failure: 470397/29201/-28
+10-25 04:31:12.650   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 136)
+10-25 04:31:12.650   616   616 E IPCThreadState: Binder transaction failure: 470400/29201/-28
+10-25 04:31:12.650   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 136)
+10-25 04:31:12.657   616   616 E IPCThreadState: Binder transaction failure: 470401/29201/-28
+10-25 04:31:12.659   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 136)
+10-25 04:31:12.664   616   616 E IPCThreadState: Binder transaction failure: 470402/29201/-28
+10-25 04:31:12.665   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 136)
+10-25 04:31:12.665   616   616 E IPCThreadState: Binder transaction failure: 470406/29201/-28
+10-25 04:31:12.665   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 136)
+10-25 04:31:12.665   616   616 E IPCThreadState: Binder transaction failure: 470407/29201/-28
+10-25 04:31:12.665   616   616 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 136)
+10-25 04:31:12.666   616   616 D BatterySaverPolicy: accessibility changed to false, updating policy.
+10-25 04:31:12.685  5077  9587 I NetworkScheduler.Stats: (REDACTED) Task %s/%s finished executing. cause:%s result: %s elapsed_millis: %s uptime_millis: %s exec_start_elapsed_seconds: %s
+10-25 04:31:12.714   616  2299 W WindowManager: Cannot find window which accessibility connection is added to
+10-25 04:31:13.802   898   898 D StatusBarIconController: ignoring old pipeline callbacks, because the new mobile icons are enabled
+10-25 04:31:14.463  1530  1974 I MediaProvider: Deleted 0 1 0 0 0 0 0 items on external_primary due to com.android.shell
+10-25 04:31:14.678  5077  7705 I NetworkScheduler.Stats: (REDACTED) Task %s/%s started execution. cause:%s exec_start_elapsed_seconds: %s
+10-25 04:31:14.699  5077  9587 I NetworkScheduler.Stats: (REDACTED) Task %s/%s finished executing. cause:%s result: %s elapsed_millis: %s uptime_millis: %s exec_start_elapsed_seconds: %s
+10-25 04:31:14.716  5077  5100 I .gms.persistent: Background young concurrent copying GC freed 156097(8157KB) AllocSpace objects, 1(128KB) LOS objects, 32% free, 17MB/25MB, paused 5.684ms,109us total 91.513ms
+10-25 04:31:14.877 11231 11231 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+10-25 04:31:14.895  1530  1974 W MediaProvider: isAppCloneUserPair for user 0: false
+10-25 04:31:14.899 11231 11231 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+10-25 04:31:14.948   161   161 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+10-25 04:31:14.948 11231 11233 I Gralloc4: mapper 4.x is not supported
+10-25 04:31:15.281  5077 10835 I NetworkScheduler.Stats: (REDACTED) Task %s/%s started execution. cause:%s exec_start_elapsed_seconds: %s
+10-25 04:31:15.318  5077  9587 I NetworkScheduler.Stats: (REDACTED) Task %s/%s finished executing. cause:%s result: %s elapsed_millis: %s uptime_millis: %s exec_start_elapsed_seconds: %s
+10-25 04:31:15.769   616  2315 I ActivityManager: Broadcasting: Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x400000 }
+10-25 04:31:15.774   616  2315 I ActivityManager: Enqueued broadcast Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x400000 }: 0
+10-25 04:31:15.804   616   649 I ActivityManager: Broadcast completed: result=0
+10-25 04:31:15.812  1530  2119 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+10-25 04:31:15.847  1530  2119 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+10-25 04:31:15.895  1530  1582 I FuseDaemon: Background young concurrent copying GC freed 1373(136KB) AllocSpace objects, 6(616KB) LOS objects, 16% free, 4715KB/5631KB, paused 6.008ms,122us total 36.198ms
+10-25 04:31:16.034  5077 10835 I NetworkScheduler.Stats: (REDACTED) Task %s/%s started execution. cause:%s exec_start_elapsed_seconds: %s
+10-25 04:31:16.077  5077  9647 I NetworkScheduler.Stats: (REDACTED) Task %s/%s finished executing. cause:%s result: %s elapsed_millis: %s uptime_millis: %s exec_start_elapsed_seconds: %s

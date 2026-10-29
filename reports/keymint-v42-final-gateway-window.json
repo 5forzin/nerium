@@ -1,0 +1,170 @@
+{
+  "schema_version": 1,
+  "recorded_at": "2026-10-26T22:53:56.5126624+00:00",
+  "control_run_id": "9e668b6bf54649bc981ca0999e8b1007",
+  "backend_sha256": "ae2f3ca25eff17a588462efad7fd9321996cc29bc31f287f44bb5d72f05e209f",
+  "first_line": 33,
+  "last_line": 65,
+  "events": [
+    {
+      "event": "request",
+      "command": 0,
+      "payload_bytes": 189
+    },
+    {
+      "event": "generated_key",
+      "storage": "cng_reference"
+    },
+    {
+      "event": "request",
+      "command": 1,
+      "payload_bytes": 92
+    },
+    {
+      "event": "request",
+      "command": 3,
+      "payload_bytes": 72
+    },
+    {
+      "event": "protected_signature",
+      "bytes": 256
+    },
+    {
+      "event": "request",
+      "command": 22,
+      "payload_bytes": 40
+    },
+    {
+      "event": "request",
+      "command": 0,
+      "payload_bytes": 163
+    },
+    {
+      "event": "generated_key",
+      "storage": "software_blob"
+    },
+    {
+      "event": "request",
+      "command": 8,
+      "payload_bytes": 68
+    },
+    {
+      "event": "request",
+      "command": 1,
+      "payload_bytes": 303
+    },
+    {
+      "event": "request",
+      "command": 3,
+      "payload_bytes": 72
+    },
+    {
+      "event": "request",
+      "command": 22,
+      "payload_bytes": 259
+    },
+    {
+      "event": "request",
+      "command": 0,
+      "payload_bytes": 105
+    },
+    {
+      "event": "generated_key",
+      "storage": "software_blob"
+    },
+    {
+      "event": "request",
+      "command": 1,
+      "payload_bytes": 238
+    },
+    {
+      "event": "request",
+      "command": 2,
+      "payload_bytes": 68
+    },
+    {
+      "event": "request",
+      "command": 3,
+      "payload_bytes": 28
+    },
+    {
+      "event": "request",
+      "command": 1,
+      "payload_bytes": 262
+    },
+    {
+      "event": "request",
+      "command": 2,
+      "payload_bytes": 84
+    },
+    {
+      "event": "request",
+      "command": 3,
+      "payload_bytes": 28
+    },
+    {
+      "event": "request",
+      "command": 1,
+      "payload_bytes": 262
+    },
+    {
+      "event": "request",
+      "command": 2,
+      "payload_bytes": 84
+    },
+    {
+      "event": "request",
+      "command": 3,
+      "payload_bytes": 28
+    },
+    {
+      "event": "request",
+      "command": 22,
+      "payload_bytes": 178
+    },
+    {
+      "event": "request",
+      "command": 0,
+      "payload_bytes": 97
+    },
+    {
+      "event": "generated_key",
+      "storage": "software_blob"
+    },
+    {
+      "event": "request",
+      "command": 1,
+      "payload_bytes": 222
+    },
+    {
+      "event": "request",
+      "command": 3,
+      "payload_bytes": 72
+    },
+    {
+      "event": "request",
+      "command": 1,
+      "payload_bytes": 222
+    },
+    {
+      "event": "request",
+      "command": 3,
+      "payload_bytes": 72
+    },
+    {
+      "event": "request",
+      "command": 1,
+      "payload_bytes": 222
+    },
+    {
+      "event": "request",
+      "command": 3,
+      "payload_bytes": 72
+    },
+    {
+      "event": "request",
+      "command": 22,
+      "payload_bytes": 170
+    }
+  ]
+}

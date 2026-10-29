@@ -1,0 +1,34 @@
+{
+  "scope": "existing SDK ARM64 backend capability queries only; no guest launched",
+  "binary": "C:\\Users\\antho\\AppData\\Local\\Android\\Sdk\\emulator\\qemu\\windows-x86_64\\qemu-system-aarch64-headless.exe",
+  "launcher_directory_explicit": true,
+  "results": [
+    {
+      "arguments": [
+        "-version"
+      ],
+      "exit_code": 0,
+      "stdout": "Android emulator version 37.2.12.0 (build_id 16428233) (CL:N/A)\r\nCopyright (C) 2006-2024 The Android Open Source Project and many others.\r\nThis program is a derivative of the QEMU CPU emulator (www.qemu.org).\r\n\r\n  This software is licensed under the terms of the GNU General Public\r\n  License version 2, as published by the Free Software Foundation, and\r\n  may be copied, distributed, and modified under those terms.\r\n\r\n  This program is distributed in the hope that it will be useful,\r\n  but WITHOUT ANY WARRANTY; without even the implied warranty of\r\n  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\r\n  GNU General Public License for more details.\r\n\r\n",
+      "stderr": ""
+    },
+    {
+      "arguments": [
+        "-machine",
+        "help"
+      ],
+      "exit_code": 1,
+      "stdout": "",
+      "stderr": "unknown option: -machine\r\nplease use -help for a list of valid options\r\n"
+    },
+    {
+      "arguments": [
+        "-accel",
+        "help"
+      ],
+      "exit_code": 2,
+      "stdout": "ERROR        | You did not specify a virtual device name, and the system\r\ndirectory could not be found.\r\n\r\nIf you are an Android SDK user, please use '@<name>' or '-avd <name>'\r\nto start a given virtual device (use -list-avds to print available ones).\r\n\r\nOtherwise, follow the instructions in -help-disk-images to start the emulator\r\n\r\n",
+      "stderr": ""
+    }
+  ],
+  "arm64_android_boot_verified": false
+}

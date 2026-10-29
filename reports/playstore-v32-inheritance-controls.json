@@ -1,0 +1,76 @@
+{
+  "scope": "Comparator positive and synthetic negative controls; only measured_candidate uses an unmodified candidate report",
+  "passed": true,
+  "cases": [
+    {
+      "case": "measured_candidate",
+      "expected_accepted": true,
+      "accepted": true,
+      "exit_code": 0,
+      "control_passed": true
+    },
+    {
+      "case": "unchanged_unsetenv_only_baseline",
+      "expected_accepted": false,
+      "accepted": false,
+      "exit_code": 1,
+      "control_passed": true
+    },
+    {
+      "case": "environment_read_unavailable",
+      "expected_accepted": false,
+      "accepted": false,
+      "exit_code": 1,
+      "control_passed": true
+    },
+    {
+      "case": "mapping_missing",
+      "expected_accepted": false,
+      "accepted": false,
+      "exit_code": 1,
+      "control_passed": true
+    },
+    {
+      "case": "permission_error_misreported_as_context",
+      "expected_accepted": false,
+      "accepted": false,
+      "exit_code": 1,
+      "control_passed": true
+    },
+    {
+      "case": "other_environment_modified",
+      "expected_accepted": false,
+      "accepted": false,
+      "exit_code": 1,
+      "control_passed": true
+    },
+    {
+      "case": "raw_environment_modified",
+      "expected_accepted": false,
+      "accepted": false,
+      "exit_code": 1,
+      "control_passed": true
+    },
+    {
+      "case": "process_instance_changed",
+      "expected_accepted": false,
+      "accepted": false,
+      "exit_code": 1,
+      "control_passed": true
+    },
+    {
+      "case": "application_capabilities_changed",
+      "expected_accepted": false,
+      "accepted": false,
+      "exit_code": 1,
+      "control_passed": true
+    },
+    {
+      "case": "duplicate_package",
+      "expected_accepted": false,
+      "accepted": false,
+      "exit_code": 1,
+      "control_passed": true
+    }
+  ]
+}

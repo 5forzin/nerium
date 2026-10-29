@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "captured_at": "2026-10-26T14:23:13.7834069Z",
+  "scope": "TBS transient NULL-hierarchy ECC key, TPM2_Sign, host verification and FlushContext",
+  "persistent_operations_requested": false,
+  "android_keymint_verified": false,
+  "google_attestation_verified": false,
+  "zero_detections_achieved": false,
+  "commands": [
+    {
+      "command": "TPM2_CreatePrimary",
+      "tbs_return_code": "0x00000000",
+      "tpm_return_code": "0x00000000",
+      "response_bytes": 296
+    },
+    {
+      "command": "TPM2_Sign",
+      "tbs_return_code": "0x00000000",
+      "tpm_return_code": "0x00000000",
+      "response_bytes": 91
+    },
+    {
+      "command": "TPM2_FlushContext",
+      "tbs_return_code": "0x00000000",
+      "tpm_return_code": "0x00000000",
+      "response_bytes": 10
+    }
+  ],
+  "signature_verified": true,
+  "altered_digest_rejected": true,
+  "verification_backend": "Windows CNG ECDSA VerifyHash",
+  "key_flushed": true,
+  "context_return_code": "0x00000000",
+  "public_key": {
+    "curve": "NIST_P256",
+    "x": "9c175377835dc04f35ad92216a217d02c5bf8a478e24b1a193e964f6a777094d",
+    "y": "b4cf7f15c80b886ef01189661e969723addd8d854c7c826116f36232245c3549",
+    "attributes": "0x00040472",
+    "hierarchy": "TPM_RH_NULL"
+  },
+  "challenge_sha256": "528ad20558a766976490db5cdb5ac86058950efc07a79805fc162b21a99d3198",
+  "signature_p1363_hex": "77ed0a72ef5288f3dc90121c46c6e3e379f483cc335de70d56f70341c48a23c3a15f9ebfada0d9f36f95d381e1377841593b5a222a7594262cc2a2907cf115b1",
+  "close_return_code": "0x00000000",
+  "succeeded": true
+}

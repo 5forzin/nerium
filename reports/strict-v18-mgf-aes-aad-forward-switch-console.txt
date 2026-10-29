@@ -1,0 +1,13 @@
+{
+  "captured_at": "2026-10-25T04:16:23.9028516+00:00",
+  "boot_id": "02ecd244-5fe5-4b4e-9b34-9a62272a3892",
+  "variant": "synthetic",
+  "keybox_sha256_before": "57ff10ee68b76aecf7760da9bb3bba621d8509d8196e10a22d89aa8371cbb849",
+  "keybox_sha256_after": "3d05053f8015e4e557ec69651ea135f57cffe6b35a993e33ae5c8843be4e3929",
+  "keystore_pid_unchanged": true,
+  "controller_pid_unchanged": true,
+  "loaded_selinux_policy_sha256": "725322b8bb21c399e222db65bd9e0ee307a3b603d19d9a3d5f47a93cc8f369c0",
+  "enforcing": true,
+  "manufacturer_trust_supplied": false,
+  "logcat": "strict-v18-mgf-aes-aad-forward-synthetic-switch-logcat.txt"
+}

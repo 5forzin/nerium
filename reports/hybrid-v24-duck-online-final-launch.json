@@ -1,0 +1,21 @@
+{
+  "captured_at": "2026-10-25T07:15:19.9223884+00:00",
+  "detector": "duck",
+  "version": "2026.10.24-b5305070468a (1084)",
+  "package": "com.eltavine.duckdetector",
+  "release": "https://github.com/eltavine/Duck-Detector-Refactoring/releases/tag/nightly-2026-10-24-b5305070",
+  "apk_sha256": "9d0bbdab9c0b14334c9ec0d319758c5f9085260a09388486482b2ac497c81ffc",
+  "installed_abi": "x86_64",
+  "status": "unavailable",
+  "detected": null,
+  "reason": "Detector exited or restarted during result collection.",
+  "process_id": 4653,
+  "foreground": "topResumedActivity=ActivityRecord{64f2599 u0 com.eltavine.duckdetector/.MainActivity t51}",
+  "final_foreground": "topResumedActivity=ActivityRecord{2aa92c5 u0 dev.androidlab.integrityprobe/.MainActivity t50}",
+  "final_process_id": "",
+  "launch": "Starting: Intent { cmp=com.eltavine.duckdetector/android.app.NativeActivity }\nStatus: timeout\nLaunchState: UNKNOWN (-1)\nActivity: com.eltavine.duckdetector/.MainActivity\nWaitTime: 16568\nComplete",
+  "ui_result": null,
+  "visible_text": [],
+  "screenshot": "hybrid-v24-duck-online-final-launch.png",
+  "log": "hybrid-v24-duck-online-final-launch.log"
+}

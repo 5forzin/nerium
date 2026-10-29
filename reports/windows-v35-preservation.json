@@ -1,0 +1,10 @@
+{
+  "captured_at": "2026-10-26T14:29:10.1505157Z",
+  "path": "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v31\\system-images-zygote-probe\\system.img",
+  "extent_offset": 3145728,
+  "extent_size": 871968768,
+  "sha256": "199a5f0ee9f3a22c6fc85661fc1dfa0f922b3a9e96525fc350d96c5544b1a28e",
+  "v32_expected_sha256": "199a5f0ee9f3a22c6fc85661fc1dfa0f922b3a9e96525fc350d96c5544b1a28e",
+  "matches_v32": true,
+  "detector_suites_rerun": false
+}

@@ -1,0 +1,84 @@
+{
+  "schema_version": 1,
+  "recorded_at": "2026-10-26T22:56:31.6821496+00:00",
+  "status": "passed",
+  "before_prefix": "keymint-v42-baseline",
+  "after_prefix": "keymint-v42-final",
+  "suites": {
+    "arm54": {
+      "before": {
+        "detected": 0,
+        "unavailable": 0,
+        "total": 54
+      },
+      "after": {
+        "detected": 0,
+        "unavailable": 0,
+        "total": 54
+      },
+      "same_apk_abi_checks": true
+    },
+    "raw79": {
+      "before": {
+        "detected": 0,
+        "unavailable": 0,
+        "total": 79
+      },
+      "after": {
+        "detected": 0,
+        "unavailable": 0,
+        "total": 79
+      },
+      "same_apk_abi_checks": true
+    },
+    "proc99": {
+      "before": {
+        "detected": 0,
+        "unavailable": 0,
+        "total": 99
+      },
+      "after": {
+        "detected": 0,
+        "unavailable": 0,
+        "total": 99
+      },
+      "same_apk_abi_checks": true
+    }
+  },
+  "reveny": {
+    "after": 0,
+    "before": 0,
+    "same_apk": true
+  },
+  "keystore": {
+    "protected_rsa_generations": 1,
+    "protected_signatures": 1,
+    "after": "4/4",
+    "before": "4/4",
+    "same_apk": true
+  },
+  "selinux": {
+    "unchanged": true,
+    "loaded_policy_sha256": "725322b8bb21c399e222db65bd9e0ee307a3b603d19d9a3d5f47a93cc8f369c0",
+    "context_controls_passed": true,
+    "enforcing": true
+  },
+  "duck": {
+    "after": {
+      "Danger": 2,
+      "Warning": 1,
+      "Ready": 20,
+      "Pending": 0
+    },
+    "before": {
+      "Danger": 2,
+      "Warning": 1,
+      "Ready": 20,
+      "Pending": 0
+    },
+    "same_apk": true
+  },
+  "android_tee_verified": false,
+  "google_attestation_established": false,
+  "zero_detections_achieved": false
+}

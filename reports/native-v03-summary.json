@@ -1,0 +1,94 @@
+{
+  "validated_at": "2026-10-24T15:36:47.410343+00:00",
+  "execution_mode": "ARM64 native code through the stock native bridge on an x86_64 guest",
+  "phases": [
+    {
+      "phase": "baseline",
+      "report_prefix": "native-v03-arm64-final-before",
+      "captured_at": "2026-10-24T15:26:52.168006Z",
+      "probe_detected": 18,
+      "probe_total": 33,
+      "unavailable": 0,
+      "independent_findings": 4,
+      "io_controls_clear": 6,
+      "cpu_views_identical": true
+    },
+    {
+      "phase": "enabled",
+      "report_prefix": "native-v03-arm64-final-after",
+      "captured_at": "2026-10-24T15:28:55.422211Z",
+      "probe_detected": 0,
+      "probe_total": 33,
+      "unavailable": 0,
+      "independent_findings": 0,
+      "io_controls_clear": 6,
+      "cpu_views_identical": true
+    },
+    {
+      "phase": "disabled_again",
+      "report_prefix": "native-v03-arm64-disabled-again",
+      "captured_at": "2026-10-24T15:29:19.190588Z",
+      "probe_detected": 18,
+      "probe_total": 33,
+      "unavailable": 0,
+      "independent_findings": 4,
+      "io_controls_clear": 6,
+      "cpu_views_identical": true
+    },
+    {
+      "phase": "enabled_again",
+      "report_prefix": "native-v03-arm64-enabled-again",
+      "captured_at": "2026-10-24T15:29:41.846798Z",
+      "probe_detected": 0,
+      "probe_total": 33,
+      "unavailable": 0,
+      "independent_findings": 0,
+      "io_controls_clear": 6,
+      "cpu_views_identical": true
+    },
+    {
+      "phase": "after_reboot",
+      "report_prefix": "native-v03-arm64-reboot",
+      "captured_at": "2026-10-24T15:31:07.854371Z",
+      "probe_detected": 0,
+      "probe_total": 33,
+      "unavailable": 0,
+      "independent_findings": 0,
+      "io_controls_clear": 6,
+      "cpu_views_identical": true
+    },
+    {
+      "phase": "restored_after_x86_control",
+      "report_prefix": "native-v03-arm64-restored",
+      "captured_at": "2026-10-24T15:33:45.167807Z",
+      "probe_detected": 0,
+      "probe_total": 33,
+      "unavailable": 0,
+      "independent_findings": 0,
+      "io_controls_clear": 6,
+      "cpu_views_identical": true
+    }
+  ],
+  "x86_control": [
+    {
+      "phase": "before",
+      "probe_detected": 24,
+      "probe_total": 33
+    },
+    {
+      "phase": "after",
+      "probe_detected": 1,
+      "probe_total": 33
+    }
+  ],
+  "artifacts_sha256": {
+    "probe_apk": "023db739b7dec88272a7159049b0359cb2cc601ff2130ad6f332275f0173b2a4",
+    "module_apk": "b4f46b8736a9caedcff72509b7367bd2b90cce210b336cade41695cc311f0098",
+    "namespace_zip": "15c3dc1b0d4c27117b44e8625140e0c1391afc398a25445de0bbd3816ef36ed6",
+    "namespace_installed_so": "6d0c1aae1193b7f38059148e13825daf8210d88145a6a63a8f677f8fd180bf9d",
+    "independent_detector_apk": "9f064f3968e9a224612810ec2b6078872f479930ce4dd0fc1f7132b08c6b3f5b"
+  },
+  "global_properties_preserved": true,
+  "selinux": "Enforcing",
+  "hardware_attestation": "not_tested"
+}

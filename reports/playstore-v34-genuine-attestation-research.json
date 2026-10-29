@@ -1,0 +1,70 @@
+{
+  "checked_at": "2026-10-26T02:20:59.978849+00:00",
+  "scope": "public supported genuine attestation paths; no certificate forgery, token relay or new platform installation",
+  "routes": [
+    {
+      "name": "Google Play Games on PC consumer",
+      "identity": "recognized virtual environment for games published on that platform",
+      "physical_android_identity_established": false,
+      "source": "https://developer.android.com/games/playgames/integrity"
+    },
+    {
+      "name": "Google Play Games Developer Emulator",
+      "virtual_integrity_label_returned": false,
+      "physical_android_identity_established": false,
+      "source": "https://developer.android.com/games/playgames/emulator"
+    },
+    {
+      "name": "Cuttlefish TPM secure_env",
+      "identity": "development KeyMint backend; TPM use alone does not establish an Android-certified chain",
+      "physical_android_identity_established": false,
+      "source": "https://android.googlesource.com/device/google/cuttlefish/+/main/host/commands/secure_env/tpm_keymaster_context.cpp"
+    },
+    {
+      "name": "AVF remote attestation",
+      "identity": "Microdroid protected VM with a distinct virtual identity; requires supported hardware and registered UDS chain",
+      "physical_android_identity_established": false,
+      "source": "https://android.googlesource.com/platform/packages/modules/Virtualization/+/main/docs/vm_remote_attestation.md"
+    },
+    {
+      "name": "ChromeOS ARCVM on supported certified hardware",
+      "android_rkp_tpm_root_implemented": true,
+      "source_only_no_owned_hardware_benchmark": true,
+      "all_app_keys_non_exportable_in_tpm_proven": false,
+      "play_integrity_device_label_guaranteed_for_every_model": false,
+      "external_requirement": "access to a supported provisioned ChromeOS device with Android apps; model and actual nonce-bound results must be verified",
+      "sources": [
+        "https://chromium.googlesource.com/chromiumos/platform2/+/HEAD/libarc-attestation/README.md",
+        "https://chromium.googlesource.com/chromiumos/platform2/+/HEAD/arc/keymint/context/arc_remote_provisioning_context.cc",
+        "https://chromium.googlesource.com/chromiumos/platform2/+/HEAD/libarc-attestation/lib/provisioner.cc",
+        "https://chromium.googlesource.com/chromiumos/platform2/+/HEAD/arc/keymint/context/arc_keymint_context.cc"
+      ]
+    }
+  ],
+  "device_integrity_requirements_source": "https://developer.android.com/google/play/integrity/verdicts",
+  "factory_provisioning_requirements_source": "https://android.googlesource.com/platform/hardware/interfaces/+/main/security/rkp/README.md",
+  "public_supported_self_service_pc_to_certified_phone_route_found": false,
+  "external_requirement": "recognized hardware/platform provisioning or an explicit change to the requested trust model",
+  "full_objective_achieved": false,
+  "chromeos_flex": {
+    "general_android_play_store_offer": false,
+    "managed_android_vpn_exception_exists": true,
+    "chromeos_equivalent_strong_attestation_established": false,
+    "sources": [
+      "https://support.google.com/chromeosflex/answer/16402757",
+      "https://support.google.com/chromeosflex/answer/11542901"
+    ]
+  },
+  "wsa": {
+    "supported_current_alternative": false,
+    "retired_date": "2025-03-05",
+    "sources": [
+      "https://support.microsoft.com/en-us/windows/privacy/privacy-with-windows-subsystem-for-android-and-amazon-appstore",
+      "https://github.com/microsoft/WSA"
+    ]
+  },
+  "verified_access_distinct_from_android_key_attestation": true,
+  "verified_access_source": "https://developers.google.com/chrome/verified-access/developer-guide",
+  "hardware_access_question_pending": true,
+  "limitation": "No universal impossibility claim; open source implementation does not supply the recognized hardware/platform identity. ARCVM is a legitimate candidate requiring external hardware access and verification."
+}

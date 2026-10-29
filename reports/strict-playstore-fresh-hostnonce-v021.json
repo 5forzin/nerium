@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "captured_at_ms": 1792898134834,
+  "api": 34,
+  "challenge_source": "external",
+  "hardware_attestation_feature": true,
+  "strongbox_feature": false,
+  "default_keystore": {
+    "generation_ms": 1425.6866,
+    "keyinfo_inside_secure_hardware": false,
+    "keyinfo_security_level": 0,
+    "certificates": [
+      {
+        "subject": "CN=Android Keystore Key",
+        "issuer": "CN=Android Keystore Software Attestation Intermediate,OU=Android,O=Google\\, Inc.,ST=California,C=US",
+        "sha256": "b2cd455d3ba107906a40b4c06e86e8e3ba105819c5234272c7479173df3d7faf",
+        "der_base64": "MIIC/jCCAqSgAwIBAgIBATAKBggqhkjOPQQDAjCBiDELMAkGA1UEBhMCVVMxEzARBgNVBAgMCkNhbGlmb3JuaWExFTATBgNVBAoMDEdvb2dsZSwgSW5jLjEQMA4GA1UECwwHQW5kcm9pZDE7MDkGA1UEAwwyQW5kcm9pZCBLZXlzdG9yZSBTb2Z0d2FyZSBBdHRlc3RhdGlvbiBJbnRlcm1lZGlhdGUwHhcNNzAwMTAxMDAwMDAwWhcNNDgwMTAxMDAwMDAwWjAfMR0wGwYDVQQDExRBbmRyb2lkIEtleXN0b3JlIEtleTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABHH2Q6NTp6mblf8mObqq/zyklnf6ROveGGQTR8BK4GuLDV3Xq2/9+HVVx15B+76zoGD8U4OFAVFIAGeuo1Pp70OjggFlMIIBYTAOBgNVHQ8BAf8EBAMCB4AwggFNBgorBgEEAdZ5AgERBIIBPTCCATkCAgEsCgEAAgIBLAoBAAQgk9GOwzdTKKRym6yX4VPL8RCyDPqlswcJ503bGUm4hq0EADCCAQGhCDEGAgECAgEDogMCAQOjBAICAQClBTEDAgEEqgMCAQG/g3cCBQC/hT0IAgYBoXEOeLa/hT4DAgEAv4VATDBKBCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEBAAoBAgQgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAC/hUEFAgMCIuC/hUIFAgMDFkW/hUVQBE4wTDEmMCQEH2Rldi5hbmRyb2lkbGFiLmF0dGVzdGF0aW9ucHJvYmUCAQMxIgQgjac+iDJ8sOZhku3/I82pq5AQWQuPAuZogb59H1KOFPa/hU4DAgEAv4VPBgIEATSy9TAAMAoGCCqGSM49BAMCA0gAMEUCIQDVcYn6Nq2g5ZVQqSTJ3rc1usHvO8jl2H3xNdTymcjMgwIgb6F4p8cmY/oPM8KKcN9t0rEf0NHY+usCo5bM/4EMdvw=",
+        "valid_now": true
+      },
+      {
+        "subject": "CN=Android Keystore Software Attestation Intermediate,OU=Android,O=Google\\, Inc.,ST=California,C=US",
+        "issuer": "CN=Android Keystore Software Attestation Root,OU=Android,O=Google\\, Inc.,L=Mountain View,ST=California,C=US",
+        "sha256": "b98b2d687c24434b0ffa20eb889e180fe2d514883d695484ebb4ff83a6639b9b",
+        "der_base64": "MIICeDCCAh6gAwIBAgICEAEwCgYIKoZIzj0EAwIwgZgxCzAJBgNVBAYTAlVTMRMwEQYDVQQIDApDYWxpZm9ybmlhMRYwFAYDVQQHDA1Nb3VudGFpbiBWaWV3MRUwEwYDVQQKDAxHb29nbGUsIEluYy4xEDAOBgNVBAsMB0FuZHJvaWQxMzAxBgNVBAMMKkFuZHJvaWQgS2V5c3RvcmUgU29mdHdhcmUgQXR0ZXN0YXRpb24gUm9vdDAeFw0xNjAxMTEwMDQ2MDlaFw0yNjAxMDgwMDQ2MDlaMIGIMQswCQYDVQQGEwJVUzETMBEGA1UECAwKQ2FsaWZvcm5pYTEVMBMGA1UECgwMR29vZ2xlLCBJbmMuMRAwDgYDVQQLDAdBbmRyb2lkMTswOQYDVQQDDDJBbmRyb2lkIEtleXN0b3JlIFNvZnR3YXJlIEF0dGVzdGF0aW9uIEludGVybWVkaWF0ZTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABOueefhCY1msyyqRTImGzHCtkGaTgqlzJhP+rMv4ISdMIXSXSir+pblNf2bU4GUQZjW8U7ego6ZxWD7bPhGuEBSjZjBkMB0GA1UdDgQWBBQ//KzWGrE6noEguNUlHMVlux6RqTAfBgNVHSMEGDAWgBTIrel3TEXDo88NFhDkeUM6IVowzzASBgNVHRMBAf8ECDAGAQH/AgEAMA4GA1UdDwEB/wQEAwIChDAKBggqhkjOPQQDAgNIADBFAiBLipt77oK8wDOHri/AiZi03cONqycqRZ9pDMfDktQPjgIhAO7aAV229DLp1IQ7YkyUBO86fMy9Xvsiu+f+uXc/WT/7",
+        "valid_now": false,
+        "validity_error": "java.security.cert.CertificateExpiredException: Certificate expired at Wed Jan 07 21:46:09 GMT-03:00 2026 (compared to Sun Oct 25 00:15:36 GMT-03:00 2026)"
+      },
+      {
+        "subject": "CN=Android Keystore Software Attestation Root,OU=Android,O=Google\\, Inc.,L=Mountain View,ST=California,C=US",
+        "issuer": "CN=Android Keystore Software Attestation Root,OU=Android,O=Google\\, Inc.,L=Mountain View,ST=California,C=US",
+        "sha256": "51d496ad4664190fbdaf1ad987278efa35d6fbf52e50a9c34ded8395477ede5c",
+        "der_base64": "MIICizCCAjKgAwIBAgIJAKIFntEOQ1tXMAoGCCqGSM49BAMCMIGYMQswCQYDVQQGEwJVUzETMBEGA1UECAwKQ2FsaWZvcm5pYTEWMBQGA1UEBwwNTW91bnRhaW4gVmlldzEVMBMGA1UECgwMR29vZ2xlLCBJbmMuMRAwDgYDVQQLDAdBbmRyb2lkMTMwMQYDVQQDDCpBbmRyb2lkIEtleXN0b3JlIFNvZnR3YXJlIEF0dGVzdGF0aW9uIFJvb3QwHhcNMTYwMTExMDA0MzUwWhcNMzYwMTA2MDA0MzUwWjCBmDELMAkGA1UEBhMCVVMxEzARBgNVBAgMCkNhbGlmb3JuaWExFjAUBgNVBAcMDU1vdW50YWluIFZpZXcxFTATBgNVBAoMDEdvb2dsZSwgSW5jLjEQMA4GA1UECwwHQW5kcm9pZDEzMDEGA1UEAwwqQW5kcm9pZCBLZXlzdG9yZSBTb2Z0d2FyZSBBdHRlc3RhdGlvbiBSb290MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE7l1ex+HA220Dpn7mthvsTWpdamguD/9/SQ59dx9EIm29sa/6FsvHrcV30lacqrewLVQBXT5DKyqO107sSHVBpKNjMGEwHQYDVR0OBBYEFMit6XdMRcOjzw0WEOR5QzohWjDPMB8GA1UdIwQYMBaAFMit6XdMRcOjzw0WEOR5QzohWjDPMA8GA1UdEwEB/wQFMAMBAf8wDgYDVR0PAQH/BAQDAgKEMAoGCCqGSM49BAMCA0cAMEQCIDUho++LNEYenNVg8x1YiSBq3KNlQfYNns6KGYxmSGB7AiBNC/NR2TB8fVvaNTQdqEcbY6WFZTytTySn502vQX3xvw==",
+        "valid_now": true
+      }
+    ],
+    "chain_signatures_valid": true,
+    "chain_valid_now": false,
+    "leaf_matches_generated_key": true,
+    "key_possession_verified": true,
+    "payload_base64": "RGV2aWNlIExhYiBpbmRlcGVuZGVudCBrZXkgcG9zc2Vzc2lvbiBjaGVjaw==",
+    "signature_base64": "MEYCIQCBfKwKwcl6bD8albjhBSoyZ1OTe2eoZa5m8XswihqYTQIhAKHBAlnwkMtTIhz/BxLedfijXxt65DvMQhCLUEIgzgUb",
+    "challenge_base64": "k9GOwzdTKKRym6yX4VPL8RCyDPqlswcJ503bGUm4hq0=",
+    "attestation": {
+      "attestation_version": 300,
+      "attestation_security_level": 0,
+      "keymaster_version": 300,
+      "keymaster_security_level": 0,
+      "challenge_matches": true,
+      "root_of_trust": {
+        "authorization_list": "software",
+        "verified_boot_key": "0000000000000000000000000000000000000000000000000000000000000000",
+        "device_locked": false,
+        "verified_boot_state": 2,
+        "verified_boot_hash": "0000000000000000000000000000000000000000000000000000000000000000"
+      }
+    },
+    "status": "complete"
+  },
+  "strongbox": {
+    "status": "unavailable",
+    "error_type": "android.security.keystore.StrongBoxUnavailableException",
+    "error": "android.security.keystore.StrongBoxUnavailableException: Failed to generated key pair."
+  },
+  "interpretation": "Valid signatures and nonce binding do not establish manufacturer trust or hardware-backed storage.",
+  "apk_sha256": "05134a6553113dac356a799c3fffbe9a4a71de8d464ece7fd4c8c3a10bb645e9",
+  "package": "dev.androidlab.attestationprobe"
+}

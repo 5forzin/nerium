@@ -1,0 +1,11 @@
+{
+  "captured_at": "2026-10-24T16:50:57.8381693+00:00",
+  "package": "com.reveny.emulator.detection.sample",
+  "apk_sha256": "9f064f3968e9a224612810ec2b6078872f479930ce4dd0fc1f7132b08c6b3f5b",
+  "process_id": 4768,
+  "detected": false,
+  "finding_count": 0,
+  "findings": [],
+  "ui_result": "Nothing detected!",
+  "native_log": "--------- beginning of main\n10-24 13:50:52.649  4768  4768 I EmulatorDetection: isEmulator: false, result: "
+}

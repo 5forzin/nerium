@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "captured_at": "2026-10-26T14:22:06.1529351Z",
+  "scope": "TBS transient NULL-hierarchy ECC key, TPM2_Sign, host verification and FlushContext",
+  "persistent_operations_requested": false,
+  "android_keymint_verified": false,
+  "google_attestation_verified": false,
+  "zero_detections_achieved": false,
+  "commands": [
+    {
+      "command": "TPM2_CreatePrimary",
+      "tbs_return_code": "0x00000000",
+      "tpm_return_code": "0x00000000",
+      "response_bytes": 296
+    },
+    {
+      "command": "TPM2_Sign",
+      "tbs_return_code": "0x00000000",
+      "tpm_return_code": "0x00000000",
+      "response_bytes": 91
+    },
+    {
+      "command": "TPM2_FlushContext",
+      "tbs_return_code": "0x00000000",
+      "tpm_return_code": "0x00000000",
+      "response_bytes": 10
+    }
+  ],
+  "signature_verified": true,
+  "altered_digest_rejected": true,
+  "key_flushed": true,
+  "context_return_code": "0x00000000",
+  "public_key": {
+    "curve": "NIST_P256",
+    "x": "9c175377835dc04f35ad92216a217d02c5bf8a478e24b1a193e964f6a777094d",
+    "y": "b4cf7f15c80b886ef01189661e969723addd8d854c7c826116f36232245c3549",
+    "attributes": "0x00040472",
+    "hierarchy": "TPM_RH_NULL"
+  },
+  "challenge_sha256": "b475db723f7707fee9f92b9c615c8362ad3df86cc41b56b9628a22516608cb1b",
+  "close_return_code": "0x00000000",
+  "succeeded": true
+}

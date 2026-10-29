@@ -1,0 +1,15 @@
+{
+  "captured_at": "2026-10-26T01:53:13.213987+00:00",
+  "avd": "device-lab-playstore-zygote-probe-v31",
+  "system_content_version": "v32",
+  "serial": "emulator-5576",
+  "boot_id": "52abfd0b-ce11-4647-94a9-7136e5e9c314",
+  "selinux": "Enforcing",
+  "verity_mode": "enforcing",
+  "vbmeta_digest": "18bfbbbda08a42cb2b73ad7be7aa378b5948519d2bcdf3418e2a3aa7d1506ca4",
+  "library_sha256": "7b08248367b571ae1399342b69b8a2eaa5b1e17f921835089d33fe497682cc21",
+  "root_mount": "/dev/block/dm-5 / ext4 ro,seclabel,relatime 0 0",
+  "temporary_boundary_apk_removed": true,
+  "system_extent_sha256": "199a5f0ee9f3a22c6fc85661fc1dfa0f922b3a9e96525fc350d96c5544b1a28e",
+  "runtime_hooks_verified": false
+}

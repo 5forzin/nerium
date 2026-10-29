@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "captured_at_ms": 1792898057850,
+  "api": 34,
+  "challenge_source": "external",
+  "hardware_attestation_feature": true,
+  "strongbox_feature": false,
+  "default_keystore": {
+    "generation_ms": 3010.8071,
+    "keyinfo_inside_secure_hardware": false,
+    "keyinfo_security_level": 0,
+    "status": "failed",
+    "error_type": "java.security.cert.CertificateExpiredException",
+    "error": "java.security.cert.CertificateExpiredException: Certificate expired at Wed Jan 07 21:46:09 GMT-03:00 2026 (compared to Sun Oct 25 00:14:20 GMT-03:00 2026)"
+  },
+  "strongbox": {
+    "status": "unavailable",
+    "error_type": "android.security.keystore.StrongBoxUnavailableException",
+    "error": "android.security.keystore.StrongBoxUnavailableException: Failed to generated key pair."
+  },
+  "interpretation": "Valid signatures and nonce binding do not establish manufacturer trust or hardware-backed storage.",
+  "apk_sha256": "06feb66b5ea7a8b801afb57b242efe07e014118e92a45aac0d6fbf6f864ccbdc",
+  "package": "dev.androidlab.attestationprobe"
+}

@@ -1,0 +1,23 @@
+{
+  "source_report": "playstore-v30-exec-probe-avb-correct.json",
+  "scope": "helper double-exec transport",
+  "passed": true,
+  "checks": {
+    "enforcing": true,
+    "boot_complete": true,
+    "all_stages_once": true,
+    "same_process": true,
+    "root_credentials": true,
+    "zygote_domain": true,
+    "no_new_privs_preserved": true,
+    "effective_capabilities_preserved": true,
+    "first_exec_secure": true,
+    "second_exec_not_secure": true,
+    "preload_at_constructor": true,
+    "preload_removed_at_main": true,
+    "constructor_marker": true,
+    "mapping_visible": true,
+    "helper_passed": true
+  },
+  "full_zygote_runtime_verified": false
+}

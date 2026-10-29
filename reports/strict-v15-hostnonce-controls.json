@@ -1,0 +1,36 @@
+{
+  "cases": [
+    {
+      "case": "original",
+      "passed": true,
+      "expected": "accepted_without_manufacturer_trust"
+    },
+    {
+      "case": "changed_nonce",
+      "passed": true,
+      "expected": "rejected"
+    },
+    {
+      "case": "changed_unsigned_claim",
+      "passed": true,
+      "expected": "rejected"
+    },
+    {
+      "case": "changed_possession_signature",
+      "passed": true,
+      "expected": "rejected"
+    },
+    {
+      "case": "replaced_issuer",
+      "passed": true,
+      "expected": "rejected"
+    },
+    {
+      "case": "replayed_report_with_new_host_challenge",
+      "passed": true,
+      "expected": "rejected"
+    }
+  ],
+  "passed": 6,
+  "failed": 0
+}

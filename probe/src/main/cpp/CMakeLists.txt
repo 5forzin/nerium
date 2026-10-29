@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.22.1)
+project(deviceprobe LANGUAGES CXX)
+add_library(deviceprobe SHARED native_probe.cpp)
+target_compile_features(deviceprobe PRIVATE cxx_std_17)
+target_compile_options(deviceprobe PRIVATE -Wall -Wextra -Werror)
+target_link_libraries(deviceprobe PRIVATE EGL GLESv2)
+target_link_options(deviceprobe PRIVATE -Wl,-z,max-page-size=16384)

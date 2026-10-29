@@ -1,0 +1,12 @@
+{
+  "report": "strict-v14-attestation-platform.json",
+  "cases": [
+    {"case": "original", "passed": true, "expected": "accepted_without_manufacturer_trust"},
+    {"case": "changed_nonce", "passed": true, "expected": "rejected"},
+    {"case": "changed_unsigned_claim", "passed": true, "expected": "rejected"},
+    {"case": "changed_possession_signature", "passed": true, "expected": "rejected"},
+    {"case": "replaced_issuer", "passed": true, "expected": "rejected"}
+  ],
+  "passed": 5,
+  "failed": 0
+}

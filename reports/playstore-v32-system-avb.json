@@ -1,0 +1,15 @@
+{
+  "source": "/work/avb-v32/system.img",
+  "output": "/work/avb-v32/rebuilt/system.img",
+  "source_sha256": "fee303146b9b7039ca0116aa6be94ac09c56d57a0c62c6b4d751fc999aea618b",
+  "output_sha256": "199a5f0ee9f3a22c6fc85661fc1dfa0f922b3a9e96525fc350d96c5544b1a28e",
+  "filesystem_data_sha256": "0d4c406db48fb3b340fefebf1e7f240be741e50a9f33898582bd83ff457f11b9",
+  "filesystem_data_unchanged": true,
+  "public_key_sha1": "cdbb77177f731920bbe0a0f94f84d9038ae0617d",
+  "trust_scope": "public AOSP emulator test key",
+  "flags": 0,
+  "fec_roots": 2,
+  "fec_parity_matches": true,
+  "fec_comparison_bytes": 6840320,
+  "verification": "Verifying image /work/avb-v32/rebuilt/system.img using key at /work/avb-v30/tools/testkey_rsa2048.pem\nvbmeta: Successfully verified footer and SHA256_RSA2048 vbmeta struct in /work/avb-v32/rebuilt/system.img\nsystem: Successfully verified sha256 hashtree of /work/avb-v32/rebuilt/system.img for image of 858124288 bytes"
+}

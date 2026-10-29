@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "evaluated_at_utc": "2026-10-25T05:13:09.886911+00:00",
+  "status_source": "https://android.googleapis.com/attestation/status",
+  "status_snapshot_sha256": "7ebbcd5aabb800e8e45d10ac7bc08093d96a2535cdd9bb633cd8142b7249a6e9",
+  "status_snapshot_entries": 1765,
+  "reports": [
+    {
+      "report": "strict-v20-modified-candidate-sameapk-hostnonce.json",
+      "report_sha256": "5b5a2a1f17f50064d308b026f223a79d400dea99382d9be8bcfe4e023ae78320",
+      "samples": {
+        "default_keystore": {
+          "status": "complete",
+          "checked": true,
+          "certificate_count": 3,
+          "listed": [],
+          "clear": true
+        },
+        "strongbox": {
+          "status": "unavailable",
+          "checked": false
+        }
+      }
+    },
+    {
+      "report": "strict-v19-playstore-api35-hostnonce.json",
+      "report_sha256": "a12f7be9a4cade9f407a404b4b728b7d2fd186edc219c10f8ad2b1999a6ba330",
+      "samples": {
+        "default_keystore": {
+          "status": "complete",
+          "checked": true,
+          "certificate_count": 3,
+          "listed": [],
+          "clear": true
+        },
+        "strongbox": {
+          "status": "unavailable",
+          "checked": false
+        }
+      }
+    },
+    {
+      "report": "strict-v20-physical-pixel9-api35-hostnonce.json",
+      "report_sha256": "31b0118f29f7f31838c435f6bf901e3e5cf4ae902bc353bdf1fa7751aa665299",
+      "samples": {
+        "default_keystore": {
+          "status": "complete",
+          "checked": true,
+          "certificate_count": 5,
+          "listed": [],
+          "clear": true
+        },
+        "strongbox": {
+          "status": "complete",
+          "checked": true,
+          "certificate_count": 5,
+          "listed": [],
+          "clear": true
+        }
+      }
+    },
+    {
+      "report": "strict-v20-physical-galaxys25ultra-api35-hostnonce.json",
+      "report_sha256": "a8498b647fe1e39fe7b44ac72137773ee801497dcfbc13b9739a3ae8dd119c4a",
+      "samples": {
+        "default_keystore": {
+          "status": "complete",
+          "checked": true,
+          "certificate_count": 5,
+          "listed": [],
+          "clear": true
+        },
+        "strongbox": {
+          "status": "complete",
+          "checked": true,
+          "certificate_count": 4,
+          "listed": [],
+          "clear": true
+        }
+      }
+    }
+  ],
+  "all_completed_chains_clear": true,
+  "scope": "Serial-number status only. A clear result does not establish a trusted root, valid path, nonce binding, hardware security level, or boot integrity."
+}

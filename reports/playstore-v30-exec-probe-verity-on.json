@@ -1,0 +1,14 @@
+{
+  "captured_at": "2026-10-26T00:37:50.5017584+00:00",
+  "avd": "device-lab-playstore-exec-probe-v30",
+  "selinux": "Enforcing",
+  "boot_completed": "1",
+  "service_state": "",
+  "events": [],
+  "status": "not_executed",
+  "new_system_files_visible": false,
+  "qemu_file_identity_matches_prepared_image": true,
+  "root_mapper": "system-verity",
+  "top_level_vbmeta_flags": 0,
+  "system_descriptor_fec_roots": 2
+}

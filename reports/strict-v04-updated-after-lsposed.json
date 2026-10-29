@@ -1,0 +1,19 @@
+{
+  "captured_at": "2026-10-24T16:10:35.7823067+00:00",
+  "detector": "lsposed-native",
+  "version": "2.2",
+  "package": "io.github.vvb2060.nativedetector",
+  "release": "https://github.com/LSPosed/NativeDetector/releases/tag/v2.2",
+  "apk_sha256": "bccff3df297f9a9f03a9b4e5055a5d6dea1aa06aa33511e9210fbb25fd672b41",
+  "installed_abi": "x86_64",
+  "status": "needs_review",
+  "detected": null,
+  "reason": "Result needs visual review.",
+  "process_id": 4882,
+  "foreground": "topResumedActivity=ActivityRecord{424a6a6 u0 io.github.vvb2060.nativedetector/.zygisk t122}",
+  "launch": "Starting: Intent { cmp=io.github.vvb2060.nativedetector/.zygisk }\nStatus: ok\nLaunchState: COLD\nActivity: io.github.vvb2060.nativedetector/android.app.NativeActivity\nTotalTime: 427\nWaitTime: 430\nComplete",
+  "ui_result": null,
+  "visible_text": [],
+  "screenshot": "strict-v04-updated-after-lsposed.png",
+  "log": "strict-v04-updated-after-lsposed.log"
+}

@@ -1,0 +1,21 @@
+{
+  "captured_at": "2026-10-24T20:15:13.1731835+00:00",
+  "detector": "native-root",
+  "version": "7.7.0",
+  "package": "com.reveny.nativecheck",
+  "release": "https://github.com/reveny/Android-Native-Root-Detector/releases/tag/v7.7.0",
+  "apk_sha256": "1033d24102af2632fe5c379e28c9ea9a20bc1d570e171ac3e50f8afd35fc4bd6",
+  "installed_abi": "arm64-v8a",
+  "status": "unavailable",
+  "detected": null,
+  "reason": "Detector exited or restarted during result collection.",
+  "process_id": null,
+  "foreground": "topResumedActivity=ActivityRecord{b3bbbc0 u0 com.reveny.emulator.detection.sample/com.reveny.emulatordetector.ui.activity.MainActivity t276}",
+  "final_foreground": "topResumedActivity=ActivityRecord{b3bbbc0 u0 com.reveny.emulator.detection.sample/com.reveny.emulatordetector.ui.activity.MainActivity t276}",
+  "final_process_id": "",
+  "launch": "Starting: Intent { cmp=com.reveny.nativecheck/.ui.activity.MainActivity }\nStatus: ok\nLaunchState: COLD\nActivity: com.reveny.nativecheck/.ui.activity.MainActivity\nTotalTime: 784\nWaitTime: 814\nComplete",
+  "ui_result": null,
+  "visible_text": [],
+  "screenshot": "strict-v09-native-root-before.png",
+  "log": "strict-v09-native-root-before.log"
+}

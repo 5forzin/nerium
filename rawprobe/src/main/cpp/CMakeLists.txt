@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.22.1)
+project(RawProcProbe LANGUAGES CXX)
+add_library(rawprocprobe SHARED raw_probe.cpp)
+target_compile_features(rawprocprobe PRIVATE cxx_std_17)
+target_compile_options(rawprocprobe PRIVATE -Wall -Wextra -Werror)
+target_link_options(rawprocprobe PRIVATE -Wl,-z,max-page-size=16384)

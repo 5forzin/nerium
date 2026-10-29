@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "source_report": "play-integrity-physical-galaxy-s23-ultra-api34.json",
+  "hardware_type": "physical",
+  "model": "Galaxy S23 Ultra",
+  "android_api": 34,
+  "verified_boot_state": "orange",
+  "bootloader_locked": false,
+  "vbmeta_device_state": "unlocked",
+  "nonce_matches": true,
+  "device_recognition_verdict": [],
+  "control_positive_for_device_integrity": false
+}

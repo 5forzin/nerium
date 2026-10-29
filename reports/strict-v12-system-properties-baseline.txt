@@ -1,0 +1,177 @@
+  [▲ WARNING] System Properties
+  Verdict      : 1 property signal(s) need review
+  Quick Facts  : Critical: None  |  Review: 1  |  Boot: Clean  |  Build: Clean
+
+  [Core]
+    • persist.sys.usb.config: adb
+        USB debug configuration
+        Source: Reflection
+        Observed: adb
+        USB debug configuration via reflection. Expected safe value: mtp. Cross-checked across 3 sources.
+    • ro.adb.secure: 1
+        ADB authentication
+        Source: Reflection
+        Observed: 1
+        ADB authentication via reflection. Expected safe value: 1. Cross-checked across 3 sources.
+    • ro.allow.mock.location: 0
+        Mock location allowed
+        Source: Reflection
+        Observed: 0
+        Mock location allowed via reflection. Expected safe value: 0. Cross-checked across 3 sources.
+    • ro.crypto.state: encrypted
+        Device encryption state
+        Source: Reflection
+        Observed: encrypted
+        Device encryption state via reflection. Expected safe value: encrypted. Cross-checked across 3 sources.
+    • service.adb.root: 0
+        ADB root request
+        Source: Reflection
+        Observed: 0
+        ADB root property is disabled.
+
+  [Boot]
+    • ro.boot.avb_version: 1.2
+        AVB version
+        Source: Reflection
+        Observed: 1.2
+        AVB version via reflection. Cross-checked across 3 sources.
+    • ro.boot.vbmeta.hash_alg: sha256
+        VBMeta hash algorithm
+        Source: Reflection
+        Observed: sha256
+        VBMeta hash algorithm via reflection. Expected safe value: sha256. Cross-checked across 3 sources.
+    • ro.boot.veritymode: enforcing
+        dm-verity mode
+        Source: Reflection
+        Observed: enforcing
+        dm-verity mode via reflection. Expected safe value: enforcing. Cross-checked across 3 sources.
+
+  [Build]
+    • Build.FINGERPRINT: google/shiba/shib…
+        Framework fingerprint constant
+        Source: Build constant
+        Observed: google/shiba/shiba:14/AP1A.240505.005/11677807:user/release-keys
+        Collected from android.os.Build.FINGERPRINT.
+    • Build.TAGS: release-keys
+        Build signature tags
+        Source: Build constant
+        Observed: release-keys
+        Collected from android.os.Build.TAGS.
+    • Build.TYPE: user
+        Build type constant
+        Source: Build constant
+        Observed: user
+        Collected from android.os.Build.TYPE.
+    • ro.build.flavor: sdk_gphone64_x86_…
+        Build flavor
+        Source: Reflection
+        Observed: sdk_gphone64_x86_64-userdebug
+        Build flavor via reflection. Cross-checked across 3 sources.
+    • ro.build.tags: release-keys
+        Build signature tags
+        Source: Reflection
+        Observed: release-keys
+        Build signature tags via reflection. Expected safe value: release-keys. Cross-checked across 3 sources.
+    • ro.build.type: user
+        Build type
+        Source: Reflection
+        Observed: user
+        Build type via reflection. Expected safe value: user. Cross-checked across 3 sources.
+
+  [Info]
+    • VBMeta digest: 451e57ed688ff746d…
+        ro.boot.vbmeta.digest
+        Source: Reflection
+        451e57ed688ff746d2c636d52169ade253e2bc5bb30a5c3ff23679ca15d3bcd3
+    • VBMeta size: 6656
+        ro.boot.vbmeta.size
+        Source: Reflection
+        6656
+    • Build display ID: sdk_gphone64_x86_…
+        ro.build.display.id
+        Source: Reflection
+        sdk_gphone64_x86_64-userdebug 14 UE1A.230829.050 12077443 dev-keys
+    • System fingerprint: google/shiba/shib…
+        ro.build.fingerprint
+        Source: Reflection
+        google/shiba/shiba:14/AP1A.240505.005/11677807:user/release-keys
+    • Android version: 14
+        ro.build.version.release
+        Source: Reflection
+        14
+    • SDK level: 34
+        ro.build.version.sdk
+        Source: Reflection
+        34
+    • Security patch: 2023-09-05
+        ro.build.version.security_patch
+        Source: Reflection
+        2023-09-05
+    • Hardware: shiba
+        ro.hardware
+        Source: Reflection
+        shiba
+    • Brand: google
+        ro.product.brand
+        Source: Reflection
+        google
+    • Device codename: shiba
+        ro.product.device
+        Source: Reflection
+        shiba
+    • Manufacturer: Google
+        ro.product.manufacturer
+        Source: Reflection
+        Google
+    • Model: Pixel 8
+        ro.product.model
+        Source: Reflection
+        Pixel 8
+    • System partition fingerprint: google/sdk_gphone…
+        ro.system.build.fingerprint
+        Source: Reflection
+        google/sdk_gphone64_x86_64/emu64xa:14/UE1A.230829.050/12077443:userdebug/dev-keys
+    • Vendor fingerprint: google/sdk_gphone…
+        ro.vendor.build.fingerprint
+        Source: Reflection
+        google/sdk_gphone64_x86_64/emu64xa:14/UE1A.230829.050/12077443:userdebug/dev-keys
+
+  [Methods]
+    • Reflection API: 25 hit(s) (android.os.SystemProperties reflection reads.)
+    • getprop snapshot: 25 hit(s) (Single getprop dump parsed once and reused for cross-checks.)
+    • JVM property fallback: Not needed (System.getProperty fallback reads.)
+    • Native libc: 25 hit(s)
+        Native libc property cross-checks using the callback-based system property API.
+    • Raw boot params: Unavailable
+        androidboot.* values from /proc/cmdline and /proc/bootconfig.
+    • Build constants: Clean (Build.TYPE, Build.TAGS, and Build.FINGERPRINT checks.)
+    • Source consistency: Aligned
+        Cross-source comparison across reflection, getprop, JVM, and native libc reads.
+    • Cross-check rules: Aligned
+        Framework-vs-property, fingerprint-tail, raw-boot, and lock-state coherence checks.
+    • Prop area layout: Unavailable (Raw /dev/__properties__ layout scan unavailable.)
+    • Property catalog: 11 / 42 observed (Security rule matches plus 14 info-only properties.)
+    • Prop area mtimes: 3 recorded
+        u:object_r:debug_prop:s0: 2026-10-24T21:39:40.620Z
+        u:object_r:radio_prop:s0: 2026-10-24T21:38:51.936Z
+        u:object_r:system_prop:s0: 2026-10-24T21:38:55.836Z
+        Not scored. An area's mtime moves only when a process takes a write fault on its shared mapping, and it comes from the coarse wall clock, which can still be unset early in boot.
+
+  [Scan]
+    • Rules checked: 42
+    • Rules observed: 11
+    • Reflection hits: 25
+    • getprop hits: 25
+    • JVM hits: 0
+    • Native hits: 25
+    • Boot raw: 0
+    • Prop areas scanned: 0
+    • Prop area holes: 0
+    • Source mismatches: 0
+    • Cross-checks: 0
+    • Info props: 14
+
+  [Impact & Guidance]
+    • Observed properties matched conservative expectations, but raw property-area layout coverage was unavailable.
+    • System properties are still software-readable values, so even aligned results should be combined with kernel, SU, TEE, and package-level signals.
+

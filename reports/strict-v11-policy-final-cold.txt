@@ -1,0 +1,3 @@
+u:r:system_server:s0 u:r:system_server:s0 process execmem result=-1 errno=13
+u:r:untrusted_app:s0 u:r:magisk:s0 binder call result=-1 errno=13
+u:r:system_server:s0 u:r:system_server:s0 process getattr result=0 errno=0

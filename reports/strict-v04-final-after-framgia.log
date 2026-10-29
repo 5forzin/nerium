@@ -1,0 +1,409 @@
+--------- beginning of kernel
+10-24 13:16:37.731     0     0 I logd    : logdr: UID=2000 GID=2000 PID=6105 n tail=0 logMask=99 pid=6053 start=0ns deadline=0ns
+--------- beginning of main
+10-24 13:16:37.872  5971  5972 W ziparchive: Unable to open '/data/app/~~maxQ1trdMSnXFS-prDQfpA==/com.framgia.example.emulatordetector-0AWqK2xUCNWPA4Mnwo6dIA==/base.dm': No such file or directory
+10-24 13:16:37.872  5971  5972 W ziparchive: Unable to open '/data/app/~~maxQ1trdMSnXFS-prDQfpA==/com.framgia.example.emulatordetector-0AWqK2xUCNWPA4Mnwo6dIA==/base.dm': No such file or directory
+--------- beginning of system
+10-24 13:16:37.942   577  2029 I ActivityManager: Force stopping com.framgia.example.emulatordetector appid=10200 user=0: from pid 6123
+10-24 13:16:37.942   577  2029 I ActivityManager: Killing 5751:com.framgia.example.emulatordetector/u0a200 (adj 900): stop com.framgia.example.emulatordetector due to from pid 6123
+10-24 13:16:37.943   577   612 D DisplayManagerService: Drop pending events for gone uid 10200
+10-24 13:16:37.943   577  2029 W ActivityTaskManager: Force removing ActivityRecord{bf3fcdd u0 com.framgia.example.emulatordetector/.MainActivity t126 f}}: app died, no saved state
+10-24 13:16:37.943   577  2029 W InputManager-JNI: Input channel object 'd9fd726 com.framgia.example.emulatordetector/com.framgia.example.emulatordetector.MainActivity (client)' was disposed without first being removed with the input manager!
+10-24 13:16:37.944   577   621 W UsageStatsService: Unexpected activity event reported! (com.framgia.example.emulatordetector/com.framgia.example.emulatordetector.MainActivity event : 23 instanceId : 249937699)
+10-24 13:16:37.947   577  2029 I AppsFilter: interaction: PackageSetting{b0de275 dev.androidlab.module/10194} -> PackageSetting{dbdac6d com.framgia.example.emulatordetector/10200} BLOCKED
+10-24 13:16:37.947   577  2029 I AppsFilter: interaction: PackageSetting{ac4f96a dev.androidlab.probe/10192} -> PackageSetting{dbdac6d com.framgia.example.emulatordetector/10200} BLOCKED
+10-24 13:16:37.950   940   940 D CarrierSvcBindHelper: onHandleForceStop: [com.framgia.example.emulatordetector]
+10-24 13:16:37.950   940   940 D CarrierSvcBindHelper: No carrier app for: 0
+10-24 13:16:37.951   356   356 I Zygote  : Process 5751 exited due to signal 9 (Killed)
+10-24 13:16:37.953   577   653 V ActivityManager: Got obituary of 5751:com.framgia.example.emulatordetector
+10-24 13:16:37.953   577   614 W ActivityManager: setHasOverlayUi called on unknown pid: 5751
+10-24 13:16:37.970   800   800 D StatusBarIconController: ignoring old pipeline callbacks, because the new mobile icons are enabled
+10-24 13:16:37.992   577   653 D CompatibilityChangeReporter: Compat change id reported: 161252188; UID 10200; state: DISABLED
+10-24 13:16:37.993   577   653 W ActivityTaskManager: callingPackage for (uid=2000, pid=6128) has no WPC
+10-24 13:16:37.993   577   653 D CompatibilityChangeReporter: Compat change id reported: 265464455; UID 10200; state: DISABLED
+10-24 13:16:37.993   577   653 D CompatibilityChangeReporter: Compat change id reported: 265452344; UID 10200; state: DISABLED
+10-24 13:16:37.993   577   653 D CompatibilityChangeReporter: Compat change id reported: 266124927; UID 10200; state: DISABLED
+10-24 13:16:37.993   577   653 D CompatibilityChangeReporter: Compat change id reported: 265451093; UID 10200; state: DISABLED
+10-24 13:16:37.994   577   653 D CompatibilityChangeReporter: Compat change id reported: 265456536; UID 10200; state: DISABLED
+10-24 13:16:37.994   577   653 D CompatibilityChangeReporter: Compat change id reported: 255940284; UID 10200; state: DISABLED
+10-24 13:16:37.994   577   653 D CompatibilityChangeReporter: Compat change id reported: 236283604; UID 10200; state: DISABLED
+10-24 13:16:37.994   577   653 D CompatibilityChangeReporter: Compat change id reported: 263959004; UID 10200; state: DISABLED
+10-24 13:16:37.994   577   653 D CompatibilityChangeReporter: Compat change id reported: 264304459; UID 10200; state: DISABLED
+10-24 13:16:37.994   577   653 D CompatibilityChangeReporter: Compat change id reported: 264301586; UID 10200; state: DISABLED
+10-24 13:16:37.994   577   653 D CompatibilityChangeReporter: Compat change id reported: 254631730; UID 10200; state: DISABLED
+10-24 13:16:37.995   577   653 D CompatibilityChangeReporter: Compat change id reported: 273509367; UID 10200; state: DISABLED
+10-24 13:16:37.995   577   653 D CompatibilityChangeReporter: Compat change id reported: 263259275; UID 10200; state: DISABLED
+10-24 13:16:37.995   577   653 D CompatibilityChangeReporter: Compat change id reported: 174042980; UID 10200; state: DISABLED
+10-24 13:16:37.995   577   653 D CompatibilityChangeReporter: Compat change id reported: 174042936; UID 10200; state: DISABLED
+10-24 13:16:37.995   577   653 D CompatibilityChangeReporter: Compat change id reported: 181136395; UID 10200; state: DISABLED
+10-24 13:16:37.995   577   653 D CompatibilityChangeReporter: Compat change id reported: 194480991; UID 10200; state: ENABLED
+10-24 13:16:37.998   577   653 V SplashScreenExceptionList: SplashScreen checking exception for package com.framgia.example.emulatordetector (target sdk:25) -> false
+10-24 13:16:37.998   577   653 D CompatibilityChangeReporter: Compat change id reported: 205907456; UID 10200; state: DISABLED
+10-24 13:16:38.004   800   868 V WindowManagerShell: Transition requested: android.os.BinderProxy@2a43962 TransitionRequestInfo { type = OPEN, triggerTask = TaskInfo{userId=0 taskId=129 displayId=0 isRunning=true baseIntent=Intent { flg=0x10000000 cmp=com.framgia.example.emulatordetector/.MainActivity } baseActivity=ComponentInfo{com.framgia.example.emulatordetector/com.framgia.example.emulatordetector.MainActivity} topActivity=ComponentInfo{com.framgia.example.emulatordetector/com.framgia.example.emulatordetector.MainActivity} origActivity=null realActivity=ComponentInfo{com.framgia.example.emulatordetector/com.framgia.example.emulatordetector.MainActivity} numActivities=1 lastActiveTime=446003 supportsMultiWindow=true resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{android.window.IWindowContainerToken$Stub$Proxy@d347af3} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=Rect(0, 132 - 0, 0) topActivityInfo=ActivityInfo{7c093b0 com.framgia.example.emulatordetector.MainActivity} launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=false isVisible=false isVisibleRequested=false isSleeping=false topActivityInSizeCompat=false topActivityEligibleForLetterboxEducation= false topActivityLetterboxed= false isFromDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=-1 topActivityLetterboxHeight=-1 locusId=null displayAreaFeatureId=1 cameraCompatControlState=hidden}, remoteTransition = null, displayChange = null }
+10-24 13:16:38.005   577   653 I ActivityTaskManager: START u0 {flg=0x10000000 cmp=com.framgia.example.emulatordetector/.MainActivity} with LAUNCH_MULTIPLE from uid 2000 (BAL_ALLOW_PERMISSION) result code=0
+10-24 13:16:38.006   577   614 D CompatibilityChangeReporter: Compat change id reported: 135634846; UID 10200; state: DISABLED
+10-24 13:16:38.006   577   614 D CompatibilityChangeReporter: Compat change id reported: 177438394; UID 10200; state: DISABLED
+10-24 13:16:38.006   577   614 D CompatibilityChangeReporter: Compat change id reported: 135772972; UID 10200; state: DISABLED
+10-24 13:16:38.006   577   614 D CompatibilityChangeReporter: Compat change id reported: 135754954; UID 10200; state: DISABLED
+10-24 13:16:38.007   577   623 D CompatibilityChangeReporter: Compat change id reported: 143937733; UID 10200; state: DISABLED
+10-24 13:16:38.007   800   964 D SplashScreenView: Build android.window.SplashScreenView{1089ae V.E...... ......ID 0,0-0,0}
+10-24 13:16:38.007   800   964 D SplashScreenView: Icon: view: android.widget.ImageView{b91d34f V.ED..... ......I. 0,0-0,0 #10204f0 android:id/splashscreen_icon_view} drawable: com.android.wm.shell.startingsurface.SplashscreenIconDrawableFactory$ImmobileIconDrawable@9933adc size: 420
+10-24 13:16:38.007   800   964 D SplashScreenView: Branding: view: android.view.View{1c747e5 G.ED..... ......I. 0,0-0,0 #10204ef android:id/splashscreen_branding_view} drawable: null size w: 0 h: 0
+10-24 13:16:38.012   420   420 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+10-24 13:16:38.014   356   356 D Zygote  : Forked child process 6131
+10-24 13:16:38.015   577   623 I ActivityManager: Start proc 6131:com.framgia.example.emulatordetector/u0a200 for next-top-activity {com.framgia.example.emulatordetector/com.framgia.example.emulatordetector.MainActivity}
+10-24 13:16:38.017   577   937 D CoreBackPreview: Window{d0635a1 u0 Splash Screen com.framgia.example.emulatordetector}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@b674eb4, mPriority=0, mIsAnimationCallback=false}
+10-24 13:16:38.056  6053  6071 D EGL_emulation: app_time_stats: avg=336.32ms min=2.17ms max=3325.31ms count=10
+10-24 13:16:38.069   800   991 E OpenGLRenderer: Unable to match the desired swap behavior.
+10-24 13:16:38.073  6131  6131 I DeviceLabNamespace: profile mount status=0 pid=6131
+10-24 13:16:38.109  6131  6131 I mulatordetector: Late-enabling -Xcheck:jni
+10-24 13:16:38.165   577   611 V WindowManager: Sent Transition #22 createdAt=10-24 13:16:37.995 via request=TransitionRequestInfo { type = OPEN, triggerTask = TaskInfo{userId=0 taskId=129 displayId=0 isRunning=true baseIntent=Intent { flg=0x10000000 cmp=com.framgia.example.emulatordetector/.MainActivity } baseActivity=ComponentInfo{com.framgia.example.emulatordetector/com.framgia.example.emulatordetector.MainActivity} topActivity=ComponentInfo{com.framgia.example.emulatordetector/com.framgia.example.emulatordetector.MainActivity} origActivity=null realActivity=ComponentInfo{com.framgia.example.emulatordetector/com.framgia.example.emulatordetector.MainActivity} numActivities=1 lastActiveTime=446003 supportsMultiWindow=true resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{RemoteToken{e9ef7d9 Task{8dcfc25 #129 type=standard A=10200:com.framgia.example.emulatordetector}}} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=Rect(0, 132 - 0, 0) topActivityInfo=ActivityInfo{409d59e com.framgia.example.emulatordetector.MainActivity} launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=false isVisible=false isVisibleRequested=false isSleeping=false topActivityInSizeCompat=false topActivityEligibleForLetterboxEducation= false topActivityLetterboxed= false isFromDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=-1 topActivityLetterboxHeight=-1 locusId=null displayAreaFeatureId=1 cameraCompatControlState=hidden}, remoteTransition = null, displayChange = null }
+10-24 13:16:38.166   577   611 V WindowManager:     startWCT=WindowContainerTransaction { changes = {} hops = [] errorCallbackToken=null taskFragmentOrganizer=null }
+10-24 13:16:38.166   577   611 V WindowManager:     info={id=22 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[{WCT{RemoteToken{e9ef7d9 Task{8dcfc25 #129 type=standard A=10200:com.framgia.example.emulatordetector}}} m=OPEN f=NONE leash=Surface(name=Task=129)/@0x82f8add sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0},{WCT{RemoteToken{8dfd322 Task{1732a6c #128 type=standard A=10193:com.reveny.emulator.detection.sample}}} m=TO_BACK f=NONE leash=Surface(name=Task=128)/@0x2265b04 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0}]}
+10-24 13:16:38.166  6131  6131 I mulatordetector: Using CollectorTypeCC GC.
+10-24 13:16:38.167  6131  6131 W mulatordetector: Unexpected CPU variant for x86: x86_64.
+10-24 13:16:38.167  6131  6131 W mulatordetector: Known variants: atom, sandybridge, silvermont, goldmont, goldmont-plus, tremont, kabylake, default
+10-24 13:16:38.173   800   868 V WindowManagerShell: onTransitionReady android.os.BinderProxy@2a43962: {id=22 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[{WCT{android.window.IWindowContainerToken$Stub$Proxy@408ba5e} m=OPEN f=NONE leash=Surface(name=Task=129)/@0xb1f8e9d sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0},{WCT{android.window.IWindowContainerToken$Stub$Proxy@3342e3f} m=TO_BACK f=NONE leash=Surface(name=Task=128)/@0x451bf12 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0}]}
+10-24 13:16:38.173   800   868 V WindowManagerShell: Playing animation for (#22)android.os.BinderProxy@2a43962@0
+10-24 13:16:38.173   800   868 V WindowManagerShell:  try handler com.android.wm.shell.transition.DefaultMixedHandler@3f85d22
+10-24 13:16:38.173   800   868 V WindowManagerShell:  try handler com.android.wm.shell.keyguard.KeyguardTransitionHandler@76c33b3
+10-24 13:16:38.173   800   868 V WindowManagerShell:  try handler com.android.wm.shell.activityembedding.ActivityEmbeddingController@44bd70
+10-24 13:16:38.173   800   868 V WindowManagerShell:  try handler com.android.wm.shell.recents.RecentsTransitionHandler@39cf8e9
+10-24 13:16:38.173   800   868 V ShellRecents: RecentsTransitionHandler.startAnimation: no controller found
+10-24 13:16:38.173   800   868 V WindowManagerShell:  try handler com.android.wm.shell.pip.PipTransition@ae3296e
+10-24 13:16:38.173   800   868 V WindowManagerShell:  try handler com.android.wm.shell.splitscreen.StageCoordinator@26c580f
+10-24 13:16:38.173   800   868 V WindowManagerShell:  try handler com.android.wm.shell.transition.RemoteTransitionHandler@590409c
+10-24 13:16:38.173   800   868 V WindowManagerShell: Transition doesn't have explicit remote, search filters for match for {id=22 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[{WCT{android.window.IWindowContainerToken$Stub$Proxy@408ba5e} m=OPEN f=NONE leash=Surface(name=Task=129)/@0xb1f8e9d sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0},{WCT{android.window.IWindowContainerToken$Stub$Proxy@3342e3f} m=TO_BACK f=NONE leash=Surface(name=Task=128)/@0x451bf12 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0}]}
+10-24 13:16:38.173   800   868 V WindowManagerShell:  Checking filter Pair{{types=[] flags=0x0] notFlags=0x0 checks=[{atype=dream independent=true modes=[OPEN,TO_FRONT] flags=NONE mustBeTask=false order=ANY topActivity=null},{atype=home independent=true modes=[CLOSE,TO_BACK] flags=NONE mustBeTask=false order=ANY topActivity=null}]} RemoteTransition { remoteTransition = android.window.IRemoteTransition$Stub$Proxy@5398d72, appThread = android.app.IApplicationThread$Stub$Proxy@ac625c3, debugName = LauncherToDream }}
+10-24 13:16:38.173   800   868 V WindowManagerShell:  Checking filter Pair{{types=[] flags=0x0] notFlags=0x100 checks=[{atype=home independent=true modes=[OPEN,TO_FRONT] flags=NONE mustBeTask=false order=TOP topActivity=ComponentInfo{com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.NexusLauncherActivity}},{atype=standard independent=true modes=[CLOSE,TO_BACK] flags=NONE mustBeTask=false order=ANY topActivity=null}]} RemoteTransition { remoteTransition = android.window.IRemoteTransition$Stub$Proxy@db1ae40, appThread = android.app.IApplicationThread$Stub$Proxy@d3ee179, debugName = QuickstepLaunchHome }}
+10-24 13:16:38.173   800   868 V WindowManagerShell:  Delegate animation for #22 to null
+10-24 13:16:38.173   800   868 V WindowManagerShell:  try handler com.android.wm.shell.transition.DefaultTransitionHandler@951dc21
+10-24 13:16:38.173   800   868 V WindowManagerShell: start default transition animation, info = {id=22 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[{WCT{android.window.IWindowContainerToken$Stub$Proxy@408ba5e} m=OPEN f=NONE leash=Surface(name=Task=129)/@0xb1f8e9d sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0},{WCT{android.window.IWindowContainerToken$Stub$Proxy@3342e3f} m=TO_BACK f=NONE leash=Surface(name=Task=128)/@0x451bf12 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0}]}
+10-24 13:16:38.173   800   868 V WindowManagerShell: loadAnimation: anim=android.view.animation.AnimationSet@709130c animAttr=0x9 type=OPEN isEntrance=false
+10-24 13:16:38.173   800   868 V WindowManagerShell: loadAnimation: anim=android.view.animation.AnimationSet@9f2f455 animAttr=0x8 type=OPEN isEntrance=true
+10-24 13:16:38.176   800   868 V WindowManagerShell:  animated by com.android.wm.shell.transition.DefaultTransitionHandler@951dc21
+10-24 13:16:38.196  6023  6030 I adbd    : jdwp connection from 6131
+10-24 13:16:38.197   577  2062 D VectorZygiskBridge: onTransact: action=GET_BINDER, callerUid=10200
+10-24 13:16:38.199  6131  6131 W mulatordetector: Core platform API violation: Ljava/lang/Class;->accessFlags:I from Lcom/android/internal/os/Zygote; using JNI
+10-24 13:16:38.199  6131  6131 W mulatordetector: Core platform API violation: Ljava/lang/reflect/Executable;->artMethod:J from Lcom/android/internal/os/Zygote; using JNI
+10-24 13:16:38.200  6131  6131 W mulatordetector: Core platform API violation: Ljava/lang/reflect/Executable;->accessFlags:I from Lcom/android/internal/os/Zygote; using JNI
+10-24 13:16:38.208  6131  6131 W mulatordetector: Core platform API violation: Ldalvik/system/BaseDexClassLoader;->pathList:Ldalvik/system/DexPathList; from Lcom/android/internal/os/Zygote; using JNI
+10-24 13:16:38.208  6131  6131 W mulatordetector: Core platform API violation: Ldalvik/system/DexPathList;->dexElements:[Ldalvik/system/DexPathList$Element; from Lcom/android/internal/os/Zygote; using JNI
+10-24 13:16:38.208  6131  6131 W mulatordetector: Core platform API violation: Ldalvik/system/DexPathList$Element;->dexFile:Ldalvik/system/DexFile; from Lcom/android/internal/os/Zygote; using JNI
+10-24 13:16:38.208  6131  6131 W mulatordetector: Core platform API violation: Ldalvik/system/DexFile;->mCookie:Ljava/lang/Object; from Lcom/android/internal/os/Zygote; using JNI
+10-24 13:16:38.214  6131  6131 W BpBinder: Linking to death on org.matrix.vector.ipc.IFrameworkService but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+10-24 13:16:38.215  6131  6131 V VectorDeopter: Skipping deopt for android.app.Instrumentation#newApplication: android.app.Instrumentation.newApplication [class java.lang.ClassLoader, class android.content.Context]
+10-24 13:16:38.216  6131  6131 V Vector  : Loading Vector/Xposed for com.framgia.example.emulatordetector (UID: 10200)
+10-24 13:16:38.221  6131  6131 V VectorLegacyBridge: Loading legacy module dev.androidlab.module from /data/app/~~PfNA324qX7ENl2BkM7W-5g==/dev.androidlab.module-TJxN7r5QNOYXMRUHirpi0Q==/base.apk
+10-24 13:16:38.223  6131  6131 W mulatordetector: Unsupported class loader
+10-24 13:16:38.224  6131  6131 I VectorNative: Native API entries initialized and protected.
+10-24 13:16:38.231  6131  6131 V VectorLegacyBridge:   Loading class dev.androidlab.module.DeviceHooks
+10-24 13:16:38.234  6131  6131 I DeviceLabNamespace: property remap status=0 pid=6131
+10-24 13:16:38.253  6131  6131 D CompatibilityChangeReporter: Compat change id reported: 171979766; UID 10200; state: DISABLED
+10-24 13:16:38.254  6131  6131 D CompatibilityChangeReporter: Compat change id reported: 242716250; UID 10200; state: DISABLED
+10-24 13:16:38.255   577  2062 D CompatibilityChangeReporter: Compat change id reported: 170503758; UID 10200; state: DISABLED
+10-24 13:16:38.258  6131  6131 D ApplicationLoaders: Returning zygote-cached class loader: /system/framework/android.test.base.jar
+10-24 13:16:38.260  6131  6131 D nativeloader: Configuring clns-6 for other apk /system/framework/org.apache.http.legacy.jar. target_sdk_version=25, uses_libraries=ALL, library_path=/data/app/~~maxQ1trdMSnXFS-prDQfpA==/com.framgia.example.emulatordetector-0AWqK2xUCNWPA4Mnwo6dIA==/lib/x86_64, permitted_path=/data:/mnt/expand:/data/user/0/com.framgia.example.emulatordetector
+10-24 13:16:38.263  6131  6131 W ziparchive: Unable to open '/data/app/~~maxQ1trdMSnXFS-prDQfpA==/com.framgia.example.emulatordetector-0AWqK2xUCNWPA4Mnwo6dIA==/base.dm': No such file or directory
+10-24 13:16:38.263  6131  6131 W ziparchive: Unable to open '/data/app/~~maxQ1trdMSnXFS-prDQfpA==/com.framgia.example.emulatordetector-0AWqK2xUCNWPA4Mnwo6dIA==/base.dm': No such file or directory
+10-24 13:16:38.276  6131  6131 D nativeloader: Configuring clns-7 for other apk /data/app/~~maxQ1trdMSnXFS-prDQfpA==/com.framgia.example.emulatordetector-0AWqK2xUCNWPA4Mnwo6dIA==/base.apk. target_sdk_version=25, uses_libraries=, library_path=/data/app/~~maxQ1trdMSnXFS-prDQfpA==/com.framgia.example.emulatordetector-0AWqK2xUCNWPA4Mnwo6dIA==/lib/x86_64, permitted_path=/data:/mnt/expand:/data/user/0/com.framgia.example.emulatordetector
+10-24 13:16:38.279  6131  6131 I VectorNative: Detected registered native module being loaded: '/data/app/~~PfNA324qX7ENl2BkM7W-5g==/dev.androidlab.module-TJxN7r5QNOYXMRUHirpi0Q==/base.apk!/lib/x86_64/libdevicelab.so'
+10-24 13:16:38.280  6131  6131 I DeviceLabNative: __system_property_get hook status: 0
+10-24 13:16:38.280  6131  6131 I DeviceLabNative: __system_property_read_callback hook status: 0
+10-24 13:16:38.280  6131  6131 I DeviceLabNative: fopen hook status: 0
+10-24 13:16:38.280  6131  6131 I DeviceLabNative: open hook status: 0
+10-24 13:16:38.281  6131  6131 I DeviceLabNative: openat hook status: 0
+10-24 13:16:38.281  6131  6131 I DeviceLabNative: __open_2 hook status: 0
+10-24 13:16:38.281  6131  6131 I DeviceLabNative: __openat_2 hook status: 0
+10-24 13:16:38.281  6131  6131 I DeviceLabNative: uname hook status: 0
+10-24 13:16:38.281  6131  6131 I DeviceLabNative: syscall hook status: 0
+10-24 13:16:38.281  6131  6131 I DeviceLabNative: getauxval hook status: 0
+10-24 13:16:38.281  6131  6131 I VectorNative: Initialized native module '/data/app/~~PfNA324qX7ENl2BkM7W-5g==/dev.androidlab.module-TJxN7r5QNOYXMRUHirpi0Q==/base.apk!/lib/x86_64/libdevicelab.so' and registered its callback.
+10-24 13:16:38.282  6131  6131 I DeviceLabNative: glGetString hook status: 0
+10-24 13:16:38.282  6131  6131 I DeviceLabNative: glGetString hook status: 0
+10-24 13:16:38.282  6131  6131 I VectorLegacyBridge: DeviceLab: native hooks for com.framgia.example.emulatordetector: get=1 callback=1 fopen=1 open=1 openat=1 open_checked=1 openat_checked=1 uname=1 syscall=1 auxval=1 gl2=1 gl3=1 cpu_cache=1
+10-24 13:16:38.286  6131  6131 I VectorLegacyBridge: DeviceLab: Java identity hooks installed for com.framgia.example.emulatordetector
+10-24 13:16:38.289  6131  6131 V GraphicsEnvironment: Currently set values for:
+10-24 13:16:38.289  6131  6131 V GraphicsEnvironment:   angle_gl_driver_selection_pkgs=[]
+10-24 13:16:38.289  6131  6131 V GraphicsEnvironment:   angle_gl_driver_selection_values=[]
+10-24 13:16:38.289  6131  6131 V GraphicsEnvironment: ANGLE GameManagerService for com.framgia.example.emulatordetector: false
+10-24 13:16:38.289  6131  6131 V GraphicsEnvironment: com.framgia.example.emulatordetector is not listed in per-application setting
+10-24 13:16:38.290  6131  6131 V GraphicsEnvironment: Neither updatable production driver nor prerelease driver is supported.
+10-24 13:16:38.291   577  2062 I ActivityManager: Flag disabled. Ignoring finishAttachApplication from uid: 10200. pid: 6131
+10-24 13:16:38.306  6131  6153 D libEGL  : loaded /vendor/lib64/egl/libEGL_emulation.so
+10-24 13:16:38.308  6131  6153 D libEGL  : loaded /vendor/lib64/egl/libGLESv1_CM_emulation.so
+10-24 13:16:38.310  6131  6153 D libEGL  : loaded /vendor/lib64/egl/libGLESv2_emulation.so
+10-24 13:16:38.333  6131  6131 D CompatibilityChangeReporter: Compat change id reported: 210923482; UID 10200; state: DISABLED
+10-24 13:16:38.334  6131  6131 D CompatibilityChangeReporter: Compat change id reported: 37756858; UID 10200; state: DISABLED
+10-24 13:16:38.338  6131  6154 D com.framgia.android.emulator.EmulatorDetector: Build.PRODUCT: shiba
+10-24 13:16:38.338  6131  6154 D com.framgia.android.emulator.EmulatorDetector: Build.MANUFACTURER: Google
+10-24 13:16:38.338  6131  6154 D com.framgia.android.emulator.EmulatorDetector: Build.BRAND: google
+10-24 13:16:38.338  6131  6154 D com.framgia.android.emulator.EmulatorDetector: Build.DEVICE: shiba
+10-24 13:16:38.338  6131  6154 D com.framgia.android.emulator.EmulatorDetector: Build.MODEL: Pixel 8
+10-24 13:16:38.338  6131  6154 D com.framgia.android.emulator.EmulatorDetector: Build.HARDWARE: shiba
+10-24 13:16:38.338  6131  6154 D com.framgia.android.emulator.EmulatorDetector: Build.FINGERPRINT: google/shiba/shiba:14/AP1A.240505.005/11677807:user/release-keys
+10-24 13:16:38.338  6131  6154 D com.framgia.android.emulator.EmulatorDetector: Check basic false
+10-24 13:16:38.339  6131  6154 D com.framgia.android.emulator.EmulatorDetector: Supported TelePhony: true
+10-24 13:16:38.342   940  1214 W TelephonyPermissions: reportAccessDeniedToReadIdentifiers:com.framgia.example.emulatordetector:getDeviceId:1
+10-24 13:16:38.342   940  1214 W TelephonyPermissions: reportAccessDeniedToReadIdentifiers:com.framgia.example.emulatordetector:getSubscriberIdForSubscriber:1
+10-24 13:16:38.346  6131  6154 D com.framgia.android.emulator.EmulatorDetector: netcfg data -> 
+10-24 13:16:38.343  6131  6131 W Thread-2: type=1400 audit(0.0:726): avc:  denied  { read } for  name="u:object_r:qemu_hw_prop:s0" dev="tmpfs" ino=263 scontext=u:r:untrusted_app_25:s0:c512,c768 tcontext=u:object_r:qemu_hw_prop:s0 tclass=file permissive=0 app=com.framgia.example.emulatordetector
+10-24 13:16:38.350  6131  6154 W libc    : Access denied finding property "qemu.hw.mainkeys"
+10-24 13:16:38.350  6131  6131 D CompatibilityChangeReporter: Compat change id reported: 237531167; UID 10200; state: DISABLED
+10-24 13:16:38.351  6131  6131 W OpenGLRenderer: Unknown dataspace 0
+10-24 13:16:38.347  6131  6131 W Thread-2: type=1400 audit(0.0:727): avc:  denied  { read } for  name="u:object_r:qemu_sf_lcd_density_prop:s0" dev="tmpfs" ino=264 scontext=u:r:untrusted_app_25:s0:c512,c768 tcontext=u:object_r:qemu_sf_lcd_density_prop:s0 tclass=file permissive=0 app=com.framgia.example.emulatordetector
+10-24 13:16:38.352  6131  6154 W libc    : Access denied finding property "qemu.sf.lcd_density"
+10-24 13:16:38.351  6131  6131 W Thread-2: type=1400 audit(0.0:728): avc:  denied  { read } for  name="u:object_r:serialno_prop:s0" dev="tmpfs" ino=278 scontext=u:r:untrusted_app_25:s0:c512,c768 tcontext=u:object_r:serialno_prop:s0 tclass=file permissive=0 app=com.framgia.example.emulatordetector
+10-24 13:16:38.355  6131  6154 W libc    : Access denied finding property "ro.serialno"
+10-24 13:16:38.355  6131  6154 D com.framgia.android.emulator.EmulatorDetector: Check QEmuProps is detected
+10-24 13:16:38.356  6131  6154 D com.framgia.android.emulator.EmulatorDetector: Check Advanced false
+10-24 13:16:38.365   577   937 D CoreBackPreview: Window{aa08949 u0 com.framgia.example.emulatordetector/com.framgia.example.emulatordetector.MainActivity}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@7fbd47c, mPriority=0, mIsAnimationCallback=false}
+10-24 13:16:38.397  6131  6151 W OpenGLRenderer: Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+10-24 13:16:38.398  6131  6151 W OpenGLRenderer: Failed to initialize 101010-2 format, error = EGL_SUCCESS
+10-24 13:16:38.409  6131  6154 D com.framgia.android.emulator.EmulatorDetector: Check Package Name false
+10-24 13:16:38.409  6131  6154 D com.framgia.android.emulator.EmulatorDetector: This System is Emulator: false
+10-24 13:16:38.409  6131  6154 D com.framgia.example.emulatordetector.MainActivity$1: Running on emulator --> false
+10-24 13:16:38.434   142   142 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+10-24 13:16:38.434  6131  6151 I Gralloc4: mapper 4.x is not supported
+10-24 13:16:38.414     0     0 I servicemanager: Could not find android.hardware.graphics.allocator.IAllocator/default in the VINTF manifest.
+10-24 13:16:38.471  6131  6151 E OpenGLRenderer: Unable to match the desired swap behavior.
+10-24 13:16:38.541   577   611 W ziparchive: Unable to open '/data/app/~~maxQ1trdMSnXFS-prDQfpA==/com.framgia.example.emulatordetector-0AWqK2xUCNWPA4Mnwo6dIA==/base.dm': No such file or directory
+10-24 13:16:38.541   577   611 I ActivityTaskManager: Displayed com.framgia.example.emulatordetector/.MainActivity for user 0: +548ms
+10-24 13:16:38.558   577   653 D CompatibilityChangeReporter: Compat change id reported: 214016041; UID 10200; state: DISABLED
+10-24 13:16:38.558   577   653 I ImeTracker: com.framgia.example.emulatordetector:bdd7a328: onRequestHide at ORIGIN_SERVER_HIDE_INPUT reason HIDE_UNSPECIFIED_WINDOW
+10-24 13:16:38.558   577   653 I ImeTracker: com.framgia.example.emulatordetector:bdd7a328: onCancelled at PHASE_SERVER_SHOULD_HIDE
+10-24 13:16:38.560  1359  1359 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3227 
+10-24 13:16:38.561  1359  1359 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2087 repeatCheckTimes = 0, unlocked = true
+10-24 13:16:38.562  1359  1359 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1877 onStartInput(EditorInfo{inputType=0x0(NULL) imeOptions=0x0 privateImeOptions=null actionName=UNSPECIFIED actionLabel=null actionId=0 initialSelStart=-1 initialSelEnd=-1 initialCapsMode=0x0 hintText=null label=null packageName=com.framgia.example.emulatordetector fieldId=0 fieldName=null extras=null}, false)
+10-24 13:16:38.562  1359  1359 I GoogleInputMethodService: GoogleInputMethodService.shouldHideHeaderOnInitialState():4008 ShouldHideHeaderOnInitialState = false
+10-24 13:16:38.562  1359  1359 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2087 repeatCheckTimes = 2, unlocked = true
+10-24 13:16:38.568   800   991 D EGL_emulation: app_time_stats: avg=436.67ms min=14.03ms max=4221.72ms count=10
+10-24 13:16:38.679   800   868 V WindowManagerShell: Transition animation finished (aborted=false), notifying core (#22)android.os.BinderProxy@2a43962@0
+10-24 13:16:38.679   577   611 V WindowManager: Finish Transition #22: created at 10-24 13:16:37.995 collect-started=0.012ms request-sent=7.57ms started=10.298ms ready=99.86ms sent=165.214ms finished=683.759ms
+10-24 13:16:38.680   800   868 V WindowManagerShell: Track 0 became idle
+10-24 13:16:38.680   800   868 V WindowManagerShell: All active transition animations finished
+10-24 13:16:38.688   863  1130 D BtGatt.ScanManager: uid 10128 isForeground true scanMode -1
+10-24 13:16:38.881   800   991 D EGL_emulation: app_time_stats: avg=68.16ms min=0.46ms max=2751.34ms count=41
+10-24 13:16:38.898   800   954 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=falsecallback=android.view.ViewRootImpl$$ExternalSyntheticLambda17@c8728c8
+10-24 13:16:38.898   577  2062 W InputManager-JNI: Input channel object 'd0635a1 Splash Screen com.framgia.example.emulatordetector (client)' was disposed without first being removed with the input manager!
+10-24 13:16:38.900   577   653 D CoreBackPreview: Window{d0635a1 u0 Splash Screen com.framgia.example.emulatordetector EXITING}: Setting back callback null
+10-24 13:16:39.897   800   991 D EGL_emulation: app_time_stats: avg=16.98ms min=12.64ms max=32.69ms count=59
+10-24 13:16:40.366  6053  6163 D ProfileInstaller: Installing profile for com.reveny.emulator.detection.sample
+10-24 13:16:40.782   800   800 D StatusBarIconController: ignoring old pipeline callback because the new wifi icon is enabled
+10-24 13:16:41.627   577   653 D CompatibilityChangeReporter: Compat change id reported: 168419799; UID 10192; state: DISABLED
+10-24 13:16:41.627   577   653 D CompatibilityChangeReporter: Compat change id reported: 273564678; UID 10192; state: DISABLED
+10-24 13:16:41.627   577   653 D CompatibilityChangeReporter: Compat change id reported: 184838306; UID 10192; state: DISABLED
+10-24 13:16:41.627   577   653 D CompatibilityChangeReporter: Compat change id reported: 185004937; UID 10192; state: DISABLED
+10-24 13:16:41.665  1424  2730 I MediaProvider: Deleted 0 0 0 0 0 0 1 items on external_primary due to com.android.shell
+10-24 13:16:41.686  1298  5707 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.ipa.base.IpaGcmTaskService started execution. cause:9 exec_start_elapsed_seconds: 449 [CONTEXT service_id=218 ]
+10-24 13:16:41.689  1298  6087 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.ipa.base.IpaGcmTaskService finished executing. cause:9 result: 1 elapsed_millis: 11 uptime_millis: 11 exec_start_elapsed_seconds: 449 [CONTEXT service_id=218 ]
+10-24 13:16:41.751  6172  6172 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+10-24 13:16:41.755  6172  6172 I AndroidRuntime: Using default boot image
+10-24 13:16:41.755  6172  6172 I AndroidRuntime: Leaving lock profiling enabled
+10-24 13:16:41.756  6172  6172 I app_process: Core platform API reporting enabled, enforcing=false
+10-24 13:16:41.757  6172  6172 I app_process: Using CollectorTypeCC GC.
+10-24 13:16:41.798  6172  6172 D nativeloader: InitDefaultPublicLibraries for_preload=1: libandroid.so:libaaudio.so:libamidi.so:libbinder_ndk.so:libc.so:libcamera2ndk.so:libdl.so:libEGL.so:libGLESv1_CM.so:libGLESv2.so:libGLESv3.so:libicu.so:libicui18n.so:libicuuc.so:libjnigraphics.so:liblog.so:libmediandk.so:libm.so:libnativehelper.so:libnativewindow.so:libOpenMAXAL.so:libOpenSLES.so:libRS.so:libstdc++.so:libsync.so:libvulkan.so:libwebviewchromium_plat_support.so:libz.so
+10-24 13:16:41.805  6172  6172 D app_process: Time zone APEX ICU file found: /apex/com.android.tzdata/etc/icu/icu_tzdata.dat
+10-24 13:16:41.805  6172  6172 D app_process: I18n APEX ICU file found: /apex/com.android.i18n/etc/icu/icudt72l.dat
+10-24 13:16:41.808  6172  6172 W app_process: Unexpected CPU variant for x86: x86_64.
+10-24 13:16:41.808  6172  6172 W app_process: Known variants: atom, sandybridge, silvermont, goldmont, goldmont-plus, tremont, kabylake, default
+10-24 13:16:41.810  6172  6172 W app_process: ClassLoaderContext shared library size mismatch. Expected=2, found=0 (PCL[]{PCL[/system/framework/android.test.base.jar*836642756]#PCL[/system/framework/android.test.mock.jar*3186112116]} | PCL[])
+10-24 13:16:41.810  6172  6172 W app_process: ClassLoaderContext classpath size mismatch. expected=0, found=1 (PCL[]{PCL[/system/framework/android.test.runner.jar*4168958247]{PCL[/system/framework/android.test.base.jar*836642756]#PCL[/system/framework/android.test.mock.jar*3186112116]}#PCL[/system/framework/android.test.base.jar*836642756]} | PCL[/system/framework/android.test.runner.jar*4168958247])
+10-24 13:16:41.819  6172  6172 W libc    : Access denied finding property "ro.product.name_for_attestation"
+10-24 13:16:41.819  6172  6172 W libc    : Access denied finding property "ro.product.brand_for_attestation"
+10-24 13:16:41.819  6172  6172 W libc    : Access denied finding property "ro.product.model_for_attestation"
+10-24 13:16:41.820  6172  6172 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+10-24 13:16:41.821  6172  6172 D UiAutomationConnection: Created on user UserHandle{0}
+10-24 13:16:41.815  6172  6172 W main    : type=1400 audit(0.0:729): avc:  denied  { read } for  name="u:object_r:build_attestation_prop:s0" dev="tmpfs" ino=87 scontext=u:r:shell:s0 tcontext=u:object_r:build_attestation_prop:s0 tclass=file permissive=0
+10-24 13:16:41.822  6172  6172 I UiAutomation: Initialized for user 0 on display 0
+10-24 13:16:41.822  6172  6172 W UiAutomation: Created with deprecatead constructor, assumes DEFAULT_DISPLAY
+10-24 13:16:41.823   577   653 D AccessibilityManagerService: changeCurrentUserForTestAutomationIfNeededLocked(0): ignoring because device doesn't support visible background users
+10-24 13:16:41.823   577   653 I UiAutomationManager: Registering UiTestAutomationService (id=com.android.server.accessibility/UiAutomation) when called by user 0
+10-24 13:16:41.815  6172  6172 W main    : type=1400 audit(0.0:730): avc:  denied  { read } for  name="u:object_r:build_attestation_prop:s0" dev="tmpfs" ino=87 scontext=u:r:shell:s0 tcontext=u:object_r:build_attestation_prop:s0 tclass=file permissive=0
+10-24 13:16:41.815  6172  6172 W main    : type=1400 audit(0.0:731): avc:  denied  { read } for  name="u:object_r:build_attestation_prop:s0" dev="tmpfs" ino=87 scontext=u:r:shell:s0 tcontext=u:object_r:build_attestation_prop:s0 tclass=file permissive=0
+10-24 13:16:41.827   577   653 W WindowMagnificationMgr: requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+10-24 13:16:41.828  1468  1891 I AiAiEcho: Settings changed for uri: content://settings/secure/accessibility_enabled
+10-24 13:16:41.829   577   577 D BatterySaverPolicy: accessibility changed to true, updating policy.
+10-24 13:16:41.830  1468  1658 I AiAiEcho: Predicting[0]: 
+10-24 13:16:41.830  1468  1658 I AiAiEcho: EchoTargets: 
+10-24 13:16:41.830  1468  1658 I AiAiEcho: Filtered by AiAi flag check: 
+10-24 13:16:41.830  1468  1658 I AiAiEcho: Ranked targets strategy: SORT, count: 0, ranking metadata: 
+10-24 13:16:41.830  1468  1658 I AiAiEcho: Predicting[0]: 
+10-24 13:16:41.830  1468  1658 I AiAiEcho: EchoTargets: 
+10-24 13:16:41.830  1468  1658 I AiAiEcho: Filtered by AiAi flag check: 
+10-24 13:16:41.830  1468  1658 I AiAiEcho: Ranked targets strategy: SORT, count: 0, ranking metadata: 
+10-24 13:16:41.833  1468  1658 I AiAiEcho: Predicting[0]: 
+10-24 13:16:41.833  1468  1658 I AiAiEcho: EchoTargets: 
+10-24 13:16:41.833  1468  1658 I AiAiEcho: Filtered by AiAi flag check: 
+10-24 13:16:41.833  1468  1658 I AiAiEcho: Ranked targets strategy: SORT, count: 0, ranking metadata: 
+10-24 13:16:41.833  1468  1658 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface media_data_manager with targets# 0 (types=[])
+10-24 13:16:41.833  1468  1658 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface home with targets# 0 (types=[])
+10-24 13:16:41.834  1468  1658 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface lockscreen with targets# 0 (types=[])
+10-24 13:16:41.834  1715  1937 I A       : NGA disabled since it's running Panthera and at least one a11y feature is on.
+10-24 13:16:41.834  1715  1937 I A       : Nga state changed to NgaStateDetails{state=DISABLED, isSpecialExperience=false}
+10-24 13:16:41.837  6172  6185 V UiAutomation: Init UiAutomation@d2f0ba8[id=9, displayId=0, flags=0]
+10-24 13:16:41.839  1489  3500 I A       : APA or Classic session decision: SessionDecision(sessionVariance=CLASSIC, platformVariance=CLASSIC, justification=CURRENT_PLATFORM_VARIANCE).
+10-24 13:16:41.839  1489  3500 I A       : [Memory] eligibility: StashEligibility{4}
+10-24 13:16:41.840  1489  2289 I A       : Unsubscribed to apa or classic variant change.
+10-24 13:16:41.842   577   653 W WindowMagnificationMgr: requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+10-24 13:16:41.843  1468  1510 I AiAiEcho: Settings changed for uri: content://settings/secure/accessibility_enabled
+10-24 13:16:41.843   800   800 D SsMediaDataProvider: Forwarding Smartspace updates []
+10-24 13:16:41.845   800   800 W PageIndicator: Total number of pages invalid: 0. Assuming 1 page.
+10-24 13:16:41.845  1468  1658 I AiAiEcho: Predicting[0]: 
+10-24 13:16:41.845  1468  1658 I AiAiEcho: EchoTargets: 
+10-24 13:16:41.845  1468  1658 I AiAiEcho: Filtered by AiAi flag check: 
+10-24 13:16:41.846  1468  1658 I AiAiEcho: Ranked targets strategy: SORT, count: 0, ranking metadata: 
+10-24 13:16:41.846  1468  1658 I AiAiEcho: Predicting[0]: 
+10-24 13:16:41.846  1468  1658 I AiAiEcho: EchoTargets: 
+10-24 13:16:41.846  1468  1658 I AiAiEcho: Filtered by AiAi flag check: 
+10-24 13:16:41.846  1468  1658 I AiAiEcho: Ranked targets strategy: SORT, count: 0, ranking metadata: 
+10-24 13:16:41.846  1468  1658 I AiAiEcho: Predicting[0]: 
+10-24 13:16:41.846  1468  1658 I AiAiEcho: EchoTargets: 
+10-24 13:16:41.846  1468  1658 I AiAiEcho: Filtered by AiAi flag check: 
+10-24 13:16:41.846  1468  1658 I AiAiEcho: Ranked targets strategy: SORT, count: 0, ranking metadata: 
+10-24 13:16:41.846  1468  1658 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface media_data_manager with targets# 0 (types=[])
+10-24 13:16:41.846   800   800 D SsMediaDataProvider: Forwarding Smartspace updates []
+10-24 13:16:41.848  1468  1658 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface home with targets# 0 (types=[])
+10-24 13:16:41.848  1468  1658 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface lockscreen with targets# 0 (types=[])
+10-24 13:16:41.852   800   800 W PageIndicator: Total number of pages invalid: 0. Assuming 1 page.
+10-24 13:16:42.840  1424  1709 W MediaProvider: isAppCloneUserPair for user 0: false
+10-24 13:16:42.841  6172  6172 I AccessibilityNodeInfoDumper: Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@a57c; boundsInParent: Rect(0, 0 - 0, 147); boundsInScreen: Rect(1080, 132 - 1080, 279); boundsInWindow: Rect(1080, 132 - 1080, 279); packageName: com.framgia.example.emulatordetector; className: android.support.v7.widget.LinearLayoutCompat; text: null; error: null; maxTextLength: -1; stateDescription: null; contentDescription: null; tooltipText: null; containerTitle: null; viewIdResName: null; uniqueId: null; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: false; visible: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null]; isTextSelectable: false
+10-24 13:16:42.842  6172  6172 W AccessibilityNodeInfoDumper: Fetch time: 4ms
+10-24 13:16:42.843   577   653 W WindowMagnificationMgr: requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+10-24 13:16:42.844  1468  1510 I AiAiEcho: Settings changed for uri: content://settings/secure/accessibility_enabled
+10-24 13:16:42.844  1468  1658 I AiAiEcho: Predicting[0]: 
+10-24 13:16:42.844  1468  1658 I AiAiEcho: EchoTargets: 
+10-24 13:16:42.844  1468  1658 I AiAiEcho: Filtered by AiAi flag check: 
+10-24 13:16:42.844   577   653 D AccessibilityManagerService: restoreCurrentUserForTestAutomationIfNeededLocked(): ignoring because device doesn't support visible background users
+10-24 13:16:42.844  1468  1658 I AiAiEcho: Ranked targets strategy: SORT, count: 0, ranking metadata: 
+10-24 13:16:42.846  1715  1937 I A       : NGA enabled in interactor.
+10-24 13:16:42.846  1715  1937 I A       : Nga state changed to NgaStateDetails{state=ENABLED, isSpecialExperience=false}
+10-24 13:16:42.846   577   577 D BatterySaverPolicy: accessibility changed to false, updating policy.
+10-24 13:16:42.846  1468  1658 I AiAiEcho: Predicting[0]: 
+10-24 13:16:42.847  1468  1658 I AiAiEcho: EchoTargets: 
+10-24 13:16:42.847  1468  1658 I AiAiEcho: Filtered by AiAi flag check: 
+10-24 13:16:42.847  1468  1658 I AiAiEcho: Ranked targets strategy: SORT, count: 0, ranking metadata: 
+10-24 13:16:42.847  1468  1658 I AiAiEcho: Predicting[0]: 
+10-24 13:16:42.847  1468  1658 I AiAiEcho: EchoTargets: 
+10-24 13:16:42.847  1468  1658 I AiAiEcho: Filtered by AiAi flag check: 
+10-24 13:16:42.847  1468  1658 I AiAiEcho: Ranked targets strategy: SORT, count: 0, ranking metadata: 
+10-24 13:16:42.847  1468  1658 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface media_data_manager with targets# 0 (types=[])
+10-24 13:16:42.847  1489  2424 I A       : Initializing all components
+10-24 13:16:42.848  1489  2424 I A       : APA or Classic session decision: SessionDecision(sessionVariance=CLASSIC, platformVariance=CLASSIC, justification=CURRENT_PLATFORM_VARIANCE).
+10-24 13:16:42.848  1489  2424 I A       : [Memory] eligibility: StashEligibility{6}
+10-24 13:16:42.849  1468  1658 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface home with targets# 0 (types=[])
+10-24 13:16:42.849  1468  1658 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface lockscreen with targets# 0 (types=[])
+10-24 13:16:42.851   800   800 D SsMediaDataProvider: Forwarding Smartspace updates []
+10-24 13:16:42.852  1489  2289 I A       : onIsEnabledChanged, isEnabled: false
+10-24 13:16:42.852  1489  2289 W A       : Disposing empty manager. Did you forgot to subscribe observables?
+10-24 13:16:42.852  1489  2289 W A       : Disposing empty manager. Did you forgot to subscribe observables?
+10-24 13:16:42.852  1489  2289 W A       : Disposing empty manager. Did you forgot to subscribe observables?
+10-24 13:16:42.852  1489  2289 W A       : Disposing empty manager. Did you forgot to subscribe observables?
+10-24 13:16:42.852  1489  2289 W A       : Disposing empty manager. Did you forgot to subscribe observables?
+10-24 13:16:42.852  6172  6172 D AndroidRuntime: Shutting down VM
+10-24 13:16:42.853  1489  2288 I A       : State changed: IDLE => IDLE by NGA_STATE_CHANGED and N/A with Optional.empty
+10-24 13:16:42.853  1489  2288 I A       : Recognizer choice: (recognizer_type: 1, recognizer_mode: 1, choice_reason: 4)
+10-24 13:16:42.853  1489  2288 I A       : onActiveStateChangeEvent: IDLE => IDLE
+10-24 13:16:42.854  1489  2288 I A       : #onActiveStateChangeEvent, newState: IDLE, previousState: IDLE.
+10-24 13:16:42.854  1489  2289 W A       : Disposing empty manager. Did you forgot to subscribe observables?
+10-24 13:16:42.854  1489  2289 W A       : Disposing empty manager. Did you forgot to subscribe observables?
+10-24 13:16:42.854  1489  2289 W A       : Disposing empty manager. Did you forgot to subscribe observables?
+10-24 13:16:42.854  1489  2289 W A       : Disposing empty manager. Did you forgot to subscribe observables?
+10-24 13:16:42.854  1489  2289 W A       : Disposing empty manager. Did you forgot to subscribe observables?
+10-24 13:16:42.854  1489  2289 I A       : onOpaVisibilityChanged: false
+10-24 13:16:42.854  1489  2289 W A       : Disposing empty manager. Did you forgot to subscribe observables?
+10-24 13:16:42.854  1489  2289 W A       : Disposing empty manager. Did you forgot to subscribe observables?
+10-24 13:16:42.854  1489  2289 W A       : Disposing empty manager. Did you forgot to subscribe observables?
+10-24 13:16:42.854  1489  2289 W A       : Disposing empty manager. Did you forgot to subscribe observables?
+10-24 13:16:42.854  1489  2289 W A       : Disposing empty manager. Did you forgot to subscribe observables?
+10-24 13:16:42.854  1489  2289 W A       : Disposing empty manager. Did you forgot to subscribe observables?
+10-24 13:16:42.854  1489  2289 I A       : Setting session to type: NO_SESSION
+10-24 13:16:42.854  1489  2289 W A       : Disposing empty manager. Did you forgot to subscribe observables?
+10-24 13:16:42.854  1489  2289 W A       : Disposing empty manager. Did you forgot to subscribe observables?
+10-24 13:16:42.855   800   800 W PageIndicator: Total number of pages invalid: 0. Assuming 1 page.
+10-24 13:16:42.855  1489  2289 W A       : Disposing empty manager. Did you forgot to subscribe observables?
+10-24 13:16:42.856  1489  2289 W A       : Disposing empty manager. Did you forgot to subscribe observables?
+10-24 13:16:42.856  1489  2289 W A       : Disposing empty manager. Did you forgot to subscribe observables?
+10-24 13:16:42.856  1489  2289 W A       : Disposing empty manager. Did you forgot to subscribe observables?
+10-24 13:16:42.857  1489  2289 W A       : Disposing empty manager. Did you forgot to subscribe observables?
+10-24 13:16:42.857  1489  2289 W A       : Disposing empty manager. Did you forgot to subscribe observables?
+10-24 13:16:42.857  1489  2289 I A       : setNavBarVisible: GestureNavBarVisible{navbarVisible=true}
+10-24 13:16:42.857  1489  2289 W A       : Disposing empty manager. Did you forgot to subscribe observables?
+10-24 13:16:42.857  1489  2289 W A       : Disposing empty manager. Did you forgot to subscribe observables?
+10-24 13:16:42.857  1489  2289 W A       : Disposing empty manager. Did you forgot to subscribe observables?
+10-24 13:16:42.857  1489  2289 W A       : Disposing empty manager. Did you forgot to subscribe observables?
+10-24 13:16:42.857  1489  2289 W A       : Disposing empty manager. Did you forgot to subscribe observables?
+10-24 13:16:42.857  1489  2289 W A       : Disposing empty manager. Did you forgot to subscribe observables?
+10-24 13:16:42.857  1489  2289 I A       : onDisabled. Registered: false
+10-24 13:16:42.858  1489  2289 I A       : on opa visibility changed false
+10-24 13:16:42.858  1489  2289 I A       : stopListening(NGA_PAUSED_UNKNOWN_REASON, NGA_CREATE), idleOverride=NOT_LISTENING
+10-24 13:16:42.863  1489  2288 I A       : Initialize
+10-24 13:16:42.864   577   921 D OomAdjuster: Not killing cached processes
+10-24 13:16:42.867  1489  1489 E GsaVoiceSerConnection: gsaVis null binding
+10-24 13:16:42.868  1489  2288 I NgaEntryPointEventSendr: setupConnection
+10-24 13:16:42.869  1489  2289 I A       : on opa visibility changed false
+10-24 13:16:42.872  1715  1715 I A       : Creating pss binder().
+10-24 13:16:42.872  1489  2288 I NgaEntryPointEventSendr: State changed: Disconnected => Connecting
+10-24 13:16:42.872  1489  2289 I NgaEntryPointEventSendr: onServiceConnected
+10-24 13:16:42.872  1715  2473 I A       : Calling beginBinderSession().
+10-24 13:16:42.873  1715  2473 I A       : beginBinderSession(): calling binder
+10-24 13:16:42.874  1489  2289 I NgaEntryPointEventSendr: State changed: Connecting => Ready
+10-24 13:16:42.874  1489  2288 I A       : Successfully initialized all components
+10-24 13:16:42.878   577  2159 W ActivityManager: Unable to start service Intent { cmp=com.google.android.apps.tachyon/.clientapi.ClientApiService } U=0: not found
+10-24 13:16:42.886  1715  2292 W SearchServiceCore: Abort, client detached.
+10-24 13:16:42.886  1715  3103 I PBSessionCacheImpl: Deleted sessionId[7544442624716411] from persistence.
+10-24 13:16:42.890  1489  2288 I NgaEntryPointEventSendr: State changed: Ready => Disconnected (onOpaDisconnected)
+10-24 13:16:42.900  1298  5708 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.ipa.base.IpaGcmTaskService started execution. cause:9 exec_start_elapsed_seconds: 450 [CONTEXT service_id=218 ]
+10-24 13:16:42.902  1298  6087 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.ipa.base.IpaGcmTaskService finished executing. cause:9 result: 1 elapsed_millis: 8 uptime_millis: 8 exec_start_elapsed_seconds: 450 [CONTEXT service_id=218 ]
+10-24 13:16:43.736  1424  2730 I MediaProvider: Deleted 0 1 0 0 0 0 0 items on external_primary due to com.android.shell
+10-24 13:16:43.750  1298  5708 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.ipa.base.IpaGcmTaskService started execution. cause:9 exec_start_elapsed_seconds: 451 [CONTEXT service_id=218 ]
+10-24 13:16:43.753  1298  5707 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.ipa.base.IpaGcmTaskService finished executing. cause:9 result: 1 elapsed_millis: 6 uptime_millis: 6 exec_start_elapsed_seconds: 451 [CONTEXT service_id=218 ]
+10-24 13:16:43.786   800   800 D StatusBarIconController: ignoring old pipeline callback because the new wifi icon is enabled
+10-24 13:16:43.817  6191  6191 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+10-24 13:16:43.819  1424  1709 W MediaProvider: isAppCloneUserPair for user 0: false
+10-24 13:16:43.822  6191  6191 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+10-24 13:16:43.840  1298  5708 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.ipa.base.IpaGcmTaskService started execution. cause:9 exec_start_elapsed_seconds: 451 [CONTEXT service_id=218 ]
+10-24 13:16:43.845  1298  6171 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.ipa.base.IpaGcmTaskService finished executing. cause:9 result: 1 elapsed_millis: 8 uptime_millis: 8 exec_start_elapsed_seconds: 451 [CONTEXT service_id=218 ]
+10-24 13:16:43.853   142   142 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+10-24 13:16:43.853  6191  6193 I Gralloc4: mapper 4.x is not supported
+10-24 13:16:43.833     0     0 I servicemanager: Could not find android.hardware.graphics.allocator.IAllocator/default in the VINTF manifest.
+10-24 13:16:43.975   577  4744 I ActivityManager: Broadcasting: Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x400000 }
+10-24 13:16:43.976   577  4744 I ActivityManager: Enqueued broadcast Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x400000 }: 0
+10-24 13:16:43.978   577   611 I ActivityManager: Broadcast completed: result=0
+10-24 13:16:43.979  1424  1883 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+10-24 13:16:43.980  1424  1883 W ExifInterface: Invalid image: ExifInterface got an unsupported image format file(ExifInterface supports JPEG and some RAW image formats only) or a corrupted JPEG file to ExifInterface.
+10-24 13:16:43.980  1424  1883 W ExifInterface: java.io.EOFException
+10-24 13:16:43.980  1424  1883 W ExifInterface: 	at android.media.ExifInterface$ByteOrderedDataInputStream.readShort(ExifInterface.java:5044)
+10-24 13:16:43.980  1424  1883 W ExifInterface: 	at android.media.ExifInterface.readByteOrder(ExifInterface.java:3995)
+10-24 13:16:43.980  1424  1883 W ExifInterface: 	at android.media.ExifInterface.parseTiffHeaders(ExifInterface.java:4015)
+10-24 13:16:43.980  1424  1883 W ExifInterface: 	at android.media.ExifInterface.getRawAttributes(ExifInterface.java:2974)
+10-24 13:16:43.980  1424  1883 W ExifInterface: 	at android.media.ExifInterface.loadAttributes(ExifInterface.java:2023)
+10-24 13:16:43.980  1424  1883 W ExifInterface: 	at android.media.ExifInterface.<init>(ExifInterface.java:1640)
+10-24 13:16:43.980  1424  1883 W ExifInterface: 	at android.media.ExifInterface.<init>(ExifInterface.java:1591)
+10-24 13:16:43.980  1424  1883 W ExifInterface: 	at com.android.providers.media.scan.ModernMediaScanner.scanItemImage(ModernMediaScanner.java:1357)
+10-24 13:16:43.980  1424  1883 W ExifInterface: 	at com.android.providers.media.scan.ModernMediaScanner.scanItem(ModernMediaScanner.java:1019)
+10-24 13:16:43.980  1424  1883 W ExifInterface: 	at com.android.providers.media.scan.ModernMediaScanner.-$$Nest$smscanItem(ModernMediaScanner.java:0)
+10-24 13:16:43.980  1424  1883 W ExifInterface: 	at com.android.providers.media.scan.ModernMediaScanner$Scan.visitFile(ModernMediaScanner.java:820)
+10-24 13:16:43.980  1424  1883 W ExifInterface: 	at com.android.providers.media.scan.ModernMediaScanner$Scan.visitFile(ModernMediaScanner.java:319)
+10-24 13:16:43.980  1424  1883 W ExifInterface: 	at java.nio.file.Files.walkFileTree(Files.java:2670)
+10-24 13:16:43.980  1424  1883 W ExifInterface: 	at java.nio.file.Files.walkFileTree(Files.java:2742)
+10-24 13:16:43.980  1424  1883 W ExifInterface: 	at com.android.providers.media.scan.ModernMediaScanner$Scan.walkFileTree(ModernMediaScanner.java:435)
+10-24 13:16:43.980  1424  1883 W ExifInterface: 	at com.android.providers.media.scan.ModernMediaScanner$Scan.runInternal(ModernMediaScanner.java:398)
+10-24 13:16:43.980  1424  1883 W ExifInterface: 	at com.android.providers.media.scan.ModernMediaScanner$Scan.run(ModernMediaScanner.java:387)
+10-24 13:16:43.980  1424  1883 W ExifInterface: 	at com.android.providers.media.scan.ModernMediaScanner.scanFile(ModernMediaScanner.java:261)
+10-24 13:16:43.980  1424  1883 W ExifInterface: 	at com.android.providers.media.MediaProvider.scanFile(MediaProvider.java:1943)
+10-24 13:16:43.980  1424  1883 W ExifInterface: 	at com.android.providers.media.MediaService.onScanFile(MediaService.java:225)
+10-24 13:16:43.980  1424  1883 W ExifInterface: 	at com.android.providers.media.MediaService.onHandleWork(MediaService.java:85)
+10-24 13:16:43.980  1424  1883 W ExifInterface: 	at androidx.core.app.JobIntentService$CommandProcessor.doInBackground(JobIntentService.java:396)
+10-24 13:16:43.980  1424  1883 W ExifInterface: 	at androidx.core.app.JobIntentService$CommandProcessor.doInBackground(JobIntentService.java:387)
+10-24 13:16:43.980  1424  1883 W ExifInterface: 	at android.os.AsyncTask$3.call(AsyncTask.java:394)
+10-24 13:16:43.980  1424  1883 W ExifInterface: 	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+10-24 13:16:43.980  1424  1883 W ExifInterface: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+10-24 13:16:43.980  1424  1883 W ExifInterface: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:644)
+10-24 13:16:43.980  1424  1883 W ExifInterface: 	at java.lang.Thread.run(Thread.java:1012)
+10-24 13:16:43.981  1424  1883 D OpenGLRenderer: --- Failed to create image decoder with message 'unimplemented'
+10-24 13:16:43.981  1424  1883 D OpenGLRenderer: --- Failed to create image decoder with message 'unimplemented'
+10-24 13:16:43.981  1424  1883 W ModernMediaScanner: Trouble scanning /storage/emulated/0/device-lab-external.png: java.lang.NullPointerException: Attempt to invoke virtual method 'boolean java.lang.String.equalsIgnoreCase(java.lang.String)' on a null object reference
+10-24 13:16:43.993  1424  1883 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+10-24 13:16:44.009  1298  5707 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.ipa.base.IpaGcmTaskService started execution. cause:9 exec_start_elapsed_seconds: 452 [CONTEXT service_id=218 ]
+10-24 13:16:44.012  1298  5708 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.ipa.base.IpaGcmTaskService finished executing. cause:9 result: 1 elapsed_millis: 7 uptime_millis: 7 exec_start_elapsed_seconds: 452 [CONTEXT service_id=218 ]

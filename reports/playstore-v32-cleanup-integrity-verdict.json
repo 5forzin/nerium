@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "decoded_at": "2026-10-26T01:22:05.6978616+00:00",
+  "source_report": "playstore-v32-cleanup-integrity.json",
+  "token_sha256": "d748710d6a45a84c4009ca1b5bea012212e1052f6044839466497bc4c4777e72",
+  "request_package_name": "dev.androidlab.integrityprobe",
+  "nonce_matches": true,
+  "request_timestamp_ms": "1792977726042",
+  "app_recognition_verdict": "UNEVALUATED",
+  "device_recognition_verdict": [],
+  "app_licensing_verdict": "UNEVALUATED"
+}

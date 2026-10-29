@@ -1,0 +1,150 @@
+  [▲ WARNING] Native Root
+  Verdict      : 1 native signal(s) need review
+  Quick Facts  : Flags: None  |  Direct: Limited  |  Kernel: Clean  |  Runtime: 1
+
+  [Native]
+    • KSU supercall: Blocked by seccomp
+        The sacrificial reboot() helper died under app seccomp before it could install a temporary [ksu_driver] fd. Other KernelSU checks still ran.
+
+  [Runtime]
+    • Shell tmp inode: 65538
+        The inode for /data/local/tmp is 65538, above the heuristic review threshold 10000. This is weaker than owner/mode drift and can also reflect deletion or recreation history.
+
+  [Methods]
+    • ksuReadonlySupercall: Blocked
+        Uses a sacrificial child process to request a temporary [ksu_driver] fd through the KernelSU reboot-magic install path, then calls GET_INFO and CHECK_SAFEMODE without manager/root privileges.
+        The device seccomp policy trapped reboot() for the helper process before a [ksu_driver] fd could be installed.
+    • __NR_supercall probe: Unavailable
+        Times arm64 syscall 45 with a 128-byte key and an empty key, and reports the full/empty ratio. KernelPatch commit 84169d5d6be12e589ccac81d71dcebb80b22043a reported ratios of approximately 9.3 before its fix, 1.6 after it, and 1.8 without KernelPatch; an additional reported device measured 1.94.
+        The 3.0 threshold is provisional. A ratio cancels common multiplicative scaling, but not additive syscall overhead or differences in path lookup. Cross-device detection accuracy has not been established.
+        An elevated ratio is supporting timing evidence only and does not identify APatch or KernelPatch. A lower ratio cannot exclude the older leak or KernelPatch itself. The separate superkey probe retains its own applicability limits.
+        Test Result: Not run: KernelPatch's supercall is syscall 45 of the arm64 table, which this ABI does not call.
+    • kernelpatch superkey: Unavailable
+        Passes __NR_supercall an untouched anonymous page together with a length the kernel rejects before it derives a user pointer, so a stock kernel never reads arg0 and the page keeps its empty PTE.
+        KernelPatch reads arg0 to compare it against the superkey ahead of the syscall body, which faults the page in; mincore then reports it resident.
+        This is a state check, so it does not depend on timing or CPU frequency.
+        A positive residency hit is conclusive on any kernel version, but a negative result is only treated as Clean inside the probe's conservative faulting-uaccess scope (kernel <= 6.6). Kernel 6.7+, or an unparseable kernel release, is reported as Unavailable instead of turning a known nofault blind spot into a false Clean verdict.
+        A run with a failed page mapping, no control page, a resident control page, a pre-resident attempt, an incomplete attempt set, or a failed residency read is also reported as Unavailable rather than Clean.
+        Test Result: Not run: KernelPatch's supercall is syscall 45 of the arm64 table, which this ABI does not call.
+    • devpts permission check: Clean
+        Checks /dev/pts owner uid and SELinux labels from existing PTYs plus a freshly created PTY.
+        In a normal system, the probe should not find uid 0 PTYs or a u:object_r:ksu_file:s0 label.
+        Test Result:
+        Test: /dev/pts/0
+        Owner: 10203
+        SELinux: u:object_r:untrusted_app_all_devpts:s0:c203,c256,c512,c768
+    • permission boundary check: Clean
+        Checks SELinux's netlink boundaries for RTM_GETLINK and RTM_GETNEIGH.
+        AOSP policy denies RTM_GETLINK to apps targeting SDK 30 or later on Android 11 and 12 and to every app from Android 13, and denies RTM_GETNEIGH from Android 13 to apps targeting SDK 32 or later; CTS checks both. Where a denial does not apply to this process, that check is not applicable.
+        An answered request that exposes a physical MAC or a LAN neighbour shows SELinux did not enforce the denial, which modified policy, a permissive domain or a kernel without Android's netlink patches can cause.
+        Test Result:
+        Netlink link boundary: enforced, SELinux denied RTM_GETLINK (EACCES).
+        Netlink neigh boundary: enforced, SELinux denied RTM_GETNEIGH (EACCES).
+    • prctlProbe: Clean (KernelSU magic prctl probe using option 0xDEADBEEF.)
+    • susfsSideChannel: Normal
+        Fork child and attempt setresuid to a lower UID. Old SUSFS/KSU hooks can kill the child instead of returning EPERM.
+        Test Result: Current UID 10203, attempted setresuid(10000). The kernel refused it, as it should for an unprivileged app.
+    • selfProcessIoc: Normal
+        Checks whether the current app process already runs in the KernelSU su SELinux domain or holds ambient [ksu_driver]/[ksu_fdwrapper] descriptors before escalation.
+        Context: u:r:untrusted_app:s0:c203,c256,c512,c768
+        Driver FDs: 0
+        FD wrapper FDs: 0
+    • isolatedMountDrift: Clean
+        Compares the main app process against an isolated helper process using /proc/self/ns/mnt plus /apex, /system, and /vendor mount anchors. This is an ordinary-app-safe way to look for KSU profile mount namespace drift.
+        mainNamespace=mnt:[4026532954]
+        isolatedNamespace=mnt:[4026533001]
+        Compared /apex, /system, and /vendor anchor mounts between the main app process and an isolated helper process.
+        Semantic anchor mounts matched.
+    • ksuManagerFingerprint: Clean
+        Reads the public manager manifest for zygotePreloadName, isolatedProcess, and useAppZygote traits under the well-known KernelSU package name. This is auxiliary only because package visibility, repackaging, or renamed managers can change it.
+        Known KernelSU manager packages were not visible.
+    • ksuThroneHunt: Clean
+        Rewrites /data/system/packages.list through the zero-permission setMimeGroup path and watches the app's own /data/app package directory from the app_zygote carrier. KernelSU's pkg_observer reacts to the packages.list rewrite by running track_throne -> search_manager("/data/app", 2), which opens and iterates our package directory inode; that traversal is what the inherited watch reports.
+        collection=COLLECTED
+        failureStage=READY
+        open=0 access=0 raw=1 invalid=0 baseline=0
+        stimulus=duckdetector-throne-hunt [duckdetector-throne-a] -> [duckdetector-throne-b], read back and confirmed
+        packageDir=/data/app/~~yxshPE5xSECWDj-f-lUm_Q==/com.eltavine.duckdetector-JbMZcWdKSPgz5AIqbFOafg==
+        watchDescriptor=60
+        directoryOpen=0
+        directoryAccess=0
+        rawEvents=1
+        invalidEvents=0
+        baselineHits=0
+        watchInstalled=true
+        stimulusApplied=true
+        stimulus=duckdetector-throne-hunt [duckdetector-throne-a] -> [duckdetector-throne-b], read back and confirmed
+        baselineHits=0
+    • runtimeArtifacts: 1 hit(s)
+        Scan /data/adb manager paths, curated tmp/system/storage residue paths, /data/local/tmp metadata, /proc process state, per-UID cgroup trees, isolated-process mount drift, and weak KernelSU manager manifest fingerprints for KernelSU, APatch, KernelPatch, Magisk, selective hiding, and unexpected root-process traces.
+        Shell tmp: uid=2000, gid=2000, mode=0771, inode=65538
+        Process audit: Checked 2 process status/statm pair(s); denied=0.
+        Cgroup audit: Checked 32 candidate uid path(s); native accessible=0, native pid entries=0, native proc denied=0, Java visible paths=0.
+        Mount drift: mainNamespace=mnt:[4026532954]
+        isolatedNamespace=mnt:[4026533001]
+        Compared /apex, /system, and /vendor anchor mounts between the main app process and an isolated helper process.
+        Semantic anchor mounts matched.
+        Manager fingerprint: Known KernelSU manager packages were not visible.
+    • cgroupLeakage: Unavailable
+        Enumerate per-UID cgroup trees and compare native getdents visibility against Java File view, /proc/<pid>/status UID ownership, and PID liveness syscalls such as kill/getsid/getpgid/sched_getscheduler/pidfd_open. Checked 32 candidate uid path(s); native accessible=0, native pid entries=0, native proc denied=0, Java visible paths=0.
+    • kernelTraces: Clean
+        Check /proc/kallsyms, /proc/modules, and uname strings for KernelSU, APatch, KernelPatch, SuperCall, or Magisk tokens.
+    • propertyResidue: Clean
+        Read a small catalog of root-specific properties such as ro.kernel.ksu and APatch/KernelPatch variants.
+    • tempRootArtifacts: Clean
+        Scans /data/local/tmp for temp root exploit artifacts (ksud, temp_su, ksu-helper, ksu-payload, libcve43499root.so). Files matching the CVE-2026-43499 tooling show it was staged on this device; they do not show whether an escalation succeeded or is still active. Paths this process cannot stat leave the check unavailable.
+    • nativeLibrary: Loaded (JNI-backed native root detection module.)
+    • signalSummary: 1 indirect
+        Direct probes are syscall and side-channel results; indirect probes are kernel strings, paths, processes, properties, and cgroup leakage.
+    • fsnotifySrcuCloseTiming: Not requested
+        Compares whole-instance inotify close latency during a synchronous packages.list stimulus, matched idle windows, and post-stimulus sequential controls.
+        Experimental supporting evidence of global fsnotify/SRCU contention; it does not identify KernelSU. KernelSU ab23091e moved normal scans outside this reader; 6b5f55bd also removed the manager-absent full scan. No delay cannot exclude KernelSU.
+        Android 12–14 legacy permission backend only. Android 11 stores the tree's record, so its readback cannot confirm a change; Android 15+ persists dynamic permissions separately. Kernel branch matching is a conservative gate, not proof that a vendor kept ACK semantics.
+        Criterion: 12 complete rounds, at least 8 candidate-overlap samples per arm, 10 delayed rounds with replication in each four-round block, and a p95 gap over 6 control scales (maximum of MAD and one tenth of the control median). A stimulated close longer than both controls' longest by 6 scales is inconclusive, not absence. Thresholds await device calibration; concurrent scans and background readers remain confounders.
+        kernel=; collection=NOT_REQUESTED; cleanup=false
+        rounds=0; usable=0; delayed=0
+        p95 ns: idle=0, stimulated=0, sequential=0
+    • init.rc hook timing: Unsupported ABI
+        Experimental supporting evidence; does not identify or exclude KernelSU.
+        Tests the interaction of comm init and a private init.rc filename using raw arm64 fstat.
+        The reviewed pre-3924 hook must still be installed; successful boot removes it and late-load skips it.
+        Same-metadata control, balanced order and single-CPU checks reduce confounding but do not establish causality.
+        Repeatability rules are provisional; physical-device detection accuracy is uncalibrated.
+        Collection: UNSUPPORTED_ABI; errno=0; CPU=-1
+        Cleanup: false; cleanup errno=0
+        Complete rounds: 0/32; calls/batch=128
+
+  [Scan]
+    • Paths checked: 28 · 11 not observable
+    • Path hits: 1
+    • Proc checked: 5
+    • Proc denied: 0
+    • Proc hits: 0
+    • Self context: u:r:untrusted_app:s0:c203,c256,c512,c768
+    • Self driver FDs: 0
+    • Self wrapper FDs: 0
+    • Main mnt ns: mnt:[4026532954]
+    • Isolated mnt ns: mnt:[4026533001]
+    • Mount drift hits: 0
+    • Mount anchor drifts: 0
+    • Manager package: Clean
+    • Manager traits: N/A
+    • Throne hunt: Clean (Collection COLLECTED; baseline=0)
+    • Throne hunt counters: open=0 access=0 raw=1 invalid=0 baseline=0 (Watch fd=60; stage=READY)
+    • Cgroup paths: N/A
+    • Cgroup visible: N/A
+    • Cgroup proc: N/A
+    • Cgroup denied: N/A
+    • Cgroup hits: N/A
+    • Kernel sources: 3
+    • Kernel hits: 0
+    • Properties checked: 5
+    • Property hits: 0
+    • Temp root checked: 22
+    • Temp root hits: 0
+    • Native library: Loaded
+
+  [Impact & Guidance]
+    • Isolated-process mount drift, manager manifest fingerprints, kernel strings, property residue, or cgroup leakage can indicate native-root history or selective runtime hiding, but they are weaker than direct syscall-side probes.
+    • Reduced coverage lowers confidence without implying a positive root detection.
+

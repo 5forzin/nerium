@@ -1,0 +1,371 @@
+{
+  "schema_version": 1,
+  "target": "cng_protocol_tests",
+  "status": "passed",
+  "run": true,
+  "recorded_at": "2026-10-26T19:59:15.1332387+00:00",
+  "platform": "native_windows_x86_64",
+  "keymaster_revision": "8729d4dd86c0bfec54c34610aa1c35f3d109b8a6",
+  "toolchain_release": "mstorsjo/llvm-mingw/20240619",
+  "compiler_sha256": "2e1c3555b5c733d619b62f1f35d6defb5358cf94a01b2263b81f9ecfc0e9e08a",
+  "source_manifest_sha256": "a3f565c607ac6bcd6b25a6ff2b17a56486a3d2a645a4e1809d05ffe8968ff169",
+  "executable_sha256": "0bc480b620eba80ac4e7c49e152446dd8f8f5727e6b63fd94ddb4d0421cbef2f",
+  "build_script_sha256": "ea6157cd7d5e920f1725b617c7b3b48b4d3496fa0b3437cbdeb7c35f8c2385e5",
+  "project_input_sha256": {
+    "attestation_disabled.cpp": "d87321664ba1dcddcb46290926f41e562c515b93917ae5625230d2cc998a5902",
+    "CMakeLists.txt": "f9cd5a2af7436d8214695ce3c2b6b5c4b4d41c241052e3cab1395464f1917522",
+    "cng_key_store.cpp": "4ca84eef6ff8e57e1378708e478f438d2ca6a478691506c6e126c56cf21d0863",
+    "cng_key_store.h": "bb390452e2a87067717168ddcfc3b39bf1e603c0e360154e0458330af2a19db8",
+    "cng_keymint_context.cpp": "f4544a73e3b99a2238fb6ca443be6195154e115eea10f960cc8328fc27504520",
+    "cng_keymint_context.h": "ef380bb4b3e36dd99b798afceab9c5e11d2777a759ba38ff134d0515fd8327c3",
+    "cng_protocol_tests.cpp": "7908462920184b7a07cc451203a7ead89ea10daf3901412a4b02da3289a447ab",
+    "cng_store_tests.cpp": "c25de3e65ed16e8bc2242f73a95db94d632246ff9e11cd1fca429a269b2d51fe",
+    "compat/android-base/logging.h": "cfa5fa6c31c5107e84f76b0c2870b9118031eb7323210b723b23ffbc7711595c",
+    "harness.cpp": "9f2c4d84d21281f00fb2ce5e92ce0b30767556a583da2a33d7d7a6043d782cfa",
+    "prepare_sources.py": "b77707036f36b550fbbdce334f6e098747dd01e9c97635f2e211ee71d9336a6b",
+    "README.md": "315266c9550e23cc79a1cf6830fb3ceb3ce1edacdce995a3c995613d997ebd46"
+  },
+  "toolchain_archive_sha256": "810703594a7e3eea03385b5329c7ea3bd65f5e496b44cf1b68c17ff436d265e7",
+  "port_header_sha256": "1208e8aa4d5092c6c0d77adba56dc6fbb24290c7e64403ea02c9fbb950b6af8b",
+  "port_source_sha256": "e3424bbb3f326d7dcd10f12e2670f55a49a1ce4ceb317485573ec7bc4210e10e",
+  "harness_exit_code": 0,
+  "result": {
+    "schema_version": 1,
+    "context": "native_android_keymaster_cng",
+    "km_version": "4.1",
+    "advertised_security_level": "SOFTWARE",
+    "aborted": false,
+    "passed": 46,
+    "failed": 0,
+    "wire_round_trips": 38,
+    "android_guest_integrated": false,
+    "android_tee_verified": false,
+    "google_attestation_verified": false,
+    "zero_detections_achieved": false,
+    "cases": [
+      {
+        "name": "reported_security_level_software",
+        "passed": true,
+        "actual": 0,
+        "comparison": "equal",
+        "expected": 0
+      },
+      {
+        "name": "remote_provisioning_context_absent",
+        "passed": true,
+        "actual": 0,
+        "comparison": "equal",
+        "expected": 0
+      },
+      {
+        "name": "generate_real_keymaster_request",
+        "passed": true,
+        "actual": 0,
+        "comparison": "equal",
+        "expected": 0
+      },
+      {
+        "name": "opaque_blob_bounded",
+        "passed": true,
+        "actual": 0,
+        "comparison": "equal",
+        "expected": 0
+      },
+      {
+        "name": "hardware_authorizations_empty",
+        "passed": true,
+        "actual": 0,
+        "comparison": "equal",
+        "expected": 0
+      },
+      {
+        "name": "software_rsa_authorization",
+        "passed": true,
+        "actual": 0,
+        "comparison": "equal",
+        "expected": 0
+      },
+      {
+        "name": "load_current_context_reference",
+        "passed": true,
+        "actual": 0,
+        "comparison": "equal",
+        "expected": 0
+      },
+      {
+        "name": "loaded_authorizations_preserved",
+        "passed": true,
+        "actual": 0,
+        "comparison": "equal",
+        "expected": 0
+      },
+      {
+        "name": "missing_application_binding",
+        "passed": true,
+        "actual": -33,
+        "comparison": "equal",
+        "expected": -33
+      },
+      {
+        "name": "wrong_application_binding",
+        "passed": true,
+        "actual": -33,
+        "comparison": "equal",
+        "expected": -33
+      },
+      {
+        "name": "duplicate_application_binding",
+        "passed": true,
+        "actual": -33,
+        "comparison": "equal",
+        "expected": -33
+      },
+      {
+        "name": "altered_opaque_reference",
+        "passed": true,
+        "actual": -33,
+        "comparison": "equal",
+        "expected": -33
+      },
+      {
+        "name": "public_spki_export",
+        "passed": true,
+        "actual": 0,
+        "comparison": "equal",
+        "expected": 0
+      },
+      {
+        "name": "private_pkcs8_export_rejected",
+        "passed": true,
+        "actual": -17,
+        "comparison": "nonzero",
+        "expected": null
+      },
+      {
+        "name": "begin_pss_sha256",
+        "passed": true,
+        "actual": 0,
+        "comparison": "equal",
+        "expected": 0
+      },
+      {
+        "name": "stream_update",
+        "passed": true,
+        "actual": 0,
+        "comparison": "equal",
+        "expected": 0
+      },
+      {
+        "name": "stream_input_consumed",
+        "passed": true,
+        "actual": 0,
+        "comparison": "equal",
+        "expected": 0
+      },
+      {
+        "name": "finish_pss_signature",
+        "passed": true,
+        "actual": 0,
+        "comparison": "equal",
+        "expected": 0
+      },
+      {
+        "name": "independent_boringssl_signature",
+        "passed": true,
+        "actual": 0,
+        "comparison": "equal",
+        "expected": 0
+      },
+      {
+        "name": "independent_changed_message_rejected",
+        "passed": true,
+        "actual": 0,
+        "comparison": "equal",
+        "expected": 0
+      },
+      {
+        "name": "independent_changed_signature_rejected",
+        "passed": true,
+        "actual": 0,
+        "comparison": "equal",
+        "expected": 0
+      },
+      {
+        "name": "finish_consumes_operation_handle",
+        "passed": true,
+        "actual": -28,
+        "comparison": "equal",
+        "expected": -28
+      },
+      {
+        "name": "begin_wrong_digest",
+        "passed": true,
+        "actual": -12,
+        "comparison": "nonzero",
+        "expected": null
+      },
+      {
+        "name": "begin_wrong_padding",
+        "passed": true,
+        "actual": -10,
+        "comparison": "nonzero",
+        "expected": null
+      },
+      {
+        "name": "begin_wrong_purpose",
+        "passed": true,
+        "actual": -2,
+        "comparison": "nonzero",
+        "expected": null
+      },
+      {
+        "name": "abort_active_operation",
+        "passed": true,
+        "actual": 0,
+        "comparison": "equal",
+        "expected": 0
+      },
+      {
+        "name": "abort_consumes_operation_handle",
+        "passed": true,
+        "actual": -28,
+        "comparison": "equal",
+        "expected": -28
+      },
+      {
+        "name": "delete_opaque_key",
+        "passed": true,
+        "actual": 0,
+        "comparison": "equal",
+        "expected": 0
+      },
+      {
+        "name": "load_after_delete",
+        "passed": true,
+        "actual": -33,
+        "comparison": "equal",
+        "expected": -33
+      },
+      {
+        "name": "begin_after_delete",
+        "passed": true,
+        "actual": -33,
+        "comparison": "equal",
+        "expected": -33
+      },
+      {
+        "name": "active_sign_after_key_delete",
+        "passed": true,
+        "actual": -33,
+        "comparison": "nonzero",
+        "expected": null
+      },
+      {
+        "name": "cross_context_reference_rejected",
+        "passed": true,
+        "actual": -33,
+        "comparison": "equal",
+        "expected": -33
+      },
+      {
+        "name": "delete_all_context_keys",
+        "passed": true,
+        "actual": 0,
+        "comparison": "equal",
+        "expected": 0
+      },
+      {
+        "name": "load_after_delete_all",
+        "passed": true,
+        "actual": -33,
+        "comparison": "equal",
+        "expected": -33
+      },
+      {
+        "name": "unsupported_user_auth_generation",
+        "passed": true,
+        "actual": -39,
+        "comparison": "nonzero",
+        "expected": null
+      },
+      {
+        "name": "duplicate_digest_generation",
+        "passed": true,
+        "actual": -40,
+        "comparison": "nonzero",
+        "expected": null
+      },
+      {
+        "name": "unsupported_rollback_generation",
+        "passed": true,
+        "actual": -39,
+        "comparison": "nonzero",
+        "expected": null
+      },
+      {
+        "name": "remote_provisioning_csr_rejected",
+        "passed": true,
+        "actual": -1,
+        "comparison": "nonzero",
+        "expected": null
+      },
+      {
+        "name": "remote_provisioning_csr_v2_rejected",
+        "passed": true,
+        "actual": -1,
+        "comparison": "nonzero",
+        "expected": null
+      },
+      {
+        "name": "remote_provisioning_info_rejected",
+        "passed": true,
+        "actual": -1,
+        "comparison": "nonzero",
+        "expected": null
+      },
+      {
+        "name": "current_epoch_upgrade",
+        "passed": true,
+        "actual": 0,
+        "comparison": "equal",
+        "expected": 0
+      },
+      {
+        "name": "configure_new_software_epoch",
+        "passed": true,
+        "actual": 0,
+        "comparison": "equal",
+        "expected": 0
+      },
+      {
+        "name": "old_epoch_requires_upgrade",
+        "passed": true,
+        "actual": -62,
+        "comparison": "equal",
+        "expected": -62
+      },
+      {
+        "name": "old_epoch_upgrade_does_not_rewrite_metadata",
+        "passed": true,
+        "actual": -62,
+        "comparison": "equal",
+        "expected": -62
+      },
+      {
+        "name": "delete_old_epoch_key",
+        "passed": true,
+        "actual": 0,
+        "comparison": "equal",
+        "expected": 0
+      },
+      {
+        "name": "truncated_request_rejected",
+        "passed": true,
+        "actual": 0,
+        "comparison": "equal",
+        "expected": 0
+      }
+    ]
+  },
+  "completed_at": "2026-10-26T19:59:18.0390727+00:00"
+}

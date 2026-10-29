@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "decoded_at": "2026-10-25T06:07:35.7751873+00:00",
+  "source_report": "play-integrity-physical-pixel8-api34.json",
+  "token_sha256": "c2b39da034438de31dbec8acbcebf76a47413381ac0e776fe756d4f5772c928b",
+  "request_package_name": "dev.androidlab.integrityprobe",
+  "nonce_matches": true,
+  "request_timestamp_ms": "1792908447321",
+  "app_recognition_verdict": "UNEVALUATED",
+  "device_recognition_verdict": [],
+  "app_licensing_verdict": "UNEVALUATED"
+}

@@ -1,0 +1,12 @@
+﻿{
+    "schema_version":  1,
+    "captured_at_ms":  1792906008708,
+    "package":  "dev.androidlab.integrityprobe",
+    "status":  "token_received",
+    "cloud_project_number":  45438431209,
+    "nonce_base64url":  "Dd9N1BkUnWqrLBGdbWEn2RHRm5tZoHw8H2yz0JH49y8",
+    "token_length":  991,
+    "apk_sha256":  "676e2aa8ed58aaeca6b9babaaf7d88a141b10e35a09206afe87bb2199edeb070",
+    "token_sha256":  "8993b6a19113aac55725b3beaee787eb9a9d123feb516918476c0d57aee845c3",
+    "compact_jwe_shape":  true
+}

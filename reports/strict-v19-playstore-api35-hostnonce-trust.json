@@ -1,0 +1,67 @@
+{
+  "report": "strict-v19-playstore-api35-hostnonce.json",
+  "report_sha256": "a12f7be9a4cade9f407a404b4b728b7d2fd186edc219c10f8ad2b1999a6ba330",
+  "external_root_snapshot_sha256": "b79beef96dd68073f1975bab90970ae85d1ae56d451a819ece6bff3d4e253ab4",
+  "external_root_count": 2,
+  "certificate_signatures_verified": true,
+  "nonce_binding_verified": true,
+  "external_nonce_binding_verified": true,
+  "external_challenge": {
+    "file": "strict-v19-playstore-api35-hostnonce-challenge.json",
+    "sha256": "b2e9b45847d628c434ad78f0c7e28c6dd76500a9e247e215bc6dc56417d0bf6f"
+  },
+  "key_possession_verified": true,
+  "root_sha256": "b5e2f738eda20db975ef086f9e616c187a65f33225b85f465d652611d39b8b2a",
+  "root_subject": "O=Google Test LLC,CN=Droid Unregistered Device CA",
+  "signed_claims": {
+    "attestation_version": 300,
+    "attestation_security_level": 0,
+    "keymaster_version": 300,
+    "keymaster_security_level": 0,
+    "root_of_trust": {
+      "authorization_list": "software",
+      "verified_boot_key": "0000000000000000000000000000000000000000000000000000000000000000",
+      "device_locked": false,
+      "verified_boot_state": 2,
+      "verified_boot_hash": "0000000000000000000000000000000000000000000000000000000000000000"
+    }
+  },
+  "rkp_metadata": {
+    "attestation_certificate_indices_zero_based": [
+      0
+    ],
+    "provisioning_certificate_indices_zero_based": [
+      1,
+      2
+    ],
+    "nearest_root_provisioning_adjacent_to_attestation": false,
+    "root_public_key_matches_external_snapshot": false,
+    "scope": "Extension placement and root matching only; provisioning contents are not authenticated here."
+  },
+  "prerequisites": {
+    "root_certificate_in_external_snapshot": false,
+    "root_public_key_in_external_snapshot": false,
+    "attestation_security_level_is_hardware": false,
+    "keymaster_security_level_is_hardware": false,
+    "root_of_trust_is_hardware_enforced": false,
+    "attested_device_is_locked": false,
+    "attested_boot_is_verified": false,
+    "attested_boot_key_is_nonzero": false,
+    "attested_boot_hash_is_nonzero": false
+  },
+  "failed_prerequisites": [
+    "root_certificate_in_external_snapshot",
+    "root_public_key_in_external_snapshot",
+    "attestation_security_level_is_hardware",
+    "keymaster_security_level_is_hardware",
+    "root_of_trust_is_hardware_enforced",
+    "attested_device_is_locked",
+    "attested_boot_is_verified",
+    "attested_boot_key_is_nonzero",
+    "attested_boot_hash_is_nonzero"
+  ],
+  "revocation_checked": false,
+  "full_pkix_path_validation_performed": false,
+  "manufacturer_trust": "not_established",
+  "scope": "Diagnostic prerequisite audit; matching an anchor alone does not establish hardware trust."
+}

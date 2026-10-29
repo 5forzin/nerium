@@ -1,0 +1,18 @@
+{
+  "observed_at": "2026-10-26T18:33:07.8212593+00:00",
+  "token_fetch_ms": 1052,
+  "introspection_ms": 315,
+  "response_fields": [
+    "azp",
+    "aud",
+    "sub",
+    "scope",
+    "exp",
+    "expires_in",
+    "email",
+    "email_verified",
+    "access_type"
+  ],
+  "expires_in_seconds": 1186,
+  "email_matches_pinned_account": true
+}

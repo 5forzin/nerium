@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "recorded_at": "2026-10-27T02:51:41.6380920+00:00",
+  "status": "native_readiness_passed_runtime_not_switched",
+  "before": {
+    "backend_sha256": "98a7a6253e0a7d6e491b66f920dec51c6f7d09c37f6c94c0baad462d81cf32ac",
+    "connected_without_completed_frame_marker": true,
+    "canonical_response_serving_markers": 0
+  },
+  "after": {
+    "backend_sha256": "d5bb58f00b412db54377517a545ee474835762599557f1cc4c359ece5047cfec",
+    "premature_disconnect_serving_markers": 0,
+    "canonical_response_serving_markers": 1,
+    "wire_self_test_accepted": 2,
+    "wire_self_test_rejected": 16,
+    "launcher_syntax_valid": true,
+    "missing_backend_preflight_rejected": true
+  },
+  "isolated_runtime": {
+    "original_emulator_pid": 19848,
+    "original_backend_pid": 29104,
+    "original_processes_still_running": true,
+    "selinux": "Enforcing",
+    "new_backend_deployed": false
+  },
+  "detector_suites_reexecuted": false,
+  "prior_complete_comparison": "keymint-v42-verified-comparison.json",
+  "android_tee_verified": false,
+  "google_attestation_established": false,
+  "zero_detections_achieved": false
+}

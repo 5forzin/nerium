@@ -1,0 +1,12 @@
+{
+  "observed_at": "2026-10-26T19:09:17.8618252+00:00",
+  "vbs_status": 2,
+  "security_services_running": [
+    2
+  ],
+  "security_services_configured": [
+    2
+  ],
+  "secure_boot_registry": 0,
+  "os_version": "10.0.26200.0"
+}

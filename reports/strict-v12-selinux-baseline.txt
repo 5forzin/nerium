@@ -1,0 +1,144 @@
+  [▲ WARNING] SELinux
+  Verdict      : Enforcing with recognized privileged contexts
+  Quick Facts  : Mode: Enforcing (paradox)  |  Policy: Strong  |  Audit: Inconclusive  |  Context: untrusted_app
+
+  [State]
+    • Mode: Enforcing (paradox)
+    • Policy enforced: Yes
+    • MAC active: Yes
+    • Filesystem: Mounted
+    • Detection path: Paradox logic
+    • Process context: untrusted_app (u:r:untrusted_app:s0:c203,c256,c512,c768)
+
+  [Policy]
+    • Strength: Strong
+    • Policy version: Unreadable
+    • Security classes: Unreadable (Class directory unreadable from the current app context.)
+    • Process context: untrusted_app (u:r:untrusted_app:s0:c203,c256,c512,c768)
+    • Dangerous types: None
+    • Permissive domains: None
+
+  [Audit]
+    • Surface: Inconclusive
+    • Runtime markers: Not observed
+        Recent auditd event logs were readable, but absence of markers is not proof of a clean audit surface.
+    • AVC side-channel: Not observed
+        No matching controlled AVC denial surfaced in the readable auditd event window, but absence is not proof.
+    • su-related AVC: Not observed
+        No su-related actor string surfaced in the readable canonical AVC window.
+    • Residue paths: Not observable
+        Common module paths sit under /data/adb, which this app cannot search, so residue there is not visible.
+
+  [Device]
+    • Android: 14
+    • API level: 34
+    • Required since: Android 5.0 (API 21)
+
+  [Methods]
+    • filesystem: Active (SELinux filesystem mounted with policy nodes)
+    • sysfs: Blocked (Enforcing) (enforce file present but unreadable)
+    • getenforce: Blocked (Enforcing) (Command blocked by SELinux policy)
+    • proc/self/attr: Labeled
+        Context: u:r:untrusted_app:s0:c203,c256,c512,c768. A labelled context shows SELinux is enabled, not whether it enforces.
+    • SELinux Hide attr/current timing (experimental): No reproducible asymmetry
+        /proc/thread-self/attr/current | native ordinary-app thread | A=self valid context; B=same length with leading newline; both write()=-EACCES.
+        Pairs=256; A median=10800 ns; B median=10600 ns; paired A-B p10/median/p90=-10200/0/8200 ns; half medians=100/-100 ns; A slower=118/256; context bytes=40.
+        KernelSU df03912f processes A through its backup parser before SETCURRENT; its parent denies ordinary-app SETCURRENT before parsing either payload. Timing alone is device-dependent, not proof of KernelSU; no asymmetry cannot rule out hidden policy.
+    • Context validity oracle: 00
+        Carrier=u:r:app_zygote:s0:c512,c768
+         | Carrier state=ok
+         | Carrier match=yes
+         | Carrier control=accepted
+         | Negative control=rejected
+         | File control=accepted
+         | File negative control=rejected
+         | Oracle trusted=yes
+         | Repeatability=stable
+         | Evidence source=dedicated app_zygote carrier
+         | Query=raw selinuxfs write
+         | KSU-specific contexts were not found by live policy.
+         | Carrier context: u:r:app_zygote:s0:c512,c768 | Expected carrier type: app_zygote | Query method: raw selinuxfs write | Positive control context: u:r:app_zygote:s0:c512,c768 | Negative control context: u:r:duckdetector_context_oracle_sentinel:s0 | File control context: u:object_r:system_data_file:s0 | File negative control context: u:object_r:duckdetector_context_oracle_sentinel_file:s0 | Invalid context: u:r:duckdetector_context_oracle_sentinel:s0 errno=22 | Invalid context: u:object_r:duckdetector_context_oracle_sentinel_file:s0 errno=22 | Carrier control valid=yes | Negative control rejected=yes | File control valid=yes | File negative control rejected=yes | Domain repeat 1=invalid (Invalid context: u:r:ksu:s0 errno=22) | Domain repeat 2=invalid (Invalid context: u:r:ksu:s0 errno=22) | File repeat 1=invalid (Invalid context: u:object_r:ksu_file:s0 errno=22) | File repeat 2=invalid (Invalid context: u:object_r:ksu_file:s0 errno=22) | Invalid context: u:r:ksu:s0 errno=22 | Invalid context: u:object_r:ksu_file:s0 errno=22 | Neither KSU-specific context was accepted by live policy. | Bit pair 00 means both KSU-specific contexts were rejected by live policy.
+    • App-zygote seqno oracle: Clean
+        Evidence source=dedicated app_zygote carrier | Carrier=u:r:app_zygote:s0:c512,c768 | zygotePreloadName required=yes | Probe attempted=yes | status.sequence=2 | status.policyload=2 | access.avd.seqno=2 | process class=2 | This oracle is trusted only when produced by android:zygotePreloadName inside the dedicated app_zygote carrier.
+    • app_zygote attr/current write: Context recognized: Magisk, Magisk file
+        Evidence source=dedicated app_zygote carrier | Repeated writes with stock/malformed controls; context recognition is supporting policy evidence, not root-family identification. EINVAL cannot exclude a hidden policy; SID-table and timing observations share SELinux mechanisms. | Controls=CONTROLS_PASSED target= raw=state=COMPLETE; step=4; errno=0; rounds=2; identity_changed=no; child_end=2; child_errno=0; exit_status=0; signal=0; control0 malformed(open_errno=0, write_errno=22, returned=-1) stock(open_errno=0, write_errno=13, returned=-1); control1 malformed(open_errno=0, write_errno=22, returned=-1) stock(open_errno=0, write_errno=13, returned=-1); control2 malformed(open_errno=0, write_errno=22, returned=-1) stock(open_errno=0, write_errno=13, returned=-1); control3 malformed(open_errno=0, write_errno=22, returned=-1) stock(open_errno=0, write_errno=13, returned=-1) | KernelSU=NORMAL_EINVAL target=u:r:ksu:s0 raw=round0(open_errno=0, write_errno=22, returned=-1); round1(open_errno=0, write_errno=22, returned=-1); state=COMPLETE | KernelSU file=NORMAL_EINVAL target=u:object_r:ksu_file:s0 raw=round0(open_errno=0, write_errno=22, returned=-1); round1(open_errno=0, write_errno=22, returned=-1); state=COMPLETE | Magisk=CONTEXT_RECOGNIZED target=u:r:magisk:s0 raw=round0(open_errno=0, write_errno=13, returned=-1); round1(open_errno=0, write_errno=13, returned=-1); state=COMPLETE | Magisk file=CONTEXT_RECOGNIZED target=u:object_r:magisk_file:s0 raw=round0(open_errno=0, write_errno=13, returned=-1); round1(open_errno=0, write_errno=13, returned=-1); state=COMPLETE | LSPosed file=NORMAL_EINVAL target=u:object_r:lsposed_file:s0 raw=round0(open_errno=0, write_errno=22, returned=-1); round1(open_errno=0, write_errno=22, returned=-1); state=COMPLETE | DroidSpaces daemon=NORMAL_EINVAL target=u:r:droidspacesd:s0 raw=round0(open_errno=0, write_errno=22, returned=-1); round1(open_errno=0, write_errno=22, returned=-1); state=COMPLETE | MSD app=NORMAL_EINVAL target=u:r:msd_app:s0 raw=round0(open_errno=0, write_errno=22, returned=-1); round1(open_errno=0, write_errno=22, returned=-1); state=COMPLETE | MSD daemon=NORMAL_EINVAL target=u:r:msd_daemon:s0 raw=round0(open_errno=0, write_errno=22, returned=-1); round1(open_errno=0, write_errno=22, returned=-1); state=COMPLETE | Xposed data=NORMAL_EINVAL target=u:object_r:xposed_data:s0 raw=round0(open_errno=0, write_errno=22, returned=-1); round1(open_errno=0, write_errno=22, returned=-1); state=COMPLETE
+    • App Zygote AVC lookup profile (experimental): Counts outside the 1× and 2× bands
+        At least one batch fell outside the one- and two-lookup bands, as other activity on the pinned CPU can cause. No lookup pattern is reported. Captured during app_zygote preload; this is a retained measurement, not a live check.
+        Step=FINISHED; errno=0; child=EXITED, exit=0, signal=0, errno=0.
+        CPU 0 is cache_stats row 0 of 2; possible CPUs=2. Rounds=4; writes per batch=4096; A batches=4242, 4103, 4103, 4244; B batches=4720, 4489, 4233, 4276; A rate=1.019; B rate=1.081.
+        Timing over 512 pairs: median A=8300 ns, B=8500 ns, paired A−B=-100 ns. The separate App Zygote timing row interprets a validated 512-pair sample; the AVC profile still uses child counts only.
+    • Status mmap ABI conformance: No violation observed
+        Every nonconforming mmap/mprotect request to the status node was rejected, like stock selinuxfs. A handler that keeps the upstream checks answers the same way.
+    • App Zygote attr/current timing (experimental): Negative A−B timing asymmetry
+        A=invalid type, B=same-length newline prefix; both must return EINVAL. 512 AB/BA pairs, 32 warmups; CLOCK_MONOTONIC_RAW; paired A−B > 0 ns is positive, 0 ns is baseline, and < 0 ns is negative. Block counts are diagnostic only. Measured in the preload parent without changing CPU affinity. CPU switches between completed pairs are allowed. Incomplete measurements are normally inconclusive, except migration-only samples with at least 256 accepted pairs, positive A−B, and at least 90% A-slower pairs. One retained preload is one measurement.
+        Parent preload (PID=8535, entry CPU=0): A−B=-100 ns; A=8300 ns, B=8500 ns; A slower=143/512; blocks positive/negative/zero=0/14/2; migrations=0; complete=true; errno=0. This parent sample supplies the timing verdict.
+        Pinned child diagnostic (PID=8574, CPU=0): paired A−B=-100 ns; A=8300 ns, B=8500 ns; A slower=147/512; blocks positive/negative/zero=1/13/2; CPU migrations=0; collection=Collected. Child timing is diagnostic only and never replaces the parent sample. Stock A and B already take different kernel paths. Timing direction is supporting information, not proof of hiding, a specific root tool, or a clean environment.
+    • Dirty sepolicy rule: system_server execmem: Denied
+        Evidence source=dedicated app_zygote carrier | Observed edge: system_server -> system_server:process execmem. This should stay denied on stock policy because executable system_server memory is supporting dirty-policy evidence. The dedicated access oracles reported this edge as denied. | Native dedicated=Unavailable carrier=u:r:app_zygote:s0:c512,c768 match=yes controls=failed stable=no trusted=no query=selinux_check_access reason=selinux_check_access unavailable from the current carrier. | Java dedicated=Denied carrier=u:r:app_zygote:s0:c512,c768 match=yes controls=passed stable=yes trusted=yes query=android.os.SELinux.checkSELinuxAccess
+    • SELinux policy observation: fsck_untrusted sys_admin: Denied
+        Evidence source=dedicated app_zygote carrier | Observed edge: fsck_untrusted -> fsck_untrusted:capability sys_admin. Informational only: AOSP Android 14 forbids this permission, but device or ROM policies may differ. An allowed result alone does not establish root or policy tampering and does not contribute to the dirty-policy warning. The dedicated access oracles reported this edge as denied. | Native dedicated=Unavailable carrier=u:r:app_zygote:s0:c512,c768 match=yes controls=failed stable=no trusted=no query=selinux_check_access reason=selinux_check_access unavailable from the current carrier. | Java dedicated=Denied carrier=u:r:app_zygote:s0:c512,c768 match=yes controls=passed stable=yes trusted=yes query=android.os.SELinux.checkSELinuxAccess
+    • Dirty sepolicy rule: shell -> su transition: Unavailable
+        Evidence source=dedicated app_zygote carrier | Observed edge: shell -> su:process transition. This is only evaluated for confirmed user builds because stock user builds should not expose an AOSP su transition path. The dedicated access oracles could not produce a verdict for this edge. | Native dedicated=Unavailable carrier=u:r:app_zygote:s0:c512,c768 match=yes controls=failed stable=no trusted=no query=selinux_check_access reason=selinux_check_access unavailable from the current carrier. | Java dedicated=Unavailable carrier=u:r:app_zygote:s0:c512,c768 match=yes controls=passed stable=yes trusted=yes query=android.os.SELinux.checkSELinuxAccess
+    • Dirty sepolicy rule: adbd -> adbroot binder: Denied
+        Evidence source=dedicated app_zygote carrier | Observed edge: adbd -> adbroot:binder call. This should stay denied on stock policy because it is supporting adb-root dirty-policy evidence. The dedicated access oracles reported this edge as denied. | Native dedicated=Unavailable carrier=u:r:app_zygote:s0:c512,c768 match=yes controls=failed stable=no trusted=no query=selinux_check_access reason=selinux_check_access unavailable from the current carrier. | Java dedicated=Denied carrier=u:r:app_zygote:s0:c512,c768 match=yes controls=passed stable=yes trusted=yes query=android.os.SELinux.checkSELinuxAccess
+    • Dirty sepolicy rule: untrusted_app -> magisk binder: Denied
+        Evidence source=dedicated app_zygote carrier | Observed edge: untrusted_app -> magisk:binder call. This should stay denied on stock policy because ordinary apps should not talk to a Magisk domain over binder. The dedicated access oracles reported this edge as denied. | Native dedicated=Unavailable carrier=u:r:app_zygote:s0:c512,c768 match=yes controls=failed stable=no trusted=no query=selinux_check_access reason=selinux_check_access unavailable from the current carrier. | Java dedicated=Denied carrier=u:r:app_zygote:s0:c512,c768 match=yes controls=passed stable=yes trusted=yes query=android.os.SELinux.checkSELinuxAccess
+    • Dirty sepolicy rule: untrusted_app -> ksu_file read: Denied
+        Evidence source=dedicated app_zygote carrier | Observed edge: untrusted_app -> ksu_file:file read. This should stay denied on stock policy because ordinary apps should not read KernelSU-labeled files. The dedicated access oracles reported this edge as denied. | Native dedicated=Unavailable carrier=u:r:app_zygote:s0:c512,c768 match=yes controls=failed stable=no trusted=no query=selinux_check_access reason=selinux_check_access unavailable from the current carrier. | Java dedicated=Denied carrier=u:r:app_zygote:s0:c512,c768 match=yes controls=passed stable=yes trusted=yes query=android.os.SELinux.checkSELinuxAccess
+    • Dirty sepolicy rule: untrusted_app -> lsposed_file read: Denied
+        Evidence source=dedicated app_zygote carrier | Observed edge: untrusted_app -> lsposed_file:file read. This should stay denied on stock policy because ordinary apps should not read LSPosed-labeled files. The dedicated access oracles reported this edge as denied. | Native dedicated=Unavailable carrier=u:r:app_zygote:s0:c512,c768 match=yes controls=failed stable=no trusted=no query=selinux_check_access reason=selinux_check_access unavailable from the current carrier. | Java dedicated=Denied carrier=u:r:app_zygote:s0:c512,c768 match=yes controls=passed stable=yes trusted=yes query=android.os.SELinux.checkSELinuxAccess
+    • Dirty sepolicy rule: Droidspaces: 3 denied
+        Denied: magisk -> droidspacesd dyntransition, su -> droidspacesd dyntransition, system_server -> droidspacesd binder
+    • Dirty sepolicy rule: MSD: 5 denied
+        Denied: msd_app -> msd_daemon connectto, msd_daemon -> msd_daemon connectto, msd_daemon -> selinuxfs read, msd_daemon -> configfs dir search, msd_daemon -> configfs file write
+    • Dirty sepolicy rule: untrusted_app -> xposed_data read: Denied
+        Evidence source=dedicated app_zygote carrier | Observed edge: untrusted_app -> xposed_data:file read. This should stay denied on stock policy because ordinary apps should not read Xposed data directly. The dedicated access oracles reported this edge as denied. | Native dedicated=Unavailable carrier=u:r:app_zygote:s0:c512,c768 match=yes controls=failed stable=no trusted=no query=selinux_check_access reason=selinux_check_access unavailable from the current carrier. | Java dedicated=Denied carrier=u:r:app_zygote:s0:c512,c768 match=yes controls=passed stable=yes trusted=yes query=android.os.SELinux.checkSELinuxAccess
+    • Dirty sepolicy rule: zygote -> adb_data_file search: Denied
+        Evidence source=dedicated app_zygote carrier | Observed edge: zygote -> adb_data_file:dir search. This should stay denied on stock policy because zygote should not traverse adb data directories. The dedicated access oracles reported this edge as denied. | Native dedicated=Unavailable carrier=u:r:app_zygote:s0:c512,c768 match=yes controls=failed stable=no trusted=no query=selinux_check_access reason=selinux_check_access unavailable from the current carrier. | Java dedicated=Denied carrier=u:r:app_zygote:s0:c512,c768 match=yes controls=passed stable=yes trusted=yes query=android.os.SELinux.checkSELinuxAccess
+    • SID-table query consistency: Unsupported
+        The carrier identity or stock MLS candidates did not meet this experiment's requirements. Captured during app_zygote preload at boot uptime 470810 ms; this is a retained measurement, not a live counter check. Phase=CARRIER; errno=0; child=EXITED; signal=0. Carrier=u:r:app_zygote:s0:c512,c768; uid=10203; pid=8535; kernel=6.1.23-android14-4-00257-g7e35917775b8-ab9964412.
+        Round 1: entries null → null → null → null → null → null
+        Controls: positive errno=null, malformed errno=null, malformed attr/current errno=null
+        u:r:app_zygote:s0:c121,c151,c370,c473,c567,c725,c772,c963: context errno=null, attr/current errno=null, repeat errno=null
+        u:r:app_zygote:s0:c59,c168,c257,c426,c561,c656,c848,c943: context errno=null, attr/current errno=null, repeat errno=null
+        u:r:app_zygote:s0:c119,c146,c331,c484,c589,c659,c885,c930: context errno=null, attr/current errno=null, repeat errno=null
+        u:r:app_zygote:s0:c103,c224,c381,c412,c521,c755,c799,c966: context errno=null, attr/current errno=null, repeat errno=null
+        Round 2: entries null → null → null → null → null → null
+        Controls: positive errno=null, malformed errno=null, malformed attr/current errno=null
+        u:r:app_zygote:s0:c73,c218,c347,c509,c610,c691,c841,c907: context errno=null, attr/current errno=null, repeat errno=null
+        u:r:app_zygote:s0:c102,c183,c284,c472,c532,c764,c889,c922: context errno=null, attr/current errno=null, repeat errno=null
+        u:r:app_zygote:s0:c48,c211,c328,c427,c579,c733,c813,c897: context errno=null, attr/current errno=null, repeat errno=null
+        u:r:app_zygote:s0:c87,c186,c368,c431,c617,c688,c865,c958: context errno=null, attr/current errno=null, repeat errno=null
+
+  [Impact & Guidance]
+    • Mandatory access control is active.
+    • Policy violations should be blocked and logged.
+    • Permission-denied probes acted as positive evidence for enforcing mode.
+    • Audit rewrite checks were partially unavailable from this app context.
+    • The app_zygote carrier rejected both KSU-specific contexts.
+    • The zygotePreload app_zygote carrier reported a coherent policyload/access seqno contract.
+    • Controlled attr/current writes repeatedly recognized contexts for Magisk, Magisk file. This supports a policy observation; it does not identify a root tool.
+
+  [Policy Notes]
+    • Policy version unreadable
+    • Security classes unreadable
+    • Context type 'untrusted_app' looks normal
+    • No permissive domains detected
+
+  [Audit Notes]
+    • The auditd event buffer was readable, but no canonical audit rewrite marker or AVC leak surfaced.
+    • AOSP does not guarantee that every device emits or exposes matching audit events to app-visible log readers, so this remains non-proving.
+    • Common auditpatch module locations could not be checked from this app.
+    • Absence of residue is not proof of absence because ordinary apps often cannot traverse /data/adb.
+
+  [References]
+    • SELinux paradox: permission denied can prove enforcing mode.
+    • Enforcing mode blocks disallowed actions instead of only logging them.
+    • Production Android devices are expected to run enforcing SELinux.
+    • app_zygote can query SELinux context validity through selinux_check_context, which ultimately writes to /sys/fs/selinux/context.
+    • A dedicated app_zygote carrier can also probe privileged context materialization by writing candidate labels to /proc/self/attr/current and classifying non-EINVAL outcomes.
+    • The policyload/access seqno oracle must be captured inside zygotePreloadName; the isolated child may lose app_zygote SELinuxfs access and should downgrade missing coverage to info.
+    • Audit or log surfaces can be rewritten in user space, so missing suspicious tcontext values is not always proof.
+    • Readable AVC denial lines should be treated as audit-surface leakage, not as direct proof of a root process.
+    • comm, exe, path, and name fields inside AVC logs are supporting hints, not standalone proof of a live su daemon.
+

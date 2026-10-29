@@ -1,0 +1,106 @@
+{
+  "schema_version": 1,
+  "state": "prepared",
+  "creator_pid": 10816,
+  "created_at": "2026-10-26T19:10:32.387667-03:00",
+  "source_avd": "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v14\\avd\\device-lab-numa.avd",
+  "source_images": "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v14\\system-images-platform",
+  "runtime": "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\runtime-c",
+  "files": {
+    "system-images/advancedFeatures.ini": "8a5d3f844f527a28d15d1af56ad3e2abdec57c771e81ff7a0322a03d5cf69883",
+    "system-images/build.prop": "ea2b9be04a6da1331eee99b17e5c71d43ac516ed21b52fc2749c0ffe16f73b02",
+    "system-images/encryptionkey.img": "522bd0b6a2c92e37de465059bb9487bb9597a9aae032b469a8ebe0b38146d8c3",
+    "system-images/kernel-ranchu": "81f3eddb5ebc4ce67feff18b1933eeaee7deca532266ae61c3d428f2e59cbd11",
+    "system-images/package.xml": "c89cb2dd967b17420117f529192478a7f79c151699c07f0d10fed068f0f95ab3",
+    "system-images/ramdisk.img": "0a7b6fac2ba902d4c00deb1ebd606b20839c4b06d4ef832492ec893b5fb3e969",
+    "system-images/source.properties": "bd7597e0dfa855335194fbafaf63bde93aa86bc3b56cea73cd54635715e77abc",
+    "system-images/system.img": "4806fbc745cd9abbfacc358496508f0ce420010e0ddaccef11e52e5da8e92f0a",
+    "system-images/userdata.img": "30e14955ebf1352266dc2ff8067e68104607e750abb9d3b36582b8af909fcb58",
+    "system-images/vendor.img": "30b356018896249d981d4bd7e3648bf0f6cf6cab8abf5e2aa52b037f1aaa1d9d",
+    "system-images/VerifiedBootParams.textproto": "7a037836ad84ea38282bc86f902511c4abfa8f5e18fd735b8baa28e190edeb38",
+    "avd/userdata-qemu.img": "dba2012889013d4e2eac2b42fd0808aee0d8c00ca4d286ee2fbd5409c6320946",
+    "avd/userdata-qemu.img.qcow2": "85d528aaee3511c03cf851d26982a612afcacbc2bff28cd5fe2a4ea2c2035577",
+    "avd/encryptionkey.img": "6e2f44b662ddf5ee6f741e5f892b9ea5ea132faf27f36bb5d775769fa5c25a16",
+    "avd/encryptionkey.img.qcow2": "a7c7e3504f9476594c40d4404e66884a11d65b608ee53820569b60e750f10fa0",
+    "avd/cache.img": "b826b52bf364acf36e73c6a5de4849feb99e457deff9dfb7d7516b0da3dc17b9",
+    "avd/cache.img.qcow2": "be6f48d510db67fd549e3002e0f7fa0ca90116bbf8477441fb230602c51c0a45",
+    "avd/config.ini": "ced49bb6027b351b00928860955b374743f67e996a3a7e8e6638e22faea65663",
+    "avd/initrd": "accf2dfbc94a6070243381830e39d63dd49027ddbcbb179537b0d76f94bec845",
+    "avd/userdata.img": "30e14955ebf1352266dc2ff8067e68104607e750abb9d3b36582b8af909fcb58"
+  },
+  "rebased_overlays": [
+    "userdata-qemu.img.qcow2",
+    "encryptionkey.img.qcow2",
+    "cache.img.qcow2"
+  ],
+  "original_images_modified": false,
+  "registration": "C:\\Users\\antho\\.android\\avd\\device-lab-keymint-v42.ini",
+  "config_sha256": "e26ed5867fd28ef29eecb02a4b4994d9db4dbe24e69ee38ab624f6547f85eea9",
+  "storage_copy_created_at": "2026-10-26T23:12:14.2586773+00:00",
+  "retained_source_runtime": "E:\\Workstation\\projects\\android-device-lab\\.local\\keymint-v42",
+  "copy_verifications": [
+    {
+      "sha256": "ca30a078f0b5a54522dcd9a1fd63b535dba9e4c79665bdb295f1b9790c224f2d",
+      "name": "userdata-qemu.img.qcow2",
+      "byte_identical": true
+    },
+    {
+      "sha256": "6e2f44b662ddf5ee6f741e5f892b9ea5ea132faf27f36bb5d775769fa5c25a16",
+      "name": "encryptionkey.img",
+      "byte_identical": true
+    },
+    {
+      "sha256": "cdc2dcf04bf39ccb841743ffcc9e6ddc8061ea4cccf1a7668af0fe1edaf566b9",
+      "name": "encryptionkey.img.qcow2",
+      "byte_identical": true
+    },
+    {
+      "sha256": "b826b52bf364acf36e73c6a5de4849feb99e457deff9dfb7d7516b0da3dc17b9",
+      "name": "cache.img",
+      "byte_identical": true
+    },
+    {
+      "sha256": "be6f48d510db67fd549e3002e0f7fa0ca90116bbf8477441fb230602c51c0a45",
+      "name": "cache.img.qcow2",
+      "byte_identical": true
+    },
+    {
+      "sha256": "30e14955ebf1352266dc2ff8067e68104607e750abb9d3b36582b8af909fcb58",
+      "name": "userdata.img",
+      "byte_identical": true
+    },
+    {
+      "sha256": "e26ed5867fd28ef29eecb02a4b4994d9db4dbe24e69ee38ab624f6547f85eea9",
+      "name": "config.ini",
+      "byte_identical": true
+    },
+    {
+      "sha256": "f2a286558a8185074487641c4679dc2cec4a6ce5af968022adfbca852e033bb6",
+      "name": "initrd",
+      "byte_identical": true
+    },
+    {
+      "sha256": "1c7c11b21c4ee65c92979cb1946a026fbd97c6491856e813ca301a45b325f7ed",
+      "name": "version_num.cache",
+      "byte_identical": true
+    },
+    {
+      "sha256": "d4735e3a265e16eee03f59718b9b5d03019c07d8b6c51f90da3a666eec13ab35",
+      "name": "qemu-version.txt",
+      "byte_identical": true
+    },
+    {
+      "sha256": "549ad89a1d315629627fed29c30fffb1d8cade94dfb6edfb4c677c93139499b6",
+      "name": "quickbootChoice.ini",
+      "byte_identical": true
+    }
+  ],
+  "retained_read_only_backing": {
+    "path": "E:\\Workstation\\projects\\android-device-lab\\.local\\keymint-v42\\avd\\device-lab-keymint-v42.avd\\userdata-qemu.img",
+    "must_be_kept": true,
+    "sha256": "dba2012889013d4e2eac2b42fd0808aee0d8c00ca4d286ee2fbd5409c6320946"
+  },
+  "virtual_disk_compare_passed": true,
+  "snapshots_copied": false,
+  "source_files_removed": false
+}

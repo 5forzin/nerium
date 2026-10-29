@@ -1,0 +1,84 @@
+{
+  "schema_version": 1,
+  "recorded_at": "2026-10-26T19:42:13.2544129+00:00",
+  "scope": "Owned ephemeral Windows VBS keys; public synthetic challenges; separate-process stdin/stdout controls; no raw packages retained",
+  "passed": 9,
+  "failed": 0,
+  "cases": [
+    {
+      "name": "separate_process_create_verify",
+      "passed": true,
+      "cleanup_succeeded": true,
+      "verify_exit": 0,
+      "valid": true,
+      "create_exit": 0
+    },
+    {
+      "payload_valid": false,
+      "exit_code": 2,
+      "name": "changed_payload",
+      "signature_valid": false,
+      "passed": true
+    },
+    {
+      "exit_code": 2,
+      "nonce_valid": false,
+      "name": "changed_expected_nonce",
+      "passed": true
+    },
+    {
+      "native_root_valid": false,
+      "exit_code": 2,
+      "name": "wrong_authority_public_key",
+      "native_identity_valid": false,
+      "passed": true
+    },
+    {
+      "native_root_valid": false,
+      "exit_code": 2,
+      "nonce_valid": false,
+      "name": "serialized_root_nonce_mutation",
+      "passed": true
+    },
+    {
+      "exit_code": 1,
+      "error_code": "INVALID_FIELDS",
+      "name": "extra_request_field",
+      "passed": true
+    },
+    {
+      "exit_code": 1,
+      "name": "padded_nonce",
+      "passed": true
+    },
+    {
+      "native_identity_valid": false,
+      "name": "identity_signature_mutation",
+      "exit_code": 2,
+      "passed": true,
+      "cleanup_succeeded": true,
+      "native_status": "0xD000A000"
+    },
+    {
+      "name": "payload_signature_mutation",
+      "exit_code": 2,
+      "passed": true,
+      "cleanup_succeeded": true,
+      "signature_valid": false,
+      "native_status": "0x80090006"
+    }
+  ],
+  "source_sha256": {
+    "scripts/vbs-key-operation.ps1": "388fedbbb985d66401dc572f11a8aa37146f7ac045e26a1d634d68e38f0a009b",
+    "hostkey/WindowsVbsKey.cs": "65621d5dd43193f27678ee8c27e422c935ccf6280edb3257fd6a5bfdc6eccfde"
+  },
+  "external_root_authenticated": false,
+  "android_tee_verified": false,
+  "zero_detections_achieved": false,
+  "raw_packages_retained": false,
+  "notes": [
+    "The first seven cases were observed in earlier local invocations of this same final implementation; this invocation adds identity and payload signature mutations.",
+    "Initial pre-CNG wrapper argument handling failed and was corrected before these passing controls.",
+    "No cloud, Android target, enrollment, named key, provider fallback or security configuration operation was performed."
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "case": "capture_a_replayed_against_capture_b_host_request",
+  "distinct_host_challenges": true,
+  "replayed_capture_rejected": true,
+  "accepted_evidence_written": false,
+  "passed": true
+}

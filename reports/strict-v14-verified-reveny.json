@@ -1,0 +1,5 @@
+{
+  "reason": "System UI ANR obscured the result after the cold-boot regression run; no clear verdict accepted.",
+  "status": "unavailable",
+  "ui": "strict-v14-verified-reveny.xml"
+}

@@ -1,0 +1,183 @@
+{
+  "repository_metadata": "https://dl.google.com/android/repository/sys-img/google_apis_playstore/sys-img2-3.xml",
+  "package": "system-images;android-34;google_apis_playstore;x86_64",
+  "revision": 14,
+  "archive_url": "https://dl.google.com/android/repository/sys-img/google_apis_playstore/x86_64-34_r14.zip",
+  "archive_bytes": 1510752654,
+  "published_sha1": "01d32617fd1937e540faf8731d70cf50e35af854",
+  "download_sha1": "01d32617fd1937e540faf8731d70cf50e35af854",
+  "download_sha256": "22e7797a7e14d346bc6ed867d84ed423beaf4364db567edaa97f85a99558cf80",
+  "published_checksum_matches": true,
+  "members": {
+    "system.img": {
+      "archive_member": "x86_64/system.img",
+      "bytes": 3101687808,
+      "archive_sha256": "4c0231879770f9ef3a4f33ef317ccf6a123b16e198ecab0e9ce76b9efc1f7da0",
+      "installed_sha256": "4c0231879770f9ef3a4f33ef317ccf6a123b16e198ecab0e9ce76b9efc1f7da0",
+      "identical": true
+    },
+    "kernel-ranchu": {
+      "archive_member": "x86_64/kernel-ranchu",
+      "bytes": 17374688,
+      "archive_sha256": "b1e5cd842220175a4c07be9a2bcf5beb7b336794b00cf9b7b53abf35557b24df",
+      "installed_sha256": "b1e5cd842220175a4c07be9a2bcf5beb7b336794b00cf9b7b53abf35557b24df",
+      "identical": true
+    },
+    "ramdisk.img": {
+      "archive_member": "x86_64/ramdisk.img",
+      "bytes": 1566441,
+      "archive_sha256": "e154035a28ba927ec18d74f199b7bfc60ea55935e92d52ee2909436d1b682800",
+      "installed_sha256": "e154035a28ba927ec18d74f199b7bfc60ea55935e92d52ee2909436d1b682800",
+      "identical": true
+    },
+    "NOTICE.txt": {
+      "archive_member": "x86_64/NOTICE.txt",
+      "bytes": 19539167,
+      "archive_sha256": "737210b1cad9b3f7d5850ba58540f77a4039e48007d90aae52c0ccd70b9c395a",
+      "installed_sha256": "737210b1cad9b3f7d5850ba58540f77a4039e48007d90aae52c0ccd70b9c395a",
+      "identical": true
+    },
+    "VerifiedBootParams.textproto": {
+      "archive_member": "x86_64/VerifiedBootParams.textproto",
+      "bytes": 356,
+      "archive_sha256": "e27f775a82de29953271551f7f34d3b50250bbc1f07048f77966c4728fcc0601",
+      "installed_sha256": "e27f775a82de29953271551f7f34d3b50250bbc1f07048f77966c4728fcc0601",
+      "identical": true
+    },
+    "advancedFeatures.ini": {
+      "archive_member": "x86_64/advancedFeatures.ini",
+      "bytes": 688,
+      "archive_sha256": "bbb2c0d58cf9c8be269c1e6d132a07b42a71fba857ed7b1d966bbfdd336ce734",
+      "installed_sha256": "bbb2c0d58cf9c8be269c1e6d132a07b42a71fba857ed7b1d966bbfdd336ce734",
+      "identical": true
+    },
+    "build.prop": {
+      "archive_member": "x86_64/build.prop",
+      "bytes": 4815,
+      "archive_sha256": "883f6df91c9ff6ced7d67c9f8bf2c91737ef032e03a0b4e1c6e4c76eb492ad77",
+      "installed_sha256": "883f6df91c9ff6ced7d67c9f8bf2c91737ef032e03a0b4e1c6e4c76eb492ad77",
+      "identical": true
+    },
+    "data/misc/modem_simulator/iccprofile_for_carrierapitests.xml": {
+      "archive_member": "x86_64/data/misc/modem_simulator/iccprofile_for_carrierapitests.xml",
+      "bytes": 16537,
+      "archive_sha256": "dc4b5f5344f084fc44f89250bbcf2b12e452eb98c104e4ef3ec115366eb6ce32",
+      "installed_sha256": "dc4b5f5344f084fc44f89250bbcf2b12e452eb98c104e4ef3ec115366eb6ce32",
+      "identical": true
+    },
+    "data/misc/modem_simulator/iccprofile_for_sim0.xml": {
+      "archive_member": "x86_64/data/misc/modem_simulator/iccprofile_for_sim0.xml",
+      "bytes": 14647,
+      "archive_sha256": "a2744726a306b18d7547251026201aa5c6a9e120aa1555992eeb8b0a3b4aa6d9",
+      "installed_sha256": "a2744726a306b18d7547251026201aa5c6a9e120aa1555992eeb8b0a3b4aa6d9",
+      "identical": true
+    },
+    "data/misc/modem_simulator/etc/modem_simulator/files/numeric_operator.xml": {
+      "archive_member": "x86_64/data/misc/modem_simulator/etc/modem_simulator/files/numeric_operator.xml",
+      "bytes": 297,
+      "archive_sha256": "c2557e604beea20b67642cdbb14ae7b792f804e4476b3f6cf47035690234f436",
+      "installed_sha256": "c2557e604beea20b67642cdbb14ae7b792f804e4476b3f6cf47035690234f436",
+      "identical": true
+    },
+    "data/misc/apns/apns-conf.xml": {
+      "archive_member": "x86_64/data/misc/apns/apns-conf.xml",
+      "bytes": 6575,
+      "archive_sha256": "c35b899f2b6296aee4a9742302651cce9eb64622669d4d8fe8d276ca11060eb6",
+      "installed_sha256": "c35b899f2b6296aee4a9742302651cce9eb64622669d4d8fe8d276ca11060eb6",
+      "identical": true
+    },
+    "data/misc/emulator/config/radioconfig.xml": {
+      "archive_member": "x86_64/data/misc/emulator/config/radioconfig.xml",
+      "bytes": 1433,
+      "archive_sha256": "534a81b662ad62fc70ec0ea22715670524a05a066afc9fdac8e7c0f5a7789cd7",
+      "installed_sha256": "534a81b662ad62fc70ec0ea22715670524a05a066afc9fdac8e7c0f5a7789cd7",
+      "identical": true
+    },
+    "data/misc/emulator/version.txt": {
+      "archive_member": "x86_64/data/misc/emulator/version.txt",
+      "bytes": 61,
+      "archive_sha256": "a5ed9f83bcf53d75473ee57c82b658f4d59793e7a00c791132b7c62e4806219b",
+      "installed_sha256": "a5ed9f83bcf53d75473ee57c82b658f4d59793e7a00c791132b7c62e4806219b",
+      "identical": true
+    },
+    "data/misc/GoldfishSkinConfig": {
+      "archive_member": "x86_64/data/misc/GoldfishSkinConfig",
+      "bytes": 783,
+      "archive_sha256": "763b66cad27dc57354f456bb763e27acf8859059890e6515daba90e77c906b75",
+      "installed_sha256": "763b66cad27dc57354f456bb763e27acf8859059890e6515daba90e77c906b75",
+      "identical": true
+    },
+    "data/misc/gceconfigs/gpu.config": {
+      "archive_member": "x86_64/data/misc/gceconfigs/gpu.config",
+      "bytes": 94,
+      "archive_sha256": "9d658aeada68a4c7330868e9d44b76f8b8039452954fc4aea8174375adc520b4",
+      "installed_sha256": "9d658aeada68a4c7330868e9d44b76f8b8039452954fc4aea8174375adc520b4",
+      "identical": true
+    },
+    "data/misc/pixel_fold/devicestate/device_state_configuration.xml": {
+      "archive_member": "x86_64/data/misc/pixel_fold/devicestate/device_state_configuration.xml",
+      "bytes": 1644,
+      "archive_sha256": "8bebf4943ed3fc50973ac428ab8c8c0d71700af81419f44fc95a59f52f873838",
+      "installed_sha256": "8bebf4943ed3fc50973ac428ab8c8c0d71700af81419f44fc95a59f52f873838",
+      "identical": true
+    },
+    "data/misc/pixel_fold/displayconfig/display_layout_configuration.xml": {
+      "archive_member": "x86_64/data/misc/pixel_fold/displayconfig/display_layout_configuration.xml",
+      "bytes": 1311,
+      "archive_sha256": "a64e2eca65bc2f9196215fb72a88c9035a584319f8b3da3606fff161be642be8",
+      "installed_sha256": "a64e2eca65bc2f9196215fb72a88c9035a584319f8b3da3606fff161be642be8",
+      "identical": true
+    },
+    "data/misc/pixel_fold/display_settings.xml": {
+      "archive_member": "x86_64/data/misc/pixel_fold/display_settings.xml",
+      "bytes": 303,
+      "archive_sha256": "2adca8f98a2c8ee0f780e10ca16587ac92641df5e93ab4437c3c47ad41b0041d",
+      "installed_sha256": "2adca8f98a2c8ee0f780e10ca16587ac92641df5e93ab4437c3c47ad41b0041d",
+      "identical": true
+    },
+    "data/misc/pixel_fold/extra_feature.xml": {
+      "archive_member": "x86_64/data/misc/pixel_fold/extra_feature.xml",
+      "bytes": 829,
+      "archive_sha256": "ba27b7a61457027e2a77917f8b07d716d3e918097901a14833749252b15aa38f",
+      "installed_sha256": "ba27b7a61457027e2a77917f8b07d716d3e918097901a14833749252b15aa38f",
+      "identical": true
+    },
+    "data/local.prop": {
+      "archive_member": "x86_64/data/local.prop",
+      "bytes": 46,
+      "archive_sha256": "49b05d093a46d35d85df01fb99133f077fcc725cc49efe1a1bedae884d24e20b",
+      "installed_sha256": "49b05d093a46d35d85df01fb99133f077fcc725cc49efe1a1bedae884d24e20b",
+      "identical": true
+    },
+    "encryptionkey.img": {
+      "archive_member": "x86_64/encryptionkey.img",
+      "bytes": 18874368,
+      "archive_sha256": "522bd0b6a2c92e37de465059bb9487bb9597a9aae032b469a8ebe0b38146d8c3",
+      "installed_sha256": "522bd0b6a2c92e37de465059bb9487bb9597a9aae032b469a8ebe0b38146d8c3",
+      "identical": true
+    },
+    "source.properties": {
+      "archive_member": "x86_64/source.properties",
+      "bytes": 366,
+      "archive_sha256": "418ec522bea34753f832694eb0111fa86a4884322edd8d8f0c2199011c3e9744",
+      "installed_sha256": "418ec522bea34753f832694eb0111fa86a4884322edd8d8f0c2199011c3e9744",
+      "identical": true
+    },
+    "userdata.img": {
+      "archive_member": "x86_64/userdata.img",
+      "bytes": 1048576,
+      "archive_sha256": "30e14955ebf1352266dc2ff8067e68104607e750abb9d3b36582b8af909fcb58",
+      "installed_sha256": "30e14955ebf1352266dc2ff8067e68104607e750abb9d3b36582b8af909fcb58",
+      "identical": true
+    },
+    "vendor.img": {
+      "archive_member": "x86_64/vendor.img",
+      "bytes": 97517568,
+      "archive_sha256": "afeddb8cafeebce3f70d1d2567bec2e2e3a81884958be90cdbe055c610453edd",
+      "installed_sha256": "afeddb8cafeebce3f70d1d2567bec2e2e3a81884958be90cdbe055c610453edd",
+      "identical": true
+    }
+  },
+  "installed_images_match_factory_archive": true,
+  "all_archive_files_compared": true
+}

@@ -1,0 +1,53 @@
+{
+  "captured_at": "2026-10-26T00:55:28.4173981+00:00",
+  "avd": "device-lab-playstore-exec-probe-v30",
+  "selinux": "Enforcing",
+  "boot_completed": "1",
+  "service_state": "stopped",
+  "events": [
+    {
+      "stage": "wrapper",
+      "pid": 1331,
+      "uid": 0,
+      "euid": 0,
+      "context": "u:r:zygote:s0",
+      "at_secure": 1,
+      "no_new_privs": 0,
+      "capget_result": 0,
+      "effective_capabilities": "000001ffffffffff",
+      "preload_present": false
+    },
+    {
+      "stage": "constructor",
+      "pid": 1331,
+      "uid": 0,
+      "euid": 0,
+      "context": "u:r:zygote:s0",
+      "at_secure": 0,
+      "no_new_privs": 0,
+      "capget_result": 0,
+      "effective_capabilities": "000001ffffffffff",
+      "preload_present": true
+    },
+    {
+      "stage": "helper",
+      "pid": 1331,
+      "uid": 0,
+      "euid": 0,
+      "context": "u:r:zygote:s0",
+      "at_secure": 0,
+      "no_new_privs": 0,
+      "capget_result": 0,
+      "effective_capabilities": "000001ffffffffff",
+      "preload_present": false
+    },
+    {
+      "stage": "helper_result",
+      "pid": 1331,
+      "marker": 810568772,
+      "mapping_visible": true,
+      "preload_cleared": true,
+      "passed": true
+    }
+  ]
+}

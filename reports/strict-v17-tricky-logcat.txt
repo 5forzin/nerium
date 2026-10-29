@@ -1,0 +1,25 @@
+--------- beginning of main
+10-24 23:00:59.254  5819  5819 I TrickyStoreOSS: Welcome to TrickyStoreOSS!
+10-24 23:00:59.368  5819  5819 I TrickyStoreOSS: Attestation probe status=AVAILABLE category=none code=none
+10-24 23:00:59.368  5819  5819 I TrickyStoreOSS: Startup attestation probe: AVAILABLE (none)
+10-24 23:00:59.368  5819  5819 D TrickyStoreOSS: Read ro.boot.vbmeta.digest
+10-24 23:00:59.369  5819  5819 D TrickyStoreOSS: Using boot hash from system property
+10-24 23:00:59.369  5819  5819 I TrickyStoreOSS: Using Keystore2Interceptor for Android S+ (SDK 34)
+10-24 23:00:59.370  5819  5819 I TrickyStoreOSS: Trying to register Keystore2Interceptor (attempt 0)...
+10-24 23:00:59.371  5819  5819 D TrickyStoreOSS: Backdoor access denied for binder: android.os.BinderProxy@e3fd45e
+10-24 23:00:59.371  5819  5819 I TrickyStoreOSS: Attempting to inject into keystore2...
+10-24 23:00:59.371  5819  5819 D TrickyStoreOSS: Injection command: /system/bin/sh -c exec ./inject `pidof keystore2` libTrickyStoreOSS.so entry
+10-24 23:00:59.387  5841  5841 I TrickyStoreOSS: TrickyStore injector starting...
+10-24 23:00:59.387  5841  5841 I TrickyStoreOSS: Starting injection of /data/misc/device-lab/bootstrap/tricky-candidate/libTrickyStoreOSS.so (entry: entry) into process 194
+10-24 23:00:59.392  5841  5841 E TrickyStoreOSS: Failed to send fd to remote process failed with 13: Permission denied
+10-24 23:00:59.392  5841  5841 E TrickyStoreOSS: Failed to set registers for PID 194 failed with 3: No such process
+10-24 23:00:59.393  5841  5841 E TrickyStoreOSS: Failed to set registers for remote function call
+10-24 23:00:59.393  5841  5841 E TrickyStoreOSS: Failed to prepare remote function call
+10-24 23:00:59.393  5841  5841 E TrickyStoreOSS: Failed to close remote fd 11
+10-24 23:00:59.393  5841  5841 E TrickyStoreOSS: Failed to transfer library fd to remote process
+10-24 23:00:59.393  5841  5841 E TrickyStoreOSS: Failed to set registers for PID 194 failed with 3: No such process
+10-24 23:00:59.393  5841  5841 E TrickyStoreOSS: Failed to restore original registers; leaving target stopped
+10-24 23:00:59.393  5841  5841 E TrickyStoreOSS: Cannot detach process 194 because register restoration failed
+10-24 23:00:59.393  5841  5841 E TrickyStoreOSS: Leaving process 194 stopped because automatic detach failed
+10-24 23:00:59.393  5841  5841 E TrickyStoreOSS: Injection failed
+10-24 23:00:59.394  5819  5819 E TrickyStoreOSS: Injection failed! Daemon will exit

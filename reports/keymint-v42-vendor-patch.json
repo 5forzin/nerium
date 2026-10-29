@@ -1,0 +1,2429 @@
+{
+  "schema_version": 1,
+  "status": "passed",
+  "phase": "complete",
+  "tools": [
+    {
+      "arguments": [
+        "C:\\Users\\antho\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\powershell\\pwsh.EXE",
+        "-NoProfile",
+        "-NonInteractive",
+        "-Command",
+        "\n$ErrorActionPreference='Stop'\n$p=@(Get-CimInstance Win32_Process -Filter \"Name='qemu-system-x86_64.exe' OR Name='qemu-system-x86_64-headless.exe'\")\nif (@($p | Where-Object { -not $_.CommandLine }).Count) { throw 'Cannot inspect all QEMU command lines' }\n$owned=@($p | Where-Object { $_.CommandLine -match 'keymint-v42' } | Select-Object ProcessId,CommandLine)\nConvertTo-Json -InputObject $owned -Compress\n"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "output_bytes": {
+        "stdout": 4,
+        "stderr": 0
+      },
+      "stdout": "[]\r\n",
+      "stderr": ""
+    },
+    {
+      "arguments": [
+        "C:\\Users\\antho\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\powershell\\pwsh.EXE",
+        "-NoProfile",
+        "-NonInteractive",
+        "-Command",
+        "\n$ErrorActionPreference='Stop'\n$p=@(Get-CimInstance Win32_Process -Filter \"Name='qemu-system-x86_64.exe' OR Name='qemu-system-x86_64-headless.exe'\")\nif (@($p | Where-Object { -not $_.CommandLine }).Count) { throw 'Cannot inspect all QEMU command lines' }\n$owned=@($p | Where-Object { $_.CommandLine -match 'keymint-v42' } | Select-Object ProcessId,CommandLine)\nConvertTo-Json -InputObject $owned -Compress\n"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "output_bytes": {
+        "stdout": 4,
+        "stderr": 0
+      },
+      "stdout": "[]\r\n",
+      "stderr": ""
+    },
+    {
+      "arguments": [
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\portable-e2fs\\root\\usr\\sbin\\debugfs.exe",
+        "-R",
+        "rdump /etc/selinux \"C:/Users/antho/AppData/Local/android-device-lab/research-v42/vendor-patch/20261026-193807-a8b5f265/policy-before\"",
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\vendor-patch\\20261026-193807-a8b5f265\\candidate-vendor.img"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "output_bytes": {
+        "stdout": 0,
+        "stderr": 29
+      },
+      "stdout": "",
+      "stderr": "debugfs 1.44.5 (15-Dec-2018)\n"
+    },
+    {
+      "arguments": [
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\portable-e2fs\\root\\usr\\sbin\\debugfs.exe",
+        "-R",
+        "stat \"/etc/selinux\"",
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\vendor-patch\\20261026-193807-a8b5f265\\candidate-vendor.img"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "output_bytes": {
+        "stdout": 607,
+        "stderr": 29
+      },
+      "stdout": "Inode: 352   Type: directory    Mode:  0755   Flags: 0x80000\nGeneration: 0    Version: 0x00000000:00000000\nUser:     0   Group:  2000   Project:     0   Size: 4096\nFile ACL: 0\nLinks: 2   Blockcount: 8\nFragment:  Address: 0    Number: 0    Size: 0\n ctime: 0x66902590:00000000 -- Thu Jul 11 15:33:52 2024\n atime: 0x66902590:00000000 -- Thu Jul 11 15:33:52 2024\n mtime: 0x66902590:00000000 -- Thu Jul 11 15:33:52 2024\ncrtime: 0x66902593:00000000 -- Thu Jul 11 15:33:55 2024\nSize of extra inode fields: 32\nExtended attributes:\n  security.selinux (34) = \"u:object_r:vendor_configs_file:s0\\000\"\nEXTENTS:\n(0):5417\n",
+      "stderr": "debugfs 1.44.5 (15-Dec-2018)\n"
+    },
+    {
+      "arguments": [
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\portable-e2fs\\root\\usr\\sbin\\debugfs.exe",
+        "-R",
+        "ea_list \"/etc/selinux\"",
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\vendor-patch\\20261026-193807-a8b5f265\\candidate-vendor.img"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "output_bytes": {
+        "stdout": 87,
+        "stderr": 29
+      },
+      "stdout": "Extended attributes:\n  security.selinux (34) = \"u:object_r:vendor_configs_file:s0\\000\"\n",
+      "stderr": "debugfs 1.44.5 (15-Dec-2018)\n"
+    },
+    {
+      "arguments": [
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\portable-e2fs\\root\\usr\\sbin\\debugfs.exe",
+        "-R",
+        "ea_get -f \"C:/Users/antho/AppData/Local/android-device-lab/research-v42/vendor-patch/20261026-193807-a8b5f265/ea-00001.bin\" \"/etc/selinux\" \"security.selinux\"",
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\vendor-patch\\20261026-193807-a8b5f265\\candidate-vendor.img"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "output_bytes": {
+        "stdout": 0,
+        "stderr": 29
+      },
+      "stdout": "",
+      "stderr": "debugfs 1.44.5 (15-Dec-2018)\n"
+    },
+    {
+      "arguments": [
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\portable-e2fs\\root\\usr\\sbin\\debugfs.exe",
+        "-R",
+        "ls -p \"/etc/selinux\"",
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\vendor-patch\\20261026-193807-a8b5f265\\candidate-vendor.img"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "output_bytes": {
+        "stdout": 737,
+        "stderr": 29
+      },
+      "stdout": "/352/040755/0/2000/.//\n/253/040755/0/2000/..//\n/353/100644/0/0/plat_pub_versioned.cil/1011757/\n/354/100644/0/0/plat_sepolicy_vers.txt/5/\n/355/100644/0/0/precompiled_sepolicy/679993/\n/356/100644/0/0/precompiled_sepolicy.plat_sepolicy_and_mapping.sha256/65/\n/357/100644/0/0/precompiled_sepolicy.system_ext_sepolicy_and_mapping.sha256/65/\n/358/100644/0/0/selinux_denial_metadata/42/\n/359/100644/0/0/vendor_file_contexts/22745/\n/360/100644/0/0/vendor_hwservice_contexts/0/\n/361/100644/0/0/vendor_mac_permissions.xml/2549/\n/362/100644/0/0/vendor_property_contexts/3055/\n/363/100644/0/0/vendor_seapp_contexts/0/\n/364/100644/0/0/vendor_sepolicy.cil/172600/\n/365/100644/0/0/vendor_service_contexts/472/\n/366/100644/0/0/vndservice_contexts/291/\n\n",
+      "stderr": "debugfs 1.44.5 (15-Dec-2018)\n"
+    },
+    {
+      "arguments": [
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\portable-e2fs\\root\\usr\\sbin\\debugfs.exe",
+        "-R",
+        "stat \"/etc/selinux/plat_pub_versioned.cil\"",
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\vendor-patch\\20261026-193807-a8b5f265\\candidate-vendor.img"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "output_bytes": {
+        "stdout": 620,
+        "stderr": 29
+      },
+      "stdout": "Inode: 353   Type: regular    Mode:  0644   Flags: 0x80000\nGeneration: 0    Version: 0x00000000:00000000\nUser:     0   Group:     0   Project:     0   Size: 1011757\nFile ACL: 0\nLinks: 1   Blockcount: 1984\nFragment:  Address: 0    Number: 0    Size: 0\n ctime: 0x669024f4:00000000 -- Thu Jul 11 15:31:16 2024\n atime: 0x669024f4:00000000 -- Thu Jul 11 15:31:16 2024\n mtime: 0x669024f4:00000000 -- Thu Jul 11 15:31:16 2024\ncrtime: 0x66902593:00000000 -- Thu Jul 11 15:33:55 2024\nSize of extra inode fields: 32\nExtended attributes:\n  security.selinux (34) = \"u:object_r:vendor_configs_file:s0\\000\"\nEXTENTS:\n(0-247):5418-5665\n",
+      "stderr": "debugfs 1.44.5 (15-Dec-2018)\n"
+    },
+    {
+      "arguments": [
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\portable-e2fs\\root\\usr\\sbin\\debugfs.exe",
+        "-R",
+        "ea_list \"/etc/selinux/plat_pub_versioned.cil\"",
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\vendor-patch\\20261026-193807-a8b5f265\\candidate-vendor.img"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "output_bytes": {
+        "stdout": 87,
+        "stderr": 29
+      },
+      "stdout": "Extended attributes:\n  security.selinux (34) = \"u:object_r:vendor_configs_file:s0\\000\"\n",
+      "stderr": "debugfs 1.44.5 (15-Dec-2018)\n"
+    },
+    {
+      "arguments": [
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\portable-e2fs\\root\\usr\\sbin\\debugfs.exe",
+        "-R",
+        "ea_get -f \"C:/Users/antho/AppData/Local/android-device-lab/research-v42/vendor-patch/20261026-193807-a8b5f265/ea-00002.bin\" \"/etc/selinux/plat_pub_versioned.cil\" \"security.selinux\"",
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\vendor-patch\\20261026-193807-a8b5f265\\candidate-vendor.img"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "output_bytes": {
+        "stdout": 0,
+        "stderr": 29
+      },
+      "stdout": "",
+      "stderr": "debugfs 1.44.5 (15-Dec-2018)\n"
+    },
+    {
+      "arguments": [
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\portable-e2fs\\root\\usr\\sbin\\debugfs.exe",
+        "-R",
+        "stat \"/etc/selinux/plat_sepolicy_vers.txt\"",
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\vendor-patch\\20261026-193807-a8b5f265\\candidate-vendor.img"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "output_bytes": {
+        "stdout": 602,
+        "stderr": 29
+      },
+      "stdout": "Inode: 354   Type: regular    Mode:  0644   Flags: 0x80000\nGeneration: 0    Version: 0x00000000:00000000\nUser:     0   Group:     0   Project:     0   Size: 5\nFile ACL: 0\nLinks: 1   Blockcount: 8\nFragment:  Address: 0    Number: 0    Size: 0\n ctime: 0x66902498:00000000 -- Thu Jul 11 15:29:44 2024\n atime: 0x66902498:00000000 -- Thu Jul 11 15:29:44 2024\n mtime: 0x66902498:00000000 -- Thu Jul 11 15:29:44 2024\ncrtime: 0x66902593:00000000 -- Thu Jul 11 15:33:55 2024\nSize of extra inode fields: 32\nExtended attributes:\n  security.selinux (34) = \"u:object_r:vendor_configs_file:s0\\000\"\nEXTENTS:\n(0):5666\n",
+      "stderr": "debugfs 1.44.5 (15-Dec-2018)\n"
+    },
+    {
+      "arguments": [
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\portable-e2fs\\root\\usr\\sbin\\debugfs.exe",
+        "-R",
+        "ea_list \"/etc/selinux/plat_sepolicy_vers.txt\"",
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\vendor-patch\\20261026-193807-a8b5f265\\candidate-vendor.img"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "output_bytes": {
+        "stdout": 87,
+        "stderr": 29
+      },
+      "stdout": "Extended attributes:\n  security.selinux (34) = \"u:object_r:vendor_configs_file:s0\\000\"\n",
+      "stderr": "debugfs 1.44.5 (15-Dec-2018)\n"
+    },
+    {
+      "arguments": [
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\portable-e2fs\\root\\usr\\sbin\\debugfs.exe",
+        "-R",
+        "ea_get -f \"C:/Users/antho/AppData/Local/android-device-lab/research-v42/vendor-patch/20261026-193807-a8b5f265/ea-00003.bin\" \"/etc/selinux/plat_sepolicy_vers.txt\" \"security.selinux\"",
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\vendor-patch\\20261026-193807-a8b5f265\\candidate-vendor.img"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "output_bytes": {
+        "stdout": 0,
+        "stderr": 29
+      },
+      "stdout": "",
+      "stderr": "debugfs 1.44.5 (15-Dec-2018)\n"
+    },
+    {
+      "arguments": [
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\portable-e2fs\\root\\usr\\sbin\\debugfs.exe",
+        "-R",
+        "stat \"/etc/selinux/precompiled_sepolicy\"",
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\vendor-patch\\20261026-193807-a8b5f265\\candidate-vendor.img"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "output_bytes": {
+        "stdout": 619,
+        "stderr": 29
+      },
+      "stdout": "Inode: 355   Type: regular    Mode:  0644   Flags: 0x80000\nGeneration: 0    Version: 0x00000000:00000000\nUser:     0   Group:     0   Project:     0   Size: 679993\nFile ACL: 0\nLinks: 1   Blockcount: 1336\nFragment:  Address: 0    Number: 0    Size: 0\n ctime: 0x66902590:00000000 -- Thu Jul 11 15:33:52 2024\n atime: 0x66902590:00000000 -- Thu Jul 11 15:33:52 2024\n mtime: 0x66902590:00000000 -- Thu Jul 11 15:33:52 2024\ncrtime: 0x66902593:00000000 -- Thu Jul 11 15:33:55 2024\nSize of extra inode fields: 32\nExtended attributes:\n  security.selinux (34) = \"u:object_r:vendor_configs_file:s0\\000\"\nEXTENTS:\n(0-166):5667-5833\n",
+      "stderr": "debugfs 1.44.5 (15-Dec-2018)\n"
+    },
+    {
+      "arguments": [
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\portable-e2fs\\root\\usr\\sbin\\debugfs.exe",
+        "-R",
+        "ea_list \"/etc/selinux/precompiled_sepolicy\"",
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\vendor-patch\\20261026-193807-a8b5f265\\candidate-vendor.img"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "output_bytes": {
+        "stdout": 87,
+        "stderr": 29
+      },
+      "stdout": "Extended attributes:\n  security.selinux (34) = \"u:object_r:vendor_configs_file:s0\\000\"\n",
+      "stderr": "debugfs 1.44.5 (15-Dec-2018)\n"
+    },
+    {
+      "arguments": [
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\portable-e2fs\\root\\usr\\sbin\\debugfs.exe",
+        "-R",
+        "ea_get -f \"C:/Users/antho/AppData/Local/android-device-lab/research-v42/vendor-patch/20261026-193807-a8b5f265/ea-00004.bin\" \"/etc/selinux/precompiled_sepolicy\" \"security.selinux\"",
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\vendor-patch\\20261026-193807-a8b5f265\\candidate-vendor.img"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "output_bytes": {
+        "stdout": 0,
+        "stderr": 29
+      },
+      "stdout": "",
+      "stderr": "debugfs 1.44.5 (15-Dec-2018)\n"
+    },
+    {
+      "arguments": [
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\portable-e2fs\\root\\usr\\sbin\\debugfs.exe",
+        "-R",
+        "stat \"/etc/selinux/precompiled_sepolicy.plat_sepolicy_and_mapping.sha256\"",
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\vendor-patch\\20261026-193807-a8b5f265\\candidate-vendor.img"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "output_bytes": {
+        "stdout": 603,
+        "stderr": 29
+      },
+      "stdout": "Inode: 356   Type: regular    Mode:  0644   Flags: 0x80000\nGeneration: 0    Version: 0x00000000:00000000\nUser:     0   Group:     0   Project:     0   Size: 65\nFile ACL: 0\nLinks: 1   Blockcount: 8\nFragment:  Address: 0    Number: 0    Size: 0\n ctime: 0x669024f4:00000000 -- Thu Jul 11 15:31:16 2024\n atime: 0x669024f4:00000000 -- Thu Jul 11 15:31:16 2024\n mtime: 0x669024f4:00000000 -- Thu Jul 11 15:31:16 2024\ncrtime: 0x66902593:00000000 -- Thu Jul 11 15:33:55 2024\nSize of extra inode fields: 32\nExtended attributes:\n  security.selinux (34) = \"u:object_r:vendor_configs_file:s0\\000\"\nEXTENTS:\n(0):5834\n",
+      "stderr": "debugfs 1.44.5 (15-Dec-2018)\n"
+    },
+    {
+      "arguments": [
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\portable-e2fs\\root\\usr\\sbin\\debugfs.exe",
+        "-R",
+        "ea_list \"/etc/selinux/precompiled_sepolicy.plat_sepolicy_and_mapping.sha256\"",
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\vendor-patch\\20261026-193807-a8b5f265\\candidate-vendor.img"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "output_bytes": {
+        "stdout": 87,
+        "stderr": 29
+      },
+      "stdout": "Extended attributes:\n  security.selinux (34) = \"u:object_r:vendor_configs_file:s0\\000\"\n",
+      "stderr": "debugfs 1.44.5 (15-Dec-2018)\n"
+    },
+    {
+      "arguments": [
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\portable-e2fs\\root\\usr\\sbin\\debugfs.exe",
+        "-R",
+        "ea_get -f \"C:/Users/antho/AppData/Local/android-device-lab/research-v42/vendor-patch/20261026-193807-a8b5f265/ea-00005.bin\" \"/etc/selinux/precompiled_sepolicy.plat_sepolicy_and_mapping.sha256\" \"security.selinux\"",
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\vendor-patch\\20261026-193807-a8b5f265\\candidate-vendor.img"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "output_bytes": {
+        "stdout": 0,
+        "stderr": 29
+      },
+      "stdout": "",
+      "stderr": "debugfs 1.44.5 (15-Dec-2018)\n"
+    },
+    {
+      "arguments": [
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\portable-e2fs\\root\\usr\\sbin\\debugfs.exe",
+        "-R",
+        "stat \"/etc/selinux/precompiled_sepolicy.system_ext_sepolicy_and_mapping.sha256\"",
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\vendor-patch\\20261026-193807-a8b5f265\\candidate-vendor.img"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "output_bytes": {
+        "stdout": 603,
+        "stderr": 29
+      },
+      "stdout": "Inode: 357   Type: regular    Mode:  0644   Flags: 0x80000\nGeneration: 0    Version: 0x00000000:00000000\nUser:     0   Group:     0   Project:     0   Size: 65\nFile ACL: 0\nLinks: 1   Blockcount: 8\nFragment:  Address: 0    Number: 0    Size: 0\n ctime: 0x6690252c:00000000 -- Thu Jul 11 15:32:12 2024\n atime: 0x6690252c:00000000 -- Thu Jul 11 15:32:12 2024\n mtime: 0x6690252c:00000000 -- Thu Jul 11 15:32:12 2024\ncrtime: 0x66902593:00000000 -- Thu Jul 11 15:33:55 2024\nSize of extra inode fields: 32\nExtended attributes:\n  security.selinux (34) = \"u:object_r:vendor_configs_file:s0\\000\"\nEXTENTS:\n(0):5835\n",
+      "stderr": "debugfs 1.44.5 (15-Dec-2018)\n"
+    },
+    {
+      "arguments": [
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\portable-e2fs\\root\\usr\\sbin\\debugfs.exe",
+        "-R",
+        "ea_list \"/etc/selinux/precompiled_sepolicy.system_ext_sepolicy_and_mapping.sha256\"",
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\vendor-patch\\20261026-193807-a8b5f265\\candidate-vendor.img"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "output_bytes": {
+        "stdout": 87,
+        "stderr": 29
+      },
+      "stdout": "Extended attributes:\n  security.selinux (34) = \"u:object_r:vendor_configs_file:s0\\000\"\n",
+      "stderr": "debugfs 1.44.5 (15-Dec-2018)\n"
+    },
+    {
+      "arguments": [
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\portable-e2fs\\root\\usr\\sbin\\debugfs.exe",
+        "-R",
+        "ea_get -f \"C:/Users/antho/AppData/Local/android-device-lab/research-v42/vendor-patch/20261026-193807-a8b5f265/ea-00006.bin\" \"/etc/selinux/precompiled_sepolicy.system_ext_sepolicy_and_mapping.sha256\" \"security.selinux\"",
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\vendor-patch\\20261026-193807-a8b5f265\\candidate-vendor.img"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "output_bytes": {
+        "stdout": 0,
+        "stderr": 29
+      },
+      "stdout": "",
+      "stderr": "debugfs 1.44.5 (15-Dec-2018)\n"
+    },
+    {
+      "arguments": [
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\portable-e2fs\\root\\usr\\sbin\\debugfs.exe",
+        "-R",
+        "stat \"/etc/selinux/selinux_denial_metadata\"",
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\vendor-patch\\20261026-193807-a8b5f265\\candidate-vendor.img"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "output_bytes": {
+        "stdout": 603,
+        "stderr": 29
+      },
+      "stdout": "Inode: 358   Type: regular    Mode:  0644   Flags: 0x80000\nGeneration: 0    Version: 0x00000000:00000000\nUser:     0   Group:     0   Project:     0   Size: 42\nFile ACL: 0\nLinks: 1   Blockcount: 8\nFragment:  Address: 0    Number: 0    Size: 0\n ctime: 0x669024f2:00000000 -- Thu Jul 11 15:31:14 2024\n atime: 0x669024f2:00000000 -- Thu Jul 11 15:31:14 2024\n mtime: 0x669024f2:00000000 -- Thu Jul 11 15:31:14 2024\ncrtime: 0x66902593:00000000 -- Thu Jul 11 15:33:55 2024\nSize of extra inode fields: 32\nExtended attributes:\n  security.selinux (34) = \"u:object_r:vendor_configs_file:s0\\000\"\nEXTENTS:\n(0):5836\n",
+      "stderr": "debugfs 1.44.5 (15-Dec-2018)\n"
+    },
+    {
+      "arguments": [
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\portable-e2fs\\root\\usr\\sbin\\debugfs.exe",
+        "-R",
+        "ea_list \"/etc/selinux/selinux_denial_metadata\"",
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\vendor-patch\\20261026-193807-a8b5f265\\candidate-vendor.img"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "output_bytes": {
+        "stdout": 87,
+        "stderr": 29
+      },
+      "stdout": "Extended attributes:\n  security.selinux (34) = \"u:object_r:vendor_configs_file:s0\\000\"\n",
+      "stderr": "debugfs 1.44.5 (15-Dec-2018)\n"
+    },
+    {
+      "arguments": [
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\portable-e2fs\\root\\usr\\sbin\\debugfs.exe",
+        "-R",
+        "ea_get -f \"C:/Users/antho/AppData/Local/android-device-lab/research-v42/vendor-patch/20261026-193807-a8b5f265/ea-00007.bin\" \"/etc/selinux/selinux_denial_metadata\" \"security.selinux\"",
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\vendor-patch\\20261026-193807-a8b5f265\\candidate-vendor.img"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "output_bytes": {
+        "stdout": 0,
+        "stderr": 29
+      },
+      "stdout": "",
+      "stderr": "debugfs 1.44.5 (15-Dec-2018)\n"
+    },
+    {
+      "arguments": [
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\portable-e2fs\\root\\usr\\sbin\\debugfs.exe",
+        "-R",
+        "stat \"/etc/selinux/vendor_file_contexts\"",
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\vendor-patch\\20261026-193807-a8b5f265\\candidate-vendor.img"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "output_bytes": {
+        "stdout": 614,
+        "stderr": 29
+      },
+      "stdout": "Inode: 359   Type: regular    Mode:  0644   Flags: 0x80000\nGeneration: 0    Version: 0x00000000:00000000\nUser:     0   Group:     0   Project:     0   Size: 22745\nFile ACL: 0\nLinks: 1   Blockcount: 48\nFragment:  Address: 0    Number: 0    Size: 0\n ctime: 0x669024f2:00000000 -- Thu Jul 11 15:31:14 2024\n atime: 0x669024f2:00000000 -- Thu Jul 11 15:31:14 2024\n mtime: 0x669024f2:00000000 -- Thu Jul 11 15:31:14 2024\ncrtime: 0x66902593:00000000 -- Thu Jul 11 15:33:55 2024\nSize of extra inode fields: 32\nExtended attributes:\n  security.selinux (34) = \"u:object_r:vendor_configs_file:s0\\000\"\nEXTENTS:\n(0-5):5837-5842\n",
+      "stderr": "debugfs 1.44.5 (15-Dec-2018)\n"
+    },
+    {
+      "arguments": [
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\portable-e2fs\\root\\usr\\sbin\\debugfs.exe",
+        "-R",
+        "ea_list \"/etc/selinux/vendor_file_contexts\"",
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\vendor-patch\\20261026-193807-a8b5f265\\candidate-vendor.img"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "output_bytes": {
+        "stdout": 87,
+        "stderr": 29
+      },
+      "stdout": "Extended attributes:\n  security.selinux (34) = \"u:object_r:vendor_configs_file:s0\\000\"\n",
+      "stderr": "debugfs 1.44.5 (15-Dec-2018)\n"
+    },
+    {
+      "arguments": [
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\portable-e2fs\\root\\usr\\sbin\\debugfs.exe",
+        "-R",
+        "ea_get -f \"C:/Users/antho/AppData/Local/android-device-lab/research-v42/vendor-patch/20261026-193807-a8b5f265/ea-00008.bin\" \"/etc/selinux/vendor_file_contexts\" \"security.selinux\"",
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\vendor-patch\\20261026-193807-a8b5f265\\candidate-vendor.img"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "output_bytes": {
+        "stdout": 0,
+        "stderr": 29
+      },
+      "stdout": "",
+      "stderr": "debugfs 1.44.5 (15-Dec-2018)\n"
+    },
+    {
+      "arguments": [
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\portable-e2fs\\root\\usr\\sbin\\debugfs.exe",
+        "-R",
+        "stat \"/etc/selinux/vendor_hwservice_contexts\"",
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\vendor-patch\\20261026-193807-a8b5f265\\candidate-vendor.img"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "output_bytes": {
+        "stdout": 593,
+        "stderr": 29
+      },
+      "stdout": "Inode: 360   Type: regular    Mode:  0644   Flags: 0x80000\nGeneration: 0    Version: 0x00000000:00000000\nUser:     0   Group:     0   Project:     0   Size: 0\nFile ACL: 0\nLinks: 1   Blockcount: 0\nFragment:  Address: 0    Number: 0    Size: 0\n ctime: 0x669024f2:00000000 -- Thu Jul 11 15:31:14 2024\n atime: 0x669024f2:00000000 -- Thu Jul 11 15:31:14 2024\n mtime: 0x669024f2:00000000 -- Thu Jul 11 15:31:14 2024\ncrtime: 0x66902593:00000000 -- Thu Jul 11 15:33:55 2024\nSize of extra inode fields: 32\nExtended attributes:\n  security.selinux (34) = \"u:object_r:vendor_configs_file:s0\\000\"\nEXTENTS:\n",
+      "stderr": "debugfs 1.44.5 (15-Dec-2018)\n"
+    },
+    {
+      "arguments": [
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\portable-e2fs\\root\\usr\\sbin\\debugfs.exe",
+        "-R",
+        "ea_list \"/etc/selinux/vendor_hwservice_contexts\"",
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\vendor-patch\\20261026-193807-a8b5f265\\candidate-vendor.img"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "output_bytes": {
+        "stdout": 87,
+        "stderr": 29
+      },
+      "stdout": "Extended attributes:\n  security.selinux (34) = \"u:object_r:vendor_configs_file:s0\\000\"\n",
+      "stderr": "debugfs 1.44.5 (15-Dec-2018)\n"
+    },
+    {
+      "arguments": [
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\portable-e2fs\\root\\usr\\sbin\\debugfs.exe",
+        "-R",
+        "ea_get -f \"C:/Users/antho/AppData/Local/android-device-lab/research-v42/vendor-patch/20261026-193807-a8b5f265/ea-00009.bin\" \"/etc/selinux/vendor_hwservice_contexts\" \"security.selinux\"",
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\vendor-patch\\20261026-193807-a8b5f265\\candidate-vendor.img"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "output_bytes": {
+        "stdout": 0,
+        "stderr": 29
+      },
+      "stdout": "",
+      "stderr": "debugfs 1.44.5 (15-Dec-2018)\n"
+    },
+    {
+      "arguments": [
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\portable-e2fs\\root\\usr\\sbin\\debugfs.exe",
+        "-R",
+        "stat \"/etc/selinux/vendor_mac_permissions.xml\"",
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\vendor-patch\\20261026-193807-a8b5f265\\candidate-vendor.img"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "output_bytes": {
+        "stdout": 605,
+        "stderr": 29
+      },
+      "stdout": "Inode: 361   Type: regular    Mode:  0644   Flags: 0x80000\nGeneration: 0    Version: 0x00000000:00000000\nUser:     0   Group:     0   Project:     0   Size: 2549\nFile ACL: 0\nLinks: 1   Blockcount: 8\nFragment:  Address: 0    Number: 0    Size: 0\n ctime: 0x669024f3:00000000 -- Thu Jul 11 15:31:15 2024\n atime: 0x669024f3:00000000 -- Thu Jul 11 15:31:15 2024\n mtime: 0x669024f3:00000000 -- Thu Jul 11 15:31:15 2024\ncrtime: 0x66902593:00000000 -- Thu Jul 11 15:33:55 2024\nSize of extra inode fields: 32\nExtended attributes:\n  security.selinux (34) = \"u:object_r:vendor_configs_file:s0\\000\"\nEXTENTS:\n(0):5843\n",
+      "stderr": "debugfs 1.44.5 (15-Dec-2018)\n"
+    },
+    {
+      "arguments": [
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\portable-e2fs\\root\\usr\\sbin\\debugfs.exe",
+        "-R",
+        "ea_list \"/etc/selinux/vendor_mac_permissions.xml\"",
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\vendor-patch\\20261026-193807-a8b5f265\\candidate-vendor.img"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "output_bytes": {
+        "stdout": 87,
+        "stderr": 29
+      },
+      "stdout": "Extended attributes:\n  security.selinux (34) = \"u:object_r:vendor_configs_file:s0\\000\"\n",
+      "stderr": "debugfs 1.44.5 (15-Dec-2018)\n"
+    },
+    {
+      "arguments": [
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\portable-e2fs\\root\\usr\\sbin\\debugfs.exe",
+        "-R",
+        "ea_get -f \"C:/Users/antho/AppData/Local/android-device-lab/research-v42/vendor-patch/20261026-193807-a8b5f265/ea-00010.bin\" \"/etc/selinux/vendor_mac_permissions.xml\" \"security.selinux\"",
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\vendor-patch\\20261026-193807-a8b5f265\\candidate-vendor.img"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "output_bytes": {
+        "stdout": 0,
+        "stderr": 29
+      },
+      "stdout": "",
+      "stderr": "debugfs 1.44.5 (15-Dec-2018)\n"
+    },
+    {
+      "arguments": [
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\portable-e2fs\\root\\usr\\sbin\\debugfs.exe",
+        "-R",
+        "stat \"/etc/selinux/vendor_property_contexts\"",
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\vendor-patch\\20261026-193807-a8b5f265\\candidate-vendor.img"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "output_bytes": {
+        "stdout": 605,
+        "stderr": 29
+      },
+      "stdout": "Inode: 362   Type: regular    Mode:  0644   Flags: 0x80000\nGeneration: 0    Version: 0x00000000:00000000\nUser:     0   Group:     0   Project:     0   Size: 3055\nFile ACL: 0\nLinks: 1   Blockcount: 8\nFragment:  Address: 0    Number: 0    Size: 0\n ctime: 0x669024f3:00000000 -- Thu Jul 11 15:31:15 2024\n atime: 0x669024f3:00000000 -- Thu Jul 11 15:31:15 2024\n mtime: 0x669024f3:00000000 -- Thu Jul 11 15:31:15 2024\ncrtime: 0x66902593:00000000 -- Thu Jul 11 15:33:55 2024\nSize of extra inode fields: 32\nExtended attributes:\n  security.selinux (34) = \"u:object_r:vendor_configs_file:s0\\000\"\nEXTENTS:\n(0):5844\n",
+      "stderr": "debugfs 1.44.5 (15-Dec-2018)\n"
+    },
+    {
+      "arguments": [
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\portable-e2fs\\root\\usr\\sbin\\debugfs.exe",
+        "-R",
+        "ea_list \"/etc/selinux/vendor_property_contexts\"",
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\vendor-patch\\20261026-193807-a8b5f265\\candidate-vendor.img"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "output_bytes": {
+        "stdout": 87,
+        "stderr": 29
+      },
+      "stdout": "Extended attributes:\n  security.selinux (34) = \"u:object_r:vendor_configs_file:s0\\000\"\n",
+      "stderr": "debugfs 1.44.5 (15-Dec-2018)\n"
+    },
+    {
+      "arguments": [
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\portable-e2fs\\root\\usr\\sbin\\debugfs.exe",
+        "-R",
+        "ea_get -f \"C:/Users/antho/AppData/Local/android-device-lab/research-v42/vendor-patch/20261026-193807-a8b5f265/ea-00011.bin\" \"/etc/selinux/vendor_property_contexts\" \"security.selinux\"",
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\vendor-patch\\20261026-193807-a8b5f265\\candidate-vendor.img"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "output_bytes": {
+        "stdout": 0,
+        "stderr": 29
+      },
+      "stdout": "",
+      "stderr": "debugfs 1.44.5 (15-Dec-2018)\n"
+    },
+    {
+      "arguments": [
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\portable-e2fs\\root\\usr\\sbin\\debugfs.exe",
+        "-R",
+        "stat \"/etc/selinux/vendor_seapp_contexts\"",
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\vendor-patch\\20261026-193807-a8b5f265\\candidate-vendor.img"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "output_bytes": {
+        "stdout": 593,
+        "stderr": 29
+      },
+      "stdout": "Inode: 363   Type: regular    Mode:  0644   Flags: 0x80000\nGeneration: 0    Version: 0x00000000:00000000\nUser:     0   Group:     0   Project:     0   Size: 0\nFile ACL: 0\nLinks: 1   Blockcount: 0\nFragment:  Address: 0    Number: 0    Size: 0\n ctime: 0x66902590:00000000 -- Thu Jul 11 15:33:52 2024\n atime: 0x66902590:00000000 -- Thu Jul 11 15:33:52 2024\n mtime: 0x66902590:00000000 -- Thu Jul 11 15:33:52 2024\ncrtime: 0x66902593:00000000 -- Thu Jul 11 15:33:55 2024\nSize of extra inode fields: 32\nExtended attributes:\n  security.selinux (34) = \"u:object_r:vendor_configs_file:s0\\000\"\nEXTENTS:\n",
+      "stderr": "debugfs 1.44.5 (15-Dec-2018)\n"
+    },
+    {
+      "arguments": [
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\portable-e2fs\\root\\usr\\sbin\\debugfs.exe",
+        "-R",
+        "ea_list \"/etc/selinux/vendor_seapp_contexts\"",
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\vendor-patch\\20261026-193807-a8b5f265\\candidate-vendor.img"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "output_bytes": {
+        "stdout": 87,
+        "stderr": 29
+      },
+      "stdout": "Extended attributes:\n  security.selinux (34) = \"u:object_r:vendor_configs_file:s0\\000\"\n",
+      "stderr": "debugfs 1.44.5 (15-Dec-2018)\n"
+    },
+    {
+      "arguments": [
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\portable-e2fs\\root\\usr\\sbin\\debugfs.exe",
+        "-R",
+        "ea_get -f \"C:/Users/antho/AppData/Local/android-device-lab/research-v42/vendor-patch/20261026-193807-a8b5f265/ea-00012.bin\" \"/etc/selinux/vendor_seapp_contexts\" \"security.selinux\"",
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\vendor-patch\\20261026-193807-a8b5f265\\candidate-vendor.img"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "output_bytes": {
+        "stdout": 0,
+        "stderr": 29
+      },
+      "stdout": "",
+      "stderr": "debugfs 1.44.5 (15-Dec-2018)\n"
+    },
+    {
+      "arguments": [
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\portable-e2fs\\root\\usr\\sbin\\debugfs.exe",
+        "-R",
+        "stat \"/etc/selinux/vendor_sepolicy.cil\"",
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\vendor-patch\\20261026-193807-a8b5f265\\candidate-vendor.img"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "output_bytes": {
+        "stdout": 617,
+        "stderr": 29
+      },
+      "stdout": "Inode: 364   Type: regular    Mode:  0644   Flags: 0x80000\nGeneration: 0    Version: 0x00000000:00000000\nUser:     0   Group:     0   Project:     0   Size: 172600\nFile ACL: 0\nLinks: 1   Blockcount: 344\nFragment:  Address: 0    Number: 0    Size: 0\n ctime: 0x669024f8:00000000 -- Thu Jul 11 15:31:20 2024\n atime: 0x669024f8:00000000 -- Thu Jul 11 15:31:20 2024\n mtime: 0x669024f8:00000000 -- Thu Jul 11 15:31:20 2024\ncrtime: 0x66902593:00000000 -- Thu Jul 11 15:33:55 2024\nSize of extra inode fields: 32\nExtended attributes:\n  security.selinux (34) = \"u:object_r:vendor_configs_file:s0\\000\"\nEXTENTS:\n(0-42):5845-5887\n",
+      "stderr": "debugfs 1.44.5 (15-Dec-2018)\n"
+    },
+    {
+      "arguments": [
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\portable-e2fs\\root\\usr\\sbin\\debugfs.exe",
+        "-R",
+        "ea_list \"/etc/selinux/vendor_sepolicy.cil\"",
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\vendor-patch\\20261026-193807-a8b5f265\\candidate-vendor.img"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "output_bytes": {
+        "stdout": 87,
+        "stderr": 29
+      },
+      "stdout": "Extended attributes:\n  security.selinux (34) = \"u:object_r:vendor_configs_file:s0\\000\"\n",
+      "stderr": "debugfs 1.44.5 (15-Dec-2018)\n"
+    },
+    {
+      "arguments": [
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\portable-e2fs\\root\\usr\\sbin\\debugfs.exe",
+        "-R",
+        "ea_get -f \"C:/Users/antho/AppData/Local/android-device-lab/research-v42/vendor-patch/20261026-193807-a8b5f265/ea-00013.bin\" \"/etc/selinux/vendor_sepolicy.cil\" \"security.selinux\"",
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\vendor-patch\\20261026-193807-a8b5f265\\candidate-vendor.img"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "output_bytes": {
+        "stdout": 0,
+        "stderr": 29
+      },
+      "stdout": "",
+      "stderr": "debugfs 1.44.5 (15-Dec-2018)\n"
+    },
+    {
+      "arguments": [
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\portable-e2fs\\root\\usr\\sbin\\debugfs.exe",
+        "-R",
+        "stat \"/etc/selinux/vendor_service_contexts\"",
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\vendor-patch\\20261026-193807-a8b5f265\\candidate-vendor.img"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "output_bytes": {
+        "stdout": 562,
+        "stderr": 29
+      },
+      "stdout": "Inode: 365   Type: regular    Mode:  0644   Flags: 0x80000\nGeneration: 0    Version: 0x00000000:00000000\nUser:     0   Group:     0   Project:     0   Size: 472\nFile ACL: 0\nLinks: 1   Blockcount: 8\nFragment:  Address: 0    Number: 0    Size: 0\n ctime: 0x669024f2:00000000 -- Thu Jul 11 15:31:14 2024\n atime: 0x669024f2:00000000 -- Thu Jul 11 15:31:14 2024\n mtime: 0x669024f2:00000000 -- Thu Jul 11 15:31:14 2024\ncrtime: 0x66902593:00000000 -- Thu Jul 11 15:33:55 2024\nSize of extra inode fields: 32\nExtended attributes:\n  security.selinux (43)\nEXTENTS:\n(0):5888\n",
+      "stderr": "debugfs 1.44.5 (15-Dec-2018)\n"
+    },
+    {
+      "arguments": [
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\portable-e2fs\\root\\usr\\sbin\\debugfs.exe",
+        "-R",
+        "ea_list \"/etc/selinux/vendor_service_contexts\"",
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\vendor-patch\\20261026-193807-a8b5f265\\candidate-vendor.img"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "output_bytes": {
+        "stdout": 45,
+        "stderr": 29
+      },
+      "stdout": "Extended attributes:\n  security.selinux (43)\n",
+      "stderr": "debugfs 1.44.5 (15-Dec-2018)\n"
+    },
+    {
+      "arguments": [
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\portable-e2fs\\root\\usr\\sbin\\debugfs.exe",
+        "-R",
+        "stat \"/etc/selinux/vndservice_contexts\"",
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\vendor-patch\\20261026-193807-a8b5f265\\candidate-vendor.img"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "output_bytes": {
+        "stdout": 604,
+        "stderr": 29
+      },
+      "stdout": "Inode: 366   Type: regular    Mode:  0644   Flags: 0x80000\nGeneration: 0    Version: 0x00000000:00000000\nUser:     0   Group:     0   Project:     0   Size: 291\nFile ACL: 0\nLinks: 1   Blockcount: 8\nFragment:  Address: 0    Number: 0    Size: 0\n ctime: 0x669024f2:00000000 -- Thu Jul 11 15:31:14 2024\n atime: 0x669024f2:00000000 -- Thu Jul 11 15:31:14 2024\n mtime: 0x669024f2:00000000 -- Thu Jul 11 15:31:14 2024\ncrtime: 0x66902593:00000000 -- Thu Jul 11 15:33:55 2024\nSize of extra inode fields: 32\nExtended attributes:\n  security.selinux (34) = \"u:object_r:vendor_configs_file:s0\\000\"\nEXTENTS:\n(0):5889\n",
+      "stderr": "debugfs 1.44.5 (15-Dec-2018)\n"
+    },
+    {
+      "arguments": [
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\portable-e2fs\\root\\usr\\sbin\\debugfs.exe",
+        "-R",
+        "ea_list \"/etc/selinux/vndservice_contexts\"",
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\vendor-patch\\20261026-193807-a8b5f265\\candidate-vendor.img"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "output_bytes": {
+        "stdout": 87,
+        "stderr": 29
+      },
+      "stdout": "Extended attributes:\n  security.selinux (34) = \"u:object_r:vendor_configs_file:s0\\000\"\n",
+      "stderr": "debugfs 1.44.5 (15-Dec-2018)\n"
+    },
+    {
+      "arguments": [
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\portable-e2fs\\root\\usr\\sbin\\debugfs.exe",
+        "-R",
+        "ea_get -f \"C:/Users/antho/AppData/Local/android-device-lab/research-v42/vendor-patch/20261026-193807-a8b5f265/ea-00014.bin\" \"/etc/selinux/vndservice_contexts\" \"security.selinux\"",
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\vendor-patch\\20261026-193807-a8b5f265\\candidate-vendor.img"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "output_bytes": {
+        "stdout": 0,
+        "stderr": 29
+      },
+      "stdout": "",
+      "stderr": "debugfs 1.44.5 (15-Dec-2018)\n"
+    },
+    {
+      "arguments": [
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\portable-e2fs\\root\\usr\\sbin\\debugfs.exe",
+        "-R",
+        "stat \"/bin/hw/android.hardware.security.keymint-service\"",
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\vendor-patch\\20261026-193807-a8b5f265\\candidate-vendor.img"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "output_bytes": {
+        "stdout": 619,
+        "stderr": 29
+      },
+      "stdout": "Inode: 105   Type: regular    Mode:  0755   Flags: 0x80000\nGeneration: 0    Version: 0x00000000:00000000\nUser:     0   Group:  2000   Project:     0   Size: 30072\nFile ACL: 0\nLinks: 1   Blockcount: 64\nFragment:  Address: 0    Number: 0    Size: 0\n ctime: 0x66902514:00000000 -- Thu Jul 11 15:31:48 2024\n atime: 0x66902514:00000000 -- Thu Jul 11 15:31:48 2024\n mtime: 0x66902514:00000000 -- Thu Jul 11 15:31:48 2024\ncrtime: 0x66902593:00000000 -- Thu Jul 11 15:33:55 2024\nSize of extra inode fields: 32\nExtended attributes:\n  security.selinux (39) = \"u:object_r:hal_keymint_default_exec:s0\\000\"\nEXTENTS:\n(0-7):3484-3491\n",
+      "stderr": "debugfs 1.44.5 (15-Dec-2018)\n"
+    },
+    {
+      "arguments": [
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\portable-e2fs\\root\\usr\\sbin\\debugfs.exe",
+        "-R",
+        "ea_list \"/bin/hw/android.hardware.security.keymint-service\"",
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\vendor-patch\\20261026-193807-a8b5f265\\candidate-vendor.img"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "output_bytes": {
+        "stdout": 92,
+        "stderr": 29
+      },
+      "stdout": "Extended attributes:\n  security.selinux (39) = \"u:object_r:hal_keymint_default_exec:s0\\000\"\n",
+      "stderr": "debugfs 1.44.5 (15-Dec-2018)\n"
+    },
+    {
+      "arguments": [
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\portable-e2fs\\root\\usr\\sbin\\debugfs.exe",
+        "-R",
+        "ea_get -f \"C:/Users/antho/AppData/Local/android-device-lab/research-v42/vendor-patch/20261026-193807-a8b5f265/ea-00015.bin\" \"/bin/hw/android.hardware.security.keymint-service\" \"security.selinux\"",
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\vendor-patch\\20261026-193807-a8b5f265\\candidate-vendor.img"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "output_bytes": {
+        "stdout": 0,
+        "stderr": 29
+      },
+      "stdout": "",
+      "stderr": "debugfs 1.44.5 (15-Dec-2018)\n"
+    },
+    {
+      "arguments": [
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\portable-e2fs\\root\\usr\\sbin\\debugfs.exe",
+        "-R",
+        "stat \"/etc/init/android.hardware.security.keymint-service.rc\"",
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\vendor-patch\\20261026-193807-a8b5f265\\candidate-vendor.img"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "output_bytes": {
+        "stdout": 604,
+        "stderr": 29
+      },
+      "stdout": "Inode: 290   Type: regular    Mode:  0644   Flags: 0x80000\nGeneration: 0    Version: 0x00000000:00000000\nUser:     0   Group:     0   Project:     0   Size: 124\nFile ACL: 0\nLinks: 1   Blockcount: 8\nFragment:  Address: 0    Number: 0    Size: 0\n ctime: 0x669024f8:00000000 -- Thu Jul 11 15:31:20 2024\n atime: 0x669024f8:00000000 -- Thu Jul 11 15:31:20 2024\n mtime: 0x669024f8:00000000 -- Thu Jul 11 15:31:20 2024\ncrtime: 0x66902593:00000000 -- Thu Jul 11 15:33:55 2024\nSize of extra inode fields: 32\nExtended attributes:\n  security.selinux (34) = \"u:object_r:vendor_configs_file:s0\\000\"\nEXTENTS:\n(0):5344\n",
+      "stderr": "debugfs 1.44.5 (15-Dec-2018)\n"
+    },
+    {
+      "arguments": [
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\portable-e2fs\\root\\usr\\sbin\\debugfs.exe",
+        "-R",
+        "ea_list \"/etc/init/android.hardware.security.keymint-service.rc\"",
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\vendor-patch\\20261026-193807-a8b5f265\\candidate-vendor.img"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "output_bytes": {
+        "stdout": 87,
+        "stderr": 29
+      },
+      "stdout": "Extended attributes:\n  security.selinux (34) = \"u:object_r:vendor_configs_file:s0\\000\"\n",
+      "stderr": "debugfs 1.44.5 (15-Dec-2018)\n"
+    },
+    {
+      "arguments": [
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\portable-e2fs\\root\\usr\\sbin\\debugfs.exe",
+        "-R",
+        "ea_get -f \"C:/Users/antho/AppData/Local/android-device-lab/research-v42/vendor-patch/20261026-193807-a8b5f265/ea-00016.bin\" \"/etc/init/android.hardware.security.keymint-service.rc\" \"security.selinux\"",
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\vendor-patch\\20261026-193807-a8b5f265\\candidate-vendor.img"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "output_bytes": {
+        "stdout": 0,
+        "stderr": 29
+      },
+      "stdout": "",
+      "stderr": "debugfs 1.44.5 (15-Dec-2018)\n"
+    },
+    {
+      "arguments": [
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\portable-e2fs\\root\\usr\\sbin\\debugfs.exe",
+        "-R",
+        "dump \"/etc/init/android.hardware.security.keymint-service.rc\" \"C:/Users/antho/AppData/Local/android-device-lab/research-v42/vendor-patch/20261026-193807-a8b5f265/original-service.rc\"",
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\vendor-patch\\20261026-193807-a8b5f265\\candidate-vendor.img"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "output_bytes": {
+        "stdout": 0,
+        "stderr": 29
+      },
+      "stdout": "",
+      "stderr": "debugfs 1.44.5 (15-Dec-2018)\n"
+    },
+    {
+      "arguments": [
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\portable-e2fs\\root\\usr\\sbin\\e2fsck.exe",
+        "-fy",
+        "-E",
+        "unshare_blocks",
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\vendor-patch\\20261026-193807-a8b5f265\\candidate-vendor.img"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "output_bytes": {
+        "stdout": 5082,
+        "stderr": 28
+      },
+      "stdout": "Pass 1: Checking inodes, blocks, and sizes\n\nRunning additional passes to resolve blocks claimed by more than one inode...\nPass 1B: Rescanning for multiply-claimed blocks\nMultiply-claimed block(s) in inode 13: 65 65 65\nMultiply-claimed block(s) in inode 465: 6792 6794--6796 6801\nMultiply-claimed block(s) in inode 468: 6792 6794--6796 6801\nMultiply-claimed block(s) in inode 471: 7345--7350\nMultiply-claimed block(s) in inode 473: 7345--7350\nMultiply-claimed block(s) in inode 582: 14390 14390 14390 14390 14390 14390 14390 14390 14390\nMultiply-claimed block(s) in inode 601: 14390\nMultiply-claimed block(s) in inode 645: 14390\nMultiply-claimed block(s) in inode 659: 20942 20942\nMultiply-claimed block(s) in inode 660: 14390 14390 14390\nMultiply-claimed block(s) in inode 666: 14390\nPass 1C: Scanning directories for inodes with multiply-claimed blocks\nPass 1D: Reconciling multiply-claimed blocks\n(There are 11 inodes containing multiply-claimed blocks.)\n\nFile /apex/com.google.android.widevine.nonupdatable.apex (inode #13, mod time Thu Jul 11 15:29:51 2024) \n  has 3 multiply-claimed block(s), shared with 0 file(s):\nFile /lib64/android.hardware.audio.common@7.0-util.so (inode #465, mod time Thu Jul 11 15:32:04 2024) \n  has 5 multiply-claimed block(s), shared with 1 file(s):\n\t/lib64/android.hardware.audio.common@7.1-util.so (inode #468, mod time Thu Jul 11 15:32:04 2024)\nFile /lib64/android.hardware.audio.common@7.1-util.so (inode #468, mod time Thu Jul 11 15:32:04 2024) \n  has 5 multiply-claimed block(s), shared with 1 file(s):\n\t/lib64/android.hardware.audio.common@7.0-util.so (inode #465, mod time Thu Jul 11 15:32:04 2024)\nMultiply-claimed blocks already reassigned or cloned.\n\nFile /lib64/android.hardware.audio@7.0-util.so (inode #471, mod time Thu Jul 11 15:32:05 2024) \n  has 6 multiply-claimed block(s), shared with 1 file(s):\n\t/lib64/android.hardware.audio@7.1-util.so (inode #473, mod time Thu Jul 11 15:32:05 2024)\nFile /lib64/android.hardware.audio@7.1-util.so (inode #473, mod time Thu Jul 11 15:32:05 2024) \n  has 6 multiply-claimed block(s), shared with 1 file(s):\n\t/lib64/android.hardware.audio@7.0-util.so (inode #471, mod time Thu Jul 11 15:32:05 2024)\nMultiply-claimed blocks already reassigned or cloned.\n\nFile /lib64/egl/libGLESv2_angle.so (inode #582, mod time Thu Jul 11 15:31:47 2024) \n  has 9 multiply-claimed block(s), shared with 4 file(s):\n\t/lib64/neuralnetworks_sample_sl_driver_prebuilt.so (inode #666, mod time Thu Jul 11 15:31:30 2024)\n\t/lib64/libvulkan_enc.so (inode #660, mod time Thu Jul 11 15:31:38 2024)\n\t/lib64/libprotobuf-cpp-full-21.7.so (inode #645, mod time Thu Jul 11 15:31:45 2024)\n\t/lib64/libGoldfishProfiler.so (inode #601, mod time Thu Jul 11 15:31:30 2024)\nFile /lib64/libGoldfishProfiler.so (inode #601, mod time Thu Jul 11 15:31:30 2024) \n  has 1 multiply-claimed block(s), shared with 4 file(s):\n\t/lib64/neuralnetworks_sample_sl_driver_prebuilt.so (inode #666, mod time Thu Jul 11 15:31:30 2024)\n\t/lib64/libvulkan_enc.so (inode #660, mod time Thu Jul 11 15:31:38 2024)\n\t/lib64/libprotobuf-cpp-full-21.7.so (inode #645, mod time Thu Jul 11 15:31:45 2024)\n\t/lib64/egl/libGLESv2_angle.so (inode #582, mod time Thu Jul 11 15:31:47 2024)\nFile /lib64/libprotobuf-cpp-full-21.7.so (inode #645, mod time Thu Jul 11 15:31:45 2024) \n  has 1 multiply-claimed block(s), shared with 4 file(s):\n\t/lib64/neuralnetworks_sample_sl_driver_prebuilt.so (inode #666, mod time Thu Jul 11 15:31:30 2024)\n\t/lib64/libvulkan_enc.so (inode #660, mod time Thu Jul 11 15:31:38 2024)\n\t/lib64/libGoldfishProfiler.so (inode #601, mod time Thu Jul 11 15:31:30 2024)\n\t/lib64/egl/libGLESv2_angle.so (inode #582, mod time Thu Jul 11 15:31:47 2024)\nFile /lib64/libvpx.so (inode #659, mod time Thu Jul 11 15:32:20 2024) \n  has 2 multiply-claimed block(s), shared with 0 file(s):\nFile /lib64/libvulkan_enc.so (inode #660, mod time Thu Jul 11 15:31:38 2024) \n  has 3 multiply-claimed block(s), shared with 4 file(s):\n\t/lib64/neuralnetworks_sample_sl_driver_prebuilt.so (inode #666, mod time Thu Jul 11 15:31:30 2024)\n\t/lib64/libprotobuf-cpp-full-21.7.so (inode #645, mod time Thu Jul 11 15:31:45 2024)\n\t/lib64/libGoldfishProfiler.so (inode #601, mod time Thu Jul 11 15:31:30 2024)\n\t/lib64/egl/libGLESv2_angle.so (inode #582, mod time Thu Jul 11 15:31:47 2024)\nFile /lib64/neuralnetworks_sample_sl_driver_prebuilt.so (inode #666, mod time Thu Jul 11 15:31:30 2024) \n  has 1 multiply-claimed block(s), shared with 4 file(s):\n\t/lib64/libvulkan_enc.so (inode #660, mod time Thu Jul 11 15:31:38 2024)\n\t/lib64/libprotobuf-cpp-full-21.7.so (inode #645, mod time Thu Jul 11 15:31:45 2024)\n\t/lib64/libGoldfishProfiler.so (inode #601, mod time Thu Jul 11 15:31:30 2024)\n\t/lib64/egl/libGLESv2_angle.so (inode #582, mod time Thu Jul 11 15:31:47 2024)\nMultiply-claimed blocks already reassigned or cloned.\n\nPass 2: Checking directory structure\nPass 3: Checking directory connectivity\nPass 4: Checking reference counts\nPass 5: Checking group summary information\n\nvendor: ***** FILE SYSTEM WAS MODIFIED *****\nvendor: 714/720 files (1.5% non-contiguous), 24025/24210 blocks\n",
+      "stderr": "e2fsck 1.44.5 (15-Dec-2018)\n"
+    },
+    {
+      "arguments": [
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\portable-e2fs\\root\\usr\\sbin\\debugfs.exe",
+        "-R",
+        "stats",
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\vendor-patch\\20261026-193807-a8b5f265\\candidate-vendor.img"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "output_bytes": {
+        "stdout": 1718,
+        "stderr": 29
+      },
+      "stdout": "Filesystem volume name:   vendor\nLast mounted on:          /vendor\nFilesystem UUID:          4dcc48cf-feb9-4dac-b1cd-6f388b070c67\nFilesystem magic number:  0xEF53\nFilesystem revision #:    1 (dynamic)\nFilesystem features:      ext_attr dir_index filetype extent sparse_super large_file huge_file uninit_bg dir_nlink extra_isize\nFilesystem flags:         signed_directory_hash \nDefault mount options:    user_xattr acl\nFilesystem state:         clean\nErrors behavior:          Continue\nFilesystem OS type:       Linux\nInode count:              720\nBlock count:              24210\nReserved block count:     0\nOverhead blocks:          49\nFree blocks:              185\nFree inodes:              6\nFirst block:              0\nBlock size:               4096\nFragment size:            4096\nBlocks per group:         32768\nFragments per group:      32768\nInodes per group:         720\nInode blocks per group:   45\nFilesystem created:       Thu Jul 11 15:33:55 2024\nLast mount time:          n/a\nLast write time:          Mon Oct 26 19:38:11 2026\nMount count:              0\nMaximum mount count:      -1\nLast checked:             Mon Oct 26 19:38:11 2026\nCheck interval:           0 (<none>)\nLifetime writes:          98 MB\nReserved blocks uid:      0 (user unknown)\nReserved blocks gid:      0 (group unknown)\nFirst inode:              11\nInode size:\t          256\nRequired extra isize:     32\nDesired extra isize:      32\nDefault directory hash:   half_md4\nDirectory Hash Seed:      b927d116-e403-49ac-9326-676804720b73\nDirectories:              36\n Group  0: block bitmap at 2, inode bitmap at 3, inode table at 4\n           185 free blocks, 6 free inodes, 36 used directories, 6 unused inodes\n           [Checksum 0xf345]\n",
+      "stderr": "debugfs 1.44.5 (15-Dec-2018)\n"
+    },
+    {
+      "arguments": [
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\portable-e2fs\\root\\usr\\sbin\\debugfs.exe",
+        "-w",
+        "-R",
+        "rm \"/bin/hw/android.hardware.security.keymint-service\"",
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\vendor-patch\\20261026-193807-a8b5f265\\candidate-vendor.img"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "output_bytes": {
+        "stdout": 1,
+        "stderr": 29
+      },
+      "stdout": "\n",
+      "stderr": "debugfs 1.44.5 (15-Dec-2018)\n"
+    },
+    {
+      "arguments": [
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\portable-e2fs\\root\\usr\\sbin\\debugfs.exe",
+        "-w",
+        "-f",
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\vendor-patch\\20261026-193807-a8b5f265\\debugfs-write-00017.txt",
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\vendor-patch\\20261026-193807-a8b5f265\\candidate-vendor.img"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "output_bytes": {
+        "stdout": 229,
+        "stderr": 29
+      },
+      "stdout": "debugfs: cd \"/bin/hw\"\ndebugfs: write \"C:/Users/antho/AppData/Local/android-device-lab/research-v42/vendor-patch/20261026-193807-a8b5f265/candidate-keymint-service\" \"android.hardware.security.keymint-service\"\nAllocated inode: 105\n",
+      "stderr": "debugfs 1.44.5 (15-Dec-2018)\n"
+    },
+    {
+      "arguments": [
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\portable-e2fs\\root\\usr\\sbin\\debugfs.exe",
+        "-R",
+        "stat \"/bin/hw/android.hardware.security.keymint-service\"",
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\vendor-patch\\20261026-193807-a8b5f265\\candidate-vendor.img"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "output_bytes": {
+        "stdout": 595,
+        "stderr": 29
+      },
+      "stdout": "Inode: 105   Type: regular    Mode:  0644   Flags: 0x80000\nGeneration: 0    Version: 0x00000000:00000000\nUser:     0   Group:     0   Project:     0   Size: 589192\nFile ACL: 0\nLinks: 1   Blockcount: 1144\nFragment:  Address: 0    Number: 0    Size: 0\n ctime: 0x6adfd653:00000000 -- Mon Oct 26 19:38:11 2026\n atime: 0x6adfd653:00000000 -- Mon Oct 26 19:38:11 2026\n mtime: 0x6adfd653:00000000 -- Mon Oct 26 19:38:11 2026\ncrtime: 0x6adfd653:00000000 -- Mon Oct 26 19:38:11 2026\nSize of extra inode fields: 32\nEXTENTS:\n(0-7):3484-3491, (8-119):6548-6659, (120-140):24137-24157, (142-143):24158-24159\n",
+      "stderr": "debugfs 1.44.5 (15-Dec-2018)\n"
+    },
+    {
+      "arguments": [
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\portable-e2fs\\root\\usr\\sbin\\debugfs.exe",
+        "-R",
+        "ea_list \"/bin/hw/android.hardware.security.keymint-service\"",
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\vendor-patch\\20261026-193807-a8b5f265\\candidate-vendor.img"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "output_bytes": {
+        "stdout": 0,
+        "stderr": 29
+      },
+      "stdout": "",
+      "stderr": "debugfs 1.44.5 (15-Dec-2018)\n"
+    },
+    {
+      "arguments": [
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\portable-e2fs\\root\\usr\\sbin\\debugfs.exe",
+        "-w",
+        "-R",
+        "set_inode_field \"/bin/hw/android.hardware.security.keymint-service\" mode 0100755",
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\vendor-patch\\20261026-193807-a8b5f265\\candidate-vendor.img"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "output_bytes": {
+        "stdout": 0,
+        "stderr": 29
+      },
+      "stdout": "",
+      "stderr": "debugfs 1.44.5 (15-Dec-2018)\n"
+    },
+    {
+      "arguments": [
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\portable-e2fs\\root\\usr\\sbin\\debugfs.exe",
+        "-w",
+        "-R",
+        "set_inode_field \"/bin/hw/android.hardware.security.keymint-service\" uid 0",
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\vendor-patch\\20261026-193807-a8b5f265\\candidate-vendor.img"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "output_bytes": {
+        "stdout": 0,
+        "stderr": 29
+      },
+      "stdout": "",
+      "stderr": "debugfs 1.44.5 (15-Dec-2018)\n"
+    },
+    {
+      "arguments": [
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\portable-e2fs\\root\\usr\\sbin\\debugfs.exe",
+        "-w",
+        "-R",
+        "set_inode_field \"/bin/hw/android.hardware.security.keymint-service\" gid 2000",
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\vendor-patch\\20261026-193807-a8b5f265\\candidate-vendor.img"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "output_bytes": {
+        "stdout": 0,
+        "stderr": 29
+      },
+      "stdout": "",
+      "stderr": "debugfs 1.44.5 (15-Dec-2018)\n"
+    },
+    {
+      "arguments": [
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\portable-e2fs\\root\\usr\\sbin\\debugfs.exe",
+        "-w",
+        "-R",
+        "ea_set -f \"C:/Users/antho/AppData/Local/android-device-lab/research-v42/vendor-patch/20261026-193807-a8b5f265/ea-00015.bin\" \"/bin/hw/android.hardware.security.keymint-service\" \"security.selinux\"",
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\vendor-patch\\20261026-193807-a8b5f265\\candidate-vendor.img"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "output_bytes": {
+        "stdout": 0,
+        "stderr": 29
+      },
+      "stdout": "",
+      "stderr": "debugfs 1.44.5 (15-Dec-2018)\n"
+    },
+    {
+      "arguments": [
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\portable-e2fs\\root\\usr\\sbin\\debugfs.exe",
+        "-R",
+        "stat \"/bin/hw/android.hardware.security.keymint-service\"",
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\vendor-patch\\20261026-193807-a8b5f265\\candidate-vendor.img"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "output_bytes": {
+        "stdout": 687,
+        "stderr": 29
+      },
+      "stdout": "Inode: 105   Type: regular    Mode:  0755   Flags: 0x80000\nGeneration: 0    Version: 0x00000000:00000000\nUser:     0   Group:  2000   Project:     0   Size: 589192\nFile ACL: 0\nLinks: 1   Blockcount: 1144\nFragment:  Address: 0    Number: 0    Size: 0\n ctime: 0x6adfd653:00000000 -- Mon Oct 26 19:38:11 2026\n atime: 0x6adfd653:00000000 -- Mon Oct 26 19:38:11 2026\n mtime: 0x6adfd653:00000000 -- Mon Oct 26 19:38:11 2026\ncrtime: 0x6adfd653:00000000 -- Mon Oct 26 19:38:11 2026\nSize of extra inode fields: 32\nExtended attributes:\n  security.selinux (39) = \"u:object_r:hal_keymint_default_exec:s0\\000\"\nEXTENTS:\n(0-7):3484-3491, (8-119):6548-6659, (120-140):24137-24157, (142-143):24158-24159\n",
+      "stderr": "debugfs 1.44.5 (15-Dec-2018)\n"
+    },
+    {
+      "arguments": [
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\portable-e2fs\\root\\usr\\sbin\\debugfs.exe",
+        "-R",
+        "ea_list \"/bin/hw/android.hardware.security.keymint-service\"",
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\vendor-patch\\20261026-193807-a8b5f265\\candidate-vendor.img"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "output_bytes": {
+        "stdout": 92,
+        "stderr": 29
+      },
+      "stdout": "Extended attributes:\n  security.selinux (39) = \"u:object_r:hal_keymint_default_exec:s0\\000\"\n",
+      "stderr": "debugfs 1.44.5 (15-Dec-2018)\n"
+    },
+    {
+      "arguments": [
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\portable-e2fs\\root\\usr\\sbin\\debugfs.exe",
+        "-R",
+        "ea_get -f \"C:/Users/antho/AppData/Local/android-device-lab/research-v42/vendor-patch/20261026-193807-a8b5f265/ea-00018.bin\" \"/bin/hw/android.hardware.security.keymint-service\" \"security.selinux\"",
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\vendor-patch\\20261026-193807-a8b5f265\\candidate-vendor.img"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "output_bytes": {
+        "stdout": 0,
+        "stderr": 29
+      },
+      "stdout": "",
+      "stderr": "debugfs 1.44.5 (15-Dec-2018)\n"
+    },
+    {
+      "arguments": [
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\portable-e2fs\\root\\usr\\sbin\\debugfs.exe",
+        "-R",
+        "dump \"/bin/hw/android.hardware.security.keymint-service\" \"C:/Users/antho/AppData/Local/android-device-lab/research-v42/vendor-patch/20261026-193807-a8b5f265/verified-android.hardware.security.keymint-service\"",
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\vendor-patch\\20261026-193807-a8b5f265\\candidate-vendor.img"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "output_bytes": {
+        "stdout": 0,
+        "stderr": 29
+      },
+      "stdout": "",
+      "stderr": "debugfs 1.44.5 (15-Dec-2018)\n"
+    },
+    {
+      "arguments": [
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\portable-e2fs\\root\\usr\\sbin\\debugfs.exe",
+        "-w",
+        "-R",
+        "rm \"/etc/init/android.hardware.security.keymint-service.rc\"",
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\vendor-patch\\20261026-193807-a8b5f265\\candidate-vendor.img"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "output_bytes": {
+        "stdout": 1,
+        "stderr": 29
+      },
+      "stdout": "\n",
+      "stderr": "debugfs 1.44.5 (15-Dec-2018)\n"
+    },
+    {
+      "arguments": [
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\portable-e2fs\\root\\usr\\sbin\\debugfs.exe",
+        "-w",
+        "-f",
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\vendor-patch\\20261026-193807-a8b5f265\\debugfs-write-00019.txt",
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\vendor-patch\\20261026-193807-a8b5f265\\candidate-vendor.img"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "output_bytes": {
+        "stdout": 229,
+        "stderr": 29
+      },
+      "stdout": "debugfs: cd \"/etc/init\"\ndebugfs: write \"C:/Users/antho/AppData/Local/android-device-lab/research-v42/vendor-patch/20261026-193807-a8b5f265/candidate-service.rc\" \"android.hardware.security.keymint-service.rc\"\nAllocated inode: 290\n",
+      "stderr": "debugfs 1.44.5 (15-Dec-2018)\n"
+    },
+    {
+      "arguments": [
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\portable-e2fs\\root\\usr\\sbin\\debugfs.exe",
+        "-R",
+        "stat \"/etc/init/android.hardware.security.keymint-service.rc\"",
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\vendor-patch\\20261026-193807-a8b5f265\\candidate-vendor.img"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "output_bytes": {
+        "stdout": 517,
+        "stderr": 29
+      },
+      "stdout": "Inode: 290   Type: regular    Mode:  0644   Flags: 0x80000\nGeneration: 0    Version: 0x00000000:00000000\nUser:     0   Group:     0   Project:     0   Size: 139\nFile ACL: 0\nLinks: 1   Blockcount: 8\nFragment:  Address: 0    Number: 0    Size: 0\n ctime: 0x6adfd654:00000000 -- Mon Oct 26 19:38:12 2026\n atime: 0x6adfd654:00000000 -- Mon Oct 26 19:38:12 2026\n mtime: 0x6adfd654:00000000 -- Mon Oct 26 19:38:12 2026\ncrtime: 0x6adfd654:00000000 -- Mon Oct 26 19:38:12 2026\nSize of extra inode fields: 32\nEXTENTS:\n(0):5344\n",
+      "stderr": "debugfs 1.44.5 (15-Dec-2018)\n"
+    },
+    {
+      "arguments": [
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\portable-e2fs\\root\\usr\\sbin\\debugfs.exe",
+        "-R",
+        "ea_list \"/etc/init/android.hardware.security.keymint-service.rc\"",
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\vendor-patch\\20261026-193807-a8b5f265\\candidate-vendor.img"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "output_bytes": {
+        "stdout": 0,
+        "stderr": 29
+      },
+      "stdout": "",
+      "stderr": "debugfs 1.44.5 (15-Dec-2018)\n"
+    },
+    {
+      "arguments": [
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\portable-e2fs\\root\\usr\\sbin\\debugfs.exe",
+        "-w",
+        "-R",
+        "set_inode_field \"/etc/init/android.hardware.security.keymint-service.rc\" mode 0100644",
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\vendor-patch\\20261026-193807-a8b5f265\\candidate-vendor.img"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "output_bytes": {
+        "stdout": 0,
+        "stderr": 29
+      },
+      "stdout": "",
+      "stderr": "debugfs 1.44.5 (15-Dec-2018)\n"
+    },
+    {
+      "arguments": [
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\portable-e2fs\\root\\usr\\sbin\\debugfs.exe",
+        "-w",
+        "-R",
+        "set_inode_field \"/etc/init/android.hardware.security.keymint-service.rc\" uid 0",
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\vendor-patch\\20261026-193807-a8b5f265\\candidate-vendor.img"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "output_bytes": {
+        "stdout": 0,
+        "stderr": 29
+      },
+      "stdout": "",
+      "stderr": "debugfs 1.44.5 (15-Dec-2018)\n"
+    },
+    {
+      "arguments": [
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\portable-e2fs\\root\\usr\\sbin\\debugfs.exe",
+        "-w",
+        "-R",
+        "set_inode_field \"/etc/init/android.hardware.security.keymint-service.rc\" gid 0",
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\vendor-patch\\20261026-193807-a8b5f265\\candidate-vendor.img"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "output_bytes": {
+        "stdout": 0,
+        "stderr": 29
+      },
+      "stdout": "",
+      "stderr": "debugfs 1.44.5 (15-Dec-2018)\n"
+    },
+    {
+      "arguments": [
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\portable-e2fs\\root\\usr\\sbin\\debugfs.exe",
+        "-w",
+        "-R",
+        "ea_set -f \"C:/Users/antho/AppData/Local/android-device-lab/research-v42/vendor-patch/20261026-193807-a8b5f265/ea-00016.bin\" \"/etc/init/android.hardware.security.keymint-service.rc\" \"security.selinux\"",
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\vendor-patch\\20261026-193807-a8b5f265\\candidate-vendor.img"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "output_bytes": {
+        "stdout": 0,
+        "stderr": 29
+      },
+      "stdout": "",
+      "stderr": "debugfs 1.44.5 (15-Dec-2018)\n"
+    },
+    {
+      "arguments": [
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\portable-e2fs\\root\\usr\\sbin\\debugfs.exe",
+        "-R",
+        "stat \"/etc/init/android.hardware.security.keymint-service.rc\"",
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\vendor-patch\\20261026-193807-a8b5f265\\candidate-vendor.img"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "output_bytes": {
+        "stdout": 604,
+        "stderr": 29
+      },
+      "stdout": "Inode: 290   Type: regular    Mode:  0644   Flags: 0x80000\nGeneration: 0    Version: 0x00000000:00000000\nUser:     0   Group:     0   Project:     0   Size: 139\nFile ACL: 0\nLinks: 1   Blockcount: 8\nFragment:  Address: 0    Number: 0    Size: 0\n ctime: 0x6adfd654:00000000 -- Mon Oct 26 19:38:12 2026\n atime: 0x6adfd654:00000000 -- Mon Oct 26 19:38:12 2026\n mtime: 0x6adfd654:00000000 -- Mon Oct 26 19:38:12 2026\ncrtime: 0x6adfd654:00000000 -- Mon Oct 26 19:38:12 2026\nSize of extra inode fields: 32\nExtended attributes:\n  security.selinux (34) = \"u:object_r:vendor_configs_file:s0\\000\"\nEXTENTS:\n(0):5344\n",
+      "stderr": "debugfs 1.44.5 (15-Dec-2018)\n"
+    },
+    {
+      "arguments": [
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\portable-e2fs\\root\\usr\\sbin\\debugfs.exe",
+        "-R",
+        "ea_list \"/etc/init/android.hardware.security.keymint-service.rc\"",
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\vendor-patch\\20261026-193807-a8b5f265\\candidate-vendor.img"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "output_bytes": {
+        "stdout": 87,
+        "stderr": 29
+      },
+      "stdout": "Extended attributes:\n  security.selinux (34) = \"u:object_r:vendor_configs_file:s0\\000\"\n",
+      "stderr": "debugfs 1.44.5 (15-Dec-2018)\n"
+    },
+    {
+      "arguments": [
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\portable-e2fs\\root\\usr\\sbin\\debugfs.exe",
+        "-R",
+        "ea_get -f \"C:/Users/antho/AppData/Local/android-device-lab/research-v42/vendor-patch/20261026-193807-a8b5f265/ea-00020.bin\" \"/etc/init/android.hardware.security.keymint-service.rc\" \"security.selinux\"",
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\vendor-patch\\20261026-193807-a8b5f265\\candidate-vendor.img"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "output_bytes": {
+        "stdout": 0,
+        "stderr": 29
+      },
+      "stdout": "",
+      "stderr": "debugfs 1.44.5 (15-Dec-2018)\n"
+    },
+    {
+      "arguments": [
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\portable-e2fs\\root\\usr\\sbin\\debugfs.exe",
+        "-R",
+        "dump \"/etc/init/android.hardware.security.keymint-service.rc\" \"C:/Users/antho/AppData/Local/android-device-lab/research-v42/vendor-patch/20261026-193807-a8b5f265/verified-android.hardware.security.keymint-service.rc\"",
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\vendor-patch\\20261026-193807-a8b5f265\\candidate-vendor.img"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "output_bytes": {
+        "stdout": 0,
+        "stderr": 29
+      },
+      "stdout": "",
+      "stderr": "debugfs 1.44.5 (15-Dec-2018)\n"
+    },
+    {
+      "arguments": [
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\portable-e2fs\\root\\usr\\sbin\\debugfs.exe",
+        "-R",
+        "rdump /etc/selinux \"C:/Users/antho/AppData/Local/android-device-lab/research-v42/vendor-patch/20261026-193807-a8b5f265/policy-after\"",
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\vendor-patch\\20261026-193807-a8b5f265\\candidate-vendor.img"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "output_bytes": {
+        "stdout": 0,
+        "stderr": 29
+      },
+      "stdout": "",
+      "stderr": "debugfs 1.44.5 (15-Dec-2018)\n"
+    },
+    {
+      "arguments": [
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\portable-e2fs\\root\\usr\\sbin\\debugfs.exe",
+        "-R",
+        "stat \"/etc/selinux\"",
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\vendor-patch\\20261026-193807-a8b5f265\\candidate-vendor.img"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "output_bytes": {
+        "stdout": 607,
+        "stderr": 29
+      },
+      "stdout": "Inode: 352   Type: directory    Mode:  0755   Flags: 0x80000\nGeneration: 0    Version: 0x00000000:00000000\nUser:     0   Group:  2000   Project:     0   Size: 4096\nFile ACL: 0\nLinks: 2   Blockcount: 8\nFragment:  Address: 0    Number: 0    Size: 0\n ctime: 0x66902590:00000000 -- Thu Jul 11 15:33:52 2024\n atime: 0x66902590:00000000 -- Thu Jul 11 15:33:52 2024\n mtime: 0x66902590:00000000 -- Thu Jul 11 15:33:52 2024\ncrtime: 0x66902593:00000000 -- Thu Jul 11 15:33:55 2024\nSize of extra inode fields: 32\nExtended attributes:\n  security.selinux (34) = \"u:object_r:vendor_configs_file:s0\\000\"\nEXTENTS:\n(0):5417\n",
+      "stderr": "debugfs 1.44.5 (15-Dec-2018)\n"
+    },
+    {
+      "arguments": [
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\portable-e2fs\\root\\usr\\sbin\\debugfs.exe",
+        "-R",
+        "ea_list \"/etc/selinux\"",
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\vendor-patch\\20261026-193807-a8b5f265\\candidate-vendor.img"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "output_bytes": {
+        "stdout": 87,
+        "stderr": 29
+      },
+      "stdout": "Extended attributes:\n  security.selinux (34) = \"u:object_r:vendor_configs_file:s0\\000\"\n",
+      "stderr": "debugfs 1.44.5 (15-Dec-2018)\n"
+    },
+    {
+      "arguments": [
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\portable-e2fs\\root\\usr\\sbin\\debugfs.exe",
+        "-R",
+        "ea_get -f \"C:/Users/antho/AppData/Local/android-device-lab/research-v42/vendor-patch/20261026-193807-a8b5f265/ea-00021.bin\" \"/etc/selinux\" \"security.selinux\"",
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\vendor-patch\\20261026-193807-a8b5f265\\candidate-vendor.img"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "output_bytes": {
+        "stdout": 0,
+        "stderr": 29
+      },
+      "stdout": "",
+      "stderr": "debugfs 1.44.5 (15-Dec-2018)\n"
+    },
+    {
+      "arguments": [
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\portable-e2fs\\root\\usr\\sbin\\debugfs.exe",
+        "-R",
+        "ls -p \"/etc/selinux\"",
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\vendor-patch\\20261026-193807-a8b5f265\\candidate-vendor.img"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "output_bytes": {
+        "stdout": 737,
+        "stderr": 29
+      },
+      "stdout": "/352/040755/0/2000/.//\n/253/040755/0/2000/..//\n/353/100644/0/0/plat_pub_versioned.cil/1011757/\n/354/100644/0/0/plat_sepolicy_vers.txt/5/\n/355/100644/0/0/precompiled_sepolicy/679993/\n/356/100644/0/0/precompiled_sepolicy.plat_sepolicy_and_mapping.sha256/65/\n/357/100644/0/0/precompiled_sepolicy.system_ext_sepolicy_and_mapping.sha256/65/\n/358/100644/0/0/selinux_denial_metadata/42/\n/359/100644/0/0/vendor_file_contexts/22745/\n/360/100644/0/0/vendor_hwservice_contexts/0/\n/361/100644/0/0/vendor_mac_permissions.xml/2549/\n/362/100644/0/0/vendor_property_contexts/3055/\n/363/100644/0/0/vendor_seapp_contexts/0/\n/364/100644/0/0/vendor_sepolicy.cil/172600/\n/365/100644/0/0/vendor_service_contexts/472/\n/366/100644/0/0/vndservice_contexts/291/\n\n",
+      "stderr": "debugfs 1.44.5 (15-Dec-2018)\n"
+    },
+    {
+      "arguments": [
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\portable-e2fs\\root\\usr\\sbin\\debugfs.exe",
+        "-R",
+        "stat \"/etc/selinux/plat_pub_versioned.cil\"",
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\vendor-patch\\20261026-193807-a8b5f265\\candidate-vendor.img"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "output_bytes": {
+        "stdout": 620,
+        "stderr": 29
+      },
+      "stdout": "Inode: 353   Type: regular    Mode:  0644   Flags: 0x80000\nGeneration: 0    Version: 0x00000000:00000000\nUser:     0   Group:     0   Project:     0   Size: 1011757\nFile ACL: 0\nLinks: 1   Blockcount: 1984\nFragment:  Address: 0    Number: 0    Size: 0\n ctime: 0x669024f4:00000000 -- Thu Jul 11 15:31:16 2024\n atime: 0x669024f4:00000000 -- Thu Jul 11 15:31:16 2024\n mtime: 0x669024f4:00000000 -- Thu Jul 11 15:31:16 2024\ncrtime: 0x66902593:00000000 -- Thu Jul 11 15:33:55 2024\nSize of extra inode fields: 32\nExtended attributes:\n  security.selinux (34) = \"u:object_r:vendor_configs_file:s0\\000\"\nEXTENTS:\n(0-247):5418-5665\n",
+      "stderr": "debugfs 1.44.5 (15-Dec-2018)\n"
+    },
+    {
+      "arguments": [
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\portable-e2fs\\root\\usr\\sbin\\debugfs.exe",
+        "-R",
+        "ea_list \"/etc/selinux/plat_pub_versioned.cil\"",
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\vendor-patch\\20261026-193807-a8b5f265\\candidate-vendor.img"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "output_bytes": {
+        "stdout": 87,
+        "stderr": 29
+      },
+      "stdout": "Extended attributes:\n  security.selinux (34) = \"u:object_r:vendor_configs_file:s0\\000\"\n",
+      "stderr": "debugfs 1.44.5 (15-Dec-2018)\n"
+    },
+    {
+      "arguments": [
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\portable-e2fs\\root\\usr\\sbin\\debugfs.exe",
+        "-R",
+        "ea_get -f \"C:/Users/antho/AppData/Local/android-device-lab/research-v42/vendor-patch/20261026-193807-a8b5f265/ea-00022.bin\" \"/etc/selinux/plat_pub_versioned.cil\" \"security.selinux\"",
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\vendor-patch\\20261026-193807-a8b5f265\\candidate-vendor.img"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "output_bytes": {
+        "stdout": 0,
+        "stderr": 29
+      },
+      "stdout": "",
+      "stderr": "debugfs 1.44.5 (15-Dec-2018)\n"
+    },
+    {
+      "arguments": [
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\portable-e2fs\\root\\usr\\sbin\\debugfs.exe",
+        "-R",
+        "stat \"/etc/selinux/plat_sepolicy_vers.txt\"",
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\vendor-patch\\20261026-193807-a8b5f265\\candidate-vendor.img"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "output_bytes": {
+        "stdout": 602,
+        "stderr": 29
+      },
+      "stdout": "Inode: 354   Type: regular    Mode:  0644   Flags: 0x80000\nGeneration: 0    Version: 0x00000000:00000000\nUser:     0   Group:     0   Project:     0   Size: 5\nFile ACL: 0\nLinks: 1   Blockcount: 8\nFragment:  Address: 0    Number: 0    Size: 0\n ctime: 0x66902498:00000000 -- Thu Jul 11 15:29:44 2024\n atime: 0x66902498:00000000 -- Thu Jul 11 15:29:44 2024\n mtime: 0x66902498:00000000 -- Thu Jul 11 15:29:44 2024\ncrtime: 0x66902593:00000000 -- Thu Jul 11 15:33:55 2024\nSize of extra inode fields: 32\nExtended attributes:\n  security.selinux (34) = \"u:object_r:vendor_configs_file:s0\\000\"\nEXTENTS:\n(0):5666\n",
+      "stderr": "debugfs 1.44.5 (15-Dec-2018)\n"
+    },
+    {
+      "arguments": [
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\portable-e2fs\\root\\usr\\sbin\\debugfs.exe",
+        "-R",
+        "ea_list \"/etc/selinux/plat_sepolicy_vers.txt\"",
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\vendor-patch\\20261026-193807-a8b5f265\\candidate-vendor.img"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "output_bytes": {
+        "stdout": 87,
+        "stderr": 29
+      },
+      "stdout": "Extended attributes:\n  security.selinux (34) = \"u:object_r:vendor_configs_file:s0\\000\"\n",
+      "stderr": "debugfs 1.44.5 (15-Dec-2018)\n"
+    },
+    {
+      "arguments": [
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\portable-e2fs\\root\\usr\\sbin\\debugfs.exe",
+        "-R",
+        "ea_get -f \"C:/Users/antho/AppData/Local/android-device-lab/research-v42/vendor-patch/20261026-193807-a8b5f265/ea-00023.bin\" \"/etc/selinux/plat_sepolicy_vers.txt\" \"security.selinux\"",
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\vendor-patch\\20261026-193807-a8b5f265\\candidate-vendor.img"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "output_bytes": {
+        "stdout": 0,
+        "stderr": 29
+      },
+      "stdout": "",
+      "stderr": "debugfs 1.44.5 (15-Dec-2018)\n"
+    },
+    {
+      "arguments": [
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\portable-e2fs\\root\\usr\\sbin\\debugfs.exe",
+        "-R",
+        "stat \"/etc/selinux/precompiled_sepolicy\"",
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\vendor-patch\\20261026-193807-a8b5f265\\candidate-vendor.img"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "output_bytes": {
+        "stdout": 619,
+        "stderr": 29
+      },
+      "stdout": "Inode: 355   Type: regular    Mode:  0644   Flags: 0x80000\nGeneration: 0    Version: 0x00000000:00000000\nUser:     0   Group:     0   Project:     0   Size: 679993\nFile ACL: 0\nLinks: 1   Blockcount: 1336\nFragment:  Address: 0    Number: 0    Size: 0\n ctime: 0x66902590:00000000 -- Thu Jul 11 15:33:52 2024\n atime: 0x66902590:00000000 -- Thu Jul 11 15:33:52 2024\n mtime: 0x66902590:00000000 -- Thu Jul 11 15:33:52 2024\ncrtime: 0x66902593:00000000 -- Thu Jul 11 15:33:55 2024\nSize of extra inode fields: 32\nExtended attributes:\n  security.selinux (34) = \"u:object_r:vendor_configs_file:s0\\000\"\nEXTENTS:\n(0-166):5667-5833\n",
+      "stderr": "debugfs 1.44.5 (15-Dec-2018)\n"
+    },
+    {
+      "arguments": [
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\portable-e2fs\\root\\usr\\sbin\\debugfs.exe",
+        "-R",
+        "ea_list \"/etc/selinux/precompiled_sepolicy\"",
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\vendor-patch\\20261026-193807-a8b5f265\\candidate-vendor.img"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "output_bytes": {
+        "stdout": 87,
+        "stderr": 29
+      },
+      "stdout": "Extended attributes:\n  security.selinux (34) = \"u:object_r:vendor_configs_file:s0\\000\"\n",
+      "stderr": "debugfs 1.44.5 (15-Dec-2018)\n"
+    },
+    {
+      "arguments": [
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\portable-e2fs\\root\\usr\\sbin\\debugfs.exe",
+        "-R",
+        "ea_get -f \"C:/Users/antho/AppData/Local/android-device-lab/research-v42/vendor-patch/20261026-193807-a8b5f265/ea-00024.bin\" \"/etc/selinux/precompiled_sepolicy\" \"security.selinux\"",
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\vendor-patch\\20261026-193807-a8b5f265\\candidate-vendor.img"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "output_bytes": {
+        "stdout": 0,
+        "stderr": 29
+      },
+      "stdout": "",
+      "stderr": "debugfs 1.44.5 (15-Dec-2018)\n"
+    },
+    {
+      "arguments": [
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\portable-e2fs\\root\\usr\\sbin\\debugfs.exe",
+        "-R",
+        "stat \"/etc/selinux/precompiled_sepolicy.plat_sepolicy_and_mapping.sha256\"",
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\vendor-patch\\20261026-193807-a8b5f265\\candidate-vendor.img"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "output_bytes": {
+        "stdout": 603,
+        "stderr": 29
+      },
+      "stdout": "Inode: 356   Type: regular    Mode:  0644   Flags: 0x80000\nGeneration: 0    Version: 0x00000000:00000000\nUser:     0   Group:     0   Project:     0   Size: 65\nFile ACL: 0\nLinks: 1   Blockcount: 8\nFragment:  Address: 0    Number: 0    Size: 0\n ctime: 0x669024f4:00000000 -- Thu Jul 11 15:31:16 2024\n atime: 0x669024f4:00000000 -- Thu Jul 11 15:31:16 2024\n mtime: 0x669024f4:00000000 -- Thu Jul 11 15:31:16 2024\ncrtime: 0x66902593:00000000 -- Thu Jul 11 15:33:55 2024\nSize of extra inode fields: 32\nExtended attributes:\n  security.selinux (34) = \"u:object_r:vendor_configs_file:s0\\000\"\nEXTENTS:\n(0):5834\n",
+      "stderr": "debugfs 1.44.5 (15-Dec-2018)\n"
+    },
+    {
+      "arguments": [
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\portable-e2fs\\root\\usr\\sbin\\debugfs.exe",
+        "-R",
+        "ea_list \"/etc/selinux/precompiled_sepolicy.plat_sepolicy_and_mapping.sha256\"",
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\vendor-patch\\20261026-193807-a8b5f265\\candidate-vendor.img"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "output_bytes": {
+        "stdout": 87,
+        "stderr": 29
+      },
+      "stdout": "Extended attributes:\n  security.selinux (34) = \"u:object_r:vendor_configs_file:s0\\000\"\n",
+      "stderr": "debugfs 1.44.5 (15-Dec-2018)\n"
+    },
+    {
+      "arguments": [
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\portable-e2fs\\root\\usr\\sbin\\debugfs.exe",
+        "-R",
+        "ea_get -f \"C:/Users/antho/AppData/Local/android-device-lab/research-v42/vendor-patch/20261026-193807-a8b5f265/ea-00025.bin\" \"/etc/selinux/precompiled_sepolicy.plat_sepolicy_and_mapping.sha256\" \"security.selinux\"",
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\vendor-patch\\20261026-193807-a8b5f265\\candidate-vendor.img"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "output_bytes": {
+        "stdout": 0,
+        "stderr": 29
+      },
+      "stdout": "",
+      "stderr": "debugfs 1.44.5 (15-Dec-2018)\n"
+    },
+    {
+      "arguments": [
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\portable-e2fs\\root\\usr\\sbin\\debugfs.exe",
+        "-R",
+        "stat \"/etc/selinux/precompiled_sepolicy.system_ext_sepolicy_and_mapping.sha256\"",
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\vendor-patch\\20261026-193807-a8b5f265\\candidate-vendor.img"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "output_bytes": {
+        "stdout": 603,
+        "stderr": 29
+      },
+      "stdout": "Inode: 357   Type: regular    Mode:  0644   Flags: 0x80000\nGeneration: 0    Version: 0x00000000:00000000\nUser:     0   Group:     0   Project:     0   Size: 65\nFile ACL: 0\nLinks: 1   Blockcount: 8\nFragment:  Address: 0    Number: 0    Size: 0\n ctime: 0x6690252c:00000000 -- Thu Jul 11 15:32:12 2024\n atime: 0x6690252c:00000000 -- Thu Jul 11 15:32:12 2024\n mtime: 0x6690252c:00000000 -- Thu Jul 11 15:32:12 2024\ncrtime: 0x66902593:00000000 -- Thu Jul 11 15:33:55 2024\nSize of extra inode fields: 32\nExtended attributes:\n  security.selinux (34) = \"u:object_r:vendor_configs_file:s0\\000\"\nEXTENTS:\n(0):5835\n",
+      "stderr": "debugfs 1.44.5 (15-Dec-2018)\n"
+    },
+    {
+      "arguments": [
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\portable-e2fs\\root\\usr\\sbin\\debugfs.exe",
+        "-R",
+        "ea_list \"/etc/selinux/precompiled_sepolicy.system_ext_sepolicy_and_mapping.sha256\"",
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\vendor-patch\\20261026-193807-a8b5f265\\candidate-vendor.img"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "output_bytes": {
+        "stdout": 87,
+        "stderr": 29
+      },
+      "stdout": "Extended attributes:\n  security.selinux (34) = \"u:object_r:vendor_configs_file:s0\\000\"\n",
+      "stderr": "debugfs 1.44.5 (15-Dec-2018)\n"
+    },
+    {
+      "arguments": [
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\portable-e2fs\\root\\usr\\sbin\\debugfs.exe",
+        "-R",
+        "ea_get -f \"C:/Users/antho/AppData/Local/android-device-lab/research-v42/vendor-patch/20261026-193807-a8b5f265/ea-00026.bin\" \"/etc/selinux/precompiled_sepolicy.system_ext_sepolicy_and_mapping.sha256\" \"security.selinux\"",
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\vendor-patch\\20261026-193807-a8b5f265\\candidate-vendor.img"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "output_bytes": {
+        "stdout": 0,
+        "stderr": 29
+      },
+      "stdout": "",
+      "stderr": "debugfs 1.44.5 (15-Dec-2018)\n"
+    },
+    {
+      "arguments": [
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\portable-e2fs\\root\\usr\\sbin\\debugfs.exe",
+        "-R",
+        "stat \"/etc/selinux/selinux_denial_metadata\"",
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\vendor-patch\\20261026-193807-a8b5f265\\candidate-vendor.img"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "output_bytes": {
+        "stdout": 603,
+        "stderr": 29
+      },
+      "stdout": "Inode: 358   Type: regular    Mode:  0644   Flags: 0x80000\nGeneration: 0    Version: 0x00000000:00000000\nUser:     0   Group:     0   Project:     0   Size: 42\nFile ACL: 0\nLinks: 1   Blockcount: 8\nFragment:  Address: 0    Number: 0    Size: 0\n ctime: 0x669024f2:00000000 -- Thu Jul 11 15:31:14 2024\n atime: 0x669024f2:00000000 -- Thu Jul 11 15:31:14 2024\n mtime: 0x669024f2:00000000 -- Thu Jul 11 15:31:14 2024\ncrtime: 0x66902593:00000000 -- Thu Jul 11 15:33:55 2024\nSize of extra inode fields: 32\nExtended attributes:\n  security.selinux (34) = \"u:object_r:vendor_configs_file:s0\\000\"\nEXTENTS:\n(0):5836\n",
+      "stderr": "debugfs 1.44.5 (15-Dec-2018)\n"
+    },
+    {
+      "arguments": [
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\portable-e2fs\\root\\usr\\sbin\\debugfs.exe",
+        "-R",
+        "ea_list \"/etc/selinux/selinux_denial_metadata\"",
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\vendor-patch\\20261026-193807-a8b5f265\\candidate-vendor.img"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "output_bytes": {
+        "stdout": 87,
+        "stderr": 29
+      },
+      "stdout": "Extended attributes:\n  security.selinux (34) = \"u:object_r:vendor_configs_file:s0\\000\"\n",
+      "stderr": "debugfs 1.44.5 (15-Dec-2018)\n"
+    },
+    {
+      "arguments": [
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\portable-e2fs\\root\\usr\\sbin\\debugfs.exe",
+        "-R",
+        "ea_get -f \"C:/Users/antho/AppData/Local/android-device-lab/research-v42/vendor-patch/20261026-193807-a8b5f265/ea-00027.bin\" \"/etc/selinux/selinux_denial_metadata\" \"security.selinux\"",
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\vendor-patch\\20261026-193807-a8b5f265\\candidate-vendor.img"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "output_bytes": {
+        "stdout": 0,
+        "stderr": 29
+      },
+      "stdout": "",
+      "stderr": "debugfs 1.44.5 (15-Dec-2018)\n"
+    },
+    {
+      "arguments": [
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\portable-e2fs\\root\\usr\\sbin\\debugfs.exe",
+        "-R",
+        "stat \"/etc/selinux/vendor_file_contexts\"",
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\vendor-patch\\20261026-193807-a8b5f265\\candidate-vendor.img"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "output_bytes": {
+        "stdout": 614,
+        "stderr": 29
+      },
+      "stdout": "Inode: 359   Type: regular    Mode:  0644   Flags: 0x80000\nGeneration: 0    Version: 0x00000000:00000000\nUser:     0   Group:     0   Project:     0   Size: 22745\nFile ACL: 0\nLinks: 1   Blockcount: 48\nFragment:  Address: 0    Number: 0    Size: 0\n ctime: 0x669024f2:00000000 -- Thu Jul 11 15:31:14 2024\n atime: 0x669024f2:00000000 -- Thu Jul 11 15:31:14 2024\n mtime: 0x669024f2:00000000 -- Thu Jul 11 15:31:14 2024\ncrtime: 0x66902593:00000000 -- Thu Jul 11 15:33:55 2024\nSize of extra inode fields: 32\nExtended attributes:\n  security.selinux (34) = \"u:object_r:vendor_configs_file:s0\\000\"\nEXTENTS:\n(0-5):5837-5842\n",
+      "stderr": "debugfs 1.44.5 (15-Dec-2018)\n"
+    },
+    {
+      "arguments": [
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\portable-e2fs\\root\\usr\\sbin\\debugfs.exe",
+        "-R",
+        "ea_list \"/etc/selinux/vendor_file_contexts\"",
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\vendor-patch\\20261026-193807-a8b5f265\\candidate-vendor.img"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "output_bytes": {
+        "stdout": 87,
+        "stderr": 29
+      },
+      "stdout": "Extended attributes:\n  security.selinux (34) = \"u:object_r:vendor_configs_file:s0\\000\"\n",
+      "stderr": "debugfs 1.44.5 (15-Dec-2018)\n"
+    },
+    {
+      "arguments": [
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\portable-e2fs\\root\\usr\\sbin\\debugfs.exe",
+        "-R",
+        "ea_get -f \"C:/Users/antho/AppData/Local/android-device-lab/research-v42/vendor-patch/20261026-193807-a8b5f265/ea-00028.bin\" \"/etc/selinux/vendor_file_contexts\" \"security.selinux\"",
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\vendor-patch\\20261026-193807-a8b5f265\\candidate-vendor.img"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "output_bytes": {
+        "stdout": 0,
+        "stderr": 29
+      },
+      "stdout": "",
+      "stderr": "debugfs 1.44.5 (15-Dec-2018)\n"
+    },
+    {
+      "arguments": [
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\portable-e2fs\\root\\usr\\sbin\\debugfs.exe",
+        "-R",
+        "stat \"/etc/selinux/vendor_hwservice_contexts\"",
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\vendor-patch\\20261026-193807-a8b5f265\\candidate-vendor.img"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "output_bytes": {
+        "stdout": 593,
+        "stderr": 29
+      },
+      "stdout": "Inode: 360   Type: regular    Mode:  0644   Flags: 0x80000\nGeneration: 0    Version: 0x00000000:00000000\nUser:     0   Group:     0   Project:     0   Size: 0\nFile ACL: 0\nLinks: 1   Blockcount: 0\nFragment:  Address: 0    Number: 0    Size: 0\n ctime: 0x669024f2:00000000 -- Thu Jul 11 15:31:14 2024\n atime: 0x669024f2:00000000 -- Thu Jul 11 15:31:14 2024\n mtime: 0x669024f2:00000000 -- Thu Jul 11 15:31:14 2024\ncrtime: 0x66902593:00000000 -- Thu Jul 11 15:33:55 2024\nSize of extra inode fields: 32\nExtended attributes:\n  security.selinux (34) = \"u:object_r:vendor_configs_file:s0\\000\"\nEXTENTS:\n",
+      "stderr": "debugfs 1.44.5 (15-Dec-2018)\n"
+    },
+    {
+      "arguments": [
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\portable-e2fs\\root\\usr\\sbin\\debugfs.exe",
+        "-R",
+        "ea_list \"/etc/selinux/vendor_hwservice_contexts\"",
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\vendor-patch\\20261026-193807-a8b5f265\\candidate-vendor.img"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "output_bytes": {
+        "stdout": 87,
+        "stderr": 29
+      },
+      "stdout": "Extended attributes:\n  security.selinux (34) = \"u:object_r:vendor_configs_file:s0\\000\"\n",
+      "stderr": "debugfs 1.44.5 (15-Dec-2018)\n"
+    },
+    {
+      "arguments": [
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\portable-e2fs\\root\\usr\\sbin\\debugfs.exe",
+        "-R",
+        "ea_get -f \"C:/Users/antho/AppData/Local/android-device-lab/research-v42/vendor-patch/20261026-193807-a8b5f265/ea-00029.bin\" \"/etc/selinux/vendor_hwservice_contexts\" \"security.selinux\"",
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\vendor-patch\\20261026-193807-a8b5f265\\candidate-vendor.img"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "output_bytes": {
+        "stdout": 0,
+        "stderr": 29
+      },
+      "stdout": "",
+      "stderr": "debugfs 1.44.5 (15-Dec-2018)\n"
+    },
+    {
+      "arguments": [
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\portable-e2fs\\root\\usr\\sbin\\debugfs.exe",
+        "-R",
+        "stat \"/etc/selinux/vendor_mac_permissions.xml\"",
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\vendor-patch\\20261026-193807-a8b5f265\\candidate-vendor.img"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "output_bytes": {
+        "stdout": 605,
+        "stderr": 29
+      },
+      "stdout": "Inode: 361   Type: regular    Mode:  0644   Flags: 0x80000\nGeneration: 0    Version: 0x00000000:00000000\nUser:     0   Group:     0   Project:     0   Size: 2549\nFile ACL: 0\nLinks: 1   Blockcount: 8\nFragment:  Address: 0    Number: 0    Size: 0\n ctime: 0x669024f3:00000000 -- Thu Jul 11 15:31:15 2024\n atime: 0x669024f3:00000000 -- Thu Jul 11 15:31:15 2024\n mtime: 0x669024f3:00000000 -- Thu Jul 11 15:31:15 2024\ncrtime: 0x66902593:00000000 -- Thu Jul 11 15:33:55 2024\nSize of extra inode fields: 32\nExtended attributes:\n  security.selinux (34) = \"u:object_r:vendor_configs_file:s0\\000\"\nEXTENTS:\n(0):5843\n",
+      "stderr": "debugfs 1.44.5 (15-Dec-2018)\n"
+    },
+    {
+      "arguments": [
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\portable-e2fs\\root\\usr\\sbin\\debugfs.exe",
+        "-R",
+        "ea_list \"/etc/selinux/vendor_mac_permissions.xml\"",
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\vendor-patch\\20261026-193807-a8b5f265\\candidate-vendor.img"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "output_bytes": {
+        "stdout": 87,
+        "stderr": 29
+      },
+      "stdout": "Extended attributes:\n  security.selinux (34) = \"u:object_r:vendor_configs_file:s0\\000\"\n",
+      "stderr": "debugfs 1.44.5 (15-Dec-2018)\n"
+    },
+    {
+      "arguments": [
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\portable-e2fs\\root\\usr\\sbin\\debugfs.exe",
+        "-R",
+        "ea_get -f \"C:/Users/antho/AppData/Local/android-device-lab/research-v42/vendor-patch/20261026-193807-a8b5f265/ea-00030.bin\" \"/etc/selinux/vendor_mac_permissions.xml\" \"security.selinux\"",
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\vendor-patch\\20261026-193807-a8b5f265\\candidate-vendor.img"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "output_bytes": {
+        "stdout": 0,
+        "stderr": 29
+      },
+      "stdout": "",
+      "stderr": "debugfs 1.44.5 (15-Dec-2018)\n"
+    },
+    {
+      "arguments": [
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\portable-e2fs\\root\\usr\\sbin\\debugfs.exe",
+        "-R",
+        "stat \"/etc/selinux/vendor_property_contexts\"",
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\vendor-patch\\20261026-193807-a8b5f265\\candidate-vendor.img"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "output_bytes": {
+        "stdout": 605,
+        "stderr": 29
+      },
+      "stdout": "Inode: 362   Type: regular    Mode:  0644   Flags: 0x80000\nGeneration: 0    Version: 0x00000000:00000000\nUser:     0   Group:     0   Project:     0   Size: 3055\nFile ACL: 0\nLinks: 1   Blockcount: 8\nFragment:  Address: 0    Number: 0    Size: 0\n ctime: 0x669024f3:00000000 -- Thu Jul 11 15:31:15 2024\n atime: 0x669024f3:00000000 -- Thu Jul 11 15:31:15 2024\n mtime: 0x669024f3:00000000 -- Thu Jul 11 15:31:15 2024\ncrtime: 0x66902593:00000000 -- Thu Jul 11 15:33:55 2024\nSize of extra inode fields: 32\nExtended attributes:\n  security.selinux (34) = \"u:object_r:vendor_configs_file:s0\\000\"\nEXTENTS:\n(0):5844\n",
+      "stderr": "debugfs 1.44.5 (15-Dec-2018)\n"
+    },
+    {
+      "arguments": [
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\portable-e2fs\\root\\usr\\sbin\\debugfs.exe",
+        "-R",
+        "ea_list \"/etc/selinux/vendor_property_contexts\"",
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\vendor-patch\\20261026-193807-a8b5f265\\candidate-vendor.img"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "output_bytes": {
+        "stdout": 87,
+        "stderr": 29
+      },
+      "stdout": "Extended attributes:\n  security.selinux (34) = \"u:object_r:vendor_configs_file:s0\\000\"\n",
+      "stderr": "debugfs 1.44.5 (15-Dec-2018)\n"
+    },
+    {
+      "arguments": [
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\portable-e2fs\\root\\usr\\sbin\\debugfs.exe",
+        "-R",
+        "ea_get -f \"C:/Users/antho/AppData/Local/android-device-lab/research-v42/vendor-patch/20261026-193807-a8b5f265/ea-00031.bin\" \"/etc/selinux/vendor_property_contexts\" \"security.selinux\"",
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\vendor-patch\\20261026-193807-a8b5f265\\candidate-vendor.img"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "output_bytes": {
+        "stdout": 0,
+        "stderr": 29
+      },
+      "stdout": "",
+      "stderr": "debugfs 1.44.5 (15-Dec-2018)\n"
+    },
+    {
+      "arguments": [
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\portable-e2fs\\root\\usr\\sbin\\debugfs.exe",
+        "-R",
+        "stat \"/etc/selinux/vendor_seapp_contexts\"",
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\vendor-patch\\20261026-193807-a8b5f265\\candidate-vendor.img"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "output_bytes": {
+        "stdout": 593,
+        "stderr": 29
+      },
+      "stdout": "Inode: 363   Type: regular    Mode:  0644   Flags: 0x80000\nGeneration: 0    Version: 0x00000000:00000000\nUser:     0   Group:     0   Project:     0   Size: 0\nFile ACL: 0\nLinks: 1   Blockcount: 0\nFragment:  Address: 0    Number: 0    Size: 0\n ctime: 0x66902590:00000000 -- Thu Jul 11 15:33:52 2024\n atime: 0x66902590:00000000 -- Thu Jul 11 15:33:52 2024\n mtime: 0x66902590:00000000 -- Thu Jul 11 15:33:52 2024\ncrtime: 0x66902593:00000000 -- Thu Jul 11 15:33:55 2024\nSize of extra inode fields: 32\nExtended attributes:\n  security.selinux (34) = \"u:object_r:vendor_configs_file:s0\\000\"\nEXTENTS:\n",
+      "stderr": "debugfs 1.44.5 (15-Dec-2018)\n"
+    },
+    {
+      "arguments": [
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\portable-e2fs\\root\\usr\\sbin\\debugfs.exe",
+        "-R",
+        "ea_list \"/etc/selinux/vendor_seapp_contexts\"",
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\vendor-patch\\20261026-193807-a8b5f265\\candidate-vendor.img"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "output_bytes": {
+        "stdout": 87,
+        "stderr": 29
+      },
+      "stdout": "Extended attributes:\n  security.selinux (34) = \"u:object_r:vendor_configs_file:s0\\000\"\n",
+      "stderr": "debugfs 1.44.5 (15-Dec-2018)\n"
+    },
+    {
+      "arguments": [
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\portable-e2fs\\root\\usr\\sbin\\debugfs.exe",
+        "-R",
+        "ea_get -f \"C:/Users/antho/AppData/Local/android-device-lab/research-v42/vendor-patch/20261026-193807-a8b5f265/ea-00032.bin\" \"/etc/selinux/vendor_seapp_contexts\" \"security.selinux\"",
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\vendor-patch\\20261026-193807-a8b5f265\\candidate-vendor.img"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "output_bytes": {
+        "stdout": 0,
+        "stderr": 29
+      },
+      "stdout": "",
+      "stderr": "debugfs 1.44.5 (15-Dec-2018)\n"
+    },
+    {
+      "arguments": [
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\portable-e2fs\\root\\usr\\sbin\\debugfs.exe",
+        "-R",
+        "stat \"/etc/selinux/vendor_sepolicy.cil\"",
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\vendor-patch\\20261026-193807-a8b5f265\\candidate-vendor.img"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "output_bytes": {
+        "stdout": 617,
+        "stderr": 29
+      },
+      "stdout": "Inode: 364   Type: regular    Mode:  0644   Flags: 0x80000\nGeneration: 0    Version: 0x00000000:00000000\nUser:     0   Group:     0   Project:     0   Size: 172600\nFile ACL: 0\nLinks: 1   Blockcount: 344\nFragment:  Address: 0    Number: 0    Size: 0\n ctime: 0x669024f8:00000000 -- Thu Jul 11 15:31:20 2024\n atime: 0x669024f8:00000000 -- Thu Jul 11 15:31:20 2024\n mtime: 0x669024f8:00000000 -- Thu Jul 11 15:31:20 2024\ncrtime: 0x66902593:00000000 -- Thu Jul 11 15:33:55 2024\nSize of extra inode fields: 32\nExtended attributes:\n  security.selinux (34) = \"u:object_r:vendor_configs_file:s0\\000\"\nEXTENTS:\n(0-42):5845-5887\n",
+      "stderr": "debugfs 1.44.5 (15-Dec-2018)\n"
+    },
+    {
+      "arguments": [
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\portable-e2fs\\root\\usr\\sbin\\debugfs.exe",
+        "-R",
+        "ea_list \"/etc/selinux/vendor_sepolicy.cil\"",
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\vendor-patch\\20261026-193807-a8b5f265\\candidate-vendor.img"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "output_bytes": {
+        "stdout": 87,
+        "stderr": 29
+      },
+      "stdout": "Extended attributes:\n  security.selinux (34) = \"u:object_r:vendor_configs_file:s0\\000\"\n",
+      "stderr": "debugfs 1.44.5 (15-Dec-2018)\n"
+    },
+    {
+      "arguments": [
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\portable-e2fs\\root\\usr\\sbin\\debugfs.exe",
+        "-R",
+        "ea_get -f \"C:/Users/antho/AppData/Local/android-device-lab/research-v42/vendor-patch/20261026-193807-a8b5f265/ea-00033.bin\" \"/etc/selinux/vendor_sepolicy.cil\" \"security.selinux\"",
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\vendor-patch\\20261026-193807-a8b5f265\\candidate-vendor.img"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "output_bytes": {
+        "stdout": 0,
+        "stderr": 29
+      },
+      "stdout": "",
+      "stderr": "debugfs 1.44.5 (15-Dec-2018)\n"
+    },
+    {
+      "arguments": [
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\portable-e2fs\\root\\usr\\sbin\\debugfs.exe",
+        "-R",
+        "stat \"/etc/selinux/vendor_service_contexts\"",
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\vendor-patch\\20261026-193807-a8b5f265\\candidate-vendor.img"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "output_bytes": {
+        "stdout": 562,
+        "stderr": 29
+      },
+      "stdout": "Inode: 365   Type: regular    Mode:  0644   Flags: 0x80000\nGeneration: 0    Version: 0x00000000:00000000\nUser:     0   Group:     0   Project:     0   Size: 472\nFile ACL: 0\nLinks: 1   Blockcount: 8\nFragment:  Address: 0    Number: 0    Size: 0\n ctime: 0x669024f2:00000000 -- Thu Jul 11 15:31:14 2024\n atime: 0x669024f2:00000000 -- Thu Jul 11 15:31:14 2024\n mtime: 0x669024f2:00000000 -- Thu Jul 11 15:31:14 2024\ncrtime: 0x66902593:00000000 -- Thu Jul 11 15:33:55 2024\nSize of extra inode fields: 32\nExtended attributes:\n  security.selinux (43)\nEXTENTS:\n(0):5888\n",
+      "stderr": "debugfs 1.44.5 (15-Dec-2018)\n"
+    },
+    {
+      "arguments": [
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\portable-e2fs\\root\\usr\\sbin\\debugfs.exe",
+        "-R",
+        "ea_list \"/etc/selinux/vendor_service_contexts\"",
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\vendor-patch\\20261026-193807-a8b5f265\\candidate-vendor.img"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "output_bytes": {
+        "stdout": 45,
+        "stderr": 29
+      },
+      "stdout": "Extended attributes:\n  security.selinux (43)\n",
+      "stderr": "debugfs 1.44.5 (15-Dec-2018)\n"
+    },
+    {
+      "arguments": [
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\portable-e2fs\\root\\usr\\sbin\\debugfs.exe",
+        "-R",
+        "stat \"/etc/selinux/vndservice_contexts\"",
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\vendor-patch\\20261026-193807-a8b5f265\\candidate-vendor.img"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "output_bytes": {
+        "stdout": 604,
+        "stderr": 29
+      },
+      "stdout": "Inode: 366   Type: regular    Mode:  0644   Flags: 0x80000\nGeneration: 0    Version: 0x00000000:00000000\nUser:     0   Group:     0   Project:     0   Size: 291\nFile ACL: 0\nLinks: 1   Blockcount: 8\nFragment:  Address: 0    Number: 0    Size: 0\n ctime: 0x669024f2:00000000 -- Thu Jul 11 15:31:14 2024\n atime: 0x669024f2:00000000 -- Thu Jul 11 15:31:14 2024\n mtime: 0x669024f2:00000000 -- Thu Jul 11 15:31:14 2024\ncrtime: 0x66902593:00000000 -- Thu Jul 11 15:33:55 2024\nSize of extra inode fields: 32\nExtended attributes:\n  security.selinux (34) = \"u:object_r:vendor_configs_file:s0\\000\"\nEXTENTS:\n(0):5889\n",
+      "stderr": "debugfs 1.44.5 (15-Dec-2018)\n"
+    },
+    {
+      "arguments": [
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\portable-e2fs\\root\\usr\\sbin\\debugfs.exe",
+        "-R",
+        "ea_list \"/etc/selinux/vndservice_contexts\"",
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\vendor-patch\\20261026-193807-a8b5f265\\candidate-vendor.img"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "output_bytes": {
+        "stdout": 87,
+        "stderr": 29
+      },
+      "stdout": "Extended attributes:\n  security.selinux (34) = \"u:object_r:vendor_configs_file:s0\\000\"\n",
+      "stderr": "debugfs 1.44.5 (15-Dec-2018)\n"
+    },
+    {
+      "arguments": [
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\portable-e2fs\\root\\usr\\sbin\\debugfs.exe",
+        "-R",
+        "ea_get -f \"C:/Users/antho/AppData/Local/android-device-lab/research-v42/vendor-patch/20261026-193807-a8b5f265/ea-00034.bin\" \"/etc/selinux/vndservice_contexts\" \"security.selinux\"",
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\vendor-patch\\20261026-193807-a8b5f265\\candidate-vendor.img"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "output_bytes": {
+        "stdout": 0,
+        "stderr": 29
+      },
+      "stdout": "",
+      "stderr": "debugfs 1.44.5 (15-Dec-2018)\n"
+    },
+    {
+      "arguments": [
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\portable-e2fs\\root\\usr\\sbin\\e2fsck.exe",
+        "-fn",
+        "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\vendor-patch\\20261026-193807-a8b5f265\\candidate-vendor.img"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "output_bytes": {
+        "stdout": 261,
+        "stderr": 28
+      },
+      "stdout": "Pass 1: Checking inodes, blocks, and sizes\nPass 2: Checking directory structure\nPass 3: Checking directory connectivity\nPass 4: Checking reference counts\nPass 5: Checking group summary information\nvendor: 714/720 files (2.0% non-contiguous), 24160/24210 blocks\n",
+      "stderr": "e2fsck 1.44.5 (15-Dec-2018)\n"
+    },
+    {
+      "arguments": [
+        "C:\\Users\\antho\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\powershell\\pwsh.EXE",
+        "-NoProfile",
+        "-NonInteractive",
+        "-Command",
+        "\n$ErrorActionPreference='Stop'\n$p=@(Get-CimInstance Win32_Process -Filter \"Name='qemu-system-x86_64.exe' OR Name='qemu-system-x86_64-headless.exe'\")\nif (@($p | Where-Object { -not $_.CommandLine }).Count) { throw 'Cannot inspect all QEMU command lines' }\n$owned=@($p | Where-Object { $_.CommandLine -match 'keymint-v42' } | Select-Object ProcessId,CommandLine)\nConvertTo-Json -InputObject $owned -Compress\n"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "output_bytes": {
+        "stdout": 4,
+        "stderr": 0
+      },
+      "stdout": "[]\r\n",
+      "stderr": ""
+    }
+  ],
+  "runtime": "E:\\Workstation\\projects\\android-device-lab\\.local\\keymint-v42",
+  "original_images_modified": false,
+  "patcher_sha256": "b8ac976dbf7e74fd055937c2c1726c7d09efc1d7e533f97e66b0069855860901",
+  "avb": {
+    "original_hashtree_verification": "known_failing_before_patch",
+    "descriptor_algorithm": "NONE",
+    "original_fec_roots": 2,
+    "regenerated": false,
+    "verified_boot_claim": false,
+    "limitation": "The existing AVB hashtree is already invalid. This patch does not repair it or establish verified boot.",
+    "footer": {
+      "major": 1,
+      "minor": 0,
+      "filesystem_size": 99164160,
+      "vbmeta_offset": 100749312,
+      "vbmeta_size": 832
+    }
+  },
+  "before": {
+    "system.img": {
+      "sha256": "4806fbc745cd9abbfacc358496508f0ce420010e0ddaccef11e52e5da8e92f0a",
+      "bytes": 4306501632,
+      "metadata": {
+        "primary_gpt": {
+          "header_sha256": "7ce56497689a8ab40990333d15361053af45f197a6a491dcbf1d9b2b8a3fd72f",
+          "table_sha256": "086e3c0ce4f5a12f5f770b18161b928d983215e1449e5b4f5e47f62f2595faa8",
+          "partitions": {
+            "vbmeta": [
+              1048576,
+              2097152
+            ],
+            "super": [
+              2097152,
+              4305453056
+            ]
+          }
+        },
+        "backup_gpt": {
+          "header_sha256": "7e49a2c510a61df6f2ef1a3221735c02b11e1a15bdcd4d56047800e0d153caf4",
+          "table_sha256": "086e3c0ce4f5a12f5f770b18161b928d983215e1449e5b4f5e47f62f2595faa8",
+          "partitions": {
+            "vbmeta": [
+              1048576,
+              2097152
+            ],
+            "super": [
+              2097152,
+              4305453056
+            ]
+          }
+        },
+        "geometry_sha256": [
+          "f7962585ff73e934e18bba0279ce1cb506f9703c969a9dbbb46750bc45cb0224",
+          "f7962585ff73e934e18bba0279ce1cb506f9703c969a9dbbb46750bc45cb0224"
+        ],
+        "lp_copies": [
+          {
+            "offset": 2109440,
+            "sha256": "839a8f8db6d08a414392cf9e1065a2816a40ed42c978525ba7076a97d837ee8c"
+          },
+          {
+            "offset": 2174976,
+            "sha256": "839a8f8db6d08a414392cf9e1065a2816a40ed42c978525ba7076a97d837ee8c"
+          },
+          {
+            "offset": 2240512,
+            "sha256": "839a8f8db6d08a414392cf9e1065a2816a40ed42c978525ba7076a97d837ee8c"
+          },
+          {
+            "offset": 2306048,
+            "sha256": "839a8f8db6d08a414392cf9e1065a2816a40ed42c978525ba7076a97d837ee8c"
+          }
+        ]
+      },
+      "prefix_sha256": "6ba20d001105f495cec04a09dac4cdda6891f21aeaf5bdc1e2375da0c678f8dc",
+      "suffix_sha256": "dbf4c23aecd695784499c2272d33b8ecdba425ed99e56510766cf6bd6f66241f"
+    },
+    "vendor.img": {
+      "sha256": "30b356018896249d981d4bd7e3648bf0f6cf6cab8abf5e2aa52b037f1aaa1d9d",
+      "bytes": 103809024,
+      "metadata": {
+        "primary_gpt": {
+          "header_sha256": "896d57e7b4162a317b82d9fccbca10a7b7739d6b38d9ad09e78203aada693270",
+          "table_sha256": "15fdc204df5621db3111ca74a2248d6bc2eff12cf6d591431d45db6b38ad7741",
+          "partitions": {
+            "vendor": [
+              1048576,
+              102760448
+            ]
+          }
+        },
+        "backup_gpt": {
+          "header_sha256": "7c61dfc9d8ace6053175e6a68325335991a7f19e58bc69185add7ed71ab57b27",
+          "table_sha256": "15fdc204df5621db3111ca74a2248d6bc2eff12cf6d591431d45db6b38ad7741",
+          "partitions": {
+            "vendor": [
+              1048576,
+              102760448
+            ]
+          }
+        }
+      },
+      "prefix_sha256": "9f02c50c816efbf29e1776cf27705004d34027112ef2efb77b6976b3e8691481",
+      "suffix_sha256": "91964b51b814af32c01744e49eca2263c3c2ddb522085c4a0c0e133dfdb9a0ac"
+    }
+  },
+  "rollback_raw": "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\vendor-patch\\20261026-193807-a8b5f265\\rollback-vendor.img",
+  "binary": {
+    "sha256": "e2d73a9ae6765f91f107b031ac55c7667b089c9b1c113cb147b2ad9d3877a922",
+    "bytes": 589192,
+    "attributes": {
+      "mode": "0755",
+      "uid": 0,
+      "gid": 2000,
+      "xattrs": {
+        "security.selinux": {
+          "sha256": "f7d4d247baa38d74db5b585aa283af90109288ddfe1750c6f9078c3982d80d5e",
+          "bytes": 39
+        }
+      }
+    }
+  },
+  "init_rc": {
+    "sha256": "432c2130353cab4e328539e8533f6b6a32502f4aad37ff1276fce432a1e45aad",
+    "bytes": 139,
+    "attributes": {
+      "mode": "0644",
+      "uid": 0,
+      "gid": 0,
+      "xattrs": {
+        "security.selinux": {
+          "sha256": "e2673543418ae063b8c1934305e02aec49f49328f762e29d9737c54464b8395a",
+          "bytes": 34
+        }
+      }
+    }
+  },
+  "selinux_policy": {
+    "unchanged": true,
+    "files": {
+      "selinux/plat_pub_versioned.cil": "13b393393a1d105664aff17fb530a3711036bb5bbd0ee6977f4690133e7e3225",
+      "selinux/plat_sepolicy_vers.txt": "4ba43f48df0b0ef8b5c74590acca60edcc08c7ff513f338c9a0e6a4cb5752827",
+      "selinux/precompiled_sepolicy": "0dac84bc3e76bf1eed64b3e7b9b323ada817e068ec704b9235827f2e27bb153a",
+      "selinux/precompiled_sepolicy.plat_sepolicy_and_mapping.sha256": "41a55823ddbff0d2790fb9fc9834fb1d1ba8befba0e003bca3bd98d8466090a8",
+      "selinux/precompiled_sepolicy.system_ext_sepolicy_and_mapping.sha256": "9325618d35394ed6de411fa29c98d3675e30280ddbeb9c594c7107f636f2850c",
+      "selinux/selinux_denial_metadata": "4025cc1505b02185b3a48b93b4472ced048bbbd5b241492ad0959b543edf0ebd",
+      "selinux/vendor_file_contexts": "028bd7ccd0ff7394f448f76b28938d40bb3f7ecd4d981a2f26ef5d46a2feff83",
+      "selinux/vendor_hwservice_contexts": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "selinux/vendor_mac_permissions.xml": "5dd587b84d7db230355c039d84f381367af4338725a21e9a7c71c2baeb582c44",
+      "selinux/vendor_property_contexts": "bab7f6408b72080362cea5010e3869bba3015cab72b2b30d8aef669aa186c62d",
+      "selinux/vendor_seapp_contexts": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "selinux/vendor_sepolicy.cil": "e7646ff1751c59fb11645ad0c1244fa5264eed638451cf542c6b25496a0a014a",
+      "selinux/vendor_service_contexts": "3bb288de1aa005e0beb1b001ce18bdfaea2b6009a9a10bc84fdf711260540028",
+      "selinux/vndservice_contexts": "f8091d231a19ad7ab549664138bd35169ff20997d3af2a954bbef709a5d09da6"
+    },
+    "attributes": {
+      "/etc/selinux": {
+        "mode": "0755",
+        "uid": 0,
+        "gid": 2000,
+        "xattrs": {
+          "security.selinux": {
+            "sha256": "e2673543418ae063b8c1934305e02aec49f49328f762e29d9737c54464b8395a",
+            "bytes": 34
+          }
+        }
+      },
+      "/etc/selinux/plat_pub_versioned.cil": {
+        "mode": "0644",
+        "uid": 0,
+        "gid": 0,
+        "xattrs": {
+          "security.selinux": {
+            "sha256": "e2673543418ae063b8c1934305e02aec49f49328f762e29d9737c54464b8395a",
+            "bytes": 34
+          }
+        }
+      },
+      "/etc/selinux/plat_sepolicy_vers.txt": {
+        "mode": "0644",
+        "uid": 0,
+        "gid": 0,
+        "xattrs": {
+          "security.selinux": {
+            "sha256": "e2673543418ae063b8c1934305e02aec49f49328f762e29d9737c54464b8395a",
+            "bytes": 34
+          }
+        }
+      },
+      "/etc/selinux/precompiled_sepolicy": {
+        "mode": "0644",
+        "uid": 0,
+        "gid": 0,
+        "xattrs": {
+          "security.selinux": {
+            "sha256": "e2673543418ae063b8c1934305e02aec49f49328f762e29d9737c54464b8395a",
+            "bytes": 34
+          }
+        }
+      },
+      "/etc/selinux/precompiled_sepolicy.plat_sepolicy_and_mapping.sha256": {
+        "mode": "0644",
+        "uid": 0,
+        "gid": 0,
+        "xattrs": {
+          "security.selinux": {
+            "sha256": "e2673543418ae063b8c1934305e02aec49f49328f762e29d9737c54464b8395a",
+            "bytes": 34
+          }
+        }
+      },
+      "/etc/selinux/precompiled_sepolicy.system_ext_sepolicy_and_mapping.sha256": {
+        "mode": "0644",
+        "uid": 0,
+        "gid": 0,
+        "xattrs": {
+          "security.selinux": {
+            "sha256": "e2673543418ae063b8c1934305e02aec49f49328f762e29d9737c54464b8395a",
+            "bytes": 34
+          }
+        }
+      },
+      "/etc/selinux/selinux_denial_metadata": {
+        "mode": "0644",
+        "uid": 0,
+        "gid": 0,
+        "xattrs": {
+          "security.selinux": {
+            "sha256": "e2673543418ae063b8c1934305e02aec49f49328f762e29d9737c54464b8395a",
+            "bytes": 34
+          }
+        }
+      },
+      "/etc/selinux/vendor_file_contexts": {
+        "mode": "0644",
+        "uid": 0,
+        "gid": 0,
+        "xattrs": {
+          "security.selinux": {
+            "sha256": "e2673543418ae063b8c1934305e02aec49f49328f762e29d9737c54464b8395a",
+            "bytes": 34
+          }
+        }
+      },
+      "/etc/selinux/vendor_hwservice_contexts": {
+        "mode": "0644",
+        "uid": 0,
+        "gid": 0,
+        "xattrs": {
+          "security.selinux": {
+            "sha256": "e2673543418ae063b8c1934305e02aec49f49328f762e29d9737c54464b8395a",
+            "bytes": 34
+          }
+        }
+      },
+      "/etc/selinux/vendor_mac_permissions.xml": {
+        "mode": "0644",
+        "uid": 0,
+        "gid": 0,
+        "xattrs": {
+          "security.selinux": {
+            "sha256": "e2673543418ae063b8c1934305e02aec49f49328f762e29d9737c54464b8395a",
+            "bytes": 34
+          }
+        }
+      },
+      "/etc/selinux/vendor_property_contexts": {
+        "mode": "0644",
+        "uid": 0,
+        "gid": 0,
+        "xattrs": {
+          "security.selinux": {
+            "sha256": "e2673543418ae063b8c1934305e02aec49f49328f762e29d9737c54464b8395a",
+            "bytes": 34
+          }
+        }
+      },
+      "/etc/selinux/vendor_seapp_contexts": {
+        "mode": "0644",
+        "uid": 0,
+        "gid": 0,
+        "xattrs": {
+          "security.selinux": {
+            "sha256": "e2673543418ae063b8c1934305e02aec49f49328f762e29d9737c54464b8395a",
+            "bytes": 34
+          }
+        }
+      },
+      "/etc/selinux/vendor_sepolicy.cil": {
+        "mode": "0644",
+        "uid": 0,
+        "gid": 0,
+        "xattrs": {
+          "security.selinux": {
+            "sha256": "e2673543418ae063b8c1934305e02aec49f49328f762e29d9737c54464b8395a",
+            "bytes": 34
+          }
+        }
+      },
+      "/etc/selinux/vendor_service_contexts": {
+        "mode": "0644",
+        "uid": 0,
+        "gid": 0,
+        "xattrs": {}
+      },
+      "/etc/selinux/vndservice_contexts": {
+        "mode": "0644",
+        "uid": 0,
+        "gid": 0,
+        "xattrs": {
+          "security.selinux": {
+            "sha256": "e2673543418ae063b8c1934305e02aec49f49328f762e29d9737c54464b8395a",
+            "bytes": 34
+          }
+        }
+      }
+    }
+  },
+  "patched_raw": "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\vendor-patch\\20261026-193807-a8b5f265\\candidate-vendor.img",
+  "patched_raw_sha256": "101469dd9e43752971d55ec7005d842435dd1fb329acd991607419f6b82e59ce",
+  "avb_trailer_unchanged": true,
+  "after": {
+    "system.img": {
+      "sha256": "5beb6b684d6424ce9f9acc69d9644d513bedfb26a7ff6bfba4a2d6716ebbcea2",
+      "extent_sha256": "101469dd9e43752971d55ec7005d842435dd1fb329acd991607419f6b82e59ce",
+      "offset": 3001024512,
+      "length": 100843520,
+      "outside_extent_unchanged": true,
+      "metadata_unchanged": true
+    },
+    "vendor.img": {
+      "sha256": "d67711a20b29d0d3ec93639f36d8e873d2eeb1b1241cdedee9fd107c4a43c761",
+      "extent_sha256": "101469dd9e43752971d55ec7005d842435dd1fb329acd991607419f6b82e59ce",
+      "offset": 1048576,
+      "length": 100843520,
+      "outside_extent_unchanged": true,
+      "metadata_unchanged": true
+    }
+  },
+  "fsck": "passed",
+  "gpt_lp_unchanged": true,
+  "vendor_extents_identical": true,
+  "completed_at": "2026-10-26T22:38:32Z"
+}

@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "test": "idle_persistent_service_exit",
+  "passed": true,
+  "code": "IDLE_SERVICE_FAILURE_CONTAINED",
+  "idle_only": true,
+  "inflight_cancellation_tested": false,
+  "service_exited": true,
+  "completed_get_unchanged": true,
+  "new_post_status": 503,
+  "state_count_before": 1,
+  "state_count_after": 1,
+  "parent_alive": true,
+  "child_respawned": false
+}

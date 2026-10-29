@@ -1,0 +1,1455 @@
+{
+  "recorded_at": "2026-10-26T22:52:51.3793132+00:00",
+  "schema_version": 1,
+  "targets": {
+    "cng_protocol_tests": {
+      "project_input_sha256": {
+        "attestation_disabled.cpp": "d87321664ba1dcddcb46290926f41e562c515b93917ae5625230d2cc998a5902",
+        "CMakeLists.txt": "517e3b2075be558c362923bf7b7776c135f2969ae2184a6ba2ee8ccebfa1079b",
+        "cng_certificate.cpp": "fb13f1d558cd19beb2115dab29863fd43235a4554cb58a993ec0541ace1f82b1",
+        "cng_certificate.h": "d3f404d741f12a2163db4b2ada02058e2b559a8e4d2584470f6d22020cc44e44",
+        "cng_key_store.cpp": "cd92bf856e37d5b321402654fd4addc53554d29fe51e5d70f5392a711b68d888",
+        "cng_key_store.h": "bb390452e2a87067717168ddcfc3b39bf1e603c0e360154e0458330af2a19db8",
+        "cng_keymint_context.cpp": "6438f3e44ea16b4d6f53cde181fb634ef0e548e9132af39ebbd5f28f1b5ca2b9",
+        "cng_keymint_context.h": "6598d91284c3093b22444c87b1e84b64c1384b478a16b5557988ddffd46fd623",
+        "cng_protocol_tests.cpp": "2a178c1ccddf5bbd5fb80a0ff33ecedbc22c15208e91818a80645b4c2499cd3e",
+        "cng_store_tests.cpp": "c25de3e65ed16e8bc2242f73a95db94d632246ff9e11cd1fca429a269b2d51fe",
+        "compat/android-base/logging.h": "cfa5fa6c31c5107e84f76b0c2870b9118031eb7323210b723b23ffbc7711595c",
+        "harness.cpp": "9f2c4d84d21281f00fb2ce5e92ce0b30767556a583da2a33d7d7a6043d782cfa",
+        "hybrid_keymint_context.cpp": "a88768bb796a972f74f5f5897c659458b859f06b86577ffaba913a8ac7f252e3",
+        "hybrid_keymint_context.h": "e9d8c2b7cac9a33dbf23f6adb9b95ab382bb8d14f189422163cd6bb43cf8b669",
+        "hybrid_keymint_tests.cpp": "5d8f5925be9539a244169df3d9fde92963f445779b544c44b624a33f7c26c14e",
+        "keymint_pipe_backend.cpp": "6aa6114baece8ed64b059f9c65253f5ebaddcf8fb0c57b03a7d764c720ea54ab",
+        "keymint3_certificate_tests.cpp": "a3db149282c64b98da2c66be97b9336ace35ecd4a667a6dd8d9d8fbf0510cc65",
+        "prepare_sources.py": "b77707036f36b550fbbdce334f6e098747dd01e9c97635f2e211ee71d9336a6b",
+        "README.md": "41f2e9a9e5618c6faaf855daaf7f0c16ef1df5daae883d840e0ddd7bb452a9a9"
+      },
+      "result": {
+        "schema_version": 1,
+        "context": "native_android_keymaster_cng",
+        "km_version": "4.1",
+        "advertised_security_level": "SOFTWARE",
+        "aborted": false,
+        "passed": 79,
+        "failed": 0,
+        "wire_round_trips": 77,
+        "auxiliary_authentication_tokens_validated": false,
+        "provider_release_failure_fault_injected": false,
+        "android_guest_integrated": false,
+        "android_tee_verified": false,
+        "google_attestation_verified": false,
+        "zero_detections_achieved": false,
+        "cases": [
+          {
+            "name": "reported_security_level_software",
+            "passed": true,
+            "actual": 0,
+            "comparison": "equal",
+            "expected": 0
+          },
+          {
+            "name": "remote_provisioning_context_absent",
+            "passed": true,
+            "actual": 0,
+            "comparison": "equal",
+            "expected": 0
+          },
+          {
+            "name": "generate_real_keymaster_request",
+            "passed": true,
+            "actual": 0,
+            "comparison": "equal",
+            "expected": 0
+          },
+          {
+            "name": "opaque_blob_bounded",
+            "passed": true,
+            "actual": 0,
+            "comparison": "equal",
+            "expected": 0
+          },
+          {
+            "name": "hardware_authorizations_empty",
+            "passed": true,
+            "actual": 0,
+            "comparison": "equal",
+            "expected": 0
+          },
+          {
+            "name": "software_rsa_authorization",
+            "passed": true,
+            "actual": 0,
+            "comparison": "equal",
+            "expected": 0
+          },
+          {
+            "name": "load_current_context_reference",
+            "passed": true,
+            "actual": 0,
+            "comparison": "equal",
+            "expected": 0
+          },
+          {
+            "name": "loaded_authorizations_preserved",
+            "passed": true,
+            "actual": 0,
+            "comparison": "equal",
+            "expected": 0
+          },
+          {
+            "name": "missing_application_binding",
+            "passed": true,
+            "actual": -33,
+            "comparison": "equal",
+            "expected": -33
+          },
+          {
+            "name": "wrong_application_binding",
+            "passed": true,
+            "actual": -33,
+            "comparison": "equal",
+            "expected": -33
+          },
+          {
+            "name": "duplicate_application_binding",
+            "passed": true,
+            "actual": -33,
+            "comparison": "equal",
+            "expected": -33
+          },
+          {
+            "name": "altered_opaque_reference",
+            "passed": true,
+            "actual": -33,
+            "comparison": "equal",
+            "expected": -33
+          },
+          {
+            "name": "public_spki_export",
+            "passed": true,
+            "actual": 0,
+            "comparison": "equal",
+            "expected": 0
+          },
+          {
+            "name": "private_pkcs8_export_rejected",
+            "passed": true,
+            "actual": -17,
+            "comparison": "nonzero",
+            "expected": null
+          },
+          {
+            "name": "begin_pss_sha256",
+            "passed": true,
+            "actual": 0,
+            "comparison": "equal",
+            "expected": 0
+          },
+          {
+            "name": "stream_update",
+            "passed": true,
+            "actual": 0,
+            "comparison": "equal",
+            "expected": 0
+          },
+          {
+            "name": "stream_input_consumed",
+            "passed": true,
+            "actual": 0,
+            "comparison": "equal",
+            "expected": 0
+          },
+          {
+            "name": "finish_pss_signature",
+            "passed": true,
+            "actual": 0,
+            "comparison": "equal",
+            "expected": 0
+          },
+          {
+            "name": "independent_boringssl_signature",
+            "passed": true,
+            "actual": 0,
+            "comparison": "equal",
+            "expected": 0
+          },
+          {
+            "name": "independent_changed_message_rejected",
+            "passed": true,
+            "actual": 0,
+            "comparison": "equal",
+            "expected": 0
+          },
+          {
+            "name": "independent_changed_signature_rejected",
+            "passed": true,
+            "actual": 0,
+            "comparison": "equal",
+            "expected": 0
+          },
+          {
+            "name": "finish_consumes_operation_handle",
+            "passed": true,
+            "actual": -28,
+            "comparison": "equal",
+            "expected": -28
+          },
+          {
+            "name": "begin_wrong_digest",
+            "passed": true,
+            "actual": -12,
+            "comparison": "nonzero",
+            "expected": null
+          },
+          {
+            "name": "begin_wrong_padding",
+            "passed": true,
+            "actual": -10,
+            "comparison": "nonzero",
+            "expected": null
+          },
+          {
+            "name": "begin_wrong_purpose",
+            "passed": true,
+            "actual": -2,
+            "comparison": "nonzero",
+            "expected": null
+          },
+          {
+            "name": "abort_active_operation",
+            "passed": true,
+            "actual": 0,
+            "comparison": "equal",
+            "expected": 0
+          },
+          {
+            "name": "abort_consumes_operation_handle",
+            "passed": true,
+            "actual": -28,
+            "comparison": "equal",
+            "expected": -28
+          },
+          {
+            "name": "delete_opaque_key",
+            "passed": true,
+            "actual": 0,
+            "comparison": "equal",
+            "expected": 0
+          },
+          {
+            "name": "load_after_delete",
+            "passed": true,
+            "actual": -33,
+            "comparison": "equal",
+            "expected": -33
+          },
+          {
+            "name": "begin_after_delete",
+            "passed": true,
+            "actual": -33,
+            "comparison": "equal",
+            "expected": -33
+          },
+          {
+            "name": "active_sign_after_key_delete",
+            "passed": true,
+            "actual": -33,
+            "comparison": "nonzero",
+            "expected": null
+          },
+          {
+            "name": "cross_context_reference_rejected",
+            "passed": true,
+            "actual": -33,
+            "comparison": "equal",
+            "expected": -33
+          },
+          {
+            "name": "delete_all_context_keys",
+            "passed": true,
+            "actual": 0,
+            "comparison": "equal",
+            "expected": 0
+          },
+          {
+            "name": "load_after_delete_all",
+            "passed": true,
+            "actual": -33,
+            "comparison": "equal",
+            "expected": -33
+          },
+          {
+            "name": "unsupported_user_auth_generation",
+            "passed": true,
+            "actual": -39,
+            "comparison": "nonzero",
+            "expected": null
+          },
+          {
+            "name": "duplicate_digest_generation",
+            "passed": true,
+            "actual": -40,
+            "comparison": "nonzero",
+            "expected": null
+          },
+          {
+            "name": "unsupported_rollback_generation",
+            "passed": true,
+            "actual": -39,
+            "comparison": "nonzero",
+            "expected": null
+          },
+          {
+            "name": "remote_provisioning_csr_rejected",
+            "passed": true,
+            "actual": -1,
+            "comparison": "nonzero",
+            "expected": null
+          },
+          {
+            "name": "remote_provisioning_csr_v2_rejected",
+            "passed": true,
+            "actual": -1,
+            "comparison": "nonzero",
+            "expected": null
+          },
+          {
+            "name": "remote_provisioning_info_rejected",
+            "passed": true,
+            "actual": -1,
+            "comparison": "nonzero",
+            "expected": null
+          },
+          {
+            "name": "current_epoch_upgrade",
+            "passed": true,
+            "actual": 0,
+            "comparison": "equal",
+            "expected": 0
+          },
+          {
+            "name": "configure_new_software_epoch",
+            "passed": true,
+            "actual": 0,
+            "comparison": "equal",
+            "expected": 0
+          },
+          {
+            "name": "old_epoch_requires_upgrade",
+            "passed": true,
+            "actual": -62,
+            "comparison": "equal",
+            "expected": -62
+          },
+          {
+            "name": "old_epoch_upgrade_does_not_rewrite_metadata",
+            "passed": true,
+            "actual": -62,
+            "comparison": "equal",
+            "expected": -62
+          },
+          {
+            "name": "delete_old_epoch_key",
+            "passed": true,
+            "actual": 0,
+            "comparison": "equal",
+            "expected": 0
+          },
+          {
+            "name": "truncated_request_rejected",
+            "passed": true,
+            "actual": 0,
+            "comparison": "equal",
+            "expected": 0
+          },
+          {
+            "name": "hal_empty_bindings_generation_v4",
+            "passed": true,
+            "actual": 0,
+            "comparison": "equal",
+            "expected": 0
+          },
+          {
+            "name": "hal_empty_bindings_omitted_on_load",
+            "passed": true,
+            "actual": 0,
+            "comparison": "equal",
+            "expected": 0
+          },
+          {
+            "name": "hal_empty_bindings_present_on_load",
+            "passed": true,
+            "actual": 0,
+            "comparison": "equal",
+            "expected": 0
+          },
+          {
+            "name": "hal_duplicate_empty_binding_rejected",
+            "passed": true,
+            "actual": -33,
+            "comparison": "equal",
+            "expected": -33
+          },
+          {
+            "name": "hal_duplicate_empty_binding_generation_rejected",
+            "passed": true,
+            "actual": -40,
+            "comparison": "equal",
+            "expected": -40
+          },
+          {
+            "name": "hal_absent_bindings_accept_explicit_empty",
+            "passed": true,
+            "actual": 0,
+            "comparison": "equal",
+            "expected": 0
+          },
+          {
+            "name": "hal_absent_authentication_begin_empty_auxiliary_token",
+            "passed": true,
+            "actual": 0,
+            "comparison": "equal",
+            "expected": 0
+          },
+          {
+            "name": "hal_noauth_update_ignores_auxiliary_token",
+            "passed": true,
+            "actual": 0,
+            "comparison": "equal",
+            "expected": 0
+          },
+          {
+            "name": "hal_noauth_update_consumes_input",
+            "passed": true,
+            "actual": 0,
+            "comparison": "equal",
+            "expected": 0
+          },
+          {
+            "name": "hal_noauth_finish_ignores_auxiliary_token",
+            "passed": true,
+            "actual": 0,
+            "comparison": "equal",
+            "expected": 0
+          },
+          {
+            "name": "hal_auxiliary_token_flow_signature_verifies",
+            "passed": true,
+            "actual": 0,
+            "comparison": "equal",
+            "expected": 0
+          },
+          {
+            "name": "hal_noauth_begin_ignores_unvalidated_auxiliary_token",
+            "passed": true,
+            "actual": 0,
+            "comparison": "equal",
+            "expected": 0
+          },
+          {
+            "name": "hal_noauth_finish_accepts_empty_auxiliary_token",
+            "passed": true,
+            "actual": 0,
+            "comparison": "equal",
+            "expected": 0
+          },
+          {
+            "name": "hal_duplicate_begin_auth_token_rejected",
+            "passed": true,
+            "actual": -40,
+            "comparison": "equal",
+            "expected": -40
+          },
+          {
+            "name": "hal_duplicate_update_auth_token_rejected",
+            "passed": true,
+            "actual": -40,
+            "comparison": "equal",
+            "expected": -40
+          },
+          {
+            "name": "hal_duplicate_finish_auth_token_rejected",
+            "passed": true,
+            "actual": -40,
+            "comparison": "equal",
+            "expected": -40
+          },
+          {
+            "name": "hal_incompatible_begin_parameter_rejected",
+            "passed": true,
+            "actual": -39,
+            "comparison": "equal",
+            "expected": -39
+          },
+          {
+            "name": "hal_incompatible_update_parameter_rejected",
+            "passed": true,
+            "actual": -39,
+            "comparison": "equal",
+            "expected": -39
+          },
+          {
+            "name": "hal_incompatible_finish_parameter_rejected",
+            "passed": true,
+            "actual": -39,
+            "comparison": "equal",
+            "expected": -39
+          },
+          {
+            "name": "hal_empty_id_preserves_nonempty_data_binding",
+            "passed": true,
+            "actual": 0,
+            "comparison": "equal",
+            "expected": 0
+          },
+          {
+            "name": "hal_nonempty_data_binding_still_required",
+            "passed": true,
+            "actual": -33,
+            "comparison": "equal",
+            "expected": -33
+          },
+          {
+            "name": "hal_successful_release_deletes_reference",
+            "passed": true,
+            "actual": 0,
+            "comparison": "equal",
+            "expected": 0
+          },
+          {
+            "name": "hal_successful_release_reference_unusable",
+            "passed": true,
+            "actual": -33,
+            "comparison": "equal",
+            "expected": -33
+          },
+          {
+            "name": "hal_successful_release_all_keys",
+            "passed": true,
+            "actual": 0,
+            "comparison": "equal",
+            "expected": 0
+          },
+          {
+            "name": "hal_release_all_first_reference_unusable",
+            "passed": true,
+            "actual": -33,
+            "comparison": "equal",
+            "expected": -33
+          },
+          {
+            "name": "hal_release_all_second_reference_unusable",
+            "passed": true,
+            "actual": -33,
+            "comparison": "equal",
+            "expected": -33
+          },
+          {
+            "name": "jca_rsa_pss_begin_wire_payload_exactly_92_bytes",
+            "passed": true,
+            "actual": 0,
+            "comparison": "equal",
+            "expected": 0
+          },
+          {
+            "name": "jca_rsa_pss_algorithm_parameter_begin",
+            "passed": true,
+            "actual": 0,
+            "comparison": "equal",
+            "expected": 0
+          },
+          {
+            "name": "jca_rsa_pss_algorithm_parameter_finish",
+            "passed": true,
+            "actual": 0,
+            "comparison": "equal",
+            "expected": 0
+          },
+          {
+            "name": "jca_rsa_pss_92_byte_begin_signature_verifies",
+            "passed": true,
+            "actual": 0,
+            "comparison": "equal",
+            "expected": 0
+          },
+          {
+            "name": "jca_duplicate_begin_algorithm_rejected",
+            "passed": true,
+            "actual": -40,
+            "comparison": "equal",
+            "expected": -40
+          },
+          {
+            "name": "jca_mismatched_begin_algorithm_rejected",
+            "passed": true,
+            "actual": -5,
+            "comparison": "equal",
+            "expected": -5
+          },
+          {
+            "name": "jca_wrong_begin_algorithm_type_rejected",
+            "passed": true,
+            "actual": -40,
+            "comparison": "equal",
+            "expected": -40
+          }
+        ]
+      },
+      "executable_sha256": "2ee56dcdff581a74451cb1092e049f5e529d6c7fb8bb8ea88bfbfdb7e7ae7caa",
+      "harness_exit_code": 0
+    },
+    "hybrid_keymint_tests": {
+      "project_input_sha256": {
+        "attestation_disabled.cpp": "d87321664ba1dcddcb46290926f41e562c515b93917ae5625230d2cc998a5902",
+        "CMakeLists.txt": "517e3b2075be558c362923bf7b7776c135f2969ae2184a6ba2ee8ccebfa1079b",
+        "cng_certificate.cpp": "fb13f1d558cd19beb2115dab29863fd43235a4554cb58a993ec0541ace1f82b1",
+        "cng_certificate.h": "d3f404d741f12a2163db4b2ada02058e2b559a8e4d2584470f6d22020cc44e44",
+        "cng_key_store.cpp": "cd92bf856e37d5b321402654fd4addc53554d29fe51e5d70f5392a711b68d888",
+        "cng_key_store.h": "bb390452e2a87067717168ddcfc3b39bf1e603c0e360154e0458330af2a19db8",
+        "cng_keymint_context.cpp": "6438f3e44ea16b4d6f53cde181fb634ef0e548e9132af39ebbd5f28f1b5ca2b9",
+        "cng_keymint_context.h": "6598d91284c3093b22444c87b1e84b64c1384b478a16b5557988ddffd46fd623",
+        "cng_protocol_tests.cpp": "2a178c1ccddf5bbd5fb80a0ff33ecedbc22c15208e91818a80645b4c2499cd3e",
+        "cng_store_tests.cpp": "c25de3e65ed16e8bc2242f73a95db94d632246ff9e11cd1fca429a269b2d51fe",
+        "compat/android-base/logging.h": "cfa5fa6c31c5107e84f76b0c2870b9118031eb7323210b723b23ffbc7711595c",
+        "harness.cpp": "9f2c4d84d21281f00fb2ce5e92ce0b30767556a583da2a33d7d7a6043d782cfa",
+        "hybrid_keymint_context.cpp": "a88768bb796a972f74f5f5897c659458b859f06b86577ffaba913a8ac7f252e3",
+        "hybrid_keymint_context.h": "e9d8c2b7cac9a33dbf23f6adb9b95ab382bb8d14f189422163cd6bb43cf8b669",
+        "hybrid_keymint_tests.cpp": "5d8f5925be9539a244169df3d9fde92963f445779b544c44b624a33f7c26c14e",
+        "keymint_pipe_backend.cpp": "6aa6114baece8ed64b059f9c65253f5ebaddcf8fb0c57b03a7d764c720ea54ab",
+        "keymint3_certificate_tests.cpp": "a3db149282c64b98da2c66be97b9336ace35ecd4a667a6dd8d9d8fbf0510cc65",
+        "prepare_sources.py": "b77707036f36b550fbbdce334f6e098747dd01e9c97635f2e211ee71d9336a6b",
+        "README.md": "41f2e9a9e5618c6faaf855daaf7f0c16ef1df5daae883d840e0ddd7bb452a9a9"
+      },
+      "result": {
+        "schema_version": 1,
+        "context": "hybrid_keymint3_cng_and_stock_software",
+        "message_version": 4,
+        "advertised_security_level": "SOFTWARE",
+        "aborted": false,
+        "passed": 60,
+        "failed": 0,
+        "wire_round_trips": 50,
+        "configured_os_version": 140000,
+        "configured_os_patchlevel": 202309,
+        "configured_vendor_patchlevel": 20230905,
+        "configured_boot_patchlevel": 20230905,
+        "android_guest_integrated": false,
+        "existing_guest_blobs_verified": false,
+        "android_tee_verified": false,
+        "google_attestation_verified": false,
+        "cases": [
+          {
+            "name": "legacy_aes_stock_blob",
+            "passed": true,
+            "actual": 0,
+            "expected": 0
+          },
+          {
+            "name": "legacy_hmac_stock_blob",
+            "passed": true,
+            "actual": 0,
+            "expected": 0
+          },
+          {
+            "name": "legacy_rsa_stock_blob",
+            "passed": true,
+            "actual": 0,
+            "expected": 0
+          },
+          {
+            "name": "hybrid_keymint3_version",
+            "passed": true,
+            "actual": 0,
+            "expected": 0
+          },
+          {
+            "name": "hybrid_remote_provisioning_absent",
+            "passed": true,
+            "actual": 0,
+            "expected": 0
+          },
+          {
+            "name": "legacy_aes_parse_in_hybrid",
+            "passed": true,
+            "actual": 0,
+            "expected": 0
+          },
+          {
+            "name": "legacy_hmac_parse_in_hybrid",
+            "passed": true,
+            "actual": 0,
+            "expected": 0
+          },
+          {
+            "name": "legacy_rsa_private_blob_parse_in_hybrid",
+            "passed": true,
+            "actual": 0,
+            "expected": 0
+          },
+          {
+            "name": "legacy_aes_encrypt_begin",
+            "passed": true,
+            "actual": 0,
+            "expected": 0
+          },
+          {
+            "name": "legacy_aes_encrypt_finish",
+            "passed": true,
+            "actual": 0,
+            "expected": 0
+          },
+          {
+            "name": "legacy_aes_decrypt_begin",
+            "passed": true,
+            "actual": 0,
+            "expected": 0
+          },
+          {
+            "name": "legacy_aes_decrypt_finish",
+            "passed": true,
+            "actual": 0,
+            "expected": 0
+          },
+          {
+            "name": "legacy_aes_plaintext_roundtrip",
+            "passed": true,
+            "actual": 0,
+            "expected": 0
+          },
+          {
+            "name": "legacy_hmac_sign_begin",
+            "passed": true,
+            "actual": 0,
+            "expected": 0
+          },
+          {
+            "name": "legacy_hmac_sign",
+            "passed": true,
+            "actual": 0,
+            "expected": 0
+          },
+          {
+            "name": "legacy_hmac_verify_begin",
+            "passed": true,
+            "actual": 0,
+            "expected": 0
+          },
+          {
+            "name": "legacy_hmac_verify",
+            "passed": true,
+            "actual": 0,
+            "expected": 0
+          },
+          {
+            "name": "legacy_rsa_native_factory_begin",
+            "passed": true,
+            "actual": 0,
+            "expected": 0
+          },
+          {
+            "name": "legacy_rsa_native_factory_sign",
+            "passed": true,
+            "actual": 0,
+            "expected": 0
+          },
+          {
+            "name": "legacy_rsa_signature_length",
+            "passed": true,
+            "actual": 0,
+            "expected": 0
+          },
+          {
+            "name": "legacy_rsa_signature_matches_exported_public_key",
+            "passed": true,
+            "actual": 0,
+            "expected": 0
+          },
+          {
+            "name": "selected_profile_cng_generation",
+            "passed": true,
+            "actual": 0,
+            "expected": 0
+          },
+          {
+            "name": "selected_profile_cng_reference_shape",
+            "passed": true,
+            "actual": 0,
+            "expected": 0
+          },
+          {
+            "name": "protected_hardware_authorizations_empty",
+            "passed": true,
+            "actual": 0,
+            "expected": 0
+          },
+          {
+            "name": "protected_epoch_matches_explicit_source_configuration",
+            "passed": true,
+            "actual": 0,
+            "expected": 0
+          },
+          {
+            "name": "protected_native_factory_begin",
+            "passed": true,
+            "actual": 0,
+            "expected": 0
+          },
+          {
+            "name": "protected_native_factory_sign",
+            "passed": true,
+            "actual": 0,
+            "expected": 0
+          },
+          {
+            "name": "protected_signature_length",
+            "passed": true,
+            "actual": 0,
+            "expected": 0
+          },
+          {
+            "name": "protected_signature_matches_exported_public_key",
+            "passed": true,
+            "actual": 0,
+            "expected": 0
+          },
+          {
+            "name": "cng_reference_not_accepted_by_stock_context",
+            "passed": true,
+            "actual": -33,
+            "expected": -33
+          },
+          {
+            "name": "altered_cng_reference_never_falls_back",
+            "passed": true,
+            "actual": -33,
+            "expected": -33
+          },
+          {
+            "name": "protected_missing_binding_rejected",
+            "passed": true,
+            "actual": -33,
+            "expected": -33
+          },
+          {
+            "name": "selected_profile_duplicate_certificate_fails_closed",
+            "passed": true,
+            "actual": -40,
+            "expected": -40
+          },
+          {
+            "name": "selected_profile_attestation_fails_closed",
+            "passed": true,
+            "actual": -100,
+            "expected": -100
+          },
+          {
+            "name": "new_aes_keeps_stock_blob",
+            "passed": true,
+            "actual": 0,
+            "expected": 0
+          },
+          {
+            "name": "new_hmac_keeps_stock_blob",
+            "passed": true,
+            "actual": 0,
+            "expected": 0
+          },
+          {
+            "name": "other_rsa_profile_keeps_stock_blob",
+            "passed": true,
+            "actual": 0,
+            "expected": 0
+          },
+          {
+            "name": "new_software_rsa_readable_by_stock",
+            "passed": true,
+            "actual": 0,
+            "expected": 0
+          },
+          {
+            "name": "enforcement_policy_instance_preserved",
+            "passed": true,
+            "actual": 0,
+            "expected": 0
+          },
+          {
+            "name": "shared_hmac_software_policy_parameters",
+            "passed": true,
+            "actual": 0,
+            "expected": 0
+          },
+          {
+            "name": "shared_hmac_uses_same_software_policy",
+            "passed": true,
+            "actual": 0,
+            "expected": 0
+          },
+          {
+            "name": "shared_hmac_check_sha256_length",
+            "passed": true,
+            "actual": 0,
+            "expected": 0
+          },
+          {
+            "name": "protected_old_epoch_requires_upgrade",
+            "passed": true,
+            "actual": -62,
+            "expected": -62
+          },
+          {
+            "name": "legacy_old_epoch_requires_upgrade",
+            "passed": true,
+            "actual": -62,
+            "expected": -62
+          },
+          {
+            "name": "legacy_software_epoch_upgrade_preserved",
+            "passed": true,
+            "actual": 0,
+            "expected": 0
+          },
+          {
+            "name": "legacy_upgraded_blob_loads",
+            "passed": true,
+            "actual": 0,
+            "expected": 0
+          },
+          {
+            "name": "protected_epoch_upgrade_not_silently_rewritten",
+            "passed": true,
+            "actual": -62,
+            "expected": -62
+          },
+          {
+            "name": "deleted_cng_reference_never_falls_back",
+            "passed": true,
+            "actual": -33,
+            "expected": -33
+          },
+          {
+            "name": "jca_creation_datetime_generation",
+            "passed": true,
+            "actual": 0,
+            "expected": 0
+          },
+          {
+            "name": "jca_creation_datetime_keeps_cng_reference",
+            "passed": true,
+            "actual": 0,
+            "expected": 0
+          },
+          {
+            "name": "jca_creation_datetime_preserved_in_generation",
+            "passed": true,
+            "actual": 0,
+            "expected": 0
+          },
+          {
+            "name": "jca_creation_datetime_key_loads",
+            "passed": true,
+            "actual": 0,
+            "expected": 0
+          },
+          {
+            "name": "jca_creation_datetime_preserved_after_load",
+            "passed": true,
+            "actual": 0,
+            "expected": 0
+          },
+          {
+            "name": "jca_creation_datetime_certificate_self_signature_verifies",
+            "passed": true,
+            "actual": 0,
+            "expected": 0
+          },
+          {
+            "name": "jca_creation_datetime_sign_begin",
+            "passed": true,
+            "actual": 0,
+            "expected": 0
+          },
+          {
+            "name": "jca_creation_datetime_sign_finish",
+            "passed": true,
+            "actual": 0,
+            "expected": 0
+          },
+          {
+            "name": "jca_creation_datetime_operational_signature_verifies",
+            "passed": true,
+            "actual": 0,
+            "expected": 0
+          },
+          {
+            "name": "duplicate_creation_datetime_fails_closed",
+            "passed": true,
+            "actual": -40,
+            "expected": -40
+          },
+          {
+            "name": "wrong_creation_datetime_type_fails_closed",
+            "passed": true,
+            "actual": -40,
+            "expected": -40
+          },
+          {
+            "name": "negative_aidl_creation_datetime_fails_closed",
+            "passed": true,
+            "actual": -38,
+            "expected": -38
+          }
+        ]
+      },
+      "executable_sha256": "5130bd749c695ef815d6ad06d38b723399491352325fd4c7ba38a6772e2cc38b",
+      "harness_exit_code": 0
+    },
+    "keymint3_certificate_tests": {
+      "project_input_sha256": {
+        "attestation_disabled.cpp": "d87321664ba1dcddcb46290926f41e562c515b93917ae5625230d2cc998a5902",
+        "CMakeLists.txt": "517e3b2075be558c362923bf7b7776c135f2969ae2184a6ba2ee8ccebfa1079b",
+        "cng_certificate.cpp": "fb13f1d558cd19beb2115dab29863fd43235a4554cb58a993ec0541ace1f82b1",
+        "cng_certificate.h": "d3f404d741f12a2163db4b2ada02058e2b559a8e4d2584470f6d22020cc44e44",
+        "cng_key_store.cpp": "cd92bf856e37d5b321402654fd4addc53554d29fe51e5d70f5392a711b68d888",
+        "cng_key_store.h": "bb390452e2a87067717168ddcfc3b39bf1e603c0e360154e0458330af2a19db8",
+        "cng_keymint_context.cpp": "6438f3e44ea16b4d6f53cde181fb634ef0e548e9132af39ebbd5f28f1b5ca2b9",
+        "cng_keymint_context.h": "6598d91284c3093b22444c87b1e84b64c1384b478a16b5557988ddffd46fd623",
+        "cng_protocol_tests.cpp": "2a178c1ccddf5bbd5fb80a0ff33ecedbc22c15208e91818a80645b4c2499cd3e",
+        "cng_store_tests.cpp": "c25de3e65ed16e8bc2242f73a95db94d632246ff9e11cd1fca429a269b2d51fe",
+        "compat/android-base/logging.h": "cfa5fa6c31c5107e84f76b0c2870b9118031eb7323210b723b23ffbc7711595c",
+        "harness.cpp": "9f2c4d84d21281f00fb2ce5e92ce0b30767556a583da2a33d7d7a6043d782cfa",
+        "hybrid_keymint_context.cpp": "a88768bb796a972f74f5f5897c659458b859f06b86577ffaba913a8ac7f252e3",
+        "hybrid_keymint_context.h": "e9d8c2b7cac9a33dbf23f6adb9b95ab382bb8d14f189422163cd6bb43cf8b669",
+        "hybrid_keymint_tests.cpp": "5d8f5925be9539a244169df3d9fde92963f445779b544c44b624a33f7c26c14e",
+        "keymint_pipe_backend.cpp": "6aa6114baece8ed64b059f9c65253f5ebaddcf8fb0c57b03a7d764c720ea54ab",
+        "keymint3_certificate_tests.cpp": "a3db149282c64b98da2c66be97b9336ace35ecd4a667a6dd8d9d8fbf0510cc65",
+        "prepare_sources.py": "b77707036f36b550fbbdce334f6e098747dd01e9c97635f2e211ee71d9336a6b",
+        "README.md": "41f2e9a9e5618c6faaf855daaf7f0c16ef1df5daae883d840e0ddd7bb452a9a9"
+      },
+      "result": {
+        "schema_version": 1,
+        "context": "native_android_keymaster_cng",
+        "km_version": "3",
+        "message_version": 4,
+        "advertised_security_level": "SOFTWARE",
+        "aborted": false,
+        "passed": 57,
+        "failed": 0,
+        "wire_round_trips": 23,
+        "android_guest_integrated": false,
+        "android_tee_verified": false,
+        "google_attestation_verified": false,
+        "pkix_trust_established": false,
+        "zero_detections_achieved": false,
+        "cases": [
+          {
+            "name": "context_keymint_3",
+            "passed": true,
+            "actual": 0,
+            "comparison": "equal",
+            "expected": 0
+          },
+          {
+            "name": "reported_security_level_software",
+            "passed": true,
+            "actual": 0,
+            "comparison": "equal",
+            "expected": 0
+          },
+          {
+            "name": "generate_keymint3_wire_v4",
+            "passed": true,
+            "actual": 0,
+            "comparison": "equal",
+            "expected": 0
+          },
+          {
+            "name": "one_complete_der_certificate",
+            "passed": true,
+            "actual": 0,
+            "comparison": "equal",
+            "expected": 0
+          },
+          {
+            "name": "certificate_version_3",
+            "passed": true,
+            "actual": 0,
+            "comparison": "equal",
+            "expected": 0
+          },
+          {
+            "name": "self_signed_certificate_verifies",
+            "passed": true,
+            "actual": 0,
+            "comparison": "equal",
+            "expected": 0
+          },
+          {
+            "name": "custom_subject_and_issuer",
+            "passed": true,
+            "actual": 0,
+            "comparison": "equal",
+            "expected": 0
+          },
+          {
+            "name": "custom_serial",
+            "passed": true,
+            "actual": 0,
+            "comparison": "equal",
+            "expected": 0
+          },
+          {
+            "name": "custom_dates_seconds_observed",
+            "passed": true,
+            "actual": 0,
+            "comparison": "equal",
+            "expected": 0
+          },
+          {
+            "name": "pss_outer_sha256_mgf1_sha256_salt32_trailer1",
+            "passed": true,
+            "actual": 0,
+            "comparison": "equal",
+            "expected": 0
+          },
+          {
+            "name": "pss_inner_sha256_mgf1_sha256_salt32_trailer1",
+            "passed": true,
+            "actual": 0,
+            "comparison": "equal",
+            "expected": 0
+          },
+          {
+            "name": "inner_outer_algorithm_identifiers_equal",
+            "passed": true,
+            "actual": 0,
+            "comparison": "equal",
+            "expected": 0
+          },
+          {
+            "name": "android_attestation_extension_absent",
+            "passed": true,
+            "actual": 0,
+            "comparison": "equal",
+            "expected": 0
+          },
+          {
+            "name": "key_usage_critical_digital_signature_only",
+            "passed": true,
+            "actual": 0,
+            "comparison": "equal",
+            "expected": 0
+          },
+          {
+            "name": "generated_hardware_authorizations_empty",
+            "passed": true,
+            "actual": 0,
+            "comparison": "equal",
+            "expected": 0
+          },
+          {
+            "name": "generated_certificate_tags_not_authorizations",
+            "passed": true,
+            "actual": 0,
+            "comparison": "equal",
+            "expected": 0
+          },
+          {
+            "name": "get_characteristics_wire_v4",
+            "passed": true,
+            "actual": 0,
+            "comparison": "equal",
+            "expected": 0
+          },
+          {
+            "name": "loaded_hardware_authorizations_empty",
+            "passed": true,
+            "actual": 0,
+            "comparison": "equal",
+            "expected": 0
+          },
+          {
+            "name": "loaded_certificate_tags_not_authorizations",
+            "passed": true,
+            "actual": 0,
+            "comparison": "equal",
+            "expected": 0
+          },
+          {
+            "name": "loaded_software_rsa_authorization",
+            "passed": true,
+            "actual": 0,
+            "comparison": "equal",
+            "expected": 0
+          },
+          {
+            "name": "export_public_spki_wire_v4",
+            "passed": true,
+            "actual": 0,
+            "comparison": "equal",
+            "expected": 0
+          },
+          {
+            "name": "certificate_spki_matches_exported_key",
+            "passed": true,
+            "actual": 0,
+            "comparison": "equal",
+            "expected": 0
+          },
+          {
+            "name": "certificate_spki_der_equals_export",
+            "passed": true,
+            "actual": 0,
+            "comparison": "equal",
+            "expected": 0
+          },
+          {
+            "name": "begin_operational_signature_wire_v4",
+            "passed": true,
+            "actual": 0,
+            "comparison": "equal",
+            "expected": 0
+          },
+          {
+            "name": "finish_operational_signature_wire_v4",
+            "passed": true,
+            "actual": 0,
+            "comparison": "equal",
+            "expected": 0
+          },
+          {
+            "name": "operational_signature_verifies_with_certificate_key",
+            "passed": true,
+            "actual": 0,
+            "comparison": "equal",
+            "expected": 0
+          },
+          {
+            "name": "changed_operational_payload_rejected",
+            "passed": true,
+            "actual": 0,
+            "comparison": "equal",
+            "expected": 0
+          },
+          {
+            "name": "tampered_certificate_signature_parses",
+            "passed": true,
+            "actual": 0,
+            "comparison": "equal",
+            "expected": 0
+          },
+          {
+            "name": "tampered_certificate_signature_rejected",
+            "passed": true,
+            "actual": 0,
+            "comparison": "equal",
+            "expected": 0
+          },
+          {
+            "name": "certificate_trailing_der_rejected_by_strict_parser",
+            "passed": true,
+            "actual": 0,
+            "comparison": "equal",
+            "expected": 0
+          },
+          {
+            "name": "certificate_truncated_der_rejected",
+            "passed": true,
+            "actual": 0,
+            "comparison": "equal",
+            "expected": 0
+          },
+          {
+            "name": "tampered_certificate_tbs_rejected",
+            "passed": true,
+            "actual": 0,
+            "comparison": "equal",
+            "expected": 0
+          },
+          {
+            "name": "generate_default_serial_subject_explicit_dates",
+            "passed": true,
+            "actual": 0,
+            "comparison": "equal",
+            "expected": 0
+          },
+          {
+            "name": "default_serial_one",
+            "passed": true,
+            "actual": 0,
+            "comparison": "equal",
+            "expected": 0
+          },
+          {
+            "name": "default_subject_android_keystore_key",
+            "passed": true,
+            "actual": 0,
+            "comparison": "equal",
+            "expected": 0
+          },
+          {
+            "name": "caller_explicit_epoch_to_2048_dates",
+            "passed": true,
+            "actual": 0,
+            "comparison": "equal",
+            "expected": 0
+          },
+          {
+            "name": "serial_zero_container_roundtrip",
+            "passed": true,
+            "actual": 0,
+            "comparison": "equal",
+            "expected": 0
+          },
+          {
+            "name": "serial_20_bytes_high_bit_container_roundtrip",
+            "passed": true,
+            "actual": 0,
+            "comparison": "equal",
+            "expected": 0
+          },
+          {
+            "name": "serial_leading_zero_container_roundtrip",
+            "passed": true,
+            "actual": 0,
+            "comparison": "equal",
+            "expected": 0
+          },
+          {
+            "name": "missing_not_before",
+            "passed": true,
+            "actual": -80,
+            "comparison": "equal",
+            "expected": -80
+          },
+          {
+            "name": "missing_not_before_outputs_empty",
+            "passed": true,
+            "actual": 0,
+            "comparison": "equal",
+            "expected": 0
+          },
+          {
+            "name": "missing_not_after",
+            "passed": true,
+            "actual": -81,
+            "comparison": "equal",
+            "expected": -81
+          },
+          {
+            "name": "missing_not_after_outputs_empty",
+            "passed": true,
+            "actual": 0,
+            "comparison": "equal",
+            "expected": 0
+          },
+          {
+            "name": "inverted_certificate_dates",
+            "passed": true,
+            "actual": -38,
+            "comparison": "equal",
+            "expected": -38
+          },
+          {
+            "name": "inverted_certificate_dates_outputs_empty",
+            "passed": true,
+            "actual": 0,
+            "comparison": "equal",
+            "expected": 0
+          },
+          {
+            "name": "certificate_date_above_year9999",
+            "passed": true,
+            "actual": -38,
+            "comparison": "equal",
+            "expected": -38
+          },
+          {
+            "name": "certificate_date_above_year9999_outputs_empty",
+            "passed": true,
+            "actual": 0,
+            "comparison": "equal",
+            "expected": 0
+          },
+          {
+            "name": "duplicate_certificate_tag",
+            "passed": true,
+            "actual": -40,
+            "comparison": "equal",
+            "expected": -40
+          },
+          {
+            "name": "duplicate_certificate_tag_outputs_empty",
+            "passed": true,
+            "actual": 0,
+            "comparison": "equal",
+            "expected": 0
+          },
+          {
+            "name": "subject_der_trailing_data",
+            "passed": true,
+            "actual": -38,
+            "comparison": "equal",
+            "expected": -38
+          },
+          {
+            "name": "subject_der_trailing_data_outputs_empty",
+            "passed": true,
+            "actual": 0,
+            "comparison": "equal",
+            "expected": 0
+          },
+          {
+            "name": "subject_der_truncated",
+            "passed": true,
+            "actual": -38,
+            "comparison": "equal",
+            "expected": -38
+          },
+          {
+            "name": "subject_der_truncated_outputs_empty",
+            "passed": true,
+            "actual": 0,
+            "comparison": "equal",
+            "expected": 0
+          },
+          {
+            "name": "attestation_challenge_unsupported",
+            "passed": true,
+            "actual": -100,
+            "comparison": "equal",
+            "expected": -100
+          },
+          {
+            "name": "attestation_challenge_unsupported_outputs_empty",
+            "passed": true,
+            "actual": 0,
+            "comparison": "equal",
+            "expected": 0
+          },
+          {
+            "name": "attest_key_purpose_unsupported",
+            "passed": true,
+            "actual": -2,
+            "comparison": "equal",
+            "expected": -2
+          },
+          {
+            "name": "attest_key_purpose_unsupported_outputs_empty",
+            "passed": true,
+            "actual": 0,
+            "comparison": "equal",
+            "expected": 0
+          }
+        ],
+        "public_validation_sample": {
+          "certificate_der_base64": "MIIDLDCCAeCgAwIBAgICEjQwQQYJKoZIhvcNAQEKMDSgDzANBglghkgBZQMEAgEFAKEcMBoGCSqGSIb3DQEBCDANBglghkgBZQMEAgEFAKIDAgEgMBsxGTAXBgNVBAMMEEFuZHJvaWREZXZpY2VMYWIwHhcNMjMxMTE0MjIxMzIwWhcNMzAwMzE3MTc0NjQwWjAbMRkwFwYDVQQDDBBBbmRyb2lkRGV2aWNlTGFiMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAqmS0p/ZkYKU+FviWi7zrkYkzHCCobtkWofMLiHHkl8w7n6zYxq4UrUFH7zFpZlyr4MUL7NX1B44oG2LgW/6+LJCqpa2EGn9IyrLpTulAHqbFlHV82fuPsWcg5KAPOakUSmJIHip+xVZy6VW4t+WUdQfGnnNQlQbRT1zA+ZpmVbTOmJy/ABd4zxaRAvp0h3V1FGMuahGWc1Wa/Jrtsmtz4tHUidbE+pUAFRbMQRHB5lATihxrLge24wc4vuuv3A2MqB3fm/Rl1TuqsK1c+FT8kne/xnUS+PC98i12bOZrv6JYjEfRgkkJP5KV/CReT7aZsDpgXYzK6mFxCdHnLNMgwQIDAQABoxIwEDAOBgNVHQ8BAf8EBAMCB4AwQQYJKoZIhvcNAQEKMDSgDzANBglghkgBZQMEAgEFAKEcMBoGCSqGSIb3DQEBCDANBglghkgBZQMEAgEFAKIDAgEgA4IBAQBcmQR5tETZxH4flXNTTXm/F1q7V8DhHonaDPn6irYRVJ/l8jmTqZrdI8+Pp3Og2A6P+A7GiLI1IiHJJue9ZJcMMpOujJVTZxTt1M9nloevQXTue0S8DX2DH8ZmSeTtceYT9NYhOh/Irr4N2AP8tyqYBBjsvM0jMSowgmEsTHCQd/II2KhJ/jixdOcaR2iAqM8mDaJjNSsUzz8+aya3e3TWtJ4v1e1B3jOl9FsIap4mTsuoSZOqtuzx1eFwN2tc2KTJVnx19kHn6rPQ7SoAM4etrc6p1P1ShWGjZz/Z6HRZmx+Ym+SsnedRf1GYybQdx+tjtrClb8tZCy3YbENYorY8",
+          "spki_der_base64": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAqmS0p/ZkYKU+FviWi7zrkYkzHCCobtkWofMLiHHkl8w7n6zYxq4UrUFH7zFpZlyr4MUL7NX1B44oG2LgW/6+LJCqpa2EGn9IyrLpTulAHqbFlHV82fuPsWcg5KAPOakUSmJIHip+xVZy6VW4t+WUdQfGnnNQlQbRT1zA+ZpmVbTOmJy/ABd4zxaRAvp0h3V1FGMuahGWc1Wa/Jrtsmtz4tHUidbE+pUAFRbMQRHB5lATihxrLge24wc4vuuv3A2MqB3fm/Rl1TuqsK1c+FT8kne/xnUS+PC98i12bOZrv6JYjEfRgkkJP5KV/CReT7aZsDpgXYzK6mFxCdHnLNMgwQIDAQAB",
+          "payload_base64": "QW5kcm9pZERldmljZUxhYgD/",
+          "signature_base64": "XtU+c5B9qsB9jX/X+LShqZ+cLRSoUpIenLkblZxAakGd9Vboi39P7XPxrlakCL/LVgCPKhwMQP+FMo4xbzX5XpVm0gOSXsHgM7QhzRk/5XvJZUzCWG0a7i4pm+Xup4EIp7882U4kXU9CyHRLpZPnSTsumBTkxKVt2wx1KlzIeN8drL4s2HkeJ4FoWV1+2oIvISoGLlT3Fwq8VHFsPkbkiGbM/bn4J/+2v3Ow/Kk56hxYUoGlERUQvuvnPicfJS5l2hZLrbg9y2CU9Fdnhp7Ib9O4KW3s8YKVwd7eyHJD56ijbmhm+ihC8f24t1BMlwmPMYkYfFLHuW0FQt1ROkxGGw=="
+        }
+      },
+      "executable_sha256": "e78de915ea78d64342cb7b138bce2ab2f32a504e6ee585e58e8b0c58d03e17c7",
+      "harness_exit_code": 0
+    }
+  }
+}

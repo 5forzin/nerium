@@ -1,0 +1,978 @@
+{
+  "experiment": "Version 0.11 platform notification domain and independent boot/TEE audit",
+  "captured_at": "2026-10-24T23:42:49.951141+00:00",
+  "goal_zero_achieved": false,
+  "native_runtime_version": "0.11.0",
+  "kernel_sha256": "81f3eddb5ebc4ce67feff18b1933eeaee7deca532266ae61c3d428f2e59cbd11",
+  "kernel_source_proposal": {
+    "original_normalized_sha256": "dbaa4efdab114c9a2a081f672bc1d354cfb519f99d1c1a5689422fa37e2ed072",
+    "modified_sha256": "8f9431fa281235acd71de85e1cada57acdceddb3102c524ed73a0cb61a30de9d",
+    "private_flag": "0x80000000",
+    "platform_info_ioctl": "0x8010217f",
+    "initial_namespace_admin_required": true,
+    "no_new_privs_not_sufficient": true,
+    "platform_descriptor_ioctls_require_admin": true,
+    "application_filters_evaluated_first": true,
+    "normal_duplicate_listener_rule_preserved": true,
+    "platform_return_actions": [
+      "ALLOW",
+      "USER_NOTIF"
+    ],
+    "all_filters_remain_counted_and_root_metadata_reports_domain": true,
+    "runtime_verified": false
+  },
+  "kernel_export_comparison": {
+    "before": 14633,
+    "after": 14633,
+    "changes": {}
+  },
+  "kernel_contracts": {
+    "b": {
+      "platform_domain_supported": true,
+      "platform_probe_errno": 0,
+      "cases": [
+        {
+          "name": "standard_listener_capacity",
+          "passed": true,
+          "platform_notifications": 0,
+          "application_notifications": 0,
+          "errno": 16
+        },
+        {
+          "name": "unprivileged_platform_flag_rejected",
+          "passed": true,
+          "platform_notifications": 0,
+          "application_notifications": 0,
+          "errno": 16
+        },
+        {
+          "name": "separate_listener_capacity",
+          "passed": true,
+          "platform_notifications": 0,
+          "application_notifications": 0,
+          "errno": 16
+        },
+        {
+          "name": "root_metadata_and_filter_count",
+          "passed": true,
+          "platform_notifications": 0,
+          "application_notifications": 0,
+          "errno": 0
+        },
+        {
+          "name": "independent_targets",
+          "passed": true,
+          "platform_notifications": 1,
+          "application_notifications": 1,
+          "errno": 0
+        },
+        {
+          "name": "overlap_continue_order",
+          "passed": true,
+          "platform_notifications": 1,
+          "application_notifications": 1,
+          "errno": 0
+        },
+        {
+          "name": "application_errno_precedes_platform",
+          "passed": true,
+          "platform_notifications": 0,
+          "application_notifications": 0,
+          "errno": 13
+        },
+        {
+          "name": "application_trap_precedes_platform",
+          "passed": true,
+          "platform_notifications": 0,
+          "application_notifications": 0,
+          "errno": 0
+        },
+        {
+          "name": "fork_inheritance",
+          "passed": true,
+          "platform_notifications": 1,
+          "application_notifications": 0,
+          "errno": 0
+        },
+        {
+          "name": "thread_tsync",
+          "passed": true,
+          "platform_notifications": 2,
+          "application_notifications": 2,
+          "errno": 0
+        },
+        {
+          "name": "exec_inheritance",
+          "passed": true,
+          "platform_notifications": 1,
+          "application_notifications": 0,
+          "errno": 0
+        },
+        {
+          "name": "platform_atomic_fd_injection",
+          "passed": true,
+          "platform_notifications": 1,
+          "application_notifications": 0,
+          "errno": 0
+        }
+      ],
+      "passed": 12,
+      "failed": 0,
+      "unavailable": 0
+    },
+    "enabled": {
+      "platform_domain_supported": true,
+      "platform_probe_errno": 0,
+      "cases": [
+        {
+          "name": "standard_listener_capacity",
+          "passed": true,
+          "platform_notifications": 0,
+          "application_notifications": 0,
+          "errno": 16
+        },
+        {
+          "name": "unprivileged_platform_flag_rejected",
+          "passed": true,
+          "platform_notifications": 0,
+          "application_notifications": 0,
+          "errno": 16
+        },
+        {
+          "name": "separate_listener_capacity",
+          "passed": true,
+          "platform_notifications": 0,
+          "application_notifications": 0,
+          "errno": 16
+        },
+        {
+          "name": "root_metadata_and_filter_count",
+          "passed": true,
+          "platform_notifications": 0,
+          "application_notifications": 0,
+          "errno": 0
+        },
+        {
+          "name": "independent_targets",
+          "passed": true,
+          "platform_notifications": 1,
+          "application_notifications": 1,
+          "errno": 0
+        },
+        {
+          "name": "overlap_continue_order",
+          "passed": true,
+          "platform_notifications": 1,
+          "application_notifications": 1,
+          "errno": 0
+        },
+        {
+          "name": "application_errno_precedes_platform",
+          "passed": true,
+          "platform_notifications": 0,
+          "application_notifications": 0,
+          "errno": 13
+        },
+        {
+          "name": "application_trap_precedes_platform",
+          "passed": true,
+          "platform_notifications": 0,
+          "application_notifications": 0,
+          "errno": 0
+        },
+        {
+          "name": "fork_inheritance",
+          "passed": true,
+          "platform_notifications": 1,
+          "application_notifications": 0,
+          "errno": 0
+        },
+        {
+          "name": "thread_tsync",
+          "passed": true,
+          "platform_notifications": 2,
+          "application_notifications": 2,
+          "errno": 0
+        },
+        {
+          "name": "exec_inheritance",
+          "passed": true,
+          "platform_notifications": 1,
+          "application_notifications": 0,
+          "errno": 0
+        },
+        {
+          "name": "platform_atomic_fd_injection",
+          "passed": true,
+          "platform_notifications": 1,
+          "application_notifications": 0,
+          "errno": 0
+        }
+      ],
+      "passed": 12,
+      "failed": 0,
+      "unavailable": 0,
+      "binary_sha256": "6848a5743c2791ec24a5c6b82da43854c6d064477017e9d671e04e6764aaa31f"
+    }
+  },
+  "regressions": {
+    "proc99": {
+      "apk_sha256": "99901e704d769e519741824d62f15286f68e0654f4223c0681083903ca98c9ab",
+      "installed_abi": "x86_64",
+      "measurements": {
+        "before": {
+          "detected": 0,
+          "unavailable": 0,
+          "total": 99
+        },
+        "platform": {
+          "detected": 0,
+          "unavailable": 0,
+          "total": 99
+        },
+        "restart": {
+          "detected": 0,
+          "unavailable": 0,
+          "total": 99
+        }
+      }
+    },
+    "raw79": {
+      "apk_sha256": "ee4e8cc35ef306e1626472ffb3d9d53fe0b45036a4a89dce31020ed489268f37",
+      "installed_abi": "x86_64",
+      "measurements": {
+        "before": {
+          "detected": 0,
+          "unavailable": 0,
+          "total": 79
+        },
+        "platform": {
+          "detected": 0,
+          "unavailable": 0,
+          "total": 79
+        },
+        "restart": {
+          "detected": 0,
+          "unavailable": 0,
+          "total": 79
+        }
+      }
+    },
+    "probe54": {
+      "apk_sha256": "ab4dafd201527cf0f72a1c2ff4f9bd41fd4dbaa921d336d1983319ac611554ed",
+      "installed_abi": "arm64-v8a",
+      "measurements": {
+        "before": {
+          "detected": 0,
+          "unavailable": 0,
+          "total": 54
+        },
+        "platform": {
+          "detected": 0,
+          "unavailable": 0,
+          "total": 54
+        },
+        "restart": {
+          "detected": 0,
+          "unavailable": 0,
+          "total": 54
+        }
+      }
+    }
+  },
+  "reveny": {
+    "before": {
+      "captured_at": "2026-10-24T23:04:13.6246288+00:00",
+      "package": "com.reveny.emulator.detection.sample",
+      "apk_sha256": "9f064f3968e9a224612810ec2b6078872f479930ce4dd0fc1f7132b08c6b3f5b",
+      "process_id": 9367,
+      "detected": false,
+      "finding_count": 0,
+      "findings": [],
+      "ui_result": "Nothing detected!",
+      "native_log": "--------- beginning of main\n10-24 20:04:08.388  9367  9367 I EmulatorDetection: isEmulator: false, result: "
+    },
+    "platform": {
+      "captured_at": "2026-10-24T23:35:07.2349925+00:00",
+      "package": "com.reveny.emulator.detection.sample",
+      "apk_sha256": "9f064f3968e9a224612810ec2b6078872f479930ce4dd0fc1f7132b08c6b3f5b",
+      "process_id": 5607,
+      "detected": false,
+      "finding_count": 0,
+      "findings": [],
+      "ui_result": "Nothing detected!",
+      "native_log": "--------- beginning of main\n10-24 20:35:01.678  5607  5607 I EmulatorDetection: isEmulator: false, result: "
+    },
+    "restart": {
+      "captured_at": "2026-10-24T23:38:08.2706294+00:00",
+      "package": "com.reveny.emulator.detection.sample",
+      "apk_sha256": "9f064f3968e9a224612810ec2b6078872f479930ce4dd0fc1f7132b08c6b3f5b",
+      "process_id": 4389,
+      "detected": false,
+      "finding_count": 0,
+      "findings": [],
+      "ui_result": "Nothing detected!",
+      "native_log": "--------- beginning of main\n10-24 20:38:03.457  4389  4389 I EmulatorDetection: isEmulator: false, result: "
+    }
+  },
+  "duck": {
+    "before": {
+      "report": "strict-v13-duck-before.json",
+      "statistics": {
+        "Danger": 2,
+        "Warning": 3,
+        "Ready": 20,
+        "Pending": 0
+      },
+      "modules": [
+        {
+          "severity": "DANGER",
+          "detector": "Bootloader",
+          "verdict": "6 critical boot integrity signal(s)"
+        },
+        {
+          "severity": "DANGER",
+          "detector": "TEE",
+          "verdict": "Hardware-backed local verification was not established"
+        },
+        {
+          "severity": "WARNING",
+          "detector": "ADB Runtime",
+          "verdict": "ADB enabled"
+        },
+        {
+          "severity": "WARNING",
+          "detector": "Dangerous Apps",
+          "verdict": "Platform behavior mismatch observed"
+        },
+        {
+          "severity": "WARNING",
+          "detector": "SELinux",
+          "verdict": "Enforcing with recognized privileged contexts"
+        },
+        {
+          "severity": "INFO",
+          "detector": "Custom ROM",
+          "verdict": "Custom ROM scan has reduced coverage"
+        },
+        {
+          "severity": "INFO",
+          "detector": "Kernel Check",
+          "verdict": "CVE patch state is informational"
+        },
+        {
+          "severity": "INFO",
+          "detector": "LSPosed",
+          "verdict": "LSPosed scan has reduced coverage"
+        },
+        {
+          "severity": "INFO",
+          "detector": "Location Risk",
+          "verdict": "No local contract mismatch observed"
+        },
+        {
+          "severity": "INFO",
+          "detector": "Mount",
+          "verdict": "Mount observation coverage is limited"
+        },
+        {
+          "severity": "INFO",
+          "detector": "Native Root",
+          "verdict": "Native root scan has reduced coverage"
+        },
+        {
+          "severity": "INFO",
+          "detector": "Network Risk",
+          "verdict": "Network context collected"
+        },
+        {
+          "severity": "INFO",
+          "detector": "SU",
+          "verdict": "No root indicators"
+        },
+        {
+          "severity": "INFO",
+          "detector": "System Properties",
+          "verdict": "System property scan has reduced coverage"
+        },
+        {
+          "severity": "INFO",
+          "detector": "Virtualization",
+          "verdict": "Virtualization scan has reduced coverage"
+        },
+        {
+          "severity": "INFO",
+          "detector": "Zygote heap residue",
+          "verdict": "No target trace observed"
+        },
+        {
+          "severity": "CLEAR",
+          "detector": "Memory",
+          "verdict": "No hook-like memory signals"
+        },
+        {
+          "severity": "CLEAR",
+          "detector": "Play Integrity Fix",
+          "verdict": "No Play Integrity residue surfaced"
+        },
+        {
+          "severity": "CLEAR",
+          "detector": "Root Managers",
+          "verdict": "No root manager apps"
+        },
+        {
+          "severity": "CLEAR",
+          "detector": "Zygisk",
+          "verdict": "No Zygisk runtime signal"
+        }
+      ],
+      "export_sha256": "ef1b0f282e52bed533368fcac8694894609343422a896209451ad94fb37bd680"
+    },
+    "kernel-legacy": {
+      "report": "strict-v13-duck-kernel-legacy.json",
+      "statistics": {
+        "Danger": 2,
+        "Warning": 3,
+        "Ready": 20,
+        "Pending": 0
+      },
+      "modules": [
+        {
+          "severity": "DANGER",
+          "detector": "Bootloader",
+          "verdict": "6 critical boot integrity signal(s)"
+        },
+        {
+          "severity": "DANGER",
+          "detector": "TEE",
+          "verdict": "Hardware-backed local verification was not established"
+        },
+        {
+          "severity": "WARNING",
+          "detector": "ADB Runtime",
+          "verdict": "ADB enabled"
+        },
+        {
+          "severity": "WARNING",
+          "detector": "Dangerous Apps",
+          "verdict": "Platform behavior mismatch observed"
+        },
+        {
+          "severity": "WARNING",
+          "detector": "SELinux",
+          "verdict": "Enforcing with recognized privileged contexts"
+        },
+        {
+          "severity": "INFO",
+          "detector": "Custom ROM",
+          "verdict": "Custom ROM scan has reduced coverage"
+        },
+        {
+          "severity": "INFO",
+          "detector": "Kernel Check",
+          "verdict": "CVE patch state is informational"
+        },
+        {
+          "severity": "INFO",
+          "detector": "LSPosed",
+          "verdict": "LSPosed scan has reduced coverage"
+        },
+        {
+          "severity": "INFO",
+          "detector": "Location Risk",
+          "verdict": "No local contract mismatch observed"
+        },
+        {
+          "severity": "INFO",
+          "detector": "Native Root",
+          "verdict": "Native root scan has reduced coverage"
+        },
+        {
+          "severity": "INFO",
+          "detector": "Network Risk",
+          "verdict": "Network context collected"
+        },
+        {
+          "severity": "INFO",
+          "detector": "SU",
+          "verdict": "No root indicators"
+        },
+        {
+          "severity": "INFO",
+          "detector": "System Properties",
+          "verdict": "System property scan has reduced coverage"
+        },
+        {
+          "severity": "INFO",
+          "detector": "Virtualization",
+          "verdict": "Virtualization scan has reduced coverage"
+        },
+        {
+          "severity": "INFO",
+          "detector": "Zygote heap residue",
+          "verdict": "No target trace observed"
+        },
+        {
+          "severity": "CLEAR",
+          "detector": "Memory",
+          "verdict": "No hook-like memory signals"
+        },
+        {
+          "severity": "CLEAR",
+          "detector": "Mount",
+          "verdict": "No suspicious mount-layer signal"
+        },
+        {
+          "severity": "CLEAR",
+          "detector": "Play Integrity Fix",
+          "verdict": "No Play Integrity residue surfaced"
+        },
+        {
+          "severity": "CLEAR",
+          "detector": "Root Managers",
+          "verdict": "No root manager apps"
+        },
+        {
+          "severity": "CLEAR",
+          "detector": "Zygisk",
+          "verdict": "No Zygisk runtime signal"
+        }
+      ],
+      "export_sha256": "f61244e86660d72b5877836f760c2772ef35c179af2ef3caf113f9e7828af86a"
+    },
+    "platform": {
+      "report": "strict-v13-duck-platform.json",
+      "statistics": {
+        "Danger": 2,
+        "Warning": 2,
+        "Ready": 20,
+        "Pending": 0
+      },
+      "modules": [
+        {
+          "severity": "DANGER",
+          "detector": "Bootloader",
+          "verdict": "6 critical boot integrity signal(s)"
+        },
+        {
+          "severity": "DANGER",
+          "detector": "TEE",
+          "verdict": "Hardware-backed local verification was not established"
+        },
+        {
+          "severity": "WARNING",
+          "detector": "ADB Runtime",
+          "verdict": "ADB enabled"
+        },
+        {
+          "severity": "WARNING",
+          "detector": "SELinux",
+          "verdict": "Enforcing with recognized privileged contexts"
+        },
+        {
+          "severity": "INFO",
+          "detector": "Custom ROM",
+          "verdict": "Custom ROM scan has reduced coverage"
+        },
+        {
+          "severity": "INFO",
+          "detector": "Dangerous Apps",
+          "verdict": "Behavior checks incomplete"
+        },
+        {
+          "severity": "INFO",
+          "detector": "Kernel Check",
+          "verdict": "CVE patch state is informational"
+        },
+        {
+          "severity": "INFO",
+          "detector": "LSPosed",
+          "verdict": "LSPosed scan has reduced coverage"
+        },
+        {
+          "severity": "INFO",
+          "detector": "Location Risk",
+          "verdict": "No local contract mismatch observed"
+        },
+        {
+          "severity": "INFO",
+          "detector": "Native Root",
+          "verdict": "Native root scan has reduced coverage"
+        },
+        {
+          "severity": "INFO",
+          "detector": "Network Risk",
+          "verdict": "Network context collected"
+        },
+        {
+          "severity": "INFO",
+          "detector": "SU",
+          "verdict": "No root indicators"
+        },
+        {
+          "severity": "INFO",
+          "detector": "System Properties",
+          "verdict": "System property scan has reduced coverage"
+        },
+        {
+          "severity": "INFO",
+          "detector": "Virtualization",
+          "verdict": "Virtualization scan has reduced coverage"
+        },
+        {
+          "severity": "INFO",
+          "detector": "Zygote heap residue",
+          "verdict": "No target trace observed"
+        },
+        {
+          "severity": "CLEAR",
+          "detector": "Memory",
+          "verdict": "No hook-like memory signals"
+        },
+        {
+          "severity": "CLEAR",
+          "detector": "Mount",
+          "verdict": "No suspicious mount-layer signal"
+        },
+        {
+          "severity": "CLEAR",
+          "detector": "Play Integrity Fix",
+          "verdict": "No Play Integrity residue surfaced"
+        },
+        {
+          "severity": "CLEAR",
+          "detector": "Root Managers",
+          "verdict": "No root manager apps"
+        },
+        {
+          "severity": "CLEAR",
+          "detector": "Zygisk",
+          "verdict": "No Zygisk runtime signal"
+        }
+      ],
+      "export_sha256": "460890a6287cf5ff9fe253c7e6c31e5955d931442415df85c99914fc24c168b4"
+    },
+    "offline": {
+      "report": "strict-v13-duck-offline.json",
+      "statistics": {
+        "Danger": 2,
+        "Warning": 1,
+        "Ready": 20,
+        "Pending": 0
+      },
+      "modules": [
+        {
+          "severity": "DANGER",
+          "detector": "Bootloader",
+          "verdict": "6 critical boot integrity signal(s)"
+        },
+        {
+          "severity": "DANGER",
+          "detector": "TEE",
+          "verdict": "Hardware-backed local verification was not established"
+        },
+        {
+          "severity": "WARNING",
+          "detector": "SELinux",
+          "verdict": "Enforcing with recognized privileged contexts"
+        },
+        {
+          "severity": "INFO",
+          "detector": "Custom ROM",
+          "verdict": "Custom ROM scan has reduced coverage"
+        },
+        {
+          "severity": "INFO",
+          "detector": "Dangerous Apps",
+          "verdict": "Behavior checks incomplete"
+        },
+        {
+          "severity": "INFO",
+          "detector": "Kernel Check",
+          "verdict": "CVE patch state is informational"
+        },
+        {
+          "severity": "INFO",
+          "detector": "LSPosed",
+          "verdict": "LSPosed scan has reduced coverage"
+        },
+        {
+          "severity": "INFO",
+          "detector": "Location Risk",
+          "verdict": "No local contract mismatch observed"
+        },
+        {
+          "severity": "INFO",
+          "detector": "Native Root",
+          "verdict": "Native root scan has reduced coverage"
+        },
+        {
+          "severity": "INFO",
+          "detector": "Network Risk",
+          "verdict": "Network context collected"
+        },
+        {
+          "severity": "INFO",
+          "detector": "SU",
+          "verdict": "No root indicators"
+        },
+        {
+          "severity": "INFO",
+          "detector": "System Properties",
+          "verdict": "System property scan has reduced coverage"
+        },
+        {
+          "severity": "INFO",
+          "detector": "Virtualization",
+          "verdict": "Virtualization scan has reduced coverage"
+        },
+        {
+          "severity": "INFO",
+          "detector": "Zygote heap residue",
+          "verdict": "No target trace observed"
+        },
+        {
+          "severity": "CLEAR",
+          "detector": "ADB Runtime",
+          "verdict": "ADB state consistent"
+        },
+        {
+          "severity": "CLEAR",
+          "detector": "Memory",
+          "verdict": "No hook-like memory signals"
+        },
+        {
+          "severity": "CLEAR",
+          "detector": "Mount",
+          "verdict": "No suspicious mount-layer signal"
+        },
+        {
+          "severity": "CLEAR",
+          "detector": "Play Integrity Fix",
+          "verdict": "No Play Integrity residue surfaced"
+        },
+        {
+          "severity": "CLEAR",
+          "detector": "Root Managers",
+          "verdict": "No root manager apps"
+        },
+        {
+          "severity": "CLEAR",
+          "detector": "Zygisk",
+          "verdict": "No Zygisk runtime signal"
+        }
+      ],
+      "export_sha256": "c457b9236f6fd47804c787aaf35adf9b8c855e735a68772a6019ca476e6c4d12"
+    }
+  },
+  "boundaries": {
+    "platform": {
+      "captured_at": "2026-10-24T23:34:58.3650498Z",
+      "process_id": 5460,
+      "app_mount_namespace": "mnt:[4026532997]",
+      "zygote_mount_namespace": "mnt:[4026532924]",
+      "outside_has_hypervisor": true,
+      "app_namespace_has_hypervisor": false,
+      "outside_hardware": "ranchu",
+      "outside_qemu": "1",
+      "outside_uname": "x86_64",
+      "unhooked_namespace_uname": "x86_64",
+      "no_new_privs": 0,
+      "seccomp_filters": 2,
+      "kernel_maps_translation_visible": true,
+      "kernel_maps_module_visible": true,
+      "kernel_maps_staged_runtime_visible": true,
+      "kernel_mountinfo_profile_visible": true,
+      "kernel_mountinfo_magisk_visible": false,
+      "outside_properties": {
+        "ro.product.cpu.abilist": "x86_64,arm64-v8a",
+        "ro.dalvik.vm.native.bridge": "libndk_translation.so",
+        "ro.dalvik.vm.isa.arm64": "x86_64",
+        "ro.build.fingerprint": "google/sdk_gphone64_x86_64/emu64xa:14/UE1A.230829.050/12077443:userdebug/dev-keys"
+      },
+      "app_namespace_hardware": "shiba",
+      "selinux": "Enforcing",
+      "namespace_log": "--------- beginning of main\n10-24 20:34:52.861  5460  5460 I DeviceLabNamespace: profile mount status=0 pid=5460\n10-24 20:34:52.922  5460  5460 I DeviceLabNamespace: uname broker status=0 pid=5460\n10-24 20:34:52.922  5460  5460 I DeviceLabNamespace: notification domain=platform pid=5460\n10-24 20:34:52.922  5460  5460 I DeviceLabNamespace: proc broker enabled=1\n10-24 20:34:53.326  5460  5460 I DeviceLabNamespace: property remap status=0 pid=5460"
+    },
+    "restart": {
+      "captured_at": "2026-10-24T23:37:59.4547781Z",
+      "process_id": 3985,
+      "app_mount_namespace": "mnt:[4026532992]",
+      "zygote_mount_namespace": "mnt:[4026532924]",
+      "outside_has_hypervisor": true,
+      "app_namespace_has_hypervisor": false,
+      "outside_hardware": "ranchu",
+      "outside_qemu": "1",
+      "outside_uname": "x86_64",
+      "unhooked_namespace_uname": "x86_64",
+      "no_new_privs": 0,
+      "seccomp_filters": 2,
+      "kernel_maps_translation_visible": true,
+      "kernel_maps_module_visible": true,
+      "kernel_maps_staged_runtime_visible": true,
+      "kernel_mountinfo_profile_visible": true,
+      "kernel_mountinfo_magisk_visible": false,
+      "outside_properties": {
+        "ro.product.cpu.abilist": "x86_64,arm64-v8a",
+        "ro.dalvik.vm.native.bridge": "libndk_translation.so",
+        "ro.dalvik.vm.isa.arm64": "x86_64",
+        "ro.build.fingerprint": "google/sdk_gphone64_x86_64/emu64xa:14/UE1A.230829.050/12077443:userdebug/dev-keys"
+      },
+      "app_namespace_hardware": "shiba",
+      "selinux": "Enforcing",
+      "namespace_log": "--------- beginning of main\n10-24 20:37:53.381  3985  3985 I DeviceLabNamespace: profile mount status=0 pid=3985\n10-24 20:37:53.449  3985  3985 I DeviceLabNamespace: uname broker status=0 pid=3985\n10-24 20:37:53.449  3985  3985 I DeviceLabNamespace: notification domain=platform pid=3985\n10-24 20:37:53.449  3985  3985 I DeviceLabNamespace: proc broker enabled=1\n10-24 20:37:53.933  3985  3985 I DeviceLabNamespace: property remap status=0 pid=3985"
+    }
+  },
+  "runtime_audit": {
+    "captured_at": "2026-10-24T23:42:20.7554030+00:00",
+    "installed_apk_sha256": "36c6c59b25ffdcd49eb65015bd1225f0065c38093fbb23a387b22a693d52b781",
+    "built_apk_sha256": "36c6c59b25ffdcd49eb65015bd1225f0065c38093fbb23a387b22a693d52b781",
+    "installed_namespace_sha256": "363183c50b721550bed17feaadc4993e6f8995f64a6e99c695cc48393beb30c0",
+    "boot_id": "27e531fe-772c-4ef2-bfb7-e45f35c28b35",
+    "activation_boot_id": "27e531fe-772c-4ef2-bfb7-e45f35c28b35",
+    "adbd": "running",
+    "adb_enabled": "0",
+    "auth": "1",
+    "kernel": "Linux localhost 6.1.23-android14-4-00257-g7e35917775b8-ab9964412 #4 SMP PREEMPT Sat Oct 24 23:26:40 UTC 2026 x86_64 Toybox",
+    "native_scope": "dev.androidlab.probe\ndev.androidlab.rawprobe\ndev.androidlab.procprobe\ncom.eltavine.duckdetector\ncom.reveny.emulator.detection.sample\ncom.framgia.example.emulatordetector\ncom.felhr.emulatordetector\ncom.reveny.nativecheck\nicu.nullptr.nativetest\nio.github.vvb2060.nativedetector",
+    "native_runtime_scope": "dev.androidlab.probe\ndev.androidlab.rawprobe\ndev.androidlab.procprobe\ncom.eltavine.duckdetector\ncom.reveny.emulator.detection.sample\ncom.framgia.example.emulatordetector\ncom.felhr.emulatordetector\ncom.reveny.nativecheck\nicu.nullptr.nativetest\nio.github.vvb2060.nativedetector",
+    "restrict_isolated_proc": true,
+    "built_namespace_sha256": "363183c50b721550bed17feaadc4993e6f8995f64a6e99c695cc48393beb30c0",
+    "adb_root": "0",
+    "shell_uid": "2000"
+  },
+  "attestation_audit": {
+    "report": "strict-v13-attestation-platform.json",
+    "report_sha256": "e66833ca1d7cdfd9ee5ece42d0dfe206598450840f79ad15cb6f954903d7cb70",
+    "external_root_snapshot_sha256": "b79beef96dd68073f1975bab90970ae85d1ae56d451a819ece6bff3d4e253ab4",
+    "external_root_count": 2,
+    "certificate_signatures_verified": true,
+    "nonce_binding_verified": true,
+    "key_possession_verified": true,
+    "root_sha256": "a96496be813505610011960ca9f3f5df818b36f14ab121d26f4517cb04d291c0",
+    "root_subject": "O=Google Test LLC,CN=Droid Unregistered Device CA",
+    "signed_claims": {
+      "attestation_version": 300,
+      "attestation_security_level": 0,
+      "keymaster_version": 300,
+      "keymaster_security_level": 0,
+      "root_of_trust": {
+        "authorization_list": "software",
+        "verified_boot_key": "0000000000000000000000000000000000000000000000000000000000000000",
+        "device_locked": false,
+        "verified_boot_state": 2,
+        "verified_boot_hash": "0000000000000000000000000000000000000000000000000000000000000000"
+      }
+    },
+    "rkp_metadata": {
+      "attestation_certificate_indices_zero_based": [
+        0
+      ],
+      "provisioning_certificate_indices_zero_based": [
+        1,
+        2
+      ],
+      "nearest_root_provisioning_adjacent_to_attestation": false,
+      "root_public_key_matches_external_snapshot": false,
+      "scope": "Extension placement and root matching only; provisioning contents are not authenticated here."
+    },
+    "prerequisites": {
+      "root_certificate_in_external_snapshot": false,
+      "root_public_key_in_external_snapshot": false,
+      "attestation_security_level_is_hardware": false,
+      "keymaster_security_level_is_hardware": false,
+      "root_of_trust_is_hardware_enforced": false,
+      "attested_device_is_locked": false,
+      "attested_boot_is_verified": false,
+      "attested_boot_key_is_nonzero": false,
+      "attested_boot_hash_is_nonzero": false
+    },
+    "failed_prerequisites": [
+      "root_certificate_in_external_snapshot",
+      "root_public_key_in_external_snapshot",
+      "attestation_security_level_is_hardware",
+      "keymaster_security_level_is_hardware",
+      "root_of_trust_is_hardware_enforced",
+      "attested_device_is_locked",
+      "attested_boot_is_verified",
+      "attested_boot_key_is_nonzero",
+      "attested_boot_hash_is_nonzero"
+    ],
+    "revocation_checked": false,
+    "full_pkix_path_validation_performed": false,
+    "manufacturer_trust": "not_established",
+    "scope": "Diagnostic prerequisite audit; matching an anchor alone does not establish hardware trust."
+  },
+  "attestation_controls": {
+    "cases": [
+      {
+        "case": "test_ca_not_google_anchor",
+        "passed": true
+      },
+      {
+        "case": "matching_test_anchor_does_not_establish_hardware_trust",
+        "passed": true
+      },
+      {
+        "case": "unsigned_hardware_claim_rejected",
+        "passed": true
+      },
+      {
+        "case": "empty_anchor_snapshot_rejected",
+        "passed": true
+      }
+    ],
+    "passed": 4,
+    "failed": 0
+  },
+  "official_root_snapshot": {
+    "captured_at": "2026-10-24T23:36:31.6625847+00:00",
+    "source": "https://android.googleapis.com/attestation/root",
+    "documentation": "https://developer.android.com/privacy-and-security/security-key-attestation",
+    "sha256": "b79beef96dd68073f1975bab90970ae85d1ae56d451a819ece6bff3d4e253ab4",
+    "root_count": 2
+  },
+  "offline_window": {
+    "sample_count": 36,
+    "all_adbd_stopped_and_mtp": true,
+    "restored": {
+      "time_s": 1792885284,
+      "adb_enabled": "0",
+      "adbd": "running",
+      "persist_usb": "mtp",
+      "runtime_usb": "mtp",
+      "usb_state": "mtp",
+      "adb_root": "0"
+    }
+  },
+  "remaining": {
+    "danger": [
+      "Bootloader: signed unlocked/unverified software RootOfTrust with zero boot key/hash",
+      "TEE: software tier, test CA and provisioning consistency reviews"
+    ],
+    "warning_active_network_mode": [
+      "ADB Runtime: actual active authenticated network daemon",
+      "SELinux: actual Magisk contexts remain in the bootstrap policy"
+    ],
+    "warning_offline_window": [
+      "SELinux: actual Magisk contexts remain in the bootstrap policy"
+    ]
+  },
+  "coverage_limits": [
+    "Restricted isolated READPROC visibility remains enabled, so cross-process mount observation is narrower.",
+    "Frozen Duck is x86_64; its ARM-only assembly and sacrificial checks remain unsupported.",
+    "LSPosed native heap and native dedicated SELinux lookup remain unavailable; the Java carrier is trusted with passing controls.",
+    "System Properties retains the original raw property-area and boot-parameter limitations; MTP itself is observed across three sources.",
+    "No physical-device identity, Play Integrity result or manufacturer hardware trust was established.",
+    "Dangerous Apps is INFO because its permission-visibility experiment is unsupported on Android 14; the seccomp listener test itself completed all 10000 notifications.",
+    "The custom kernel is an experimental extension. Passing the pinned suite does not establish stock behavior, physical identity or universal nondetection.",
+    "The attestation audit checks prerequisites, not a complete PKIX/revocation trust decision."
+  ],
+  "rejected_attempts": [
+    {
+      "report": "strict-v13-platform-contract-after.json",
+      "reason": "Revision A functional cases passed; metadata fixture required disabled CHECKPOINT_RESTORE. Revision B uses privileged descriptor metadata."
+    }
+  ],
+  "other_avd": "Port 5554 was not modified or restarted."
+}

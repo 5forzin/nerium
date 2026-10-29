@@ -1,0 +1,32 @@
+[
+  {
+    "file": "worker-once.json",
+    "status": {
+      "session_id": "7ee4750f030945d1a3e012c7d29d0ae1",
+      "worker_uid": "worker_9dd7163104dd48b395599be7",
+      "expires_at_ms": 1793041284120,
+      "revoked": true,
+      "expired": false
+    }
+  },
+  {
+    "file": "worker-persistent.json",
+    "status": {
+      "session_id": "8483cf93f31f4b6dbf4477a1fa909e10",
+      "worker_uid": "worker_d96fd2ba488146498945644a",
+      "expires_at_ms": 1793041410163,
+      "revoked": true,
+      "expired": false
+    }
+  },
+  {
+    "file": "worker-validation.json",
+    "status": {
+      "session_id": "3c005e94cd204fbbb9c812ef008deaec",
+      "worker_uid": "worker_40d6cb8b2a884f67a81efc38",
+      "expires_at_ms": 1793041715772,
+      "revoked": true,
+      "expired": false
+    }
+  }
+]

@@ -1,0 +1,99 @@
+{
+  "recorded_at": "2026-10-26T18:47:37.7996664+00:00",
+  "mode": "once",
+  "startup": {
+    "pair_total_ms": 10954,
+    "execution_mode": "once",
+    "service_pid": null,
+    "service_startup_ms": null
+  },
+  "samples": [
+    {
+      "operation": "echo_sha256",
+      "sample": 1,
+      "request_id": "ffcfa8a76ab44bf9805d6c5e2f8b1a72",
+      "client_elapsed_ms": 7240,
+      "broker_observed_elapsed_ms": 2458,
+      "execution_elapsed_ms": 7,
+      "host_timings": {
+        "host_total_ms": 6323,
+        "oauth_admin_ms": 1155,
+        "oauth_decoder_ms": 0,
+        "http_total_ms": 4458,
+        "http_requests": 8,
+        "decode_api_ms": 0,
+        "cleanup_ms": 2121
+      },
+      "cleanup_state": "completed",
+      "service_metrics": {},
+      "requester_integrity_verified": false,
+      "verification_state": "verified_remote_result"
+    },
+    {
+      "operation": "echo_sha256",
+      "sample": 2,
+      "request_id": "f50bf9b480304f00b1aa219ac29046fc",
+      "client_elapsed_ms": 11364,
+      "broker_observed_elapsed_ms": 5245,
+      "execution_elapsed_ms": 5,
+      "host_timings": {
+        "host_total_ms": 10306,
+        "oauth_admin_ms": 1143,
+        "oauth_decoder_ms": 0,
+        "http_total_ms": 7428,
+        "http_requests": 12,
+        "decode_api_ms": 0,
+        "cleanup_ms": 3334
+      },
+      "cleanup_state": "completed",
+      "service_metrics": {},
+      "requester_integrity_verified": false,
+      "verification_state": "verified_remote_result"
+    },
+    {
+      "operation": "play_integrity",
+      "sample": 1,
+      "request_id": "53e79b3afbc3420eb65e736ac84f95b4",
+      "client_elapsed_ms": 15527,
+      "broker_observed_elapsed_ms": 9647,
+      "execution_elapsed_ms": 1148,
+      "host_timings": {
+        "host_total_ms": 14531,
+        "oauth_admin_ms": 1176,
+        "oauth_decoder_ms": 1688,
+        "http_total_ms": 8563,
+        "http_requests": 18,
+        "decode_api_ms": 237,
+        "cleanup_ms": 1107
+      },
+      "cleanup_state": "completed",
+      "service_metrics": {},
+      "requester_integrity_verified": false,
+      "verification_state": "verified_remote_result"
+    },
+    {
+      "operation": "play_integrity",
+      "sample": 2,
+      "request_id": "247f9f4adc044a0d91c39b510791b803",
+      "client_elapsed_ms": 16575,
+      "broker_observed_elapsed_ms": 11224,
+      "execution_elapsed_ms": 962,
+      "host_timings": {
+        "host_total_ms": 16030,
+        "oauth_admin_ms": 1181,
+        "oauth_decoder_ms": 1669,
+        "http_total_ms": 11672,
+        "http_requests": 12,
+        "decode_api_ms": 302,
+        "cleanup_ms": 1072
+      },
+      "cleanup_state": "completed",
+      "service_metrics": {},
+      "requester_integrity_verified": false,
+      "verification_state": "verified_remote_result"
+    }
+  ],
+  "worker_session_revoked": true,
+  "physical_worker": false,
+  "zero_detections_achieved": false
+}

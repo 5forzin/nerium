@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "request_id": "169f6b180fc64de680eedd5045720543",
+  "request_sha256": "bae00de49ae2e92a48e7758b2a8fb0a99e7b4342fbe1243e469166f556679e6f",
+  "challenge_sha256": "ec8227b56252962f1ef9f6ca5b2396782116079470cf90719c2de8110e10ca23",
+  "operation": "echo_sha256",
+  "origin": "cooperative_remote_worker",
+  "requester_integrity_verified": false,
+  "verification_state": "failed",
+  "error_code": "TLS_REJECTED",
+  "client_elapsed_ms": 144
+}

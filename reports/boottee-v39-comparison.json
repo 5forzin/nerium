@@ -1,0 +1,120 @@
+{
+  "schema_version": 1,
+  "recorded_at": "2026-10-26T16:35:19.090668-03:00",
+  "scope": "Offline Android boot-attestation implementation audit and local Windows VBS claim controls",
+  "android_before_after": {
+    "implementation_changed": false,
+    "avds_started": false,
+    "fresh_detector_run": false,
+    "bootloader_cleared": false,
+    "tee_cleared": false,
+    "zero_detections_achieved": false
+  },
+  "offline_findings": {
+    "getter_reads_configured_boot_data": false,
+    "boot_state": "UNVERIFIED",
+    "device_locked": false,
+    "boot_key_and_hash_zero_bytes": 32,
+    "factory_semantics_match_pinned_aosp": true,
+    "exact_source_build_commit_proven": false,
+    "runtime_loaded_library_verified": false,
+    "external_vendor_branch_count": 2,
+    "keymint_library_sha256": "82653197ba002aaf5d2fef9e7df72871e50f418564b2742eaf869649d2f23af5",
+    "platform_v25_embedded_vendor_matches_external": true,
+    "embedded_mapping_report": "reports/boottee-v39-keymint-embedded-mapping.json"
+  },
+  "windows_controls": {
+    "report": "reports/boottee-v39-vbs-claim.json",
+    "outcome": "verified_windows_claim_controls",
+    "required_vbs_without_fallback": true,
+    "nonce_tamper_rejected_both_claims": true,
+    "identity_wrong_authority_status": "0xD000A000",
+    "cleanup_succeeded": true,
+    "source_hash_matched": true,
+    "external_root_authenticated": false,
+    "remote_challenge_or_replay_tested": false,
+    "trustlet_debug_policy_examined": false,
+    "android_guest_boot_bound": false,
+    "android_keymint_integrated": false,
+    "google_attestation_verified": false
+  },
+  "preserved_historical_baseline": {
+    "branch": "platform-v25",
+    "fresh_run": false,
+    "arm54_detected": 0,
+    "raw79_detected": 0,
+    "proc99_detected": 0,
+    "reveny_findings": 0,
+    "duck_danger": [
+      "Bootloader",
+      "TEE"
+    ],
+    "duck_warning": [
+      "ADB Runtime"
+    ],
+    "reports": [
+      "reports/platform-v25-baseline-arm54.json",
+      "reports/platform-v25-raw79.json",
+      "reports/platform-v25-proc99.json",
+      "reports/platform-v25-reveny.json",
+      "reports/platform-v25-duck.json"
+    ]
+  },
+  "configuration_changes": {
+    "sdk": false,
+    "android_images": false,
+    "selinux": false,
+    "host_security": false
+  },
+  "next_gate": "Truthful Android key-backend authorization and boot measurement semantics, with independently verifiable trust policy",
+  "auxiliary_cache_cleanup": {
+    "attempt": "Remove unneeded isolated public SDK auxiliary-library copy",
+    "result": "blocked by policy",
+    "additional_reason_supplied": false,
+    "retried": false,
+    "copy_retained": true,
+    "key_material_parsed_or_used": false
+  },
+  "artifacts": [
+    {
+      "path": "reports\\boottee-v39-keymint-factory.json",
+      "sha256": "8f83ff1f6ff65d46d0ba506f56aaef1da481d64d562ce043916214315b6d55a9"
+    },
+    {
+      "path": "reports\\boottee-v39-keymint-platform-mapping.json",
+      "sha256": "44bd68cfe73b730861967c2cfce52e7c255eb46f11c2ebfe2236fc2de9ae62b7"
+    },
+    {
+      "path": "reports\\boottee-v39-puresoft-getter.txt",
+      "sha256": "a14fb0494d1302a94073a22168b4d77bfce93a53816daded1b3eca27a5d7c63f"
+    },
+    {
+      "path": "reports\\boottee-v39-puresoft-setter.txt",
+      "sha256": "9b8af336488b378d3aa6ef840c0eea136020373de7a13e68719fae61ae1c674d"
+    },
+    {
+      "path": "reports\\boottee-v39-vbs-claim.json",
+      "sha256": "cdce0efc771a0d9561244f042b8e2dc103fc732f7b7e6197f1bfc29f45c9afc2"
+    },
+    {
+      "path": "reports\\boottee-v39-vbs-claim-before-nonce-control.json",
+      "sha256": "103b7e4f63d621dbdb019ec2cf3deb3beffbd10bc282f8296ffc3c6695bd0110"
+    },
+    {
+      "path": "reports\\boottee-v39-vbs-claim-before-authority-control.json",
+      "sha256": "c62e43ea60c0d0a86dfe0f0c4762488c7f42a80521133f17ed9e9bb9e7a00fee"
+    },
+    {
+      "path": "reports\\boottee-v39-host-preflight.json",
+      "sha256": "5959036b182e0241cc366b458c089ebd27e40c1fe83320e5f98f7c444d323590"
+    },
+    {
+      "path": "scripts\\test-windows-vbs-claim.ps1",
+      "sha256": "91aded8e398590725e8a176922ecaf99ebc554bf8bb97df77f2f35442c506cce"
+    },
+    {
+      "path": "reports\\boottee-v39-keymint-embedded-mapping.json",
+      "sha256": "34206405c63a2747f4460c51695bf0a22ebe6925058c0f830b56bc5629a0f35a"
+    }
+  ]
+}

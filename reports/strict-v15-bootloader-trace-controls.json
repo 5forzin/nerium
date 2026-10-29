@@ -1,0 +1,21 @@
+{
+  "cases": [
+    {
+      "case": "original",
+      "passed": true,
+      "expected": "accepted"
+    },
+    {
+      "case": "changed_export",
+      "passed": true,
+      "expected": "rejected"
+    },
+    {
+      "case": "changed_root_fingerprint",
+      "passed": true,
+      "expected": "rejected"
+    }
+  ],
+  "passed": 3,
+  "failed": 0
+}

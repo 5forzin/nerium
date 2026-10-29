@@ -1,0 +1,29 @@
+{
+  "project": {
+    "project_id": "android-device-lab-bc008",
+    "state": "ACTIVE",
+    "resources": {
+      "hostingSite": "android-device-lab-bc008"
+    }
+  },
+  "databases": [
+    {
+      "name": null,
+      "database_url": null,
+      "type": null,
+      "state": null
+    }
+  ],
+  "android_apps": [
+    {
+      "app_id": null,
+      "package_name": null,
+      "state": null
+    }
+  ],
+  "authentication": {
+    "http_status": 404,
+    "status": "NOT_FOUND"
+  },
+  "quota_header_required": true
+}

@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "old_e_drive_snapshot_untouched": true,
+  "file": "C:\\Users\\antho\\AppData\\Local\\android-device-lab\\research-v42\\runtime-c\\avd\\device-lab-keymint-v42.avd\\snapshots\\default_boot\\ram.img",
+  "recorded_at": "2026-10-26T23:17:30.9225594+00:00",
+  "file_retained": true,
+  "sha256_before": "f34e7c01d88884f4a9778234b475146e3390899b904c375f526946c859f73fbd",
+  "sha256_after": "f34e7c01d88884f4a9778234b475146e3390899b904c375f526946c859f73fbd",
+  "content_unchanged": true,
+  "operation": "Lossless NTFS file compression of the stopped new clone cache"
+}
