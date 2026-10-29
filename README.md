@@ -99,8 +99,11 @@ The remaining tells are hardware-shaped: our CPU snapshot is the native bridge's
 
 The flow:
 
-1. Stream a physical device (Android Studio's Device Manager streaming, or `gcloud alpha firebase test android streaming create --model <id> --version 35`), which gives you an adb endpoint like `localhost:56785`.
+1. Stream a physical device (Android Studio's Device Manager streaming, or the Firebase device-streaming CLI), which gives you an adb endpoint like `localhost:56785`.
 2. `.\scripts\capture-hardware.ps1 -Serial localhost:56785 -Name physical-pixel9` — installs `hardwareprobe`, collects the app-visible hardware view (props, sensors, cameras, codecs, EGL strings, Widevine level, system features…) plus the shell-side view (`/proc/cpuinfo`, cpufreq topology, `/proc/bus/input/devices`, `dumpsys sensorservice`…), verifies device identity before and after, and writes one merged JSON.
+
+When the daily device-streaming quota is spent, the same app view comes out of a plain Firebase Test Lab instrumentation run on a physical device (separate free quota): `SnapshotRunner` streams the report through logcat in bounded chunks and `scripts/parse-hardware-logcat.py` rebuilds the JSON from the captured logcat file.
+
 3. Repeat on the emulator with the profile enabled, then `python .\scripts\compare-hardware-profile.py reports/physical-pixel9.json reports/emulator-enabled.json` — a field-by-field diff that is, effectively, the to-do list for the next version.
 
 ## Honest boundaries
