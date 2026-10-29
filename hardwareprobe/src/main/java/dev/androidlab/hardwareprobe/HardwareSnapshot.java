@@ -51,6 +51,16 @@ import java.util.UUID;
 final class HardwareSnapshot {
     private static final UUID WIDEVINE_UUID = new UUID(0xEDEF8BA979D64ACEL, 0xA3C827DCD51D21EDL);
 
+    /** Optional progress observer used by the instrumentation runner. */
+    interface Sink {
+        void section(String name, String compactJson);
+    }
+
+    static volatile Sink sink;
+
+    /** Wall-clock budget for a single section on remote hardware. */
+    private static final long SECTION_TIMEOUT_MILLIS = 20_000;
+
     JSONObject collect(Context context) throws Exception {
         JSONObject report = new JSONObject();
         report.put("schema_version", 1);
@@ -82,11 +92,29 @@ final class HardwareSnapshot {
     }
 
     private static void section(JSONObject report, String name, Section body) {
+        Object result;
+        java.util.concurrent.FutureTask<Object> task = new java.util.concurrent.FutureTask<>(() -> body.run());
+        Thread worker = new Thread(task, "section-" + name);
+        worker.setDaemon(true);
+        worker.start();
         try {
-            report.put(name, body.run());
-        } catch (Throwable error) {
+            result = task.get(SECTION_TIMEOUT_MILLIS, java.util.concurrent.TimeUnit.MILLISECONDS);
+        } catch (Throwable timeoutOrFailure) {
+            worker.interrupt();
             try {
-                report.put(name, new JSONObject().put("error", error.toString()));
+                result = new JSONObject().put("error", String.valueOf(timeoutOrFailure));
+            } catch (Exception nested) {
+                result = null;
+            }
+        }
+        try {
+            report.put(name, result);
+        } catch (Exception ignored) {
+        }
+        Sink observer = sink;
+        if (observer != null) {
+            try {
+                observer.section(name, String.valueOf(result));
             } catch (Exception ignored) {
             }
         }
