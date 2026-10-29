@@ -18,7 +18,7 @@ dependencyResolutionManagement {
 }
 
 rootProject.name = "nerium"
-include(":probe", ":module", ":rawprobe", ":procprobe", ":attestationprobe", ":integrityprobe", ":adbcontrol", ":boundaryprobe", ":relayworker", ":relayrequester")
+include(":probe", ":module", ":rawprobe", ":procprobe", ":attestationprobe", ":integrityprobe", ":adbcontrol", ":boundaryprobe", ":relayworker", ":relayrequester", ":hardwareprobe")
 include(":hostkeyprobe")
 include(":keymintcontrol")
 include(":cngattestationcontrol")

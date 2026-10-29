@@ -13,7 +13,7 @@ $previousAndroidHome = $env:ANDROID_HOME
 try {
     $env:JAVA_HOME = $JavaHome
     $env:ANDROID_HOME = $SdkRoot
-    & "$PSScriptRoot\..\gradlew.bat" -p "$PSScriptRoot\.." :probe:assembleDebug :module:assembleDebug :rawprobe:assembleDebug :procprobe:assembleDebug :attestationprobe:assembleDebug :probe:lintDebug :module:lintDebug :rawprobe:lintDebug :procprobe:lintDebug :attestationprobe:lintDebug --max-workers=2 --console=plain
+    & "$PSScriptRoot\..\gradlew.bat" -p "$PSScriptRoot\.." :probe:assembleDebug :module:assembleDebug :rawprobe:assembleDebug :procprobe:assembleDebug :attestationprobe:assembleDebug :hardwareprobe:assembleDebug :probe:lintDebug :module:lintDebug :rawprobe:lintDebug :procprobe:lintDebug :attestationprobe:lintDebug :hardwareprobe:lintDebug --max-workers=2 --console=plain
     if ($LASTEXITCODE -ne 0) { throw "Build failed with exit code $LASTEXITCODE." }
 } finally {
     $env:JAVA_HOME = $previousJavaHome
