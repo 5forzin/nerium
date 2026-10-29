@@ -17,7 +17,7 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "AndroidDeviceLab"
+rootProject.name = "nerium"
 include(":probe", ":module", ":rawprobe", ":procprobe", ":attestationprobe", ":integrityprobe", ":adbcontrol", ":boundaryprobe", ":relayworker", ":relayrequester")
 include(":hostkeyprobe")
 include(":keymintcontrol")
